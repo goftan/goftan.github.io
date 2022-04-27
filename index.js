@@ -11,5 +11,5 @@ function langclicked(l) {
    ls = l.trim().split('\t');
    isTestMode = $('#TestMode').is(':checked');
    if(!isTestMode) window.open("lang.html?lang="+ls[2]+"&topics="+ls[1]+"&file="+ls[0],"_self");
-   else window.open("test.html?lang="+ls[2]+"&topics="+ls[1]+"&file="+ls[0],"_self");
+   else window.open("quiz.html?lang="+ls[2]+"&topics="+ls[1]+"&file="+ls[0],"_self");
 }
