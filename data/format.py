@@ -11,4 +11,6 @@ with open("persian/persian_A1/persian_A1_sentences_0200_orig.csv") as f:
                 fwriter.writerow(row)
             else:
                 fwriter.writerow([row[0], 'سلام! خوبی؟', row[2],  'خوبی', row[4], row[5], row[6], row[7], row[8]])
+
+            cnt = cnt + 1
             # print(', '.join(row))
