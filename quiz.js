@@ -33,7 +33,7 @@ function load_corpus(lang) {
   topic = $("#SelectTopic option:selected").text();
   level = $("#SelectLevel option:selected").text();
   cnt = parseInt($("#SelectSentence option:selected").text());
-  if (this.lang == "Persian" || this.lang == "Arabic (MSA)") $("#sentence").css("direction", "rtl").css("font-family", "Amiri")
+  if (this.lang == "Persian" || this.lang == "Arabic (MSA)") $("#sentence").css("direction", "rtl").css("font-family", "Vazirmatn")
   else $("#sentence").css("direction", "ltr").css("font-family", "Old Standard TT");
 
   this.mydata = [];
