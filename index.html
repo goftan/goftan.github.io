@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Goftan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Old Standard TT' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Amiri' rel='stylesheet'>
+  <link href="test.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="row" style="margin-bottom:1%">
+      <center>
+        <div class="dropdown">
+        <div>
+          <label for='SelectTopic'>Topic:</label>
+          <select onchange="SelectTopic()" id="SelectTopic" style="margin: 1%;"></select>
+          <label for='SelectLevel'>Level:</label>
+          <select onchange="SelectLevel()" id="SelectLevel" style="margin: 1%;"></select>
+          <label for='SelectSentence'>Sentence:</label>
+          <select onchange="SelectSentence()" id="SelectSentence" style="margin: 1%;"></select>
+          <!-- <div align=right> -->
+            <!-- <div class="checkbox"> -->
+            <!-- <label><input type="checkbox" value="" id="TestMode">Test Mode</label> -->
+          <!-- </div> -->
+          <!-- <i class='fas fa-info-circle popuptext' style='font-size:24px' id="mypopup" onclick="info()"></i> -->
+        </div>
+      </div>
+  </div>
+      </center>
+   </div>
+   <div class="row" style="margin: 1%">
+     <center>
+       <button type="button" name="previous" class="btn btn-success" onclick="previousSentence()">PREV</button>
+       <button type="button" name="hint" class="btn btn-success" onclick="hint()">HINT</button>
+       <!-- <button type="button" name="stat" class="btn btn-success" onclick="stat()">STAT</button> -->
+       <button type="button" name="next" class="btn btn-success" onclick="nextSentence()">NEXT</button>
+     </center>
+   </div>
+   <div class="row">
+    <div class="col-sm-12">
+      <p align="center" id="sentence">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+    </div>
+    <div align="center">@ goftan.github.io
+    <div class="popup" onclick="info()">
+      <i class='fas fa-info-circle' style='font-size:24px'></i>
+        <span class="popuptext" id="myPopup">
+          Keyboard shortcuts:
+          <ol>
+            <li>Ctrl + Right Arrow: next sentence</li>
+            <li>Ctrl + Left Arrow: previous sentence</li>
+            <li>Ctrl + Up Arrow: next hint</li>
+            <!-- <li>Right arrow: next sentence</li> -->
+          </ol>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
