@@ -21264,17 +21264,6 @@ var WordsQuestions =
     "type": "translate_en_fa"
   },
   {
-    "question": "بیضاء",
-    "choices": [
-      "relative",
-      "philosophy",
-      "white",
-      "law"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
     "question": "پریرو",
     "choices": [
       "state",

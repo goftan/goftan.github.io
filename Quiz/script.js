@@ -53,6 +53,8 @@ document.querySelector(".view-results").style.display="unset";
 
 
 document.querySelector(".submit-answer").addEventListener("click",function(){
+    document.querySelector(".next-question").style.display=null;
+
     document.querySelectorAll('input[name="options"]').forEach(function(e){
         if(e.value === window[lang][countQues].choices[window[lang][countQues].answer]) {
             e.parentNode.style.color = 'green';
@@ -85,10 +87,10 @@ document.querySelector(".submit-answer").addEventListener("click",function(){
 });
 
 document.querySelector(".next-question").addEventListener("click",function(){
+    document.querySelector(".next-question").style.display="none";
     document.querySelectorAll('input[name="options"]').forEach(function(e){
-        // if(e.value === window[lang][countQues].choices[window[lang][countQues].answer]) {
             e.parentNode.style.color = 'black';
-        // }
+        
     });
 
 document.getElementById("ques-left").textContent="Question : "+(countQues+1)+"/"+window[lang].length;
