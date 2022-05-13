@@ -1,6 +1,9 @@
-//function myfunc(){
-//    alert(document.getElementById("language").value);
-//}
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
 
 var countQues=0;
 var lang;
@@ -20,6 +23,9 @@ document.querySelector(".final-result").style.display="none";
 document.querySelector(".choose-lang").addEventListener("click",function(){
 
     lang=document.getElementById("language").value+"Questions";
+
+    shuffleArray(window[lang]);
+
     document.getElementById("ques-left").textContent="Question : "+(countQues+1)+"/"+window[lang].length;
 
 //    alert(window[lang].length);
@@ -27,10 +33,10 @@ document.querySelector(".choose-lang").addEventListener("click",function(){
     document.querySelector(".quiz").style.display="block";
     
     if(window[lang][countQues].type == "antonym") {
-        document.querySelector(".question").innerHTML= "Antonym of <br/>" +
+        document.querySelector(".question").innerHTML= "<h2>Antonym of<h2> <br/>" +
         "<h1>"+window[lang][countQues].question+"</h1>";
     } else {
-        document.querySelector(".question").innerHTML= "Translation of <br/>" +
+        document.querySelector(".question").innerHTML= "<h2>Translation of</h2> <br/>" +
         "<h1>"+window[lang][countQues].question+"</h1>";
     }
      for (i=0;i<=3;i++){                     
@@ -74,10 +80,10 @@ document.querySelector(".submit-answer").addEventListener("click",function(){
     document.getElementById("ques-left").textContent="Question : "+(countQues+1)+"/"+window[lang].length;
 
     if(window[lang][countQues].type == "antonym") {
-        document.querySelector(".question").innerHTML= "Antonym of <br/>" +
+        document.querySelector(".question").innerHTML= "<h2>Antonym of</h2> <br/>" +
         "<h1>"+window[lang][countQues].question+"</h1>";
     } else {
-        document.querySelector(".question").innerHTML= "Translation of <br/>" +
+        document.querySelector(".question").innerHTML= "<h2>Translation of</h2> <br/>" +
         "<h1>"+window[lang][countQues].question+"</h1>";
     }
 
