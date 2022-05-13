@@ -172,6 +172,24 @@ nav li{
     padding: 2%;
 }
 
+.next-question{
+    background-color:white;
+    border: 2px solid #FF9933;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: monospace;
+    transition: background-color 0.3s,border 0.2s, color 0.2s;
+}
+
+.next-question:hover{
+    
+    background-color: #FF9933;
+    padding: 16px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
 .submit-answer{
     background-color:white;
     border: 2px solid #FF9933;

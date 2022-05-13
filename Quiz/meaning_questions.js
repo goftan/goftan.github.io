@@ -15456,28 +15456,6 @@ var WordsQuestions =
     "type": "translate_fa_en"
   },
   {
-    "question": "فره",
-    "choices": [
-      "kind",
-      "winning",
-      "good",
-      "past"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ضحک",
-    "choices": [
-      "laugh",
-      "mason",
-      "opposite",
-      "late"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
     "question": "novel",
     "choices": [
       "تعریف",
@@ -19754,17 +19732,6 @@ var WordsQuestions =
       "May"
     ],
     "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فره",
-    "choices": [
-      "good",
-      "report",
-      "stage",
-      "laugh"
-    ],
-    "answer": 0,
     "type": "translate_en_fa"
   },
   {

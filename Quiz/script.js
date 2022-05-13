@@ -53,15 +53,20 @@ document.querySelector(".view-results").style.display="unset";
 
 
 document.querySelector(".submit-answer").addEventListener("click",function(){
+    document.querySelectorAll('input[name="options"]').forEach(function(e){
+        if(e.value === window[lang][countQues].choices[window[lang][countQues].answer]) {
+            e.parentNode.style.color = 'green';
+        }
+    });
     if(document.querySelector('input[name="options"]:checked').value===window[lang][countQues].choices[window[lang][countQues].answer]){
-           
+        
         score+=10;
         document.getElementById("score").textContent="Score : "+score;
         correct++;
         // document.getElementById("ques-view").innerHTML+="<div class='ques-circle correct'>"+(countQues+1)+"</div>";
            
     }else{
-    
+        document.querySelector('input[name="options"]:checked').parentNode.style.color = 'red';
         score-=5;
         document.getElementById("score").textContent="Score : "+score;
         incorrect++;
@@ -76,8 +81,17 @@ document.querySelector(".submit-answer").addEventListener("click",function(){
         // document.querySelector(".view-results").style.display="unset";
 
     }
-    
-    document.getElementById("ques-left").textContent="Question : "+(countQues+1)+"/"+window[lang].length;
+
+});
+
+document.querySelector(".next-question").addEventListener("click",function(){
+    document.querySelectorAll('input[name="options"]').forEach(function(e){
+        // if(e.value === window[lang][countQues].choices[window[lang][countQues].answer]) {
+            e.parentNode.style.color = 'black';
+        // }
+    });
+
+document.getElementById("ques-left").textContent="Question : "+(countQues+1)+"/"+window[lang].length;
 
     if(window[lang][countQues].type == "antonym") {
         document.querySelector(".question").innerHTML= "<h2>Antonym of</h2> <br/>" +
@@ -91,9 +105,8 @@ document.querySelector(".submit-answer").addEventListener("click",function(){
     for (i=0;i<=3;i++){                     
         document.getElementById("opt"+i).value=window[lang][countQues].choices[i];
         document.getElementById("lb"+i).innerHTML=window[lang][countQues].choices[i];
-        
+    
     };/*For loop Closed*/
-
 });
 
 document.querySelector(".view-results").addEventListener("click",function(){
