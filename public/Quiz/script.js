@@ -1,3 +1,19 @@
+// firebase.auth().onAuthStateChanged(function(user) {
+//   if (user) {
+//     // User is signed in.
+//   } else {
+//     // No user is signed in.
+//   }
+// });
+
+var questionSentence = {
+    "antonym" : "Antonym of",
+    "translate_en_fa": "Translation of",
+    "translate_fa_en": "Translation of",
+    "synonym": "Synonym of",
+    "sentence": "Fill in the blank"
+}
+
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -31,15 +47,11 @@ document.querySelector(".choose-lang").addEventListener("click",function(){
 //    alert(window[lang].length);
     //window["anything"] will convert "anything" string to object because window is also an object
     document.querySelector(".quiz").style.display="block";
-    
-    if(window[lang][countQues].type == "antonym") {
-        document.querySelector(".question").innerHTML= "<h2>Antonym of<h2> <br/>" +
+
+        document.querySelector(".question").innerHTML= "<h2>" + questionSentence[window[lang][countQues].type] + "<h2> <br/>" +
         "<h1>"+window[lang][countQues].question+"</h1>";
-    } else {
-        document.querySelector(".question").innerHTML= "<h2>Translation of</h2> <br/>" +
-        "<h1>"+window[lang][countQues].question+"</h1>";
-    }
-     for (i=0;i<=3;i++){                     
+
+     for (var i=0;i<=3;i++){                     
         document.getElementById("opt"+i).value=window[lang][countQues].choices[i];
         document.getElementById("lb"+i).innerHTML=window[lang][countQues].choices[i];
         
@@ -95,15 +107,9 @@ document.querySelector(".next-question").addEventListener("click",function(){
 
 document.getElementById("ques-left").textContent="Question : "+(countQues+1)+"/"+window[lang].length;
 
-    if(window[lang][countQues].type == "antonym") {
-        document.querySelector(".question").innerHTML= "<h2>Antonym of</h2> <br/>" +
-        "<h1>"+window[lang][countQues].question+"</h1>";
-    } else {
-        document.querySelector(".question").innerHTML= "<h2>Translation of</h2> <br/>" +
-        "<h1>"+window[lang][countQues].question+"</h1>";
-    }
-
-    // document.querySelector(".question").innerHTML="<h1>"+window[lang][countQues].question+"</h1>";
+    document.querySelector(".question").innerHTML= "<h2>" + questionSentence[window[lang][countQues].type] + "<h2> <br/>" +
+    "<h1 direction=rtl>"+window[lang][countQues].question+"</h1>";
+    
     for (i=0;i<=3;i++){                     
         document.getElementById("opt"+i).value=window[lang][countQues].choices[i];
         document.getElementById("lb"+i).innerHTML=window[lang][countQues].choices[i];

@@ -1,22199 +1,10324 @@
 var WordsQuestions =
 [
   {
-    "question": "ship",
+    "question": "برای یک ساعت دو ساعت و سه ساعت قبل از ------ هفته‌ی آینده اعلان بگذار",
     "choices": [
-      "هر",
-      "نبود",
-      "شب",
-      "کشتی"
+      "روزنامه",
+      "پهلوی",
+      "فاینال انگلیسی",
+      "بودند"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "فاینال انگلیسی",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "خواب",
+    "question": "وضع هوای ------ کرج را به من نشان بده",
     "choices": [
-      "بیدار",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
+      "آبی",
+      "نمایش",
+      "شناخته",
+      "یک هفته"
     ],
-    "answer": 0,
-    "type": "antonym"
+    "answer": "یک هفته",
+    "type": "sentence",
+    "intent": "weather_query"
   },
   {
-    "question": "آنگه",
+    "question": "نژاد",
     "choices": [
-      "medical profession",
-      "northern",
-      "then",
-      "beneath"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "به روی",
-    "choices": [
-      "until",
-      "voice",
-      "reply",
-      "on"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "creature",
-    "choices": [
-      "مدرسه",
-      "نه",
-      "موجود",
-      "بسیار"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بیدار",
-    "choices": [
-      "خواب",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "حاوی بودن",
-    "choices": [
-      "bad",
-      "division",
-      "include",
-      "mold"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "publishing",
-    "choices": [
-      "مطلق",
-      "انتخاب",
-      "چاپ",
-      "روی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شکست",
-    "choices": [
-      "young",
-      "discovery",
-      "fracture",
-      "moon"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دادن",
-    "choices": [
-      "group",
-      "start",
-      "give",
-      "opposite"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حکم",
-    "choices": [
-      "published",
-      "legacy",
-      "surrounding",
-      "verdict"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آزاد",
-    "choices": [
-      "زندانی",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "دیروقت",
-    "choices": [
-      "text",
-      "late",
-      "inhabitant",
-      "old"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "village",
-    "choices": [
-      "پر",
-      "متن",
-      "روستا",
-      "تیم"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مشفق",
-    "choices": [
-      "directorship",
-      "ugly",
-      "until",
-      "kind"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "غیرقانونی",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "قانونی"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "کره",
-    "choices": [
-      "one",
-      "Korea",
-      "kind",
-      "first"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "library",
-    "choices": [
-      "هدایت",
-      "دینی",
-      "کتابخانه",
-      "بازیکنان"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بر طبق",
-    "choices": [
-      "situation",
-      "similar to",
-      "rarely",
-      "start"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "they",
-    "choices": [
-      "خط",
-      "رشته",
-      "لیگ",
-      "آنان"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "finished",
-    "choices": [
-      "تمام",
-      "نزدیک",
-      "ویکی‌پدیای",
-      "کامپیوتر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "mountain",
-    "choices": [
-      "تئاتر",
-      "هشت",
-      "مشاهده",
-      "کوه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "راستین",
-    "choices": [
-      "real",
-      "limits",
-      "sour",
-      "idle"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بدایت",
-    "choices": [
-      "beginning",
-      "northern",
-      "old",
-      "newspaper"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "philosophy",
-    "choices": [
-      "فلسفه",
-      "لازم",
-      "حل",
-      "کاهش"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "help",
-    "choices": [
-      "کمک",
-      "فرمان",
-      "موزه",
-      "نیاز"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "آسیا",
-    "choices": [
-      "story",
-      "cold",
-      "Asia",
-      "kilometer"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "war",
-    "choices": [
-      "ازدواج",
-      "دره",
-      "جنگ",
-      "نزد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "result",
-    "choices": [
-      "ایستگاه",
-      "حاصل",
-      "مرداد",
-      "عدم"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مر",
-    "choices": [
-      "body",
-      "foundation",
-      "bitter",
-      "exclude"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مشکل",
-    "choices": [
-      "philosophy",
-      "hard",
-      "court",
-      "bring up"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "transportation",
-    "choices": [
-      "دیگر",
-      "نقل",
-      "ص",
-      "پسر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "زود",
-    "choices": [
-      "July",
-      "reply",
-      "early",
-      "organ"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "present",
-    "choices": [
-      "تحصیلات",
-      "روسیه",
-      "آموزشی",
-      "کنونی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "agreement",
-    "choices": [
-      "حتی",
-      "قرار",
-      "کلیسای",
-      "مدتی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "she",
-    "choices": [
-      "گذشته",
-      "انواع",
-      "رسمی",
-      "وی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سرای",
-    "choices": [
-      "beginning",
-      "system",
-      "world",
-      "Esmail"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "fight",
-    "choices": [
-      "دنیا",
-      "می‌کردند",
-      "مبارزه",
-      "تصمیم"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "توقف",
-    "choices": [
-      "different",
-      "strong",
-      "radio",
-      "stop"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قانونی",
-    "choices": [
-      "ابهام‌زدایی",
-      "غیرقانونی",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "اشعار",
-    "choices": [
-      "Omar",
-      "most",
-      "way",
-      "stating"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "poetry",
-    "choices": [
-      "ایالات",
-      "داشتند",
-      "مطالعات",
-      "شعر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "New York",
-    "choices": [
-      "یعنی",
-      "ریاست",
-      "نیویورک",
-      "قرار"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قمری",
-    "choices": [
-      "Shahrivar",
-      "outside of",
-      "lunar",
-      "knowledge"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "time",
-    "choices": [
-      "موسسه",
-      "مثال",
-      "وقت",
-      "قمری"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "April",
-    "choices": [
-      "دسترسی",
-      "آوریل",
-      "باشند",
-      "نشده"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "target",
-    "choices": [
-      "شامل",
-      "ریاضی",
-      "هدف",
-      "هایی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "واثق",
-    "choices": [
-      "last",
-      "beneath",
-      "Omar",
-      "certain"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رودخانه ای",
-    "choices": [
-      "river",
-      "environment",
-      "individuals",
-      "five"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نازیبا",
-    "choices": [
-      "on",
-      "poetry",
-      "ugly",
-      "on"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آنگه",
-    "choices": [
-      "union",
-      "then",
-      "rarely",
-      "yet"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "last",
-    "choices": [
-      "همسر",
-      "ششم",
-      "آخرین",
-      "نوعی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "something",
-    "choices": [
-      "پاریس",
-      "چیزی",
-      "اصفهان",
-      "درآمد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کوشارو",
-    "choices": [
-      "life",
-      "passing",
-      "industrious",
-      "cold"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "A.D.",
-    "choices": [
-      "میلادی",
-      "مشخص",
-      "می‌توانند",
-      "خبر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بد",
-    "choices": [
-      "bad",
-      "sad",
-      "very",
-      "row"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موتلف",
-    "choices": [
-      "elections",
-      "lawful",
-      "united",
-      "situation"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "وزارت",
-    "choices": [
-      "bitter",
-      "dry",
-      "united",
-      "ministry"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بيرون",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "داخل"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "قوی",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "ضعیف"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "ایستگاه",
-    "choices": [
-      "station",
-      "dry",
-      "philosophy",
-      "idle"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "solar year",
-    "choices": [
-      "سیاسی",
-      "عباس",
-      "می‌تواند",
-      "شمسی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کوچک",
-    "choices": [
-      "small",
-      "young",
-      "Europe",
-      "year"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حد",
-    "choices": [
-      "foundation",
-      "made",
-      "lawful",
-      "limit"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "rewards",
-    "choices": [
-      "سازی",
-      "امکان",
-      "مطلق",
-      "جوایز"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "یمین",
-    "choices": [
-      "territory",
-      "friend",
-      "right",
-      "Azar"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "frontier",
-    "choices": [
-      "پوشش",
-      "مرز",
-      "فهرست",
-      "گفته"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "length",
-    "choices": [
-      "طول",
-      "اين",
-      "نموده",
-      "نیست"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برهان آوردن",
-    "choices": [
-      "what",
-      "reason",
-      "daytime",
-      "treatment"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Britain",
-    "choices": [
-      "خدمات",
-      "زیر",
-      "نیاز",
-      "بریتانیا"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "imported",
-    "choices": [
-      "تاکنون",
-      "ورودی",
-      "یا",
-      "پروژه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "increase",
-    "choices": [
-      "اضافه",
-      "حالت",
-      "زندگینامه",
-      "زمان"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "organ",
-    "choices": [
-      "عضو",
-      "حالت",
-      "چیزی",
-      "دقیقه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اتو کردن",
-    "choices": [
-      "last",
-      "Mr.",
-      "off",
-      "iron"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ازدواج",
-    "choices": [
-      "period",
-      "product",
-      "target",
-      "marriage"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سترگ",
-    "choices": [
-      "Asia",
-      "large",
-      "far",
-      "certain"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "superior",
-    "choices": [
-      "گیری",
-      "وب",
-      "فرمان",
-      "ارشد"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "reason",
-    "choices": [
-      "دلیل",
-      "بریتانیا",
-      "خانواده",
-      "دومین"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "واژه",
-    "choices": [
-      "word",
-      "southern",
-      "laugh",
-      "Esfand"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زود",
-    "choices": [
-      "اعلام",
-      "دیر",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "رخ",
-    "choices": [
-      "rank",
-      "agreement",
-      "rukh",
-      "various"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "professor",
-    "choices": [
-      "تاکنون",
-      "یونانی",
-      "کنترل",
-      "استاد"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "title",
-    "choices": [
-      "ریاست",
-      "عنوان",
-      "شوروی",
-      "خدا"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "year",
-    "choices": [
-      "پاریس",
-      "متولد",
-      "پیشنهاد",
-      "سال"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بیکار",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "مشغول",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "تعبیر",
-    "choices": [
-      "interpretation",
-      "area",
-      "including",
-      "steady"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نامطمئن",
-    "choices": [
-      "مطمئن",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "مهندسی",
-    "choices": [
-      "lawful",
-      "engineering",
-      "closed",
-      "Hey"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تعریف",
-    "choices": [
-      "easy",
-      "definition",
-      "governmental",
-      "near"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "TRUE",
-    "choices": [
-      "شدید",
-      "راست",
-      "دسامبر",
-      "را"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "piece",
-    "choices": [
-      "پانویس",
-      "عدد",
-      "اختلاف",
-      "عملیات"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اکثر اوقات",
-    "choices": [
-      "large",
-      "summer",
-      "often",
-      "method"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سترگ",
-    "choices": [
-      "north",
-      "willing",
-      "large",
-      "message"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "باز گشتن",
-    "choices": [
-      "return",
-      "then",
-      "ceremony",
-      "profit"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "system",
-    "choices": [
-      "مهم",
-      "اختیار",
-      "می‌کند",
-      "نظام"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "someone",
-    "choices": [
-      "تشکیل",
-      "دیگری",
-      "کسی",
-      "ناحیه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "related",
-    "choices": [
-      "کتاب",
-      "انرژی",
-      "وابسته",
-      "تو"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دانش",
-    "choices": [
-      "same",
-      "knowledge",
-      "start",
-      "thirty"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فوتبال",
-    "choices": [
-      "guidance",
-      "sour",
-      "NASA",
-      "soccer"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زشت",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "زیبا",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "خدمتگاری",
-    "choices": [
-      "service",
-      "short",
-      "January",
-      "gloomy"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جنوب",
-    "choices": [
-      "state",
-      "iron",
-      "discovery",
-      "south"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بنت",
-    "choices": [
-      "girl",
-      "scattering",
-      "beginning",
-      "careless"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سلطنتی",
-    "choices": [
-      "sign",
-      "imperial",
-      "Asia",
-      "announcement"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "یعنی",
-    "choices": [
-      "territory",
-      "united",
-      "named",
-      "that is"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "California",
-    "choices": [
-      "گل",
-      "منابع",
-      "خون",
-      "کالیفرنیا"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "توافقنامه",
-    "choices": [
-      "agreement",
-      "area",
-      "age of",
-      "personality"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مانند",
-    "choices": [
-      "such as",
-      "then",
-      "friend",
-      "crooked"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "support",
-    "choices": [
-      "سیاست",
-      "حمایت",
-      "دوم",
-      "وزیر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سپاه",
-    "choices": [
-      "uncertain",
-      "seven",
-      "decision",
-      "corps"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بانک",
-    "choices": [
-      "view",
-      "bank",
-      "nations",
-      "valley"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تابستانی",
-    "choices": [
-      "term",
-      "selection",
-      "summer",
-      "strong"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "داخل",
-    "choices": [
-      "داخل",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "عزیمت کردن",
-    "choices": [
-      "in",
-      "various",
-      "piece",
-      "start"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "July",
-    "choices": [
-      "آسیا",
-      "ژوئیه",
-      "عرب",
-      "شده‌اند"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "انقطاع یافتن",
-    "choices": [
-      "end",
-      "such a",
-      "last",
-      "immigration"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کرمان",
-    "choices": [
-      "early",
-      "late",
-      "Kerman",
-      "easy"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "طرح ریزی",
-    "choices": [
-      "ton",
-      "designing",
-      "include",
-      "scattering"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "احتیاط",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "بااحتیاط",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "effective",
-    "choices": [
-      "دوست",
-      "مهم",
-      "کاری",
-      "جام"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برزگری",
-    "choices": [
-      "agriculture",
-      "girl",
-      "real",
-      "steady"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ضعیف",
-    "choices": [
-      "سایت",
-      "قوی",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "مشغول",
-    "choices": [
-      "receipt",
-      "whenever",
-      "busy",
-      "in"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تلخ",
-    "choices": [
-      "شیرین",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "سلطان",
-    "choices": [
-      "king",
-      "between",
-      "hand",
-      "age"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "sexual",
-    "choices": [
-      "شهرستان",
-      "جنسی",
-      "دفتر",
-      "صدای"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قشنگ",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "زشت"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "style",
-    "choices": [
-      "پرواز",
-      "مثال",
-      "سبک",
-      "فرهنگی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بر روی",
-    "choices": [
-      "above",
-      "February",
-      "river",
-      "top"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "types",
-    "choices": [
-      "انواع",
-      "جزیره",
-      "شرایط",
-      "می‌گوید"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پسر بچه",
-    "choices": [
-      "time",
-      "year old",
-      "boy",
-      "immigration"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شمرده",
-    "choices": [
-      "nations",
-      "new",
-      "counted",
-      "nowadays"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نازیبا",
-    "choices": [
-      "ugly",
-      "ugly",
-      "stroke",
-      "contrary"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اوت",
-    "choices": [
-      "August",
-      "wet",
-      "scattering",
-      "bottom"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ناقص بودن",
-    "choices": [
-      "lack",
-      "beautiful",
-      "best",
-      "start"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "published",
-    "choices": [
-      "سر",
-      "منتشر",
-      "نوع",
-      "سبب"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "word",
-    "choices": [
-      "بیت",
-      "می‌توان",
-      "واژه",
-      "متال"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "rule",
-    "choices": [
-      "حکومت",
-      "ترتیب",
-      "می‌رسد",
-      "زیبا"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "club",
-    "choices": [
-      "فرانسوی",
-      "شهر",
-      "دریاچه",
-      "باشگاه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "میراث",
-    "choices": [
-      "Turkish",
-      "legacy",
-      "go",
-      "happy"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "احتمال",
-    "choices": [
-      "covering",
-      "inside",
-      "side",
-      "probability"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بالا",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "پایین",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "resumption",
-    "choices": [
-      "تا",
-      "امور",
-      "ادامه",
-      "تقویم"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نوشین",
-    "choices": [
-      "in",
-      "government",
-      "foreigner",
-      "sweet"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موسسه",
-    "choices": [
-      "institution",
-      "subject",
-      "known",
-      "special"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آقای",
-    "choices": [
-      "Mr.",
-      "hospital",
-      "turkish",
-      "April"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تابستانی",
-    "choices": [
-      "winter",
-      "talented",
-      "Turkey",
-      "summer"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مربوط",
-    "choices": [
-      "relevant",
-      "economic",
-      "moon",
-      "flight"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سهی",
-    "choices": [
-      "spirit",
-      "relative",
-      "straight",
-      "iron"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گرفته",
-    "choices": [
-      "hospital",
-      "gloomy",
-      "old",
-      "entered"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "درگذشت",
-    "choices": [
-      "unit",
-      "respect",
-      "demise",
-      "town"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دستورالعمل",
-    "choices": [
-      "prescription",
-      "easy",
-      "post",
-      "collaboration"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Germany",
-    "choices": [
-      "آلمان",
-      "خط",
-      "ص",
-      "پاریس"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "their",
-    "choices": [
-      "مساحت",
-      "خود",
-      "ویکی‌پدیای",
-      "تحصیل"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "park",
-    "choices": [
-      "پارک",
-      "هفتم",
-      "آسیا",
-      "تأثیر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "numbers",
-    "choices": [
-      "نیاز",
-      "شده‌اند",
-      "خدمت",
-      "اعداد"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حجر",
-    "choices": [
-      "stone",
-      "France",
-      "creation",
-      "rank"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مشغول",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "بیکار",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "شمسی",
-    "choices": [
-      "Seine",
-      "solar year",
-      "sultan",
-      "worst"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مفهوم",
-    "choices": [
-      "far",
-      "careful",
-      "winter",
-      "uderstood"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "only",
-    "choices": [
-      "نیست",
-      "تنها",
-      "پارک",
-      "اگر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "training",
-    "choices": [
-      "منظور",
-      "دید",
-      "ارشد",
-      "پرورش"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "رفتن",
-    "choices": [
-      "ماندن",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "زیردست",
-    "choices": [
-      "subordinate",
-      "necessary",
-      "young",
-      "too"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "style",
-    "choices": [
-      "صد",
-      "میراث",
-      "عبارت",
-      "محسن"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "محروم",
-    "choices": [
-      "شامل",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "خورشیدی",
-    "choices": [
-      "solar",
-      "nowadays",
-      "early",
-      "go"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جهل",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "علم"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "تیار",
-    "choices": [
-      "machine",
-      "winning",
-      "resistance",
-      "ready"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "one",
-    "choices": [
-      "مطالعه",
-      "شیمیایی",
-      "مواد",
-      "یک"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "family",
-    "choices": [
-      "داده",
-      "سالهای",
-      "خانواده",
-      "خمینی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مشاهیر",
-    "choices": [
-      "above",
-      "management",
-      "exclude",
-      "famous people"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "غیرقانونی",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "قانونی"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "letter",
-    "choices": [
-      "تحصیلات",
-      "نامه",
-      "داخلی",
-      "شهریور"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "trust",
-    "choices": [
-      "اینترنت",
-      "بدون",
-      "رود",
-      "عهده"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "تغییر",
-    "choices": [
-      "seizure",
-      "individuals",
-      "outside of",
-      "variation"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حرز",
-    "choices": [
-      "Shahrivar",
-      "one another",
-      "mother",
-      "protection"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "industries",
-    "choices": [
-      "کمونیست",
-      "خانواده",
-      "صنایع",
-      "جمعیت"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "معوج",
-    "choices": [
-      "system",
-      "crooked",
-      "matter",
-      "late"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "immigration",
-    "choices": [
-      "مهاجرت",
-      "خط",
-      "رویدادها",
-      "انگلیسی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دولت سرا",
-    "choices": [
-      "palace",
-      "imprison",
-      "diary",
-      "rank"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "present",
-    "choices": [
-      "پر",
-      "حالی",
-      "خاطر",
-      "آلمانی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "story",
-    "choices": [
-      "جریان",
-      "مانند",
-      "هدایت",
-      "دلیل"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "صنفی",
-    "choices": [
-      "careful",
-      "specially for",
-      "summer",
-      "union"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بدانوسیله",
-    "choices": [
-      "thereafter",
-      "ugly",
-      "ancient.",
-      "give"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "decade",
-    "choices": [
-      "کشف",
-      "قلعه",
-      "بندی",
-      "دهه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نقاط",
-    "choices": [
-      "spots",
-      "space",
-      "born",
-      "cause"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بوم",
-    "choices": [
-      "science",
-      "country",
-      "designing",
-      "certain"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جوار",
-    "choices": [
-      "Germanic",
-      "cry",
-      "proximity",
-      "park"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "physics",
-    "choices": [
-      "نظام",
-      "فیزیک",
-      "مکان",
-      "معاصر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "همانند",
-    "choices": [
-      "ignorance",
-      "like",
-      "seyyed",
-      "bad"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "راست",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "چب",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "پریرو",
-    "choices": [
-      "service",
-      "person",
-      "beautiful",
-      "thrust"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "stem",
-    "choices": [
-      "طول",
-      "ریشه",
-      "حقوق",
-      "خوانندگان"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قبل ازاینکه",
-    "choices": [
-      "straight",
-      "before",
-      "approval",
-      "May"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عطف به",
-    "choices": [
-      "therefore",
-      "lawful",
-      "new",
-      "regarding"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "petroleum",
-    "choices": [
-      "امنیت",
-      "مسجد",
-      "خراسان",
-      "نفت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "house",
-    "choices": [
-      "هایی",
-      "خانه",
-      "اختلاف",
-      "تاریخ"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "availability",
-    "choices": [
-      "دسترسی",
-      "وی",
-      "نزدیکی",
-      "باب"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جوان",
-    "choices": [
-      "پیر",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "ادهم",
-    "choices": [
-      "fight",
-      "black",
+      "race",
       "decade",
-      "wet"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سازی",
-    "choices": [
-      "instrumental",
-      "last",
-      "area",
-      "scarcity"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پیر",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "جوان",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "مهمره",
-    "choices": [
-      "red",
-      "Africa",
-      "expensive",
-      "crooked"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دور",
-    "choices": [
-      "far",
-      "against",
-      "old",
-      "winter"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Sinai Mountain",
-    "choices": [
-      "موضوع",
-      "مناسب",
-      "طور",
-      "مهر"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "علامت",
-    "choices": [
-      "standard",
-      "out",
-      "tongue",
-      "sea"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خنده",
-    "choices": [
-      "ابهام‌زدایی",
-      "گریه",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "نیرومند",
-    "choices": [
-      "cold",
-      "poetry",
-      "king",
-      "strong"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "واثق",
-    "choices": [
-      "your",
-      "typical",
-      "Internet",
-      "certain"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دختر",
-    "choices": [
-      "پسر",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "Kurdistan",
-    "choices": [
-      "ج",
-      "کردستان",
-      "بلند",
-      "بنام"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "worthiness",
-    "choices": [
-      "اعضای",
-      "ارزش",
-      "آقای",
-      "تصویب"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "relation",
-    "choices": [
-      "رابطه",
-      "گروه‌های",
-      "ش",
-      "آمریکایی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حرارتسنج",
-    "choices": [
-      "spirit",
-      "table",
-      "thermometer",
-      "soil"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سخت",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "آسان"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "سابق",
-    "choices": [
-      "lazy",
-      "side",
-      "former",
-      "monetary"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "داستان گفتن",
-    "choices": [
-      "death",
-      "night",
-      "bring up",
-      "story"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "music",
-    "choices": [
-      "مناسب",
-      "ثبت",
-      "گروهی",
-      "موسیقی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حرز",
-    "choices": [
-      "protection",
-      "structure",
-      "last",
-      "polishing"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ترقی کردن",
-    "choices": [
       "television",
-      "increase",
-      "but also",
-      "definition"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "handle",
-    "choices": [
-      "دسته",
-      "خصوصی",
-      "اسکار",
-      "کلی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "منته",
-    "choices": [
-      "old",
-      "out",
-      "finally",
-      "movement"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دشمنی کردن",
-    "choices": [
-      "end",
-      "war",
-      "but also",
-      "soccer"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "guitar",
-    "choices": [
-      "گیتار",
-      "مهاجرت",
-      "ق",
-      "آلمانی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بالا",
-    "choices": [
-      "اعلام",
-      "پایین",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "four",
-    "choices": [
-      "فرد",
-      "تولد",
-      "پزشکی",
-      "چهار"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "neigborhood",
-    "choices": [
-      "دانشکده",
-      "مقاومت",
-      "سبز",
-      "محله"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بسته",
-    "choices": [
-      "closed",
-      "Hey",
-      "royal",
-      "loaded"
+      "general"
     ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "شهید",
+    "question": "الکسا ------ را روشن کن",
     "choices": [
-      "team",
-      "Arabic",
-      "martyr",
-      "bank"
+      "مراکز",
+      "تقریباً",
+      "رادیو ورزش",
+      "کرمان"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "رادیو ورزش",
+    "type": "sentence",
+    "intent": "play_radio"
   },
   {
-    "question": "recognition",
+    "question": "من یک بلیط برای ------ فردا به تهران می خواهم",
     "choices": [
-      "می‌شد",
-      "باشگاه",
-      "تشخیص",
-      "حتی"
+      "قطار",
+      "مطالعه",
+      "چه",
+      "اشاره"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
   },
   {
-    "question": "until",
+    "question": "من باید بدانم ------ در رشت را از کجا بگیرم",
     "choices": [
-      "تا",
-      "حق",
-      "شبه",
-      "اختلاف"
+      "دادگان",
+      "بال مرغ",
+      "شهریور",
+      "بین‌المللی"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "بال مرغ",
+    "type": "sentence",
+    "intent": "recommendation_locations"
   },
   {
-    "question": "year old",
+    "question": "لطفاً وقتی ------ از امروز صبح به ایمیل من پاسخ داد به من اطلاع بده",
     "choices": [
-      "ساله",
-      "هم",
-      "شاعر",
-      "راک"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نیرومند",
-    "choices": [
-      "strong",
-      "Meshed",
-      "big",
-      "spread"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "general",
-    "choices": [
-      "پرونده",
-      "کلی",
-      "سخت",
-      "سفید"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "میانی",
-    "choices": [
-      "central",
-      "cheap",
-      "Ziad",
-      "large"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زود",
-    "choices": [
-      "province",
-      "friend",
-      "stranger",
-      "early"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بطور حتم",
-    "choices": [
-      "topic",
-      "city",
-      "surely",
-      "voice"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قدیمی",
-    "choices": [
-      "ابهام‌زدایی",
-      "نو",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "با ملاحظه",
-    "choices": [
-      "careful",
-      "imported",
-      "income",
-      "half"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "before",
-    "choices": [
-      "چیزی",
-      "نزدیکی",
-      "قبل",
-      "براساس"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مهتاب",
-    "choices": [
-      "سایت",
-      "آفتاب",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "operation",
-    "choices": [
-      "مفهوم",
-      "عمل",
-      "بسیاری",
-      "بن"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "باختر",
-    "choices": [
-      "ugly",
-      "boy",
-      "no",
-      "west"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "similar",
-    "choices": [
-      "مشاهیر",
-      "استاندارد",
-      "همانند",
-      "شامل"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "احتمال",
-    "choices": [
-      "sun",
-      "valley",
-      "sheik",
-      "probability"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کج",
-    "choices": [
-      "مستقیم",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "Omar",
-    "choices": [
+      "بطور",
+      "شهرزاد",
       "استقلال",
-      "كه",
-      "کشور",
-      "عمر"
+      "نیروی"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "شهرزاد",
+    "type": "sentence",
+    "intent": "email_query"
   },
   {
-    "question": "representative",
+    "question": "به ------ من ایمیل بزن و بگو سالگرد ازدواج",
     "choices": [
-      "پس",
-      "چهارم",
-      "مطرح",
-      "نماینده"
+      "تاریخی",
+      "آزادی",
+      "فرزند",
+      "برادر"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Pope",
-    "choices": [
-      "لیگ",
-      "آثار",
-      "پاپ",
-      "ایتالیا"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برملا",
-    "choices": [
-      "end",
-      "known",
-      "big",
-      "Ziad"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جلای وطن",
-    "choices": [
-      "treatment",
-      "professor",
-      "method",
-      "immigration"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "portrait",
-    "choices": [
-      "مثل",
-      "شدت",
-      "عباس",
-      "نقاشی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "worldwide",
-    "choices": [
-      "جهانی",
-      "متن",
-      "بزرگ",
-      "کمک"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عملکرد",
-    "choices": [
-      "operation",
-      "service",
-      "worst",
-      "compilation"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ضعیف",
-    "choices": [
-      "ابهام‌زدایی",
-      "قوی",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "مشکل",
-    "choices": [
-      "hard",
-      "moon",
-      "radio",
-      "story"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موضعی",
-    "choices": [
-      "local",
-      "bottom",
-      "Kurdistan",
-      "Khorasan"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کوچیک",
-    "choices": [
-      "ابهام‌زدایی",
-      "بزرگ",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "سلطان",
-    "choices": [
-      "industry",
-      "Pavlavi",
-      "king",
-      "rest"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "برنا",
-    "choices": [
-      "young",
-      "poetry",
-      "nominee",
-      "like"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حاوی بودن",
-    "choices": [
-      "incoming",
-      "outside",
-      "cry",
-      "include"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "subsequent",
-    "choices": [
-      "طی",
-      "درباره",
-      "بعدی",
-      "گذشته"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دستگاه",
-    "choices": [
-      "area",
-      "machine",
-      "known",
-      "registeration"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جوان",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "پیر"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "successful",
-    "choices": [
-      "موفق",
-      "جز",
-      "توسط",
-      "کلمه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خوشگل",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "زشت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "چب",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "راست"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "no",
-    "choices": [
-      "آخر",
-      "نبود",
-      "برخوردار",
-      "نه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "صنفی",
-    "choices": [
-      "orient",
-      "republic",
-      "union",
-      "project"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شروع",
-    "choices": [
-      "ابهام‌زدایی",
-      "پایان",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "but",
-    "choices": [
-      "اما",
-      "به",
-      "المللی",
-      "خاک"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حقیقت",
-    "choices": [
-      "",
-      "northern",
-      "transformation",
-      "truth"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پریرو",
-    "choices": [
-      "beautiful",
-      "exposition",
-      "sultan",
-      "engineering"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خشک",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام",
-      "خیس"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "ضحک",
-    "choices": [
-      "laugh",
-      "tool",
-      "last",
-      "their"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کوچک",
-    "choices": [
-      "traditional",
-      "small",
-      "ready",
-      "seyyed"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Rome",
-    "choices": [
-      "اتحاد",
-      "ده",
-      "روم",
-      "پهلوی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مرطوب",
-    "choices": [
-      "boy",
-      "religious",
-      "wet",
-      "score"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خط سیر",
-    "choices": [
-      "economic",
-      "route",
-      "lazy",
-      "story"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "stating",
-    "choices": [
-      "اشعار",
-      "بودند",
-      "میلادی",
-      "مناسب"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سلطان",
-    "choices": [
-      "go",
-      "old",
-      "made",
-      "king"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خشک مقدس",
-    "choices": [
-      "religious",
-      "born",
-      "reply",
-      "festival"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سطح",
-    "choices": [
-      "state",
-      "start",
-      "area",
-      "December"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سن",
-    "choices": [
-      "green",
-      "Seine",
-      "ugly",
-      "night"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "south",
-    "choices": [
-      "امر",
-      "جنوب",
-      "همان",
-      "بعدها"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بالا",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "پایین",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "سالگی",
-    "choices": [
-      "system",
-      "imaginary",
-      "lawful",
-      "age of"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پردیز",
-    "choices": [
-      "park",
-      "special",
-      "in",
-      "similar to"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ناراحت",
-    "choices": [
-      "ابهام‌زدایی",
-      "خوشحال",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "قوانین",
-    "choices": [
-      "lazy",
-      "education",
-      "remaining",
-      "rules"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "yours",
-    "choices": [
-      "بعدها",
-      "شما",
-      "جریان",
-      "شدند"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Masood",
-    "choices": [
-      "مسعود",
-      "پل",
-      "اصفهان",
-      "حاضر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مدت",
-    "choices": [
-      "philosophy",
-      "above",
-      "period",
-      "worst"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "october",
-    "choices": [
-      "بنا",
-      "باعث",
-      "می‌تواند",
-      "اکتبر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "همزمان",
-    "choices": [
-      "play",
-      "stratum",
-      "contemporary",
-      "monetary"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ten",
-    "choices": [
-      "شماره",
-      "یافته",
-      "ده",
-      "میلیون"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بيرون",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "داخل"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "کوچک",
-    "choices": [
-      "significant",
-      "small",
-      "scarcity",
-      "Islam"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "انقطاع یافتن",
-    "choices": [
-      "crooked",
-      "growth",
-      "support",
-      "end"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "spots",
-    "choices": [
-      "سبک",
-      "عصر",
-      "نقاط",
-      "انجمن"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "compilation",
-    "choices": [
-      "دنبال",
-      "تدوین",
-      "می‌آید",
-      "اسماعیل"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شهر کوچک",
-    "choices": [
-      "town",
-      "distribution",
-      "industries",
-      "expansion"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ادهم",
-    "choices": [
-      "inside",
-      "little",
-      "number",
-      "black"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قانونی",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "غیرقانونی"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "هواداری کردن",
-    "choices": [
-      "subject",
-      "support",
-      "support",
-      "dam"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زشت",
-    "choices": [
-      "ابهام‌زدایی",
-      "زیبا",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "معوج",
-    "choices": [
-      "training",
-      "seen",
-      "soul",
-      "crooked"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گرم",
-    "choices": [
-      "سرد",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "murdered",
-    "choices": [
-      "نتایج",
-      "شهرهای",
-      "کشته",
-      "ام"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پایین",
-    "choices": [
-      "بالا",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "records",
-    "choices": [
-      "پادشاهی",
-      "محل",
-      "اين",
-      "پرونده"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بیست",
-    "choices": [
-      "end",
-      "twenty",
-      "then",
-      "system"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "واقعی",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "خیالی",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "Ahmed",
-    "choices": [
-      "شش",
-      "اخیر",
-      "می‌گویند",
-      "احمد"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "تبریز",
-    "choices": [
-      "rewards",
-      "Tabriz",
-      "october",
-      "special"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "grail",
-    "choices": [
-      "جام",
-      "پایین",
-      "رودخانه",
-      "حسن"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "correct",
-    "choices": [
-      "دادند",
-      "ما",
-      "درست",
-      "سایر"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برابر",
-    "choices": [
-      "sheik",
-      "times more",
-      "soil",
-      "descended from Emam Reza"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "محرور",
-    "choices": [
-      "then",
-      "hot",
-      "base",
-      "end"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "stranger",
-    "choices": [
-      "غیر",
-      "وبگاه",
-      "واژه",
-      "شاه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ورزیده",
-    "choices": [
-      "skilled",
-      "Nur",
-      "England",
-      "topic"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اغلب",
-    "choices": [
-      "surrounding",
-      "most",
-      "left",
-      "Mohsen"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اخ",
-    "choices": [
-      "tree",
-      "brother",
-      "such a",
-      "Masood"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "وزیر",
-    "choices": [
-      "minister",
-      "Farhang",
-      "unknown",
-      "careless"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Fars",
-    "choices": [
-      "فارس",
-      "مدرسه",
-      "تدریس",
-      "جنبش"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "آوا",
-    "choices": [
-      "voice",
-      "land",
-      "space",
-      "beautiful"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رضا",
-    "choices": [
-      "Reza",
-      "system",
-      "personality",
-      "found"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ته",
-    "choices": [
-      "England",
-      "bottom",
-      "instruction",
-      "agriculture"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "demise",
-    "choices": [
-      "درگذشت",
-      "اکنون",
-      "فروش",
-      "گسترده"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پادشاه",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "ملکه"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "آموزشی",
-    "choices": [
-      "education",
-      "brave",
-      "for some time",
-      "sweet"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "presence",
-    "choices": [
-      "حضور",
-      "پایگاه",
-      "آذربایجان",
-      "خواننده"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حزبی",
-    "choices": [
-      "political party",
-      "summer",
-      "reason",
-      "machine"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نامزد",
-    "choices": [
-      "ranks",
-      "awak",
-      "nominee",
-      "mean"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "electric",
-    "choices": [
-      "الکتریکی",
-      "رفت",
-      "شدند",
-      "نیمه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "winning",
-    "choices": [
-      "برنده",
-      "عرب",
-      "اداره",
-      "گل"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سازمان",
-    "choices": [
-      "unknown",
-      "some",
-      "on",
-      "organization"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موت",
-    "choices": [
-      "novel",
-      "north",
-      "week",
-      "death"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نشر",
-    "choices": [
-      "sad",
-      "orient",
-      "old",
-      "spreading"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "named",
-    "choices": [
-      "نامیده",
-      "نشده",
-      "اینترنتی",
-      "محمد"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پایین",
-    "choices": [
-      "method",
-      "free",
-      "stop",
-      "low"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خاطر",
-    "choices": [
-      "instruction",
-      "sake",
-      "publishing",
-      "beginning"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "festival",
-    "choices": [
-      "بازیگر",
-      "کردن",
-      "جشنواره",
-      "بر"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کردستان",
-    "choices": [
-      "queen",
-      "Mohammed",
-      "straight",
-      "Kurdistan"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گروهی",
-    "choices": [
-      "trade",
-      "standard",
-      "descended from Emam Reza",
-      "in group"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "number",
-    "choices": [
-      "شماره",
-      "علم",
-      "از",
-      "توانست"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عراق",
-    "choices": [
-      "Islamic",
-      "Iraq",
-      "formation",
-      "united"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مربع",
-    "choices": [
-      "start",
-      "orchard",
-      "lunar",
-      "square"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مال شما",
-    "choices": [
-      "problems",
-      "seriously",
-      "yours",
-      "with"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "former",
-    "choices": [
-      "بود",
-      "یونان",
-      "سابق",
-      "نشر"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حادث",
-    "choices": [
-      "portion",
-      "new",
-      "sweet",
-      "definition"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شیر افکن",
-    "choices": [
-      "in group",
-      "frontier",
-      "brave",
-      "row"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "برادر",
+    "type": "sentence",
+    "intent": "email_sendemail"
   },
   {
     "question": "دهه",
     "choices": [
       "decade",
-      "stop",
-      "known",
-      "availability"
+      "decision",
+      "capital",
+      "before"
     ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "برملا",
+    "question": "جمعیت ------ چقدر است",
     "choices": [
-      "small",
-      "known",
-      "stop",
-      "side"
+      "تمامی",
+      "نیویورک",
+      "میدان",
+      "دنبال"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "نیویورک",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "کوک زدن",
+    "question": "قیمت بلیط ------ دوطرفه به نکا چند است",
     "choices": [
-      "training",
-      "civil",
-      "tune",
-      "distribution"
+      "باشد",
+      "مراسم",
+      "من",
+      "قطار"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_query"
   },
   {
-    "question": "دائما",
+    "question": "از ------ موزیک های ترنس من پخش کن",
     "choices": [
-      "case",
-      "always",
-      "imprison",
-      "five"
+      "زن",
+      "مناطق",
+      "پایه",
+      "لیست"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "لیست",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "Turkey",
+    "question": "چیز جدیدی در ------ من است",
     "choices": [
-      "اهالی",
-      "بسته",
-      "ترکیه",
-      "چون"
+      "کامپیوتر",
+      "شیعه",
+      "فیس بوک",
+      "جنوب"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "فیس بوک",
+    "type": "sentence",
+    "intent": "social_query"
   },
   {
-    "question": "sign",
+    "question": "عرب",
     "choices": [
-      "بازیگر",
-      "اکثر",
-      "عبارتند",
-      "اشاره"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سفید",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "سیاه"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "state",
-    "choices": [
-      "شماره",
-      "تدریس",
-      "حال",
-      "درون"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "یگانه",
-    "choices": [
-      "Aban",
-      "Germanic",
-      "above",
-      "only"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کوچک",
-    "choices": [
-      "بزرگ",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "غیر از",
-    "choices": [
-      "Mohammed",
-      "than",
-      "ancient",
-      "situation"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "various",
-    "choices": [
-      "گوناگون",
-      "ایتالیا",
-      "هر",
-      "چپ"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بالا",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "پایین"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "آخری",
-    "choices": [
-      "سایت",
-      "اولی",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "rukh",
-    "choices": [
-      "رخ",
-      "مهر",
-      "اسلامی",
-      "جنوبی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بهار",
-    "choices": [
-      "girl",
+      "father",
       "new",
-      "relative",
-      "spring"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پاگیر",
-    "choices": [
-      "theater",
-      "obstruction",
-      "published",
-      ""
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دفاع",
-    "choices": [
-      "and",
-      "defense",
-      "defense",
-      "real"
+      "Arab",
+      "up"
     ],
     "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "جنس بشر",
+    "question": "به اهنگ بعدی در لیست ------",
     "choices": [
-      "mankind",
-      "schedule",
-      "ship",
-      "left"
+      "توزیع",
+      "آغاز",
+      "برو",
+      "اصفهان"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "برو",
+    "type": "sentence",
+    "intent": "music_settings"
   },
   {
-    "question": "expansion",
+    "question": "------ برای چه معروف است",
     "choices": [
-      "چه",
-      "قدرت",
-      "تبدیل",
-      "گسترش"
+      "کامل",
+      "فریدون فرخزاد",
+      "خصوصی",
+      "فنی"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "فریدون فرخزاد",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "مام",
+    "question": "obstruction",
     "choices": [
-      "profit",
-      "mother",
-      "original",
-      "architecture"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مهربان",
-    "choices": [
-      "نامهربان",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "ساختمان",
-    "choices": [
-      "best",
-      "girl",
-      "structure",
-      "so far"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "include",
-    "choices": [
-      "بسیار",
-      "یک",
-      "پا",
-      "عبارتند"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "struggle",
-    "choices": [
-      "تلاش",
-      "هفت",
-      "نامیده",
-      "کره"
+      "سده",
+      "ساله",
+      "بودند",
+      "تفسیر"
     ],
     "answer": 0,
     "type": "translate_fa_en"
   },
   {
-    "question": "well-known",
+    "question": "درباره ------ چه چیزی می دانی",
     "choices": [
-      "مشهور",
-      "توسعه",
-      "ایرانی",
-      "خراسان"
+      "رسیدن",
+      "مجسمه‌ی آزادی",
+      "حاج",
+      "برج"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "مجسمه‌ی آزادی",
+    "type": "sentence",
+    "intent": "qa_definition"
   },
   {
-    "question": "بزرگ",
+    "question": "------ بارانی است",
     "choices": [
-      "سایت",
-      "کوچک",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "northern",
-    "choices": [
-      "شمالی",
-      "درون",
-      "عبور",
-      "محمد"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "چب",
-    "choices": [
-      "سایت",
-      "راست",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "پسر بچه",
-    "choices": [
-      "boy",
-      "covering",
-      "royal",
-      "old days"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سست بودن",
-    "choices": [
-      "because",
-      "lazy",
-      "piece",
-      "laugh"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تاریخچه",
-    "choices": [
-      "hot",
-      "diary",
-      "winning",
-      "young"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "امروز",
-    "choices": [
-      "inhabitant",
-      "threshold",
-      "beneath",
-      "today"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قم",
-    "choices": [
-      "Qom",
-      "unconditional",
-      "beautiful",
-      "loaded"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "manager",
-    "choices": [
-      "رئیس",
-      "امر",
-      "ریاست",
-      "دستگاه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "more",
-    "choices": [
-      "بصورت",
-      "بیش",
-      "روستا",
-      "کوتاه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پریرو",
-    "choices": [
-      "in group",
-      "beautiful",
-      "lawful",
-      "all"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خیالی",
-    "choices": [
-      "اعلام",
-      "واقعی",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "fire",
-    "choices": [
-      "آنکه",
-      "گزارش",
-      "آتش",
-      "آسیا"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "چپ",
-    "choices": [
-      "left",
-      "whoever",
-      "correct",
-      "trohpy"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "week",
-    "choices": [
-      "زنان",
-      "بزرگ‌ترین",
-      "درباره",
-      "هفته"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حضر",
-    "choices": [
-      "presence",
-      "Abdullah",
-      "season",
-      "valve"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شهرستان",
-    "choices": [
-      "province",
-      "nowadays",
-      "very",
-      "religion"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مبح",
-    "choices": [
-      "kind",
-      "topic",
-      "Meshed",
-      "good"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نرخ",
-    "choices": [
-      "year",
-      "rate",
-      "beginning",
-      "open"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تلخ",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "شیرین",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "پاسخ",
-    "choices": [
-      "requirement",
-      "summer",
-      "idle",
-      "reply"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دهستان",
-    "choices": [
-      "discovery",
-      "summer",
-      "but also",
-      "rural district"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "برونی",
-    "choices": [
-      "combination",
-      "dry",
-      "outside",
-      "team"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "publisher",
-    "choices": [
-      "عرب",
-      "ناشر",
-      "تاریخ",
-      "میلاد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "championship",
-    "choices": [
-      "ابهام‌زدایی",
-      "اسرائیل",
-      "حضور",
-      "قهرمانی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "با ملاحظه",
-    "choices": [
-      "former",
-      "Ibrahim",
-      "careful",
-      "Saltanat"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Ordibehesht",
-    "choices": [
-      "یونانی",
-      "می‌شود",
-      "موسیقی",
-      "اردیبهشت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "unconditional",
-    "choices": [
-      "ها",
-      "آن‌ها",
-      "مطلق",
-      "کمونیست"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "موسفید",
-    "choices": [
-      "scattering",
-      "old",
-      "Rome",
-      "total"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "hospital",
-    "choices": [
-      "تحصیل",
-      "اسلامی",
-      "دریافت",
-      "بیمارستان"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Arabic",
-    "choices": [
-      "مربع",
-      "عربی",
-      "ص",
-      "عهده"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "وقتی",
-    "choices": [
-      "third",
-      "whenever",
-      "ignorance",
-      "expensive"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "معاینه",
-    "choices": [
-      "imaginary",
-      "inspection",
-      "gallows",
-      "relevant"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "چوبخط",
-    "choices": [
-      "score",
-      "December",
-      "previous",
-      "Sinai Mountain"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نیکوترین",
-    "choices": [
-      "schedule",
-      "best",
-      "race",
-      "end"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کانون",
-    "choices": [
-      "growth",
-      "boy",
-      "center",
-      "laugh"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "diary",
-    "choices": [
-      "تئاتر",
-      "تاریخچه",
-      "نیروی",
-      "می‌شد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حدود",
-    "choices": [
-      "limits",
-      "side",
-      "open",
-      "age"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مرابحه",
-    "choices": [
-      "early",
-      "hill",
-      "percentage",
-      "solar year"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "illness",
-    "choices": [
-      "زیاد",
-      "اساس",
-      "متحد",
-      "بیماری"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "on",
-    "choices": [
-      "خان",
-      "روشن",
-      "ترانه",
-      "آبان"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "always",
-    "choices": [
-      "همیشه",
-      "سطح",
-      "سمت",
-      "قرآن"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "غیرقانونی",
-    "choices": [
-      "old",
-      "matter",
-      "illegal",
-      "world"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بر بالای",
-    "choices": [
-      "beautiful",
-      "person",
-      "over",
-      "mud"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "total",
-    "choices": [
-      "خورشیدی",
-      "بازی‌های",
-      "سال",
-      "جمع"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Internet",
-    "choices": [
-      "اینترنت",
-      "محمود",
-      "مردم",
-      "فرزندان"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اردیبهشت",
-    "choices": [
-      "Ordibehesht",
-      "land",
-      "portrait",
-      "shi'a"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شمال",
-    "choices": [
-      "Azar",
-      "February",
-      "south",
-      "north"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "limits",
-    "choices": [
-      "است",
-      "کره",
-      "حدود",
-      "آنچه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "view",
-    "choices": [
-      "آثار",
-      "دید",
+      "نزد",
+      "پنجشنبه",
       "فرهنگ",
-      "نظر"
+      "مجموعه"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "پنجشنبه",
+    "type": "sentence",
+    "intent": "weather_query"
   },
   {
-    "question": "واثق",
+    "question": "شیر را از لیست ------ حذف کن",
     "choices": [
-      "related",
-      "certain",
-      "Tehran",
-      "actress"
+      "خرید",
+      "فصل",
+      "هند",
+      "تن"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گشادن",
-    "choices": [
-      "paying attention",
-      "beautiful",
-      "counted",
-      "open"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "خرید",
+    "type": "sentence",
+    "intent": "lists_remove"
   },
   {
     "question": "ژوئن",
     "choices": [
-      "Khan",
-      "read",
-      "victory",
+      "bitter",
+      "far",
+      "resulting",
       "June"
     ],
     "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "province",
+    "question": "------ را تعریف کن",
     "choices": [
-      "زیادی",
-      "استان",
-      "منبع",
-      "داخل"
+      "مجلس",
+      "شب",
+      "پزشکی قانونی",
+      "سلطنت"
+    ],
+    "answer": "پزشکی قانونی",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "توقف",
+    "choices": [
+      "نخست",
+      "حرکت",
+      "دادگان",
+      "سبز"
     ],
     "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "project",
-    "choices": [
-      "میلیون",
-      "درست",
-      "می‌باشند",
-      "طرح"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دور",
-    "choices": [
-      "westerner",
-      "term",
-      "rarely",
-      "half"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Qom",
-    "choices": [
-      "اسلامی",
-      "تو",
-      "شمال",
-      "قم"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شهرستان",
-    "choices": [
-      "go",
-      "province",
-      "why",
-      "river"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "private",
-    "choices": [
-      "یک",
-      "شخصی",
-      "سیاه",
-      "یعنی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "چپ",
-    "choices": [
-      "step",
-      "in",
-      "left",
-      "imported"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نزدیک",
-    "choices": [
-      "دور",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
     "type": "antonym"
   },
   {
-    "question": "entered",
+    "question": "چقدر طول می‌کشد تا از ------ به ایران سفر کنید",
     "choices": [
-      "گزارش",
-      "محدود",
-      "وارد",
-      "داشتن"
+      "اهالی",
+      "اعداد",
+      "زیبا",
+      "کره جنوبی"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "کره جنوبی",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "نزست",
+    "question": "بمیان آوردن",
     "choices": [
-      "first",
-      "city",
-      "import",
-      "topic"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ناشناس",
-    "choices": [
-      "شناس",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "مستقیم",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "کج"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "trip",
-    "choices": [
-      "پیام",
-      "زیادی",
-      "بازیابی‌شده",
-      "سفر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "همدستی",
-    "choices": [
-      "but also",
-      "for some time",
-      "boy",
-      "collaboration"
+      "protection",
+      "asleep",
+      "text",
+      "bring up"
     ],
     "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "through",
+    "question": "از ساعت ------ تا پنج بعدازظهر امروز چه رویدادهایی هست",
+    "choices": [
+      "هشت صبح",
+      "اخیر",
+      "شمار",
+      "موجب"
+    ],
+    "answer": "هشت صبح",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ باید چیکار کنم",
+    "choices": [
+      "اجازه",
+      "گرفتن",
+      "جدول",
+      "دوشنبه"
+    ],
+    "answer": "دوشنبه",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "آهنگ مورد علاقه من از ------ را پخش کن",
+    "choices": [
+      "نسخه",
+      "گذاری",
+      "پارسال",
+      "مفهوم"
+    ],
+    "answer": "پارسال",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ چه خبر است",
+    "choices": [
+      "شما",
+      "سبک",
+      "کنند",
+      "زنجان"
+    ],
+    "answer": "زنجان",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "آیا می‌توانی به من اطلاعاتی در مورد ------ بدهی",
+    "choices": [
+      "ابن",
+      "ناسا",
+      "داریوش اقبالی",
+      "پدر"
+    ],
+    "answer": "داریوش اقبالی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "چگونه با ------ تماس بگیرم",
     "choices": [
       "بدون",
-      "طی",
-      "کشتی",
-      "خدا"
+      "زهرا",
+      "برنامه",
+      "بریتانیا"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "زهرا",
+    "type": "sentence",
+    "intent": "email_querycontact"
   },
   {
-    "question": "schedule",
+    "question": "من برای ------ هشت صبح یک تاکسی لازم دارم که مرا ببرد محل کارم",
     "choices": [
-      "روشن",
-      "اکثر",
-      "ولایت",
-      "برنامه"
+      "مشاهده",
+      "فردا",
+      "یا",
+      "تهران"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "transport_taxi"
   },
   {
-    "question": "بیدار",
+    "question": "زنگ هشدار ------ هزار و سیصد و نود و شش را ساعت پنج صبح تنظیم کن",
     "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "خواب"
+      "ترکی",
+      "قم",
+      "معمولاً",
+      "شانزدهم خرداد"
     ],
-    "answer": 3,
-    "type": "antonym"
+    "answer": "شانزدهم خرداد",
+    "type": "sentence",
+    "intent": "alarm_set"
   },
   {
-    "question": "زشت",
+    "question": "لطفا اطلاعاتی از ------ به من بده",
     "choices": [
-      "سایت",
-      "اعلام",
-      "قشنگ",
-      "ابهام‌زدایی"
+      "مشهور",
+      "تلویزیون",
+      "بازی‌های",
+      "مایکل جکسون"
+    ],
+    "answer": "مایکل جکسون",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "من ------ یک آدرس ایمیل جدید برای کمال اضافه کردم لطفاً آن را پیدا می‌کنی",
+    "choices": [
+      "نزدیکی",
+      "فرزند",
+      "گروه",
+      "دیروز"
+    ],
+    "answer": "دیروز",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "فاصله بین ------ و برلین چقدر است",
+    "choices": [
+      "نظریه",
+      "دولت",
+      "نیویورک",
+      "كه"
+    ],
+    "answer": "نیویورک",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "------ باید چه دمایی باشد",
+    "choices": [
+      "مرغ پخته شده",
+      "وابسته",
+      "جریان",
+      "بزرگ"
+    ],
+    "answer": "مرغ پخته شده",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "مال آنها",
+    "choices": [
+      "",
+      "new",
+      "their",
+      "use"
     ],
     "answer": 2,
-    "type": "antonym"
+    "type": "translate_en_fa"
   },
   {
-    "question": "too",
+    "question": "یک ------ به آفیس برای من بگیر",
     "choices": [
-      "تعدادی",
-      "گسترش",
-      "همچنین",
-      "فرمان"
+      "بازگشت",
+      "تاکسی",
+      "اجتماعی",
+      "اين"
+    ],
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "------ رو ادامه بده",
+    "choices": [
+      "فعال",
+      "سرعت",
+      "پدرش",
+      "داستان"
+    ],
+    "answer": "داستان",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "پر",
+    "choices": [
+      "agriculture",
+      "free",
+      "loaded",
+      "side"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "الکسا تقویم من را ------ به عنوان خارج از دسترس علامت گذاری کن",
+    "choices": [
+      "امروز",
+      "مدیریت",
+      "پیش",
+      "تعریف"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "چه کسی ------ ساعت ده صبح به جلسه می‌آید",
+    "choices": [
+      "اینترنت",
+      "فردا",
+      "گروهی",
+      "کل"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "نوعی",
+    "choices": [
+      "one",
+      "based on",
+      "end",
+      "typical"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ بیدارم نکن",
+    "choices": [
+      "شش",
+      "فردا",
+      "مذهبی",
+      "تبریز"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "alarm_remove"
+  },
+  {
+    "question": "آیا لامپ ها می توانند به ------ تغییر کنند",
+    "choices": [
+      "زیبا",
+      "شهرت",
+      "سبز",
+      "پرواز"
+    ],
+    "answer": "سبز",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "به ------ ایمیل بفرست سلام دیروز دلم برایت تنگ شده بود می‌خواهم امشب برای شام بیرون بروم",
+    "choices": [
+      "تر",
+      "هیچ",
+      "مسلمانان",
+      "آرش"
+    ],
+    "answer": "آرش",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "------ حدیثه",
+    "choices": [
+      "جشن سیسمونی دختر",
+      "می‌آید",
+      "رسیدن",
+      "امپراتوری"
+    ],
+    "answer": "جشن سیسمونی دختر",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ عباسقلی پیشداد چه زمانی بود",
+    "choices": [
+      "تولد",
+      "کسی",
+      "هنگام",
+      "جمهوری"
+    ],
+    "answer": "تولد",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "آیا ------ هنوز زنده است",
+    "choices": [
+      "سیاوش قمیشی",
+      "مقدار",
+      "دیده",
+      "یادکرد"
+    ],
+    "answer": "سیاوش قمیشی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "بیا فقط از ------ ملاقات صرف نظر کنیم",
+    "choices": [
+      "قرار",
+      "امنیت",
+      "مجله",
+      "یکدیگر"
+    ],
+    "answer": "قرار",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "یک شکایت از ------ در مورد یخچال من توئیت کن",
+    "choices": [
+      "شکل",
+      "جوایز",
+      "خلیج",
+      "ال جی"
+    ],
+    "answer": "ال جی",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "approval",
+    "choices": [
+      "تاسیس",
+      "الله",
+      "تصویب",
+      "مجلس"
     ],
     "answer": 2,
     "type": "translate_fa_en"
   },
   {
-    "question": "بدلیل آن",
+    "question": "بررسی کن و ببین آیا من ایمیلی از ------ دریافت کرده‌ام که مربوط به بودجه باشد",
     "choices": [
-      "father",
-      "therefore",
-      "story",
+      "شمال",
+      "تیر",
+      "امیر",
+      "دلیل"
+    ],
+    "answer": "امیر",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "------ از ایوان بند",
+    "choices": [
+      "عشق",
+      "آفریقا",
+      "بیماری",
+      "خون"
+    ],
+    "answer": "عشق",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "علی نرخ مبادله ------ به یورو را به من بگو",
+    "choices": [
+      "دلار",
+      "آذر",
+      "هاي",
+      "ساخت"
+    ],
+    "answer": "دلار",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "لطفا به من خبر بده در ساعت ------ جلسه دارم",
+    "choices": [
+      "قهرمان",
+      "پنج بعد از ظهر",
+      "عدد",
+      "وجود"
+    ],
+    "answer": "پنج بعد از ظهر",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "هور",
+    "choices": [
+      "thrust",
+      "remembering",
+      "sun",
+      "regarding"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ چه روزی از هفته است",
+    "choices": [
+      "پانزدهم شهریور",
+      "برنامه",
+      "پیشنهاد",
+      "قسمت"
+    ],
+    "answer": "پانزدهم شهریور",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "عربی",
+    "choices": [
+      "model",
+      "Arabic",
+      "inspection",
       "beginning"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "determination",
+    "question": "سفارش غذا از ------",
     "choices": [
-      "سطح",
-      "تعیین",
-      "اصفهان",
-      "ج"
+      "رضوان",
+      "فوتبال",
+      "واحد",
+      "وابسته"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "رضوان",
+    "type": "sentence",
+    "intent": "takeaway_order"
   },
   {
-    "question": "surface",
+    "question": "یه چیز ------ بگو",
     "choices": [
-      "رئیس",
-      "صفحه",
-      "چاپ",
-      "عبارت"
+      "خنده دار",
+      "مدت",
+      "بصورت",
+      "کوه"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "خنده دار",
+    "type": "sentence",
+    "intent": "general_joke"
   },
   {
-    "question": "بیگانه",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "دوست",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "court",
-    "choices": [
-      "دادگاه",
-      "کوه",
-      "نیویورک",
-      "طور"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عدد",
-    "choices": [
-      "piece",
-      "very",
-      "your",
-      "specially for"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "there",
+    "question": "چه برای ------ برنامه‌ریزی شده است",
     "choices": [
       "شاعر",
-      "آنجا",
-      "فیزیک",
-      "نقطه"
+      "سه ساعت آینده",
+      "تحصیل",
+      "بالا"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "سه ساعت آینده",
+    "type": "sentence",
+    "intent": "calendar_query"
   },
   {
-    "question": "type",
+    "question": "آیا بیرون ------ است",
     "choices": [
-      "غربی",
-      "قدر",
-      "شبیه",
-      "نوع"
+      "گرم",
+      "داشتن",
+      "باقی",
+      "اشعار"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "گرم",
+    "type": "sentence",
+    "intent": "weather_query"
   },
   {
-    "question": "نشریه دوره ای",
-    "choices": [
-      "country",
-      "presence",
-      "talented",
-      "periodical"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "University",
-    "choices": [
-      "فضایی",
-      "متولد",
-      "تقسیم",
-      "دانشگاه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "آماج",
-    "choices": [
-      "stop",
-      "slow",
-      "target",
-      "including"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "منجر",
-    "choices": [
-      "wet",
-      "resulting",
-      "Seine",
-      "typical"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Hossein",
-    "choices": [
-      "ساخت",
-      "باشد",
-      "ابتدا",
-      "حسین"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عالی",
-    "choices": [
-      "بدترین",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "وزنی",
-    "choices": [
-      "respect",
-      "cases",
-      "weight",
-      "busy"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اعلام",
-    "choices": [
-      "announcement",
-      "various",
-      "similar",
-      "knowledge"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عالی",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "بدترین"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "بیدار",
-    "choices": [
-      "اعلام",
-      "خواب",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "مدتی",
-    "choices": [
-      "thousand",
-      "Shahrivar",
-      "system",
-      "for some time"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اصول رعیتی",
-    "choices": [
-      "system",
-      "speech",
-      "principles",
-      "combination"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "برج",
-    "choices": [
-      "team",
-      "dam",
-      "computer",
-      "month"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "لمس",
-    "choices": [
-      "Mohammed",
-      "soft",
-      "side",
-      "illness"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "southern",
-    "choices": [
-      "جنوبی",
-      "کیلومتر",
-      "تاریخچه",
-      "رنگ"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "water",
-    "choices": [
-      "ایشان",
-      "کوچک",
-      "می‌گیرد",
-      "آب"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "امر",
-    "choices": [
-      "matter",
-      "April",
-      "awak",
-      "bank"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "in group",
-    "choices": [
-      "متن",
-      "خوانده",
-      "گروهی",
-      "گرفتن"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "for some time",
-    "choices": [
-      "فلسفه",
-      "تشکیل",
-      "تر",
-      "مدتی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "انواع",
-    "choices": [
-      "types",
-      "similar to",
-      "west",
-      "city"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نوشین",
-    "choices": [
-      "imprison",
-      "rule",
-      "free",
-      "sweet"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "become",
-    "choices": [
-      "شدن",
-      "طبقه",
-      "شاعران",
-      "بیست"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "واژه",
-    "choices": [
-      "state",
-      "so far",
-      "word",
-      "sweet"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فتوا",
-    "choices": [
-      "sentence",
-      "performance",
-      "out",
-      "worst"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جشن",
-    "choices": [
-      "palace",
-      "ceremony",
-      "registeration",
-      "born"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "state",
-    "choices": [
-      "ایالت",
-      "پدر",
-      "داد",
-      "حمل"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "twenty",
-    "choices": [
-      "اقدام",
-      "رودخانه",
-      "اختلاف",
-      "بیست"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دیروقت",
-    "choices": [
-      "Persian",
-      "exclude",
-      "simple",
-      "late"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "area",
-    "choices": [
-      "زمینه",
-      "دکتر",
-      "بی‌بی‌سی",
-      "اغلب"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "two",
-    "choices": [
-      "بودن",
-      "دو",
-      "شیخ",
-      "اصل"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سرستون",
-    "choices": [
-      "good",
-      "passing",
-      "capital",
-      "inside"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "diplomatic",
-    "choices": [
-      "دلار",
-      "کل",
-      "مه",
-      "سیاسی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "امکان پذیر",
-    "choices": [
-      "Mosque",
-      "country",
-      "possible",
-      "willing"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جدید",
-    "choices": [
-      "سایت",
-      "قدیمی",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "یک",
-    "choices": [
-      "worldwide",
-      "loaded",
-      "one",
-      "idle"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "west",
-    "choices": [
-      "بعدها",
-      "کنونی",
-      "غرب",
-      "روابط"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "supreme",
-    "choices": [
-      "ارتفاع",
-      "انتشارات",
-      "حکم",
-      "عالی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دانشسرا",
-    "choices": [
-      "college",
-      "including",
-      "war",
-      "prisoner"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پایستن",
-    "choices": [
-      "news agency",
-      "winner",
-      "interior",
-      "last"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بلدیه",
-    "choices": [
-      "various",
-      "careful",
-      "municipality",
-      "brave"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "غیرقانونی",
-    "choices": [
-      "ton",
-      "illegal",
-      "parliament",
-      "include"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کوشارو",
-    "choices": [
-      "ceremony",
-      "beginning",
-      "industrious",
-      "large"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "while",
-    "choices": [
-      "اتحاد",
-      "وب‌گاه",
-      "زمانی",
-      "نبود"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "threshold",
-    "choices": [
-      "درگاه",
-      "همانند",
-      "جامع",
-      "داشتند"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پر",
-    "choices": [
-      "new",
-      "loaded",
-      "lunar",
-      "winter"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "flight",
-    "choices": [
-      "جامعه",
-      "پرواز",
-      "زبان‌های",
-      "زیاد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "صنایع",
-    "choices": [
-      "result",
-      "girl",
-      "industries",
-      "first"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بدایت",
-    "choices": [
-      "ugly",
-      "beginning",
-      "first",
-      "ugly"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بسا",
-    "choices": [
-      "operations",
-      "weak",
-      "stating",
-      "many"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قدیم",
-    "choices": [
-      "ancient",
-      "zone",
-      "nations",
-      "universal"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "situation",
-    "choices": [
-      "موقعیت",
-      "بر",
-      "کسی",
-      "بودن"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ماء",
-    "choices": [
-      "idle",
-      "A.D.",
-      "energy",
-      "water"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بسته",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "باز",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "آتش",
-    "choices": [
-      "science",
-      "structure",
-      "red",
-      "fire"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کننده",
-    "choices": [
-      "performer",
-      "poetry",
-      "weak",
-      "Islam"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بلا تکلیف",
-    "choices": [
-      "monthly",
-      "people",
-      "uncertain",
-      "far"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "dependent",
-    "choices": [
-      "رشد",
-      "سرزمین",
-      "متعلق",
-      "حاج"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "regarding",
-    "choices": [
-      "آن",
-      "در",
-      "تمام",
-      "وقتی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بخدمت",
-    "choices": [
-      "stop",
-      "scared",
-      "cases",
-      "to"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جانبی",
-    "choices": [
-      "winter",
-      "lawful",
-      "side",
-      "hard"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "صرفه جویی",
-    "choices": [
-      "exposition",
-      "economy",
-      "normal",
-      "source"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "orient",
-    "choices": [
-      "انجمن",
-      "بیت",
-      "شرق",
-      "آنها"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خوب",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "بد",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "هلفدان",
-    "choices": [
-      "prison",
-      "organization",
-      "queen",
-      "kilometer"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "thirty",
-    "choices": [
-      "صفحه",
-      "سی",
-      "روسیه",
-      "شش"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جدا",
-    "choices": [
-      "route",
-      "seriously",
-      "expansion",
-      "guitar"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تنبل",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "زرنگ"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "تالی",
-    "choices": [
-      "Africa",
-      "similar",
-      "several",
-      "dry"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "polishing",
-    "choices": [
-      "تک",
-      "پرداخت",
-      "امروز",
-      "بعدها"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نا محرم",
-    "choices": [
-      "sacred",
-      "stranger",
-      "Qom",
-      "spread"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بسته",
-    "choices": [
-      "cry",
-      "closed",
-      "summer",
-      "help"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آفتاب",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "مهتاب",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "بلندی",
-    "choices": [
-      "height",
-      "chemical",
-      "certain",
-      "thriving"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "center",
-    "choices": [
-      "عدد",
-      "مرکز",
-      "مناسب",
-      "ورودی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "گرم",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "سرد",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "شروع",
-    "choices": [
-      "سایت",
-      "پایان",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "اشارهکردن",
-    "choices": [
-      "spread",
-      "point",
-      "rewards",
-      "resistance"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حسین",
-    "choices": [
-      "cheap",
-      "worthiness",
-      "lazy",
-      "Hossein"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "متن",
-    "choices": [
-      "conflict",
-      "time",
-      "text",
-      "family"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بازیگرزن",
-    "choices": [
-      "actress",
-      "third",
-      "stranger",
-      "philosophy"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کوچیک",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "بزرگ",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "احتیاط",
-    "choices": [
-      "سایت",
-      "بااحتیاط",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "آزادی اراده",
-    "choices": [
-      "text",
-      "report",
-      "free will",
-      "Greek"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "orchard",
-    "choices": [
-      "باغ",
-      "بدین",
-      "تعیین",
-      "نظر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "designing",
-    "choices": [
-      "سرانجام",
-      "قالب",
-      "اخیر",
-      "طراحی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "امام",
-    "choices": [
-      "Imam",
-      "stating",
-      "specific",
-      "queen"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خنده",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "گریه"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "شیرین",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "تلخ",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "دریا",
-    "choices": [
-      "Mahmud",
-      "size",
-      "black",
-      "sea"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "historic",
-    "choices": [
-      "بزرگ",
-      "مذهبی",
-      "تاریخی",
-      "شمالی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "visibility",
-    "choices": [
-      "دید",
-      "بنیاد",
-      "علیه",
-      "ریاضی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "واقعی",
-    "choices": [
-      "خیالی",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "زمستانی",
-    "choices": [
-      "we",
-      "black",
-      "winter",
-      "case"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زمان",
-    "choices": [
-      "flat",
-      "time",
-      "published",
-      "go"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اجتماعی",
-    "choices": [
-      "small",
-      "Greece",
-      "televised",
-      "social"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بنت",
-    "choices": [
-      "wet",
-      "girl",
-      "A.D.",
-      "cheap"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آخری",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "اولی"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "everybody",
-    "choices": [
-      "توضیح",
-      "ویکی",
-      "همه",
-      "بن"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "آغاز",
-    "choices": [
-      "ابهام‌زدایی",
-      "پایان",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "مدت",
-    "choices": [
-      "after",
-      "land",
-      "period",
-      "individuals"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "superior",
-    "choices": [
-      "نظر",
-      "برتر",
-      "حاضر",
-      "انتشار"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اختلاط",
-    "choices": [
-      "that",
-      "combination",
-      "inside",
-      "small"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شهر",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "دهات",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "یونان",
-    "choices": [
-      "seaport",
-      "professor",
-      "Mohammad Reza",
-      "Greece"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شروع",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "پایان",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "مدل سازی",
-    "choices": [
-      "music",
-      "many",
-      "model",
-      "beautiful"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شیر افکن",
-    "choices": [
-      "sweet",
-      "love",
-      "brave",
-      "bitter"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "young",
-    "choices": [
-      "ارتباط",
-      "جوان",
-      "جوان",
-      "جهانی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "went",
-    "choices": [
-      "جریان",
-      "فیلم‌های",
-      "نیز",
-      "رفت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "side",
-    "choices": [
-      "انواع",
-      "خواهد",
-      "طرف",
-      "قرمز"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بیرون",
-    "choices": [
-      "outside of",
-      "sour",
-      "profit",
-      "human"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پسر بچه",
-    "choices": [
-      "laugh",
-      "careful",
-      "contemporary",
-      "boy"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سلطنت",
-    "choices": [
-      "black",
-      "state",
-      "Saltanat",
-      "Australia"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حادث",
-    "choices": [
-      "sad",
-      "Azar",
-      "new",
-      "sale"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "revolution",
-    "choices": [
-      "انقلاب",
-      "حضور",
-      "تیم",
-      "اسفند"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Islamic",
-    "choices": [
-      "علم",
-      "نخستین",
-      "اسلامی",
-      "شهرداری"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مدل سازی",
-    "choices": [
-      "model",
-      "respect",
-      "awak",
-      "above"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پریرو",
-    "choices": [
-      "small",
-      "return visit",
-      "Gilan",
-      "beautiful"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "یمین",
-    "choices": [
-      "second",
-      "subject",
-      "right",
-      "prominent"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "domain",
-    "choices": [
-      "شماره",
-      "فشار",
-      "ویکی",
-      "حوزه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "رویش",
-    "choices": [
-      "requirement",
-      "Dey",
-      "growth",
-      "mother"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نوامبر",
-    "choices": [
-      "New York",
-      "November",
-      "southern",
-      "human"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شیرین",
-    "choices": [
-      "شور",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "داخل",
-    "choices": [
-      "داخل",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "zone",
-    "choices": [
-      "ايران",
-      "منطقه",
-      "آذر",
-      "دار"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جوایز",
-    "choices": [
-      "group",
-      "iron",
-      "rewards",
-      "moon"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "must",
-    "choices": [
-      "تلاش",
-      "باید",
-      "باشد",
-      "کرد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خیالی",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "واقعی"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "روشن",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "خاموش"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "رضوی",
-    "choices": [
-      "spreading",
-      "old",
-      "descended from Emam Reza",
-      "industrious"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ساعته",
-    "choices": [
-      "million",
-      "hour",
-      "death",
-      "neigborhood"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بزرگ",
-    "choices": [
-      "ابهام‌زدایی",
-      "کوچک",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "انرژی",
-    "choices": [
-      "children",
-      "hot",
-      "limited",
-      "energy"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "surname",
-    "choices": [
-      "سنتی",
-      "تمامی",
-      "شهرت",
-      "تدوین"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "زندانی",
-    "choices": [
-      "سایت",
-      "آزاد",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "مرطوب",
-    "choices": [
-      "small",
-      "presence",
-      "sad",
-      "wet"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Khan",
-    "choices": [
-      "خان",
-      "بهترین",
-      "محصول",
-      "موسیقی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "phantom",
-    "choices": [
-      "شبه",
-      "مهر",
-      "دارای",
-      "مسعود"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نقاشی",
-    "choices": [
-      "world",
-      "portrait",
-      "technical",
-      "lazy"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "thrust",
-    "choices": [
-      "مي",
-      "نتیجه",
-      "وب",
-      "فشار"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "God",
-    "choices": [
-      "تشکیل",
-      "خدا",
-      "خلق",
-      "توابع"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ملکه",
-    "choices": [
-      "اعلام",
-      "پادشاه",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "فروش",
-    "choices": [
-      "return",
-      "rules",
-      "availability",
-      "sale"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "امضا کردن",
-    "choices": [
-      "social",
-      "boy",
-      "those",
-      "sign"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "specially for",
-    "choices": [
-      "شدید",
-      "ممکن",
-      "ویژه",
-      "ایتالیا"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "رفتن",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "ماندن"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "بدست",
-    "choices": [
-      "Khan",
-      "Korea",
-      "by",
-      "original"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خشک",
-    "choices": [
-      "dry",
-      "knowledge",
-      "history",
-      "struggle"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آسان",
-    "choices": [
-      "سخت",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "به داخل",
-    "choices": [
-      "why",
-      "inside",
-      "scared",
-      "unknown"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "selection",
-    "choices": [
-      "بخش‌های",
-      "بن",
-      "هفت",
-      "انتخاب"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کاری",
-    "choices": [
-      "reply",
-      "effective",
-      "former",
-      "strong"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حرفه",
-    "choices": [
-      "rules",
-      "obstruction",
-      "profession",
-      "participation"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "article",
-    "choices": [
-      "مقاله",
-      "مساحت",
-      "جدا",
-      "وسیله"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "فیزیک",
-    "choices": [
-      "reduction",
-      "physics",
-      "related",
-      "area"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نیک فرجام",
-    "choices": [
-      "scared",
-      "science",
-      "turkish",
-      "successful"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حقوق",
-    "choices": [
-      "law",
-      "dam",
-      "based on",
-      "library"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پایان",
-    "choices": [
-      "سایت",
-      "آغاز",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "ویژه",
-    "choices": [
-      "specially for",
-      "strong",
-      "for some time",
-      "conditions"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مر",
-    "choices": [
-      "tremor",
-      "crooked",
-      "include",
-      "bitter"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اهل صنعت",
-    "choices": [
-      "way",
-      "old",
-      "industrial",
-      "flat"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دوروبر",
-    "choices": [
-      "big",
-      "year",
-      "ugly",
-      "environment"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ancient",
-    "choices": [
-      "حل",
-      "پزشکی",
-      "باستانی",
-      "بازیابی‌شده"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سیستم",
-    "choices": [
-      "road",
-      "worthiness",
-      "system",
-      "resident"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "universal",
-    "choices": [
-      "عمومی",
-      "جمعیت",
-      "خانوار",
-      "مقاومت"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "source",
-    "choices": [
-      "روستایی",
-      "غیر",
-      "منبع",
-      "باشد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "همان جور",
-    "choices": [
-      "unique",
-      "same",
-      "than",
-      "obstruction"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "number",
-    "choices": [
-      "شد",
-      "تعداد",
-      "زادگان",
-      "پوشش"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نطق",
-    "choices": [
-      "bad",
-      "mean",
-      "famous people",
-      "speech"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "sea",
-    "choices": [
-      "اهل",
-      "انقلاب",
-      "دریا",
-      "کشف"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "غلط گرفتن",
-    "choices": [
-      "stop",
-      "hot",
-      "correct",
-      "sour"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بیوک",
-    "choices": [
-      "Mosque",
-      "isle",
-      "big",
-      "establishment"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "solution",
-    "choices": [
-      "عمل",
-      "حل",
-      "مه",
-      "یافته"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "third",
-    "choices": [
-      "یونانی",
-      "یک",
-      "سوم",
-      "تمامی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برملا",
-    "choices": [
-      "known",
-      "protection",
-      "eye",
-      "communist"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ترکیه",
-    "choices": [
-      "Turkey",
-      "tir",
-      "cry",
-      "inside"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "every",
-    "choices": [
-      "انتشارات",
-      "مقاله",
-      "حتی",
-      "هر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دور",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "نزدیک"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "پایین",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "بالا",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "مجهول",
-    "choices": [
-      "story",
-      "must",
-      "war",
-      "unknown"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رفتن",
-    "choices": [
-      "go",
-      "hot",
-      "in",
-      "today"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ranks",
-    "choices": [
-      "منظور",
-      "مناسب",
-      "منبع",
-      "کشتی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جهل",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "علم",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "team",
-    "choices": [
-      "روستا",
-      "تیم",
-      "فوق",
-      "همان"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Reza",
-    "choices": [
-      "سرشماری",
-      "رضا",
-      "بیماری",
-      "می‌دهد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شهر",
-    "choices": [
-      "spring",
-      "she",
-      "city",
-      "famous people"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جشن",
-    "choices": [
-      "valley",
-      "Kurdistan",
-      "top",
-      "ceremony"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "such as",
-    "choices": [
-      "بخش‌های",
-      "سعید",
-      "مانند",
-      "افراد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "soil",
-    "choices": [
-      "روزنامه",
-      "جمع",
-      "خاک",
-      "دفتر"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حامض کردن",
-    "choices": [
-      "tool",
-      "schedule",
-      "sour",
-      "white"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زندانی",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "آزاد",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "special",
-    "choices": [
-      "فصل",
-      "عرب",
-      "می‌کند",
-      "خصوصی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ناس",
-    "choices": [
-      "people",
-      "speech",
-      "knowledge",
-      "friend"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "unique",
-    "choices": [
-      "تک",
-      "علاوه",
-      "مالی",
-      "ماه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Persian",
-    "choices": [
-      "هفتم",
-      "اختلاف",
-      "الکتریکی",
-      "ایرانی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پل",
-    "choices": [
-      "college",
-      "release",
-      "Paul",
-      "availability"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "seizure",
-    "choices": [
-      "تبریز",
-      "مبارزه",
-      "گرفت",
-      "فصل"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دهات",
-    "choices": [
-      "شهر",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "valve",
-    "choices": [
-      "موقعیت",
-      "زبان",
-      "شیر",
-      "باستانی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "road",
-    "choices": [
-      "هنوز",
-      "جاده",
-      "صد",
-      "شهرداری"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "old",
-    "choices": [
-      "پایتخت",
-      "گل",
-      "قدیمی",
-      "عهده"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Said",
-    "choices": [
-      "کنترل",
-      "هوای",
-      "لیگ",
-      "سعید"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نزست",
-    "choices": [
-      "first",
-      "philosophy",
-      "protection",
-      "moon"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مرتبط",
-    "choices": [
-      "petroleum",
-      "military",
-      "book",
-      "correlated"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Yemen",
-    "choices": [
-      "آموزشی",
-      "ارتباط",
-      "لحاظ",
-      "یمن"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "size",
+    "question": "آخرین اخبار ------ را به من نشان بده",
     "choices": [
       "بزرگی",
-      "می‌توان",
-      "نفت",
-      "تولد"
+      "قالب",
+      "پسر",
+      "جام‌جم"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "جام‌جم",
+    "type": "sentence",
+    "intent": "news_query"
   },
   {
-    "question": "various",
+    "question": "این کانال را به ------ اضافه کن",
     "choices": [
       "مختلف",
-      "اسلامی",
-      "کنار",
-      "فوق"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "except",
-    "choices": [
-      "منجر",
-      "جز",
-      "دختر",
-      "مختلف"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "no",
-    "choices": [
-      "مرکزی",
-      "هیچ",
-      "حکومت",
-      "امکان"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "چه",
-    "choices": [
-      "what",
-      "crooked",
-      "first",
-      "state"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گشودگی",
-    "choices": [
-      "weak",
-      "solution",
-      "beautiful",
-      "team"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تئاتر",
-    "choices": [
-      "weak",
-      "economy",
-      "theater",
-      "turkish"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Azar",
-    "choices": [
-      "آذر",
-      "فنی",
-      "مدل",
-      "نه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اساسی",
-    "choices": [
-      "fundamental",
-      "selection",
-      "surface",
-      "first"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خواندن",
-    "choices": [
-      "model",
-      "read",
-      "marriage",
-      "story"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "based on",
-    "choices": [
-      "طبق",
-      "یونانی",
-      "یکی",
-      "کنونی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شاد",
-    "choices": [
-      "happy",
-      "contrary",
-      "girl",
-      "side"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Akbar",
-    "choices": [
-      "متحد",
-      "اکبر",
-      "قرمز",
-      "قابل"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "through",
-    "choices": [
-      "دورهٔ",
-      "توسط",
-      "دولت",
-      "وبگاه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دوست",
-    "choices": [
-      "ابهام‌زدایی",
-      "بیگانه",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "پسر",
-    "choices": [
-      "دختر",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "بی زور",
-    "choices": [
-      "security",
-      "weak",
-      "on",
-      "view"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "unit",
-    "choices": [
-      "مثل",
-      "دسترسی",
-      "قرمز",
-      "واحد"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "به همراه",
-    "choices": [
-      "no",
-      "Greece",
-      "with",
-      "professor"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زود",
-    "choices": [
-      "happy",
-      "subordinate",
-      "early",
-      "rest"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "resident",
-    "choices": [
-      "ساکن",
-      "سبک",
-      "همه",
-      "خوانده"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ترسو",
-    "choices": [
-      "اعلام",
-      "شجاع",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "services",
-    "choices": [
-      "کانادا",
-      "آموزشی",
-      "الدین",
-      "خدمات"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "زیر",
-    "choices": [
-      "probability",
-      "tall",
-      "beneath",
-      "training"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ملکه",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "پادشاه",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "foot",
-    "choices": [
-      "دوران",
-      "مربوط",
-      "شاعران",
-      "پا"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اندازه",
-    "choices": [
-      "size",
-      "lawful",
-      "young",
-      "petroleum"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "seyyed",
-    "choices": [
+      "پاندورا",
       "میانه",
-      "سید",
-      "تعیین",
-      "قهرمانی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اسماعیل",
-    "choices": [
-      "Seine",
-      "Esmail",
-      "expression",
-      "contrary"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جانبی",
-    "choices": [
-      "fracture",
-      "Ordibehesht",
-      "May",
-      "side"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مطمئن",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "نامطمئن",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "خشک مقدس",
-    "choices": [
-      "six",
-      "black",
-      "sun",
-      "religious"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "six",
-    "choices": [
-      "نسبت",
-      "کرده‌اند",
-      "شش",
-      "ناحیه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کرد نشین",
-    "choices": [
-      "union",
-      "careless",
-      "Kurdish",
-      "hot"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اثر",
-    "choices": [
-      "Russia",
-      "immigration",
-      "trace",
-      "born"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "state",
-    "choices": [
-      "تر",
-      "مشهور",
-      "منطقه",
-      "حالت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برنا",
-    "choices": [
-      "manager",
-      "young",
-      "young",
-      "extra"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ساکن",
-    "choices": [
-      "state",
-      "probability",
-      "they",
-      "resident"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Australia",
-    "choices": [
-      "اتحادیه",
-      "استرالیا",
-      "قرار",
-      "وسیله"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "person",
-    "choices": [
-      "ارائه",
-      "کرده‌اند",
-      "نفر",
-      "پنجم"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "environment",
-    "choices": [
-      "وضعیت",
-      "روستا",
-      "هنری",
-      "محیط"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Qoran",
-    "choices": [
-      "نیروهای",
-      "قرآن",
-      "شوروی",
-      "سرانجام"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "capable",
-    "choices": [
-      "انجمن",
-      "گلستان",
-      "قابل",
-      "سرعت"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "finding",
-    "choices": [
-      "یافت",
-      "تبریز",
-      "قلعه",
-      "همچنین"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "گیلان",
-    "choices": [
-      "Gilan",
-      "Qoran",
-      "unknown",
-      "surface"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "tradition",
-    "choices": [
-      "تاریخ",
-      "کاهش",
-      "سنت",
-      "ورود"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کسری دار",
-    "choices": [
-      "under",
-      "Musavi",
-      "ugly",
-      "former"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "increase",
-    "choices": [
-      "افزایش",
-      "پرورش",
-      "نشان",
-      "تعدادی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Hasan",
-    "choices": [
-      "متفاوت",
-      "حسن",
-      "رهبر",
-      "دسامبر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "cause",
-    "choices": [
-      "ادبی",
-      "لازم",
-      "علت",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بد",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "خوب",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "share",
-    "choices": [
-      "يا",
-      "قسمت",
-      "جهت",
-      "عربستان"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "materials",
-    "choices": [
-      "مواد",
-      "جنوبی",
-      "مصر",
-      "هایی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "rarely",
-    "choices": [
-      "ریاست",
-      "کمتر",
-      "می‌باشد",
-      "کاهش"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "world",
-    "choices": [
-      "دارد",
-      "مرداد",
-      "دنیا",
-      "تو"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "history",
-    "choices": [
-      "عملیات",
-      "مسائل",
-      "نسخه",
-      "تاریخ"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پایان",
-    "choices": [
-      "آغاز",
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "داخل",
-    "choices": [
-      "داخل",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "Afghanistan",
-    "choices": [
-      "تلاش",
-      "افغانستان",
-      "قدرت",
-      "نور"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "به روی",
-    "choices": [
-      "on",
-      "girl",
-      "California",
-      "cases"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عمر",
-    "choices": [
-      "Omar",
-      "winter",
-      "black",
-      "straight"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "matter",
-    "choices": [
-      "کردستان",
-      "ماده",
-      "قرمز",
-      "آزادی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "what",
-    "choices": [
-      "چه",
-      "می‌شد",
-      "حسین",
-      "انتخاب"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "باز",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "بسته",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "isle",
-    "choices": [
-      "جزیره",
-      "گیری",
-      "تا",
-      "حرکت"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "remaining",
-    "choices": [
-      "بازیگر",
-      "حکم",
-      "مانده",
-      "بریتانیا"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نوعی",
-    "choices": [
-      "illegal",
-      "temper",
-      "typical",
-      "English"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "داخل",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "بيرون",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "نمره",
-    "choices": [
-      "that",
-      "family",
-      "number",
-      "English"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آمارگیری",
-    "choices": [
-      "willing",
-      "passing",
-      "two",
-      "census"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "foundation",
-    "choices": [
-      "تأسیس",
-      "بن",
-      "صنعتی",
-      "آهن"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "performer",
-    "choices": [
-      "شهر",
-      "حسن",
-      "سبک",
-      "کننده"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "society",
-    "choices": [
-      "فوریه",
-      "جای",
-      "انجمن",
-      "كه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "import",
-    "choices": [
-      "نزد",
-      "منبع",
-      "مرز",
-      "ورود"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "توقف",
-    "choices": [
-      "to",
-      "intention",
-      "stop",
-      "time"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "province",
-    "choices": [
-      "درجه",
-      "شهرستان",
-      "منتشر",
-      "هنر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شهر",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "دهات"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "بااحتیاط",
-    "choices": [
-      "اعلام",
-      "احتیاط",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "ابراهیم",
-    "choices": [
-      "July",
-      "someone",
-      "Ibrahim",
-      "king"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "combination",
-    "choices": [
-      "ترکیب",
-      "فلسفه",
-      "تشکیل",
-      "طول"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بی توجه",
-    "choices": [
-      "careless",
-      "place",
-      "go",
-      "careful"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مهمره",
-    "choices": [
-      "free",
-      "stem",
-      "red",
-      "resulting"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "rose garden",
-    "choices": [
-      "فراهم",
-      "گلستان",
-      "سنگ",
-      "سعید"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "متولد",
-    "choices": [
-      "born",
-      "gallows",
-      "friend",
-      "Tehran"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "life",
-    "choices": [
-      "دادن",
-      "روم",
-      "انتخاب",
-      "زندگی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "report",
-    "choices": [
-      "گزارش",
-      "برنده",
-      "سبز",
-      "ناشر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Nur",
-    "choices": [
-      "آلمانی",
-      "نور",
-      "دولتی",
-      "سالهای"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مرطوب",
-    "choices": [
-      "principles",
-      "portrait",
-      "wet",
-      "education"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جای",
-    "choices": [
-      "scientific",
-      "seaport",
-      "old",
-      "place"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رابطه",
-    "choices": [
-      "relation",
-      "",
-      "cry",
-      "all"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عیال",
-    "choices": [
-      "obstruction",
-      "family",
-      "sultan",
-      "necessary"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عاطل",
-    "choices": [
-      "idle",
-      "independence",
-      "then",
-      "outside of"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "region",
-    "choices": [
-      "صورت",
-      "دستگاه",
-      "بار",
-      "مناطق"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "manner",
-    "choices": [
-      "خمینی",
-      "کسی",
-      "پدر",
-      "بطور"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "reply",
-    "choices": [
-      "پاسخ",
-      "راک",
-      "یکدیگر",
-      "موارد"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "تازه کردن",
-    "choices": [
-      "include",
-      "like",
-      "fresh",
-      "subject"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کیلومتر",
-    "choices": [
-      "kilometer",
-      "translation",
-      "former",
-      "first"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Kerman",
-    "choices": [
-      "کرمان",
-      "قاجار",
-      "کودکان",
-      "خبر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "too",
-    "choices": [
-      "افزایش",
-      "شیخ",
-      "هم",
-      "آباد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "معوج",
-    "choices": [
-      "crooked",
-      "perception",
-      "return visit",
-      "money"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "میلیون",
-    "choices": [
-      "published",
-      "million",
-      "interpretation",
-      "small"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "country",
-    "choices": [
-      "موضوع",
-      "کشور",
-      "پانویس",
-      "بشر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "آسان",
-    "choices": [
-      "اعلام",
-      "سخت",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "فعلا",
-    "choices": [
-      "winter",
-      "stem",
-      "way",
-      "currently"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کوچیک",
-    "choices": [
-      "بزرگ",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "انگیختار",
-    "choices": [
-      "far",
-      "Hossein",
-      "motive",
-      "stomach"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "other",
-    "choices": [
-      "‌ها",
-      "گزارش",
-      "دیگر",
-      "خورشیدی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مشغول",
-    "choices": [
-      "exclude",
-      "subject",
-      "busy",
-      "crooked"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "راه",
-    "choices": [
-      "first",
-      "ugly",
-      "interpretation",
-      "road"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "weather",
-    "choices": [
-      "نتایج",
-      "علت",
-      "دوره",
-      "هوا"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پریرو",
-    "choices": [
-      "too",
-      "kindness",
-      "beautiful",
-      "directorship"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Gilan",
-    "choices": [
-      "می‌کرد",
-      "آتش",
-      "اقدام",
-      "گیلان"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عموم",
-    "choices": [
-      "today",
-      "remaining",
-      "friend",
-      "public"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خاموش",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "روشن",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "تابستانی",
-    "choices": [
-      "play",
-      "special",
-      "",
-      "summer"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "معنی بخشیدن",
-    "choices": [
-      "world",
-      "conditions",
-      "leadership",
-      "mean"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تشخیص",
-    "choices": [
-      "threshold",
-      "under",
-      "sacred",
-      "recognition"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فضایی",
-    "choices": [
-      "stranger",
-      "remaining",
-      "August",
-      "space"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "after",
-    "choices": [
-      "هفتم",
-      "یکدیگر",
-      "فشار",
-      "دنبال"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پرادویه کردن",
-    "choices": [
-      "village",
-      "season",
-      "decision",
-      "with"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "seen",
-    "choices": [
-      "دوران",
-      "دیده",
-      "سیاسی",
-      "خورشیدی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "river",
-    "choices": [
-      "اکبر",
-      "رود",
-      "یافت",
-      "ستاره"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بیرون",
-    "choices": [
-      "transportation",
-      "outside of",
-      "military",
-      "straight"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آخری",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "اولی",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "formation",
-    "choices": [
-      "تشکیل",
-      "دور",
-      "کلیسای",
-      "بعدی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سد",
-    "choices": [
-      "with",
-      "last",
-      "dam",
-      "ugly"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "soft",
-    "choices": [
-      "نرم",
-      "دریاچه",
-      "تلویزیونی",
-      "دورهٔ"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "scarcity",
-    "choices": [
-      "گسترده",
-      "تقویم",
-      "کمی",
-      "ریاست"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "correlated",
-    "choices": [
-      "گوناگون",
-      "مرتبط",
-      "دکتر",
-      "ورودی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "reduction",
-    "choices": [
-      "حقیقت",
-      "افغانستان",
-      "آلمان",
-      "کاهش"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "very",
-    "choices": [
-      "خیلی",
-      "عربی",
-      "خط",
-      "خمینی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
+      "زنان"
+    ],
+    "answer": "پاندورا",
+    "type": "sentence",
+    "intent": "music_likeness"
   },
   {
     "question": "prevention",
     "choices": [
       "جلوگیری",
-      "حمله",
-      "شدن",
-      "اضافه"
+      "هفتم",
+      "بازیگران",
+      "غیر"
     ],
     "answer": 0,
     "type": "translate_fa_en"
   },
   {
-    "question": "structure",
+    "question": "به ------ توئیت کن که آیفون کار نمی‌کند",
     "choices": [
-      "بنا",
-      "مساحت",
-      "ساخت",
-      "نگاه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پایان",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "شروع",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "such as",
-    "choices": [
-      "نخست",
-      "نظیر",
-      "رادیو",
-      "سفید"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نوع دیگر",
-    "choices": [
-      "lack",
-      "winning",
-      "functions",
-      "other"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "with",
-    "choices": [
-      "لحاظ",
-      "همراه",
-      "پایگاه",
-      "می‌توانند"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "انگلیسی",
-    "choices": [
-      "row",
-      "English",
-      "five",
-      "season"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عزیمت کردن",
-    "choices": [
-      "market",
-      "scared",
-      "Asia",
-      "start"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سیاه",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام",
-      "سفید"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "شاگردی",
-    "choices": [
-      "training",
-      "large",
-      "transplantation",
-      "technical"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مشغول",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "بیکار",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "voice",
-    "choices": [
-      "ورود",
-      "صدا",
-      "زاده",
-      "من"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سیما",
-    "choices": [
-      "appearance",
-      "significant",
-      "different",
-      "Khan"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دیر",
-    "choices": [
-      "ابهام‌زدایی",
-      "زود",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "آب زیپو",
-    "choices": [
-      "watery",
-      "asteroid",
-      "stop",
-      "rarely"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Tehran",
-    "choices": [
-      "کنند",
-      "ترک",
-      "تر",
-      "تهران"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سرما",
-    "choices": [
-      "spring",
-      "step",
-      "cold",
-      "beautiful"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "percentage",
-    "choices": [
-      "مقام",
-      "درصد",
-      "زنان",
-      "شبه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "reaction",
-    "choices": [
-      "معرفی",
-      "زمینه",
-      "بودن",
-      "هزار"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "dam",
-    "choices": [
-      "سد",
-      "مستقل",
-      "انواع",
-      "پرورش"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جدید",
-    "choices": [
-      "novel",
-      "sun",
-      "small",
-      "relations"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بر علیه",
-    "choices": [
-      "go",
-      "solution",
-      "against",
-      "ton"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "end",
-    "choices": [
-      "هوا",
-      "بودند",
-      "روسیه",
-      "پایان"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حسن",
-    "choices": [
-      "technical",
-      "importance",
-      "Hasan",
-      "ignorance"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اکبر",
-    "choices": [
-      "visage",
-      "motive",
-      "Akbar",
-      "Ahmed"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "total",
-    "choices": [
-      "جوایز",
-      "کمک",
-      "کل",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بی توجه",
-    "choices": [
-      "careless",
-      "fire",
-      "sacred",
-      "yet"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بالا",
-    "choices": [
-      "پایین",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "month",
-    "choices": [
-      "هدف",
-      "احمد",
-      "هفته",
-      "خرداد"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دیر",
-    "choices": [
-      "زود",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "چند تا",
-    "choices": [
-      "Australia",
-      "several",
-      "novel",
-      "sultan"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "table",
-    "choices": [
-      "داخل",
-      "هنر",
-      "جدول",
-      "یادکرد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "widespread",
-    "choices": [
-      "ثابت",
-      "پیشنهاد",
-      "کتاب‌های",
-      "گسترده"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "آنگه",
-    "choices": [
-      "cold",
-      "born",
-      "then",
-      "small"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شیرین",
-    "choices": [
-      "ابهام‌زدایی",
-      "تلخ",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "رست",
-    "choices": [
-      "Iran",
-      "new",
-      "post",
-      "rank"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حرکت",
-    "choices": [
-      "سایت",
-      "توقف",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "بی درد سر",
-    "choices": [
-      "easy",
-      "passing",
-      "protection",
-      "stage"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دوست کردن",
-    "choices": [
-      "friend",
-      "first",
-      "one",
-      "busy"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "profit",
-    "choices": [
-      "بدون",
-      "بهره",
-      "بنیاد",
-      "پا"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "report",
-    "choices": [
-      "روشن",
-      "سلطان",
-      "توابع",
-      "خبر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کیلومتر",
-    "choices": [
-      "strong",
-      "portion",
-      "kilometer",
-      "mud"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "در آمدن",
-    "choices": [
-      "seizure",
-      "soccer",
-      "official",
-      "become"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "transplantation",
-    "choices": [
-      "پیوند",
-      "سید",
-      "پرونده",
-      "متولد"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "period",
-    "choices": [
-      "عبور",
-      "دوران",
-      "ما",
-      "دنبال"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "sake",
-    "choices": [
-      "من",
-      "زمانی",
-      "جستارهای",
-      "خاطر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "collection",
-    "choices": [
-      "کشف",
-      "بنابر",
-      "گفته",
-      "مجموعه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "آنجل",
-    "choices": [
-      "good",
-      "there",
-      "ugly",
-      "republic"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "system",
-    "choices": [
-      "فرد",
-      "شوند",
-      "دستور",
-      "سیستم"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "with",
-    "choices": [
-      "ش",
-      "دارای",
-      "هدف",
-      "به‌"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قرآن",
-    "choices": [
-      "night",
-      "side",
-      "Qoran",
-      "TRUE"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "minute",
-    "choices": [
-      "داشتند",
-      "مسابقات",
-      "دقیقه",
-      "کلیسای"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "متولد",
-    "choices": [
-      "born",
-      "above",
-      "small",
-      "side"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رها ساختن",
-    "choices": [
-      "news",
-      "release",
-      "Musavi",
-      "book"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فارس",
-    "choices": [
-      "in order to",
-      "left",
-      "Fars",
-      "dry"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پایه",
-    "choices": [
-      "scared",
-      "foundation",
-      "friend",
-      "novel"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دردمآندی",
-    "choices": [
-      "China",
-      "illness",
-      "large",
-      "free will"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کوچک",
-    "choices": [
-      "old",
-      "small",
-      "past",
-      "ship"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "science",
-    "choices": [
-      "علم",
-      "بدین",
-      "اطلاعات",
-      "همچون"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جهل",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "علم",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "سطح",
-    "choices": [
-      "area",
-      "speech",
-      "beautiful",
-      "unknown"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ثانیه",
-    "choices": [
-      "subject",
-      "second",
-      "fundamental",
-      "beginning"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بد",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "خوب",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "talented",
-    "choices": [
-      "باغ",
-      "رفت",
-      "هنرمند",
-      "من"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قوی",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام",
-      "ضعیف"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "Africa",
-    "choices": [
-      "‌ها",
-      "فوریه",
-      "آفریقا",
-      "اين"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "variation",
-    "choices": [
-      "یونانی",
-      "شدت",
-      "تغییر",
-      "تجاری"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "recent",
-    "choices": [
-      "روستایی",
-      "اخیر",
-      "بندی",
-      "مطلق"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نمایش",
-    "choices": [
-      "october",
-      "remembering",
-      "skilled",
-      "illustration"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "those",
-    "choices": [
-      "فضای",
-      "زمینه",
-      "آن",
-      "جایزه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "الی",
-    "choices": [
-      "until",
-      "system",
-      "beautiful",
-      "area"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "portion",
-    "choices": [
-      "مانند",
-      "کنید",
-      "بخش",
-      "مصرف"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برد",
-    "choices": [
-      "winning",
-      "bitter",
-      "Japan",
-      "leadership"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "چشم",
-    "choices": [
-      "union",
-      "state",
-      "eye",
-      "functions"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "معوج",
-    "choices": [
-      "message",
-      "crooked",
-      "include",
-      "rukh"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "eye",
-    "choices": [
-      "احمد",
-      "چشم",
-      "امام",
-      "شیراز"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کوچک",
-    "choices": [
-      "بزرگ",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "خلف",
-    "choices": [
-      "Greece",
-      "effective",
-      "son",
-      "include"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "توقف",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "حرکت"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "لاحق",
-    "choices": [
-      "subsequent",
-      "last",
-      "sweet",
-      "free"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موسوی",
-    "choices": [
-      "manner",
-      "Musavi",
-      "performer",
-      "girl"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آبان",
-    "choices": [
-      "France",
-      "ship",
-      "Aban",
-      "many"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "people",
-    "choices": [
-      "شرایط",
-      "مردم",
-      "دینی",
-      "دارای"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "همچنین",
-    "choices": [
-      "ugly",
-      "permission",
-      "records",
-      "too"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "میانی",
-    "choices": [
-      "televised",
-      "middle",
-      "best",
-      "Esmail"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "foreigner",
-    "choices": [
-      "مرز",
-      "نامیده",
-      "خارجی",
-      "نیز"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نا محرم",
-    "choices": [
-      "old",
-      "private",
-      "stranger",
-      "small"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Ali",
-    "choices": [
-      "رودخانه",
-      "انسانی",
-      "خواننده",
-      "علی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شرایط",
-    "choices": [
-      "conditions",
-      "month",
-      "like",
-      "speed"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مافوق",
-    "choices": [
-      "severe",
-      "large",
-      "superior",
-      "unknown"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تهران",
-    "choices": [
-      "Tehran",
-      "May",
-      "counted",
-      "writer"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دهات",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "شهر"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "اشعار",
-    "choices": [
-      "station",
-      "palace",
-      "weather",
-      "poetry"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "صده",
-    "choices": [
-      "iron",
-      "century",
-      "present",
-      ""
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "industry",
-    "choices": [
-      "موفق",
-      "صنعت",
-      "که",
-      "دفاع"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بیش",
-    "choices": [
-      "something",
-      "more",
-      "environment",
-      "cheap"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بش",
-    "choices": [
-      "list",
-      "kind",
-      "singer",
-      "five"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شهبانو",
-    "choices": [
-      "known",
-      "queen",
-      "individuals",
-      "cheap"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شهرستان",
-    "choices": [
-      "small",
-      "literature",
-      "province",
-      "Said"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بعد از",
-    "choices": [
-      "various",
-      "after",
-      "given",
-      "covering"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "imperial",
-    "choices": [
-      "امپراتوری",
-      "اروپا",
-      "دار",
-      "کرده"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مال آنها",
-    "choices": [
-      "summer",
-      "their",
-      "century",
-      "title"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "resistance",
-    "choices": [
-      "قمری",
-      "اینترنت",
-      "مقاومت",
-      "گروهی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مدد کردن",
-    "choices": [
-      "help",
-      "distance",
-      "hajji",
-      "God"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اضافه",
-    "choices": [
-      "until",
-      "then",
-      "extra",
-      "probability"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "روشن",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "خاموش"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "بطی",
-    "choices": [
-      "slow",
-      "basis",
-      "asleep",
-      "mean"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Dey",
-    "choices": [
-      "مجلس",
-      "تقویم",
-      "دی",
-      "بندی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دوست کردن",
-    "choices": [
-      "black",
-      "friend",
-      "even",
-      "Saudi Arabia"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دور",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "نزدیک"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "utilization",
-    "choices": [
-      "استفاده",
-      "هر",
-      "تصویب",
-      "مسلمانان"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برده",
-    "choices": [
-      "won",
-      "technical",
-      "release",
-      "small"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "tall",
-    "choices": [
-      "طبقه",
-      "تولد",
-      "بلند",
-      "می‌کرد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "the majority of",
-    "choices": [
-      "بخش‌های",
-      "چه",
-      "بیشتر",
-      "می"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "توی",
-    "choices": [
-      "Fars",
-      "in",
-      "trip",
-      "very"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ارباب قلم",
-    "choices": [
-      "time",
-      "sour",
-      "illness",
-      "writer"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حاج",
-    "choices": [
-      "hajji",
-      "on",
-      "Turkish",
-      "moon"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "همه جاگیر",
-    "choices": [
-      "south",
-      "stratum",
-      "widespread",
-      "like"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "rest",
-    "choices": [
-      "باقی",
-      "گیلان",
-      "اجرام",
-      "مسائل"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "other",
-    "choices": [
-      "صنعت",
-      "شناسی",
-      "سایر",
-      "فقط"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بی درد سر",
-    "choices": [
-      "sea",
-      "easy",
-      "Tabriz",
-      "soil"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "چین",
-    "choices": [
-      "seen",
-      "China",
-      "personality",
-      "friend"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "execution",
-    "choices": [
-      "سیارک",
-      "بدین",
-      "اعدام",
-      "بود"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "artistic",
-    "choices": [
-      "نگاه",
-      "متن",
-      "دستگاه",
-      "هنری"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "relation",
-    "choices": [
-      "های",
-      "نسبت",
-      "شده‌اند",
-      "دادگان"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مستقیم",
-    "choices": [
-      "ابهام‌زدایی",
-      "کج",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "با ملاحظه",
-    "choices": [
-      "Omar",
-      "life",
-      "base",
-      "careful"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زندانی",
-    "choices": [
-      "آزاد",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "آخری",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام",
-      "اولی"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "بنت",
-    "choices": [
-      "sea",
-      "residential",
-      "reply",
-      "girl"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "چینه",
-    "choices": [
-      "sacred",
-      "growth",
-      "stratum",
-      "technical"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "middle",
-    "choices": [
-      "حساب",
-      "بازیگر",
-      "تئاتر",
-      "میان"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شهریور",
-    "choices": [
-      "united",
-      "Shahrivar",
-      "times more",
-      "University"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "free",
-    "choices": [
-      "آزاد",
-      "زیرا",
-      "ورودی",
-      "صورت"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "many",
-    "choices": [
-      "فرانسوی",
-      "وقتی",
-      "درگاه",
-      "بسیاری"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "افشا شده",
-    "choices": [
-      "Nur",
-      "February",
-      "lawful",
-      "out"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عبدالله",
-    "choices": [
-      "resident",
-      "one",
-      "Abdullah",
-      "Korea"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "bring up",
-    "choices": [
-      "مطرح",
-      "کاربرد",
-      "دستور",
-      "شد"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مستثنی کردن",
-    "choices": [
-      "exclude",
-      "lazy",
-      "society",
-      "shine"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "gallows",
-    "choices": [
-      "طرح",
-      "نقطه",
-      "اکثر",
-      "دار"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دوست کردن",
-    "choices": [
-      "beautiful",
-      "friend",
-      "trade",
-      "cheap"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "برونی",
-    "choices": [
-      "that is",
-      "Mordad",
-      "March",
-      "outside"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شهبانو",
-    "choices": [
-      "including",
-      "queen",
-      "January",
-      "solution"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "but also",
-    "choices": [
-      "گیتار",
-      "شرایط",
-      "مهم",
-      "بلکه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "spreading",
-    "choices": [
-      "عمومی",
-      "نشر",
-      "قدر",
-      "بیماری"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پایه",
-    "choices": [
-      "prison",
-      "literature",
-      "kilometer",
-      "foundation"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "over",
-    "choices": [
-      "معماری",
-      "تقسیم",
-      "بر",
-      "آنان"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بد",
-    "choices": [
-      "bad",
-      "imprison",
-      "stop",
-      "start"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زندانی کردن",
-    "choices": [
-      "imprison",
-      "easy",
-      "Shah",
-      "religious"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مافوق",
-    "choices": [
-      "unknown",
-      "old",
-      "superior",
-      "percentage"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فرانسه",
-    "choices": [
-      "way",
-      "France",
-      "religious",
-      "including"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "minister",
-    "choices": [
-      "مهم",
-      "تفسیر",
-      "تبریز",
-      "وزیر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "have",
-    "choices": [
-      "الله",
-      "می‌کنند",
-      "داشتن",
-      "شوند"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نفر",
-    "choices": [
-      "message",
-      "person",
-      "thousand",
-      "release"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خشک",
-    "choices": [
-      "dry",
-      "upon",
-      "expensive",
-      "leader"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "exist",
-    "choices": [
-      "کلمه",
-      "ریاضی",
-      "استاد",
-      "بودن"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Tabriz",
-    "choices": [
-      "آلبوم",
-      "مربع",
-      "اروپا",
-      "تبریز"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "give",
-    "choices": [
-      "وی",
-      "دادن",
-      "مهم",
-      "دوره"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "رفتن",
-    "choices": [
-      "ماندن",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "جزء",
-    "choices": [
-      "red",
-      "exist",
-      "stone",
-      "portion"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Korea",
-    "choices": [
-      "سنتی",
-      "کره",
-      "می‌رسد",
-      "سمت"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ماندن",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "رفتن",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "آغاز",
-    "choices": [
-      "پایان",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "بیضاء",
-    "choices": [
-      "seyyed",
-      "white",
-      "mother",
-      "A.D."
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حرکت",
-    "choices": [
-      "اعلام",
-      "توقف",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "آموزشی",
-    "choices": [
-      "numbers",
-      "for some time",
-      "united",
-      "education"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "صاحب",
-    "choices": [
-      "numbers",
-      "Saheb",
-      "new",
-      "Tabriz"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "غیرقانونی",
-    "choices": [
-      "illegal",
-      "rural district",
-      "Islam",
-      "team"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "sheik",
-    "choices": [
-      "ورودی",
-      "نامه",
-      "شیخ",
-      "استرالیا"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "thereafter",
-    "choices": [
-      "بعدها",
-      "ورودی",
-      "فارسی",
-      "پست"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "متعدد",
-    "choices": [
-      "literature",
-      "free",
-      "various",
-      "Ordibehesht"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "translation",
-    "choices": [
-      "کمک",
-      "اقتصاد",
-      "ترجمه",
-      "می‌دهد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "lack",
-    "choices": [
-      "اسلامی",
-      "فراهم",
-      "رمان",
-      "عدم"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Mr.",
-    "choices": [
-      "آقای",
-      "الکتریکی",
-      "مي",
-      "شدند"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "the other",
-    "choices": [
-      "تشکیل",
-      "گروه‌های",
-      "کامپیوتر",
-      "دیگری"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خیس",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "خشک"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "جایزه",
-    "choices": [
-      "night",
-      "television",
-      "against",
-      "trohpy"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "verdict",
-    "choices": [
-      "جا",
-      "وزن",
-      "امکان",
-      "حکم"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عطیه",
-    "choices": [
-      "first",
-      "published",
-      "architecture",
-      "present"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سنتی",
-    "choices": [
-      "traditional",
-      "September",
-      "united",
-      "by"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "چونکه",
-    "choices": [
-      "in",
-      "September",
-      "because",
-      "shine"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "turkish",
-    "choices": [
-      "مجلس",
-      "فروش",
-      "جام",
-      "ترک"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قشنگ",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "زشت"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "royal",
-    "choices": [
-      "پادشاهی",
-      "پهلوی",
-      "کتابخانه",
-      "تخت"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "منظومه",
-    "choices": [
-      "scared",
-      "collection",
-      "beneath",
-      "strong"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مستثنی کردن",
-    "choices": [
-      "civil",
-      "exclude",
-      "religious",
-      "to"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مشهد",
-    "choices": [
-      "house",
-      "summer",
-      "Meshed",
-      "sun"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نقطه اتکاء",
-    "choices": [
-      "stay",
-      "network",
-      "hill",
-      "municipality"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "shout",
-    "choices": [
-      "ساعت",
-      "توانست",
-      "داد",
-      "قهرمان"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سهی",
-    "choices": [
-      "straight",
-      "covering",
-      "memory",
-      "February"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Greece",
-    "choices": [
-      "کرده",
-      "خارجی",
-      "یونان",
-      "صفحه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "economic",
-    "choices": [
-      "اقتصادی",
-      "سلطنت",
-      "علوم",
-      "سپس"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پست",
-    "choices": [
-      "post",
-      "sources",
-      "what",
-      "providing"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "approval",
-    "choices": [
-      "تصویب",
-      "مهندسی",
-      "ورود",
-      "رضا"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خون",
-    "choices": [
-      "kind",
-      "blood",
-      "square",
-      "like"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ای",
-    "choices": [
-      "Hey",
-      "tradition",
-      "happy",
-      "some"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سترگ",
-    "choices": [
-      "large",
-      "similar to",
-      "dry",
-      "resistance"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "توجه",
-    "choices": [
-      "but",
-      "scared",
-      "Korea",
-      "paying attention"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "hejira",
-    "choices": [
-      "هجری",
-      "فنی",
-      "المپیک",
-      "کشتی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "center",
-    "choices": [
-      "همراه",
-      "سایت",
-      "داستان",
-      "وارد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نزست",
-    "choices": [
-      "scared",
-      "proximity",
-      "first",
-      "title"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "excess",
-    "choices": [
-      "علاوه",
-      "بیمارستان",
-      "زادگان",
-      "ادبی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نازیبا",
-    "choices": [
-      "ugly",
-      "asleep",
-      "opposite",
-      "Afghanistan"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ژانویه",
-    "choices": [
-      "January",
-      "family",
-      "include",
-      "visage"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کارفرمانی",
-    "choices": [
-      "easy",
-      "Yemen",
-      "management",
-      "uncertain"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "factors",
-    "choices": [
-      "بن",
-      "عوامل",
-      "امر",
-      "کوه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برملا",
-    "choices": [
-      "known",
-      "iron",
-      "rear",
-      "beautiful"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "start",
-    "choices": [
-      "مهم",
-      "هند",
-      "اجرام",
-      "شروع"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پریرو",
-    "choices": [
-      "thereafter",
-      "Germany",
-      "stranger",
-      "beautiful"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آسان",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سخت"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "شهر",
-    "choices": [
-      "ابهام‌زدایی",
-      "دهات",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "daytime",
-    "choices": [
-      "روز",
-      "زنده",
-      "شهری",
-      "گرفت"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "in order to",
-    "choices": [
-      "نور",
-      "برای",
-      "بازی‌های",
-      "کاهش"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Mahmud",
-    "choices": [
-      "محمود",
-      "پنج",
-      "جمع",
-      "نمود"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مریضخانه",
-    "choices": [
-      "awak",
-      "University",
-      "hospital",
-      "hundred"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قدیمی",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام",
-      "نو"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "biography",
-    "choices": [
-      "می‌آید",
-      "می‌باشند",
-      "چهار",
-      "زندگینامه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "respect",
-    "choices": [
-      "نقاط",
-      "لحاظ",
-      "فوق",
-      "بندی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سیستم",
-    "choices": [
-      "collection",
-      "steady",
-      "cold",
-      "system"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "result",
-    "choices": [
-      "نتیجه",
-      "چنین",
-      "عصر",
-      "پا"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خدمات",
-    "choices": [
-      "Qom",
-      "services",
-      "idle",
-      "out"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "economy",
-    "choices": [
-      "پارک",
-      "اقتصاد",
-      "گردید",
-      "شرق"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "گرون",
-    "choices": [
-      "ارزون",
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "راستین",
-    "choices": [
-      "gloomy",
-      "real",
-      "mud",
-      "awak"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "انقطاع یافتن",
-    "choices": [
-      "nominee",
-      "end",
-      "permission",
-      "increase"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عربستان",
-    "choices": [
-      "Saudi Arabia",
-      "Mosque",
-      "percentage",
-      "portrait"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "westerner",
-    "choices": [
-      "صفحه",
-      "سازمان",
-      "چون",
-      "غربی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "داستان گفتن",
-    "choices": [
-      "beneath",
-      "style",
-      "story",
-      "go"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تربیب کردن",
-    "choices": [
-      "king",
-      "importance",
-      "sweet",
-      "school"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ترجمه و اقتباس",
-    "choices": [
-      "two",
-      "result",
-      "translation",
-      "sour"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مرخصی",
-    "choices": [
-      "off",
-      "uderstood",
-      "collaboration",
-      "girl"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عاطل",
-    "choices": [
-      "idle",
-      "imperial",
-      "new",
-      "on"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "محرور",
-    "choices": [
-      "hot",
-      "child",
-      "imprison",
-      "Australia"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "under",
-    "choices": [
-      "بنام",
-      "رفته",
-      "مقاله",
-      "مورد"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "صیحه زدن",
-    "choices": [
-      "club",
-      "cry",
-      "tremor",
-      "out"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "first",
-    "choices": [
-      "آثار",
-      "نزدیکی",
-      "استفاده",
-      "اولین"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ندرتا",
-    "choices": [
-      "surely",
-      "utilization",
-      "rarely",
-      "cheap"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بلکه",
-    "choices": [
-      "seven",
-      "beautiful",
-      "but also",
-      "ignorance"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "art",
-    "choices": [
-      "ایستگاه",
-      "شعر",
-      "محلی",
-      "هنر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "زشت",
-    "choices": [
-      "سایت",
-      "قشنگ",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "دهات",
-    "choices": [
-      "شهر",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "کوچک",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "بزرگ",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "ناشناس",
-    "choices": [
-      "ابهام‌زدایی",
-      "شناس",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "اولیه",
-    "choices": [
-      "old",
-      "translation",
-      "primary",
-      "study"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بیضاء",
-    "choices": [
-      "middle",
-      "known",
-      "white",
-      "corps"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گیتار",
-    "choices": [
-      "guitar",
-      "last",
-      "after",
-      "queen"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "under",
-    "choices": [
-      "برادر",
-      "فوریه",
-      "زیر",
-      "آمریکایی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شهر",
-    "choices": [
-      "relations",
-      "shi'a",
-      "limits",
-      "city"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "spring",
-    "choices": [
-      "بزرگی",
-      "دهد",
-      "زبان‌های",
-      "چشمه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "start",
-    "choices": [
-      "اوایل",
-      "اوت",
-      "معنی",
-      "خبر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "seaport",
-    "choices": [
-      "فیزیک",
-      "بندر",
-      "منتشر",
-      "هفت"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Kurdish",
-    "choices": [
-      "نشان",
-      "عضو",
-      "کرد",
-      "مجموعه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "discovery",
-    "choices": [
-      "اول",
-      "کشف",
-      "ترکیه",
-      "شاه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "May",
-    "choices": [
-      "ثبت",
-      "همین",
-      "مه",
-      "طبق"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عالی",
-    "choices": [
-      "بدترین",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "statistics",
-    "choices": [
-      "سلطنت",
-      "داخلی",
-      "آمار",
-      "اعداد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "sale",
-    "choices": [
-      "کوچک",
-      "فروش",
-      "رویدادها",
-      "یاد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "زمستانی",
-    "choices": [
-      "winter",
-      "intention",
-      "total",
-      "moon"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "برهان آوردن",
-    "choices": [
-      "reason",
-      "union",
-      "lawful",
-      "religion"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موقع",
-    "choices": [
-      "stranger",
-      "rarely",
-      "situation",
-      "hot"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "واگذارکردن",
-    "choices": [
-      "zone",
-      "subject",
-      "Dollar",
-      "transfer"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زود",
-    "choices": [
-      "soldier",
-      "TRUE",
-      "early",
-      "hard"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "محروم",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "شامل"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "بازی",
-    "choices": [
-      "play",
-      "sexual",
-      "operation",
-      "bank"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عکس",
-    "choices": [
-      "children",
-      "steady",
-      "contrary",
-      "urban"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "age",
-    "choices": [
-      "علیه",
-      "عصر",
-      "استاندارد",
-      "آباد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شور",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "شیرین"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "منظره",
-    "choices": [
-      "view",
-      "new",
-      "correct",
-      "finally"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "principles",
-    "choices": [
-      "اصول",
-      "رسید",
-      "کره",
-      "بطور"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پریرو",
-    "choices": [
-      "illegal",
-      "publisher",
-      "beautiful",
-      "mean"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تلویزیونی",
-    "choices": [
-      "situation",
-      "resulting",
-      "televised",
-      "old"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "message",
-    "choices": [
-      "روم",
-      "برنده",
-      "پیام",
-      "میرزا"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "victory",
-    "choices": [
-      "پیروزی",
-      "زیادی",
-      "روم",
-      "اندازه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خشک",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "خیس"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "دور",
-    "choices": [
-      "نزدیک",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "independent",
-    "choices": [
-      "تئاتر",
-      "ارشد",
-      "کاخ",
-      "مستقل"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قمر",
-    "choices": [
-      "right",
-      "moon",
-      "minute",
-      "Mahmud"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "whenever",
-    "choices": [
-      "وقتی",
-      "اگر",
-      "استفاده",
-      "عبارت"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "تهاجم کردن",
-    "choices": [
-      "attack",
-      "respect",
-      "small",
-      "humane"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شجاع",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "ترسو"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "Canada",
-    "choices": [
-      "حمل",
-      "کانادا",
-      "دستگاه",
-      "حفظ"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "صاحب منصب",
-    "choices": [
-      "normal",
-      "official",
-      "one another",
-      "history"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "همه",
-    "choices": [
-      "all",
-      "old",
-      "winter",
-      "cry"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سترگ",
-    "choices": [
-      "large",
-      "seen",
-      "distance",
-      "worthiness"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "راست",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "چب",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "severe",
-    "choices": [
-      "پیشین",
-      "تلاش",
-      "شدید",
-      "گروه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "چاوشی",
-    "choices": [
-      "foundation",
-      "leadership",
-      "first",
-      "Abdullah"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "provision",
-    "choices": [
-      "بیت",
-      "سپس",
-      "تهیه",
-      "کرده‌است"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "score",
-    "choices": [
-      "زیاد",
-      "المللی",
-      "حساب",
-      "مسابقات"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نبرد",
-    "choices": [
-      "bad",
-      "but",
-      "singer",
-      "conflict"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فرهنگی",
-    "choices": [
-      "cultural",
-      "news agency",
-      "weak",
-      "top"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فریس",
-    "choices": [
-      "Iraq",
-      "trip",
-      "murdered",
-      "large"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "row",
-    "choices": [
-      "راک",
-      "اکنون",
-      "ترانه",
-      "رده"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شهر ساحلی",
-    "choices": [
-      "asleep",
-      "petroleum",
-      "seaport",
-      "guitar"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "temper",
-    "choices": [
-      "موقعیت",
-      "نگاه",
-      "خلق",
-      "وضعیت"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "وابسته بانسان",
-    "choices": [
-      "general",
-      "why",
-      "human",
-      "Ibrahim"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "woman",
-    "choices": [
-      "شورای",
-      "جنوبی",
-      "زن",
-      "زیاد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بیگانه",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "دوست"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "nominee",
-    "choices": [
-      "نامزد",
-      "آورد",
-      "تمامی",
-      "تمام"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "paying attention",
-    "choices": [
-      "داشت",
-      "توجه",
-      "داشتن",
-      "چهار"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سینما",
-    "choices": [
-      "paint",
-      "warm",
-      "movie theater",
-      "scientific"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "past",
-    "choices": [
-      "گاز",
-      "بازیکنان",
-      "گذشته",
-      "نور"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قدیمی",
-    "choices": [
-      "نو",
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "ایشان",
-    "choices": [
-      "relative",
-      "she",
-      "result",
-      "large"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حجار",
-    "choices": [
-      "whenever",
-      "kindness",
-      "mason",
-      "seaport"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آن",
-    "choices": [
-      "Dey",
-      "between",
-      "exclude",
-      "those"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تقلا",
-    "choices": [
-      "struggle",
-      "small",
-      "political party",
-      "but"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رفتن",
-    "choices": [
-      "January",
-      "asleep",
-      "gallows",
-      "go"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نقطه اتکاء",
-    "choices": [
-      "way",
-      "stay",
-      "entered",
-      "loaded"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "last",
-    "choices": [
-      "برادر",
-      "ان",
-      "هوا",
-      "آخر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Musavi",
-    "choices": [
-      "موسوی",
-      "عامل",
-      "نیاز",
-      "کشاورزی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "روزنامه",
-    "choices": [
-      "newspaper",
-      "read",
-      "seriously",
-      "far"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "humane",
-    "choices": [
-      "انسانی",
-      "نزد",
-      "باستانی",
-      "فوق"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "هور",
-    "choices": [
-      "sun",
-      "permission",
-      "score",
-      "on"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سرما",
-    "choices": [
-      "cold",
-      "including",
-      "third",
-      "sources"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حادث",
-    "choices": [
-      "sweet",
-      "new",
-      "January",
-      "formation"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ایشان",
-    "choices": [
-      "four",
-      "last",
-      "she",
-      "schedule"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شیرین",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "شور"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "intention",
-    "choices": [
-      "بعد",
-      "منظور",
-      "دسامبر",
-      "ثبت"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پرواز",
-    "choices": [
-      "presence",
-      "flight",
-      "play",
-      "imprison"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "reason",
-    "choices": [
-      "مسعود",
-      "گروه‌های",
-      "سبب",
-      "برنامه‌های"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سلطان",
-    "choices": [
-      "word",
-      "beneath",
-      "small",
-      "king"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "education",
-    "choices": [
-      "آموزشی",
-      "نسخه",
-      "م",
-      "نگاه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "هر یک",
-    "choices": [
-      "Saudi Arabia",
-      "place",
-      "one another",
-      "contemporary"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سپاهی",
-    "choices": [
-      "zinc",
-      "middle",
-      "soldier",
-      "best"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "انسانی",
-    "choices": [
-      "town",
-      "governmental",
-      "humane",
-      "education"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Mordad",
-    "choices": [
-      "خانه",
-      "مرداد",
-      "من",
-      "حاج"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ته",
-    "choices": [
-      "over",
-      "bottom",
-      "against",
-      "speed"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "corps",
-    "choices": [
-      "دهستان‌های",
-      "محلی",
-      "سپاه",
-      "بازی‌های"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "given",
-    "choices": [
-      "دادگان",
-      "رفته",
-      "تدریس",
-      "داده"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "tied",
-    "choices": [
-      "ق",
-      "بسته",
-      "موسسه",
-      "آورد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "stage",
-    "choices": [
-      "قاجار",
-      "میراث",
-      "مرحله",
-      "سفر"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "موسفید",
-    "choices": [
-      "closed",
-      "old",
-      "Persian",
-      "weak"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "prisoner",
-    "choices": [
-      "حسین",
-      "کل",
-      "بندی",
-      "شده"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "capital",
-    "choices": [
-      "کنونی",
-      "پایتخت",
-      "ترکیب",
-      "فعالیت"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عالی",
-    "choices": [
-      "supreme",
-      "look",
-      "Asia",
-      "probability"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ترک",
-    "choices": [
-      "relevant",
-      "Tabriz",
-      "import",
-      "turkish"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دریاچه",
-    "choices": [
-      "pond",
-      "other",
-      "friend",
-      "word"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ceremony",
-    "choices": [
-      "مراسم",
-      "انتخابات",
-      "کالیفرنیا",
-      "آمریکا"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "primary",
-    "choices": [
+      "اپل",
       "دادند",
-      "هوای",
-      "نیروی",
-      "عمده"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "some",
-    "choices": [
-      "موارد",
-      "درصد",
-      "تعدادی",
-      "ارشد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سطح",
-    "choices": [
-      "finding",
-      "up",
-      "area",
-      "subject"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مارس",
-    "choices": [
-      "March",
-      "Taraneh",
-      "sea",
-      "crooked"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بيرون",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "داخل",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "بنت",
-    "choices": [
-      "girl",
-      "Paul",
-      "rarely",
-      "sun"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پایان یافته",
-    "choices": [
-      "length",
-      "friend",
-      "finished",
-      "spring"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "because",
-    "choices": [
-      "چون",
-      "معاصر",
-      "کار",
-      "گردید"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "iron",
-    "choices": [
-      "دادن",
-      "آهن",
-      "درخت",
-      "مسیر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "America",
-    "choices": [
-      "بریتانیا",
-      "آمریکا",
-      "طور",
-      "گرفتن"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مهتاب",
-    "choices": [
-      "اعلام",
-      "آفتاب",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "جدید",
-    "choices": [
-      "اعلام",
-      "قدیمی",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "ساخت",
-    "choices": [
-      "Persian",
-      "production",
-      "some",
-      "brave"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "rear",
-    "choices": [
-      "اصفهان",
-      "همچنین",
-      "پشت",
-      "جنوبی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بربستی",
-    "choices": [
-      "ignorance",
-      "lawful",
-      "winning",
-      "sources"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "یونانی",
-    "choices": [
-      "Greek",
-      "determination",
-      "they",
-      "Turkish"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زیر",
-    "choices": [
-      "matter",
-      "beneath",
-      "base",
-      "style"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جزیره",
-    "choices": [
-      "unit",
-      "large",
-      "isle",
-      "too"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قدرت",
-    "choices": [
-      "free",
-      "motive",
-      "story",
-      "power"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Greek",
-    "choices": [
-      "مدت",
-      "تمام",
-      "یونانی",
-      "قبل"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "reach",
-    "choices": [
-      "رسیدن",
-      "ثابت",
-      "سرخ",
-      "به‌"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "surrounding",
-    "choices": [
-      "غربی",
-      "فرد",
-      "اطراف",
-      "دوم"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مرخصی",
-    "choices": [
-      "televised",
-      "Esfand",
-      "beautiful",
-      "off"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اهل",
-    "choices": [
-      "above",
-      "inhabitant",
-      "strong",
-      "closed"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "situation",
-    "choices": [
-      "حاج",
-      "اساسی",
-      "وضعیت",
-      "پدرش"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کج",
-    "choices": [
-      "سایت",
-      "مستقیم",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "اولی",
-    "choices": [
-      "آخری",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "فرومایه",
-    "choices": [
-      "base",
-      "structure",
-      "inhabitant",
-      "trohpy"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "احتیاط",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "بااحتیاط",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "اصفهان",
-    "choices": [
-      "Esfehan",
-      "recognition",
-      "big",
-      "exist"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مستقیم",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "کج",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "ایالت",
-    "choices": [
-      "state",
-      "society",
-      "she",
-      "polishing"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نو",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "قدیمی",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "دست یابی",
-    "choices": [
-      "period",
-      "communist",
-      "start",
-      "availability"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حکم فرما",
-    "choices": [
-      "closed",
-      "ruling",
-      "primary",
-      "period"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "short",
-    "choices": [
-      "موارد",
-      "شب",
-      "مناسبت‌ها",
-      "کوتاه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "زیبا",
-    "choices": [
-      "ابهام‌زدایی",
-      "زشت",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "ادهم",
-    "choices": [
-      "requirement",
-      "Qoran",
-      "novel",
-      "black"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اولیه",
-    "choices": [
-      "government",
-      "primitive",
-      "trust",
-      "Persian"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "group",
-    "choices": [
-      "خبرگزاری",
-      "مرداد",
-      "کره",
-      "گروه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عواقب",
-    "choices": [
-      "November",
-      "probability",
-      "participation",
-      "results"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ساقه",
-    "choices": [
-      "official",
-      "stem",
-      "energetic",
-      "musical instrument"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "هندستان",
-    "choices": [
-      "Asia",
-      "India",
-      "northern",
-      "sources"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ویژه",
-    "choices": [
-      "idle",
-      "special",
-      "small",
-      "between"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رقت انگیز",
-    "choices": [
-      "illegal",
-      "on",
-      "out",
-      "sad"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شروع",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "پایان",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "بااستعداد",
-    "choices": [
-      "talented",
-      "Tehran",
-      "Russia",
-      "beautiful"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سابق",
-    "choices": [
-      "former",
-      "cause",
-      "verdict",
-      "beginning"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موسفید",
-    "choices": [
-      "bottom",
-      "province",
-      "old",
-      "beautiful"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "education",
-    "choices": [
-      "تحصیل",
-      "سپس",
-      "محصول",
-      "دی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کوشارو",
-    "choices": [
-      "awak",
-      "motor",
-      "industrious",
-      "kilometer"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "society",
-    "choices": [
-      "مصر",
-      "جامعه",
-      "المللی",
-      "رئیس"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عادی",
-    "choices": [
-      "diplomatic",
-      "unknown",
-      "tool",
-      "normal"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "several",
-    "choices": [
-      "نظر",
-      "جنسی",
-      "چند",
-      "چاپ"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ruling",
-    "choices": [
-      "حاکم",
-      "سطح",
-      "پدرش",
-      "اهمیت"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جوان",
-    "choices": [
-      "پیر",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "نزدیک",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "دور",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "خان",
-    "choices": [
-      "idle",
-      "Shah",
-      "Khan",
-      "music"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نمره",
-    "choices": [
-      "reason",
-      "biography",
-      "number",
-      "flat"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دیر",
-    "choices": [
-      "اعلام",
-      "زود",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "نوشین",
-    "choices": [
-      "sweet",
-      "far",
-      "factors",
-      "yours"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اندازه کم",
-    "choices": [
-      "little",
-      "rose garden",
-      "scared",
-      "new"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "activity",
-    "choices": [
-      "سنگ",
-      "تصویر",
-      "ارومیه",
-      "فعالیت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دیده",
-    "choices": [
-      "brave",
-      "seen",
-      "kind",
-      "lawful"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "February",
-    "choices": [
-      "چاپ",
-      "پیرامون",
-      "بهمن",
-      "درگذشتگان"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مسکوک",
-    "choices": [
-      "money",
-      "nowadays",
-      "river",
-      "moon"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "المپیک",
-    "choices": [
-      "olympic",
-      "beautiful",
-      "night",
-      "sour"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سیاه",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سفید"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "بدترین",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "عالی"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "start",
-    "choices": [
-      "تدریس",
-      "آغاز",
-      "سمت",
-      "شمسی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "محمدرضا",
-    "choices": [
-      "Mohammad Reza",
-      "negative",
-      "under",
-      "second"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نازیبا",
-    "choices": [
-      "Mohammed",
-      "ugly",
-      "rukh",
-      "demise"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "security",
-    "choices": [
-      "آب",
       "امنیت",
-      "نشر",
-      "مجله"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "union",
-    "choices": [
-      "بدین",
-      "اتحادیه",
-      "مقدس",
-      "دیگر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "start",
-    "choices": [
-      "ابتدا",
-      "مرکز",
-      "اسماعیل",
-      "نیز"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "finally",
-    "choices": [
-      "قدر",
-      "تو",
-      "سرانجام",
-      "ایتالیا"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "relevant",
-    "choices": [
-      "نشده",
-      "مربوط",
-      "کردند",
-      "سپس"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مصالح",
-    "choices": [
-      "affairs",
-      "beautiful",
-      "the same",
-      "ministry"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "street",
-    "choices": [
-      "تلویزیونی",
-      "چشمه",
-      "اواخر",
-      "خیابان"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "written",
-    "choices": [
-      "شوروی",
-      "پروژه",
-      "نوشته",
-      "پیروزی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "division",
-    "choices": [
-      "شرکت",
-      "تقسیم",
-      "ده",
-      "آمد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "appearance",
-    "choices": [
-      "بیشتری",
-      "تشخیص",
-      "نمود",
-      "می‌گوید"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Iran",
-    "choices": [
-      "تلویزیونی",
-      "اینترنت",
-      "ایران",
-      "گونه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "rate",
-    "choices": [
-      "می‌شود",
-      "میزان",
-      "میان",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سهی",
-    "choices": [
-      "idle",
-      "straight",
-      "entered",
-      "gauze"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دست",
-    "choices": [
-      "beginning",
-      "hand",
-      "awak",
-      "industrious"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "speed",
-    "choices": [
-      "دست",
-      "سرعت",
-      "رنگ",
-      "ویژه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برنا",
-    "choices": [
-      "what",
-      "right",
-      "first",
-      "young"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "NASA",
-    "choices": [
-      "ایالت",
-      "یعنی",
-      "آموزش",
-      "ناسا"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ذکر",
-    "choices": [
-      "remembering",
-      "result",
-      "crooked",
-      "height"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "famous",
-    "choices": [
-      "نگاه",
-      "بنام",
-      "مناسب",
-      "آبان"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بودن",
-    "choices": [
-      "prisoner",
-      "minister",
-      "exist",
-      "your"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حاوی بودن",
-    "choices": [
-      "announcement",
-      "Mohammad Reza",
-      "some",
-      "include"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "radio",
-    "choices": [
-      "آوریل",
-      "رادیو",
-      "بهمن",
-      "عضو"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "way",
-    "choices": [
-      "توزیع",
-      "شکل",
-      "وجود",
-      "حد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "تهیه کردن",
-    "choices": [
-      "do",
-      "formation",
-      "end",
-      "supply"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "money",
-    "choices": [
-      "یادکرد",
-      "آنجا",
-      "اندازه",
-      "پول"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بسته",
-    "choices": [
-      "باز",
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "monthly",
-    "choices": [
-      "هدف",
-      "ماهی",
-      "نامزد",
-      "نوعی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نازیبا",
-    "choices": [
-      "education",
-      "ugly",
-      "street",
-      "Ziba"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مشفق",
-    "choices": [
-      "must",
-      "kind",
-      "then",
-      "monthly"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "return visit",
-    "choices": [
-      "درون",
-      "بازدید",
-      "عباس",
-      "تقویم"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "functions",
-    "choices": [
-      "شهرت",
-      "اهالی",
-      "بیشتر",
-      "اعمال"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سرد",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام",
-      "گرم"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "دسته درست کردن",
-    "choices": [
-      "little",
-      "traditional",
-      "team",
-      "January"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "supply",
-    "choices": [
-      "کاهش",
-      "اثر",
-      "عرضه",
-      "مانده"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "February",
-    "choices": [
-      "شهریور",
-      "متولد",
-      "مورد",
-      "فوریه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "olympic",
-    "choices": [
-      "دادند",
-      "موتور",
-      "المپیک",
-      "تشخیص"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "وقف شده",
-    "choices": [
-      "report",
-      "above",
-      "sacred",
-      "ton"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زمستان",
-    "choices": [
-      "تابستان",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "soccer",
-    "choices": [
-      "اطلاعات",
-      "فوتبال",
-      "وزیر",
-      "کیلومتری"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "project",
-    "choices": [
-      "می‌گویند",
-      "روزنامه",
-      "هر",
-      "پروژه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برحسب",
-    "choices": [
-      "sometimes",
-      "based on",
-      "leader",
-      "awak"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Paul",
-    "choices": [
-      "کل",
-      "جمعیت",
-      "تهران",
-      "پل"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پسر بچه",
-    "choices": [
-      "France",
-      "decision",
-      "crooked",
-      "boy"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "باز",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "بسته",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "دربار",
-    "choices": [
-      "world",
-      "small",
-      "known",
-      "court"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بیگانه",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "دوست",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "مقرره",
-    "choices": [
-      "hand",
-      "requirement",
-      "view",
-      "hot"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ایالت",
-    "choices": [
-      "good",
-      "one",
-      "every",
-      "state"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Ziad",
-    "choices": [
-      "سینما",
-      "هشت",
-      "زیاد",
-      "سازمان"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "intensity",
-    "choices": [
-      "باستان",
-      "موزه",
-      "شدت",
-      "اسکار"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "normal",
-    "choices": [
-      "مقابل",
-      "طبیعی",
-      "سیاسی",
-      "تاکنون"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بهمن",
-    "choices": [
-      "",
-      "rewards",
-      "February",
-      "industrious"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ناسا",
-    "choices": [
-      "monthly",
-      "NASA",
-      "training",
-      "study"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جدایی",
-    "choices": [
-      "historic",
-      "division",
-      "with",
-      "nations"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نقطه اتکاء",
-    "choices": [
-      "eight",
-      "stay",
-      "country",
-      "Iraq"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "علت",
-    "choices": [
-      "cause",
-      "open",
-      "industries",
-      "prescription"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سبک",
-    "choices": [
-      "mother",
-      "manner",
-      "reach",
-      "beautiful"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "typical",
-    "choices": [
-      "سن",
-      "نویسنده",
-      "چهار",
-      "نوعی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سست بودن",
-    "choices": [
-      "lazy",
-      "receipt",
-      "physics",
-      "likeness"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "leadership",
-    "choices": [
-      "مجله",
-      "زندگینامه",
-      "دست",
-      "رهبری"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "institution",
-    "choices": [
-      "مصر",
-      "الله",
-      "موسسه",
-      "پس"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "structure",
-    "choices": [
-      "ساختمان",
-      "دادگان",
-      "متعلق",
-      "هدف"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "توقف",
-    "choices": [
-      "expensive",
-      "crooked",
-      "stop",
-      "unknown"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نابرابری",
-    "choices": [
-      "different",
-      "straight",
-      "inequality",
-      "sea"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "به داخل",
-    "choices": [
-      "inside",
-      "what",
-      "Tabriz",
-      "hard"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "place",
-    "choices": [
-      "مکان",
-      "مثل",
-      "آمار",
-      "نو"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "فرمانروای مطلق",
-    "choices": [
-      "old",
-      "in",
-      "prince",
-      "rule"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کوتاهمدت",
-    "choices": [
-      "race",
-      "early",
-      "short",
-      "Mr."
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "release",
-    "choices": [
-      "شد",
-      "فقط",
-      "کردند",
-      "انتشار"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "word",
-    "choices": [
-      "کننده",
-      "جمهوری",
-      "پخش",
-      "کلمه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
+      "الله"
+    ],
+    "answer": "اپل",
+    "type": "sentence",
+    "intent": "social_post"
   },
   {
     "question": "داخل",
     "choices": [
       "بيرون",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
+      "محدود",
+      "روستایی",
+      "پیدا"
     ],
     "answer": 0,
     "type": "antonym"
   },
   {
-    "question": "فرود آوردن",
+    "question": "لطفا یادآوری کن که ------",
     "choices": [
-      "land",
-      "style",
-      "place",
-      "truth"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "made",
-    "choices": [
-      "تئاتر",
-      "مثال",
-      "ساخته",
-      "شهریور"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "singer",
-    "choices": [
-      "سال‌های",
-      "پشت",
-      "نمود",
-      "خواننده"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "صیحه زدن",
-    "choices": [
-      "after",
-      "cry",
-      "surrounding",
-      "philosophy"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "conflict",
-    "choices": [
-      "بنیاد",
-      "هفتم",
-      "نبرد",
-      "ریاضی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دور",
-    "choices": [
-      "the majority of",
-      "inspection",
-      "ministry",
-      "far"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "establishment",
-    "choices": [
-      "مرکزی",
-      "شده‌است",
-      "تاسیس",
-      "تو"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بهار",
-    "choices": [
-      "million",
-      "December",
-      "spring",
-      "rank"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "receipt",
-    "choices": [
-      "چرا",
-      "رسید",
-      "اعلام",
-      "مسیر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Dollar",
-    "choices": [
-      "معرفی",
-      "مرکز",
-      "دلار",
-      "شبیه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "expression",
-    "choices": [
-      "جای",
-      "اروپا",
-      "دهد",
-      "بیان"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "آذرماه",
-    "choices": [
-      "December",
-      "revolution",
-      "piece",
-      "independent"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "explanation",
-    "choices": [
-      "شرح",
-      "سه",
-      "بیان",
-      "بین"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عاشق",
-    "choices": [
-      "love",
-      "Yemen",
-      "until",
-      "illness"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "urban",
-    "choices": [
-      "شهری",
-      "علی",
-      "آسیا",
-      "خاک"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "independence",
-    "choices": [
-      "مورد",
-      "استقلال",
-      "بدون",
-      "الله"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قدیمی",
-    "choices": [
-      "جدید",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "نیو یورک",
-    "choices": [
-      "named",
-      "often",
-      "everybody",
-      "New York"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "انقطاع یافتن",
-    "choices": [
-      "end",
-      "right",
-      "published",
-      "Arabic"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عنوان",
-    "choices": [
-      "handle",
-      "title",
-      "support",
-      "Dollar"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "office",
-    "choices": [
-      "چین",
-      "اداره",
-      "گرفته",
-      "تیر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "even",
-    "choices": [
-      "دل",
-      "بخش‌های",
-      "حتی",
-      "مقدس"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "instruction",
-    "choices": [
-      "رخ",
-      "ریاست",
-      "تدریس",
-      "مهاجرت"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بربستی",
-    "choices": [
-      "go",
-      "imprison",
-      "lawful",
-      "remembering"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "علی",
-    "choices": [
-      "knowledge",
-      "exclude",
-      "Ali",
-      "frontier"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "similar to",
-    "choices": [
-      "سده",
-      "ازدواج",
-      "بازدید",
-      "شبیه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سفید",
-    "choices": [
-      "سیاه",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "شاد",
-    "choices": [
-      "martyr",
-      "time",
-      "happy",
-      "they"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قدیم",
-    "choices": [
-      "ugly",
-      "old days",
-      "outside",
-      "scared"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "روز",
-    "choices": [
-      "orient",
-      "daytime",
-      "mathematics",
-      "style"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کارگردان",
-    "choices": [
-      "stage manager",
-      "famous",
-      "visible",
-      "beautiful"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پایستن",
-    "choices": [
-      "beginning",
-      "fight",
-      "last",
-      "Ibrahim"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "including",
-    "choices": [
-      "اش",
-      "پادشاه",
-      "شامل",
-      "پادشاهی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پایان",
-    "choices": [
-      "آغاز",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "خشک",
-    "choices": [
-      "Sinai Mountain",
-      "murdered",
-      "dry",
-      "worthiness"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "child",
-    "choices": [
-      "فرزند",
-      "هوایی",
-      "جدا",
-      "تحصیلات"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شیرین",
-    "choices": [
-      "سایت",
-      "تلخ",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "پهلوی",
-    "choices": [
-      "beautiful",
-      "surface",
-      "winter",
-      "Pavlavi"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تاسیس کردن",
-    "choices": [
-      "found",
-      "southern",
-      "soul",
-      "science"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "politics",
-    "choices": [
-      "ساله",
-      "سیاست",
-      "توسط",
-      "اختلاف"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "hard",
-    "choices": [
-      "دره",
-      "انتخابات",
-      "سخت",
-      "گوناگون"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مرداد",
-    "choices": [
-      "Mordad",
-      "tongue",
-      "real",
-      "scared"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بالابود",
-    "choices": [
-      "ancient.",
-      "excess",
-      "boy",
-      "black"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جلد",
-    "choices": [
-      "poetry",
-      "she",
-      "volume",
-      "hour"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "truth",
-    "choices": [
-      "اصل",
-      "می‌گردد",
-      "شرکت",
-      "ادامه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سن",
-    "choices": [
-      "old",
-      "age",
-      "monetary",
-      "services"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "space",
-    "choices": [
-      "داستان",
-      "شده‌است",
-      "جمهوری",
-      "جا"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مشغول",
-    "choices": [
-      "busy",
-      "model",
-      "library",
-      "establishment"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دیگری",
-    "choices": [
-      "the other",
-      "ugly",
-      "black",
-      "found"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بیکار",
-    "choices": [
-      "مشغول",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "نیرومند",
-    "choices": [
-      "strong",
-      "southern",
-      "yours",
-      "prison"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "امر",
-    "choices": [
-      "summer",
-      "order",
-      "week",
-      "truth"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فلسفه",
-    "choices": [
-      "society",
-      "beneath",
-      "philosophy",
-      "April"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بیدار",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "خواب",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "بی توجه",
-    "choices": [
-      "best",
-      "reason",
-      "operations",
-      "careless"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "obstruction",
-    "choices": [
-      "سده",
-      "ترانه",
-      "تعداد",
-      "تحصیلات"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نامطمئن",
-    "choices": [
-      "مطمئن",
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "جامع",
-    "choices": [
-      "resistance",
-      "ignorance",
-      "outside",
-      "universal"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Hey",
-    "choices": [
-      "سیاسی",
-      "ای",
-      "مهدی",
-      "شهرستان"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "middle",
-    "choices": [
-      "تقسیمات",
-      "انتخابات",
-      "میانه",
-      "خلیج"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بی درد سر",
-    "choices": [
-      "easy",
-      "inspection",
-      "exclude",
-      "type"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "احاطه",
-    "choices": [
-      "often",
-      "winter",
-      "surrounding",
-      "above"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فایده",
-    "choices": [
-      "Aban",
-      "reason",
-      "perception",
-      "profit"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کتابخانه",
-    "choices": [
-      "stop",
-      "related",
-      "straight",
-      "library"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "mother",
-    "choices": [
-      "مادر",
-      "صدا",
-      "یافت",
-      "سبک"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سریال",
-    "choices": [
-      "your",
-      "series",
-      "Egypt",
-      "race"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "چه",
-    "choices": [
-      "shine",
-      "what",
-      "winning",
-      "tree"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "روشن",
-    "choices": [
-      "ابهام‌زدایی",
-      "خاموش",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "پادشاه",
-    "choices": [
-      "ملکه",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "ابوی",
-    "choices": [
-      "unit",
-      "straight",
-      "father",
-      "monthly"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ویژه",
-    "choices": [
-      "similar",
-      "view",
-      "special",
-      "old"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "هیچ",
-    "choices": [
-      "small",
-      "hot",
-      "end",
-      "no"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "متعلق بمن",
-    "choices": [
-      "spirit",
-      "money",
-      "services",
-      "my"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نصیب",
-    "choices": [
-      "space",
-      "cold",
-      "text",
-      "share"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "یافت",
-    "choices": [
-      "effective",
-      "Europe",
-      "finding",
-      "go"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کالای وارده",
-    "choices": [
-      "bitter",
-      "release",
-      "import",
-      "rules"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "غیر شرطی",
-    "choices": [
-      "engineering",
-      "their",
-      "real",
-      "unconditional"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "relative",
-    "choices": [
-      "خویش",
-      "بشر",
-      "معنی",
-      "دهه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بدترین",
-    "choices": [
-      "ابهام‌زدایی",
-      "عالی",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "زرنگ",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "تنبل"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "جفت",
-    "choices": [
-      "society",
-      "even",
-      "religious",
-      "stop"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "man",
-    "choices": [
-      "سطح",
-      "مرد",
-      "درجه",
-      "کرمان"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "داخل",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "داخل",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "centers",
-    "choices": [
-      "مراکز",
-      "پیدا",
-      "کوتاه",
-      "تأثیر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "تابستانی",
-    "choices": [
-      "artistic",
-      "province",
-      "summer",
-      "for some time"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خوشحال",
-    "choices": [
-      "ناراحت",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "زشت",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "خوشگل"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "up",
-    "choices": [
-      "بالا",
-      "نامه",
-      "فی",
-      "همسر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مقرری",
-    "choices": [
-      "subscriber",
-      "stranger",
-      "social",
-      "salary"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "regarding",
-    "choices": [
-      "مجموعه",
-      "کامپیوتر",
+      "مسابقات",
       "مرگ",
-      "پیرامون"
+      "راه",
+      "برای جلسه دونات بگیرم"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "برای جلسه دونات بگیرم",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "رفتن",
+    "question": "پیش بینی وضع هوای ------ را به من بگو",
     "choices": [
-      "go",
-      "month",
-      "under",
-      "good"
+      "این هفته",
+      "اغلب",
+      "کمونیست",
+      "بهترین"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "weather_query"
   },
   {
-    "question": "پایین",
+    "question": "------ زینب رو از رویداد‌ها پاک کن",
     "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "بالا"
+      "روز تولد",
+      "نقاط",
+      "شهر",
+      "نگهداری"
     ],
-    "answer": 3,
-    "type": "antonym"
+    "answer": "روز تولد",
+    "type": "sentence",
+    "intent": "calendar_remove"
   },
   {
-    "question": "spreading",
+    "question": "------ چند سال زندگی کرد",
     "choices": [
-      "مهم",
-      "توسعه",
-      "فناوری",
-      "واژه"
+      "مهاتما گاندی",
+      "زنان",
+      "موزه",
+      "چیزی"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "مهاتما گاندی",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "مشغول",
+    "question": "------ بکش",
     "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "بیکار"
+      "جاروبرقی",
+      "پی",
+      "گذاری",
+      "امنیت"
     ],
-    "answer": 3,
-    "type": "antonym"
+    "answer": "جاروبرقی",
+    "type": "sentence",
+    "intent": "iot_cleaning"
   },
   {
-    "question": "سودا",
+    "question": "آیا روز ------ قراری دارم",
     "choices": [
-      "bad",
-      "model",
-      "Japan",
-      "trade"
+      "نظامی",
+      "باقی",
+      "کند",
+      "جمعه"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "جمعه",
+    "type": "sentence",
+    "intent": "calendar_query"
   },
   {
-    "question": "خوب",
+    "question": "شکایت به ------ را توئیت کن",
     "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "بد"
+      "اجرا",
+      "روابط",
+      "نقش",
+      "پارس آنلاین"
     ],
-    "answer": 3,
-    "type": "antonym"
+    "answer": "پارس آنلاین",
+    "type": "sentence",
+    "intent": "social_post"
   },
   {
-    "question": "مستثنی کردن",
+    "question": "در چه سنی ------ ازدواج کرد",
     "choices": [
-      "city",
-      "society",
-      "exclude",
-      "moon"
+      "ی",
+      "زیادی",
+      "آوریل",
+      "علی کریمی"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "علی کریمی",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "داخل",
+    "question": "میتونی اهنگ ------ پخش کنی",
     "choices": [
-      "ابهام‌زدایی",
-      "داخل",
-      "سایت",
-      "اعلام"
+      "قهرمان",
+      "همین",
+      "اروپا",
+      "ابی"
     ],
-    "answer": 1,
-    "type": "antonym"
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "بدایت",
+    "question": "زنگ بزن ------ که ساعت هفت شب من را بردارد",
     "choices": [
-      "small",
-      "careless",
-      "beginning",
-      "portrait"
+      "دوره",
+      "زندگی",
+      "ام",
+      "تپسی"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "تپسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
   },
   {
-    "question": "ارزان قیمت",
+    "question": "لیست ------ من را پیدا کن و آن را حذف کن",
     "choices": [
-      "black",
-      "cheap",
-      "bottom",
-      "legacy"
+      "خرید",
+      "‌ها",
+      "کانادا",
+      "ترین"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "خرید",
+    "type": "sentence",
+    "intent": "lists_remove"
   },
   {
-    "question": "بد",
+    "question": "در ------ ساعت چند است",
     "choices": [
-      "خوب",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
+      "تهران",
+      "کد",
+      "امروزه",
+      "سپس"
     ],
-    "answer": 0,
-    "type": "antonym"
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "datetime_query"
   },
   {
-    "question": "ملی",
-    "choices": [
-      "national",
-      "queen",
-      "bring up",
-      "ten"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "cases",
-    "choices": [
-      "ایران",
-      "هوای",
-      "موارد",
-      "ام"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "scientific",
-    "choices": [
-      "اهالی",
-      "علمی",
-      "آفریقا",
-      "کرده"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ناشر",
-    "choices": [
-      "publisher",
-      "Mehr",
-      "electric",
-      "Aban"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اکتبر",
-    "choices": [
-      "outside",
-      "Fars",
-      "without",
-      "october"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "under",
-    "choices": [
-      "جرم",
-      "تحت",
-      "انتخابات",
-      "دل"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Mehdi",
-    "choices": [
-      "یونانی",
-      "مهدی",
-      "اسلام",
-      "روستاهای"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مطمئن",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "نامطمئن",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "winning",
-    "choices": [
-      "فارس",
-      "محل",
-      "گفت",
-      "برد"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "درخشش",
-    "choices": [
-      "shine",
-      "reason",
-      "all",
-      "queen"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "علمی",
-    "choices": [
-      "bad",
-      "last",
-      "scientific",
-      "end"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "machine",
-    "choices": [
-      "ماشین",
-      "اینترنت",
-      "نظیر",
-      "دهد"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "چپ",
+    "question": "ولادت",
     "choices": [
       "numbers",
-      "help",
-      "industry",
-      "left"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "برد",
-    "choices": [
-      "winning",
-      "decade",
-      "through",
-      "like"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "season",
-    "choices": [
-      "فصل",
-      "آهن",
-      "سایت",
-      "می‌کند"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "گریه",
-    "choices": [
-      "خنده",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "saying",
-    "choices": [
-      "گفته",
-      "ویکی‌پدیای",
-      "سوم",
-      "سه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دکتر",
-    "choices": [
-      "doctor",
-      "relevant",
-      "publishing",
-      "fight"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "انقلاب",
-    "choices": [
-      "territory",
-      "revolution",
-      "compilation",
-      "system"
+      "birth",
+      "hajji",
+      "beautiful"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "نازیبا",
+    "question": "لطفا برو روی ------",
     "choices": [
-      "end",
-      "ugly",
-      "good",
-      "straight"
+      "مشخص",
+      "رابطه",
+      "پرورش",
+      "رادیو خبر"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "رادیو خبر",
+    "type": "sentence",
+    "intent": "play_radio"
   },
   {
-    "question": "مهدی",
+    "question": "لطفاً به من بگو ------ زیرا امروز هوا بسیار گرم است",
     "choices": [
-      "simple",
-      "end",
-      "new",
-      "Mehdi"
+      "چرا",
+      "چترم را بردارم",
+      "بریتانیا",
+      "اطراف"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "همچنین",
-    "choices": [
-      "southern",
-      "area",
-      "probability",
-      "too"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "therefore",
-    "choices": [
-      "بنابراین",
-      "پول",
-      "نفت",
-      "اروپا"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ایفاء",
-    "choices": [
-      "fulfillment",
-      "transplantation",
-      "large",
-      "share"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "میلادی",
-    "choices": [
-      "manager",
-      "A.D.",
-      "known",
-      "sometimes"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "به داخل",
-    "choices": [
-      "superior",
-      "previous",
-      "winter",
-      "inside"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "income",
-    "choices": [
-      "آبی",
-      "درآمد",
-      "رده",
-      "خود"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "novel",
-    "choices": [
-      "تعریف",
-      "کارگردانی",
-      "ساختار",
-      "جدید"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "role",
-    "choices": [
-      "نقش",
-      "سازی",
-      "هشت",
-      "ساده"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اظهار",
-    "choices": [
-      "top",
-      "zinc",
-      "foreigner",
-      "expression"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ادهم",
-    "choices": [
-      "with",
-      "distribution",
-      "black",
-      "voice"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بربستی",
-    "choices": [
-      "free",
-      "lawful",
-      "best",
-      "hard"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "with",
-    "choices": [
-      "با",
-      "نیمه",
-      "گروهی",
-      "بیست"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قوی",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "ضعیف"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "geographical",
-    "choices": [
-      "عرب",
-      "عهده",
-      "تپه",
-      "جغرافیایی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حادث",
-    "choices": [
-      "new",
-      "born",
-      "careful",
-      "release"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قدیمی",
-    "choices": [
-      "جدید",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "خشک",
-    "choices": [
-      "خیس",
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "بلا",
-    "choices": [
-      "without",
-      "late",
-      "period",
-      "handle"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "creation",
-    "choices": [
-      "ایجاد",
-      "این",
-      "شرقی",
-      "ساخته"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نامطمئن",
-    "choices": [
-      "اعلام",
-      "مطمئن",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "برنا",
-    "choices": [
-      "Mehdi",
-      "their",
-      "young",
-      "Turkey"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عربی",
-    "choices": [
-      "happy",
-      "combination",
-      "Arabic",
-      "country"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دانش",
-    "choices": [
-      "happy",
-      "industrial",
-      "radio",
-      "knowledge"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "صلابه",
-    "choices": [
-      "April",
-      "stop",
-      "off",
-      "gallows"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سبک",
-    "choices": [
-      "text",
-      "subsequent",
-      "style",
-      "mason"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اجراء",
-    "choices": [
-      "nominee",
-      "yet",
-      "execution",
-      "one another"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "currently",
-    "choices": [
-      "اکنون",
-      "رشد",
-      "بیان",
-      "صنعت"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کوچک",
-    "choices": [
-      "hard",
-      "transplantation",
-      "small",
-      "paint"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "after",
-    "choices": [
-      "جامعه",
-      "حد",
-      "پی",
-      "نشانی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پایستن",
-    "choices": [
-      "one another",
-      "last",
-      "eye",
-      "she"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سخت",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "آسان",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "method",
-    "choices": [
-      "روش",
-      "هنوز",
-      "معنی",
-      "دانشگاه‌های"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نازیبا",
-    "choices": [
-      "wet",
-      "percentage",
-      "they",
-      "ugly"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بوم",
-    "choices": [
-      "religion",
-      "country",
-      "early",
-      "Soviet Union"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "memory",
-    "choices": [
-      "یاد",
-      "گرم",
-      "مشاهده",
-      "موزه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "الزامی",
-    "choices": [
-      "there",
-      "small",
-      "environment",
-      "necessary"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "original",
-    "choices": [
-      "می",
-      "افغانستان",
-      "یونان",
-      "اصلی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "one another",
-    "choices": [
-      "نقطه",
-      "برای",
-      "یکدیگر",
-      "اولیه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "upon",
-    "choices": [
-      "فناوری",
-      "سر",
-      "تک",
-      "درصد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بربستی",
-    "choices": [
-      "Mehr",
-      "steady",
-      "report",
-      "lawful"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دیر",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "زود"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "رفتن",
-    "choices": [
-      "last",
-      "several",
-      "go",
-      "report"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "انقطاع یافتن",
-    "choices": [
-      "open",
-      "end",
-      "valley",
-      "novel"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رقت انگیز",
-    "choices": [
-      "history",
-      "December",
-      "old",
-      "sad"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خوب",
-    "choices": [
-      "اعلام",
-      "بد",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "یگانه",
-    "choices": [
-      "only",
-      "go",
-      "open",
-      "January"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "side",
-    "choices": [
-      "سمت",
-      "مرد",
-      "عربستان",
-      "اول"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "manager",
-    "choices": [
-      "بن",
-      "مقاله",
-      "مدیر",
-      "روم"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "London",
-    "choices": [
-      "همه",
-      "تحصیلات",
-      "لندن",
-      "ایالات"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ساخته شده",
-    "choices": [
-      "free",
-      "girl",
-      "made",
-      "neigborhood"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "gauze",
-    "choices": [
-      "میانه",
-      "کردند",
-      "ایرانی",
-      "گاز"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "هم",
-    "choices": [
-      "and",
-      "reply",
-      "beneath",
-      "best"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ثمین",
-    "choices": [
-      "radio",
-      "ugly",
-      "expensive",
-      "Paul"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ارزون",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "گرون",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "نامهربان",
-    "choices": [
-      "سایت",
-      "مهربان",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "جانبی",
-    "choices": [
-      "seizure",
-      "ignorance",
-      "obstruction",
-      "side"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بین",
-    "choices": [
-      "between",
-      "first",
-      "illustration",
-      "Meshed"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پدیدار",
-    "choices": [
-      "person",
-      "the other",
-      "seyyed",
-      "visible"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رادیویی",
-    "choices": [
-      "strong",
-      "radio",
-      "technical",
-      "right"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "محاذی",
-    "choices": [
-      "money",
-      "neigborhood",
-      "opposite",
-      "thriving"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Imam",
-    "choices": [
-      "علیه",
-      "تولد",
-      "امام",
-      "اوایل"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "love",
-    "choices": [
-      "عشق",
-      "ساکن",
-      "وسیله",
-      "شهریور"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "opposite",
-    "choices": [
-      "خلیج",
-      "مقابل",
-      "همان",
-      "سخن"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "little",
-    "choices": [
-      "مادر",
-      "درگاه",
-      "دو",
-      "کم"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جهل",
-    "choices": [
-      "ابهام‌زدایی",
-      "علم",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "exposition",
-    "choices": [
-      "شیعه",
-      "توضیح",
-      "غربی",
-      "سر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "movement",
-    "choices": [
-      "حقیقت",
-      "حرکت",
-      "معماری",
-      "می"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "رفته",
-    "choices": [
-      "gone",
-      "Afghanistan",
-      "Meshed",
-      "August"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "توقف",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "حرکت"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "view",
-    "choices": [
-      "دید",
-      "ایشان",
-      "های",
-      "نظریه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "star",
-    "choices": [
-      "نقش",
-      "موجود",
-      "آیت",
-      "ستاره"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "آفریقا",
-    "choices": [
-      "Canada",
-      "more",
-      "security",
-      "Africa"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Russia",
-    "choices": [
-      "اغلب",
-      "فعالیت",
-      "معمولا",
-      "روسیه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خفته",
-    "choices": [
-      "illness",
-      "what",
-      "asleep",
-      "sun"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خرم",
-    "choices": [
-      "certain",
-      "or",
-      "daytime",
-      "green"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "توجیه",
-    "choices": [
-      "go",
-      "piece",
-      "tongue",
-      "explanation"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "June",
-    "choices": [
-      "سپتامبر",
-      "ژوئن",
-      "سنگ",
-      "مختلف"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خبرگزاری",
-    "choices": [
-      "happy",
-      "in",
-      "news agency",
-      "China"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "هفت روز",
-    "choices": [
-      "like",
-      "week",
-      "after",
-      "trace"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "office",
-    "choices": [
-      "دانش",
-      "سوی",
-      "دفتر",
-      "دومین"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کودک",
-    "choices": [
-      "child",
-      "monetary",
-      "decision",
-      "woman"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خنده",
-    "choices": [
-      "گریه",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "specific",
-    "choices": [
-      "براي",
-      "پیدا",
-      "خون",
-      "مشخص"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سرد",
-    "choices": [
-      "گرم",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "زود",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "دیر"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "برای چه",
-    "choices": [
-      "white",
-      "stop",
-      "why",
-      "last"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "sentence",
-    "choices": [
-      "فرد",
-      "زندگینامه",
-      "وزیر",
-      "جمله"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بسته",
-    "choices": [
-      "inside",
-      "rank",
-      "careful",
-      "closed"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اولی",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "آخری",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "افشا شده",
-    "choices": [
-      "mother",
-      "contrary",
-      "out",
-      "seizure"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "meter",
-    "choices": [
-      "ناحیه",
-      "منابع",
-      "متر",
-      "سالگی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "system",
-    "choices": [
-      "بازی‌های",
-      "بدن",
-      "ترتیب",
-      "دیگر"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بیضاء",
-    "choices": [
-      "school",
-      "square",
-      "white",
-      "king"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "tree",
-    "choices": [
-      "همسر",
-      "درخت",
-      "کوه",
-      "همچون"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "limited",
-    "choices": [
-      "جز",
-      "ترکیه",
-      "اهل",
-      "محدود"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شیر",
-    "choices": [
-      "republic",
-      "valve",
-      "California",
-      "spouse"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گل آلود کردن",
-    "choices": [
-      "strong",
-      "expression",
-      "ignorance",
-      "mud"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سلطان",
-    "choices": [
-      "straight",
-      "sultan",
-      "order",
-      "area"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "معنی بخشیدن",
-    "choices": [
-      "mean",
-      "Kerman",
-      "June",
-      "valve"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رخسار",
-    "choices": [
-      "warm",
-      "recent",
-      "city",
-      "visage"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مقداری",
-    "choices": [
-      "sweet",
-      "straight",
-      "some",
-      "China"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "step",
-    "choices": [
-      "گیلان",
-      "ماشین",
-      "اقدام",
-      "تصویب"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "زود",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "دیر",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "million",
-    "choices": [
-      "انسان",
-      "میلیون",
-      "آوریل",
-      "فرهنگی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سطح",
-    "choices": [
-      "Mohammed",
-      "age",
-      "area",
-      "situation"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Iraq",
-    "choices": [
-      "سر",
-      "عراق",
-      "کردن",
-      "اصل"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خوب",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "بد"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "second",
-    "choices": [
-      "علاوه",
-      "دوباره",
-      "باقی",
-      "مدیر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شبکهایی",
-    "choices": [
-      "old",
-      "August",
-      "network",
-      "knowledge"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "یک چیزی",
-    "choices": [
-      "entered",
-      "special",
-      "something",
-      "hundred"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "چب",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "راست",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "آنچنان",
-    "choices": [
-      "bottom",
-      "occupied",
-      "such a",
-      "reach"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "هزار",
-    "choices": [
-      "exclude",
-      "thousand",
-      "on",
-      "queen"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پرداخت",
-    "choices": [
-      "polishing",
-      "ancient",
-      "good",
-      "utilization"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رودخانه ای",
-    "choices": [
-      "river",
-      "twenty",
-      "prison",
-      "Ibrahim"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بلا تکلیف",
-    "choices": [
-      "uncertain",
-      "late",
-      "problems",
-      "dry"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دی",
-    "choices": [
-      "outside of",
-      "off",
-      "Dey",
-      "science"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نفر",
-    "choices": [
-      "weak",
-      "person",
-      "beautiful",
-      "urban"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پایین",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "بالا"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "March",
-    "choices": [
-      "بندی",
-      "مارس",
-      "طریق",
-      "فعالیت"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "hill",
-    "choices": [
-      "هدایت",
-      "تپه",
-      "برادر",
-      "دسترسی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کیش",
-    "choices": [
-      "and",
-      "religion",
-      "start",
-      "careful"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کسری دار",
-    "choices": [
-      "bitter",
-      "under",
-      "imaginary",
-      "England"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دانش",
-    "choices": [
-      "last",
-      "length",
-      "queen",
-      "knowledge"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "هیکل",
-    "choices": [
-      "London",
-      "body",
-      "residential",
-      "crooked"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "because",
-    "choices": [
-      "زیرا",
-      "میان",
-      "ام",
-      "ساخته"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خشک",
-    "choices": [
-      "dry",
-      "red",
-      "work",
-      "manager"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "درون",
-    "choices": [
-      "interior",
-      "oriental",
-      "portrait",
-      "asleep"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "لسان",
-    "choices": [
-      "closed",
-      "including",
-      "too",
-      "tongue"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "significant",
-    "choices": [
-      "صدا",
-      "خانه",
-      "طبیعی",
-      "مهم"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "هرکدام",
-    "choices": [
-      "every",
-      "release",
-      "on",
-      "prominent"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "post",
-    "choices": [
-      "شهر",
-      "جریان",
-      "پست",
-      "مورد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Mohsen",
-    "choices": [
-      "غربی",
-      "محسن",
-      "سرانجام",
-      "حاصل"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ثانیه",
-    "choices": [
-      "isle",
-      "collaboration",
-      "second",
-      "red"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "half",
-    "choices": [
-      "نیمه",
-      "پدر",
-      "طی",
-      "بازیکنان"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "area",
-    "choices": [
-      "رده",
-      "شیر",
-      "ناحیه",
-      "لندن"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خفته",
-    "choices": [
-      "determination",
-      "asleep",
-      "out",
-      "free"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شش",
-    "choices": [
-      "six",
-      "tune",
-      "America",
-      "original"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "چپ",
-    "choices": [
-      "way",
-      "left",
-      "creature",
-      "include"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "trohpy",
-    "choices": [
-      "حمایت",
-      "میزان",
-      "جایزه",
-      "نخستین"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "به کارگیری",
-    "choices": [
-      "Kurdistan",
-      "free",
-      "idle",
-      "utilization"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مرحله",
-    "choices": [
-      "area",
-      "stop",
-      "flight",
-      "stage"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پایان",
-    "choices": [
-      "اعلام",
-      "شروع",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "ارزون",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "گرون"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "بزرگ",
-    "choices": [
-      "کوچیک",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "توشه",
-    "choices": [
-      "beautiful",
-      "what",
-      "provision",
-      "start"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بدترین",
-    "choices": [
-      "عالی",
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "release",
-    "choices": [
-      "جزیره",
-      "ش",
-      "کامل",
-      "آزادی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "غیرقانونی",
-    "choices": [
-      "topic",
-      "illegal",
-      "sour",
-      "out"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خاموش",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "روشن"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "English",
-    "choices": [
-      "انگلیسی",
-      "استرالیا",
-      "درگاه",
-      "كه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پیوند",
-    "choices": [
-      "nowadays",
-      "cultural",
-      "transplantation",
-      "sour"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "very",
-    "choices": [
-      "مدتی",
-      "بسیار",
-      "عوامل",
-      "ارتباط"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "گازپانسمان",
-    "choices": [
-      "December",
-      "gauze",
-      "kilometer",
-      "Ordibehesht"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موسیقی",
-    "choices": [
-      "music",
-      "inspection",
-      "rules",
-      "service"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مقرون به حقیقت",
-    "choices": [
-      "out",
-      "sacred",
-      "TRUE",
-      "city"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آباد",
-    "choices": [
-      "announcement",
-      "careful",
-      "possible",
-      "thriving"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فارسی",
-    "choices": [
-      "usually",
-      "until",
-      "industrious",
-      "Persian"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قشنگ",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "زشت"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "جایگیری",
-    "choices": [
-      "music",
-      "rear",
-      "establishment",
-      "far"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "cultural",
-    "choices": [
-      "نمایندگان",
-      "قمری",
-      "موارد",
-      "فرهنگی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "central",
-    "choices": [
-      "تلویزیونی",
-      "امکان",
-      "مرکزی",
-      "نموده"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "complete",
-    "choices": [
-      "مالی",
-      "حال",
-      "کامل",
-      "ایالت"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نازیبا",
-    "choices": [
-      "ugly",
-      "published",
-      "formation",
-      "production"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "actress",
-    "choices": [
-      "بازیگر",
-      "ابهام‌زدایی",
-      "صد",
-      "دینی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "چترم را بردارم",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
     "question": "زمان",
     "choices": [
-      "careful",
-      "first",
-      "time",
-      "old days"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نازیبا",
-    "choices": [
-      "open",
-      "trohpy",
-      "ugly",
-      "stranger"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "size",
-    "choices": [
-      "زندگی",
-      "اندازه",
-      "فوتبال",
-      "آوریل"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "موسفید",
-    "choices": [
-      "tradition",
-      "old",
-      "reaction",
-      "valve"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شیمیایی",
-    "choices": [
-      "relations",
-      "trace",
-      "chemical",
-      "several"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خوشگل",
-    "choices": [
-      "ابهام‌زدایی",
-      "زشت",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "کل",
-    "choices": [
-      "French",
-      "imaginary",
-      "matter",
-      "total"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "parliament",
-    "choices": [
-      "مجلس",
-      "انگلیسی",
-      "ها",
-      "روش"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "رست",
-    "choices": [
-      "their",
-      "north",
-      "new",
-      "rank"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جنبش",
-    "choices": [
-      "some",
-      "Canada",
-      "movement",
-      "young"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ادبیات",
-    "choices": [
-      "ugly",
-      "mud",
-      "literature",
-      "seen"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کار",
-    "choices": [
-      "why",
-      "demise",
-      "work",
-      "cry"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "متمایز",
-    "choices": [
-      "famous",
-      "to",
-      "different",
-      "energy"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تخیلی",
-    "choices": [
-      "exclude",
-      "supreme",
-      "father",
-      "imaginary"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "three",
-    "choices": [
-      "بازیکنان",
-      "سه",
-      "موسوی",
-      "شش"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "میانی",
-    "choices": [
-      "middle",
-      "new",
-      "neigborhood",
-      "remembering"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قمر",
-    "choices": [
-      "",
-      "out",
-      "importance",
-      "moon"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فرهنگ",
-    "choices": [
-      "Farhang",
-      "distance",
-      "excess",
-      "the majority of"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زمستان",
-    "choices": [
-      "تابستان",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "نوع دیگر",
-    "choices": [
-      "rural district",
-      "off",
-      "other",
-      "Abdullah"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "probability",
-    "choices": [
-      "احتمال",
-      "روزنامه",
-      "ارتش",
-      "تحصیلات"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "موتور",
-    "choices": [
-      "electric",
-      "motor",
-      "prison",
-      "murdered"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سرد",
-    "choices": [
-      "گرم",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "حکمرانی",
-    "choices": [
-      "area",
-      "France",
-      "rule",
-      "beginning"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رفتن",
-    "choices": [
-      "ugly",
-      "young",
-      "go",
-      "month"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موزه",
-    "choices": [
-      "movie theater",
-      "distribution",
-      "weak",
-      "museum"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آفریده",
-    "choices": [
-      "new",
-      "creature",
-      "conflict",
-      "view"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "new",
-    "choices": [
-      "عمده",
-      "کشوری",
-      "نیست",
-      "نو"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "time",
-    "choices": [
-      "زمان",
-      "صنعتی",
-      "میرزا",
-      "درباره"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "scattering",
-    "choices": [
-      "هنگامی",
-      "محصولات",
-      "پر",
-      "پخش"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ارقام",
-    "choices": [
-      "up",
-      "whenever",
-      "Imam",
-      "statistics"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "against",
-    "choices": [
-      "علیه",
-      "تر",
-      "اشاره",
-      "مثال"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "proximity",
-    "choices": [
-      "مدیر",
-      "نزدیکی",
-      "سری",
-      "شهرت"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نامهربان",
-    "choices": [
-      "مهربان",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "low",
-    "choices": [
-      "هم",
-      "پایین",
-      "دقیقه",
-      "امر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ارزان قیمت",
-    "choices": [
-      "province",
-      "geographical",
-      "court",
-      "cheap"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ارزان قیمت",
-    "choices": [
-      "cheap",
-      "management",
-      "TRUE",
-      "superior"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Persian",
-    "choices": [
-      "گفته",
-      "پیرامون",
-      "هند",
-      "فارسی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نصف",
-    "choices": [
-      "interior",
-      "best",
-      "principles",
-      "half"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زعیم",
-    "choices": [
-      "representative",
-      "stranger",
-      "leader",
-      "fracture"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "nations",
-    "choices": [
-      "ملل",
-      "رضا",
-      "آلبوم",
-      "بازی‌های"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سید",
-    "choices": [
-      "sweet",
-      "seyyed",
-      "Mohsen",
-      "cheap"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نیرومند",
-    "choices": [
-      "philosophy",
-      "position",
-      "strong",
-      "martyr"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "but",
-    "choices": [
-      "ولی",
-      "امام",
-      "می‌گیرد",
-      "پرونده"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شجره",
-    "choices": [
-      "face",
-      "union",
-      "busy",
-      "tree"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تلخ",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "شیرین",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "political party",
-    "choices": [
-      "حزب",
-      "رئیس",
-      "روابط",
-      "فرانسه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اکتشاف",
-    "choices": [
-      "the majority of",
-      "girl",
-      "small",
-      "discovery"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شامل",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "محروم",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "همچنین",
-    "choices": [
-      "last",
-      "technical",
-      "new",
-      "too"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عزیمت کردن",
-    "choices": [
-      "start",
-      "treatment",
+      "variation",
+      "prominent",
       "independent",
-      "professor"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "چپ",
-    "choices": [
-      "best",
-      "left",
-      "science",
-      "Canada"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "different",
-    "choices": [
-      "دستور",
-      "خاصی",
-      "بودند",
-      "متفاوت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ناراحت",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "خوشحال",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "آغاز",
-    "choices": [
-      "اعلام",
-      "پایان",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "territory",
-    "choices": [
-      "خان",
-      "سرزمین",
-      "کامل",
-      "شماره"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "چاردیواری",
-    "choices": [
-      "chemical",
-      "expensive",
-      "house",
-      "effective"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "غیرقانونی",
-    "choices": [
-      "قانونی",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "سبک",
-    "choices": [
-      "illegal",
-      "Africa",
-      "lazy",
-      "manner"
+      "time"
     ],
     "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "union",
+    "question": "اخبار عامه پسند ------ را برای من بگیر",
     "choices": [
+      "برنامه",
+      "اصلی",
       "جز",
-      "اتحاد",
-      "زمانی",
-      "شروع"
+      "بی. بی. سی."
+    ],
+    "answer": "بی. بی. سی.",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "twenty",
+    "choices": [
+      "تیر",
+      "بیست",
+      "مراکز",
+      "خوانندگان"
     ],
     "answer": 1,
     "type": "translate_fa_en"
   },
   {
-    "question": "only",
+    "question": "شروع",
     "choices": [
-      "خود",
-      "کتاب",
-      "پس",
-      "فقط"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دریافتی",
-    "choices": [
-      "receipt",
-      "prince",
-      "registeration",
-      "cause"
+      "پایان",
+      "عبارت",
+      "شکست",
+      "روستایی"
     ],
     "answer": 0,
-    "type": "translate_en_fa"
+    "type": "antonym"
   },
   {
-    "question": "prominent",
+    "question": "به ------ ایمیل بزن و بنویس که",
     "choices": [
-      "گزارش",
-      "ج",
-      "برجسته",
-      "ما"
+      "سوسن",
+      "تصمیم",
+      "مارس",
+      "مراکز"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "سوسن",
+    "type": "sentence",
+    "intent": "email_sendemail"
   },
   {
-    "question": "why",
+    "question": "------ کجاست",
     "choices": [
-      "اطلاعات",
-      "انجام",
-      "اش",
-      "چرا"
+      "نامه",
+      "زادگان",
+      "محلات مرکزی",
+      "پادشاهی"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "محلات مرکزی",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "نافی",
+    "question": "------ امیر چند است",
     "choices": [
-      "incoming",
-      "negative",
-      "bank",
-      "mountain"
+      "تصمیم",
+      "شماره تلفن",
+      "برادر",
+      "فراهم"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اجرا",
-    "choices": [
-      "performance",
-      "lawful",
-      "gulf",
-      "study"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شامل",
-    "choices": [
-      "musical instrument",
-      "to",
-      "University",
-      "including"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عیال",
-    "choices": [
-      "family",
-      "nowadays",
-      "blood",
-      "asleep"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "prescription",
-    "choices": [
-      "نسخه",
-      "روم",
-      "دیده",
-      "جنگ"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "شماره تلفن",
+    "type": "sentence",
+    "intent": "email_querycontact"
   },
   {
     "question": "حادث",
     "choices": [
-      "stranger",
+      "other",
       "new",
-      "thrust",
-      "agreement"
+      "six",
+      "small"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "امضا کردن",
+    "question": "------ را بازی کن",
     "choices": [
-      "went",
-      "urban",
-      "sign",
-      "science"
+      "ش",
+      "کریکت",
+      "میانه",
+      "ی"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "کریکت",
+    "type": "sentence",
+    "intent": "play_game"
   },
   {
-    "question": "Egypt",
+    "question": "------ با پخت متوسط چه مدت باید سرخ بشه",
     "choices": [
-      "مصر",
-      "نور",
-      "جمع",
-      "ندارد"
+      "گاز",
+      "کوه",
+      "استیک",
+      "درصد"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "استیک",
+    "type": "sentence",
+    "intent": "cooking_recipe"
   },
   {
-    "question": "نزست",
+    "question": "------ متولد کجا بود",
     "choices": [
-      "industrious",
-      "between",
-      "result",
-      "first"
+      "علی",
+      "صد",
+      "استیو جابز",
+      "کیلومتر"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "استیو جابز",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "shi'a",
+    "question": "آسیا",
     "choices": [
-      "آمد",
-      "مردان",
-      "جغرافیایی",
-      "شیعه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شامل",
-    "choices": [
-      "محروم",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "Mohammed",
-    "choices": [
-      "وب",
-      "خواننده",
-      "قرن",
-      "محمد"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نامطمئن",
-    "choices": [
-      "سایت",
-      "مطمئن",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "اداره",
-    "choices": [
-      "minute",
-      "April",
-      "office",
-      "famous"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "به همراه",
-    "choices": [
-      "with",
-      "religion",
-      "soil",
-      "Kurdish"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "راست",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "چب"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "حضر",
-    "choices": [
-      "presence",
-      "area",
-      "surely",
-      "asleep"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "طور",
-    "choices": [
-      "approval",
-      "Sinai Mountain",
-      "right",
-      "directorship"
+      "cheap",
+      "Asia",
+      "why",
+      "house"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "بسته",
+    "question": "------ پخش کن",
     "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "باز",
-      "سایت"
+      "بزرگی",
+      "بیست و پنج باند",
+      "انسان",
+      "مه"
     ],
-    "answer": 2,
-    "type": "antonym"
+    "answer": "بیست و پنج باند",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "shine",
+    "question": "میتونی برام یک آهنگ ------ در رادیو پخش کنی",
     "choices": [
-      "برق",
-      "نویسنده",
-      "دسترسی",
-      "آلمان"
+      "خانوار",
+      "توجه",
+      "خودش",
+      "رپ"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "رپ",
+    "type": "sentence",
+    "intent": "play_radio"
   },
   {
-    "question": "times more",
+    "question": "آیا ------ می توانم موقع خرید شلوار کوتاه بپوشم",
     "choices": [
-      "شهرداری",
-      "برابر",
-      "فرزند",
-      "بشر"
+      "باشگاه",
+      "ه",
+      "درجه",
+      "امروز"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
   },
   {
-    "question": "too",
+    "question": "به ------ بگو پنج تا قهوه درست کنه.",
     "choices": [
-      "جامع",
-      "جنبش",
-      "نیز",
-      "کاهش"
+      "نتایج",
+      "شاه",
+      "قهوه ساز",
+      "برخی"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "قهوه ساز",
+    "type": "sentence",
+    "intent": "iot_coffee"
   },
   {
-    "question": "خودش",
+    "question": "ساعت ------ است",
     "choices": [
-      "last",
-      "itself",
-      "then",
-      "soldier"
+      "ده",
+      "پادشاه",
+      "تصمیم",
+      "واژه"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "ده",
+    "type": "sentence",
+    "intent": "datetime_query"
   },
   {
-    "question": "نفر",
+    "question": "به ------ یک ایمیل بده و بگو آیا هیچ برنامه ای برای امشب داری میخوای بری بیرون برای شام",
     "choices": [
-      "sweet",
-      "complete",
-      "known",
-      "person"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "هراسانده",
-    "choices": [
-      "mother",
-      "winning",
-      "upon",
-      "scared"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بدترین",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "عالی"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "literary",
-    "choices": [
-      "ادبی",
-      "نویسندگان",
-      "امر",
-      "مادر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بنت",
-    "choices": [
-      "voice",
-      "girl",
-      "middle",
-      "industrious"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زشت",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "زیبا",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "space",
-    "choices": [
-      "فضایی",
-      "روش",
-      "دهه",
-      "انجام"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مرخصی",
-    "choices": [
-      "mother",
-      "small",
-      "off",
-      "uncertain"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "time",
-    "choices": [
-      "بازار",
-      "هنگام",
-      "منطقه",
-      "طرح"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "position",
-    "choices": [
-      "داشتند",
-      "کاری",
-      "مقام",
-      "آخرین"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "وادی",
-    "choices": [
-      "fight",
-      "valley",
-      "education",
-      "art"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مام",
-    "choices": [
-      "sediment",
-      "mother",
-      "text",
-      "official"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "free will",
-    "choices": [
-      "اختیار",
-      "هنوز",
-      "ارتفاع",
-      "بعدها"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "then",
-    "choices": [
-      "نشده",
-      "سپس",
-      "تاکنون",
-      "جدول"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "باریتعالی",
-    "choices": [
-      "God",
-      "yours",
-      "on",
-      "parliament"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ترسو",
-    "choices": [
-      "شجاع",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "بیکار",
-    "choices": [
-      "مشغول",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "Arab",
-    "choices": [
-      "عرب",
-      "ارائه",
-      "دسته",
-      "اشاره"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "استحکام",
-    "choices": [
-      "easy",
-      "resistance",
-      "therefore",
-      "large"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نزدیک",
-    "choices": [
-      "old",
-      "cases",
-      "project",
-      "near"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قوی",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "ضعیف"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "ساختمان",
-    "choices": [
-      "idle",
-      "murdered",
-      "structure",
-      "beautiful"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "علم",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام",
-      "جهل"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "gulf",
-    "choices": [
-      "هرمزگان",
-      "هدایت",
-      "ولایت",
-      "خلیج"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ماندن",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "رفتن"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "خواب",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "بیدار",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "news",
-    "choices": [
-      "آن",
-      "ماشین",
-      "اطلاعات",
-      "هفته"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دسته",
-    "choices": [
-      "municipality",
-      "such as",
-      "group",
-      "land"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Paris",
-    "choices": [
-      "سنت",
-      "استان",
-      "مردان",
-      "پاریس"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "novel",
-    "choices": [
-      "گروه‌های",
-      "آمریکایی",
-      "رمان",
-      "آزادی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مهربان",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "نامهربان"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "type",
-    "choices": [
-      "موزه",
-      "اوت",
-      "باستانی",
-      "نمونه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "production",
-    "choices": [
-      "تولید",
-      "تنها",
-      "را",
-      "داد"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "surely",
-    "choices": [
-      "رئیس",
-      "البته",
-      "مسعود",
-      "رنگ"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "sign",
-    "choices": [
-      "نشانی",
-      "فیلم",
+      "علی",
+      "ژاپن",
       "قبلی",
-      "ایشان"
+      "انقلاب"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_sendemail"
   },
   {
-    "question": "تکون",
+    "question": "صدا را ------ کاهش بده",
     "choices": [
-      "Germany",
-      "formation",
-      "country",
-      "local"
+      "به ده",
+      "مصر",
+      "اسرائیل",
+      "دانشکده"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "به ده",
+    "type": "sentence",
+    "intent": "audio_volume_down"
   },
   {
-    "question": "contrary",
+    "question": "اوولی نرخ مبادله بین ------ و ریال ایران چقدر است",
     "choices": [
-      "ضد",
-      "آبان",
-      "بازیکنان",
-      "اکتبر"
+      "اشعار",
+      "دلار آمریکا",
+      "کرده",
+      "آهنگ"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "دلار آمریکا",
+    "type": "sentence",
+    "intent": "qa_currency"
   },
   {
-    "question": "she",
+    "question": "بلیط برای ------",
     "choices": [
-      "او",
-      "نوعی",
-      "اجرای",
-      "عمده"
+      "علم",
+      "قم",
+      "رادیو",
+      "علت"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "قم",
+    "type": "sentence",
+    "intent": "transport_ticket"
   },
   {
-    "question": "خبر دادن",
+    "question": "آخرین اخبار ------ چیست",
     "choices": [
-      "intention",
-      "Khan",
-      "former",
-      "report"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "religion",
-    "choices": [
-      "دین",
-      "کردستان",
-      "حزب",
-      "عربی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بمجرد",
-    "choices": [
-      "topic",
-      "queen",
-      "reply",
-      "upon"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آفتاب",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "مهتاب",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "زندانی کردن",
-    "choices": [
-      "imprison",
-      "universal",
-      "woman",
-      "weather"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دختر",
-    "choices": [
-      "ابهام‌زدایی",
-      "پسر",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "ton",
-    "choices": [
-      "خارجی",
-      "ارائه",
-      "صدا",
-      "تن"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Europe",
-    "choices": [
-      "تقریباً",
-      "اروپا",
-      "تابع",
-      "مردان"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بزرگ",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "کوچیک"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "most",
-    "choices": [
-      "شخصی",
-      "تاکنون",
-      "افراد",
-      "اکثر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "علم",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "جهل"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "Aban",
-    "choices": [
-      "آبان",
-      "ترتیب",
-      "بنابر",
-      "تجاری"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دستگیره",
-    "choices": [
-      "handle",
-      "stranger",
-      "on",
-      "ugly"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عام",
-    "choices": [
-      "general",
-      "parliament",
-      "fracture",
-      "prescription"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "primitive",
-    "choices": [
-      "شرقی",
-      "اولیه",
-      "بیشتری",
-      "قهرمان"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "then",
-    "choices": [
-      "پس",
-      "نمونه",
-      "شدت",
-      "هاي"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "علم",
-    "choices": [
-      "اعلام",
-      "جهل",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "industrial",
-    "choices": [
-      "مربوط",
-      "خوانندگان",
-      "صنعتی",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "امضا کردن",
-    "choices": [
-      "too",
-      "include",
-      "televised",
-      "sign"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دور",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "نزدیک"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "مجهول",
-    "choices": [
-      "organization",
-      "early",
-      "unknown",
-      "normal"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "simple",
-    "choices": [
-      "ساده",
-      "وبگاه",
-      "محمدرضا",
-      "مراکز"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بالا",
-    "choices": [
-      "پایین",
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "incoming",
-    "choices": [
-      "آنان",
-      "فضای",
-      "آمده",
-      "هفتم"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "side",
-    "choices": [
-      "تاریخی",
-      "خانواده",
-      "آنجا",
+      "بیست و سی",
+      "فرانسوی",
+      "اعداد",
       "کنار"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "معنی دار",
-    "choices": [
-      "known",
-      "rural district",
-      "significant",
-      "attack"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "god",
-    "choices": [
-      "دوباره",
-      "زیر",
-      "الله",
-      "سیستم"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مسطور",
-    "choices": [
-      "written",
-      "love",
-      "Paris",
-      "dry"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "هور",
-    "choices": [
-      "easy",
-      "resulting",
-      "sun",
-      "center"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دید زدن",
-    "choices": [
-      "row",
-      "appraisal",
-      "office",
-      "birth"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سست بودن",
-    "choices": [
-      "visage",
-      "center",
-      "Mohsen",
-      "lazy"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کوچک",
-    "choices": [
-      "superior",
-      "small",
-      "conditions",
-      "step"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "inequality",
-    "choices": [
-      "تاریخچه",
-      "آبی",
-      "آثار",
-      "اختلاف"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عزیمت کردن",
-    "choices": [
-      "small",
-      "start",
-      "stating",
-      "laugh"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "like",
-    "choices": [
-      "هفته",
-      "تقویم",
-      "همچون",
-      "افغانستان"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "باهنر",
-    "choices": [
-      "laugh",
-      "artistic",
-      "centers",
-      "three"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نقاشی",
-    "choices": [
-      "portrait",
-      "movement",
-      "situation",
-      "works"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "eight",
-    "choices": [
-      "هشت",
-      "کمونیست",
-      "البته",
-      "چپ"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اعمال",
-    "choices": [
-      "middle",
-      "go",
-      "illegal",
-      "functions"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زشت",
-    "choices": [
-      "خوشگل",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "سلطان",
-    "choices": [
-      "performance",
-      "busy",
-      "king",
-      "son"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "به داخل",
-    "choices": [
-      "prevention",
-      "sign",
-      "actress",
-      "inside"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پسر",
-    "choices": [
-      "ابهام‌زدایی",
-      "دختر",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "soul",
-    "choices": [
-      "رتبه",
-      "جان",
-      "مجلس",
-      "قوانین"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قبلی",
-    "choices": [
-      "designing",
-      "previous",
-      "week",
-      "Mr."
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "طرز عمل",
-    "choices": [
-      "written",
-      "country",
-      "treatment",
-      "transformation"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "possible",
-    "choices": [
-      "اساسی",
-      "سال",
-      "ممکن",
-      "مانند"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حرکت",
-    "choices": [
-      "اعلام",
-      "توقف",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "death",
-    "choices": [
-      "هنرمند",
-      "دیده",
-      "مرگ",
-      "توان"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "straight",
-    "choices": [
-      "مارس",
-      "مدل",
-      "اسلامی",
-      "مستقیم"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "steering wheel",
-    "choices": [
-      "دانشکده",
-      "برج",
-      "فرمان",
-      "اکثر"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "seven",
-    "choices": [
-      "بزرگترین",
-      "آلمانی",
-      "دادگان",
-      "هفت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "درعین حال",
-    "choices": [
-      "brave",
-      "Reza",
-      "matter",
-      "yet"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "انقطاع یافتن",
-    "choices": [
-      "some",
-      "end",
-      "sour",
-      "over"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مشغول",
-    "choices": [
-      "بیکار",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "knowledge",
-    "choices": [
-      "قدر",
-      "اکنون",
-      "دهستان‌های",
-      "دانش"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "communist",
-    "choices": [
-      "کمونیست",
-      "المللی",
-      "سرعت",
-      "توجه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قضایا",
-    "choices": [
-      "cases",
-      "off",
-      "summer",
-      "New York"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آوریل",
-    "choices": [
-      "God",
-      "way",
-      "April",
-      "supreme"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "my",
-    "choices": [
-      "رشد",
-      "من",
-      "وزیر",
-      "شهید"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "architecture",
-    "choices": [
-      "معماری",
-      "نسخه",
-      "کرمان",
-      "شرایط"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دریا",
-    "choices": [
-      "sea",
-      "girl",
-      "wet",
-      "representative"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "republic",
-    "choices": [
-      "کد",
-      "ایالات",
-      "کنار",
-      "جمهوری"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "permission",
-    "choices": [
-      "گذاری",
-      "تن",
-      "یک",
-      "اجازه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "گسترش",
-    "choices": [
-      "expansion",
-      "world",
-      "go",
-      "reduction"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پاریس",
-    "choices": [
-      "beautiful",
-      "must",
-      "Paris",
-      "end"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نزست",
-    "choices": [
-      "distribution",
-      "first",
-      "specific",
-      "ugly"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نزدیک",
-    "choices": [
-      "دور",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "نوشین",
-    "choices": [
-      "sweet",
-      "first",
-      "stop",
-      "friend"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "بیست و سی",
+    "type": "sentence",
+    "intent": "news_query"
   },
   {
     "question": "سخت",
     "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
+      "استان",
+      "آسان",
+      "قالب",
+      "ایشان"
+    ],
+    "answer": 1,
+    "type": "antonym"
+  },
+  {
+    "question": "معنی بخشیدن",
+    "choices": [
+      "communist",
+      "mean",
+      "ugly",
+      "careless"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "بلیط ------ به تهران بخر",
+    "choices": [
+      "فقط",
+      "سخن",
+      "قطار",
+      "از"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "reason",
+    "choices": [
+      "مساحت",
+      "داده",
+      "زنان",
+      "سبب"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "فهرست ------ را حذف کن",
+    "choices": [
+      "سپتامبر",
+      "ساخت",
+      "تصمیم",
+      "چیزهای خریدنی"
+    ],
+    "answer": "چیزهای خریدنی",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "آیا راهی هست که دست به کار شوی و تقویم ------ من را پاک کنی",
+    "choices": [
+      "کاربرد",
+      "همین ماه",
+      "دومین",
+      "سالهای"
+    ],
+    "answer": "همین ماه",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "سخت",
+    "choices": [
+      "جدید",
+      "سه",
+      "پشت",
       "آسان"
     ],
     "answer": 3,
     "type": "antonym"
   },
   {
-    "question": "مقدار",
+    "question": "آیا می توانی به من جزییاتی درباره سفارت ------ بدهی",
     "choices": [
-      "manner",
-      "out",
-      "worth",
-      "sexual"
+      "علت",
+      "مقدار",
+      "عبارتند",
+      "هند"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "هند",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "won",
+    "question": "------ مخاطبم رو بده",
     "choices": [
-      "معماری",
-      "محیط",
-      "برده",
-      "فارسی"
+      "تصمیم",
+      "ایمیل",
+      "ارزش",
+      "بود"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "ایمیل",
+    "type": "sentence",
+    "intent": "email_querycontact"
   },
   {
-    "question": "دوست کردن",
+    "question": "آیا در ------ ایمیلی از دیجی کالا دریافت کرده‌ام",
     "choices": [
-      "cold",
-      "best",
-      "friend",
-      "May"
+      "عبارتند",
+      "دو روز گذشته",
+      "دیگر",
+      "بلکه"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "دو روز گذشته",
+    "type": "sentence",
+    "intent": "email_query"
   },
   {
-    "question": "station",
+    "question": "تمرین کردن در ------ چهار بهمن ساعت دو بعدازظهر را به تقویم من اضافه کن",
     "choices": [
-      "سعید",
-      "اما",
-      "شهرت",
-      "ایستگاه"
+      "ارتفاع",
+      "پارک ملت",
+      "حرکت",
+      "گاه"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "پارک ملت",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "کمونیست",
+    "question": "برزگری",
     "choices": [
-      "Asia",
-      "awak",
-      "communist",
-      "imprison"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بزرگ",
-    "choices": [
-      "ابهام‌زدایی",
-      "کوچک",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "هنر",
-    "choices": [
-      "University",
-      "art",
-      "idle",
-      "orchard"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "انجمن",
-    "choices": [
-      "society",
-      "queen",
-      "above",
-      "republic"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ظاهر فریبنده",
-    "choices": [
-      "education",
-      "electric",
-      "phantom",
-      "visage"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "time",
-    "choices": [
-      "سرانجام",
-      "بار",
-      "هزار",
-      "اسماعیل"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "واقعی",
-    "choices": [
-      "خیالی",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "ترسو",
-    "choices": [
-      "اعلام",
-      "شجاع",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "صیحه زدن",
-    "choices": [
-      "worldwide",
-      "cry",
-      "orchard",
-      "lazy"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دهات",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "شهر",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "title",
-    "choices": [
-      "بن",
-      "نام",
-      "دور",
-      "یادکرد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "فرنگ",
-    "choices": [
-      "temper",
-      "all",
-      "Europe",
-      "Abdullah"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "resulting",
-    "choices": [
-      "مبارزه",
-      "ادبی",
-      "انرژی",
-      "منجر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "هراسانده",
-    "choices": [
-      "real",
-      "scared",
-      "Yemen",
-      "ceremony"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "moon",
-    "choices": [
-      "آنها",
-      "ارشد",
-      "ماه",
-      "مدیر"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "so far",
-    "choices": [
-      "بهره",
-      "تاکنون",
-      "کار",
-      "انتقال"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بالا",
-    "choices": [
-      "uderstood",
-      "top",
-      "west",
-      "source"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دستورگان",
-    "choices": [
-      "system",
-      "instruction",
-      "far",
-      "cheap"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پارکومتر",
-    "choices": [
-      "meter",
-      "go",
-      "ugly",
-      "specific"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "غریب",
-    "choices": [
-      "foreigner",
-      "beginning",
-      "descended from Emam Reza",
-      "the other"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Taraneh",
-    "choices": [
-      "مستقیم",
-      "یمن",
-      "ترانه",
-      "انرژی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "society",
-    "choices": [
-      "جمعیت",
-      "یافته",
-      "پنج",
-      "ابتدا"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "manner",
-    "choices": [
-      "سرشماری",
-      "قدر",
-      "گونه",
-      "جمع"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "داخل",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "بيرون"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "بدایت",
-    "choices": [
-      "America",
-      "beginning",
-      "laugh",
-      "importance"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ابزار",
-    "choices": [
-      "various",
-      "far",
-      "tool",
-      "tir"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رشته",
-    "choices": [
-      "physics",
-      "Europe",
-      "various",
-      "field of study"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زرنگ",
-    "choices": [
-      "تنبل",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "هور",
-    "choices": [
-      "moon",
-      "sun",
-      "bottom",
-      "closed"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "محروم",
-    "choices": [
-      "سایت",
-      "شامل",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "جامع",
-    "choices": [
-      "article",
-      "universal",
-      "someone",
-      "May"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "به انجام رساندن",
-    "choices": [
-      "model",
-      "sun",
-      "do",
-      "go"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نامستقل",
-    "choices": [
-      "dependent",
-      "daytime",
-      "materials",
-      "previous"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کاهش",
-    "choices": [
-      "country",
-      "TRUE",
-      "straight",
-      "reduction"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مقداری",
-    "choices": [
-      "end",
-      "operations",
-      "formation",
-      "some"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کوچک",
-    "choices": [
-      "",
-      "literary",
-      "small",
-      "brother"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "kilometer",
-    "choices": [
-      "موضوع",
-      "کیلومتری",
-      "قانون",
-      "آن"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قانونی",
-    "choices": [
-      "غیرقانونی",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "مطمئن",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "نامطمئن"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "kindness",
-    "choices": [
-      "خوبی",
-      "ثابت",
-      "دوره",
-      "شهری"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شناس",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "ناشناس"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "پایان",
-    "choices": [
-      "شروع",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "حوزه",
-    "choices": [
-      "domain",
-      "thirty",
-      "intention",
-      "union"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "structure",
-    "choices": [
-      "ساختار",
-      "داخلی",
-      "پرورش",
-      "مهدی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بر روی",
-    "choices": [
-      "shout",
-      "role",
-      "Paul",
-      "above"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "what",
-    "choices": [
-      "بزرگی",
-      "آنچه",
-      "مصرف",
-      "چهار"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سرای",
-    "choices": [
-      "factors",
-      "office",
-      "world",
-      "first"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دخل",
-    "choices": [
-      "sheik",
-      "on",
-      "income",
-      "period"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ترسو",
-    "choices": [
-      "سایت",
-      "شجاع",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "conditions",
-    "choices": [
-      "چند",
-      "ورودی",
-      "شرایط",
-      "بدین"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نیروی پرتاب",
-    "choices": [
-      "visibility",
-      "north",
-      "thrust",
-      ""
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بزرگ",
-    "choices": [
-      "کوچیک",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "kilometer",
-    "choices": [
-      "کیلومتر",
-      "اختلاف",
-      "صورت",
-      "موضوع"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ارایه",
-    "choices": [
-      "won",
-      "interpretation",
-      "mathematics",
-      "providing"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "محمد",
-    "choices": [
-      "Mohammed",
-      "bitter",
       "start",
-      "play"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بیگانه",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "دوست",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "ساله",
-    "choices": [
-      "seizure",
-      "year old",
-      "through",
-      "province"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حکومتی",
-    "choices": [
-      "governmental",
-      "execution",
-      "view",
-      "lazy"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قحطی",
-    "choices": [
-      "June",
-      "sweet",
-      "scarcity",
-      "moon"
+      "instruction",
+      "agriculture",
+      "foundation"
     ],
     "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "mason",
+    "question": "به یک ------ در جایی که الآن هستم نیاز دارم",
     "choices": [
-      "می‌گویند",
-      "شورای",
-      "بنا",
-      "برجسته"
+      "اختیار",
+      "توان",
+      "اسنپ",
+      "دکتر"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "اسنپ",
+    "type": "sentence",
+    "intent": "transport_taxi"
   },
   {
-    "question": "بالا",
+    "question": "با من ------ بازی کن",
     "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "پایین"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "برنا",
-    "choices": [
-      "young",
-      "scared",
-      "they",
-      "cold"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ته نشین",
-    "choices": [
-      "war",
-      "Said",
-      "perception",
-      "sediment"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ceremony",
-    "choices": [
-      "امروز",
-      "موزه",
-      "جشن",
-      "شدند"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "individuals",
-    "choices": [
-      "كه",
-      "افراد",
-      "شد",
-      "اواخر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Abdullah",
-    "choices": [
-      "هر",
-      "مذهبی",
-      "سال",
-      "عبدالله"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "religious",
-    "choices": [
-      "مذهبی",
-      "آباد",
-      "تیر",
-      "ق"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ولی",
-    "choices": [
-      "occupied",
-      "public",
-      "correlated",
-      "but"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "interior",
-    "choices": [
-      "آبی",
-      "علمی",
-      "درون",
-      "سی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "way",
-    "choices": [
-      "میراث",
-      "دولت",
-      "راه",
-      "بر"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "وابسته",
-    "choices": [
-      "import",
-      "ignorance",
-      "related",
-      "hard"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "interpretation",
-    "choices": [
-      "تفسیر",
-      "دینی",
-      "آیت",
-      "ویژه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نشان ستاره",
-    "choices": [
-      "individuals",
-      "sediment",
-      "outside of",
-      "star"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "برحسب",
-    "choices": [
-      "open",
-      "release",
-      "cultural",
-      "based on"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "warm",
-    "choices": [
-      "شبه",
-      "تپه",
-      "گرم",
-      "فصل"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "book",
-    "choices": [
-      "انتشارات",
-      "کتاب",
-      "قرمز",
-      "تو"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "based on",
-    "choices": [
-      "برای",
-      "تعریف",
-      "بنابر",
-      "گفته"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کوچیک",
-    "choices": [
-      "بزرگ",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "محروم",
-    "choices": [
-      "شامل",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "عالی",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "بدترین",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "شهبانو",
-    "choices": [
-      "primary",
-      "instrumental",
-      "queen",
-      "late"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جهانی",
-    "choices": [
-      "worldwide",
-      "first",
-      "training",
-      "thousand"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کل",
-    "choices": [
-      "total",
-      "orchard",
-      "way",
-      "son"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مشغول",
-    "choices": [
-      "Ziad",
-      "busy",
-      "foundation",
-      "beginning"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پولی",
-    "choices": [
-      "on",
-      "literary",
-      "monetary",
-      "televised"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "growth",
-    "choices": [
-      "بسته",
-      "مطرح",
-      "رشد",
-      "جنبش"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "treatment",
-    "choices": [
-      "آموزش",
-      "مراسم",
-      "درمان",
+      "فیلم‌های",
+      "تخته نرد",
+      "منجر",
       "موفق"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "تخته نرد",
+    "type": "sentence",
+    "intent": "play_game"
   },
   {
-    "question": "Esfehan",
+    "question": "------ را از تقویم برای ماه بهمن حذف کن",
     "choices": [
-      "برنامه",
-      "مقاله",
-      "اصفهان",
-      "ما"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "small",
-    "choices": [
-      "حسن",
-      "کوچک",
-      "روی",
-      "فرزند"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "فره",
-    "choices": [
-      "cry",
-      "small",
-      "good",
-      "representative"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گریه",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "خنده"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "what",
-    "choices": [
-      "نامیده",
-      "جدید",
-      "اسکار",
-      "ها"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بزرگ",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
+      "کننده",
+      "جشن تولد",
+      "چاپ",
       "کوچک"
     ],
-    "answer": 3,
-    "type": "antonym"
+    "answer": "جشن تولد",
+    "type": "sentence",
+    "intent": "calendar_remove"
   },
   {
-    "question": "رخ",
+    "question": "five",
     "choices": [
-      "weak",
-      "face",
-      "size",
-      "system"
+      "مثال",
+      "دریا",
+      "پنج",
+      "مختلف"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "لشکری",
+    "choices": [
+      "release",
+      "military",
+      "struggle",
+      "limited"
     ],
     "answer": 1,
     "type": "translate_en_fa"
+  },
+  {
+    "question": "پیش‌بینی ------",
+    "choices": [
+      "میانه",
+      "ده روزه",
+      "بیمارستان",
+      "دهستان"
+    ],
+    "answer": "ده روزه",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "نزست",
+    "choices": [
+      "first",
+      "number",
+      "square",
+      "December"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "به من یادآوری کن ایمیلی به ------",
+    "choices": [
+      "دادن",
+      "ه",
+      "خواهرم",
+      "انواع"
+    ],
+    "answer": "خواهرم",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ در تقویم من تنظیم کن",
+    "choices": [
+      "قرار تکراری",
+      "خارجی",
+      "روستای",
+      "مستقل"
+    ],
+    "answer": "قرار تکراری",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "همه چیز را برای ------ حذف کن",
+    "choices": [
+      "پیروزی",
+      "یکی",
+      "بازی",
+      "این ماه"
+    ],
+    "answer": "این ماه",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "سلام شکایت من را ------ در twitter ارسال کن",
+    "choices": [
+      "پول",
+      "صنعتی",
+      "درمان",
+      "به مایکروسافت"
+    ],
+    "answer": "به مایکروسافت",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "به یک ------ زنگ بزن",
+    "choices": [
+      "اینکه",
+      "تبریز",
+      "تاکسی",
+      "بطور"
+    ],
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "------ به فروشگاه شهروند آنها خیلی زود اندازه ها را خلاص میکنن",
+    "choices": [
+      "كه",
+      "صدا",
+      "ولی",
+      "توئیتر"
+    ],
+    "answer": "توئیتر",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "کتاب را ------",
+    "choices": [
+      "باز کن",
+      "علوم",
+      "مرکز",
+      "بلند"
+    ],
+    "answer": "باز کن",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "month",
+    "choices": [
+      "وی",
+      "خرداد",
+      "ج",
+      "محسن"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "لطفا تمام یادآوری‌های روز ------ را حذف کن",
+    "choices": [
+      "یکشنبه",
+      "جرم",
+      "شدید",
+      "تقسیم"
+    ],
+    "answer": "یکشنبه",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "سلام olly برای من موزیک ------ هیپ هاپ پخش کن",
+    "choices": [
+      "مناسب",
+      "معروف",
+      "ثبت",
+      "می‌کرد"
+    ],
+    "answer": "معروف",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "نرخ مبادله ------ به روپیه",
+    "choices": [
+      "درهم",
+      "بدن",
+      "جمعیت",
+      "پیشین"
+    ],
+    "answer": "درهم",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "------ هوا چطور خواهد بود",
+    "choices": [
+      "فردا",
+      "تهران",
+      "جنبش",
+      "بعدها"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "اوولی ------ من در روز جمعه دو بعدازظهر را برنامه ریزی کن",
+    "choices": [
+      "فناوری",
+      "وقت دکتر",
+      "برادر",
+      "همیشه"
+    ],
+    "answer": "وقت دکتر",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "ممکن است لطفا برایم یک بلیط ------ بخری",
+    "choices": [
+      "جایزه",
+      "شهرستان",
+      "قم",
+      "قطار"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "------ چند شنبه ست",
+    "choices": [
+      "هفت",
+      "بیست و سوم آبان",
+      "راست",
+      "دریافت"
+    ],
+    "answer": "بیست و سوم آبان",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "لطفا ------ را روشن کن و روند دم کردن را شروع کن",
+    "choices": [
+      "دانش",
+      "قهوه ساز",
+      "تابع",
+      "انجام"
+    ],
+    "answer": "قهوه ساز",
+    "type": "sentence",
+    "intent": "iot_coffee"
+  },
+  {
+    "question": "برای من زمانی برای ------ با ایلیا در فردا پیدا کن",
+    "choices": [
+      "ساخت",
+      "اقتصادی",
+      "جلسه",
+      "گیری"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "الان ------ ساعت چنده",
+    "choices": [
+      "بوشهر",
+      "خیابان",
+      "امپراتوری",
+      "را"
+    ],
+    "answer": "بوشهر",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "------ به دوست قدیمی ام علی برخوردم",
+    "choices": [
+      "دار",
+      "امروز",
+      "آمریکا",
+      "تیر"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "آیا ------ برنامه ی استراحت و آشپزی داریم",
+    "choices": [
+      "راست",
+      "جامع",
+      "این آخر هفته",
+      "خاک"
+    ],
+    "answer": "این آخر هفته",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "share",
+    "choices": [
+      "سی",
+      "موتور",
+      "قسمت",
+      "می‌کند"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آهنگ ترس را در ------ پخش کن",
+    "choices": [
+      "عدد",
+      "معاصر",
+      "متعلق",
+      "رادیو راه"
+    ],
+    "answer": "رادیو راه",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "بیا یه ------ بگیریم",
+    "choices": [
+      "جامع",
+      "شما",
+      "هوایی",
+      "تاکسی"
+    ],
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "آیا من پیامی در ------ خود دارم",
+    "choices": [
+      "مجله",
+      "صندوق ورودی",
+      "نقل",
+      "شب"
+    ],
+    "answer": "صندوق ورودی",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "یک ------ بگیر که جمعه پنج و نیم صبح مرا به فرودگاه ببرد",
+    "choices": [
+      "واقع",
+      "پیشین",
+      "تاکسی",
+      "شوروی"
+    ],
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "من می‌خواهم به من یادآوری کنی که ------ به فروشگاه بروم",
+    "choices": [
+      "فردا",
+      "و",
+      "حکومت",
+      "طبیعی"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "کشتی",
+    "choices": [
+      "ship",
+      "profession",
+      "steering wheel",
+      "by"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لطفا تاریخ ------ را به من نشان بده",
+    "choices": [
+      "متفاوت",
+      "غرب",
+      "اوت",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "آیا یادآوری ------ فردا را گذاشتی",
+    "choices": [
+      "نمونه",
+      "اولیه",
+      "جلسه",
+      "نظر"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "زنگ هشدار ------ صبح را خاموش کن",
+    "choices": [
+      "دار",
+      "کیلومتر",
+      "می‌کند",
+      "فردا"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "alarm_remove"
+  },
+  {
+    "question": "کدام ارز بیشتر است ------ یا ین",
+    "choices": [
+      "اسکار",
+      "شکست",
+      "ژانویه",
+      "ریال ایران"
+    ],
+    "answer": "ریال ایران",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "لطفاً در مورد ------ فردا به سمیرا ایمیل بفرست",
+    "choices": [
+      "جلسه",
+      "اساس",
+      "رضوی",
+      "قبلی"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "نرخ مبادله ------ چقدر است",
+    "choices": [
+      "دلار",
+      "دلار",
+      "حل",
+      "باب"
+    ],
+    "answer": "دلار",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "بهترین نوع ------ کدومه",
+    "choices": [
+      "فلفل",
+      "نگاه",
+      "تقسیم",
+      "گروه"
+    ],
+    "answer": "فلفل",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "yet",
+    "choices": [
+      "چندین",
+      "معرفی",
+      "هنوز",
+      "فروش"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "------ کیست",
+    "choices": [
+      "جهان",
+      "سارا نایینی",
+      "خرداد",
+      "فشار"
+    ],
+    "answer": "سارا نایینی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "وضع هوای ------ این منطقه را به من نشان بده",
+    "choices": [
+      "توضیح",
+      "برق",
+      "داستان",
+      "فردای"
+    ],
+    "answer": "فردای",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "آیا می توانی رنگ لامپ های ------ را صورتی تنظیم کنی",
+    "choices": [
+      "جایزه",
+      "هال",
+      "بازدید",
+      "توسعه"
+    ],
+    "answer": "هال",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "------ و قبل از سه بعدازظهر چه اتفاقی می‌افتد",
+    "choices": [
+      "عدد",
+      "الکتریکی",
+      "بعد از ساعت یک",
+      "سید"
+    ],
+    "answer": "بعد از ساعت یک",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ ظهر در میدان آزادی چه اتفاقی افتاد",
+    "choices": [
+      "جامع",
+      "روم",
+      "آزادی",
+      "دیروز"
+    ],
+    "answer": "دیروز",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "به روز رسانی ------ من در هر سه ساعت باید موجود باشد",
+    "choices": [
+      "جرم",
+      "facebook",
+      "حقیقت",
+      "پیدا"
+    ],
+    "answer": "facebook",
+    "type": "sentence",
+    "intent": "social_query"
+  },
+  {
+    "question": "ایا ------ است",
+    "choices": [
+      "پیدا",
+      "میانه",
+      "دومین شنبه دوازدهم",
+      "معمولا"
+    ],
+    "answer": "دومین شنبه دوازدهم",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "الان چقدر ------",
+    "choices": [
+      "گرمه",
+      "فیلم‌های",
+      "یا",
+      "معاصر"
+    ],
+    "answer": "گرمه",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "trust",
+    "choices": [
+      "عهده",
+      "انجام",
+      "شخص",
+      "اواخر"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
   },
   {
     "question": "علم",
     "choices": [
-      "give",
-      "science",
-      "early",
-      "surely"
+      "آلمان",
+      "جهل",
+      "ساختار",
+      "می‌گویند"
     ],
     "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تنبل",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "زرنگ"
-    ],
-    "answer": 3,
     "type": "antonym"
   },
   {
-    "question": "شیرین",
+    "question": "آیا ------ رویدادهای سرگرم کننده‌ای در ساری وجود دارد",
     "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "تلخ",
-      "سایت"
+      "ماده",
+      "دختر",
+      "داده",
+      "امروز"
     ],
-    "answer": 2,
-    "type": "antonym"
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "recommendation_events"
   },
   {
-    "question": "that is",
+    "question": "به ------ پیام بده بنویس من دیر می‌رسم",
     "choices": [
-      "جز",
-      "یعنی",
-      "تبریز",
-      "اوت"
+      "نصرت",
+      "کردند",
+      "یمن",
+      "باستان"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "نصرت",
+    "type": "sentence",
+    "intent": "email_sendemail"
   },
   {
-    "question": "tower",
+    "question": "لیست ------ را پاک کن",
     "choices": [
-      "برج",
-      "تیر",
-      "امام",
-      "پایتخت"
+      "خراسان",
+      "دینی",
+      "لازم",
+      "خرید"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "خرید",
+    "type": "sentence",
+    "intent": "lists_remove"
   },
   {
-    "question": "توضیح",
+    "question": "علامت",
     "choices": [
-      "study",
-      "score",
-      "exposition",
+      "kind",
+      "surely",
+      "queen",
       "standard"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ثامن",
-    "choices": [
-      "official",
-      "ugly",
-      "Afghanistan",
-      "eight"
-    ],
     "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "چرخ سکان",
+    "question": "چه مقدار ------ چای شیرین را درست می کند",
     "choices": [
-      "awak",
-      "steering wheel",
-      "mankind",
-      "Imam"
+      "مشترک",
+      "شکر",
+      "مصر",
+      "فضای"
+    ],
+    "answer": "شکر",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "جهل",
+    "choices": [
+      "square",
+      "ignorance",
+      "lawful",
+      "same"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "مربع",
+    "question": "------ مرا دیوانه می‌کنند",
     "choices": [
-      "very",
-      "education",
-      "beautiful",
-      "square"
+      "بچه‌ها",
+      "دوم",
+      "کسب",
+      "بصورت"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "بچه‌ها",
+    "type": "sentence",
+    "intent": "general_quirky"
   },
   {
-    "question": "تبدیل",
+    "question": "تعریف ------ را چک کن",
     "choices": [
-      "transformation",
-      "Saltanat",
-      "foot",
-      "post"
+      "نقشه",
+      "اصول",
+      "دمدمی مزاج",
+      "داشته"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "دمدمی مزاج",
+    "type": "sentence",
+    "intent": "qa_definition"
   },
   {
-    "question": "آسان",
+    "question": "آهنگ ------ پخش کن",
     "choices": [
-      "ابهام‌زدایی",
-      "سخت",
-      "سایت",
-      "اعلام"
+      "دادگان",
+      "بعضی",
+      "پاپ",
+      "خاص"
     ],
-    "answer": 1,
-    "type": "antonym"
+    "answer": "پاپ",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "chemical",
+    "question": "Seine",
     "choices": [
-      "بودن",
-      "هدایت",
-      "مشهور",
-      "شیمیایی"
+      "پنج",
+      "آباد",
+      "تحصیلات",
+      "سن"
     ],
     "answer": 3,
     "type": "translate_fa_en"
   },
   {
-    "question": "موسفید",
+    "question": "سریال",
     "choices": [
-      "old",
-      "translation",
-      "championship",
-      "moon"
+      "series",
+      "open",
+      "hot",
+      "center"
     ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "ترحم",
+    "question": "------ چه خبر است",
     "choices": [
-      "Ziad",
-      "kindness",
-      "in",
-      "society"
+      "قبلی",
+      "امروز",
+      "موارد",
+      "بدون"
     ],
-    "answer": 1,
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "تیترهای ------ را برای من بخوان",
+    "choices": [
+      "روزنامه آفتاب",
+      "چهار",
+      "بنابراین",
+      "ترین"
+    ],
+    "answer": "روزنامه آفتاب",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "آیا مهمانی ------ در پانزدهم همین ماه است",
+    "choices": [
+      "مقام",
+      "همین",
+      "زیبا",
+      "تولد"
+    ],
+    "answer": "تولد",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "پیش بینی هوای ------ هیچ تغییری نکرده است",
+    "choices": [
+      "گذاری",
+      "مطرح",
+      "برق",
+      "چهارشنبه"
+    ],
+    "answer": "چهارشنبه",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "آیا می‌توانم از ------ غذای بیرون‌بر سفارش بدهم",
+    "choices": [
+      "عطاویچ",
+      "گذشته",
+      "ویژه",
+      "منتشر"
+    ],
+    "answer": "عطاویچ",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "برای من بلیت سفر ------ از تهران به استانبول با قطار رزرو کن",
+    "choices": [
+      "شدن",
+      "کیلومتری",
+      "برگشت",
+      "الله"
+    ],
+    "answer": "برگشت",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "دوم ماه بعد ------",
+    "choices": [
+      "امیر",
+      "رنگ",
+      "چند شنبه است",
+      "آمریکایی"
+    ],
+    "answer": "چند شنبه است",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "برای ------ در مورد آب و هوا ایمیل بفرست",
+    "choices": [
+      "حضور",
+      "نسبت",
+      "شبه",
+      "مامان"
+    ],
+    "answer": "مامان",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "نمره",
+    "choices": [
+      "dam",
+      "sweet",
+      "plant",
+      "number"
+    ],
+    "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "census",
+    "question": "من چقدر ------ آزادم",
     "choices": [
-      "لحاظ",
-      "موزه",
       "نقش",
-      "سرشماری"
+      "سوی",
+      "این هفته",
+      "ماه"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "پا",
+    "choices": [
+      "structure",
+      "utilization",
+      "tree",
+      "foot"
     ],
     "answer": 3,
-    "type": "translate_fa_en"
+    "type": "translate_en_fa"
   },
   {
-    "question": "تابستان",
+    "question": "یادآوری را برای ------ پیش رو تنظیم کن",
     "choices": [
-      "اعلام",
-      "سایت",
-      "زمستان",
-      "ابهام‌زدایی"
+      "فشار",
+      "نمود",
+      "دوره",
+      "جلسه"
     ],
-    "answer": 2,
-    "type": "antonym"
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "پادشاه",
+    "question": "------ برام ایمیل فرستاده",
     "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "ملکه"
+      "آب",
+      "بشر",
+      "دوستم",
+      "کلمه"
+    ],
+    "answer": "دوستم",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "------ دا را پخش کن",
+    "choices": [
+      "کتاب صوتی",
+      "ایجاد",
+      "توسط",
+      "چهارم"
+    ],
+    "answer": "کتاب صوتی",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "مسیرهای ------ را باز کن",
+    "choices": [
+      "می‌گردد",
+      "ساکن",
+      "قطار",
+      "محمدرضا"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "من دوست دارم هر آهنگ ------ را گوش بدم به جز ابی و شادمهر",
+    "choices": [
+      "نیویورک",
+      "صنعت",
+      "عدد",
+      "کلاسیکی"
+    ],
+    "answer": "کلاسیکی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "هیکل",
+    "choices": [
+      "illegal",
+      "energetic",
+      "regarding",
+      "body"
     ],
     "answer": 3,
-    "type": "antonym"
+    "type": "translate_en_fa"
   },
   {
-    "question": "old days",
+    "question": "عادی",
     "choices": [
-      "مرحله",
-      "مسلمانان",
-      "قدیم",
-      "استاندارد"
+      "type",
+      "style",
+      "place",
+      "normal"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": 3,
+    "type": "translate_en_fa"
   },
   {
-    "question": "عزم",
+    "question": "اولین ------ کی از نکا راه می افتد",
     "choices": [
-      "God",
-      "spreading",
-      "determination",
-      "agriculture"
+      "شهر",
+      "کالیفرنیا",
+      "قطار",
+      "رمان"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "دی",
+    "choices": [
+      "technical",
+      "out",
+      "Dey",
+      "relation"
     ],
     "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "بی زور",
+    "question": "river",
     "choices": [
-      "go",
-      "group",
-      "weak",
-      "article"
+      "رود",
+      "میراث",
+      "تک",
+      "مرکز"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": 0,
+    "type": "translate_fa_en"
   },
   {
-    "question": "اداره",
+    "question": "little",
     "choices": [
-      "office",
-      "thermometer",
-      "ruling",
+      "رمان",
+      "اکتبر",
+      "کم",
+      "جاده"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "تأیید کن که زنگ ساعت را برای ------ تنظیم کرده‌ام",
+    "choices": [
+      "نوشته",
+      "شش صبح",
+      "نظامی",
+      "بطور"
+    ],
+    "answer": "شش صبح",
+    "type": "sentence",
+    "intent": "alarm_query"
+  },
+  {
+    "question": "لطفا همه ------ امروز را حذف کن",
+    "choices": [
+      "وقتی",
+      "قرارهای",
+      "تلاش",
+      "یونانی"
+    ],
+    "answer": "قرارهای",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "------ ناگهانی",
+    "choices": [
+      "جلسه",
+      "انتقال",
+      "جمهور",
+      "برنامه"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ مریم کی هست",
+    "choices": [
+      "باقی",
+      "ملی",
+      "سیستم",
+      "تولد"
+    ],
+    "answer": "تولد",
+    "type": "sentence",
+    "intent": "email_querycontact"
+  },
+  {
+    "question": "ارایه",
+    "choices": [
+      "incoming",
+      "providing",
+      "queen",
       "Saltanat"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "Ziba",
+    "question": "خشک",
     "choices": [
-      "ارتباط",
+      "جشنواره",
+      "خیس",
+      "کامل",
+      "گیلان"
+    ],
+    "answer": 1,
+    "type": "antonym"
+  },
+  {
+    "question": "------ را روشن کن تا شارژر خودم را به آن وصل کنم",
+    "choices": [
+      "بار",
+      "سوکت دوشاخه‌ی مهسان",
+      "هفته",
+      "انسانی"
+    ],
+    "answer": "سوکت دوشاخه‌ی مهسان",
+    "type": "sentence",
+    "intent": "iot_wemo_on"
+  },
+  {
+    "question": "------ را به دلار تبدیل کن",
+    "choices": [
+      "یورو",
+      "زنان",
+      "نیمه",
+      "اغلب"
+    ],
+    "answer": "یورو",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "میانی",
+    "choices": [
+      "motor",
+      "middle",
+      "Japan",
+      "famous"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "من باید یک بلیط ------ از نکا به ساری بخرم",
+    "choices": [
+      "قطار",
+      "زبان",
+      "مهم‌ترین",
+      "خدمت"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "آنچه در لیست ------ من است را برای من بخوان",
+    "choices": [
+      "سرشماری",
       "درست",
-      "اکبر",
-      "زیبا"
+      "ششم",
+      "خرید"
+    ],
+    "answer": "خرید",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "قیمت سهام ------ و سونی ا با هم مقایسه کن و بگو کدامیک بهتر است",
+    "choices": [
+      "نینتندو",
+      "عصر",
+      "منجر",
+      "حوزه"
+    ],
+    "answer": "نینتندو",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "------ ساعت ده صبح جلسه من را در اداره پست اضافه کن",
+    "choices": [
+      "عراق",
+      "فردا",
+      "دولت",
+      "موقعیت"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ در برابر دلار امریکا چقدر ارزش دارد",
+    "choices": [
+      "آذربایجان",
+      "یورو",
+      "کشتی",
+      "جایزه"
+    ],
+    "answer": "یورو",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "من را به نزدیک ترین ------ ببر",
+    "choices": [
+      "شمالی",
+      "سنت",
+      "طی",
+      "ایستگاه قطار"
+    ],
+    "answer": "ایستگاه قطار",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "من ------ چه ایمیل‌هایی دریافت کردم",
+    "choices": [
+      "دیروز",
+      "اولیه",
+      "علوم",
+      "حتی"
+    ],
+    "answer": "دیروز",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "------ درمورد آموزش غذاهای ایتالیایی",
+    "choices": [
+      "دفتر",
+      "ویکی",
+      "مستقیم",
+      "ویدئوهای یوتیوب"
+    ],
+    "answer": "ویدئوهای یوتیوب",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "تهران",
+      "مسلمانان",
+      "گسترش",
+      "نامیده"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "آیا می‌توانی ------ را از تقویم من حذف کنی",
+    "choices": [
+      "مراجعه به دندانپزشک",
+      "روز",
+      "خاطر",
+      "ترین"
+    ],
+    "answer": "مراجعه به دندانپزشک",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "به روی",
+    "choices": [
+      "friend",
+      "on",
+      "transportation",
+      "municipality"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "هر خبر ------ در روزنامه شرق",
+    "choices": [
+      "درمان",
+      "تلفاتی",
+      "رسیدن",
+      "توابع"
+    ],
+    "answer": "تلفاتی",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "------ را پخش کن",
+    "choices": [
+      "داشت",
+      "فایل صوتی قبلی",
+      "مدیر",
+      "شرکت"
+    ],
+    "answer": "فایل صوتی قبلی",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "regarding",
+    "choices": [
+      "مرکزی",
+      "پاپ",
+      "بزرگترین",
+      "پیرامون"
     ],
     "answer": 3,
     "type": "translate_fa_en"
   },
   {
-    "question": "محله",
+    "question": "با ------ رایان تماس بگیر",
     "choices": [
-      "neigborhood",
-      "late",
-      "based on",
-      "basis"
+      "کارگردانی",
+      "شدند",
+      "شماره تلفن",
+      "اقتصادی"
+    ],
+    "answer": "شماره تلفن",
+    "type": "sentence",
+    "intent": "email_querycontact"
+  },
+  {
+    "question": "------ امروز در آستارا چقدره",
+    "choices": [
+      "دنبال",
+      "چین",
+      "احتمال طوفان رعد و برق",
+      "حمایت"
+    ],
+    "answer": "احتمال طوفان رعد و برق",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "ایمیل ------ را باز کن",
+    "choices": [
+      "مطالعات",
+      "را",
+      "علی",
+      "رودخانه"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "مریضخانه",
+    "choices": [
+      "corps",
+      "hospital",
+      "team",
+      "inside"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "رسیدن",
+      "سیارک‌ها",
+      "شارژر هوشمند",
+      "مهدی"
+    ],
+    "answer": "شارژر هوشمند",
+    "type": "sentence",
+    "intent": "iot_wemo_on"
+  },
+  {
+    "question": "بازی ------ را برای خودم و خودت باز کن",
+    "choices": [
+      "كه",
+      "نشر",
+      "بسیاری",
+      "شطرنج"
+    ],
+    "answer": "شطرنج",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "آیا ------ اینجا برف می بارد",
+    "choices": [
+      "پدرش",
+      "میرزا",
+      "دستور",
+      "این آخر هفته"
+    ],
+    "answer": "این آخر هفته",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "هیچ آپدیتی در صفحه ------ هست",
+    "choices": [
+      "توزیع",
+      "فیس بوک سی. ان. ان",
+      "زیاد",
+      "بلکه"
+    ],
+    "answer": "فیس بوک سی. ان. ان",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "مشغول",
+    "choices": [
+      "busy",
+      "formation",
+      "closed",
+      "known"
     ],
     "answer": 0,
     "type": "translate_en_fa"
+  },
+  {
+    "question": "یک ایمیل در پاسخ به ایمیل ------ من بنویس",
+    "choices": [
+      "برجسته",
+      "مادر",
+      "می‌گیرد",
+      "رتبه"
+    ],
+    "answer": "مادر",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "------ رو باز کن",
+    "choices": [
+      "کتاب",
+      "بین‌المللی",
+      "پست",
+      "رادیو آوا"
+    ],
+    "answer": "رادیو آوا",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "------ چند شنبه است",
+    "choices": [
+      "رفته",
+      "حاج",
+      "ایشان",
+      "امسال چهارم تیر"
+    ],
+    "answer": "امسال چهارم تیر",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "آهنگ ------ در فیلم غریب آشنا را پخش کن",
+    "choices": [
+      "شرح",
+      "نخستین",
+      "به‌",
+      "ایهام"
+    ],
+    "answer": "ایهام",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "rank",
+    "choices": [
+      "درصد",
+      "رتبه",
+      "جعبه",
+      "هوای"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا ------ هیچ ایمیل جدیدی برای من وجود دارد",
+    "choices": [
+      "پل",
+      "باید",
+      "برتر",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "چه ------ باید بپوشم",
+    "choices": [
+      "مربع",
+      "پیرامون",
+      "حاج",
+      "ژاکتی"
+    ],
+    "answer": "ژاکتی",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "بیرون چند ------ هست",
+    "choices": [
+      "رسیدن",
+      "بزرگ",
+      "درجه",
+      "قرآن"
+    ],
+    "answer": "درجه",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "من باید روز ------ ساعت ده صبح یک جلسه با علی در تقویم وارد کنم",
+    "choices": [
+      "خلیج",
+      "دوشنبه",
+      "ساختار",
+      "آیت"
+    ],
+    "answer": "دوشنبه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "آیا ------ کرم ضد آفتاب لازم دارم",
+    "choices": [
+      "امروز",
+      "پرورش",
+      "پایتخت",
+      "جغرافیایی"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "آهنگ جدید از ------ را پخش کن",
+    "choices": [
+      "منظور",
+      "آرون افشار",
+      "چاپ",
+      "دورهٔ"
+    ],
+    "answer": "آرون افشار",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "از ------ برای تمیز کردن آشپزخانه استفاده کن",
+    "choices": [
+      "جاروبرقی رباتیک",
+      "دوران",
+      "زنان",
+      "مهدی"
+    ],
+    "answer": "جاروبرقی رباتیک",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "دوست داشتنی ترین آهنگ‌های ------ کدامند",
+    "choices": [
+      "مستقیم",
+      "گوگوش",
+      "آبان",
+      "کوه"
+    ],
+    "answer": "گوگوش",
+    "type": "sentence",
+    "intent": "music_query"
+  },
+  {
+    "question": "------ کدام ها هستند",
+    "choices": [
+      "رفت",
+      "ایستگاه های رادیویی فلوریدا",
+      "کرد",
+      "تحقیقات"
+    ],
+    "answer": "ایستگاه های رادیویی فلوریدا",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "می توانی برای من یک بلیط ------ به ساری رزرو کنی",
+    "choices": [
+      "خیلی",
+      "قطار",
+      "هنگامی",
+      "مناطق"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "لطفا ------ امروز بعد از ساعت هفت بعدازظهر را حذف کن",
+    "choices": [
+      "صورت",
+      "موفق",
+      "تمام جلسات",
+      "شهید"
+    ],
+    "answer": "تمام جلسات",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "return",
+    "choices": [
+      "این",
+      "نژاد",
+      "بازگشت",
+      "دوست"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "می توانی رنگ نور را در ------ عوض کنی",
+    "choices": [
+      "ساخته",
+      "روز",
+      "خط",
+      "خانه"
+    ],
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "برام ------ پخش کن",
+    "choices": [
+      "زنده",
+      "حاصل",
+      "رادیو جوان",
+      "نسبت"
+    ],
+    "answer": "رادیو جوان",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "میتونی ------ را روشن کنی",
+    "choices": [
+      "پاندورا",
+      "نمایندگان",
+      "محله",
+      "اتحادیه"
+    ],
+    "answer": "پاندورا",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "آیا ------ جلساتی دارم",
+    "choices": [
+      "امروز",
+      "چنین",
+      "پاریس",
+      "مدل"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "olly آیا بیرون ------",
+    "choices": [
+      "سینما",
+      "کل",
+      "می‌رود",
+      "باران می‌بارد"
+    ],
+    "answer": "باران می‌بارد",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "اوولی لطفا تمام ------ من را برنامه ریزی کن",
+    "choices": [
+      "وقتهای دکتر",
+      "شیمیایی",
+      "علمی",
+      "حقیقت"
+    ],
+    "answer": "وقتهای دکتر",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "بوم",
+    "choices": [
+      "wet",
+      "we",
+      "country",
+      "announcement"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "زنگ هشدار در ------ تنظیم شد",
+    "choices": [
+      "نامیده",
+      "فوریه",
+      "پیرامون",
+      "هشت صبح"
+    ],
+    "answer": "هشت صبح",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "too",
+    "choices": [
+      "درون",
+      "چون",
+      "مهر",
+      "همچنین"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "الهه نزدیک ترین ------ را پیدا کن",
+    "choices": [
+      "فوق",
+      "فصل",
+      "اسنپ",
+      "اگر"
+    ],
+    "answer": "اسنپ",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "زنگ هشدار هر ------ ماه را هشت صبح تنظیم کن",
+    "choices": [
+      "سه شنبه اسفند",
+      "جریان",
+      "روشن",
+      "يا"
+    ],
+    "answer": "سه شنبه اسفند",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "چه زمانی ------ ساخته شد",
+    "choices": [
+      "پیشنهاد",
+      "نوامبر",
+      "دار",
+      "تئاتر بولشوی"
+    ],
+    "answer": "تئاتر بولشوی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "برنامه ------ من چیست",
+    "choices": [
+      "انسانی",
+      "تعیین",
+      "چرا",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "بیرون ------",
+    "choices": [
+      "مقدار",
+      "گرم است یا سرد است",
+      "‌",
+      "طرح"
+    ],
+    "answer": "گرم است یا سرد است",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "ساعت ------ را به من یادآوری کن",
+    "choices": [
+      "شش و نیم بعدازظهر",
+      "استفاده",
+      "نظامی",
+      "افزایش"
+    ],
+    "answer": "شش و نیم بعدازظهر",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "پیش بینی وضع هوای ------ برای منطقه من چطور است",
+    "choices": [
+      "داشت",
+      "امروز",
+      "مجله",
+      "می‌کردند"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "the same",
+    "choices": [
+      "همین",
+      "خرداد",
+      "سبب",
+      "بودن"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "اخبار ------ امروز چه هستند",
+    "choices": [
+      "شب",
+      "شده‌اند",
+      "ورزشی",
+      "زمان"
+    ],
+    "answer": "ورزشی",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "می‌خواهم به من یادآوری کنی که ------ بعدی با دوست دخترم ساعت هشت شب یکشنبه‌ی آینده خواهد بود",
+    "choices": [
+      "دوباره",
+      "عملیات",
+      "دیدار",
+      "می‌باشند"
+    ],
+    "answer": "دیدار",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "جستجو کن و بهترین آهنگ های ------ را پخش کن",
+    "choices": [
+      "گردد",
+      "گذاری",
+      "ابی",
+      "زبان‌های"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "ten",
+    "choices": [
+      "مسابقات",
+      "ده",
+      "ترک",
+      "حکم"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "------ را برای این جمعه در ساعت تعیین کن",
+    "choices": [
+      "وقت دکتر",
+      "ابراهیم",
+      "به",
+      "کد"
+    ],
+    "answer": "وقت دکتر",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "present",
+    "choices": [
+      "توسعه",
+      "شامل",
+      "قمری",
+      "حالی"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "یه آهنگ از ------ شادمهر عقیلی رو از سر بگیر",
+    "choices": [
+      "روزنامه",
+      "کتاب صوتی",
+      "نماید",
+      "می‌گردد"
+    ],
+    "answer": "کتاب صوتی",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "------ من را چک کن",
+    "choices": [
+      "نیروهای",
+      "اداره",
+      "حقیقت",
+      "صندوق ورودی"
+    ],
+    "answer": "صندوق ورودی",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "آیا ------ عضو snappfood است",
+    "choices": [
+      "پیام",
+      "رستوران ریحون",
+      "فرانسوی",
+      "اتحادیه"
+    ],
+    "answer": "رستوران ریحون",
+    "type": "sentence",
+    "intent": "takeaway_query"
+  },
+  {
+    "question": "------ ارزان قیمت نزدیک من پیدا کن",
+    "choices": [
+      "ایالت",
+      "نامیده",
+      "اغذیه",
+      "بازگشت"
+    ],
+    "answer": "اغذیه",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "بهترین زمان مسافرت به ------ چه زمانی است و از کدام فرودگاه",
+    "choices": [
+      "اولیه",
+      "پادشاهی",
+      "دره",
+      "کانادا"
+    ],
+    "answer": "کانادا",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "آیا می خواهد ------ ببارد",
+    "choices": [
+      "آغاز",
+      "لحاظ",
+      "گرم",
+      "باران"
+    ],
+    "answer": "باران",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "به ------ برو",
+    "choices": [
+      "قسمت بعدی",
+      "کوه",
+      "چنین",
+      "ثابت"
+    ],
+    "answer": "قسمت بعدی",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "آیا رویدادی برای ------ برنامه‌ریزی شده است",
+    "choices": [
+      "دنبال",
+      "سه ماه بعد",
+      "پاپ",
+      "پیام"
+    ],
+    "answer": "سه ماه بعد",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ را برای من حذف کن",
+    "choices": [
+      "خورشید",
+      "نزدیک",
+      "لیست سگ",
+      "آمده"
+    ],
+    "answer": "لیست سگ",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "آیا باید قبل از ------ برای ناهار از کرم ضد آفتاب استفاده کنم",
+    "choices": [
+      "برای",
+      "رفتن به ملاقات دوستم",
+      "انتشار",
+      "موقعیت"
+    ],
+    "answer": "رفتن به ملاقات دوستم",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "بزار من به ------ فایل صوتی مونولوگ گوش بدم",
+    "choices": [
+      "آخرین",
+      "حوزه",
+      "اوت",
+      "آلمان"
+    ],
+    "answer": "آخرین",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "model",
+    "choices": [
+      "پوشش",
+      "پیدا",
+      "مدل",
+      "باید"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "------ چیست",
+    "choices": [
+      "صدای",
+      "بازی کامپیوتری",
+      "بیت",
+      "موسسه"
+    ],
+    "answer": "بازی کامپیوتری",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "------ از شادمهر را پخش کن",
+    "choices": [
+      "تلاش",
+      "شرکت",
+      "متفاوت",
+      "آغوش"
+    ],
+    "answer": "آغوش",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ تمام لامپ ها باید خاموش باشد",
+    "choices": [
+      "مردان",
+      "کرده",
+      "در طول روز",
+      "هر"
+    ],
+    "answer": "در طول روز",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "question": "------ را از ادامه پخش کن",
+    "choices": [
+      "نماینده",
+      "تدوین",
+      "کتاب صوتی",
+      "قاجار"
+    ],
+    "answer": "کتاب صوتی",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "کجا می‌توانم بلیط ------ به خراسان رضوی رزرو کنم",
+    "choices": [
+      "واحد",
+      "قطار",
+      "دورهٔ",
+      "آموزش"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "------ چه اتفاقی افتاد",
+    "choices": [
+      "امروز",
+      "‌",
+      "جان",
+      "نیمه"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "social_query"
+  },
+  {
+    "question": "شرکت فراگیر رایانه واقع در ------ را به ایمیل‌های مخاطبین من اضافه کن",
+    "choices": [
+      "عدم",
+      "ارتش",
+      "اواخر",
+      "شهرکرد چهارمحال و بختیاری"
+    ],
+    "answer": "شهرکرد چهارمحال و بختیاری",
+    "type": "sentence",
+    "intent": "email_addcontact"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "رنگ",
+      "جاروبرقی",
+      "اهالی",
+      "سخن"
+    ],
+    "answer": "جاروبرقی",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "کدام کشور متراکمترین جمعیت را در کل ------ دارد",
+    "choices": [
+      "میدان",
+      "جهان",
+      "قرار",
+      "اشاره"
+    ],
+    "answer": "جهان",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "چند جک ------ باز کن",
+    "choices": [
+      "بیمارستان",
+      "آموزش",
+      "جالب",
+      "بازی"
+    ],
+    "answer": "جالب",
+    "type": "sentence",
+    "intent": "general_joke"
+  },
+  {
+    "question": "نوشین",
+    "choices": [
+      "busy",
+      "sweet",
+      "death",
+      "state"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "نرخ تبدیل ------ به دلار آمریکا چقدر است",
+    "choices": [
+      "صفحه",
+      "صاحب",
+      "وضعیت",
+      "پوند انگلیس"
+    ],
+    "answer": "پوند انگلیس",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "بوم",
+    "choices": [
+      "country",
+      "August",
+      "limits",
+      "civil"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "چه ------ نزدیک هستند",
+    "choices": [
+      "چاپ",
+      "هستند",
+      "حقیقت",
+      "قهوه‌خانه‌هایی"
+    ],
+    "answer": "قهوه‌خانه‌هایی",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "------ هوا چند درجه است",
+    "choices": [
+      "ترجمه",
+      "امروز",
+      "امور",
+      "خوانده"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "------ را چطوری کباب می‌کنی",
+    "choices": [
+      "جدا",
+      "حسن",
+      "گوشت بره",
+      "پیشین"
+    ],
+    "answer": "گوشت بره",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "چقدر طول می کشد به ------ برسیم",
+    "choices": [
+      "فرودگاه",
+      "ستاره",
+      "صاحب",
+      "مجموعه"
+    ],
+    "answer": "فرودگاه",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "industry",
+    "choices": [
+      "صنعت",
+      "بیت",
+      "پیرامون",
+      "دکتر"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا در ------ مکان تفریحی هست که من امشب بروم",
+    "choices": [
+      "دسته",
+      "مفهوم",
+      "تاریخچه",
+      "شهر"
+    ],
+    "answer": "شهر",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "دستورالعمل‌هایی به من بده که چطور ------ را بپزم",
+    "choices": [
+      "می‌شد",
+      "مقابل",
+      "مرغ",
+      "اما"
+    ],
+    "answer": "مرغ",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "لامپ ها ی ------ را کم کن",
+    "choices": [
+      "همانند",
+      "خانه",
+      "شبیه",
+      "شدت"
+    ],
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "iot_hue_lightdim"
+  },
+  {
+    "question": "یک ایمیل به ------ در ------ احمدی ات جیمیل دات کام بفرست",
+    "choices": [
+      "روزنامه",
+      "قدرت",
+      "تیام",
+      "اما"
+    ],
+    "answer": "تیام",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "این هفته",
+      "پول",
+      "بالای",
+      "هر"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "زنگ هشدار را برای ------ صبح شنبه در ساعت هشت تنظیم کن",
+    "choices": [
+      "چرا",
+      "فوریه",
+      "تمرین فوتبال",
+      "روستاهای"
+    ],
+    "answer": "تمرین فوتبال",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "پیش بینی وضع هوای ------ چیست",
+    "choices": [
+      "شهری",
+      "می‌رسد",
+      "آن",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "آیا هنوز در مورد ------ رای گیری نشده است",
+    "choices": [
+      "بی",
+      "بودجه",
+      "بازی",
+      "کمتر"
+    ],
+    "answer": "بودجه",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "افشا شده",
+    "choices": [
+      "winner",
+      "out",
+      "individuals",
+      "stone"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "هوای ------ امروز چطور است",
+    "choices": [
+      "فصل",
+      "کشورهای",
+      "ناحیه",
+      "دیزین"
+    ],
+    "answer": "دیزین",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "هوای ------ چطوره",
+    "choices": [
+      "چندین",
+      "اسلام",
+      "به",
+      "این هفته"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "سلام ------ چطوری",
+    "choices": [
+      "کتاب‌های",
+      "هنری",
+      "امروز",
+      "نزد"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "general_greet"
+  },
+  {
+    "question": "آپدیت درباره ------ زرافه",
+    "choices": [
+      "اردیبهشت",
+      "تشکیل",
+      "وزن",
+      "ارزش"
+    ],
+    "answer": "اردیبهشت",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "correlated",
+    "choices": [
+      "ترکیه",
+      "مرتبط",
+      "فلسفه",
+      "گیاهان"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آموزشی",
+    "choices": [
+      "money",
+      "brave",
+      "related",
+      "education"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "topic",
+    "choices": [
+      "عضو",
+      "دفتر",
+      "علی",
+      "موضوع"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا من ------ جلسه‌ای دارم",
+    "choices": [
+      "امروز",
+      "مراسم",
+      "نیروهای",
+      "بدون"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "من از ------ چه ایمیل‌هایی دریافت کرده‌ام",
+    "choices": [
+      "مردم",
+      "شب گذشته",
+      "مواد",
+      "باب"
+    ],
+    "answer": "شب گذشته",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "ایا هیچ یادآوری برای ------ دارم",
+    "choices": [
+      "حال",
+      "امروز",
+      "حساب",
+      "عباس"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ کتاب صوتی برای من ادامه بده",
+    "choices": [
+      "می‌گردد",
+      "به خواندن",
+      "صد",
+      "دوست"
+    ],
+    "answer": "به خواندن",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "دستور پخت ------ را جستجو کن",
+    "choices": [
+      "داخل",
+      "اطلاعات",
+      "رسیدن",
+      "پیتزا"
+    ],
+    "answer": "پیتزا",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "هی ------ چیست",
+    "choices": [
+      "وی",
+      "پنیر سفید",
+      "می",
+      "حاصل"
+    ],
+    "answer": "پنیر سفید",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "خاک",
+    "choices": [
+      "go",
+      "imprison",
+      "soil",
+      "olympic"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لطفا درباره ------ توضیح بده",
+    "choices": [
+      "الدین",
+      "می‌کردند",
+      "دستگاه",
+      "مایکروویو"
+    ],
+    "answer": "مایکروویو",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "------ چطور درست می شه",
+    "choices": [
+      "زرشک پلو",
+      "دل",
+      "جز",
+      "سده"
+    ],
+    "answer": "زرشک پلو",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "به من یادآوری کن که ------ صبح پیتزا درست کنم",
+    "choices": [
+      "فردا",
+      "اضافه",
+      "اکبر",
+      "مهندسی"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ را تعریف کن",
+    "choices": [
+      "ستاره",
+      "نقطه",
+      "بلندگو",
+      "دیگری"
+    ],
+    "answer": "بلندگو",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "آیا ------ دیرترساعت هشت شب برنامه‌ای داشتم",
+    "choices": [
+      "امشب",
+      "بندر",
+      "ايران",
+      "روش"
+    ],
+    "answer": "امشب",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "برای این ------ ساعت نه صبح یک بلیط قطار یک طرفه رزرو کن",
+    "choices": [
+      "یونان",
+      "بعدها",
+      "سه شنبه",
+      "وزارت"
+    ],
+    "answer": "سه شنبه",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "لطفا چراغ‌های ------ را خاموش کن",
+    "choices": [
+      "کیلومتری",
+      "گرفته‌است",
+      "انتخابات",
+      "حمام"
+    ],
+    "answer": "حمام",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "question": "------ همین الآن",
+    "choices": [
+      "انسانی",
+      "درجه",
+      "آذر",
+      "تاکسی"
+    ],
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "اغلب",
+    "choices": [
+      "wet",
+      "most",
+      "knowledge",
+      "lack"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "یک ایمیل کاری برای ------ بفرست",
+    "choices": [
+      "مناسبت‌ها",
+      "کارگردان",
+      "علی",
+      "برخوردار"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "جاروبرقی رباتیک",
+      "مشغول",
+      "مهدی",
+      "خراسان"
+    ],
+    "answer": "جاروبرقی رباتیک",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "به ------ یک شکایت بفرست در رابطه با مشکلات سرعت انترنت",
+    "choices": [
+      "آنچه",
+      "شرکت پارس آنلاین",
+      "کرده‌اند",
+      "توسط"
+    ],
+    "answer": "شرکت پارس آنلاین",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "لطفا پرتقال را به لیست ------ من اضافه کن",
+    "choices": [
+      "موزه",
+      "کارگردانی",
+      "شیمیایی",
+      "خواروبار"
+    ],
+    "answer": "خواروبار",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "از ------ من برای تمیز کردن اتاق نشیمن استفاده کن",
+    "choices": [
+      "دوران",
+      "فرد",
+      "جاروبرقی",
+      "ج"
+    ],
+    "answer": "جاروبرقی",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "هزینه سرویس ------ در محل",
+    "choices": [
+      "هجری",
+      "زیادی",
+      "تحویل",
+      "چشم"
+    ],
+    "answer": "تحویل",
+    "type": "sentence",
+    "intent": "takeaway_query"
+  },
+  {
+    "question": "به ------ توئیت کن که مقدار آن اشتباه است",
+    "choices": [
+      "کل",
+      "نشان",
+      "دیگر",
+      "خدمات مصرف کننده"
+    ],
+    "answer": "خدمات مصرف کننده",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "همه‌ی رویداد‌های ------ در ماه فروردین رو به تقویم من اضافه کن",
+    "choices": [
+      "دهد",
+      "تشخیص",
+      "تالار وزارت کشور",
+      "بالای"
+    ],
+    "answer": "تالار وزارت کشور",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ تو نکا چه برنامه هایی هست",
+    "choices": [
+      "پانویس",
+      "آمریکا",
+      "علی",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "------ پخش کن",
+    "choices": [
+      "سفید",
+      "راک",
+      "جام",
+      "شیخ"
+    ],
+    "answer": "راک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "یک ------ از رستوران مانداک سفارش بده",
+    "choices": [
+      "بشقاب گوشت دودی",
+      "محصولات",
+      "تحصیلات",
+      "استان‌های"
+    ],
+    "answer": "بشقاب گوشت دودی",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "birth",
+    "choices": [
+      "محمد",
+      "تاکنون",
+      "کارگردان",
+      "تولد"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "توقف",
+    "choices": [
+      "motive",
+      "old",
+      "stop",
+      "yours"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "به ------ در مورد تعمیر ماشین من ایمیل بزن",
+    "choices": [
+      "بابا",
+      "دیگر",
+      "کنار",
+      "غربی"
+    ],
+    "answer": "بابا",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "------ اهل کجاست",
+    "choices": [
+      "نیویورک",
+      "حسن",
+      "شهاب حسینی",
+      "محیط"
+    ],
+    "answer": "شهاب حسینی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "دستور پخت ------ را به من نشان بده",
+    "choices": [
+      "وزارت",
+      "دوره",
+      "کوکی",
+      "جنسی"
+    ],
+    "answer": "کوکی",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "بیست",
+      "آنکه",
+      "تهران",
+      "موتور"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "------ به نامه آرش پاسخ بده",
+    "choices": [
+      "چهار",
+      "نشان",
+      "شخصی",
+      "صبح"
+    ],
+    "answer": "صبح",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "نام وسط ------ را به من بگو",
+    "choices": [
+      "تام هنکس",
+      "شکست",
+      "مدتی",
+      "پنج"
+    ],
+    "answer": "تام هنکس",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "آیا سفارش من در ------ حاضر است",
+    "choices": [
+      "عطاویچ",
+      "آنجا",
+      "پاریس",
+      "خدمت"
+    ],
+    "answer": "عطاویچ",
+    "type": "sentence",
+    "intent": "takeaway_query"
+  },
+  {
+    "question": "خوب",
+    "choices": [
+      "بد",
+      "قهرمانی",
+      "انگلیسی",
+      "دلار"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "قیمت کنونی سهام ------ چند است",
+    "choices": [
+      "چندین",
+      "مسجد",
+      "hasbro",
+      "آوریل"
+    ],
+    "answer": "hasbro",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "علی جدیدترین خبرهایی که درباره ------ داری را به من بگو",
+    "choices": [
+      "بنیاد",
+      "کتایون ریاحی",
+      "منطقه",
+      "دوم"
+    ],
+    "answer": "کتایون ریاحی",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "آیا تقویم من در ------ به روز شده است",
+    "choices": [
+      "هدایت",
+      "کلمه",
+      "ده دقیقه‌ی گذشته",
+      "خویش"
+    ],
+    "answer": "ده دقیقه‌ی گذشته",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "establishment",
+    "choices": [
+      "سخن",
+      "بازی‌های",
+      "دهد",
+      "تاسیس"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا برای بیرون رفتن ------ لازم دارم",
+    "choices": [
+      "سرشماری",
+      "دریا",
+      "ثابت",
+      "چتر"
+    ],
+    "answer": "چتر",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "------ در این تاریخ به من یادآوری کن",
+    "choices": [
+      "وابسته",
+      "اين",
+      "کالیفرنیا",
+      "هر سال"
+    ],
+    "answer": "هر سال",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "آفریقا",
+    "choices": [
+      "Africa",
+      "translation",
+      "subscriber",
+      "beneath"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "من می خواهم مقداری چیز ------ بخورم",
+    "choices": [
+      "فرهنگ",
+      "کرده‌اند",
+      "تند",
+      "کرد"
+    ],
+    "answer": "تند",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "کوتاهترین مسیر به ------ را بده",
+    "choices": [
+      "فضای",
+      "بازیگران",
+      "باب",
+      "فرودگاه"
+    ],
+    "answer": "فرودگاه",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "------ را پخش کن",
+    "choices": [
+      "قسمت بعدی فایل صوتی",
+      "عملیات",
+      "یافته",
+      "رفته"
+    ],
+    "answer": "قسمت بعدی فایل صوتی",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "آیا ------ باران می بارد",
+    "choices": [
+      "دوشنبه",
+      "بازیگر",
+      "ماده",
+      "چند"
+    ],
+    "answer": "دوشنبه",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "no",
+    "choices": [
+      "آنها",
+      "اهل",
+      "ثبت",
+      "هیچ"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "نرخ تبدیل بین ------ و یورو",
+    "choices": [
+      "ترانه",
+      "مراکز",
+      "صاحب",
+      "دلار"
+    ],
+    "answer": "دلار",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "آیا ------ کسی مرا در twitter دنبال کرد",
+    "choices": [
+      "هنرمند",
+      "امروز",
+      "بی‌بی‌سی",
+      "مجلس"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "social_query"
+  },
+  {
+    "question": "آیا می توانی برای من توصیف کنی یک ------ شبیه چیست",
+    "choices": [
+      "آناناس",
+      "سعید",
+      "گروهی",
+      "حضور"
+    ],
+    "answer": "آناناس",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "یک جک ------ می توانی برایم تعریف کنی",
+    "choices": [
+      "اشاره",
+      "آنکه",
+      "قشنگ",
+      "اعدام"
+    ],
+    "answer": "قشنگ",
+    "type": "sentence",
+    "intent": "general_joke"
+  },
+  {
+    "question": "به من یادآوری کن که در ------ سارا را در ولی عصر تهران ملاقات کنم",
+    "choices": [
+      "ظهر",
+      "یا",
+      "بسته",
+      "سید"
+    ],
+    "answer": "ظهر",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "یادآوری ------ را ساعت دو بعدازظهر تنظیم کن",
+    "choices": [
+      "تعیین",
+      "ی",
+      "مطالعات",
+      "فردا"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "برای ایمیلی که از ------ دریافت کردم صندوق ورودی من را ببین",
+    "choices": [
+      "کوتاه",
+      "همیشه",
+      "برگزار",
+      "ساره"
+    ],
+    "answer": "ساره",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "به من اطلاع بده که موعد ------ من است",
+    "choices": [
+      "حل",
+      "باغ",
+      "کتاب‌های",
+      "گوشی"
+    ],
+    "answer": "گوشی",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "اهنگ ------ را دانلود و ذخیره کن",
+    "choices": [
+      "شبه",
+      "درجه",
+      "مدت",
+      "فیلم گوزن ها"
+    ],
+    "answer": "فیلم گوزن ها",
+    "type": "sentence",
+    "intent": "music_likeness"
+  },
+  {
+    "question": "آیا تصادفی در ------ رخ داده",
+    "choices": [
+      "خیابان انقلاب",
+      "داخل",
+      "سوی",
+      "بسیاری"
+    ],
+    "answer": "خیابان انقلاب",
+    "type": "sentence",
+    "intent": "transport_traffic"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "تهران",
+      "اصلی",
+      "افزایش",
+      "نگهداری"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "------ تکرار کن",
+    "choices": [
+      "روزانه",
+      "دوره",
+      "فی",
+      "اضافه"
+    ],
+    "answer": "روزانه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "بیا ------ بازی کنیم",
+    "choices": [
+      "خانه",
+      "سوبرا",
+      "مهر",
+      "شبیه"
+    ],
+    "answer": "سوبرا",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "می‌توانی ------ امروز ساعت چهار بعدازظهر را به من یادآوری کنی",
+    "choices": [
+      "کردن",
+      "لندن",
+      "جلسه",
+      "عبارتند"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ را مجدد پخش کن",
+    "choices": [
+      "دا",
+      "مشترک",
+      "علیه",
+      "اجازه"
+    ],
+    "answer": "دا",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "لطفا ------ را خاموش کن",
+    "choices": [
+      "سایر",
+      "لامپ",
+      "كه",
+      "علوم"
+    ],
+    "answer": "لامپ",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "question": "آب و هوای دوروبر من ------ چطوره",
+    "choices": [
+      "منبع",
+      "ایرانیان",
+      "اصل",
+      "این هفته"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "------ را پخش کن",
+    "choices": [
+      "فوریه",
+      "قهرمانی",
+      "مصرف",
+      "رادیو دور دنیا"
+    ],
+    "answer": "رادیو دور دنیا",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "می توانی یک بلیط دو نفره ------ برای این جمعه بگیری",
+    "choices": [
+      "کنار",
+      "باغ",
+      "قطار",
+      "تقسیمات"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "رویداد ------ را از تقویم حذف کن",
+    "choices": [
+      "دسترسی",
+      "پنجم",
+      "مهمانی",
+      "مسجد"
+    ],
+    "answer": "مهمانی",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "------ از شاملو را بزن عقب",
+    "choices": [
+      "کشف",
+      "ولی",
+      "آموزشی",
+      "نامه ای به آیدا"
+    ],
+    "answer": "نامه ای به آیدا",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "درباره ------ چه فکر می کنی",
+    "choices": [
+      "ترامپ",
+      "تغییر",
+      "آذر",
+      "زندان"
+    ],
+    "answer": "ترامپ",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "لطفا نور ------ را به آبی تغییر بده",
+    "choices": [
+      "انسان",
+      "واژه",
+      "ایوان",
+      "‌"
+    ],
+    "answer": "ایوان",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "لطفا یک ------ با این شخص تنظیم کن",
+    "choices": [
+      "جلسه",
+      "کره",
+      "متر",
+      "کنید"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "من نیازی به سیب ندارم آن را از لیست ------ من حذف کن",
+    "choices": [
+      "برادر",
+      "تاریخچه",
+      "تقویم",
+      "خرید"
+    ],
+    "answer": "خرید",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "آموزشی",
+    "choices": [
+      "type",
+      "Imam",
+      "Akbar",
+      "education"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "نظرم رو از گوشی موبایل تو ------ بنویس",
+    "choices": [
+      "فیس بوک",
+      "پرورش",
+      "آقای",
+      "تدوین"
+    ],
+    "answer": "فیس بوک",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "آیا من یک ایمیل از ------ دریافت کرده‌ام",
+    "choices": [
+      "چهارم",
+      "ماهان",
+      "ایرانی",
+      "گروه"
+    ],
+    "answer": "ماهان",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "no",
+    "choices": [
+      "می‌باشد",
+      "شکل",
+      "نه",
+      "بلند"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "یک ------ استیک محلی پیشنهاد بده",
+    "choices": [
+      "شدید",
+      "رستوران",
+      "ابن",
+      "سفید"
+    ],
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "لطفا برای ------ بی صدا باش",
+    "choices": [
+      "کردند",
+      "می",
+      "بلکه",
+      "یک ساعت دیگر"
+    ],
+    "answer": "یک ساعت دیگر",
+    "type": "sentence",
+    "intent": "audio_volume_mute"
+  },
+  {
+    "question": "آخرین تغییراتی که ------ در ایران رخ می دهد چیست",
+    "choices": [
+      "شهرهای",
+      "امروز",
+      "کرده‌است",
+      "برج"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "------ من را یادآوری کن",
+    "choices": [
+      "مه",
+      "زندگینامه",
+      "سرخ",
+      "جلسه"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "من قصد دارم که به ------ بروم",
+    "choices": [
+      "سفید",
+      "دفترم",
+      "اکثر",
+      "نسخه"
+    ],
+    "answer": "دفترم",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "نیک",
+    "choices": [
+      "mean",
+      "word",
+      "Mohammed",
+      "good"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "آیا من برای ------ صبح زنگ هشدار تنظیم کرده‌ام",
+    "choices": [
+      "عربی",
+      "پرواز",
+      "استرالیا",
+      "تهیه"
+    ],
+    "answer": "پرواز",
+    "type": "sentence",
+    "intent": "alarm_query"
+  },
+  {
+    "question": "چه زمانی می‌توانی از ------ کلمات استفاده کنی",
+    "choices": [
+      "دیگری",
+      "مجموعه",
+      "نوامبر",
+      "عربستان"
+    ],
+    "answer": "مجموعه",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "چگونه می توانم یک ------ را بپزم",
+    "choices": [
+      "استیک گوشت",
+      "جلوگیری",
+      "تاریخ",
+      "خبر"
+    ],
+    "answer": "استیک گوشت",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "رادیو را روشن کن و کانال ------ را پخش کن",
+    "choices": [
+      "نیویورک",
+      "مشترک",
+      "رادیو جوان",
+      "خورشیدی"
+    ],
+    "answer": "رادیو جوان",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "آیا می توانی زنگ هشدار را برای ساعت ------ تنظیم کنی",
+    "choices": [
+      "گردید",
+      "یک و سی",
+      "بندی",
+      "عباس"
+    ],
+    "answer": "یک و سی",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "چند تا غذای ------ برای من سفارش بده",
+    "choices": [
+      "چینی",
+      "کیلومتری",
+      "قوانین",
+      "گلستان"
+    ],
+    "answer": "چینی",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "من باید طرز تهیه ------ را بدانم",
+    "choices": [
+      "ارتفاع",
+      "مثال",
+      "کل",
+      "فلفل شکم پر"
+    ],
+    "answer": "فلفل شکم پر",
+    "type": "sentence",
+    "intent": "cooking_recipe"
   },
   {
     "question": "سترگ",
     "choices": [
-      "Fars",
-      "go",
-      "title",
+      "best",
+      "text",
+      "open",
       "large"
     ],
     "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "با ملاحظه",
+    "question": "لطفا ------ من را از ادامه پخش کن",
     "choices": [
-      "one",
-      "busy",
-      "careful",
-      "standard"
+      "آهنگ",
+      "سلطنت",
+      "ژاپن",
+      "مرتبط"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "آهنگ",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "son",
+    "question": "public",
     "choices": [
-      "خدمات",
-      "پسر",
-      "سفر",
-      "اروپا"
+      "جمهور",
+      "کاخ",
+      "حدود",
+      "بهترین"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "translate_fa_en"
   },
   {
-    "question": "چب",
+    "question": "لطفاً یادآوری ------ رایان را در یازدهم فروردین هزار و سیصد و نود و شش تنظیم کن",
     "choices": [
-      "راست",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
+      "توانست",
+      "برخوردار",
+      "به",
+      "ازدواج"
+    ],
+    "answer": "ازدواج",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "کدوم ------ روز جمعه است",
+    "choices": [
+      "خاصی",
+      "مراسم",
+      "سیزدهم امسال",
+      "مقاومت"
+    ],
+    "answer": "سیزدهم امسال",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "فایل صوتی ------ از mi را پخش کن",
+    "choices": [
+      "امروز",
+      "عرب",
+      "گسترش",
+      "جهت"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "برنا",
+    "choices": [
+      "early",
+      "young",
+      "hospital",
+      "work"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "کودک",
+    "choices": [
+      "area",
+      "expensive",
+      "king",
+      "child"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "olly در ساعت ------ به من هشدار بده که به کنسرت بروم",
+    "choices": [
+      "محلی",
+      "همکاری",
+      "جایزه",
+      "سه بعدازظهر"
+    ],
+    "answer": "سه بعدازظهر",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "چه باید بپوشم آیا بیرون ------ است",
+    "choices": [
+      "مانده",
+      "سرد",
+      "کودکان",
+      "پیام"
+    ],
+    "answer": "سرد",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "به ------ ایمیل بده و بپرس این هفته هوا چطوره",
+    "choices": [
+      "راه",
+      "نزدیک",
+      "استرالیا",
+      "پدر"
+    ],
+    "answer": "پدر",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "یک کپی از صورتحساب‌ها را از طریق ایمیل به ------ ارسال کن",
+    "choices": [
+      "کمیل",
+      "ایشان",
+      "روزنامه",
+      "پیشنهاد"
+    ],
+    "answer": "کمیل",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "ministry",
+    "choices": [
+      "عملیات",
+      "ریاست",
+      "وزارت",
+      "حالی"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "لطفا همه مقالات مربوط به ------ در مشرق نیوز را به من نشان بده",
+    "choices": [
+      "انقلاب",
+      "هزار",
+      "شهری",
+      "آب و هوا"
+    ],
+    "answer": "آب و هوا",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "از اینجا تا ------ با قطار چقدر طول می کشد",
+    "choices": [
+      "می‌دهند",
+      "استان‌های",
+      "معنای",
+      "قم"
+    ],
+    "answer": "قم",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "آخرین اخبار ------ چیست",
+    "choices": [
+      "اخیر",
+      "ناسا",
+      "اين",
+      "دونالد ترامپ"
+    ],
+    "answer": "دونالد ترامپ",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "از جایی که آخرین بار متوقف کردم ------ را برای من پخش کن",
+    "choices": [
+      "کسی",
+      "پستچی",
+      "ترکیه",
+      "بنیاد"
+    ],
+    "answer": "پستچی",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "نزدیک ترین ------ را رزرو کن",
+    "choices": [
+      "تجاری",
+      "آورد",
+      "ترکیه",
+      "اسنپ"
+    ],
+    "answer": "اسنپ",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "چنانچه",
+    "choices": [
+      "too",
+      "if",
+      "stroke",
+      "above"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "آیدی ------ را به افشین در مخاطبین پیوند کن",
+    "choices": [
+      "تن",
+      "باشگاه",
+      "افشین ات جیمیل دات کام",
+      "شهید"
+    ],
+    "answer": "افشین ات جیمیل دات کام",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "بازی ------ را برایم پخش کن",
+    "choices": [
+      "شطرنج",
+      "بازی",
+      "پایگاه",
+      "اخیر"
+    ],
+    "answer": "شطرنج",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "یک ------ به خرده فروشی اسپات بفرست که کالا هاشاون خیلی قیمته",
+    "choices": [
+      "مختلف",
+      "بازیابی‌شده",
+      "توئیت",
+      "اداره"
+    ],
+    "answer": "توئیت",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "مستقیم",
+    "choices": [
+      "هنوز",
+      "دانشگاه",
+      "کج",
+      "پاپ"
+    ],
+    "answer": 2,
+    "type": "antonym"
+  },
+  {
+    "question": "لیست ------ را حذف کن",
+    "choices": [
+      "خواروبارها",
+      "صنعت",
+      "مشهور",
+      "درمان"
+    ],
+    "answer": "خواروبارها",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "------ دوست فیسبوکی علی را به من بگو",
+    "choices": [
+      "سی",
+      "سپس",
+      "آدرس خیابان",
+      "عباس"
+    ],
+    "answer": "آدرس خیابان",
+    "type": "sentence",
+    "intent": "email_querycontact"
+  },
+  {
+    "question": "------ را که در آن منطقه هستند به من نشان بده",
+    "choices": [
+      "معماری",
+      "شیمیایی",
+      "ذکر",
+      "مغازه‌هایی"
+    ],
+    "answer": "مغازه‌هایی",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "بزرگ",
+    "choices": [
+      "کوچیک",
+      "وجود",
+      "جوایز",
+      "انتشار"
     ],
     "answer": 0,
     "type": "antonym"
   },
   {
-    "question": "ارزان قیمت",
+    "question": "سهی",
     "choices": [
-      "revolution",
-      "new",
-      "cold",
-      "cheap"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Japan",
-    "choices": [
-      "عصر",
-      "برتر",
-      "ژاپن",
-      "فصل"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "then",
-    "choices": [
-      "عبور",
-      "بهره",
-      "بعد",
-      "آن"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برای آن که",
-    "choices": [
-      "west",
-      "left",
-      "in order to",
-      "life"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "utilization",
-    "choices": [
-      "کودکان",
-      "کاربرد",
-      "ارومیه",
-      "عهده"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "رل",
-    "choices": [
-      "closed",
-      "role",
-      "type",
-      "why"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "known",
-    "choices": [
-      "تحصیل",
-      "شناخته",
-      "مطلق",
-      "المللی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "راستین",
-    "choices": [
-      "division",
-      "real",
-      "beginning",
-      "laugh"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "work",
-    "choices": [
-      "مطالعه",
-      "کار",
-      "آن‌ها",
-      "هنوز"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "salary",
-    "choices": [
-      "گرم",
-      "حقوق",
-      "منتشر",
-      "بیماری"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جاه",
-    "choices": [
-      "because",
-      "warm",
-      "biography",
-      "position"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آذر",
-    "choices": [
-      "why",
-      "collaboration",
-      "Ali",
-      "Azar"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آنها",
-    "choices": [
-      "red",
-      "music",
-      "paying attention",
-      "they"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "England",
-    "choices": [
-      "انگلستان",
-      "آقای",
-      "روابط",
-      "مجلس"
+      "straight",
+      "effective",
+      "straight",
+      "hundred"
     ],
     "answer": 0,
-    "type": "translate_fa_en"
+    "type": "translate_en_fa"
   },
   {
-    "question": "tongue",
+    "question": "آیا ------ سرویس تحویل در منزل هم دارد",
     "choices": [
-      "یکی",
-      "استقلال",
-      "دور",
-      "زبان"
+      "زیر",
+      "فرهنگی",
+      "رنگ",
+      "رستوران"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "takeaway_query"
   },
   {
-    "question": "red",
+    "question": "------ را باز کن",
     "choices": [
-      "نوشته",
-      "سیستم",
-      "سرخ",
-      "مربع"
+      "کوه",
+      "افراد",
+      "اش",
+      "سالیتر"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "سالیتر",
+    "type": "sentence",
+    "intent": "play_game"
   },
   {
-    "question": "network",
+    "question": "------ ارزان ترین بلیط دو طرفه برای یک سفر سه روزه به ایران چیست",
     "choices": [
+      "موتور",
       "مناسب",
-      "طی",
-      "شبکه",
-      "ثابت"
+      "جمهور",
+      "هفته بعد"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "هفته بعد",
+    "type": "sentence",
+    "intent": "transport_query"
   },
   {
-    "question": "شمالی",
+    "question": "به من بگو ------ کجا متولد شد",
     "choices": [
-      "northern",
-      "radio",
-      "club",
-      "occupied"
+      "استیو جابز",
+      "صنایع",
+      "ژوئیه",
+      "ژانویه"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "استیو جابز",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "born",
+    "question": "دستور پخت ------ را به من نشان بده",
+    "choices": [
+      "عرب",
+      "مهندسی",
+      "نظر",
+      "مرغ سوخاری"
+    ],
+    "answer": "مرغ سوخاری",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "چه چیزی ------ است",
+    "choices": [
+      "مهم‌ترین",
+      "باب شده",
+      "توان",
+      "تجاری"
+    ],
+    "answer": "باب شده",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "آخرین اخبار از ------",
+    "choices": [
+      "آمد",
+      "مرد",
+      "کرج",
+      "رده"
+    ],
+    "answer": "کرج",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "لطفا زمان تلفن من رو به زمان ------ تغییر بده.",
     "choices": [
       "تمامی",
-      "زاده",
-      "ش",
-      "شامل"
+      "اصول",
+      "تهران",
+      "برق"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "datetime_convert"
+  },
+  {
+    "question": "یک ------ با مادر م برای یکشنبه بعد اضافه کن",
+    "choices": [
+      "رمان",
+      "بنا",
+      "فرد",
+      "جلسه"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "چه برای ------ در دستور کار است",
+    "choices": [
+      "اولیه",
+      "امروز",
+      "مه",
+      "بازیگران"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "چیزی جدیدی در مورد ------",
+    "choices": [
+      "منطقه",
+      "خدا",
+      "ویروس کورونا",
+      "کامل"
+    ],
+    "answer": "ویروس کورونا",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "هی آیا ------ تجریش بارون میاد",
+    "choices": [
+      "امروز",
+      "صاحب",
+      "فناوری",
+      "جعبه"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "dill",
+    "choices": [
+      "شرایط",
+      "شود",
+      "آمد",
+      "شیراز"
     ],
     "answer": 1,
     "type": "translate_fa_en"
   },
   {
-    "question": "پریرو",
+    "question": "پنج ------ را به ریال تبدیل کن",
     "choices": [
-      "beautiful",
-      "winner",
-      "town",
-      "there"
+      "کیلومتر",
+      "عرضه",
+      "بدن",
+      "پنس"
+    ],
+    "answer": "پنس",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "آیا ------ این اطراف هست",
+    "choices": [
+      "غذای بیرون بر",
+      "بالا",
+      "همراه",
+      "زنان"
+    ],
+    "answer": "غذای بیرون بر",
+    "type": "sentence",
+    "intent": "takeaway_query"
+  },
+  {
+    "question": "این یکی را ------",
+    "choices": [
+      "دنیا",
+      "حال",
+      "ارسال کن",
+      "منجر"
+    ],
+    "answer": "ارسال کن",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "لطفا رویدادهای ------ را به من بگو",
+    "choices": [
+      "زندگینامه",
+      "المپیک",
+      "امروز",
+      "قبلی"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "در ------ sirius را بیاور",
+    "choices": [
+      "درباره",
+      "گیاهان",
+      "رادیو ماهواره ای",
+      "نفر"
+    ],
+    "answer": "رادیو ماهواره ای",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "فایل صوتی ------ را برای من پخش کن",
+    "choices": [
+      "میانه",
+      "امیر",
+      "ق",
+      "بازی"
+    ],
+    "answer": "امیر",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "هی تعریف ------ چیست",
+    "choices": [
+      "مهدی",
+      "مسعود",
+      "منفعل",
+      "کنترل"
+    ],
+    "answer": "منفعل",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "پانزده دقیقه قبل از شروع ------ به من اطلاع بده",
+    "choices": [
+      "صنایع",
+      "مذهبی",
+      "عهده",
+      "جلسه"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "مطلب جنجالی در ------ چیست",
+    "choices": [
+      "تبریز تایمز",
+      "کمتر",
+      "داده",
+      "شخص"
+    ],
+    "answer": "تبریز تایمز",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "------ من با مریم را در روز سه شنبه لغو کن و آن را به پنج‌شنبه موکول کن",
+    "choices": [
+      "طریق",
+      "سخن",
+      "جلسه",
+      "باشد"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ تعطیل است",
+    "choices": [
+      "خیلی",
+      "صنعتی",
+      "شرکت",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "یادآوری برای ------ را تکرار کن",
+    "choices": [
+      "کریسمس",
+      "ادامه",
+      "دره",
+      "پیشین"
+    ],
+    "answer": "کریسمس",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "خدمتگاری",
+    "choices": [
+      "service",
+      "girl",
+      "Fars",
+      "ancient."
     ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "بیعوض",
+    "question": "نمایشگاه تاریخ ------ هزار و سیصد و نود و شش در را در تاریخ مربوطه یادداشت کن",
     "choices": [
-      "institution",
-      "free",
-      "Korea",
-      "Turkey"
+      "آلمانی",
+      "بیست و پنج فروردین",
+      "پیشین",
+      "تاریخی"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "بیست و پنج فروردین",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "جدید",
+    "question": "در مورد ------ به علی ایمیل بده",
     "choices": [
-      "movement",
-      "novel",
-      "nowadays",
-      "old"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "appraisal",
-    "choices": [
+      "دولتی",
+      "جلسه بودجه",
       "بسیار",
-      "مسائل",
-      "چند",
-      "تقویم"
+      "خلیج"
     ],
-    "answer": 3,
+    "answer": "جلسه بودجه",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "مسیرهای رفتن به ------",
+    "choices": [
+      "دانشگاه",
+      "شمالی",
+      "بوده‌است",
+      "نهار خوران"
+    ],
+    "answer": "نهار خوران",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "result",
+    "choices": [
+      "گسترده",
+      "نتیجه",
+      "اشاره",
+      "هیچ"
+    ],
+    "answer": 1,
     "type": "translate_fa_en"
   },
   {
-    "question": "province",
+    "question": "------ را روشن کن",
     "choices": [
-      "اند",
-      "جهانی",
+      "لامپ‌ها",
+      "بیشتر",
+      "برخی",
+      "هوای"
+    ],
+    "answer": "لامپ‌ها",
+    "type": "sentence",
+    "intent": "iot_hue_lighton"
+  },
+  {
+    "question": "خواب",
+    "choices": [
+      "شامل",
+      "ارتفاع",
+      "بیدار",
+      "اقتصادی"
+    ],
+    "answer": 2,
+    "type": "antonym"
+  },
+  {
+    "question": "نحوه",
+    "choices": [
+      "numbers",
+      "uncertain",
+      "method",
+      "beginning"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "در ------ چه خبر است",
+    "choices": [
+      "دنبال",
+      "سیاست",
+      "عوامل",
+      "تاسیس"
+    ],
+    "answer": "سیاست",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "برقی",
+    "choices": [
+      "similar to",
+      "strong",
+      "establishment",
+      "electric"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "آیا باید مقداری ------ از فروشگاه بردارم",
+    "choices": [
+      "چشم",
+      "نمک یخ‌زدایی",
+      "مثل",
+      "منبع"
+    ],
+    "answer": "نمک یخ‌زدایی",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "آیا من ایمیلی از ------ دریافت کرده‌ام",
+    "choices": [
+      "ندا",
       "خدمات",
-      "ولایت"
+      "مجموعه",
+      "گذشته"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "ندا",
+    "type": "sentence",
+    "intent": "email_query"
   },
   {
-    "question": "Khorasan",
+    "question": "------ را در بیست و پنج فروردین در تقویم یادداشت کن",
     "choices": [
-      "محمود",
-      "سازی",
-      "خراسان",
-      "هند"
+      "بازیابی‌شده",
+      "نیروهای",
+      "ادامه",
+      "شب قدر هزار و سیصد و نود و هفت"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "شب قدر هزار و سیصد و نود و هفت",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "found",
+    "question": "اخبار ------ را بده",
     "choices": [
-      "یافته",
-      "پس",
-      "مسجد",
-      "همیشه"
+      "گروه",
+      "تشخیص",
+      "موسسه",
+      "موسیقی"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "موسیقی",
+    "type": "sentence",
+    "intent": "news_query"
   },
   {
-    "question": "تنبل",
+    "question": "من ------ از ساعت چهار تا شش عصر در دسترس نیستم تقویم من را علامت بزن",
     "choices": [
-      "سایت",
-      "زرنگ",
-      "ابهام‌زدایی",
-      "اعلام"
+      "جامعه",
+      "فردا",
+      "روی",
+      "نگاه"
     ],
-    "answer": 1,
-    "type": "antonym"
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "مهتاب",
+    "question": "اخبار ------ از موضوع نوار مصاحبه ظریف را دنبال کن",
     "choices": [
-      "اعلام",
-      "آفتاب",
-      "ابهام‌زدایی",
-      "سایت"
+      "ورود",
+      "هرمزگان",
+      "آینده",
+      "ملی"
     ],
-    "answer": 1,
-    "type": "antonym"
+    "answer": "آینده",
+    "type": "sentence",
+    "intent": "news_query"
   },
   {
-    "question": "to",
+    "question": "آخرین اخبار ------ چیست",
     "choices": [
-      "فرزند",
-      "جهت",
-      "شیخ",
-      "به"
+      "انتخابات آمریکا",
+      "درخت",
+      "داده",
+      "تا"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "انتخابات آمریکا",
+    "type": "sentence",
+    "intent": "news_query"
   },
   {
-    "question": "دقیقه",
+    "question": "آیا ------ متاهل بود",
     "choices": [
-      "old days",
-      "old",
-      "minute",
-      "distance"
+      "خارجی",
+      "بعضی",
+      "انیشتین",
+      "تن"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "انیشتین",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "ساختمان",
+    "question": "یک ------ برای رزرو کردن پیدا کن",
     "choices": [
-      "table",
-      "outside",
-      "prisoner",
-      "structure"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ساز",
-    "choices": [
-      "musical instrument",
-      "profession",
-      "nowadays",
-      "off"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بازدید",
-    "choices": [
-      "last",
-      "beautiful",
-      "return visit",
-      "descended from Emam Reza"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جدید",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "قدیمی"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "مجهول",
-    "choices": [
-      "unknown",
-      "capital",
-      "green",
-      "go"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دانشگاه",
-    "choices": [
-      "voice",
-      "University",
-      "severe",
-      "Persian"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دوست",
-    "choices": [
-      "سایت",
-      "بیگانه",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "ایران",
-    "choices": [
-      "busy",
-      "word",
-      "end",
-      "Iran"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بر روی",
-    "choices": [
-      "one another",
-      "conditions",
-      "above",
-      "India"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "person",
-    "choices": [
-      "درون",
-      "شخص",
-      "خواننده",
-      "دومین"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "than",
-    "choices": [
-      "شکل",
+      "کلمه",
       "ه",
-      "از",
-      "عمومی"
+      "جنسی",
+      "تاکسی"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
   },
   {
-    "question": "پرونده",
+    "question": "صدای بلندگوها را ------ کاهش بده",
     "choices": [
-      "rear",
-      "scared",
-      "records",
-      "historic"
+      "به پنج درصد",
+      "علت",
+      "موتور",
+      "دختر"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "به پنج درصد",
+    "type": "sentence",
+    "intent": "audio_volume_down"
   },
   {
-    "question": "ولو شدن",
+    "question": "لازم است ------ بپوشم",
     "choices": [
-      "spread",
-      "road",
-      "new",
-      "service"
+      "دی",
+      "کت",
+      "مناسبت‌ها",
+      "عامل"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "کت",
+    "type": "sentence",
+    "intent": "weather_query"
   },
   {
-    "question": "تاریخی",
+    "question": "حرز",
     "choices": [
-      "operations",
-      "historic",
-      "rank",
-      "power"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نور",
-    "choices": [
-      "rose garden",
-      "small",
-      "world",
-      "Nur"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "باستثنای",
-    "choices": [
-      "mold",
-      "except",
-      "left",
-      "tall"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "محکم",
-    "choices": [
-      "cry",
-      "steady",
-      "truth",
-      "finding"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "text",
-    "choices": [
-      "شرق",
-      "علاوه",
-      "متن",
-      "ورود"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بیعوض",
-    "choices": [
-      "lawful",
-      "recognition",
-      "free",
-      "Arab"
+      "large",
+      "team",
+      "protection",
+      "news agency"
     ],
     "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "پریرو",
+    "question": "آیا ------ باید بچه‌ها را از جایی بردارم",
     "choices": [
-      "state",
-      "beautiful",
-      "actress",
-      "moon"
+      "پزشکی",
+      "چون",
+      "امروز",
+      "مشهور"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
   },
   {
-    "question": "دوست",
+    "question": "جامع",
     "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "بیگانه"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "بر مالیدن",
-    "choices": [
-      "new",
-      "republic",
-      "take",
-      "A.D."
+      "fulfillment",
+      "operation",
+      "universal",
+      "certain"
     ],
     "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "آلبوم",
+    "question": "تیتر ------ چیست",
     "choices": [
-      "album",
-      "awak",
+      "درآمد",
+      "روزنامه شرق",
+      "استان",
+      "یافته"
+    ],
+    "answer": "روزنامه شرق",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "برای ------ مادرم را به تقویم اضافه کن",
+    "choices": [
+      "صبحانه‌ی دوم دوشنبه",
+      "طبقه",
+      "معنای",
+      "شوروی"
+    ],
+    "answer": "صبحانه‌ی دوم دوشنبه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "زمان",
+    "choices": [
+      "industry",
+      "illegal",
       "time",
-      "registeration"
+      "best"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "management",
+    "question": "بله یا خیر ------ فردا گرم است",
     "choices": [
-      "مدیریت",
-      "پخش",
+      "داخلی",
+      "موقعیت",
+      "دمای",
+      "مدل"
+    ],
+    "answer": "دمای",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "آیا رویدادی در ------ این آخر هفته وجود خواهد داشت",
+    "choices": [
+      "جستارهای",
+      "چند",
+      "مرکز شهر",
+      "خاص"
+    ],
+    "answer": "مرکز شهر",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ چه خبر است",
+    "choices": [
+      "ق",
+      "اولیه",
+      "فردا شب",
+      "بلند"
+    ],
+    "answer": "فردا شب",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ از شادمهر را پخش کن",
+    "choices": [
+      "انتخاب",
+      "ه",
+      "ترس",
+      "سیاست"
+    ],
+    "answer": "ترس",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "ایمیل رابرای ارسال به ------ بازکن",
+    "choices": [
+      "مساحت",
+      "پدر",
+      "تصمیم",
+      "سنگ"
+    ],
+    "answer": "پدر",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "اگر فراموش کردم ------ را به من یادآوری کن",
+    "choices": [
+      "رضا",
+      "سیستم",
+      "برنامه‌ی پیاده‌روی عصرگاهی",
+      "ایرانی"
+    ],
+    "answer": "برنامه‌ی پیاده‌روی عصرگاهی",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "من هیچ ------ برنامه ریزی شده‌ای برای آخر هفته‌ی دو هفته بعد دارم",
+    "choices": [
+      "حکومت",
+      "جلسه",
+      "سنتی",
+      "مناسب"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "چه فیلم‌های جدیدی ------ موجود هست",
+    "choices": [
+      "تعداد",
+      "فنی",
+      "امروز",
+      "روستا"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "recommendation_movies"
+  },
+  {
+    "question": "قیمت سهام ------ چند است",
+    "choices": [
+      "کوه",
+      "سیارک‌ها",
+      "خمینی",
+      "صاایران"
+    ],
+    "answer": "صاایران",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "------ را مجدد پخش کن",
+    "choices": [
+      "کتاب صوتی",
+      "اسرائیل",
+      "شخصی",
+      "خلق"
+    ],
+    "answer": "کتاب صوتی",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "لطفا به یک ------ زنگ بزن تا ساعت دو بعدالظهر من را سوار کند و به تئاتر شهر ببرد",
+    "choices": [
+      "تاکسی",
+      "براي",
+      "میدان",
+      "خودش"
+    ],
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "------ هوا گرم است یا نه",
+    "choices": [
+      "فردا",
+      "اجازه",
       "نو",
+      "ارومیه"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "لامپ ها را به تن صدا ------ عوض کن",
+    "choices": [
+      "برد",
+      "قرمز",
+      "اقتصادی",
+      "روستاهای"
+    ],
+    "answer": "قرمز",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "------ می خواهی چه بازی را بیرون انجام بدهی",
+    "choices": [
+      "گذشته",
+      "شاعران",
+      "عدد",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "آخرین اخبار ------ را به من اطلاع بده",
+    "choices": [
+      "خانواده",
+      "نتایج",
+      "آب و هوا",
+      "را"
+    ],
+    "answer": "آب و هوا",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "لطفا آهنگ ------ پخش کن",
+    "choices": [
+      "مقدار",
+      "اند",
+      "گیری",
+      "جاز"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "اگر جای خالی وجود دارد لطفاً برایم یک یادآوری تنظیم کن که در بین جلسات امروز ------ با خواهر م در مورد بودجه‌ی کالج تماس بگیرم",
+    "choices": [
+      "عصر",
+      "هایی",
+      "پایه",
+      "داخل"
+    ],
+    "answer": "عصر",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ بعدی به نکا",
+    "choices": [
+      "مطالعه",
+      "قرآن",
+      "بیست",
+      "قطار"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "لامپها ------",
+    "choices": [
+      "محصولات",
+      "تا پنجاه درصد",
+      "تولید",
+      "شدت"
+    ],
+    "answer": "تا پنجاه درصد",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "Hossein",
+    "choices": [
+      "حسین",
+      "آموزشی",
+      "فارس",
+      "جغرافیایی"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "تازه ترین خبرهای ------ را به من اطلاع بده",
+    "choices": [
+      "آذربایجان",
+      "ایران",
+      "بازیکنان",
+      "اساس"
+    ],
+    "answer": "ایران",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "بهم بگو چطور می تونم از اینجا برم ------",
+    "choices": [
+      "قم",
+      "مرز",
+      "فرمان",
+      "روش"
+    ],
+    "answer": "قم",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "------ از تتلو را برایم پخش کن",
+    "choices": [
+      "نوازش",
+      "دی",
+      "رادیو",
+      "بهار"
+    ],
+    "answer": "نوازش",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "ویژه",
+    "choices": [
+      "north",
+      "special",
+      "top",
+      "lack"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "تمام آهنگ های ------ را پخش کن",
+    "choices": [
+      "حاضر",
+      "عبور",
+      "ایوان بند",
+      "دستگاه"
+    ],
+    "answer": "ایوان بند",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "هوای ------ چطور می شود",
+    "choices": [
+      "امروز",
+      "بعدها",
+      "‌",
+      "هنوز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "ارزان ترین بلیط ------ به نکا را برایم بگیر",
+    "choices": [
+      "ادبیات",
+      "مقاومت",
+      "آتش",
+      "قطار"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "increase",
+    "choices": [
+      "افزایش",
+      "جغرافیایی",
+      "هفته",
       "جدید"
     ],
     "answer": 0,
     "type": "translate_fa_en"
   },
   {
-    "question": "ماهور",
+    "question": "------ چند چیز اتفاق افتاد",
     "choices": [
-      "hill",
-      "subsequent",
-      "beneath",
-      "other"
+      "کنار",
+      "امروز",
+      "سابق",
+      "شمار"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "general_quirky"
   },
   {
-    "question": "they",
+    "question": "آیا ------ را ترک کرد",
     "choices": [
-      "آنها",
-      "بدین",
-      "تعریف",
-      "تابع"
+      "ساعت",
+      "رشته",
+      "مسعود",
+      "آنجلینا جولی برد پیت"
     ],
-    "answer": 0,
+    "answer": "آنجلینا جولی برد پیت",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "------ که در سینماهای نزدیک من پخش می‌شود را به من بگو",
+    "choices": [
+      "پرفروش‌ترین فیلم‌های روی پرده",
+      "پرواز",
+      "اخیر",
+      "مقابل"
+    ],
+    "answer": "پرفروش‌ترین فیلم‌های روی پرده",
+    "type": "sentence",
+    "intent": "recommendation_movies"
+  },
+  {
+    "question": "هوای ------ اصفهان چطوراست",
+    "choices": [
+      "ماده",
+      "هفته آینده",
+      "آذربایجان",
+      "فروش"
+    ],
+    "answer": "هفته آینده",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "always",
+    "choices": [
+      "منبع",
+      "همیشه",
+      "آزادی",
+      "امور"
+    ],
+    "answer": 1,
     "type": "translate_fa_en"
   },
   {
-    "question": "معاینه",
+    "question": "اولی پادکستی رو که ------ پخش کن",
     "choices": [
-      "writer",
-      "ignorance",
-      "inspection",
-      "inside"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "انقطاع یافتن",
-    "choices": [
-      "political party",
-      "imprison",
-      "usually",
-      "end"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پیر",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "جوان",
+      "جمله",
+      "می‌شد",
+      "دیشب شروع کردم",
       "سایت"
     ],
-    "answer": 2,
-    "type": "antonym"
+    "answer": "دیشب شروع کردم",
+    "type": "sentence",
+    "intent": "play_podcasts"
   },
   {
-    "question": "موتلف",
+    "question": "به ------ ایمیل پاسخ ایمیلی که به او در مورد مرغ‌های دریایی در ساحل هشدار می‌دهد ارسال کن",
     "choices": [
-      "standard",
-      "public",
-      "way",
-      "united"
+      "کتاب",
+      "عالی",
+      "نصرت",
+      "بیشتر"
+    ],
+    "answer": "نصرت",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "علی ------ یک ایمیل به من خواهد فرستاد لطفاً پانزده دقیقه پس از دریافت آن ایمیل زنگ هشدار را تنظیم کن",
+    "choices": [
+      "الدین",
+      "هزار",
+      "افغانستان",
+      "فردا"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "تاریخ ------ را به من بگو",
+    "choices": [
+      "سالگی",
+      "امروز",
+      "نامزد",
+      "روش"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "الکل",
+    "choices": [
+      "some",
+      "spirit",
+      "Abdullah",
+      "computer"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "مهربان",
+    "choices": [
+      "فرمان",
+      "بعد",
+      "محدود",
+      "نامهربان"
     ],
     "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پراکندگی",
-    "choices": [
-      "westerner",
-      "scattering",
-      "even",
-      "mean"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "لشکری",
-    "choices": [
-      "beautiful",
-      "energy",
-      "military",
-      "but"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "داخل",
-    "choices": [
-      "بيرون",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
     "type": "antonym"
   },
   {
-    "question": "انقطاع یافتن",
+    "question": "آیا ------ باران خواهد بارید",
     "choices": [
-      "closed",
-      "such as",
-      "one",
-      "end"
+      "تبریز",
+      "ظهر",
+      "من",
+      "آباد"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "ظهر",
+    "type": "sentence",
+    "intent": "weather_query"
   },
   {
-    "question": "برج",
+    "question": "------ هفته‌ی آینده را حذف کن",
     "choices": [
-      "off",
-      "blood",
-      "tower",
-      "end"
+      "پیش",
+      "وقت دندانپزشکی",
+      "ناحیه",
+      "تمام"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "وقت دندانپزشکی",
+    "type": "sentence",
+    "intent": "calendar_remove"
   },
   {
-    "question": "واثق",
+    "question": "در ------ ساعت چند است",
     "choices": [
-      "cases",
-      "certain",
-      "stay",
-      "sea"
+      "ورودی",
+      "همدان",
+      "خاصی",
+      "بوده"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "همدان",
+    "type": "sentence",
+    "intent": "datetime_query"
   },
   {
-    "question": "ناشناس",
+    "question": "در ------ ساعت چند است",
     "choices": [
-      "سایت",
-      "شناس",
-      "اعلام",
-      "ابهام‌زدایی"
+      "این منطقه زمانی",
+      "حکومت",
+      "حق",
+      "منبع"
     ],
-    "answer": 1,
-    "type": "antonym"
+    "answer": "این منطقه زمانی",
+    "type": "sentence",
+    "intent": "datetime_query"
   },
   {
-    "question": "آزاد",
+    "question": "نصف",
     "choices": [
-      "سایت",
-      "زندانی",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "دیروقت",
-    "choices": [
-      "victory",
-      "seizure",
-      "late",
-      "young"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پایستن",
-    "choices": [
-      "September",
-      "winning",
-      "winter",
-      "last"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "برجسته",
-    "choices": [
-      "prominent",
-      "only",
-      "because",
-      "standard"
+      "half",
+      "brother",
+      "olympic",
+      "approval"
     ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "market",
+    "question": "الی من بدترین روزم تا به ------ را داشتم.",
     "choices": [
-      "چون",
-      "تعدادی",
-      "بازار",
-      "شیراز"
+      "امروز",
+      "بازیگر",
+      "نظامی",
+      "عصر"
     ],
-    "answer": 2,
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "از یک ------ در منطقه من بپرس",
+    "choices": [
+      "اهل",
+      "همسر",
+      "مقاله",
+      "کافه"
+    ],
+    "answer": "کافه",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "در ------ چه خبر است",
+    "choices": [
+      "ساختار",
+      "شیراز",
+      "آمریکا",
+      "تبدیل"
+    ],
+    "answer": "آمریکا",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "televised",
+    "choices": [
+      "ایستگاه",
+      "تلویزیونی",
+      "تجاری",
+      "هرمزگان"
+    ],
+    "answer": 1,
     "type": "translate_fa_en"
   },
   {
-    "question": "جمهوریت",
+    "question": "تاریخی",
     "choices": [
-      "asleep",
-      "illustration",
-      "state",
-      "republic"
+      "help",
+      "some",
+      "historic",
+      "ranks"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "مبح",
+    "choices": [
+      "elections",
+      "end",
+      "straight",
+      "topic"
     ],
     "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "رفت",
+    "question": "------ را روشن کن",
     "choices": [
-      "study",
-      "young",
-      "went",
+      "رادیو خبر",
+      "کردن",
+      "نیست",
+      "آسیا"
+    ],
+    "answer": "رادیو خبر",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "بهترین ------ ایرانی در ساری کدامند",
+    "choices": [
+      "توابع",
+      "رستوران‌های",
+      "غیر",
+      "دانشکده"
+    ],
+    "answer": "رستوران‌های",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "لطفا گزارش وضع هوای ------ را به من بده",
+    "choices": [
+      "این هفته",
+      "مسلمانان",
+      "بخش‌های",
+      "جمعیت"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "------ در اردیبهشت را حذف کن",
+    "choices": [
+      "قدیم",
+      "خبر",
+      "مراسم خیریه برای دلفین ها",
+      "خیابان"
+    ],
+    "answer": "مراسم خیریه برای دلفین ها",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "هوای ------ یزد چطور است",
+    "choices": [
+      "کرده‌است",
+      "دورهٔ",
+      "هفته آینده",
+      "تاریخ"
+    ],
+    "answer": "هفته آینده",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "قیمت سهام ------ را به من بده",
+    "choices": [
+      "می‌دهند",
+      "کنترل",
+      "بندی",
+      "اینتل"
+    ],
+    "answer": "اینتل",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "زنگ هشدار را برای ------ تنظیم کن",
+    "choices": [
+      "آن‌ها",
+      "نه صبح",
+      "اوایل",
+      "متر"
+    ],
+    "answer": "نه صبح",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "بک گراند خانوادگی ------ را به من بگو",
+    "choices": [
+      "بیماری",
+      "سارا نایینی",
+      "برنامه‌های",
+      "تبدیل"
+    ],
+    "answer": "سارا نایینی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "London",
+    "choices": [
+      "جمهوری",
+      "خانوار",
+      "نظام",
+      "لندن"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "فعلاً ------ رزرو کن",
+    "choices": [
+      "سید",
+      "طبیعی",
+      "تاکسی",
+      "مسائل"
+    ],
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "جام شراب",
+    "choices": [
+      "lazy",
+      "interpretation",
+      "grail",
+      "kindness"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "مسیر ها به ------",
+    "choices": [
+      "آلبوم",
+      "می‌شوند",
+      "انجام",
+      "سرزمین موج‌های آبی"
+    ],
+    "answer": "سرزمین موج‌های آبی",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "چه ------",
+    "choices": [
+      "در سینما استقلال اکران می‌شود",
+      "دار",
+      "شهرستان",
+      "دست"
+    ],
+    "answer": "در سینما استقلال اکران می‌شود",
+    "type": "sentence",
+    "intent": "recommendation_movies"
+  },
+  {
+    "question": "بازی ------ را باز کن",
+    "choices": [
+      "روزنامه",
+      "racing",
+      "وارد",
+      "فرانسه"
+    ],
+    "answer": "racing",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "ساعت به وقت ------",
+    "choices": [
+      "اصفهان",
+      "مشاهده",
+      "کارشناسی",
+      "آقای"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "آیا می‌توانم در اسرع وقت از ------ به خانه اسنپ بگیرم",
+    "choices": [
+      "موسوی",
+      "عبارتند",
+      "مرکز تهران",
+      "طریق"
+    ],
+    "answer": "مرکز تهران",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "از اینجا چقدر طول می کشد تا به ------ بروم",
+    "choices": [
+      "ایستگاه قطار",
+      "مرد",
+      "جای",
+      "نیست"
+    ],
+    "answer": "ایستگاه قطار",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "آیا ------ کفش ملی می پوشد",
+    "choices": [
+      "آلمانی",
+      "پیام",
+      "لیلا بلوکات",
+      "روستای"
+    ],
+    "answer": "لیلا بلوکات",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "برای شستن لباس‌ها در ساعت ------ یادآور بذار",
+    "choices": [
+      "هشت شب",
+      "زن",
+      "حالی",
+      "بررسی"
+    ],
+    "answer": "هشت شب",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "در ------ هیپ هاپ پخش کن",
+    "choices": [
+      "میان",
+      "رادیو آوا",
+      "بنابراین",
+      "حزب"
+    ],
+    "answer": "رادیو آوا",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "free will",
+    "choices": [
+      "بانک",
+      "اختیار",
+      "آوریل",
+      "هنگام"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "با من ------ بازی کن",
+    "choices": [
+      "شطرنج",
+      "پاریس",
+      "پول",
+      "محمود"
+    ],
+    "answer": "شطرنج",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "معنی دار",
+    "choices": [
+      "significant",
+      "residential",
+      "step",
       "late"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مقاله",
-    "choices": [
-      "bitter",
-      "Afghanistan",
-      "article",
-      "mathematics"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مراکز",
-    "choices": [
-      "centers",
-      "actress",
-      "sea",
-      "out"
-    ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "remembering",
+    "question": "ایا من هیچ ایمیل جدیدی از طرف ------ خودم دریافت کرده ام",
     "choices": [
-      "تئاتر",
-      "شش",
-      "عملیات",
-      "ذکر"
+      "فرانسوی",
+      "کاربرد",
+      "ی",
+      "شرکت"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "شرکت",
+    "type": "sentence",
+    "intent": "email_query"
   },
   {
-    "question": "limit",
+    "question": "soldier",
     "choices": [
-      "تاسیس",
-      "ترتیب",
-      "سفر",
-      "حد"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "به همراه",
-    "choices": [
-      "best",
-      "go",
-      "independent",
-      "with"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حادث",
-    "choices": [
-      "knowledge",
-      "new",
-      "orchard",
-      "person"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "tir",
-    "choices": [
-      "عامل",
-      "گروه‌های",
-      "سخت",
-      "تیر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "by",
-    "choices": [
-      "تدوین",
-      "عباس",
-      "بدست",
-      "حرکت"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "spring",
-    "choices": [
-      "بهار",
-      "شدند",
-      "کشاورزی",
-      "يا"
+      "نظامی",
+      "می‌تواند",
+      "خوانندگان",
+      "جامع"
     ],
     "answer": 0,
     "type": "translate_fa_en"
   },
   {
-    "question": "slow",
+    "question": "چه ------ را اینجا پیشنهاد می‌کنی",
     "choices": [
-      "اصول",
-      "براي",
-      "فارس",
+      "درگاه",
+      "لباس فروشی",
+      "برد",
+      "استاد"
+    ],
+    "answer": "لباس فروشی",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "اوولی همه رویدادهای ------ را لغو کن",
+    "choices": [
+      "دو روز بعد",
+      "محدود",
+      "عضو",
       "کند"
     ],
-    "answer": 3,
+    "answer": "دو روز بعد",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "famous people",
+    "choices": [
+      "فرهنگ",
+      "شهرت",
+      "مشاهیر",
+      "پایان"
+    ],
+    "answer": 2,
     "type": "translate_fa_en"
   },
   {
-    "question": "چه چه",
+    "question": "لطفا ------ را به من یادآوری کن",
     "choices": [
-      "winter",
-      "market",
-      "beautiful",
-      "or"
+      "سر",
+      "فردا",
+      "نمایندگان",
+      "دکتر"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "زندانی",
+    "question": "جنسی",
     "choices": [
-      "آزاد",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "آزاد",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "زندانی"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "story",
-    "choices": [
-      "ستاره",
-      "داستان",
-      "تئاتر",
-      "نگهداری"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حاوی بودن",
-    "choices": [
-      "include",
-      "busy",
-      "country",
-      "weak"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اولاد",
-    "choices": [
-      "reply",
-      "report",
-      "children",
-      "Qom"
+      "topic",
+      "type",
+      "sexual",
+      "rank"
     ],
     "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "مایل",
+    "question": "نور اتاق من را عوض کن تا بتوانم ------ داشته باشم",
     "choices": [
-      "new",
-      "willing",
-      "side",
-      "sour"
+      "خواب خوب",
+      "زیبا",
+      "دادگاه",
+      "آخرین"
+    ],
+    "answer": "خواب خوب",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "بی زور",
+    "choices": [
+      "mother",
+      "relation",
+      "weak",
+      "weak"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "کیش",
+    "choices": [
+      "far",
+      "through",
+      "ignorance",
+      "religion"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "آیا ------ برای امروز انتخاب خوبی است",
+    "choices": [
+      "جنسی",
+      "عبارت",
+      "عینک آفتابی",
+      "ویکی‌پدیای"
+    ],
+    "answer": "عینک آفتابی",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "رویداد ------ تولد دلاور را در تقویم ایجاد کن",
+    "choices": [
+      "تکرار شونده",
+      "بررسی",
+      "نویسندگان",
+      "پیش"
+    ],
+    "answer": "تکرار شونده",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "صدای ------ من را تا پنجاه درصد سطح فعلی کم کن",
+    "choices": [
+      "ضبط صوت",
+      "اکبر",
+      "پرواز",
+      "انتشار"
+    ],
+    "answer": "ضبط صوت",
+    "type": "sentence",
+    "intent": "audio_volume_up"
+  },
+  {
+    "question": "سبک را از راک به ------ تغییر بده",
+    "choices": [
+      "کلاسیک",
+      "تعداد",
+      "واژه",
+      "یونان"
+    ],
+    "answer": "کلاسیک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "personality",
+    "choices": [
+      "علت",
+      "شخصیت",
+      "توسعه",
+      "رتبه"
     ],
     "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "به ------ ایمیل بزن",
+    "choices": [
+      "پسر",
+      "های",
+      "امیر فرهادی",
+      "ورود"
+    ],
+    "answer": "امیر فرهادی",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "ایا برنامه من ------ ازاد است",
+    "choices": [
+      "امروز",
+      "حاکم",
+      "بکار",
+      "تیم"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "غیرقانونی",
+    "choices": [
+      "olympic",
+      "exist",
+      "illegal",
+      "crooked"
+    ],
+    "answer": 2,
     "type": "translate_en_fa"
+  },
+  {
+    "question": "نتایج ------ که قرار بود امروز اعلام شود را بگو",
+    "choices": [
+      "سایر",
+      "زندان",
+      "عمر",
+      "انتخابات"
+    ],
+    "answer": "انتخابات",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "شناس",
+    "choices": [
+      "ناشناس",
+      "عرب",
+      "ثبت",
+      "نوشته"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "حساب ------ من را چک کن",
+    "choices": [
+      "حسن",
+      "مدتی",
+      "twitter",
+      "خون"
+    ],
+    "answer": "twitter",
+    "type": "sentence",
+    "intent": "social_query"
+  },
+  {
+    "question": "لطفا تاریخ ------ را به من بگو",
+    "choices": [
+      "امروز",
+      "ناحیه",
+      "شرق",
+      "آخر"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "------ چه روزی است",
+    "choices": [
+      "شرح",
+      "درون",
+      "شبیه",
+      "کریسمس"
+    ],
+    "answer": "کریسمس",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "تمام ------ بعد از سه بعدازظهر امروز من را کنسل کن و جزئیاتش را به من اطلاع بده",
+    "choices": [
+      "قرارهای",
+      "آنها",
+      "خصوصی",
+      "بخش"
+    ],
+    "answer": "قرارهای",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "قیمت سهام ------",
+    "choices": [
+      "هنری",
+      "هوندا",
+      "تعداد",
+      "استان‌های"
+    ],
+    "answer": "هوندا",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "نزدیک‌ترین ------ کجاست",
+    "choices": [
+      "می‌آید",
+      "جنسی",
+      "شرقی",
+      "رستوران"
+    ],
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "آهنگ ------ ی فرهاد رو پخش کن.",
+    "choices": [
+      "زیاد",
+      "یمن",
+      "ارشد",
+      "جمعه"
+    ],
+    "answer": "جمعه",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ جدید را راه اندازی کن",
+    "choices": [
+      "سوکت هوشمند",
+      "موضوع",
+      "بیرون",
+      "همان"
+    ],
+    "answer": "سوکت هوشمند",
+    "type": "sentence",
+    "intent": "iot_wemo_on"
+  },
+  {
+    "question": "میشه بگید ------ چندم است",
+    "choices": [
+      "مکان",
+      "خودش",
+      "معمولاً",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "انقلاب",
+    "choices": [
+      "obstruction",
+      "suggestion",
+      "receipt",
+      "revolution"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "اخبار ------ درباره مهاجرت را نشان بده",
+    "choices": [
+      "امروز",
+      "اصل",
+      "مصرف",
+      "یمن"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "تقویمرا بالا بیاور ------ من در جمعه کی است",
+    "choices": [
+      "پدرش",
+      "کنید",
+      "جلسه‌ی مالی",
+      "کسب"
+    ],
+    "answer": "جلسه‌ی مالی",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "لطفا به من راجع به فیلم بعدی ------ اطلاعات بده",
+    "choices": [
+      "ریاضی",
+      "برنامه‌های",
+      "امیرخان",
+      "می‌کند"
+    ],
+    "answer": "امیرخان",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "------ کشیدن را شروع کن",
+    "choices": [
+      "دور",
+      "موجود",
+      "جاروبرقی",
+      "مطرح"
+    ],
+    "answer": "جاروبرقی",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "من دوست دارم ------ بازی کنم میتونی آن را باز کنی",
+    "choices": [
+      "شطرنج",
+      "می‌دهد",
+      "الله",
+      "مشاهده"
+    ],
+    "answer": "شطرنج",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "بهترین غذا در این ------ چیست",
+    "choices": [
+      "می‌تواند",
+      "فراهم",
+      "کشور",
+      "خلق"
+    ],
+    "answer": "کشور",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "برداشتن بچه‌ها از مدرسه را به لیست کارهای ------ امروز من اضافه کن",
+    "choices": [
+      "متفاوت",
+      "انجام دادنی",
+      "اغلب",
+      "ملل"
+    ],
+    "answer": "انجام دادنی",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "street",
+    "choices": [
+      "خیابان",
+      "پایین",
+      "سی",
+      "مانده"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا ------ سفارش غذا تحویل می‌دهد",
+    "choices": [
+      "آلمان",
+      "نژاد",
+      "آفریقا",
+      "عطاویچ"
+    ],
+    "answer": "عطاویچ",
+    "type": "sentence",
+    "intent": "takeaway_query"
+  },
+  {
+    "question": "آهنگ بعدی میخوام ------ را گوش بدم",
+    "choices": [
+      "به",
+      "مثل",
+      "نوازش",
+      "زندگینامه"
+    ],
+    "answer": "نوازش",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "هوای ------ چطور خواهد بود",
+    "choices": [
+      "امیر",
+      "این هفته",
+      "برنامه‌های",
+      "اسلامی"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "نکات مهم در ------ امروز عصر چه بود",
+    "choices": [
+      "بار",
+      "بازار",
+      "مسابقه‌ی فوتبال",
+      "رسید"
+    ],
+    "answer": "مسابقه‌ی فوتبال",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "آیا کتاب جدید ------ در لیست من است",
+    "choices": [
+      "می‌گویند",
+      "هوشنگ گلشیری",
+      "هوای",
+      "معمولا"
+    ],
+    "answer": "هوشنگ گلشیری",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "من به یک یادآوری برای ------ برای مهمانی علی بعد از کار نیاز دارم",
+    "choices": [
+      "فردا",
+      "عمومی",
+      "می‌گردد",
+      "وزیر"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "آیا امروز ------ ماهه",
+    "choices": [
+      "ارتفاع",
+      "بیست و نهم",
+      "شهرت",
+      "نبرد"
+    ],
+    "answer": "بیست و نهم",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "باز",
+    "choices": [
+      "بسته",
+      "عرب",
+      "خاص",
+      "درون"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "برای ------ چه اتفاقی افتاد",
+    "choices": [
+      "شامل",
+      "جان گریشام",
+      "ام",
+      "صدای"
+    ],
+    "answer": "جان گریشام",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "لطفا برنامه ------ من را باز کن و بخش شکایت برای باغ زندگی را پیدا کن",
+    "choices": [
+      "تدوین",
+      "کارهای",
+      "twitter",
+      "بهره"
+    ],
+    "answer": "twitter",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "خب google ------ چیه",
+    "choices": [
+      "شامل",
+      "خط",
+      "رئیس جمهور",
+      "تاریخی"
+    ],
+    "answer": "رئیس جمهور",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "نرم افزار ------ را باز کن و رادیو ورزش را روشن کن",
+    "choices": [
+      "دانشگاه‌های",
+      "زمین",
+      "پاندورا",
+      "بازیگران"
+    ],
+    "answer": "پاندورا",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "من میخوام به برنامه ی یک در ------ گوش بدم",
+    "choices": [
+      "رادیو جوان",
+      "مقابل",
+      "ش",
+      "تعداد"
+    ],
+    "answer": "رادیو جوان",
+    "type": "sentence",
+    "intent": "play_radio"
   },
   {
     "question": "سرحد",
     "choices": [
       "frontier",
-      "Esfand",
-      "municipality",
-      "resulting"
+      "period",
+      "soccer",
+      "China"
     ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "تخیلی",
+    "question": "به من یادآوری کن که ------ اجاره بها را پرداخت کنم",
     "choices": [
-      "boy",
+      "تلاش",
+      "هر ماه",
+      "سفید",
+      "هنر"
+    ],
+    "answer": "هر ماه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "قیمت سهم ------ را به من نشان بدهید",
+    "choices": [
+      "فقط",
+      "متر",
+      "ورودی",
+      "سایپا"
+    ],
+    "answer": "سایپا",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "------ علی چیست",
+    "choices": [
+      "قدیمی",
+      "نام خانوادگی",
+      "سیاسی",
+      "شوند"
+    ],
+    "answer": "نام خانوادگی",
+    "type": "sentence",
+    "intent": "email_querycontact"
+  },
+  {
+    "question": "می‌توانی لطفا رنگ چراغ‌ها را به ------ تغییر دهی",
+    "choices": [
+      "اختیار",
+      "سبز",
+      "اصفهان",
+      "نامه"
+    ],
+    "answer": "سبز",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "در مورد هر ------ که در ماه بعد برگزار می‌شود به من اطلاع بده",
+    "choices": [
+      "جشنواره‌ای",
+      "هستند",
+      "مربوط",
+      "مانند"
+    ],
+    "answer": "جشنواره‌ای",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "رادیو را روشن کن و ------ پخش کن",
+    "choices": [
+      "رهبر",
+      "هشت",
+      "خدمت",
+      "رادیو راه"
+    ],
+    "answer": "رادیو راه",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "میتونم چند تا آهنگ ------ بگیرم",
+    "choices": [
+      "پس زمینه",
+      "رضا",
+      "بهمن",
+      "نیز"
+    ],
+    "answer": "پس زمینه",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ چه موضوعی بیشتر از همه سر زبان هاست",
+    "choices": [
+      "پی",
+      "سی",
+      "امروز",
+      "مسیر"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "------ چقدر بزرگ است",
+    "choices": [
+      "ماهی",
+      "آلاسکا",
+      "ی",
+      "تصویب"
+    ],
+    "answer": "آلاسکا",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "در طول چند روز ------ را به من یادآوری کن",
+    "choices": [
+      "جلسات",
+      "قرار",
+      "نوع",
+      "نزد"
+    ],
+    "answer": "جلسات",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ به من یادآوری کن که زباله ها را بیرون ببرم",
+    "choices": [
+      "هر دوشنبه",
+      "اسلامی",
+      "متحده",
+      "مقابل"
+    ],
+    "answer": "هر دوشنبه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "limit",
+    "choices": [
+      "ام",
+      "حد",
+      "معروف",
+      "متال"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "ایران",
+      "قتل",
+      "مهم",
+      "وقتی"
+    ],
+    "answer": "ایران",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "شجره",
+    "choices": [
+      "son",
+      "small",
       "tree",
-      "imaginary",
-      "parliament"
+      "five"
     ],
     "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "Islam",
+    "question": "------ برای من چطور است",
     "choices": [
-      "ارزش",
-      "پزشکی",
-      "اسلام",
-      "نوامبر"
+      "نشان",
+      "فراهم",
+      "امروز",
+      "شهرداری"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "دستور پخت ------ را پیدا کن",
+    "choices": [
+      "اجرای",
+      "ترکیب",
+      "بستک",
+      "آلفردو مرغ"
+    ],
+    "answer": "آلفردو مرغ",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "------ را پخش کن",
+    "choices": [
+      "دستگاه",
+      "اخیر",
+      "رادیو خبر",
+      "ش"
+    ],
+    "answer": "رادیو خبر",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "لطفا زنگ ------ من را حذف کن",
+    "choices": [
+      "صبح",
+      "زیادی",
+      "اسرائیل",
+      "هفت"
+    ],
+    "answer": "صبح",
+    "type": "sentence",
+    "intent": "alarm_remove"
+  },
+  {
+    "question": "آهنگ از ------ پخش کن",
+    "choices": [
+      "ابی",
+      "چند",
+      "بیان",
+      "باشند"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "کدام چیز برایم ------",
+    "choices": [
+      "ایران",
+      "توئیت کن",
+      "پنج",
+      "روز"
+    ],
+    "answer": "توئیت کن",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "برای ------ من فردا ساعت پنج بعدازظهر یک یادآور تنظیم کن",
+    "choices": [
+      "دیگر",
+      "برد",
+      "لیگ",
+      "سفر خرید"
+    ],
+    "answer": "سفر خرید",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ در یک فروردین را حذف کن",
+    "choices": [
+      "کاهش",
+      "معنای",
+      "امروز",
+      "جلسه برنامه‌ریزی شده با اکبر"
+    ],
+    "answer": "جلسه برنامه‌ریزی شده با اکبر",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "میتونی ------ را پخش کنی",
+    "choices": [
+      "پایگاه",
+      "امیر",
+      "کنار",
+      "فضایی"
+    ],
+    "answer": "امیر",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "من الان دوست دارم چند تا موسیقی ------ گوش بدم",
+    "choices": [
+      "رپ",
+      "ساخته",
+      "شرقی",
+      "خون"
+    ],
+    "answer": "رپ",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "برنامه ------ را باز کن",
+    "choices": [
+      "local news",
+      "کمک",
+      "صدا",
+      "ایشان"
+    ],
+    "answer": "local news",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "چه در برنامه ------ من است",
+    "choices": [
+      "سوم",
+      "امروز",
+      "علمی",
+      "اجتماعی"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "برنامه‌های",
+      "آذربایجان",
+      "جاروبرقی رباتیک",
+      "بدن"
+    ],
+    "answer": "جاروبرقی رباتیک",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "اخبار ------ را به من بده",
+    "choices": [
+      "وب‌گاه",
+      "دید",
+      "سی. ان. ان.",
+      "دهستان‌های"
+    ],
+    "answer": "سی. ان. ان.",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "من باید یک پاسخ به ------ بفرستم",
+    "choices": [
+      "ندا",
+      "دنبال",
+      "محیط",
+      "رویدادها"
+    ],
+    "answer": "ندا",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "operations",
+    "choices": [
+      "تشخیص",
+      "اجتماعی",
+      "عملیات",
+      "عمومی"
     ],
     "answer": 2,
     "type": "translate_fa_en"
   },
   {
-    "question": "اقتصادی",
+    "question": "------ را روشن کن",
     "choices": [
-      "counted",
-      "boy",
-      "economic",
-      "support"
+      "می‌کرد",
+      "لامپ",
+      "گلستان",
+      "هشت"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "لامپ",
+    "type": "sentence",
+    "intent": "iot_hue_lighton"
   },
   {
-    "question": "روسیه",
+    "question": "------ چیست",
     "choices": [
-      "outside",
-      "beautiful",
-      "gulf",
-      "Russia"
+      "ایشان",
+      "انژکتور ریلی سوخت",
+      "ماده",
+      "متفاوت"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "انژکتور ریلی سوخت",
+    "type": "sentence",
+    "intent": "qa_definition"
   },
   {
-    "question": "Soviet Union",
+    "question": "درباره ------ به من توضیح است",
     "choices": [
-      "برگزار",
-      "مشهد",
-      "شوروی",
-      "سطح"
+      "موسیقی راک",
+      "دریای",
+      "کشور",
+      "سر"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "موسیقی راک",
+    "type": "sentence",
+    "intent": "qa_definition"
   },
   {
-    "question": "شور",
+    "question": "پایتخت ------ کجاست",
     "choices": [
-      "شیرین",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
+      "باعث",
+      "چین",
+      "پول",
+      "داشتن"
     ],
-    "answer": 0,
-    "type": "antonym"
+    "answer": "چین",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "ملکه",
+    "question": "------ پنجشنبه را از تقویم من پاک کن",
     "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "پادشاه"
+      "نهار",
+      "خارجی",
+      "راست",
+      "حل"
     ],
-    "answer": 3,
-    "type": "antonym"
+    "answer": "نهار",
+    "type": "sentence",
+    "intent": "calendar_remove"
   },
   {
-    "question": "use",
+    "question": "لطفا ------ را با دقت دنبال کن",
     "choices": [
-      "نوشته",
-      "درصد",
-      "مصرف",
+      "باقی",
+      "مناظره های ریاست جمهوری",
+      "می‌رسد",
+      "واحد"
+    ],
+    "answer": "مناظره های ریاست جمهوری",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "توقف",
+    "choices": [
+      "روستایی",
+      "همان",
+      "حرکت",
       "هنگام"
     ],
     "answer": 2,
+    "type": "antonym"
+  },
+  {
+    "question": "برای ------ ایمیل تبریک سال نو بفرست",
+    "choices": [
+      "علت",
+      "چندین",
+      "امام",
+      "علی"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "رادیو را روشن کن و روی موج ------ بزار",
+    "choices": [
+      "هوا",
+      "مقدس",
+      "رادیو جوان",
+      "گیاهان"
+    ],
+    "answer": "رادیو جوان",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "------ من امسال چه روزی هست",
+    "choices": [
+      "مورد",
+      "فعال",
+      "دره",
+      "تولد"
+    ],
+    "answer": "تولد",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "دو هفته پس از خرید در ------ توئیت کن که سجاف‌ها همه شل شده‌اند",
+    "choices": [
+      "اکنون",
+      "فرهنگ",
+      "جای",
+      "فروشگاه رفاه"
+    ],
+    "answer": "فروشگاه رفاه",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "آسان",
+    "choices": [
+      "سخت",
+      "ساز",
+      "نیروهای",
+      "اکتبر"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "مافوق",
+    "choices": [
+      "beginning",
+      "woman",
+      "good",
+      "superior"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لامپ‌های ------ را در ده ثانیه خاموش کن",
+    "choices": [
+      "آموزش",
+      "دور",
+      "اتاق خواب",
+      "اند"
+    ],
+    "answer": "اتاق خواب",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "question": "بیدار",
+    "choices": [
+      "در",
+      "نام‌های",
+      "دلار",
+      "خواب"
+    ],
+    "answer": 3,
+    "type": "antonym"
+  },
+  {
+    "question": "غیرقانونی",
+    "choices": [
+      "پیوند",
+      "باب",
+      "قانونی",
+      "شهید"
+    ],
+    "answer": 2,
+    "type": "antonym"
+  },
+  {
+    "question": "توضیح بده چطور ------ از دیگر کشورها بهتر است",
+    "choices": [
+      "خدمت",
+      "ابراهیم",
+      "شناسی",
+      "امریکا"
+    ],
+    "answer": "امریکا",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "------ ساعت سه را کنسل کن",
+    "choices": [
+      "قاجار",
+      "کل",
+      "جلسه",
+      "موارد"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "کتاب ------ را پخش کن",
+    "choices": [
+      "کوتاه",
+      "دا",
+      "گاه",
+      "جرم"
+    ],
+    "answer": "دا",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "------ را الان روشن کن و هال را تمییز کن",
+    "choices": [
+      "شیعه",
+      "قدیم",
+      "شهری",
+      "جارو برقی"
+    ],
+    "answer": "جارو برقی",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "یک ------ در محله من برای امشب پیدا کن",
+    "choices": [
+      "رویداد مناسب کودک",
+      "بهترین",
+      "بالای",
+      "موارد"
+    ],
+    "answer": "رویداد مناسب کودک",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "------ چند قاشق شکر نیاز داره",
+    "choices": [
+      "اهمیت",
+      "ارائه",
+      "خاص",
+      "فسنجون"
+    ],
+    "answer": "فسنجون",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "چگونه با ------ تماس بگیرم",
+    "choices": [
+      "جلوگیری",
+      "سال‌های",
+      "پرداخت",
+      "سارا"
+    ],
+    "answer": "سارا",
+    "type": "sentence",
+    "intent": "email_querycontact"
+  },
+  {
+    "question": "آیا ------ یخ بندان می شود",
+    "choices": [
+      "شهرت",
+      "باب",
+      "در طول شب",
+      "قاجار"
+    ],
+    "answer": "در طول شب",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "تعریف",
+    "choices": [
+      "definition",
+      "situation",
+      "score",
+      "presence"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "این ویدئو را به ------ پوست کن",
+    "choices": [
+      "فیسبوک",
+      "میلیون",
+      "آنجا",
+      "شیعه"
+    ],
+    "answer": "فیسبوک",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "آیا روز ------ و طوفانی است",
+    "choices": [
+      "بارانی",
+      "باعث",
+      "قوانین",
+      "تشکیل"
+    ],
+    "answer": "بارانی",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "------ باران می بارد",
+    "choices": [
+      "آنها",
+      "کرده‌است",
+      "فردا",
+      "یکدیگر"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "تهران",
+      "سلطان",
+      "شده",
+      "فلسفه"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "یمین",
+    "choices": [
+      "right",
+      "appraisal",
+      "imprison",
+      "six"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ بازی کن",
+    "choices": [
+      "اعضای",
+      "angry bird",
+      "پوشش",
+      "اوایل"
+    ],
+    "answer": "angry bird",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "------ رویدادها را از تقویم پاک کن",
+    "choices": [
+      "تمام",
+      "پهلوی",
+      "تولید",
+      "مدیریت"
+    ],
+    "answer": "تمام",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "یک ------ رزرو کن ساعت یک برم سینما",
+    "choices": [
+      "تاکسی",
+      "نخستین",
+      "دل",
+      "یکی"
+    ],
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "هوای ایمیل‌های جدید من در ------ را داشته باش",
+    "choices": [
+      "پرداخت",
+      "حسن",
+      "صندوق ورودی",
+      "کلمه"
+    ],
+    "answer": "صندوق ورودی",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "آیا ------ جلسه دارم",
+    "choices": [
+      "فردا",
+      "فعال",
+      "دل",
+      "شناسی"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "two",
+    "choices": [
+      "روستاهای",
+      "دو",
+      "هنگام",
+      "خاص"
+    ],
+    "answer": 1,
     "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا هیچ زنگ هشداری را در ------ تنظیم کرده‌ام",
+    "choices": [
+      "شاعران",
+      "صبح",
+      "می‌توان",
+      "سرعت"
+    ],
+    "answer": "صبح",
+    "type": "sentence",
+    "intent": "alarm_query"
+  },
+  {
+    "question": "ایستگاه رادیوی موج ------ رو باز کن",
+    "choices": [
+      "طریق",
+      "نهصد وهشتاد ونه",
+      "تدریس",
+      "اسماعیل"
+    ],
+    "answer": "نهصد وهشتاد ونه",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "conditions",
+    "choices": [
+      "دریایی",
+      "شرایط",
+      "آیت",
+      "مربع"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "سهام ------ بالا رفته یا پایین آمده",
+    "choices": [
+      "زیر",
+      "ایالت",
+      "داروخانه‌های هلال احمر",
+      "پادشاه"
+    ],
+    "answer": "داروخانه‌های هلال احمر",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "در تقویم بگذار که ما در هیجدهم مرداد ساعت هشت شب با فرامرز ------ می‌خوریم",
+    "choices": [
+      "شام",
+      "ناشر",
+      "تشخیص",
+      "کشوری"
+    ],
+    "answer": "شام",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "شروع کن با ------ کار کن",
+    "choices": [
+      "جارو برقی رباتیک",
+      "لحاظ",
+      "طول",
+      "مانده"
+    ],
+    "answer": "جارو برقی رباتیک",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "لطفا یک بلیط ------ به بندرعباس برای من بخر",
+    "choices": [
+      "جغرافیایی",
+      "قطار",
+      "سن",
+      "چه"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "سلطنتی",
+    "choices": [
+      "receipt",
+      "imperial",
+      "sheik",
+      "exclude"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "نقاط",
+    "choices": [
+      "end",
+      "return visit",
+      "knowledge",
+      "spots"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "minister",
+    "choices": [
+      "نقاط",
+      "کد",
+      "مصر",
+      "وزیر"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "گروهی",
+    "choices": [
+      "in group",
+      "famous",
+      "area",
+      "inequality"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "تعریف ------ را جستجو کن",
+    "choices": [
+      "جشن",
+      "تاریخی",
+      "خورشیدی",
+      "آمبولانس"
+    ],
+    "answer": "آمبولانس",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "گوگل آهنگ ------ از سیروان خسروی را پیدا کن و پخش کن",
+    "choices": [
+      "ابهام‌زدایی",
+      "کامپیوتر",
+      "قرآن",
+      "باران"
+    ],
+    "answer": "باران",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "آیا ------ برای چهارشنبه آینده تعیین شده است",
+    "choices": [
+      "جلساتی",
+      "دارد",
+      "روستاهای",
+      "افزایش"
+    ],
+    "answer": "جلساتی",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "مدتی",
+    "choices": [
+      "summer",
+      "world",
+      "relative",
+      "for some time"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "چه جایی نزدیک برای ------ هست",
+    "choices": [
+      "سرشماری",
+      "شام",
+      "ماشین",
+      "نقش"
+    ],
+    "answer": "شام",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "خیالی",
+    "choices": [
+      "اسفند",
+      "واقعی",
+      "که",
+      "دوران"
+    ],
+    "answer": 1,
+    "type": "antonym"
+  },
+  {
+    "question": "اوولی یک ایمیل به ------ ارسال کن",
+    "choices": [
+      "بدن",
+      "قهرمانی",
+      "خورشید",
+      "زیبا"
+    ],
+    "answer": "زیبا",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "رویداد را از ------ حذف کن",
+    "choices": [
+      "شیر",
+      "دکتر",
+      "ششم",
+      "دوشنبه"
+    ],
+    "answer": "دوشنبه",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "یک ------ با علی در روز سه شنبه تنظیم کن",
+    "choices": [
+      "قدرت",
+      "گلستان",
+      "هنری",
+      "جلسه"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "برای من ------ پیدا کن",
+    "choices": [
+      "نفت",
+      "تاکسی",
+      "می‌دهد",
+      "سفر"
+    ],
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "به ------ ایمیل بده و بگو او را در سرزمین موج های آبی میبینم",
+    "choices": [
+      "مامان",
+      "انسانی",
+      "فیلم‌های",
+      "اکنون"
+    ],
+    "answer": "مامان",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "الی ساعت ------ قهوه درست کن",
+    "choices": [
+      "بزرگی",
+      "هنگامی",
+      "جنسی",
+      "شش صبح"
+    ],
+    "answer": "شش صبح",
+    "type": "sentence",
+    "intent": "iot_coffee"
+  },
+  {
+    "question": "style",
+    "choices": [
+      "باید",
+      "عبارت",
+      "آلمانی",
+      "کرمان"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "اخبار ------",
+    "choices": [
+      "آمریکا",
+      "سرگرمی",
+      "اکنون",
+      "شیراز"
+    ],
+    "answer": "سرگرمی",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "خشک مقدس",
+    "choices": [
+      "straight",
+      "large",
+      "religious",
+      "past"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "در. ------ ساعت چند است",
+    "choices": [
+      "یمن",
+      "تصویر",
+      "ایران",
+      "عوامل"
+    ],
+    "answer": "ایران",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "من چه رویدادهایی برای ------ دارم",
+    "choices": [
+      "فردا",
+      "مشترک",
+      "حال",
+      "درآمد"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "مواردی که در لیست ------ من هستند را به من بگو",
+    "choices": [
+      "خرید",
+      "کد",
+      "پست",
+      "دریای"
+    ],
+    "answer": "خرید",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "------ را استفاده کن و پوست کن",
+    "choices": [
+      "دید",
+      "شکل",
+      "درخت",
+      "فیسبوک"
+    ],
+    "answer": "فیسبوک",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "دور",
+    "choices": [
+      "help",
+      "far",
+      "new",
+      "February"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "چه ------ بعد از نیمه شب باز است",
+    "choices": [
+      "طور",
+      "نور",
+      "رستورانی",
+      "مدیر"
+    ],
+    "answer": "رستورانی",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "------ کی هست",
+    "choices": [
+      "دسترسی",
+      "تعطیلات بانک",
+      "می‌کرد",
+      "المپیک"
+    ],
+    "answer": "تعطیلات بانک",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "اوولی من به دنبال یک ------ می‌گردم آیا یک ------ خوب می‌شناسی",
+    "choices": [
+      "نو",
+      "کافه",
+      "مصرف",
+      "سعید"
+    ],
+    "answer": "کافه",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "------ چه زمانی به دنیا آمد",
+    "choices": [
+      "درگذشت",
+      "آباد",
+      "آبراهام لینکلن",
+      "تولد"
+    ],
+    "answer": "آبراهام لینکلن",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "آیا ------ هوا آفتابی خواهد بود",
+    "choices": [
+      "بلکه",
+      "شبه",
+      "اواخر هفته",
+      "آهن"
+    ],
+    "answer": "اواخر هفته",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "ترافیک در حال حاضر در نزدیکی ------ چگونه است",
+    "choices": [
+      "شخصی",
+      "مسجد",
+      "اینترنت",
+      "جاده پارک ملی گلستان"
+    ],
+    "answer": "جاده پارک ملی گلستان",
+    "type": "sentence",
+    "intent": "transport_traffic"
+  },
+  {
+    "question": "آیا من پیام صندوق ------ جدیدی دارم",
+    "choices": [
+      "ورودی",
+      "هایی",
+      "هم",
+      "مدیر"
+    ],
+    "answer": "ورودی",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "آیا ایمیلی از ------ دارم",
+    "choices": [
+      "الهام",
+      "سد",
+      "شب",
+      "دیده"
+    ],
+    "answer": "الهام",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "لطفاً برای خدمات تاخیری در ------ توئیت کن",
+    "choices": [
+      "تاریخی",
+      "موتور",
+      "خدمات dell",
+      "می‌شوند"
+    ],
+    "answer": "خدمات dell",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "کتابخانه",
+    "choices": [
+      "uderstood",
+      "saying",
+      "library",
+      "middle"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لیست آهنگ های ------ من را پخش کن",
+    "choices": [
+      "تحصیلات",
+      "کانتری",
+      "مشهد",
+      "مطالعات"
+    ],
+    "answer": "کانتری",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "میتونی چند تا ------ پخش کنی",
+    "choices": [
+      "الکتریکی",
+      "جاز",
+      "پا",
+      "گرم"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "لطفا ------ پخش کن",
+    "choices": [
+      "موسیقی جاز",
+      "کانادا",
+      "محمد",
+      "تا"
+    ],
+    "answer": "موسیقی جاز",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "with",
+    "choices": [
+      "صد",
+      "نزد",
+      "خصوصی",
+      "کرمان"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "غیرقانونی",
+    "choices": [
+      "ایرانی",
+      "قانونی",
+      "فرهنگی",
+      "اقتصاد"
+    ],
+    "answer": 1,
+    "type": "antonym"
+  },
+  {
+    "question": "در مورد همه ------ فردا به من اطلاع بده",
+    "choices": [
+      "دفاع",
+      "نرم",
+      "نزدیکی",
+      "جلسه‌های"
+    ],
+    "answer": "جلسه‌های",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ یک اسنپ پیدا کن",
+    "choices": [
+      "اختیار",
+      "یکی",
+      "بیست و نهم",
+      "ماده"
+    ],
+    "answer": "بیست و نهم",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "به من تعریفی از کلمه ------ بده",
+    "choices": [
+      "فهرست",
+      "دادگان",
+      "امنیت",
+      "پاپ"
+    ],
+    "answer": "پاپ",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "به من بگو چه زمانی ------ به من ایمیل میده",
+    "choices": [
+      "بزرگی",
+      "كه",
+      "کمک",
+      "ندا"
+    ],
+    "answer": "ندا",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "هوا",
+      "معروف",
+      "پخش ترکیبی",
+      "سیاست"
+    ],
+    "answer": "پخش ترکیبی",
+    "type": "sentence",
+    "intent": "music_settings"
+  },
+  {
+    "question": "معنی کلمه ------ چیست",
+    "choices": [
+      "جای",
+      "خانه",
+      "گردید",
+      "پادشاهی"
+    ],
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "receipt",
+    "choices": [
+      "دسترسی",
+      "باب",
+      "انسان",
+      "رسید"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "شنا",
+      "دنبال",
+      "حق",
+      "دستور"
+    ],
+    "answer": "شنا",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "زود این ------ را به من یادآوری کن",
+    "choices": [
+      "دیده",
+      "فوتبال",
+      "یمن",
+      "جلسه"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "سینما",
+    "choices": [
+      "movie theater",
+      "import",
+      "number",
+      "include"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "جمعیت ------ چقدر است",
+    "choices": [
+      "باستان",
+      "سرشماری",
+      "آلاباما",
+      "همانند"
+    ],
+    "answer": "آلاباما",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "آیا ------ امروز بالای هشت خواهد بود",
+    "choices": [
+      "دانشگاه",
+      "رفت",
+      "رئیس",
+      "شاخص اشعه یو. وی."
+    ],
+    "answer": "شاخص اشعه یو. وی.",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "هوای ------ چطور بود",
+    "choices": [
+      "این هفته",
+      "پیشنهاد",
+      "تحصیلات",
+      "خاصی"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "------ را در audible از ا------مه پخش کن",
+    "choices": [
+      "براي",
+      "تخت",
+      "دا",
+      "روش"
+    ],
+    "answer": "دا",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "هوای ------ چطور می شود",
+    "choices": [
+      "امروز",
+      "شبکه",
+      "اقتصادی",
+      "دور"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "تا ------ چقدر در خراسان رضوی برف باریده است",
+    "choices": [
+      "امروز",
+      "ویژه",
+      "عمده",
+      "توضیح"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "روشنایی ------",
+    "choices": [
+      "می‌رود",
+      "داشتن",
+      "کنار",
+      "نود درصد"
+    ],
+    "answer": "نود درصد",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "guidance",
+    "choices": [
+      "ارومیه",
+      "هدایت",
+      "گاز",
+      "دستور"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "فایل صوتی ------ را پخش کن",
+    "choices": [
+      "سبک",
+      "رادیو کافه",
+      "تبریز",
+      "بود"
+    ],
+    "answer": "رادیو کافه",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "------ ساعت پنج بعدازظهر من را به من یادآوری کن",
+    "choices": [
+      "جلسه",
+      "سازمان",
+      "قدیم",
+      "بشر"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "خیالی",
+    "choices": [
+      "مقاومت",
+      "نیروهای",
+      "واقعی",
+      "تاریخی"
+    ],
+    "answer": 2,
+    "type": "antonym"
+  },
+  {
+    "question": "یک یادآور برای ------ در صبح سه شنبه تنظیم کن",
+    "choices": [
+      "آبان",
+      "مربوط",
+      "چاپ اسناد",
+      "شهرداری"
+    ],
+    "answer": "چاپ اسناد",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "similar",
+    "choices": [
+      "جمهور",
+      "حسین",
+      "همانند",
+      "ساده"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "کوچک",
+    "choices": [
+      "small",
+      "reason",
+      "side",
+      "month"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ پخش کن",
+    "choices": [
+      "می‌گیرد",
+      "گرفت",
+      "تپه",
+      "انگیزشی"
+    ],
+    "answer": "انگیزشی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "سبک",
+    "choices": [
+      "small",
+      "matter",
+      "style",
+      "center"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "چه ------",
+    "choices": [
+      "محله",
+      "عنوان",
+      "خبر",
+      "زبان"
+    ],
+    "answer": "خبر",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "من می خواهم راجع به ------ بدانم",
+    "choices": [
+      "چهارم",
+      "دونالد ترامپ",
+      "مانده",
+      "عبور"
+    ],
+    "answer": "دونالد ترامپ",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "یک ------ خوب برای من پیدا کن که شراب‌های قدیمی‌تر از ده سال ذخیره داشته باشد مرا به آن مغازه هدایت کن",
+    "choices": [
+      "شراب‌فروشی",
+      "متولد",
+      "استقلال",
+      "جمعیت"
+    ],
+    "answer": "شراب‌فروشی",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "سلام چه نوع عکس‌هایی را در ------ بارگذاری کردی",
+    "choices": [
+      "ثبت",
+      "جای",
+      "پینترست",
+      "اکثر"
+    ],
+    "answer": "پینترست",
+    "type": "sentence",
+    "intent": "social_query"
+  },
+  {
+    "question": "سرخط اخبار ------ را به من بده",
+    "choices": [
+      "بطور",
+      "بزرگی",
+      "شبکه خبر",
+      "دسته"
+    ],
+    "answer": "شبکه خبر",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "ماشین های تازه به بازار آمده",
+      "نامه",
+      "دومین",
+      "آلمان"
+    ],
+    "answer": "ماشین های تازه به بازار آمده",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "افشا شده",
+    "choices": [
+      "out",
+      "relation",
+      "Farhang",
+      "summer"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لطفا آن اهنگ از ------ را دوباره تکرار کن",
+    "choices": [
+      "اداره",
+      "ابی",
+      "اين",
+      "یافت"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music_settings"
+  },
+  {
+    "question": "------ روز سختی بود",
+    "choices": [
+      "امروز",
+      "سنت",
+      "خان",
+      "تک"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "portrait",
+    "choices": [
+      "بازیگران",
+      "اسرائیل",
+      "نظیر",
+      "نقاشی"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "یک هشدار برای ------ تنظیم کن",
+    "choices": [
+      "هشت صبح",
+      "گونه",
+      "ژانویه",
+      "نمایندگان"
+    ],
+    "answer": "هشت صبح",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "آیا من زنگ هشدار را برای ------ در صبح تنظیم کرده‌ام",
+    "choices": [
+      "بیدار شدن",
+      "آمده",
+      "سفید",
+      "خاک"
+    ],
+    "answer": "بیدار شدن",
+    "type": "sentence",
+    "intent": "alarm_query"
+  },
+  {
+    "question": "از ------ تا شش چه زمانی وقت آزاد دارم",
+    "choices": [
+      "عراق",
+      "به",
+      "اگر",
+      "ساعت چهار"
+    ],
+    "answer": "ساعت چهار",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "چه رویدادهایی در ------ در جریان است",
+    "choices": [
+      "شهر رشت",
+      "دین",
+      "مدتی",
+      "بیرون"
+    ],
+    "answer": "شهر رشت",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "توضیحی از ------ در نماوا بهم بده",
+    "choices": [
+      "نیسان آبی",
+      "جان",
+      "ساده",
+      "جا"
+    ],
+    "answer": "نیسان آبی",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "موقع ------ نور رو بیشتر کن",
+    "choices": [
+      "شدند",
+      "مطالعه",
+      "بازدید",
+      "قمری"
+    ],
+    "answer": "مطالعه",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "من یک لیست برای کارهای ------ امروز دارم نه",
+    "choices": [
+      "انجام دادنی",
+      "مورد",
+      "تقسیم",
+      "نقش"
+    ],
+    "answer": "انجام دادنی",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "speed",
+    "choices": [
+      "شبیه",
+      "وبگاه",
+      "سرعت",
+      "ایجاد"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "خیس",
+    "choices": [
+      "فرزندان",
+      "راست",
+      "نظام",
+      "خشک"
+    ],
+    "answer": 3,
+    "type": "antonym"
+  },
+  {
+    "question": "سلام اوولی یک لیست از ------ بساز",
+    "choices": [
+      "آباد",
+      "توضیح",
+      "اسامی که با حروف صدادار شروع می شود و به حروف صدادار ختم می شود",
+      "برنامه‌های"
+    ],
+    "answer": "اسامی که با حروف صدادار شروع می شود و به حروف صدادار ختم می شود",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "دو هفته دیگر",
+      "اسپانیا",
+      "جنگ",
+      "جنوبی"
+    ],
+    "answer": "دو هفته دیگر",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "هر چیز جالبی در اخبار ------",
+    "choices": [
+      "کند",
+      "آورد",
+      "تمامی",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "وبگاه",
+      "بهره",
+      "یک ربع به دو",
+      "کلمه"
+    ],
+    "answer": "یک ربع به دو",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "آیا برای ------ برنامه‌ای دارم",
+    "choices": [
+      "سینما",
+      "بندی",
+      "بیست و یکم",
+      "درگذشت"
+    ],
+    "answer": "بیست و یکم",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "من باید ------ را به لیست خرید شهروند خود اضافه کنم",
+    "choices": [
+      "داخلی",
+      "وابسته",
+      "برگزار",
+      "آب"
+    ],
+    "answer": "آب",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "ایمیل جدید کار رو به ------ بفرست",
+    "choices": [
+      "می‌کنند",
+      "سیارک",
+      "عادا فردوسی",
+      "عبور"
+    ],
+    "answer": "عادا فردوسی",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "موز را به فهرست ------ من اضافه کن",
+    "choices": [
+      "سیاست",
+      "چند",
+      "خرید",
+      "صفحه"
+    ],
+    "answer": "خرید",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "یک ------ را توصیف کنید",
+    "choices": [
+      "اسفند",
+      "تلویزیون هوشمند پنجاه اینچی",
+      "ه",
+      "نوع"
+    ],
+    "answer": "تلویزیون هوشمند پنجاه اینچی",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "چه ------ در فروردین هست",
+    "choices": [
+      "بالا",
+      "زندگینامه",
+      "دانشگاه",
+      "جلساتی"
+    ],
+    "answer": "جلساتی",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "وضعیت ترافیک ------ الآن چطور است",
+    "choices": [
+      "قدیمی",
+      "مفهوم",
+      "تهران",
+      "رفته"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "transport_traffic"
+  },
+  {
+    "question": "blood",
+    "choices": [
+      "ایتالیا",
+      "دسته",
+      "انسان",
+      "خون"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "اوولی فهرست ------ را حذف کن",
+    "choices": [
+      "خواروبارها",
+      "ترکیه",
+      "متفاوت",
+      "بازیکنان"
+    ],
+    "answer": "خواروبارها",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "اخبار را در ------ پخش کن",
+    "choices": [
+      "موج اف. ام.",
+      "مدتی",
+      "ای",
+      "قهرمان"
+    ],
+    "answer": "موج اف. ام.",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "آیا من لیست ------ درست کردم",
+    "choices": [
+      "پی",
+      "خرید",
+      "می‌گویند",
+      "آنچه"
+    ],
+    "answer": "خرید",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "لطفاً می‌توانی یک ------ با این شخص ترتیب بدهی",
+    "choices": [
+      "ترکیب",
+      "جلسه",
+      "کامپیوتر",
+      "مادر"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "آیا ------ به گرمکن احتیاجی دارم",
+    "choices": [
+      "پسر",
+      "عرضه",
+      "امروز",
+      "سال‌های"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "من برای ------ چه برنامه‌ای دارم که باید لغو کنم",
+    "choices": [
+      "شخص",
+      "موقعیت",
+      "از",
+      "فردا"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "------ را از جایی که آخرین بار من متوقف کردم پخش کن",
+    "choices": [
+      "خورشیدی",
+      "خود",
+      "مختلف",
+      "دا"
+    ],
+    "answer": "دا",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "زیستنامه",
+    "choices": [
+      "expensive",
+      "biography",
+      "moon",
+      "government"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "آسان",
+    "choices": [
+      "سوی",
+      "سخت",
+      "علیه",
+      "همچون"
+    ],
+    "answer": 1,
+    "type": "antonym"
+  },
+  {
+    "question": "------ رستوران نشاط توئیت کن که آنها سفارش من را خراب کردند و من مجبور شدم یک ساعت بیشتر صبر کنم",
+    "choices": [
+      "در",
+      "شماره",
+      "بار",
+      "نشده"
+    ],
+    "answer": "در",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "------ من را تنظیم کن",
+    "choices": [
+      "بیشتری",
+      "قهوه‌ساز",
+      "تحصیلات",
+      "تاکنون"
+    ],
+    "answer": "قهوه‌ساز",
+    "type": "sentence",
+    "intent": "iot_coffee"
+  },
+  {
+    "question": "تعریف کلمه ------ چیست",
+    "choices": [
+      "بررسی",
+      "ادبیات",
+      "پاپ",
+      "اول"
+    ],
+    "answer": "پاپ",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "Qom",
+    "choices": [
+      "کاهش",
+      "قم",
+      "داشتن",
+      "چهار"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "دلم می خواد غذای ------ سفارش بدم",
+    "choices": [
+      "ایران",
+      "دانش",
+      "بیرون بر",
+      "نظامی"
+    ],
+    "answer": "بیرون بر",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "هیچ اطلاعات جدیدی از ------ هست",
+    "choices": [
+      "دیوار مرزی پاکستان",
+      "های",
+      "سطح",
+      "طی"
+    ],
+    "answer": "دیوار مرزی پاکستان",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "کل",
+    "choices": [
+      "illegal",
+      "total",
+      "happy",
+      "good"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "الآن وضع ------ چطور است",
+    "choices": [
+      "فارس",
+      "تشکیل",
+      "اقتصاد هند",
+      "کتاب"
+    ],
+    "answer": "اقتصاد هند",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "------ صبح برنامه‌های سه‌شنبه‌ام را به من یادآوری کن",
+    "choices": [
+      "موضوع",
+      "فردا",
+      "اقتصادی",
+      "تاکنون"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "چطور از ------ بروم ساری",
+    "choices": [
+      "تهران",
+      "ايران",
+      "اثر",
+      "يا"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "به فهرست ------ برو",
+    "choices": [
+      "فناوری",
+      "بعدها",
+      "رپ",
+      "فرانسوی"
+    ],
+    "answer": "رپ",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ سی و یک روزه چه ماهیه",
+    "choices": [
+      "آذربایجان",
+      "شعر",
+      "همیشه",
+      "ماه بعدی"
+    ],
+    "answer": "ماه بعدی",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "منطقه زمانی خلیج فارس",
+      "نیاز",
+      "خود",
+      "غیر"
+    ],
+    "answer": "منطقه زمانی خلیج فارس",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "میخواهم ------ بازی کنم",
+    "choices": [
+      "سرشماری",
+      "علم",
+      "خاک",
+      "game of trivia"
+    ],
+    "answer": "game of trivia",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "تشخیص",
+    "choices": [
+      "town",
+      "services",
+      "gulf",
+      "recognition"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "حسن",
+    "choices": [
+      "ugly",
+      "Hasan",
+      "named",
+      "gauze"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ به من یادآوری کن که من سه شنبه یک کنفرانس تلفنی دارم",
+    "choices": [
+      "سی دقیقه زودتر",
+      "توسعه",
+      "اثر",
+      "ساخته"
+    ],
+    "answer": "سی دقیقه زودتر",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "وضع ترافیک در ------ چطور است",
+    "choices": [
+      "اروپا",
+      "طرف",
+      "خیابان کاج",
+      "درگذشتگان"
+    ],
+    "answer": "خیابان کاج",
+    "type": "sentence",
+    "intent": "transport_traffic"
+  },
+  {
+    "question": "minute",
+    "choices": [
+      "معاصر",
+      "پاسخ",
+      "دقیقه",
+      "ایالت"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا ------ من امروز ایمیل جدیدی برای من ارسال کرده است",
+    "choices": [
+      "رئیس",
+      "نتایج",
+      "دادند",
+      "حالی"
+    ],
+    "answer": "رئیس",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "لطفا چند ایمیل جدید در ------ خودم چیست",
+    "choices": [
+      "صندوق ورودی",
+      "تحت",
+      "قسمت",
+      "بزرگ"
+    ],
+    "answer": "صندوق ورودی",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "به ------ یک توئیت بفرست که سیاست بازپس‌گیری شما ناخوشایند است",
+    "choices": [
+      "شناخته",
+      "خدمات مشتری شهروند",
+      "تحصیل",
+      "کارگردان"
+    ],
+    "answer": "خدمات مشتری شهروند",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "آبشار ------ کجا واقع شده",
+    "choices": [
+      "سنگان",
+      "قرآن",
+      "می‌دهد",
+      "پوشش"
+    ],
+    "answer": "سنگان",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "یک توصیفی از ------ را به من بده",
+    "choices": [
+      "زمینه",
+      "واحد",
+      "شرکت",
+      "مدار لپ تاپ"
+    ],
+    "answer": "مدار لپ تاپ",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "آیا هوای ------ آرام است",
+    "choices": [
+      "ششم",
+      "ترکیه",
+      "امروز",
+      "هوایی"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "ساعت در ------",
+    "choices": [
+      "بیرجند",
+      "سبب",
+      "رخ",
+      "برد"
+    ],
+    "answer": "بیرجند",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "نرخ تبدیل ------ به inr را به من بده",
+    "choices": [
+      "نیویورک",
+      "مصر",
+      "عرب",
+      "دلار امریکا"
+    ],
+    "answer": "دلار امریکا",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "become",
+    "choices": [
+      "شدن",
+      "خویش",
+      "می‌کند",
+      "قم"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "هر زنگ هشدار ------ بعد از جمعه را خاموش کن",
+    "choices": [
+      "ماشین",
+      "باغ",
+      "صبح",
+      "توانست"
+    ],
+    "answer": "صبح",
+    "type": "sentence",
+    "intent": "alarm_remove"
+  },
+  {
+    "question": "------ چند ساله است",
+    "choices": [
+      "هانیه توسلی",
+      "نزد",
+      "فوتبال",
+      "هفته"
+    ],
+    "answer": "هانیه توسلی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "پارکومتر",
+    "choices": [
+      "meter",
+      "stay",
+      "elections",
+      "spring"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "چند تا آهنگ ------ پخش کن",
+    "choices": [
+      "بیش",
+      "راک",
+      "شهرت",
+      "نقل"
+    ],
+    "answer": "راک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ را برای جمعه به تقویم من اضافه کن",
+    "choices": [
+      "یوگا",
+      "در",
+      "نبرد",
+      "می‌توانند"
+    ],
+    "answer": "یوگا",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "یک بلیط برای قطار ------ نکا برای من هماهنگ کن",
+    "choices": [
+      "چیزی",
+      "پنج بعدالظهر",
+      "تعداد",
+      "مقابل"
+    ],
+    "answer": "پنج بعدالظهر",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "Omar",
+    "choices": [
+      "بنابر",
+      "عمر",
+      "علت",
+      "مرکزی"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "جغرافیای ------",
+    "choices": [
+      "گلستان",
+      "اینکه",
+      "زنده",
+      "ملبورن"
+    ],
+    "answer": "ملبورن",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "من ------ قراره برم شنا یا محل کار",
+    "choices": [
+      "مرز",
+      "امروز",
+      "صنعتی",
+      "ترین"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "نیک",
+    "choices": [
+      "industrious",
+      "birth",
+      "queen",
+      "good"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "نزدیک‌ترین ------ کجاست",
+    "choices": [
+      "برد",
+      "راست",
+      "واقع",
+      "رستوران زنجیره‌ای شیلا"
+    ],
+    "answer": "رستوران زنجیره‌ای شیلا",
+    "type": "sentence",
+    "intent": "recommendation_locations"
   },
   {
     "question": "human",
     "choices": [
+      "كه",
+      "برابر",
       "انسان",
-      "اکثر",
-      "می‌شد",
-      "مربع"
+      "اگر"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "translate_fa_en"
   },
   {
-    "question": "زیبا",
+    "question": "آیا ------ برف خواهد آمد",
     "choices": [
-      "اعلام",
+      "پنج",
+      "هفته آینده",
+      "ده",
+      "نامزد"
+    ],
+    "answer": "هفته آینده",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "گزارش وضع هوای ------ چطور بود",
+    "choices": [
+      "بن",
+      "صدا",
+      "امروز",
+      "قدرت"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "الان ساعت درنیمه‌ی ------ آمریکا چنده",
+    "choices": [
+      "عمده",
+      "شرقی",
+      "میلادی",
+      "آهن"
+    ],
+    "answer": "شرقی",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "نزدیک ترین ------ مکزیکی کجاست",
+    "choices": [
+      "رستوران",
       "سایت",
-      "زشت",
-      "ابهام‌زدایی"
+      "برجسته",
+      "اینترنت"
     ],
-    "answer": 2,
-    "type": "antonym"
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "transport_query"
   },
   {
-    "question": "یک",
+    "question": "واحد پول ------ چیست",
     "choices": [
-      "protection",
-      "letter",
-      "ugly",
-      "one"
+      "استرالیا",
+      "انگلیس",
+      "محمود",
+      "دادگاه"
     ],
-    "answer": 3,
+    "answer": "انگلیس",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "مشاهیر",
+    "choices": [
+      "famous people",
+      "Australia",
+      "made",
+      "hard"
+    ],
+    "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "بیکار",
+    "question": "چه ------ این اطراف نظرات خوب دریافت کردند",
     "choices": [
-      "مشغول",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
+      "تحقیقات",
+      "بازیگر",
+      "مسیر",
+      "رستوران‌هایی"
+    ],
+    "answer": "رستوران‌هایی",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "لطفا برای من یک بلیط ------ رزرو کن",
+    "choices": [
+      "كه",
+      "قطار",
+      "جمله",
+      "بسیاری"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "چه مدتی ------ حامله بوده است",
+    "choices": [
+      "آنها",
+      "قرمز",
+      "وزن",
+      "پرینسس کیت"
+    ],
+    "answer": "پرینسس کیت",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "آخرین اخبار ------ چیست",
+    "choices": [
+      "بازدید",
+      "ششم",
+      "ممنوعیت مسافرت",
+      "انگلیسی"
+    ],
+    "answer": "ممنوعیت مسافرت",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "به من یادآوری کن که ------ به جلسه‌ام بروم",
+    "choices": [
+      "فردا",
+      "تیر",
+      "سال‌های",
+      "ایستگاه"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ چیست",
+    "choices": [
+      "ماسه سنگی",
+      "ترکی",
+      "می‌دهند",
+      "دقیقه"
+    ],
+    "answer": "ماسه سنگی",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "------ من را از لیست آهنگ ها پخش کن",
+    "choices": [
+      "شرکت",
+      "آهنگ های مهمانی",
+      "بازی‌های",
+      "برابر"
+    ],
+    "answer": "آهنگ های مهمانی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "قرار با ------ در پنج بعدازظهر چهارم اردیبهشت در متروی آریاشهر رو اضافه کن",
+    "choices": [
+      "بیماری",
+      "معرفی",
+      "مهران",
+      "برگزار"
+    ],
+    "answer": "مهران",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "رادیو آوا رو روی موج ------ پخش کن",
+    "choices": [
+      "ابراهیم",
+      "صد و دو ممیز چهار",
+      "سبک",
+      "گاهی"
+    ],
+    "answer": "صد و دو ممیز چهار",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "نامطمئن",
+    "choices": [
+      "مطمئن",
+      "انتخابات",
+      "صنعتی",
+      "اصلی"
     ],
     "answer": 0,
     "type": "antonym"
   },
   {
-    "question": "sometimes",
+    "question": "اخبار در مورد ------ را به من نشان بده",
     "choices": [
-      "کم",
-      "گاهی",
-      "می‌رسد",
-      "تلاش"
+      "هنوز",
+      "او",
+      "ترامپ",
+      "محمدرضا"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "ترامپ",
+    "type": "sentence",
+    "intent": "news_query"
   },
   {
-    "question": "حول و حوش",
+    "question": "درباره ------ بیشتر به من بگو",
     "choices": [
-      "big",
-      "suburbs",
-      "girl",
-      "team"
+      "ابراهیم همت",
+      "جای",
+      "بدون",
+      "بیماری"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "ابراهیم همت",
+    "type": "sentence",
+    "intent": "general_quirky"
   },
   {
-    "question": "آلمانی",
+    "question": "ایمیل‌های ------ را چک کن",
     "choices": [
-      "out",
-      "Esfehan",
-      "Germanic",
-      "truth"
+      "یکم",
+      "دوازده ساعت گذشته",
+      "گروه‌های",
+      "تولد"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "دوازده ساعت گذشته",
+    "type": "sentence",
+    "intent": "email_query"
   },
   {
-    "question": "موسفید",
+    "question": "ranks",
     "choices": [
-      "old",
-      "old",
-      "beginning",
-      "significant"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مصالح",
-    "choices": [
-      "closed",
-      "materials",
-      "uncertain",
-      "tower"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Mosque",
-    "choices": [
-      "پروژه",
-      "گسترده",
-      "بازیکنان",
-      "مسجد"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "lack",
-    "choices": [
-      "ارومیه",
-      "انسانی",
-      "نبود",
-      "دختر"
+      "آمریکایی",
+      "گذشته",
+      "مناسب",
+      "شناسی"
     ],
     "answer": 2,
     "type": "translate_fa_en"
   },
   {
-    "question": "احتیاط",
+    "question": "------ تاریخ تولد منه. دوم خرداد چند شنبه ست",
     "choices": [
-      "اعلام",
-      "سایت",
-      "بااحتیاط",
-      "ابهام‌زدایی"
+      "یک خرداد",
+      "زبان",
+      "جامع",
+      "البته"
     ],
-    "answer": 2,
-    "type": "antonym"
+    "answer": "یک خرداد",
+    "type": "sentence",
+    "intent": "datetime_query"
   },
   {
-    "question": "حامض کردن",
+    "question": "یک رویداد برای ------ تنظیم کن",
     "choices": [
-      "sour",
-      "side",
-      "society",
-      "out"
+      "گاز",
+      "جمعه",
+      "ناشر",
+      "ماشین"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "جمعه",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "صیحه زدن",
+    "question": "به من یادآوری کن که ------ فر را چک کنم",
     "choices": [
-      "cry",
-      "definition",
-      "friend",
-      "opposite"
+      "مشاهده",
+      "اما",
+      "پانزده دقیقه دیگر",
+      "دریافت"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "پانزده دقیقه دیگر",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "point",
+    "question": "ایمیل گزارش صبحگاهی ------ را برایم باز کن",
     "choices": [
-      "نقطه",
-      "سبب",
-      "مشغول",
-      "اشاره"
+      "وزن",
+      "هدایت",
+      "خبرگزاری مهر",
+      "موتور"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "خبرگزاری مهر",
+    "type": "sentence",
+    "intent": "news_query"
   },
   {
-    "question": "گرون",
+    "question": "یک ایمیل به ------ بفرست و از او بپرس چه زمانی برای جلسه مناسب است",
     "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "ارزون",
-      "اعلام"
+      "نیویورک",
+      "راک",
+      "خوبی",
+      "اکبر"
     ],
-    "answer": 2,
-    "type": "antonym"
+    "answer": "اکبر",
+    "type": "sentence",
+    "intent": "email_sendemail"
   },
   {
-    "question": "toward",
+    "question": "Rome",
     "choices": [
-      "سوی",
-      "تاسیس",
-      "ژاپن",
-      "آفریقا"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دانش",
-    "choices": [
-      "industrious",
-      "shine",
-      "with",
-      "knowledge"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "وعده دار",
-    "choices": [
-      "talented",
-      "market",
-      "go",
-      "limited"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دلار",
-    "choices": [
-      "economy",
-      "Dollar",
-      "Akbar",
-      "cold"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زمان",
-    "choices": [
-      "new",
-      "case",
-      "known",
-      "time"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بیوک",
-    "choices": [
-      "big",
-      "Persian",
-      "participation",
-      "combination"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ثبت",
-    "choices": [
-      "registeration",
-      "spirit",
-      "plant",
-      "sign"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "service",
-    "choices": [
-      "خدمت",
-      "عصر",
-      "ویکی‌پدیای",
-      "طبق"
+      "روم",
+      "الدین",
+      "کارشناسی",
+      "حمل"
     ],
     "answer": 0,
     "type": "translate_fa_en"
   },
   {
-    "question": "spirit",
+    "question": "سه بلیط ------ دو طرفه برای یکشنبه هفت شب رزرو کن با زمان برگشت هشت صبح یکشنبه آینده",
     "choices": [
-      "هفت",
-      "کاربرد",
-      "بکار",
-      "معنی"
+      "اصلی",
+      "سده",
+      "متال",
+      "قطار"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
   },
   {
-    "question": "problems",
+    "question": "------ را حذف کن و جدید ایجاد کن",
     "choices": [
-      "ه",
-      "سنتی",
-      "انتشار",
-      "مسائل"
+      "بهار",
+      "اطلاعات",
+      "متولد",
+      "لیست پخش قدیمی"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "لیست پخش قدیمی",
+    "type": "sentence",
+    "intent": "lists_createoradd"
   },
   {
-    "question": "مرخصی",
+    "question": "خبر جدید از ------ چیست",
     "choices": [
-      "tune",
-      "real",
-      "westerner",
-      "off"
+      "صنعتی",
+      "اول",
+      "منبع",
+      "کرمان"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "منبع",
+    "type": "sentence",
+    "intent": "news_query"
   },
   {
-    "question": "race",
+    "question": "------ را روشن کن",
     "choices": [
-      "گاه",
-      "رنگ",
-      "ابن",
-      "نژاد"
+      "شوند",
+      "می‌کند",
+      "جاروبرقی رباتیک",
+      "کار"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "جاروبرقی رباتیک",
+    "type": "sentence",
+    "intent": "iot_cleaning"
   },
   {
-    "question": "تخت",
+    "question": "به من بگو ------ چندم است",
     "choices": [
-      "friend",
-      "Fars",
-      "flat",
-      "happy"
+      "زن",
+      "حالت",
+      "بنیاد",
+      "امروز"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "datetime_query"
   },
   {
-    "question": "جام شراب",
+    "question": "به من بگو ------ چه خبر است",
     "choices": [
-      "small",
-      "grail",
-      "awak",
-      "ignorance"
+      "کره",
+      "فردا",
+      "کنیم",
+      "مذهبی"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_query"
   },
   {
-    "question": "فارسی",
+    "question": "لطفا لامپ ها در ------ را خاموش کن",
     "choices": [
-      "Imam",
-      "left",
-      "types",
-      "Persian"
+      "اشپزخانه",
+      "ساکن",
+      "تر",
+      "شدت"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "اشپزخانه",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
   },
   {
-    "question": "انقطاع یافتن",
+    "question": "تمام رویدادهای ------ را حذف کن",
     "choices": [
-      "city",
-      "end",
-      "necessary",
-      "outside of"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بی زور",
-    "choices": [
-      "people",
-      "weak",
-      "careless",
-      "subsequent"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "height",
-    "choices": [
-      "دکتر",
-      "ارتفاع",
       "نقاط",
-      "آثار"
+      "امروز",
+      "به‌",
+      "کمتر"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "ایستگاه رادیویی را به ------ تغییر بده",
+    "choices": [
+      "مرد",
+      "حاصل",
+      "رادیو خبر",
+      "متر"
+    ],
+    "answer": "رادیو خبر",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "مدل",
+      "یافته",
+      "گسترش",
+      "تعطیلات"
+    ],
+    "answer": "تعطیلات",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "موارد را در لیست ------ من لیست کن",
+    "choices": [
+      "کار",
+      "جمله",
+      "گیلان",
+      "گرفت"
+    ],
+    "answer": "کار",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "قمر",
+    "choices": [
+      "rest",
+      "worst",
+      "moon",
+      "mountain"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "ایا من هیچ رویدادی که برای ------ برنامه ریزی شده باشد دارم",
+    "choices": [
+      "غیر",
+      "شکست",
+      "امروز",
+      "حال"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "she",
+    "choices": [
+      "کشور",
+      "ایشان",
+      "تقسیم",
+      "مساحت"
     ],
     "answer": 1,
     "type": "translate_fa_en"
@@ -22201,978 +10326,3738 @@ var WordsQuestions =
   {
     "question": "کنگره",
     "choices": [
-      "opposite",
-      "seriously",
+      "too",
       "parliament",
-      "above"
+      "immigration",
+      "importance"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لطفا ------ من را روشن کن",
+    "choices": [
+      "شاعر",
+      "زندان",
+      "بعضی",
+      "جاروبرقی"
+    ],
+    "answer": "جاروبرقی",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "------ را توصیف کن",
+    "choices": [
+      "زمینه",
+      "مختلف",
+      "ماسه سنگ",
+      "صدای"
+    ],
+    "answer": "ماسه سنگ",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "از کتاب ------ بیشتر برای من بخوان",
+    "choices": [
+      "استقلال",
+      "بسیار",
+      "سمفونی مردگان",
+      "باید"
+    ],
+    "answer": "سمفونی مردگان",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "علی ------ را روشن کن",
+    "choices": [
+      "تأثیر",
+      "ویکی‌پدیای",
+      "قهوه ساز",
+      "قبل"
+    ],
+    "answer": "قهوه ساز",
+    "type": "sentence",
+    "intent": "iot_coffee"
+  },
+  {
+    "question": "همه آهنگ های ------ را پخش کن",
+    "choices": [
+      "امام",
+      "پر",
+      "راک",
+      "صنعتی"
+    ],
+    "answer": "راک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "نزدیکترین ------ کجاست",
+    "choices": [
+      "کاهش",
+      "وابسته",
+      "ایستگاه قطار",
+      "سال"
+    ],
+    "answer": "ایستگاه قطار",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "من در ------ هستم لطفا صحبت نکن",
+    "choices": [
+      "جلسه",
+      "سیستم",
+      "فوریه",
+      "گرفتن"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "audio_volume_mute"
+  },
+  {
+    "question": "شاد",
+    "choices": [
+      "real",
+      "happy",
+      "off",
+      "total"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "وقت وقت ------ توی آفیسه",
+    "choices": [
+      "هستند",
+      "تلویزیونی",
+      "گلستان",
+      "مهمونی آخر سال"
+    ],
+    "answer": "مهمونی آخر سال",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ را خاموش کن",
+    "choices": [
+      "سوکت wemo",
+      "داشته",
+      "شیراز",
+      "کره"
+    ],
+    "answer": "سوکت wemo",
+    "type": "sentence",
+    "intent": "iot_wemo_off"
+  },
+  {
+    "question": "نشر",
+    "choices": [
+      "spreading",
+      "actress",
+      "tool",
+      "nowadays"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ باید دستکش بپوشم",
+    "choices": [
+      "نام‌های",
+      "شبیه",
+      "امشب",
+      "جوایز"
+    ],
+    "answer": "امشب",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "لطفا رنگ لامپ ------ را عوض کن",
+    "choices": [
+      "حمام",
+      "درگذشتگان",
+      "گلستان",
+      "زاده"
+    ],
+    "answer": "حمام",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "------ چیست",
+    "choices": [
+      "همسر",
+      "سوفله",
+      "توضیح",
+      "دنبال"
+    ],
+    "answer": "سوفله",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "می‌توانی ------ را روشن‌تر کنی",
+    "choices": [
+      "چین",
+      "بیماری",
+      "موسسه",
+      "اتاق"
+    ],
+    "answer": "اتاق",
+    "type": "sentence",
+    "intent": "iot_hue_lightup"
+  },
+  {
+    "question": "May",
+    "choices": [
+      "مه",
+      "باشند",
+      "ايران",
+      "ه"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا ------ شرجی ای می شود",
+    "choices": [
+      "شب",
+      "زیاد",
+      "سرشماری",
+      "سرانجام"
+    ],
+    "answer": "شب",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "بازی ------ را برایم شروع کن",
+    "choices": [
+      "tic tac toe",
+      "عضو",
+      "اسلام",
+      "من"
+    ],
+    "answer": "tic tac toe",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "------ از ایوان بند رو بذار توی نوبت بعدی",
+    "choices": [
+      "متفاوت",
+      "فوتبال",
+      "عشق",
+      "بستک"
+    ],
+    "answer": "عشق",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "هوای ------ چطورخواهد بود",
+    "choices": [
+      "گونه",
+      "زیر",
+      "حالت",
+      "این هفته"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "یک زنگ برای ساعت ------ فردا تنظیم کن و آن را به عنوان جلسه علامت گذاری کن",
+    "choices": [
+      "ترکیب",
+      "م",
+      "کامل",
+      "ده صبح"
+    ],
+    "answer": "ده صبح",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "------ من با علی جلسه داشتم",
+    "choices": [
+      "چاپ",
+      "امروز",
+      "شامل",
+      "هیچ"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "importance",
+    "choices": [
+      "اهمیت",
+      "درخت",
+      "هاي",
+      "شدید"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "اخبار جدید از ------ را نشان بده",
+    "choices": [
+      "شبکه",
+      "بی. بی. سی.",
+      "سفر",
+      "گذاری"
+    ],
+    "answer": "بی. بی. سی.",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "بالابود",
+    "choices": [
+      "Kurdish",
+      "transfer",
+      "excess",
+      "wet"
     ],
     "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "حادث",
-    "choices": [
-      "industrious",
-      "new",
-      "beautiful",
-      "currently"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Saheb",
-    "choices": [
-      "شدت",
-      "خارجی",
-      "امر",
-      "صاحب"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بوم",
-    "choices": [
-      "far",
-      "region",
-      "late",
-      "use"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "museum",
-    "choices": [
-      "موزه",
-      "دستگاه",
-      "زادگان",
-      "هند"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "five",
-    "choices": [
-      "گرفت",
-      "پنج",
-      "زن",
-      "درصد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بالا",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "پایین",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "نو",
-    "choices": [
-      "قدیمی",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "امروزه",
-    "choices": [
-      "friend",
-      "nowadays",
-      "official",
-      "cultural"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بالا",
-    "choices": [
-      "up",
-      "itself",
-      "illegal",
-      "work"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "seriously",
-    "choices": [
-      "همه",
-      "جدا",
-      "فصل",
-      "پیروزی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "motor",
-    "choices": [
-      "برگزار",
-      "چهار",
-      "موتور",
-      "عمومی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خاموش",
-    "choices": [
-      "ابهام‌زدایی",
-      "روشن",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "حصن",
-    "choices": [
-      "fortress",
-      "Kurdistan",
-      "end",
-      "girl"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Turkish",
-    "choices": [
-      "زبان‌های",
-      "علوم",
-      "ترکی",
-      "رفت"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نوشین",
-    "choices": [
-      "talented",
-      "Mehdi",
-      "principles",
-      "sweet"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اتحاد شوروی",
-    "choices": [
-      "bank",
-      "something",
-      "lawful",
-      "Soviet Union"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پشت",
-    "choices": [
-      "rear",
-      "novel",
-      "similar",
-      "start"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نامهربان",
-    "choices": [
-      "سایت",
-      "مهربان",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "متنعم",
-    "choices": [
-      "office",
-      "availability",
-      "in",
-      "wealthy"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "spread",
-    "choices": [
-      "باز",
-      "حکم",
-      "قبلی",
-      "فرزند"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "night",
-    "choices": [
-      "محمدرضا",
-      "است",
-      "علم",
-      "شب"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جهل",
-    "choices": [
-      "stranger",
-      "statistics",
-      "ignorance",
-      "but also"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "your",
-    "choices": [
-      "مقدار",
-      "اجرا",
-      "تو",
-      "متر"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "foundation",
-    "choices": [
-      "ساز",
-      "سرانجام",
-      "نمونه",
-      "اساس"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بااحتیاط",
-    "choices": [
-      "سایت",
-      "احتیاط",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "leader",
-    "choices": [
-      "سلطنت",
-      "آغاز",
-      "آن",
-      "رهبر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عطف به",
-    "choices": [
-      "new",
-      "Akbar",
-      "regarding",
-      "support"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سهی",
-    "choices": [
-      "inside",
-      "activity",
-      "straight",
-      "present"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ثمر",
-    "choices": [
-      "state",
-      "result",
-      "management",
-      "illness"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "لیله",
-    "choices": [
-      "gone",
-      "March",
-      "source",
-      "night"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مسافت",
-    "choices": [
-      "ten",
-      "distance",
-      "struggle",
-      "correlated"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فعالیت",
-    "choices": [
-      "March",
-      "appearance",
-      "often",
-      "activity"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "باید",
-    "choices": [
-      "radio",
-      "land",
-      "project",
-      "must"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "all",
-    "choices": [
-      "تمامی",
-      "خلق",
-      "کالیفرنیا",
-      "الکتریکی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "same",
-    "choices": [
-      "همان",
-      "اعلام",
-      "این",
-      "رود"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "طول",
-    "choices": [
-      "length",
-      "so far",
-      "imprison",
-      "affairs"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آب دیدگی",
-    "choices": [
-      "temper",
-      "top",
-      "cultural",
-      "agriculture"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "inside",
-    "choices": [
-      "احتمال",
-      "داخل",
-      "می‌کرد",
-      "هفت"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ورنام",
-    "choices": [
-      "matter",
-      "known",
-      "surname",
-      "new"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سرد",
-    "choices": [
-      "سایت",
-      "گرم",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "اسفند",
-    "choices": [
-      "eye",
-      "until",
-      "worth",
-      "Esfand"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شامل",
-    "choices": [
-      "ابهام‌زدایی",
-      "محروم",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "famous people",
-    "choices": [
-      "مشاهیر",
-      "عبدالله",
-      "شرح",
-      "شب"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شجاع",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام",
-      "ترسو"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "آفتاب",
-    "choices": [
-      "اعلام",
-      "مهتاب",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "Pavlavi",
-    "choices": [
-      "ماهی",
-      "دوره",
-      "دریای",
-      "پهلوی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "suggestion",
-    "choices": [
-      "پیشنهاد",
-      "بکار",
-      "آنها",
-      "رشد"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ماسبق",
+    "question": "هور",
     "choices": [
       "sun",
-      "past",
-      "except",
-      "Rome"
+      "illness",
+      "place",
+      "nations"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "موسفید",
+    "question": "برای ------ یک رویداد به تقویم اضافه کن",
     "choices": [
-      "knowledge",
-      "import",
-      "leader",
-      "old"
+      "شاعران",
+      "فرد",
+      "هر سه شنبه",
+      "جنسی"
+    ],
+    "answer": "هر سه شنبه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "چب",
+    "choices": [
+      "راست",
+      "روش",
+      "بدین",
+      "اقتصادی"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "طرح",
+      "می",
+      "آذربایجان",
+      "جاروبرقی"
+    ],
+    "answer": "جاروبرقی",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "------ امروز چقدر است",
+    "choices": [
+      "میراث",
+      "روابط",
+      "دلار امریکا",
+      "مرگ"
+    ],
+    "answer": "دلار امریکا",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "اوولی آیا من اخیراً از ------ ایمیلی دریافت کرده‌ام",
+    "choices": [
+      "رخ",
+      "برنامه‌های",
+      "مامان",
+      "مجلس"
+    ],
+    "answer": "مامان",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "هی الهه اخبار مهم ------ رو بگو",
+    "choices": [
+      "علی",
+      "پادشاه",
+      "ان",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "میشه لطفا برای من یک ------ کرایه کنی تا امشب به تالار اپرا بروم",
+    "choices": [
+      "شده",
+      "تاکسی",
+      "تصویب",
+      "طور"
+    ],
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "به ------ ایمیل بفرست",
+    "choices": [
+      "الدین",
+      "مهتاب",
+      "بعدها",
+      "هیچ"
+    ],
+    "answer": "مهتاب",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "اخبار ------",
+    "choices": [
+      "خدمت",
+      "به",
+      "شرایط",
+      "دو ماه گذشته"
+    ],
+    "answer": "دو ماه گذشته",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "تعریف کلمه ------ را به من بده",
+    "choices": [
+      "مغرور",
+      "دقیقه",
+      "اکثر",
+      "علمی"
+    ],
+    "answer": "مغرور",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "Kurdish",
+    "choices": [
+      "چپ",
+      "وارد",
+      "کرد",
+      "متال"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "لامپ ها در ------ را خاموش کن",
+    "choices": [
+      "تغییر",
+      "فنی",
+      "رضا",
+      "آشپزخانه"
+    ],
+    "answer": "آشپزخانه",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "question": "than",
+    "choices": [
+      "اول",
+      "تقسیمات",
+      "جام",
+      "از"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "رودخانه ای",
+    "choices": [
+      "Mohsen",
+      "Qom",
+      "low",
+      "river"
     ],
     "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "universal",
+    "question": "نا محرم",
     "choices": [
-      "دقیقه",
-      "جامع",
-      "یونانی",
-      "شخصی"
+      "stranger",
+      "soccer",
+      "entered",
+      "sweet"
     ],
-    "answer": 1,
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ را باز کن و فرم ها را پیدا کن",
+    "choices": [
+      "آنکه",
+      "نام شرکت",
+      "بصورت",
+      "بیمارستان"
+    ],
+    "answer": "نام شرکت",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "until",
+    "choices": [
+      "خمینی",
+      "تقویم",
+      "تا",
+      "عهده"
+    ],
+    "answer": 2,
     "type": "translate_fa_en"
   },
   {
-    "question": "ادامه",
+    "question": "بدایت",
     "choices": [
-      "mountain",
-      "industrious",
-      "resumption",
+      "small",
+      "beginning",
+      "ton",
+      "subject"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "امروز",
+    "choices": [
+      "happy",
+      "out",
+      "today",
       "large"
     ],
     "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "album",
+    "question": "former",
     "choices": [
-      "تفسیر",
-      "آلبوم",
-      "محمدرضا",
-      "شرح"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بسته",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "باز",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "مصحف",
-    "choices": [
-      "book",
-      "obstruction",
-      "study",
-      "one"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "defense",
-    "choices": [
-      "مقام",
-      "مکان",
-      "ج",
-      "دفاع"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پادشاهی",
-    "choices": [
-      "doctor",
-      "universal",
-      "royal",
-      "october"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پسر",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "دختر",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "که",
-    "choices": [
-      "that",
-      "imprison",
-      "town",
-      "birth"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نفت خام",
-    "choices": [
-      "ugly",
-      "Gilan",
-      "discovery",
-      "petroleum"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "world",
-    "choices": [
-      "سیارک",
-      "اهمیت",
-      "بندی",
-      "جهان"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "standard",
-    "choices": [
-      "زیر",
-      "ی",
-      "استاندارد",
-      "استاد"
+      "جهت",
+      "کردن",
+      "پیشین",
+      "طریق"
     ],
     "answer": 2,
     "type": "translate_fa_en"
   },
   {
-    "question": "شناس",
+    "question": "دسته",
     "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "ناشناس"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "حامض کردن",
-    "choices": [
-      "compilation",
-      "straight",
-      "beginning",
-      "sour"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "به همراه",
-    "choices": [
-      "military",
-      "with",
-      "beginning",
-      "tied"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رقت انگیز",
-    "choices": [
-      "increase",
-      "rate",
-      "sad",
-      "such as"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آلت",
-    "choices": [
-      "directorship",
-      "organ",
-      "father",
-      "right"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بااحتیاط",
-    "choices": [
-      "ابهام‌زدایی",
-      "احتیاط",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "بزرگ",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "کوچیک",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "bank",
-    "choices": [
-      "بانک",
-      "احتمال",
-      "رمان",
-      "طول"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "contemporary",
-    "choices": [
-      "معاصر",
-      "شدید",
-      "ابهام‌زدایی",
-      "شورای"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "انتخابات",
-    "choices": [
-      "ugly",
-      "elections",
-      "five",
-      "point"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گفتار مشهور",
-    "choices": [
-      "saying",
-      "such as",
-      "row",
-      "project"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عطیه",
-    "choices": [
-      "beginning",
-      "present",
-      "Hey",
-      "happy"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عوامل",
-    "choices": [
-      "summer",
-      "factors",
-      "god",
-      "on"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پیر",
-    "choices": [
-      "جوان",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "مقداری",
-    "choices": [
-      "base",
-      "some",
-      "expensive",
-      "illness"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "inspection",
-    "choices": [
-      "نقش",
-      "مقدار",
-      "هدایت",
-      "بررسی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "transfer",
-    "choices": [
-      "در",
-      "انتقال",
-      "پا",
-      "خاطر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ضحک",
-    "choices": [
-      "sun",
-      "solution",
-      "laugh",
+      "inside",
+      "group",
+      "left",
       "new"
     ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "پیش بینی وضع هوای ------",
+    "choices": [
+      "صدا",
+      "خارج",
+      "امروز",
+      "استان"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "یک لیست از قیمت همه بلیط های ------ برای این محل می خواهم لطفا",
+    "choices": [
+      "وقت",
+      "قطار",
+      "اقتصادی",
+      "رادیو"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "بازدید",
+    "choices": [
+      "Ziad",
+      "awak",
+      "physics",
+      "return visit"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "صدا را ------ کاهش بده",
+    "choices": [
+      "جغرافیایی",
+      "به بیست",
+      "اسپانیا",
+      "ساز"
+    ],
+    "answer": "به بیست",
+    "type": "sentence",
+    "intent": "audio_volume_down"
+  },
+  {
+    "question": "------ رادیو جوان را بزار",
+    "choices": [
+      "رخ",
+      "ام",
+      "قسمت بعد",
+      "تو"
+    ],
+    "answer": "قسمت بعد",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "دور",
+    "choices": [
+      "نشر",
+      "نزدیک",
+      "بدون",
+      "نقاط"
+    ],
+    "answer": 1,
+    "type": "antonym"
+  },
+  {
+    "question": "زنگ هشدار را تغییر بده تا از ------ زنگ بخورد",
+    "choices": [
+      "بطور",
+      "نظر",
+      "آنان",
+      "نیمه شب"
+    ],
+    "answer": "نیمه شب",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "در ------ نوشته بنویس اه من بیمارهستم",
+    "choices": [
+      "فصل",
+      "فیس بوک",
+      "ه",
+      "دانشگاه"
+    ],
+    "answer": "فیس بوک",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "------ من با کیست",
+    "choices": [
+      "فقط",
+      "برج",
+      "برد",
+      "جلسه"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "شهرستان",
+    "choices": [
+      "area",
+      "strong",
+      "province",
+      "distance"
+    ],
     "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "ریاست",
+    "question": "لیست ------ ایجاد کن",
     "choices": [
-      "winter",
-      "directorship",
-      "therefore",
-      "hour"
+      "تعطیلات",
+      "عمده",
+      "چپ",
+      "پرونده"
+    ],
+    "answer": "تعطیلات",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "آیا میتوانی به ------ یک توییت کنی و بگویی که چرا سفارشات من سروقت نرسید",
+    "choices": [
+      "خدمات دیجی کالا",
+      "ایالات",
+      "غربی",
+      "چشم"
+    ],
+    "answer": "خدمات دیجی کالا",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "------ را پخش کن",
+    "choices": [
+      "دریای",
+      "کاری",
+      "گرفته",
+      "لیست آهنگ های راک"
+    ],
+    "answer": "لیست آهنگ های راک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "جغرافیایی",
+    "choices": [
+      "geographical",
+      "isle",
+      "the other",
+      "speed"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "mason",
+    "choices": [
+      "متحد",
+      "شرکت",
+      "مرکز",
+      "بنا"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "------ من را برای شنبه ساعت هفت صبح به تقویم اضافه کن",
+    "choices": [
+      "بیماری",
+      "کلاس اسپین",
+      "شرکت",
+      "مقدار"
+    ],
+    "answer": "کلاس اسپین",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "لطفاً به من یادآوری کن که ------ دیگر به مادر زنگ بزنم",
+    "choices": [
+      "کتاب",
+      "مردم",
+      "طی نیم ساعت",
+      "هنری"
+    ],
+    "answer": "طی نیم ساعت",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ من را خاموش کن",
+    "choices": [
+      "مسیر",
+      "خصوصی",
+      "سوکت دوشاخه‌ی مهسان",
+      "امر"
+    ],
+    "answer": "سوکت دوشاخه‌ی مهسان",
+    "type": "sentence",
+    "intent": "iot_wemo_off"
+  },
+  {
+    "question": "مانند",
+    "choices": [
+      "rank",
+      "ugly",
+      "cheap",
+      "such as"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "چه رویدادهایی ------ در سیاهکل برگزار می‌شوند",
+    "choices": [
+      "منتشر",
+      "معرفی",
+      "این آخر هفته",
+      "سده"
+    ],
+    "answer": "این آخر هفته",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "باغ",
+    "choices": [
+      "occupied",
+      "orchard",
+      "superior",
+      "capital"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "شیرین",
+    "question": "چه یادآوری‌هایی در ------ در راه است",
     "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "شور"
+      "علم",
+      "گیری",
+      "مجموعه",
+      "این هفته"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "یک ایمیل جدید برای ------ بنویس",
+    "choices": [
+      "رایان",
+      "مانده",
+      "پشت",
+      "دهستان‌های"
+    ],
+    "answer": "رایان",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "rewards",
+    "choices": [
+      "پر",
+      "جوایز",
+      "رسمی",
+      "پایگاه"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "مربع",
+    "choices": [
+      "article",
+      "Dey",
+      "knowledge",
+      "square"
     ],
     "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "درباره آخرین اخبار ------ سرچ کن",
+    "choices": [
+      "آیفون",
+      "آلمان",
+      "کم",
+      "ارتفاع"
+    ],
+    "answer": "آیفون",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "درباره ------ به من بگو",
+    "choices": [
+      "مایکل جکسون",
+      "بعدها",
+      "رابطه",
+      "بهترین"
+    ],
+    "answer": "مایکل جکسون",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "------ را باز کن در سرویس خدمات مصرف کنندگان شکایت من را بنویس",
+    "choices": [
+      "توئیتر",
+      "مدیر",
+      "دریا",
+      "چنین"
+    ],
+    "answer": "توئیتر",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "معمولا",
+    "choices": [
+      "usually",
+      "performance",
+      "stroke",
+      "social"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "به من بگو در ------ ساعت چند است",
+    "choices": [
+      "گفت",
+      "ششم",
+      "کشته",
+      "تهران"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "چپ",
+    "choices": [
+      "left",
+      "lack",
+      "include",
+      "compilation"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "قیمت سهام ------ امروز چقدر است",
+    "choices": [
+      "خان",
+      "نایک",
+      "اين",
+      "خواهد"
+    ],
+    "answer": "نایک",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "------ تولد چند نفره",
+    "choices": [
+      "برتر",
+      "فشار",
+      "ساخت",
+      "بیست و سوم"
+    ],
+    "answer": "بیست و سوم",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "فقط ------ باید از رادیو پخش بشه",
+    "choices": [
+      "رادیو جوان",
+      "داستان",
+      "رضوی",
+      "حق"
+    ],
+    "answer": "رادیو جوان",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "------ چند ساله است",
+    "choices": [
+      "مورد",
+      "فرامرز اصلانی",
+      "ضد",
+      "اصفهان"
+    ],
+    "answer": "فرامرز اصلانی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "مختصات ------ چیست",
+    "choices": [
+      "خط استوا",
+      "نماینده",
+      "پوشش",
+      "قانون"
+    ],
+    "answer": "خط استوا",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "رخ",
+    "choices": [
+      "stop",
+      "industry",
+      "stone",
+      "face"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لطفا برایم یک ------ بگیر",
+    "choices": [
+      "مرتبط",
+      "گرفته",
+      "تاکسی",
+      "دادگاه"
+    ],
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "من نیاز دارم بدونم الان در ------ ساعت چند است",
+    "choices": [
+      "نو",
+      "جایزه",
+      "اصفهان",
+      "ابن"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "آیا ------ هوای بیرون خوب است",
+    "choices": [
+      "المپیک",
+      "این هفته",
+      "ابراهیم",
+      "زندگی"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "به ------ ایمیل بزن",
+    "choices": [
+      "مرداد",
+      "نظر",
+      "جوادجواد ات جیمیل دات کام",
+      "کوچک"
+    ],
+    "answer": "جوادجواد ات جیمیل دات کام",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "------ میخواد راجع به طلاق حرف بزنیم. میشه لطفا وقتی من وقتم آزاد بود یک جلسه باهاش تنظیم کنی",
+    "choices": [
+      "بنابر",
+      "داشتن",
+      "سارا",
+      "ضد"
+    ],
+    "answer": "سارا",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "در مورد ------ که در لیست مخاطبین من هست به من بگو",
+    "choices": [
+      "برابر",
+      "ندا",
+      "کشف",
+      "شبه"
+    ],
+    "answer": "ندا",
+    "type": "sentence",
+    "intent": "email_querycontact"
+  },
+  {
+    "question": "آدرس من را به ------ پاسخ بده",
+    "choices": [
+      "حاکم",
+      "شیراز",
+      "علی",
+      "لازم"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "گزارش آب و هوای ------",
+    "choices": [
+      "پایتخت",
+      "چون",
+      "نسخه",
+      "این هفته"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "لطفا ------ را فعال کن",
+    "choices": [
+      "پایین",
+      "ما",
+      "پخش ترکیبی",
+      "موفق"
+    ],
+    "answer": "پخش ترکیبی",
+    "type": "sentence",
+    "intent": "music_settings"
+  },
+  {
+    "question": "به جای ------ از چی میتونم استفاده کنم",
+    "choices": [
+      "آموزشی",
+      "کره",
+      "شوند",
+      "سرعت"
+    ],
+    "answer": "کره",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "من به ------ فکر می‌کنم",
+    "choices": [
+      "گرفته",
+      "میلیون",
+      "می‌دهند",
+      "شماره یک تا ده"
+    ],
+    "answer": "شماره یک تا ده",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "احتیاط",
+    "choices": [
+      "دفتر",
+      "بااحتیاط",
+      "گفت",
+      "ش"
+    ],
+    "answer": 1,
     "type": "antonym"
   },
   {
-    "question": "relation",
+    "question": "به من در مورد تنظیمات نوردهی که برای یک روز ابری در ------ بهترین است آموزش بده",
     "choices": [
-      "سلطان",
-      "بهترین",
-      "لندن",
+      "زمین",
+      "نهارخوران",
+      "مناطق",
+      "فشار"
+    ],
+    "answer": "نهارخوران",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "نزدیک‌ترین ------ ایرانی کجاست",
+    "choices": [
+      "رستوران",
+      "منتشر",
+      "مراسم",
+      "عمومی"
+    ],
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "آیا می‌توانی برای من بلیت ------ گرمسار برای فردا با هر ------ی رزرو کنی",
+    "choices": [
+      "ایجاد",
+      "نتایج",
+      "قطار",
+      "موسوی"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "موضوعات اخبار داغ ------",
+    "choices": [
+      "زندگینامه",
+      "گیلان",
+      "باب شده",
+      "کوتاه"
+    ],
+    "answer": "باب شده",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "چه نوع ------ می توانم این هفته در محل انجام دهم",
+    "choices": [
+      "بیشتر",
+      "فعالیت‌های رایگانی",
+      "قمری",
       "ارتباط"
+    ],
+    "answer": "فعالیت‌های رایگانی",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "مطلق",
+    "choices": [
+      "large",
+      "independent",
+      "exclude",
+      ""
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "اولو",
+    "choices": [
+      "handle",
+      "dry",
+      "united",
+      "professor"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "چراغ های ------ را قرمز کن",
+    "choices": [
+      "سپاه",
+      "خانه",
+      "نمونه",
+      "اکثر"
+    ],
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "لطفا مرا در مورد برنامه ------ به روز کن",
+    "choices": [
+      "امروز",
+      "جمعیت",
+      "تشخیص",
+      "می‌توانند"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "لامپ ها را در ------ خاموش کن",
+    "choices": [
+      "وبگاه",
+      "جان",
+      "صنایع",
+      "آشپزخانه"
+    ],
+    "answer": "آشپزخانه",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "question": "امضا کردن",
+    "choices": [
+      "won",
+      "sign",
+      "include",
+      "environment"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "پیشینه ی خانوادگی ------",
+    "choices": [
+      "مرکز",
+      "ابی",
+      "نویسندگان",
+      "آمار"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "فرد",
+      "رادیو",
+      "رسیدن",
+      "تکرار"
+    ],
+    "answer": "تکرار",
+    "type": "sentence",
+    "intent": "music_settings"
+  },
+  {
+    "question": "اولیه",
+    "choices": [
+      "young",
+      "limit",
+      "primitive",
+      "that is"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لیست ------ را حذف کن",
+    "choices": [
+      "میزان",
+      "خواروبار",
+      "پایان",
+      "وبگاه"
+    ],
+    "answer": "خواروبار",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "الان ------ پخش کن.",
+    "choices": [
+      "کامپیوتر",
+      "تقسیمات",
+      "جزیره",
+      "متال"
+    ],
+    "answer": "متال",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "دلستر انگور قرمز را به ------ من اضافه کن",
+    "choices": [
+      "هنوز",
+      "لیست خرید",
+      "تولد",
+      "رهبری"
+    ],
+    "answer": "لیست خرید",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "------ به جای هشدار رادیو پخش کن.",
+    "choices": [
+      "صبح",
+      "عشق",
+      "جشن",
+      "کنید"
+    ],
+    "answer": "صبح",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "بد",
+    "choices": [
+      "oriental",
+      "bad",
+      "far",
+      "ugly"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لطفا این پیام را در صفحه ------ من پست کن",
+    "choices": [
+      "آموزش",
+      "بریتانیا",
+      "شد",
+      "فیس بوک"
+    ],
+    "answer": "فیس بوک",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "برای ------ روز ولنتاین با او را اضافه کن",
+    "choices": [
+      "گردید",
+      "ابتدا",
+      "فردا",
+      "اسکار"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "تاریخ ------ چه روزی هست",
+    "choices": [
+      "شامل",
+      "تولد من",
+      "کسب",
+      "عمده"
+    ],
+    "answer": "تولد من",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "اخبار ------ را بیاور بالا",
+    "choices": [
+      "روحانی",
+      "مسیر",
+      "شناسی",
+      "هفت"
+    ],
+    "answer": "روحانی",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "یک شکایت از طریق ------ به ایران خودرو بفرست",
+    "choices": [
+      "توئیت",
+      "تقسیم",
+      "جمع",
+      "اسلامی"
+    ],
+    "answer": "توئیت",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "موقعیت مکانی ------ امروز را به من بگو",
+    "choices": [
+      "ادبی",
+      "کرده‌است",
+      "جلسه های",
+      "قاجار"
+    ],
+    "answer": "جلسه های",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "آیا چیزی در تقویم من در روز ------ در صبح بعد از رسیدن به محل کار وجود دارد",
+    "choices": [
+      "طرح",
+      "پرداخت",
+      "جمعه",
+      "جدید"
+    ],
+    "answer": "جمعه",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "فهرست آهنگ های ------ را پخش کن",
+    "choices": [
+      "یادکرد",
+      "شمال",
+      "بریتانیا",
+      "ابی"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "ترکی",
+    "choices": [
+      "most",
+      "Turkish",
+      "help",
+      "cold"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "برای من راجع ------ اطلاعات پیدا کن",
+    "choices": [
+      "م",
+      "شمالی",
+      "بزرگ",
+      "ماشین‌ها"
+    ],
+    "answer": "ماشین‌ها",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "آیا ------ رویدادهای تقویمی دارم",
+    "choices": [
+      "امروز",
+      "جایزه",
+      "ترکیب",
+      "نیمه"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "لطفا ------ که تازه متوقف شده بود رو پخش کن",
+    "choices": [
+      "پروژه",
+      "صوتی",
+      "گرفتن",
+      "شیراز"
+    ],
+    "answer": "صوتی",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "آهنگ های ------ پخش کن",
+    "choices": [
+      "کودکانه",
+      "مشترک",
+      "می‌گوید",
+      "استان‌های"
+    ],
+    "answer": "کودکانه",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "ایمیل‌های ------ علی فهرست کن",
+    "choices": [
+      "تعداد",
+      "امروز",
+      "گزارش",
+      "کوتاه"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "------ را راه اندازی کن",
+    "choices": [
+      "جاروبرقی رباتیک",
+      "فقط",
+      "شامل",
+      "آن‌ها"
+    ],
+    "answer": "جاروبرقی رباتیک",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "قد ------ چند است",
+    "choices": [
+      "شد",
+      "سارا نایینی",
+      "ادامه",
+      "مشترک"
+    ],
+    "answer": "سارا نایینی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "موزیک سبک ------ پخش کن",
+    "choices": [
+      "عراق",
+      "کانتری",
+      "زیاد",
+      "اين"
+    ],
+    "answer": "کانتری",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "یک نسخه ------ از کتاب لی لی و مادرشوهر برای من پیدا کن و آن را پخش کن",
+    "choices": [
+      "براساس",
+      "خورشیدی",
+      "مهم‌ترین",
+      "صوتی"
+    ],
+    "answer": "صوتی",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "آخرین خبرهای ------ چیست",
+    "choices": [
+      "قرمز",
+      "اهمیت",
+      "واژه",
+      "دوی سرعت"
+    ],
+    "answer": "دوی سرعت",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "برنامه",
+    "choices": [
+      "your",
+      "left",
+      "plan",
+      "tool"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "سومین",
+    "choices": [
+      "third",
+      "everybody",
+      "May",
+      "manner"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "این آهنگ را وقتی تمام شد ------",
+    "choices": [
+      "شبیه",
+      "ج",
+      "بریتانیا",
+      "تکرار کن"
+    ],
+    "answer": "تکرار کن",
+    "type": "sentence",
+    "intent": "music_settings"
+  },
+  {
+    "question": "آیا ------ قراره تور جدیدی برگزار کنه",
+    "choices": [
+      "گوگوش",
+      "قمری",
+      "براي",
+      "ص"
+    ],
+    "answer": "گوگوش",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "برنامه ------ چیست",
+    "choices": [
+      "امشب",
+      "زنده",
+      "کاری",
+      "ساکن"
+    ],
+    "answer": "امشب",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "آیا من ------ روزهای مرخصی دارم",
+    "choices": [
+      "این هفته",
+      "نوع",
+      "دفاع",
+      "آلبوم"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ را به من نشان بده",
+    "choices": [
+      "قسمت قبل",
+      "ارومیه",
+      "نموده",
+      "کننده"
+    ],
+    "answer": "قسمت قبل",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "عضو",
+      "موبایل فروشی",
+      "اين",
+      "هفت"
+    ],
+    "answer": "موبایل فروشی",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "من به دنبال یک ------ هستم آیا یک ------ خوب می‌شناسی",
+    "choices": [
+      "اصفهان",
+      "تر",
+      "کافه",
+      "کشاورزی"
+    ],
+    "answer": "کافه",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "کدام ------ غذای بیرون بر دارند",
+    "choices": [
+      "جریان",
+      "نیمه",
+      "گیاهان",
+      "رستوران ها"
+    ],
+    "answer": "رستوران ها",
+    "type": "sentence",
+    "intent": "takeaway_query"
+  },
+  {
+    "question": "نرخ مبادله بین ------ و مکزیک چیست",
+    "choices": [
+      "امنیت",
+      "آمریکا",
+      "امور",
+      "ایجاد"
+    ],
+    "answer": "آمریکا",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "علی چه تعداد جلسه را ------ برعهده داشت",
+    "choices": [
+      "یا",
+      "مهاتما گاندی",
+      "باشگاه",
+      "طراحی"
+    ],
+    "answer": "مهاتما گاندی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "این ------ با عشق در مهمانی شرکت کن",
+    "choices": [
+      "مردم",
+      "قاجار",
+      "سوی",
+      "جمعه"
+    ],
+    "answer": "جمعه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "رادیو خبر",
+      "گیتار",
+      "دین",
+      "اسلامی"
+    ],
+    "answer": "رادیو خبر",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "می توانی یک بلیط ------ برایم بگیری",
+    "choices": [
+      "قمری",
+      "شده",
+      "تو",
+      "قطار"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "رویدادهای ------ من را به من نشان بده",
+    "choices": [
+      "شهرهای",
+      "بکار",
+      "ماه",
+      "رودخانه"
+    ],
+    "answer": "ماه",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "نرخ مبادله ارز ------ به ین چقدر است",
+    "choices": [
+      "انگلیسی",
+      "عوامل",
+      "زنان",
+      "خورشید"
+    ],
+    "answer": "انگلیسی",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "contrary",
+    "choices": [
+      "پایتخت",
+      "نبرد",
+      "می‌رود",
+      "ضد"
     ],
     "answer": 3,
     "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا در ------ ایمیلی برای من آمده است",
+    "choices": [
+      "یونان",
+      "قابل",
+      "نیاز",
+      "پنج ساعت گذشته"
+    ],
+    "answer": "پنج ساعت گذشته",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "چند تا ------ بزار",
+    "choices": [
+      "آیت",
+      "دادگاه",
+      "معنای",
+      "شادمهر"
+    ],
+    "answer": "شادمهر",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "لطفا یک بلیط ------ به نکا بگیر",
+    "choices": [
+      "قطار",
+      "خط",
+      "کوچک",
+      "ایالت"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "آیا امسال ------ فیلم جدیدی دارد",
+    "choices": [
+      "هانیه توسلی",
+      "فروش",
+      "مردم",
+      "روستا"
+    ],
+    "answer": "هانیه توسلی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "گرون",
+    "choices": [
+      "ارزون",
+      "فارس",
+      "خانوار",
+      "نخستین"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "همه رویدادهای ------ را لغو کن و من را با مشغله علامت گذاری کن",
+    "choices": [
+      "پنج",
+      "بی",
+      "بن",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "برایم شکایتی در مورد چاله ها در خیابات ------",
+    "choices": [
+      "توئیت کن",
+      "نظیر",
+      "هفتم",
+      "تصویب"
+    ],
+    "answer": "توئیت کن",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "اقدام",
+      "ژاپن",
+      "‌ها",
+      "وزارت"
+    ],
+    "answer": "ژاپن",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "لطفا ------ را شروع کن",
+    "choices": [
+      "کلش آف کلنز",
+      "پا",
+      "می‌باشند",
+      "نوامبر"
+    ],
+    "answer": "کلش آف کلنز",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "------ چشم هایش را پخش کن",
+    "choices": [
+      "کتاب صوتی",
+      "خان",
+      "باب",
+      "هفته"
+    ],
+    "answer": "کتاب صوتی",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "پسر بچه",
+    "choices": [
+      "boy",
+      "zone",
+      "large",
+      "stage"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "سلطان",
+    "choices": [
+      "king",
+      "Fars",
+      "very",
+      "number"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لطفا بازی ------ را باز کن من دوست دارم با تو بازی کنم",
+    "choices": [
+      "snooker",
+      "داشته",
+      "کننده",
+      "فضای"
+    ],
+    "answer": "snooker",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "این ------ هوا چطور است",
+    "choices": [
+      "روستایی",
+      "همچون",
+      "جمعه",
+      "انتخاب"
+    ],
+    "answer": "جمعه",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "تیترهای ------",
+    "choices": [
+      "روزنامه‌ی همشهری",
+      "بزرگی",
+      "مشخص",
+      "هند"
+    ],
+    "answer": "روزنامه‌ی همشهری",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "چه وقایعی در ------ است",
+    "choices": [
+      "ج",
+      "بیست و نه آبان",
+      "هر",
+      "نوع"
+    ],
+    "answer": "بیست و نه آبان",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "آهنگ ------ الان بزار",
+    "choices": [
+      "جاز",
+      "بود",
+      "شهریور",
+      "خوانده"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ من با دکتر هفته‌ی آینده کجاست",
+    "choices": [
+      "آن",
+      "چشمه",
+      "نبود",
+      "قرار"
+    ],
+    "answer": "قرار",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "لطفا برای ------ فردا ساعت هفت صبح زنگ هشدار بگذار",
+    "choices": [
+      "نمایش",
+      "ترکیه",
+      "جلسه",
+      "میزان"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "لطفا موزیک از ------ به ترتیب پخش کن",
+    "choices": [
+      "سپتامبر",
+      "گل",
+      "همایون شجریان",
+      "پیوند"
+    ],
+    "answer": "همایون شجریان",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ قبلی را پخش کن",
+    "choices": [
+      "امر",
+      "شکل",
+      "آهنگ",
+      "گرفته‌است"
+    ],
+    "answer": "آهنگ",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "رویداد ------ ساعت پنج بعدازظهر را اضافه کن",
+    "choices": [
+      "خواننده",
+      "میان",
+      "تمرین بیسبال",
+      "سفر"
+    ],
+    "answer": "تمرین بیسبال",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "لیست آهنگ های ------ را پخش کن",
+    "choices": [
+      "کلاسیک",
+      "درون",
+      "اینترنتی",
+      "تیم"
+    ],
+    "answer": "کلاسیک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "آیا ------ صبح هیچ بارندگی ای می شود",
+    "choices": [
+      "ص",
+      "فردا",
+      "مناطق",
+      "به"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "چقدر تا ------ مونده",
+    "choices": [
+      "آلمانی",
+      "شب یلدا",
+      "کسی",
+      "آب"
+    ],
+    "answer": "شب یلدا",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "چه خبر برای ------",
+    "choices": [
+      "اواخر",
+      "این هفته",
+      "کتاب",
+      "آنچه"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "یک پک ------ برای بیرون بری",
+    "choices": [
+      "کنترل",
+      "نیز",
+      "نودل",
+      "المپیک"
+    ],
+    "answer": "نودل",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "water",
+    "choices": [
+      "آب",
+      "دارند",
+      "جمعیت",
+      "اطراف"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "هشدار ساعت ------ من را حذف کن",
+    "choices": [
+      "جامع",
+      "هشت صبح",
+      "جشنواره",
+      "شیراز"
+    ],
+    "answer": "هشت صبح",
+    "type": "sentence",
+    "intent": "alarm_remove"
+  },
+  {
+    "question": "------ چه ساعتی است",
+    "choices": [
+      "اندازه",
+      "‌ها",
+      "غروب خورشید",
+      "کاهش"
+    ],
+    "answer": "غروب خورشید",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "آهنگ مورد علاقه من در ------ را پخش کن",
+    "choices": [
+      "استاد",
+      "سال گذشته",
+      "استاندارد",
+      "باقی"
+    ],
+    "answer": "سال گذشته",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "رنگ نور رو ------ کن",
+    "choices": [
+      "بدین",
+      "کنند",
+      "قرمز",
+      "محسن"
+    ],
+    "answer": "قرمز",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "فاصله بین ------ تا ساری در مازندران چند کیلومتر است",
+    "choices": [
+      "است",
+      "مرحله",
+      "سرعین در اردبیل",
+      "ارتفاع"
+    ],
+    "answer": "سرعین در اردبیل",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "اندازه",
+    "choices": [
+      "trust",
+      "wet",
+      "size",
+      "court"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "مصر",
+      "تبریز",
+      "کشاورزی",
+      "شبکه"
+    ],
+    "answer": "تبریز",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "قیمت سهام ------ چقدر است",
+    "choices": [
+      "ایران خودرو",
+      "امکان",
+      "دومین",
+      "مراکز"
+    ],
+    "answer": "ایران خودرو",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "مقرره",
+    "choices": [
+      "office",
+      "man",
+      "minister",
+      "requirement"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لیست آهنگ ها نوازش رو تو ------ پخش کن",
+    "choices": [
+      "یوتوب",
+      "پر",
+      "خبر",
+      "ایتالیا"
+    ],
+    "answer": "یوتوب",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "یک ------ سفارش بده",
+    "choices": [
+      "آثار",
+      "پیتزا",
+      "اجتماعی",
+      "بنام"
+    ],
+    "answer": "پیتزا",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "آیا این محل سرویس ------ دارد",
+    "choices": [
+      "قهرمان",
+      "بعضی",
+      "مشاهده",
+      "بیرون بر"
+    ],
+    "answer": "بیرون بر",
+    "type": "sentence",
+    "intent": "takeaway_query"
+  },
+  {
+    "question": "آپدیت وضع هوا برای ------ چیست",
+    "choices": [
+      "شناخته",
+      "سه شنبه",
+      "شدید",
+      "محل"
+    ],
+    "answer": "سه شنبه",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "یک زنگ هشدار بگذار و ------ صبح ساعت شش صبح مرا بیدار کن",
+    "choices": [
+      "حوزه",
+      "فردا",
+      "تولید",
+      "آزاد"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "آیا بازیگر ------ را می شناسی",
+    "choices": [
+      "سمیه",
+      "بازی",
+      "ی",
+      "خلیج"
+    ],
+    "answer": "سمیه",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "یک ------ از سفر من به تهران به من اطلاع بده",
+    "choices": [
+      "نیویورک",
+      "تلویزیونی",
+      "باشد",
+      "روز قبل"
+    ],
+    "answer": "روز قبل",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "آب زیپو",
+    "choices": [
+      "scarcity",
+      "superior",
+      "out",
+      "watery"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "رویدادهای ------ را باز کن",
+    "choices": [
+      "نشده",
+      "این هفته",
+      "ابتدا",
+      "طی"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "آیا ------ می توانم شلوار کوتاه بپوشم",
+    "choices": [
+      "دین",
+      "مرکز",
+      "امروز",
+      "نسبت"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "در مورد فعالیت‌های ------ در منطقه من به من بگو",
+    "choices": [
+      "علت",
+      "طرف",
+      "این آخر هفته",
+      "باقی"
+    ],
+    "answer": "این آخر هفته",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "تلخ",
+    "choices": [
+      "شیرین",
+      "دارد",
+      "عمر",
+      "طرح"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "یک یادآور برای ------ فردا با جواد تنظیم کن",
+    "choices": [
+      "جلسه",
+      "زیبا",
+      "اهالی",
+      "دور"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "شرح ------ را به من بده",
+    "choices": [
+      "مشاهیر",
+      "مدار لپ تاپ",
+      "آهن",
+      "تن"
+    ],
+    "answer": "مدار لپ تاپ",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "مریم یک شکایت مشتری از خدمات را به ------ توییت کن",
+    "choices": [
+      "اجتماعی",
+      "شرکت سایپا",
+      "دستور",
+      "چهارم"
+    ],
+    "answer": "شرکت سایپا",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "بلیط ------ خریدم",
+    "choices": [
+      "بیسبال پیش فصل",
+      "حفظ",
+      "دفتر",
+      "غرب"
+    ],
+    "answer": "بیسبال پیش فصل",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "زنگ هشدار ساعت ------ من را حذف کن",
+    "choices": [
+      "شش صبح",
+      "سری",
+      "م",
+      "نامزد"
+    ],
+    "answer": "شش صبح",
+    "type": "sentence",
+    "intent": "alarm_remove"
+  },
+  {
+    "question": "اوولی برای من آهنگ ------ از اسپیکر پخش کن",
+    "choices": [
+      "upbeat",
+      "چندین",
+      "خاک",
+      "فنی"
+    ],
+    "answer": "upbeat",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "تعریف ------ را جستجو کن",
+    "choices": [
+      "اشتباه بزرگ",
+      "خارج",
+      "اعدام",
+      "کشاورزی"
+    ],
+    "answer": "اشتباه بزرگ",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "sexual",
+    "choices": [
+      "میانه",
+      "جنسی",
+      "از",
+      "عدم"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آخبار ------",
+    "choices": [
+      "روزنامه‌ی همشهری",
+      "عمده",
+      "هیچ",
+      "مجموعه"
+    ],
+    "answer": "روزنامه‌ی همشهری",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "چند تا آهنگ ------ پخش کن",
+    "choices": [
+      "کانتری",
+      "می‌رسد",
+      "چند",
+      "امپراتوری"
+    ],
+    "answer": "کانتری",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "لطفا زمان حرکت ------ به واشنگتن را به من بگو",
+    "choices": [
+      "قطار",
+      "کردن",
+      "نظیر",
+      "کشته"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "یک پیام به ------ بنویس و به آنها بگو که کارت من کار نمی‌کند",
+    "choices": [
+      "جای",
+      "بانک صادرات",
+      "سالگی",
+      "عبارتند"
+    ],
+    "answer": "بانک صادرات",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "------ پخش کن",
+    "choices": [
+      "روسیه",
+      "ابی",
+      "سال",
+      "‌ها"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "Ordibehesht",
+    "choices": [
+      "بی",
+      "معنی",
+      "اردیبهشت",
+      "طرف"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "------ کی باز می‌شود",
+    "choices": [
+      "منبع",
+      "اسماعیل",
+      "فروشگاه پالادیوم",
+      "کرمان"
+    ],
+    "answer": "فروشگاه پالادیوم",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "از آخرین اخبار ------ بگو",
+    "choices": [
+      "فعالیت",
+      "جهان",
+      "جهت",
+      "رضا"
+    ],
+    "answer": "جهان",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "به من بگو در لیست ------ من چه چیزی وجود دارد",
+    "choices": [
+      "شده‌اند",
+      "راک",
+      "مذهبی",
+      "تعطیلات"
+    ],
+    "answer": "تعطیلات",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "------ پخش کن.",
+    "choices": [
+      "پا",
+      "رادیو جوان",
+      "نو",
+      "انسانی"
+    ],
+    "answer": "رادیو جوان",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "موتور",
+    "choices": [
+      "selection",
+      "motor",
+      "solar year",
+      "transformation"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "اخبار در مورد ------ را می خواهم",
+    "choices": [
+      "طبیعی",
+      "سه",
+      "پا",
+      "حسن روحانی"
+    ],
+    "answer": "حسن روحانی",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "وقتی اینجا ساعت ------ باشه کابل ساعت چنده",
+    "choices": [
+      "نام‌های",
+      "ده شب",
+      "نتایج",
+      "تک"
+    ],
+    "answer": "ده شب",
+    "type": "sentence",
+    "intent": "datetime_convert"
+  },
+  {
+    "question": "weight",
+    "choices": [
+      "روستاهای",
+      "وزن",
+      "اثر",
+      "هنگام"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "لطفا شماره‌های برنده بخت‌آزمایی ------ را به من بده",
+    "choices": [
+      "آخر هفته",
+      "حالی",
+      "دریاچه",
+      "تخت"
+    ],
+    "answer": "آخر هفته",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "مطالب جدید راجع به ------ را از جایی غیر از مشرق نیوز پیدا کن",
+    "choices": [
+      "روحانی",
+      "فلسفه",
+      "بنابراین",
+      "بخش‌های"
+    ],
+    "answer": "روحانی",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "آیتم‌های لیست ------ را بخوان",
+    "choices": [
+      "خرید",
+      "عهده",
+      "همین",
+      "فرمان"
+    ],
+    "answer": "خرید",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "روز ------ صبح وقت دکتر را به من اطلاع بده",
+    "choices": [
+      "کمتر",
+      "دستور",
+      "دوازدهم",
+      "تلویزیونی"
+    ],
+    "answer": "دوازدهم",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "لیست آهنگ های ------ من را پخش کن",
+    "choices": [
+      "محلی",
+      "جاز",
+      "موسسه",
+      "زنان"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "بی صدا برای ------",
+    "choices": [
+      "دو ساعت",
+      "خورشید",
+      "انرژی",
+      "شده‌است"
+    ],
+    "answer": "دو ساعت",
+    "type": "sentence",
+    "intent": "audio_volume_mute"
+  },
+  {
+    "question": "هر خبر جدیدی درباره ------ را به من اطلاع بده",
+    "choices": [
+      "سیاست",
+      "تقسیم",
+      "علوم",
+      "موسوی"
+    ],
+    "answer": "سیاست",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "محرور",
+    "choices": [
+      "asleep",
+      "like",
+      "city",
+      "hot"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ از یثربی را پخش کن",
+    "choices": [
+      "ساکن",
+      "پستچی",
+      "شبیه",
+      "کاخ"
+    ],
+    "answer": "پستچی",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "چه زمانی سفارش ------ تحویل داده می‌شود",
+    "choices": [
+      "عبدالله",
+      "عطاویچ",
+      "فاصله",
+      "چندین"
+    ],
+    "answer": "عطاویچ",
+    "type": "sentence",
+    "intent": "takeaway_query"
+  },
+  {
+    "question": "بر طبق",
+    "choices": [
+      "conflict",
+      "similar to",
+      "national",
+      "kind"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "آیا ------ بارانی است",
+    "choices": [
+      "نام‌های",
+      "شیراز",
+      "سبب",
+      "حاج"
+    ],
+    "answer": "شیراز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "------ را باز کن",
+    "choices": [
+      "شطرنج",
+      "بازگشت",
+      "هشت",
+      "تبریز"
+    ],
+    "answer": "شطرنج",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "لطفا ------ پخش کن",
+    "choices": [
+      "دهه",
+      "ایوان بند",
+      "براساس",
+      "حتی"
+    ],
+    "answer": "ایوان بند",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ شب برنامه ی کافه رفتن دارم.",
+    "choices": [
+      "سابق",
+      "باشگاه",
+      "چهارشنبه",
+      "کیلومتری"
+    ],
+    "answer": "چهارشنبه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "مقرری",
+    "choices": [
+      "salary",
+      "area",
+      "novel",
+      "awak"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "یک آهنگ از ------ برام پخش کن",
+    "choices": [
+      "برق",
+      "ابی",
+      "قسمت",
+      "دانش"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "appearance",
+    "choices": [
+      "فضایی",
+      "نمود",
+      "جز",
+      "می‌کنند"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "کوچک",
+    "choices": [
+      "بزرگ",
+      "زمین",
+      "نژاد",
+      "نبرد"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "آیا من هیچ ایمیلی از ------ دارم",
+    "choices": [
+      "ساله",
+      "مریم",
+      "حکومت",
+      "نماید"
+    ],
+    "answer": "مریم",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "لطفا یک ایمیل به ------ بفرست",
+    "choices": [
+      "پل",
+      "آورد",
+      "بدون",
+      "علی"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "لطفا یک زنگ یادآور برای ------ روز شنبه تنظیم کن",
+    "choices": [
+      "گسترش",
+      "سه بعدازظهر",
+      "آنان",
+      "محل"
+    ],
+    "answer": "سه بعدازظهر",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "اولین رویداد تاریخ ------ را حذف کن",
+    "choices": [
+      "سوم فروردین هزار و سیصد و نود و شش",
+      "آلمانی",
+      "ضد",
+      "منبع"
+    ],
+    "answer": "سوم فروردین هزار و سیصد و نود و شش",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "------ یک کیلومتری را پیدا کن",
+    "choices": [
+      "بسته",
+      "چون",
+      "رستوران‌های",
+      "زمینه"
+    ],
+    "answer": "رستوران‌های",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "------ با من بازی کن",
+    "choices": [
+      "كه",
+      "اش",
+      "نامه",
+      "پوکر"
+    ],
+    "answer": "پوکر",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "مطمئن",
+    "choices": [
+      "نامطمئن",
+      "وزن",
+      "انتقال",
+      "زمینه"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "Mosque",
+    "choices": [
+      "مسجد",
+      "عشق",
+      "مجله",
+      "پوشش"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "بیرون",
+    "choices": [
+      "outside of",
+      "subordinate",
+      "book",
+      "the majority of"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "کمی ------ پخش کن",
+    "choices": [
+      "بیست",
+      "جاز ملایم",
+      "اقتصاد",
+      "عمومی"
+    ],
+    "answer": "جاز ملایم",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ را غیر فعال کن",
+    "choices": [
+      "نظام",
+      "خدا",
+      "سوکت هوشمند",
+      "بودند"
+    ],
+    "answer": "سوکت هوشمند",
+    "type": "sentence",
+    "intent": "iot_wemo_off"
+  },
+  {
+    "question": "چراغ های ------ را خاموش کن",
+    "choices": [
+      "متولد",
+      "هال",
+      "خدا",
+      "راه"
+    ],
+    "answer": "هال",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
   },
   {
     "question": "بدایت",
     "choices": [
-      "spirit",
-      "reason",
-      "situation",
-      "beginning"
+      "winter",
+      "beginning",
+      "parliament",
+      "negative"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "ژاپن",
+    "question": "مهمانی ------ من را در فیسبوک منتشر کن",
     "choices": [
-      "top",
-      "birth",
-      "library",
-      "Japan"
+      "دادگاه",
+      "خودش",
+      "یافته",
+      "تولد"
     ],
-    "answer": 3,
+    "answer": "تولد",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "آهنگی از ------ پخش کن",
+    "choices": [
+      "مذهبی",
+      "ابی",
+      "گذاری",
+      "انتشارات"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "لیست کارهای ------ اخیر را بررسی کن",
+    "choices": [
+      "بهار",
+      "سالگی",
+      "روز",
+      "انجام دادنی"
+    ],
+    "answer": "انجام دادنی",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "------ من یک سگ بولداگ دیدم",
+    "choices": [
+      "امروز",
+      "سایر",
+      "نزدیک",
+      "کشته"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "می‌توانند",
+      "تجاری",
+      "همدان",
+      "طرح"
+    ],
+    "answer": "همدان",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "آهنگ ------ را دوباره برایم بزار",
+    "choices": [
+      "صنعتی",
+      "مشاهده",
+      "پیشین",
+      "ابی"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "پردیز",
+    "choices": [
+      "humane",
+      "than",
+      "park",
+      "money"
+    ],
+    "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "سرما",
+    "question": "کمی ------ برام پیدا کن",
     "choices": [
-      "westerner",
-      "above",
-      "no",
-      "cold"
+      "جاز ملایم",
+      "کلمه",
+      "آب",
+      "عبور"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "جاز ملایم",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "شهر",
+    "question": "درباره ------ به من بگو",
     "choices": [
-      "September",
-      "based on",
-      "beautiful",
-      "city"
+      "تبریز",
+      "احتمال",
+      "ابوالفضل پورعرب",
+      "متر"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "ابوالفضل پورعرب",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "order",
+    "question": "because",
     "choices": [
-      "درمان",
-      "طرف",
-      "قلعه",
-      "دستور"
+      "علوم",
+      "نظیر",
+      "هنگامی",
+      "زیرا"
     ],
     "answer": 3,
     "type": "translate_fa_en"
   },
   {
-    "question": "تاریخ",
+    "question": "لطفا برای ------ یک ایمیل در مورد ماشینش بفرست",
     "choices": [
-      "age of",
-      "province",
-      "kilometer",
-      "history"
+      "زنده",
+      "پیام",
+      "می‌کرد",
+      "گاز"
+    ],
+    "answer": "پیام",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "یادآور ------ را از تقویم پاک کن",
+    "choices": [
+      "جمله",
+      "سال نو",
+      "طبیعی",
+      "جزیره"
+    ],
+    "answer": "سال نو",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "منطقه زمانی را به ------ تغییر بده",
+    "choices": [
+      "موزه",
+      "ایالات",
+      "بدست",
+      "ساعت گرینویچ"
+    ],
+    "answer": "ساعت گرینویچ",
+    "type": "sentence",
+    "intent": "datetime_convert"
+  },
+  {
+    "question": "آهنگ های برتر ------ را پخش کن لطفا",
+    "choices": [
+      "کانتری",
+      "چند",
+      "پیوند",
+      "هفت"
+    ],
+    "answer": "کانتری",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "بلندترین روز ------ چه روزیه",
+    "choices": [
+      "نزدیکی",
+      "فعالیت",
+      "امسال",
+      "دختر"
+    ],
+    "answer": "امسال",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "باعرزه",
+    "choices": [
+      "expansion",
+      "westerner",
+      "Paul",
+      "capable"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "به پیام ایمیل ------ در مورد سایت دستور غذا پاسخ بده",
+    "choices": [
+      "ای",
+      "شاعر",
+      "مامان",
+      "دوران"
+    ],
+    "answer": "مامان",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "میتونی ------ را پخش کنی",
+    "choices": [
+      "خبرگزاری",
+      "نفرین",
+      "جمع",
+      "هوایی"
+    ],
+    "answer": "نفرین",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "در منطقه زمانی ------ ساعت چند است",
+    "choices": [
+      "نخستین",
+      "لیگ",
+      "کوه",
+      "مناطق"
+    ],
+    "answer": "کوه",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "زنگ ساعت ------ را غیرفعال کن",
+    "choices": [
+      "ده صبح",
+      "ایران",
+      "نتایج",
+      "طور"
+    ],
+    "answer": "ده صبح",
+    "type": "sentence",
+    "intent": "alarm_remove"
+  },
+  {
+    "question": "عاطل",
+    "choices": [
+      "read",
+      "idle",
+      "approval",
+      "late"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "رخ",
+    "choices": [
+      "straight",
+      "start",
+      "diary",
+      "rukh"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "همگردانی",
+    "choices": [
+      "reach",
+      "big",
+      "compilation",
+      "some"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ چیست",
+    "choices": [
+      "می‌شود",
+      "واشر فشار",
+      "محصولات",
+      "عبور"
+    ],
+    "answer": "واشر فشار",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "من به یک دستور پخت ------ نیاز دارم که قدمت آن به قبل از سال هزار و نهصد و هفتاد برسد",
+    "choices": [
+      "شناسی",
+      "قورمه سبزی",
+      "نوامبر",
+      "بودند"
+    ],
+    "answer": "قورمه سبزی",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "آخری",
+    "choices": [
+      "روی",
+      "اولی",
+      "اطلاعات",
+      "رئیس"
+    ],
+    "answer": 1,
+    "type": "antonym"
+  },
+  {
+    "question": "ترک",
+    "choices": [
+      "turkish",
+      "stop",
+      "seaport",
+      "representative"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "اخبار ------ را به من اطلاع بده",
+    "choices": [
+      "سرزمین",
+      "هزار",
+      "بین‌المللی",
+      "گزارش"
+    ],
+    "answer": "بین‌المللی",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "میشه لطفا ------ رو خاموش کنی",
+    "choices": [
+      "جغرافیایی",
+      "نماید",
+      "دانشکده",
+      "جارو برقی"
+    ],
+    "answer": "جارو برقی",
+    "type": "sentence",
+    "intent": "iot_wemo_off"
+  },
+  {
+    "question": "لطفا به ایمیلی که ------ برایم فرستاده بگو من به پول نیاز دارم اکنون فوری است",
+    "choices": [
+      "داد",
+      "حد",
+      "علی",
+      "گیری"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "آیا نیاز به یادآوری ------ دوشنبه دارم",
+    "choices": [
+      "اکبر",
+      "ترک",
+      "هرمزگان",
+      "ملاقات‌های"
+    ],
+    "answer": "ملاقات‌های",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "وضع ترافیک ------ چطور است",
+    "choices": [
+      "بازدید",
+      "تهران",
+      "نویسنده",
+      "می‌کنند"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "transport_traffic"
+  },
+  {
+    "question": "الکسا عکس ------ من را در facebook پست کن",
+    "choices": [
+      "فعالیت",
+      "گوشی",
+      "شمال",
+      "حوزه"
+    ],
+    "answer": "گوشی",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "من میخوام ------ را گوش بدم",
+    "choices": [
+      "عبور",
+      "نوع",
+      "عشق",
+      "دریافت"
+    ],
+    "answer": "عشق",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "زنگ هشدار من را برای ------ ساعت شش بعدازظهر تنظیم کن",
+    "choices": [
+      "تفسیر",
+      "سه شنبه",
+      "رفت",
+      "درگذشتگان"
+    ],
+    "answer": "سه شنبه",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "مهدی",
+    "choices": [
+      "even",
+      "Mehdi",
+      "go",
+      "limited"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "ضحک",
+    "choices": [
+      "moon",
+      "Mohsen",
+      "go",
+      "laugh"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "جزئیات ------ را ارائه بده",
+    "choices": [
+      "ماسه سنگی",
+      "کل",
+      "تئاتر",
+      "جریان"
+    ],
+    "answer": "ماسه سنگی",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "میخوام کمی ------ گوش بدم",
+    "choices": [
+      "چهار",
+      "مرکزی",
+      "مداحی",
+      "هوایی"
+    ],
+    "answer": "مداحی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "یک ایمیل به ادرس ------ امیر بفرست",
+    "choices": [
+      "ایرانیان",
+      "گردد",
+      "ایمیل کاری",
+      "بهمن"
+    ],
+    "answer": "ایمیل کاری",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "چراغ را ------ روشن کن",
+    "choices": [
+      "تا پنجاه درصد",
+      "زبان‌های",
+      "گذاری",
+      "تلویزیونی"
+    ],
+    "answer": "تا پنجاه درصد",
+    "type": "sentence",
+    "intent": "iot_hue_lightup"
+  },
+  {
+    "question": "collaboration",
+    "choices": [
+      "علت",
+      "جمعیت",
+      "کشورهای",
+      "همکاری"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "میتونی کتاب صوتی مورد علاقه من ------ را پخش کنی",
+    "choices": [
+      "دا",
+      "عبور",
+      "مرز",
+      "شخصیت"
+    ],
+    "answer": "دا",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "ناراحت",
+    "choices": [
+      "پزشکی",
+      "افزایش",
+      "دوباره",
+      "خوشحال"
+    ],
+    "answer": 3,
+    "type": "antonym"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "حمله",
+      "قرن",
+      "تهران",
+      "کردند"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "هیات نمایندگی",
+    "choices": [
+      "sexual",
+      "representative",
+      "related",
+      "idle"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "آیا هوای ------ قرار است خوب باشد",
+    "choices": [
+      "گل",
+      "سپتامبر",
+      "استقلال",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "معنی کلمه‌ی ------ چیست",
+    "choices": [
+      "میرزا",
+      "کرد",
+      "زادگان",
+      "غامض"
+    ],
+    "answer": "غامض",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "در مورد آب خراب یک ------",
+    "choices": [
+      "بیماری",
+      "بزرگ‌ترین",
+      "توئیت کن",
+      "توان"
+    ],
+    "answer": "توئیت کن",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "من میخوام ------ گوش بدم",
+    "choices": [
+      "راک",
+      "بعضی",
+      "داشتن",
+      "مطلق"
+    ],
+    "answer": "راک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "اطلاعات مربوط به ------ را از فهرست مخاطبین من ارائه بده",
+    "choices": [
+      "علی",
+      "ه",
+      "علمی",
+      "پرونده"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_querycontact"
+  },
+  {
+    "question": "نرخ کنونی تبدیل ------ به یورو چند است",
+    "choices": [
+      "جنوب",
+      "معروف",
+      "ین",
+      "اسلامی"
+    ],
+    "answer": "ین",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "valley",
+    "choices": [
+      "روش",
+      "دره",
+      "حکومت",
+      "محصول"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "به ------ پیامی بفرست",
+    "choices": [
+      "روزنامه",
+      "دهد",
+      "عالیه",
+      "مفهوم"
+    ],
+    "answer": "عالیه",
+    "type": "sentence",
+    "intent": "email_querycontact"
+  },
+  {
+    "question": "عنوان",
+    "choices": [
+      "foreigner",
+      "gone",
+      "illegal",
+      "title"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "went",
+    "choices": [
+      "خبر",
+      "مرداد",
+      "ایالات",
+      "رفت"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "جدیدترین آهنگ های ------ در رده چهار ستاره یا بالاتر را دانلود کن و همه را بدون آنکه به صورت تصادفی پخش شود پخش کن",
+    "choices": [
+      "اثر",
+      "دانش",
+      "فولکلور",
+      "اطلاعات"
+    ],
+    "answer": "فولکلور",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "کلم بروکلی را به لیست ------ من اضافه کن",
+    "choices": [
+      "آذربایجان",
+      "خواروبار",
+      "ناشر",
+      "جمهوری"
+    ],
+    "answer": "خواروبار",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "چه مدت باید ------ را بجوشانم",
+    "choices": [
+      "مرکز",
+      "وقتی",
+      "تخم‌مرغ‌ها",
+      "تاسیس"
+    ],
+    "answer": "تخم‌مرغ‌ها",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "چه کسی برای ------ فردا برنامه‌ریزی شده است",
+    "choices": [
+      "دسته",
+      "عالی",
+      "جلسه",
+      "ده"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "تمرین ورزش را برای روزهای ------ از پنج تا شش صبح به تقویم اضافه کن",
+    "choices": [
+      "دوشنبه تا جمعه",
+      "تاسیس",
+      "استقلال",
+      "اجرای"
+    ],
+    "answer": "دوشنبه تا جمعه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "محمود",
+    "choices": [
+      "Europe",
+      "way",
+      "limits",
+      "Mahmud"
     ],
     "answer": 3,
     "type": "translate_en_fa"
@@ -23180,351 +14065,2474 @@ var WordsQuestions =
   {
     "question": "ضعیف",
     "choices": [
-      "اعلام",
+      "مشغول",
       "قوی",
-      "ابهام‌زدایی",
-      "سایت"
+      "شد",
+      "های"
     ],
     "answer": 1,
     "type": "antonym"
   },
   {
-    "question": "one",
+    "question": "------ من را برای پانزدهم اضافه کن",
     "choices": [
-      "پایان",
-      "سال",
-      "زنده",
-      "یکی"
+      "ارتفاع",
+      "بی‌بی‌سی",
+      "بیماری",
+      "وقت دکتر"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "وقت دکتر",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "بوم",
+    "question": "لطفا یک یادآوری ------ برای پرداخت اجاره تنظیم کن",
     "choices": [
-      "country",
-      "England",
-      "well-known",
-      "present"
+      "مه",
+      "ماهانه",
+      "شیمیایی",
+      "شروع"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "ماهانه",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "خیابان فرعی",
+    "question": "چطور بروم ------",
     "choices": [
-      "square",
-      "street",
-      "petroleum",
-      "rate"
+      "تنگه هرمز",
+      "شهرداری",
+      "خورشید",
+      "جز"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "تنگه هرمز",
+    "type": "sentence",
+    "intent": "transport_query"
   },
   {
-    "question": "جهل",
+    "question": "لطفا لیست ------ من را تکرار کن",
     "choices": [
-      "province",
-      "ignorance",
-      "finding",
-      "go"
+      "تاریخی",
+      "بلند",
+      "خرید",
+      "می‌گویند"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "خرید",
+    "type": "sentence",
+    "intent": "lists_query"
   },
   {
-    "question": "واقعی",
+    "question": "فهرست آهنگ های ------ لطفا.",
     "choices": [
-      "ابهام‌زدایی",
-      "خیالی",
-      "اعلام",
-      "سایت"
+      "پاپ",
+      "نماینده",
+      "گردد",
+      "سرانجام"
     ],
-    "answer": 1,
-    "type": "antonym"
+    "answer": "پاپ",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "کشتی",
+    "question": "برنامه حرکت ------ به اصفهان",
     "choices": [
-      "son",
-      "without",
-      "moon",
-      "ship"
+      "انتقال",
+      "میرزا",
+      "مناسب",
+      "قطار"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_query"
   },
   {
-    "question": "زرنگ",
+    "question": "تاریخ ------ کار دوستم سام را به من بگو",
     "choices": [
-      "تنبل",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
+      "افتتاح",
+      "توابع",
+      "ترک",
+      "یافته"
     ],
-    "answer": 0,
-    "type": "antonym"
+    "answer": "افتتاح",
+    "type": "sentence",
+    "intent": "calendar_query"
   },
   {
-    "question": "first",
+    "question": "فقط یک ------ با رئیس من برنامه ریزی کن",
     "choices": [
-      "می‌شد",
-      "نخستین",
-      "معمولا",
-      "پخش"
+      "فوریه",
+      "جلسه",
+      "دوره",
+      "پارک"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "فروشگاه",
+    "question": "آيا می توانی دستگاه ------ را برای من روشن کنی",
     "choices": [
-      "Germanic",
-      "winter",
-      "Dollar",
-      "market"
+      "قهوه ساز",
+      "سال‌های",
+      "کل",
+      "برده"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "قهوه ساز",
+    "type": "sentence",
+    "intent": "iot_coffee"
   },
   {
-    "question": "حامض کردن",
+    "question": "لطفا یک ساعت زنگ دار را برای ------ بعدی من با تیم در ساعت سه بعدازظهر جمعه آینده تنظیم کن",
     "choices": [
-      "sour",
-      "effective",
-      "training",
-      "knowledge"
+      "جلسه",
+      "مساحت",
+      "ترجمه",
+      "جنبش"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "alarm_set"
   },
   {
-    "question": "محرور",
+    "question": "لطفا به من بگو الان در ------ ساعت چند است",
     "choices": [
-      "rukh",
+      "ایران",
+      "بعد",
+      "همین",
+      "عمده"
+    ],
+    "answer": "ایران",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "حادث",
+    "choices": [
+      "new",
       "hot",
-      "rest",
-      "Russia"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "newspaper",
-    "choices": [
-      "روزنامه",
-      "دادند",
-      "نیاز",
-      "شیراز"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مصر",
-    "choices": [
-      "official",
-      "probability",
-      "Egypt",
-      "sad"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "به روی",
-    "choices": [
-      "on",
-      "small",
-      "friend",
-      "electric"
+      "nominee",
+      "watery"
     ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "topic",
+    "question": "آیا می توانی ------ را بر روی حالت بی صدا تنظیم کنی",
     "choices": [
-      "ایالات",
-      "نویسندگان",
-      "موضوع",
-      "سیاه"
+      "استان",
+      "حل",
+      "رادیو",
+      "ملل"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "رادیو",
+    "type": "sentence",
+    "intent": "audio_volume_mute"
   },
   {
-    "question": "residential",
+    "question": "برای من یک بلیط ------ به نکا برای امروز بعد از ظهر رزرو کن",
     "choices": [
-      "بانک",
-      "محلی",
-      "کاربرد",
-      "فاصله"
+      "عبارتند",
+      "هنر",
+      "قطار",
+      "قبل"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "قیمت کنونی سهام ------ را به من بگو",
+    "choices": [
+      "سیاست",
+      "مسابقات",
+      "مس سرچشمه",
+      "کنیم"
+    ],
+    "answer": "مس سرچشمه",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "لطفا از ------ سفارش بده",
+    "choices": [
+      "هستند",
+      "جنگ",
+      "يا",
+      "عطاویچ"
+    ],
+    "answer": "عطاویچ",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "بیگانه",
+    "choices": [
+      "بعد",
+      "باقی",
+      "باغ",
+      "دوست"
+    ],
+    "answer": 3,
+    "type": "antonym"
+  },
+  {
+    "question": "یادآوری‌های من برای ------ چیستند",
+    "choices": [
+      "این ماه",
+      "ترکی",
+      "تصمیم",
+      "شهرت"
+    ],
+    "answer": "این ماه",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "قم",
+    "choices": [
+      "tree",
+      "Qom",
+      "old",
+      "sign"
     ],
     "answer": 1,
-    "type": "translate_fa_en"
+    "type": "translate_en_fa"
   },
   {
-    "question": "فرانسوی",
+    "question": "چه",
     "choices": [
-      "go",
-      "importance",
-      "proximity",
-      "French"
+      "prevention",
+      "contemporary",
+      "nominee",
+      "what"
     ],
     "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "born",
+    "question": "لامپ های ------ را روشن کن",
+    "choices": [
+      "ارومیه",
+      "کره",
+      "هال",
+      "کارگردانی"
+    ],
+    "answer": "هال",
+    "type": "sentence",
+    "intent": "iot_hue_lightup"
+  },
+  {
+    "question": "اکنون باید یک ایمیل برای ------ بنویسم",
+    "choices": [
+      "همکارم",
+      "ویکی",
+      "چیزی",
+      "ولایت"
+    ],
+    "answer": "همکارم",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "permission",
+    "choices": [
+      "عربی",
+      "اجازه",
+      "کمی",
+      "اکبر"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "------ بعدی کی به سکوی شماره یک ایستگاه راه آهن مرکزی می رسه",
+    "choices": [
+      "اختیار",
+      "سبک",
+      "قطار",
+      "اهل"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "جمعیت ------ چقدر است",
+    "choices": [
+      "شیراز",
+      "ندارد",
+      "میلیون",
+      "بر"
+    ],
+    "answer": "شیراز",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "westerner",
+    "choices": [
+      "پایین",
+      "جزیره",
+      "غربی",
+      "مستقیم"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا من ------ یک پارتی ذخیره شده در تقویمم دارم",
+    "choices": [
+      "کارگردانی",
+      "فردا",
+      "توجه",
+      "ورود"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "به من یادآوری کن ------ را پنج‌شنبه ساعت یازده صبح به آرایشگاه ببرم",
+    "choices": [
+      "مادر",
+      "اواخر",
+      "سلطنت",
+      "بریتانیا"
+    ],
+    "answer": "مادر",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ من در شنبه چه ساعتی است",
+    "choices": [
+      "کالیفرنیا",
+      "می‌کردند",
+      "قرار ملاقات",
+      "بسیاری"
+    ],
+    "answer": "قرار ملاقات",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "یکه",
+    "choices": [
+      "civil",
+      "busy",
+      "subscriber",
+      "unique"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "می تونی برام به ------ یه بلیط قطار رزرو کنی",
+    "choices": [
+      "طبقه",
+      "گسترش",
+      "شخص",
+      "دلار"
+    ],
+    "answer": "دلار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "Soviet Union",
+    "choices": [
+      "اند",
+      "رمان",
+      "شوروی",
+      "دو"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا من ------ پرمشغله هستم",
+    "choices": [
+      "کشور",
+      "شکل",
+      "امروز",
+      "هفتم"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "science",
+    "choices": [
+      "طی",
+      "بازیابی‌شده",
+      "وسیله",
+      "علم"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "اخبار ------ چیست",
+    "choices": [
+      "هفت",
+      "مدرسه",
+      "خبرگزاری مهر",
+      "هشت"
+    ],
+    "answer": "خبرگزاری مهر",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "کدام قسمت از ------ به آمریکا تعلق دارد",
+    "choices": [
+      "خلق",
+      "جریان",
+      "بهترین",
+      "قطب جنوب"
+    ],
+    "answer": "قطب جنوب",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "روی",
+      "یمن",
+      "جمهور",
+      "رادیو ورزش"
+    ],
+    "answer": "رادیو ورزش",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "Shah",
+    "choices": [
+      "مناطق",
+      "چنین",
+      "شاه",
+      "همکاری"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا می توانم از رستوران ------ غذای بیرون بری سفارش بدهم",
+    "choices": [
+      "اسپانیایی",
+      "تصمیم",
+      "همراه",
+      "شدت"
+    ],
+    "answer": "اسپانیایی",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "برای ------ ایمیل بفرست و به او یادآوری کن که صبح پرتقال را فراموش نکند",
+    "choices": [
+      "دور",
+      "ابهام‌زدایی",
+      "نصرت",
+      "تدوین"
+    ],
+    "answer": "نصرت",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "محدود",
+      "هشت",
+      "جام",
+      "یزد"
+    ],
+    "answer": "یزد",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "فایل صوتی ------ راپخش کن",
+    "choices": [
+      "گسترده",
+      "کشور",
+      "عمل",
+      "رادیو خبر"
+    ],
+    "answer": "رادیو خبر",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "آیا می‌توانی ------ در همسایگی من پیدا کنی",
+    "choices": [
+      "لازم",
+      "اوت",
+      "نمایشگاه خیابانی",
+      "نبرد"
+    ],
+    "answer": "نمایشگاه خیابانی",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "------ ماهان",
+    "choices": [
+      "داشتند",
+      "خمینی",
+      "پروژه",
+      "شماره‌ی تلفن"
+    ],
+    "answer": "شماره‌ی تلفن",
+    "type": "sentence",
+    "intent": "email_querycontact"
+  },
+  {
+    "question": "لطفا یک ------ را برای ساعت یک بعدازظهر روز شنبه برنامه‌ریزی کن",
+    "choices": [
+      "وقت",
+      "خارج",
+      "ابتدا",
+      "نوبت کوتاهی مو"
+    ],
+    "answer": "نوبت کوتاهی مو",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "olly اگر اخبار جدیدی در مورد ------ منتشر شد می‌توانی بلافاصله به من اطلاع بدهی",
+    "choices": [
+      "محل",
+      "طی",
+      "سد",
+      "سیل"
+    ],
+    "answer": "سیل",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "چه رویدادهایی در ------ برنامه‌ریزی شده است",
+    "choices": [
+      "مصر",
+      "فضای",
+      "توان",
+      "این هفته"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "economic",
+    "choices": [
+      "اقتصادی",
+      "محله",
+      "مناسب",
+      "ایشان"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "الهه لطفا یک بلیط ------ به ساری برای من بخر",
     "choices": [
       "گیلان",
-      "افراد",
-      "داخلی",
-      "متولد"
+      "ضد",
+      "پرورش",
+      "قطار"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "نافی",
+    "choices": [
+      "my",
+      "periodical",
+      "territory",
+      "negative"
     ],
     "answer": 3,
-    "type": "translate_fa_en"
+    "type": "translate_en_fa"
   },
   {
-    "question": "protection",
+    "question": "چه رویدادهایی ------ آینده بین یازده صبح تا سه بعدازظهر برنامه‌ریزی شده است",
     "choices": [
-      "داد",
-      "رضوی",
-      "حفظ",
-      "دکتر"
+      "سال‌های",
+      "دولت",
+      "ثابت",
+      "سه شنبه"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "سه شنبه",
+    "type": "sentence",
+    "intent": "calendar_query"
   },
   {
-    "question": "Saltanat",
+    "question": "الکس من برای ------ دلار گرفته ام ------ چقدر می توانم هر روز خرج کنم",
     "choices": [
-      "سلطنت",
-      "ماشین",
-      "ریاست",
-      "برد"
+      "مانده",
+      "بیشتری",
+      "انقلاب",
+      "این ماه"
+    ],
+    "answer": "این ماه",
+    "type": "sentence",
+    "intent": "qa_maths"
+  },
+  {
+    "question": "نازنین می‌توانی این را به ------ کم ارسال کنی",
+    "choices": [
+      "خیلی",
+      "فیسبوک",
+      "بیشتر",
+      "قبلی"
+    ],
+    "answer": "فیسبوک",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "بد",
+    "choices": [
+      "agreement",
+      "one",
+      "sour",
+      "bad"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "آیا ------ فروشی مورد علاقه ام سرویس بیرون بر دارد",
+    "choices": [
+      "دار",
+      "پیام",
+      "پیتزا",
+      "تلویزیون"
+    ],
+    "answer": "پیتزا",
+    "type": "sentence",
+    "intent": "takeaway_query"
+  },
+  {
+    "question": "------ قسمت بعدی فایل صوتی",
+    "choices": [
+      "مطلق",
+      "شرقی",
+      "استاندارد",
+      "برو به"
+    ],
+    "answer": "برو به",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "این ------ چه کاری باید انجام بدهم",
+    "choices": [
+      "خاصی",
+      "آخر هفته",
+      "جز",
+      "ش"
+    ],
+    "answer": "آخر هفته",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "------ این هفته چند درجه خواهد بود",
+    "choices": [
+      "ارتش",
+      "اهمیت",
+      "ی",
+      "حداکثر دمای هوای"
+    ],
+    "answer": "حداکثر دمای هوای",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "بیا ------ بازی کنیم",
+    "choices": [
+      "بزرگی",
+      "global thermonuclear war",
+      "کامل",
+      "سازمان"
+    ],
+    "answer": "global thermonuclear war",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "هر جوک ------ ای",
+    "choices": [
+      "شهرداری",
+      "قتل",
+      "کننده",
+      "بامزه"
+    ],
+    "answer": "بامزه",
+    "type": "sentence",
+    "intent": "general_joke"
+  },
+  {
+    "question": "------ چه خبری داری",
+    "choices": [
+      "سرزمین",
+      "امروز",
+      "شاعر",
+      "پروژه"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "به زمان ------ دقیقه برو",
+    "choices": [
+      "خواننده",
+      "بنیاد",
+      "زنان",
+      "هشت و بیست"
+    ],
+    "answer": "هشت و بیست",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "------ چندم است",
+    "choices": [
+      "هنوز",
+      "بیشتری",
+      "امروز",
+      "استاد"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "فقط ------ از هزار و سیصد و هفتاد پخش کن",
+    "choices": [
+      "چاپ",
+      "بررسی",
+      "علیرضا افتخاری",
+      "تلویزیون"
+    ],
+    "answer": "علیرضا افتخاری",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "من میخوام ------ بازی کنم",
+    "choices": [
+      "پاپ",
+      "نو",
+      "بعضی",
+      "فیفا هفده"
+    ],
+    "answer": "فیفا هفده",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "چند نفر در ------ زندگی می کنند",
+    "choices": [
+      "تبریز",
+      "سیارک‌ها",
+      "بار",
+      "مالی"
+    ],
+    "answer": "تبریز",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "لطفاً در مورد خدمات بد ارائه شده توسط رستوران تورنج برای من ------",
+    "choices": [
+      "tweet کن",
+      "برده",
+      "پرداخت",
+      "هر"
+    ],
+    "answer": "tweet کن",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "تمام رویدادهای همراه با ------ را حذف کن",
+    "choices": [
+      "اعلام",
+      "هفت",
+      "علی",
+      "سایت"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "نرخ مبادله ------ و یورو چقدر است",
+    "choices": [
+      "دلار آمریکا",
+      "قانون",
+      "آورد",
+      "حاصل"
+    ],
+    "answer": "دلار آمریکا",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "------ چند تا طوفان رخ داده",
+    "choices": [
+      "شده",
+      "این ماه",
+      "بالا",
+      "توجه"
+    ],
+    "answer": "این ماه",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "شاه",
+    "choices": [
+      "representative",
+      "Shah",
+      "energetic",
+      "illness"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "بین ------ تا هفت صبح هر روز تمام ایمیل های دریافت شده باید پاسخ داده شود",
+    "choices": [
+      "هرمزگان",
+      "اجرام",
+      "ده شب",
+      "ویژه"
+    ],
+    "answer": "ده شب",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "به ------ بهترین آرزوهایم را ایمیل کن و فایل ورک پی دی اف را پیوست کن",
+    "choices": [
+      "نصرت محمدی",
+      "وضعیت",
+      "پیروزی",
+      "دفتر"
+    ],
+    "answer": "نصرت محمدی",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "آیا ایمیل ------ یک پیوست داشت",
+    "choices": [
+      "نصرت",
+      "عمده",
+      "بانک",
+      "نماید"
+    ],
+    "answer": "نصرت",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "too",
+    "choices": [
+      "نیز",
+      "موضوع",
+      "اسرائیل",
+      "حل"
     ],
     "answer": 0,
     "type": "translate_fa_en"
   },
   {
-    "question": "نیکوترین",
+    "question": "به ایمیل ------ صبح علی پاسخ بده",
     "choices": [
-      "story",
-      "best",
-      "black",
-      "girl"
+      "امروز",
+      "دادن",
+      "عهده",
+      "کسب"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "چه کسی ساعت ------ به جلسه من می‌رود",
+    "choices": [
+      "بخش‌های",
+      "نه صبح",
+      "طور",
+      "زیرا"
+    ],
+    "answer": "نه صبح",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "چیزهای ------ بگو",
+    "choices": [
+      "محمدرضا",
+      "خنده‌دار",
+      "برخوردار",
+      "منبع"
+    ],
+    "answer": "خنده‌دار",
+    "type": "sentence",
+    "intent": "general_joke"
+  },
+  {
+    "question": "income",
+    "choices": [
+      "درآمد",
+      "طبیعی",
+      "بریتانیا",
+      "جلوگیری"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "ساعت ------ برای زنگ هشدار من چند است که من برای پرواز این آخر هفته تنظیم کرده‌ام",
+    "choices": [
+      "برای",
+      "بیداری",
+      "نظریه",
+      "باشد"
+    ],
+    "answer": "بیداری",
+    "type": "sentence",
+    "intent": "alarm_query"
+  },
+  {
+    "question": "اهل",
+    "choices": [
+      "factors",
+      "inhabitant",
+      "industrious",
+      "house"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "توی",
+    "question": "خرید خواربار را از برنامه ------ من حذف کن",
     "choices": [
-      "Saheb",
-      "in",
-      "period",
-      "ceremony"
+      "شنبه",
+      "قسمت",
+      "چهار",
+      "آنان"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "شنبه",
+    "type": "sentence",
+    "intent": "calendar_remove"
   },
   {
-    "question": "subordinate",
+    "question": "همانند",
     "choices": [
-      "دارد",
-      "دومین",
-      "تابع",
-      "وقت"
+      "old",
+      "moon",
+      "like",
+      "brave"
     ],
     "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لطفا رویداد ------ بعدی را پاک کن",
+    "choices": [
+      "رشته",
+      "نام‌های",
+      "تولد",
+      "هدایت"
+    ],
+    "answer": "تولد",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "نرخ تبدیل ارز بین ------ و کانادا چقدر است",
+    "choices": [
+      "آمریکا",
+      "پدر",
+      "مدتی",
+      "دوم"
+    ],
+    "answer": "آمریکا",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "جدیدترین تیترهای خبری از ------ را برای من بخوان",
+    "choices": [
+      "خورشید",
+      "واقع",
+      "موقعیت",
+      "نیویورک تایمز دات کام"
+    ],
+    "answer": "نیویورک تایمز دات کام",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "به من بگو در ------ ساعت چند است",
+    "choices": [
+      "اوت",
+      "اصفهان",
+      "انجام",
+      "پایه"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "ruling",
+    "choices": [
+      "سرعت",
+      "ماده",
+      "متحده",
+      "حاکم"
+    ],
+    "answer": 3,
     "type": "translate_fa_en"
+  },
+  {
+    "question": "نوشته آخر من را در ------ به شرکت بانوج پست کن",
+    "choices": [
+      "کمی",
+      "پارک",
+      "twitter",
+      "اسرائیل"
+    ],
+    "answer": "twitter",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "مرطوب",
+    "choices": [
+      "wet",
+      "summer",
+      "gallows",
+      "remaining"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "اخبار جدید ------ چیست",
+    "choices": [
+      "خبرگزاری مهر",
+      "جغرافیایی",
+      "پشت",
+      "سده"
+    ],
+    "answer": "خبرگزاری مهر",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "------ چقدر از اینجا فاصله دارد",
+    "choices": [
+      "مدت",
+      "فروشگاه رفاه",
+      "تبریز",
+      "همچنین"
+    ],
+    "answer": "فروشگاه رفاه",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "------ رویداد را علامت بزن",
+    "choices": [
+      "می‌توان",
+      "عهده",
+      "مطالعه",
+      "ماهانه"
+    ],
+    "answer": "ماهانه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "آیا ------ تهران بارانی خواهد بود",
+    "choices": [
+      "اين",
+      "نوامبر",
+      "دوباره",
+      "فردا"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "من برای ------ چه برنامه‌ای دارم",
+    "choices": [
+      "کرد",
+      "نرم",
+      "ریاست",
+      "این هفته"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "در آمدن",
+    "choices": [
+      "become",
+      "reduction",
+      "country",
+      "skilled"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "نورها را به ------ تغییر بده",
+    "choices": [
+      "نیروهای",
+      "مطلق",
+      "گفته",
+      "آبی"
+    ],
+    "answer": "آبی",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "آیا ------ است",
+    "choices": [
+      "آلمان",
+      "بیست و دوم سه شنبه",
+      "ملی",
+      "مشهور"
+    ],
+    "answer": "بیست و دوم سه شنبه",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "لطفا اخبار را در ------ چیک کن",
+    "choices": [
+      "خواهد",
+      "شبکه اجتماعی",
+      "سبک",
+      "شاعران"
+    ],
+    "answer": "شبکه اجتماعی",
+    "type": "sentence",
+    "intent": "social_query"
+  },
+  {
+    "question": "------ را روی روشن تنظیم کن",
+    "choices": [
+      "کرده",
+      "قهوه ساز",
+      "نامه",
+      "افزایش"
+    ],
+    "answer": "قهوه ساز",
+    "type": "sentence",
+    "intent": "iot_coffee"
+  },
+  {
+    "question": "------ رو برای من پخش کن",
+    "choices": [
+      "کنار",
+      "حکم",
+      "زیبا",
+      "سرزمین"
+    ],
+    "answer": "حکم",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "بازی ------ را برای بیار",
+    "choices": [
+      "میلاد",
+      "جنگ ستارگان",
+      "می",
+      "اصفهان"
+    ],
+    "answer": "جنگ ستارگان",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "عنوان",
+    "choices": [
+      "basis",
+      "title",
+      "hejira",
+      "beginning"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ دیگر در مورد انتخابات به من اطلاعات جدید بده",
+    "choices": [
+      "پرورش",
+      "کلیسای",
+      "هفته",
+      "یک ساعت"
+    ],
+    "answer": "یک ساعت",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "هشدار ------ را حذف کن",
+    "choices": [
+      "مقدس",
+      "فردا",
+      "ایستگاه",
+      "مربع"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "alarm_remove"
+  },
+  {
+    "question": "------ را با لیلا برای پنج‌شنبه ساعت یک اضافه کن",
+    "choices": [
+      "داخلی",
+      "ی",
+      "ناهار",
+      "نیروی"
+    ],
+    "answer": "ناهار",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "چیزی ------ به من بگو",
+    "choices": [
+      "عرضه",
+      "روشن",
+      "خود",
+      "خنده دار"
+    ],
+    "answer": "خنده دار",
+    "type": "sentence",
+    "intent": "general_joke"
+  },
+  {
+    "question": "یاد بگیر که ------ را به درستی برش بدهی",
+    "choices": [
+      "عربستان",
+      "سیب‌زمینی",
+      "دقیقه",
+      "قرمز"
+    ],
+    "answer": "سیب‌زمینی",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "معوج",
+    "choices": [
+      "bottom",
+      "province",
+      "slow",
+      "crooked"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "پایین",
+    "choices": [
+      "بالا",
+      "فضای",
+      "مه",
+      "شرایط"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "ایمیل‌های ------ را چک کن",
+    "choices": [
+      "روستاهای",
+      "علی",
+      "وضعیت",
+      "رشته"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "ایمیل های جدید از ------ را به من بگو",
+    "choices": [
+      "علی",
+      "هرمزگان",
+      "شبه",
+      "اکنون"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "با فست فود ------ تماس بگیر",
+    "choices": [
+      "عطاویچ",
+      "یک",
+      "پخش",
+      "آنچه"
+    ],
+    "answer": "عطاویچ",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "کمی بیشتر از ------ نادر ابراهیمی برای من بخوان",
+    "choices": [
+      "طی",
+      "کتاب",
+      "دادگان",
+      "بدین"
+    ],
+    "answer": "کتاب",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "------ را توصیف کن",
+    "choices": [
+      "فرشته",
+      "پیوند",
+      "بیمارستان",
+      "خرداد"
+    ],
+    "answer": "فرشته",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "------ را بازی کن",
+    "choices": [
+      "علمی",
+      "زاده",
+      "جی تی ای وایس سیتی",
+      "بلکه"
+    ],
+    "answer": "جی تی ای وایس سیتی",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "چه پست‌هایی را از ------ ندیده‌ام",
+    "choices": [
+      "دوستانم",
+      "شدید",
+      "البته",
+      "قالب"
+    ],
+    "answer": "دوستانم",
+    "type": "sentence",
+    "intent": "social_query"
+  },
+  {
+    "question": "------ را از رویدادهای تقویم حذف کن",
+    "choices": [
+      "پنج",
+      "کنسرت",
+      "سوم",
+      "قانون"
+    ],
+    "answer": "کنسرت",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "------ را پخش کن",
+    "choices": [
+      "سیارک",
+      "تقدیر",
+      "شهری",
+      "می‌آید"
+    ],
+    "answer": "تقدیر",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "اهنگ ------ پخش کن",
+    "choices": [
+      "باب",
+      "افغانستان",
+      "محلی هندی",
+      "نام‌های"
+    ],
+    "answer": "محلی هندی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "سهام ------ امروز در چه وضعیتی است",
+    "choices": [
+      "خارج",
+      "صنعتی مینو",
+      "ارتباط",
+      "اصول"
+    ],
+    "answer": "صنعتی مینو",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "لطفا لامپ ------ را خاموش کن",
+    "choices": [
+      "گسترده",
+      "سالن نقاشی",
+      "خاک",
+      "حفظ"
+    ],
+    "answer": "سالن نقاشی",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "question": "غیرقانونی",
+    "choices": [
+      "تاکنون",
+      "نقشه",
+      "قانونی",
+      "صد"
+    ],
+    "answer": 2,
+    "type": "antonym"
+  },
+  {
+    "question": "نزست",
+    "choices": [
+      "first",
+      "free",
+      "hard",
+      "Asia"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ ویگن چه زمانی است",
+    "choices": [
+      "تولد",
+      "مقدار",
+      "دانشجویان",
+      "مطالعه"
+    ],
+    "answer": "تولد",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "------ دمای هوا چند درجه است",
+    "choices": [
+      "فردا",
+      "وی",
+      "بیت",
+      "زاده"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "چرا ------ است",
+    "choices": [
+      "بی‌بی‌سی",
+      "وابسته",
+      "ویکی‌پدیای",
+      "پارسا پیروزفر خوش تیپ"
+    ],
+    "answer": "پارسا پیروزفر خوش تیپ",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "می‌توانی لیست ------ من را حذف کنی",
+    "choices": [
+      "کارهای",
+      "توسط",
+      "جوان",
+      "عبارتند"
+    ],
+    "answer": "کارهای",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "برنامه‌ی ------ من چیست",
+    "choices": [
+      "عدم",
+      "ابهام‌زدایی",
+      "استفاده",
+      "این هفته‌ی"
+    ],
+    "answer": "این هفته‌ی",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "یک ------ در اداره با اکبر برای ساعت سه بعدازظهر در روز سه شنبه اضافه کن",
+    "choices": [
+      "جلسه",
+      "معنی",
+      "عبارت",
+      "اختلاف"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "برای ------ یک بلیط با تخت خواب قطار به کرمان برایم رزرو کن",
+    "choices": [
+      "روز",
+      "جهان",
+      "هفته آینده",
+      "میرزا"
+    ],
+    "answer": "هفته آینده",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "من باید ------ را در روز شنبه ساعت دو بعدازظهر اضافه کنم",
+    "choices": [
+      "تمرین بیسبال",
+      "مطالعه",
+      "بعدی",
+      "روی"
+    ],
+    "answer": "تمرین بیسبال",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "آهنگ بچه محل رو از ------ پخش کن",
+    "choices": [
+      "هستند",
+      "سر",
+      "رادیو جوان",
+      "جریان"
+    ],
+    "answer": "رادیو جوان",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "آیا در ------ برف می بارد",
+    "choices": [
+      "بسته",
+      "مربع",
+      "بازی",
+      "زنجان"
+    ],
+    "answer": "زنجان",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "------ هر ماه را به من یادآوری کن",
+    "choices": [
+      "حالت",
+      "پانزدهم",
+      "جز",
+      "فاصله"
+    ],
+    "answer": "پانزدهم",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "آخرین آپدیت ها در مورد ------ را بده",
+    "choices": [
+      "نارندرا مودی",
+      "اوت",
+      "دستور",
+      "لندن"
+    ],
+    "answer": "نارندرا مودی",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "ترافیک راه برگشتم به ------ در ساعت پنج چطور است",
+    "choices": [
+      "خانه",
+      "نفر",
+      "بخشی",
+      "محمد"
+    ],
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "برنامه حرکت ------ محلی به نکا را به من بده",
+    "choices": [
+      "کرده‌است",
+      "روی",
+      "استان‌های",
+      "قطارهای"
+    ],
+    "answer": "قطارهای",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "غشاوت",
+    "choices": [
+      "Mohammad Reza",
+      "easy",
+      "covering",
+      "statistics"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ از ملاقات هشدار بده",
+    "choices": [
+      "همانند",
+      "یک ساعت پیش",
+      "بازگشت",
+      "بخش"
+    ],
+    "answer": "یک ساعت پیش",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "برای ------ فردا به من یادآوری کن",
+    "choices": [
+      "تا",
+      "مصاحبه",
+      "آهنگ",
+      "هایی"
+    ],
+    "answer": "مصاحبه",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
     "question": "آغاز",
     "choices": [
       "پایان",
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام"
+      "دل",
+      "اطراف",
+      "پوشش"
     ],
     "answer": 0,
     "type": "antonym"
   },
   {
-    "question": "وارد",
+    "question": "ناشناس",
     "choices": [
-      "entered",
-      "then",
-      "minute",
-      "France"
+      "یک",
+      "شناس",
+      "ای",
+      "دیگر"
+    ],
+    "answer": 1,
+    "type": "antonym"
+  },
+  {
+    "question": "the majority of",
+    "choices": [
+      "بیشتر",
+      "آموزش",
+      "مي",
+      "تهیه"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "لیست ------ امروز باید بخرم چیست",
+    "choices": [
+      "چیزهایی که",
+      "حسن",
+      "حالی",
+      "اساسی"
+    ],
+    "answer": "چیزهایی که",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "intention",
+    "choices": [
+      "مفهوم",
+      "جامعه",
+      "منظور",
+      "مناطق"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "سنتی",
+    "choices": [
+      "won",
+      "traditional",
+      "Europe",
+      "perception"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "too",
+    "choices": [
+      "هم",
+      "کمونیست",
+      "فقط",
+      "مانده"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "------ فرزندم را به من یادآوری کن",
+    "choices": [
+      "اکنون",
+      "کاخ",
+      "مفهوم",
+      "تولد"
+    ],
+    "answer": "تولد",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "یک ------ برای دوازده ظهر بیست و دو مهر رزرو کن",
+    "choices": [
+      "قطار",
+      "فلسفه",
+      "سمت",
+      "همه"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "به ------ در مورد جلسه فردا ایمیل کن ------ آیا می‌توانیم بعدازظهر جلسه داشته باشیم",
+    "choices": [
+      "شوروی",
+      "کم",
+      "برگزار",
+      "کامبیز"
+    ],
+    "answer": "کامبیز",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "همسر",
+      "اصفهان",
+      "دورهٔ",
+      "کند"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "------ کجاست",
+    "choices": [
+      "دانمارک",
+      "پرورش",
+      "جاده",
+      "کشوری"
+    ],
+    "answer": "دانمارک",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "لطفا گزارش وضع هوای ------ را به من بده",
+    "choices": [
+      "عراق",
+      "میانه",
+      "این هفته",
+      "بیست"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "برایم بگو که ------ چه در حساب فیسبوک در آخر هفته گذاشته",
+    "choices": [
+      "داستان",
+      "مریم",
+      "وزن",
+      "آلبوم"
+    ],
+    "answer": "مریم",
+    "type": "sentence",
+    "intent": "social_query"
+  },
+  {
+    "question": "یک پاسخ برای ایمیل ------ آماده کن",
+    "choices": [
+      "کارگردان",
+      "نموده",
+      "علی",
+      "قالب"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "یک شکایت برای ------ باز کن",
+    "choices": [
+      "موارد",
+      "حقوق",
+      "تعداد",
+      "سایپا"
+    ],
+    "answer": "سایپا",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "مشفق",
+    "choices": [
+      "increase",
+      "kind",
+      "times more",
+      "inspection"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "برنا",
+    "choices": [
+      "young",
+      "boy",
+      "someone",
+      "house"
     ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "اندازه",
+    "question": "بستنی را از ------ حذف کن",
     "choices": [
-      "idle",
-      "profit",
-      "southern",
-      "size"
+      "کمتر",
+      "هوایی",
+      "کردستان",
+      "خواروبار"
+    ],
+    "answer": "خواروبار",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "هوای ------ تبریز چطور است",
+    "choices": [
+      "دیگری",
+      "امروز",
+      "یمن",
+      "اسلامی"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "------ کجاست",
+    "choices": [
+      "میرزا",
+      "خدا",
+      "بوتسوانا",
+      "طرف"
+    ],
+    "answer": "بوتسوانا",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "ترافیک ------ خیلی سبک است",
+    "choices": [
+      "میان",
+      "وزن",
+      "روشن",
+      "ساری"
+    ],
+    "answer": "ساری",
+    "type": "sentence",
+    "intent": "transport_traffic"
+  },
+  {
+    "question": "آهنگ ------ را پخش کن",
+    "choices": [
+      "نقش",
+      "تپه",
+      "ترس",
+      "محیط"
+    ],
+    "answer": "ترس",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "اخبار ترند ------",
+    "choices": [
+      "جوایز",
+      "تکنولوژی",
+      "موزه",
+      "شاعران"
+    ],
+    "answer": "تکنولوژی",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "طول دیوار ------ چقدر است",
+    "choices": [
+      "چین",
+      "موزه",
+      "آنچه",
+      "شب"
+    ],
+    "answer": "چین",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "من اخبار ------ را می خواهم",
+    "choices": [
+      "مستقل",
+      "امر",
+      "عمومی",
+      "جوایز اسکار"
+    ],
+    "answer": "جوایز اسکار",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "دانش",
+    "choices": [
+      "solar",
+      "economic",
+      "no",
+      "knowledge"
     ],
     "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "often",
+    "question": "هوای ------ چطور است",
     "choices": [
-      "کشتی",
-      "دقیقه",
-      "سیاسی",
-      "اغلب"
+      "باستان",
+      "ساری",
+      "کلمه",
+      "آنجا"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "ساری",
+    "type": "sentence",
+    "intent": "weather_query"
   },
   {
-    "question": "importance",
+    "question": "تقویم ------ مرداد",
     "choices": [
-      "جغرافیایی",
-      "اهمیت",
-      "گروهی",
-      "متن"
+      "زمانی",
+      "دور",
+      "کرد",
+      "ملاقات"
+    ],
+    "answer": "ملاقات",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ بیرون بر سفارش بده",
+    "choices": [
+      "گل",
+      "اکبرجوجه",
+      "زادگان",
+      "درون"
+    ],
+    "answer": "اکبرجوجه",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "باید",
+    "choices": [
+      "resumption",
+      "must",
+      "transportation",
+      "area"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "سلام گوگل به ------ ایمیل کن حال شما چطور است می‌توانی به روز رسانی‌های آخرین پروژه عصر جدید را برای من بفرستی",
+    "choices": [
+      "متحد",
+      "مریم",
+      "پیام",
+      "تقسیم"
+    ],
+    "answer": "مریم",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "به من بگو در ------ کجا می‌توانم به خرید بروم",
+    "choices": [
+      "لندن",
+      "برای",
+      "یافته",
+      "این منطقه"
+    ],
+    "answer": "این منطقه",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "هوای فعلی ------ چطوره",
+    "choices": [
+      "بازیابی‌شده",
+      "استان البرز",
+      "علت",
+      "مدیر"
+    ],
+    "answer": "استان البرز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "سر خط آخرین اخبار ------ چیست",
+    "choices": [
+      "کمی",
+      "سی. ان. ان.",
+      "می‌گوید",
+      "بیت"
+    ],
+    "answer": "سی. ان. ان.",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "اوولی یک ------ در نزدیکی که بتوانم به دویدن بروم کجاست",
+    "choices": [
+      "پارک",
+      "امور",
+      "متال",
+      "براي"
+    ],
+    "answer": "پارک",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "------ در روز شنبه را به تقویم من اضافه کن",
+    "choices": [
+      "ولی",
+      "شام با مریم",
+      "میلادی",
+      "تحصیلات"
+    ],
+    "answer": "شام با مریم",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "قوی",
+    "choices": [
+      "امیر",
+      "ولی",
+      "ضعیف",
+      "نتیجه"
+    ],
+    "answer": 2,
+    "type": "antonym"
+  },
+  {
+    "question": "چقدرتا ------ زمان می بره",
+    "choices": [
+      "مرکز شهر",
+      "رادیو",
+      "مي",
+      "امنیت"
+    ],
+    "answer": "مرکز شهر",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "سلام ------ حالت چطوره",
+    "choices": [
+      "آهن",
+      "امروز",
+      "روی",
+      "نتیجه"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "من دیگر نیازی به مراجعه به ------ ندارم می‌شود آن رویداد را حذف کرد",
+    "choices": [
+      "انتقال",
+      "تصویب",
+      "دکتر",
+      "فضایی"
+    ],
+    "answer": "دکتر",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "می‌توانی یک رویداد برای ------ آینده به تقویم من اضافه کنی",
+    "choices": [
+      "جمعه",
+      "مي",
+      "ساز",
+      "مشترک"
+    ],
+    "answer": "جمعه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "هوای ------",
+    "choices": [
+      "شهرستان",
+      "اسلام",
+      "نامزد",
+      "فریدونکنار"
+    ],
+    "answer": "فریدونکنار",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "اگر در ------ ساعت هشت شب باشد در آبادان ساعت چند است",
+    "choices": [
+      "چابهار",
+      "کوتاه",
+      "نسبت",
+      "حکومت"
+    ],
+    "answer": "چابهار",
+    "type": "sentence",
+    "intent": "datetime_convert"
+  },
+  {
+    "question": "July",
+    "choices": [
+      "عنوان",
+      "ژوئیه",
+      "بدین",
+      "تلاش"
     ],
     "answer": 1,
     "type": "translate_fa_en"
   },
   {
-    "question": "theater",
+    "question": "یک رویداد ------ را در تقویم من برنامه ریزی کن",
     "choices": [
-      "ابهام‌زدایی",
-      "منجر",
-      "فرمان",
-      "تئاتر"
+      "تاریخ",
+      "کلیسای",
+      "جلسه",
+      "پوشش"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "نامهربان",
+    "choices": [
+      "نقشه",
+      "مهربان",
+      "علاوه",
+      "بین"
+    ],
+    "answer": 1,
+    "type": "antonym"
+  },
+  {
+    "question": "آگاهسازی را برای اخبار ------ فعال بگذار",
+    "choices": [
+      "اشاره",
+      "خلق",
+      "بازار سهام",
+      "بهترین"
+    ],
+    "answer": "بازار سهام",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "جمعیت ------ چقدر است",
+    "choices": [
+      "دهد",
+      "فلوریدا",
+      "پاریس",
+      "عربی"
+    ],
+    "answer": "فلوریدا",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "من میخوام با تو ------ بازی کنم",
+    "choices": [
+      "سالیتر",
+      "کرده",
+      "یکی",
+      "گرم"
+    ],
+    "answer": "سالیتر",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "لیست آهنگ‌های ------ من را پاک کن",
+    "choices": [
+      "طرف",
+      "مطالعه",
+      "پی",
+      "قدیمی ایرانی"
+    ],
+    "answer": "قدیمی ایرانی",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "ایالت",
+    "choices": [
+      "determination",
+      "state",
+      "yet",
+      "struggle"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "alexa ------ پخش کن",
+    "choices": [
+      "اداره",
+      "محدود",
+      "المپیک",
+      "راک کلاسیک"
+    ],
+    "answer": "راک کلاسیک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "من را به ------ ببر",
+    "choices": [
+      "عطاویچ",
+      "برنامه",
+      "شعر",
+      "آلمانی"
+    ],
+    "answer": "عطاویچ",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "برای من آهنگ از ------ پخش کن",
+    "choices": [
+      "ایستگاه",
+      "بازار",
+      "شادمهر",
+      "بار"
+    ],
+    "answer": "شادمهر",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "لامپ های ------ را اکنون خاموش کن",
+    "choices": [
+      "بعدها",
+      "اتاق خواب",
+      "پل",
+      "شده‌اند"
+    ],
+    "answer": "اتاق خواب",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "question": "من می خواهم که اتاقم را تمیز کنم ------ را بردار و به اتاق من برو",
+    "choices": [
+      "جارو برقی",
+      "وی",
+      "داشتن",
+      "المپیک"
+    ],
+    "answer": "جارو برقی",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "همه را ------",
+    "choices": [
+      "عرب",
+      "درخت",
+      "تکرار کن",
+      "می‌آید"
+    ],
+    "answer": "تکرار کن",
+    "type": "sentence",
+    "intent": "music_settings"
+  },
+  {
+    "question": "لطفا فایل صوتی ------ را پخش کن",
+    "choices": [
+      "گل",
+      "آمریکایی",
+      "طرف",
+      "مونولوگ"
+    ],
+    "answer": "مونولوگ",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "scarcity",
+    "choices": [
+      "فقط",
+      "بعد",
+      "کمی",
+      "صدای"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "------ را به لیست مخاطبین من اضافه کن",
+    "choices": [
+      "دلیل",
+      "جنوب",
+      "علی",
+      "دستور"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "------ جدید من لیست جدید",
+    "choices": [
+      "فرزندان",
+      "اخیر",
+      "چکاپ سلامتی",
+      "عراق"
+    ],
+    "answer": "چکاپ سلامتی",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "لطفا وضع هوای ------ را به من بگو",
+    "choices": [
+      "تهران",
+      "فرهنگ",
+      "عصر",
+      "مسائل"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "به من یادآوری کن که ------ ساعت سه بعدازظهر جلسه دارم",
+    "choices": [
+      "متفاوت",
+      "نیروهای",
+      "فردا",
+      "دسته"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ پیراهن کجاست",
+    "choices": [
+      "مرکز خرید",
+      "شود",
+      "دید",
+      "فرانسوی"
+    ],
+    "answer": "مرکز خرید",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "half",
+    "choices": [
+      "علاوه",
+      "شوروی",
+      "دانشگاه‌های",
+      "نیمه"
     ],
     "answer": 3,
     "type": "translate_fa_en"
   },
   {
-    "question": "خیلی",
+    "question": "اخبار را از ------ نیوز برای من بگیر",
     "choices": [
-      "easy",
-      "supreme",
-      "very",
-      "Persian"
+      "اشاره",
+      "تهران",
+      "بیشتری",
+      "استاندارد"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "news_query"
   },
   {
-    "question": "سفر",
+    "question": "سفیدپوست",
     "choices": [
-      "basis",
-      "trip",
-      "specially for",
-      "in"
+      "imprison",
+      "white",
+      "style",
+      "for some time"
     ],
     "answer": 1,
     "type": "translate_en_fa"
@@ -23533,2891 +16541,20 @@ var WordsQuestions =
     "question": "شدت",
     "choices": [
       "intensity",
-      "motor",
-      "upon",
-      "play"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نازیبا",
-    "choices": [
-      "industrious",
-      "every",
-      "winter",
-      "ugly"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قصد",
-    "choices": [
-      "intention",
-      "theater",
-      "paint",
-      "religious"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نشر",
-    "choices": [
-      "palace",
-      "road",
-      "brave",
-      "spreading"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "علت",
-    "choices": [
-      "between",
-      "professor",
-      "cause",
-      "palace"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "computer",
-    "choices": [
-      "راه",
-      "کامپیوتر",
-      "کننده",
-      "عمل"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شرکت",
-    "choices": [
-      "summer",
-      "become",
-      "to",
-      "participation"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نژاد",
-    "choices": [
-      "reply",
-      "race",
-      "share",
-      "off"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سست بودن",
-    "choices": [
-      "lazy",
-      "hejira",
-      "primitive",
-      "official"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "منتشر شده",
-    "choices": [
-      "slow",
-      "province",
-      "published",
-      "beginning"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مهربان",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "نامهربان"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "افغانستان",
-    "choices": [
-      "occupied",
-      "Afghanistan",
-      "body",
-      "daytime"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "sacred",
-    "choices": [
-      "زیادی",
-      "داشتن",
-      "قدیم",
-      "مقدس"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بیعوض",
-    "choices": [
-      "capable",
-      "free",
-      "step",
-      "simple"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سخت",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "آسان"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "negative",
-    "choices": [
-      "مقدس",
-      "ه",
-      "تلویزیونی",
-      "فیلم"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "زردپوست",
-    "choices": [
-      "time",
-      "queen",
-      "oriental",
-      "hot"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گرم کردن",
-    "choices": [
-      "contrary",
-      "warm",
-      "successful",
-      "Greece"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تلخ",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "شیرین",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "perception",
-    "choices": [
-      "مشاهده",
-      "آتش",
-      "گفت",
-      "اکثر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شور",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "شیرین"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "گریه",
-    "choices": [
-      "خنده",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "area",
-    "choices": [
-      "بطور",
-      "سطح",
-      "هایی",
-      "صد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "fracture",
-    "choices": [
-      "البته",
-      "آباد",
-      "مه",
-      "شکست"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "whoever",
-    "choices": [
-      "آنکه",
-      "خواهد",
-      "جنوب",
-      "دقیقه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "محل",
-    "choices": [
-      "boy",
-      "source",
-      "matter",
-      "certain"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کامپیوتر",
-    "choices": [
-      "computer",
-      "like",
-      "stranger",
-      "neigborhood"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رفتن",
-    "choices": [
-      "south",
-      "race",
-      "go",
-      "end"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "steady",
-    "choices": [
-      "استفاده",
-      "کمونیست",
-      "ثابت",
-      "می‌گیرد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "red",
-    "choices": [
-      "کرده‌است",
-      "برتر",
-      "قرمز",
-      "بدون"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ناراحت",
-    "choices": [
-      "خوشحال",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "شناس",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "ناشناس",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "قمر",
-    "choices": [
-      "stroke",
-      "human",
-      "moon",
-      "team"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جدید",
-    "choices": [
-      "قدیمی",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "مقداری",
-    "choices": [
-      "hot",
-      "everybody",
-      "some",
-      "prince"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آموزشی",
-    "choices": [
-      "historic",
-      "education",
-      "professor",
-      "first"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "hand",
-    "choices": [
-      "دست",
-      "بدین",
-      "بازیگران",
-      "زبان"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Ibrahim",
-    "choices": [
-      "داشتند",
-      "مرداد",
-      "بلکه",
-      "ابراهیم"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "تن",
-    "choices": [
-      "ugly",
-      "beautiful",
-      "ton",
-      "life"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نحوه",
-    "choices": [
-      "ceremony",
-      "help",
-      "performance",
-      "method"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "gone",
-    "choices": [
-      "رفته",
-      "ترجمه",
-      "میلادی",
-      "استقلال"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قتل",
-    "choices": [
-      "friend",
-      "murder",
-      "Nur",
-      "steering wheel"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تابستان",
-    "choices": [
-      "سایت",
-      "زمستان",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "خاک",
-    "choices": [
-      "old",
-      "soil",
-      "queen",
-      "Arab"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گون",
-    "choices": [
-      "happy",
-      "type",
-      "old",
-      "no"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اظهار عقیده",
-    "choices": [
-      "suggestion",
-      "bring up",
-      "television",
-      "numbers"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "غیرقانونی",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "قانونی",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "rules",
-    "choices": [
-      "مهدی",
-      "سرعت",
-      "محصولات",
-      "قوانین"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "poet",
-    "choices": [
-      "شاعر",
-      "تحصیلات",
-      "تاریخی",
-      "یا"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "sultan",
-    "choices": [
-      "جامعه",
-      "سلطان",
-      "دلار",
-      "کسی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "play",
-    "choices": [
-      "بازی",
-      "منجر",
-      "نمایش",
-      "عنوان"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "گرم",
-    "choices": [
-      "سرد",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "product",
-    "choices": [
-      "محصول",
-      "فوریه",
-      "قبل",
-      "سی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شیخ",
-    "choices": [
-      "certain",
-      "utilization",
-      "grail",
-      "sheik"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حادث",
-    "choices": [
-      "capable",
-      "agreement",
-      "sour",
-      "new"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "انتخاب",
-    "choices": [
-      "often",
-      "thousand",
-      "selection",
-      "growth"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "speech",
-    "choices": [
-      "قاجار",
-      "سخن",
-      "هنگامی",
-      "ثبت"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سرشکنی",
-    "choices": [
-      "structure",
-      "awak",
-      "distribution",
-      "Saudi Arabia"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سپتامبر",
-    "choices": [
-      "festival",
-      "people",
-      "flight",
-      "September"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بیضاء",
-    "choices": [
-      "stage",
-      "source",
-      "Japan",
+      "brother",
+      "early",
       "white"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سیستم",
-    "choices": [
-      "so far",
-      "start",
-      "system",
-      "religious"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "درسته",
-    "choices": [
-      "money",
-      "complete",
-      "participation",
-      "structure"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "توی",
-    "choices": [
-      "standard",
-      "in",
-      "America",
-      "Qoran"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "agriculture",
-    "choices": [
-      "باقی",
-      "برای",
-      "کشاورزی",
-      "تک"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "soldier",
-    "choices": [
-      "هنر",
-      "نظامی",
-      "عهده",
-      "كه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "محل",
-    "choices": [
-      "far",
-      "letter",
-      "source",
-      "obstruction"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ربطی",
-    "choices": [
-      "surrounding",
-      "descended from Emam Reza",
-      "base",
-      "relative"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خوشگل",
-    "choices": [
-      "ابهام‌زدایی",
-      "زشت",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "stone",
-    "choices": [
-      "سنگ",
-      "گیتار",
-      "دادگان",
-      "سپاه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "mud",
-    "choices": [
-      "مردم",
-      "اتحادیه",
-      "کالیفرنیا",
-      "گل"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "آنکه",
-    "choices": [
-      "receipt",
-      "whoever",
-      "help",
-      "interior"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زیبا",
-    "choices": [
-      "management",
-      "united",
-      "start",
-      "Ziba"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "همه",
-    "choices": [
-      "village",
-      "everybody",
-      "scientific",
-      "rural district"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "birth",
-    "choices": [
-      "تیر",
-      "کنترل",
-      "تولد",
-      "بازی‌های"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "گون",
-    "choices": [
-      "out",
-      "Saltanat",
-      "providing",
-      "type"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "inhabitant",
-    "choices": [
-      "اهل",
-      "شمسی",
-      "دومین",
-      "ايران"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قلم رو",
-    "choices": [
-      "sour",
-      "season",
-      "territory",
-      "French"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "از توی",
-    "choices": [
-      "out",
-      "through",
-      "lawful",
-      "discovery"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "presence",
-    "choices": [
-      "روستای",
-      "وجود",
-      "تولد",
-      "خاک"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "national",
-    "choices": [
-      "كه",
-      "ملی",
-      "مالی",
-      "شروع"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "tremor",
-    "choices": [
-      "بهمن",
-      "مقام",
-      "حضور",
-      "جنبش"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "افراد",
-    "choices": [
-      "beautiful",
-      "individuals",
-      "government",
-      "Europe"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ثمین",
-    "choices": [
-      "movement",
-      "power",
-      "guidance",
-      "expensive"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "occupied",
-    "choices": [
-      "شده‌است",
-      "براي",
-      "خمینی",
-      "مشغول"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بطرف جنوب",
-    "choices": [
-      "southern",
-      "step",
-      "therefore",
-      "closed"
-    ],
     "answer": 0,
     "type": "translate_en_fa"
-  },
-  {
-    "question": "martyr",
-    "choices": [
-      "مصرف",
-      "نمونه",
-      "شهید",
-      "خانه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نا محرم",
-    "choices": [
-      "management",
-      "hundred",
-      "country",
-      "stranger"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مشخص",
-    "choices": [
-      "receipt",
-      "uncertain",
-      "specific",
-      "top"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دوست",
-    "choices": [
-      "سایت",
-      "بیگانه",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "stage manager",
-    "choices": [
-      "بلکه",
-      "ساکن",
-      "انسان",
-      "کارگردان"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "منظر",
-    "choices": [
-      "look",
-      "sign",
-      "bitter",
-      "hill"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "spouse",
-    "choices": [
-      "بسیاری",
-      "نام",
-      "همسر",
-      "برای"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کالیفرنیا",
-    "choices": [
-      "idle",
-      "California",
-      "series",
-      "organization"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مابقی",
-    "choices": [
-      "remaining",
-      "what",
-      "hard",
-      "little"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مشاهده",
-    "choices": [
-      "in",
-      "availability",
-      "perception",
-      "knowledge"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زیبا",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "زشت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "blood",
-    "choices": [
-      "حسن",
-      "د",
-      "خون",
-      "پیدا"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اهمیت",
-    "choices": [
-      "million",
-      "performance",
-      "importance",
-      "Persian"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مفروض",
-    "choices": [
-      "given",
-      "end",
-      "",
-      "respect"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زمستانی",
-    "choices": [
-      "winter",
-      "imprison",
-      "top",
-      "intensity"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "stroke",
-    "choices": [
-      "خط",
-      "کمتر",
-      "حق",
-      "می‌کنند"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "هیات نمایندگی",
-    "choices": [
-      "representative",
-      "result",
-      "age of",
-      "something"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دانش",
-    "choices": [
-      "tall",
-      "knowledge",
-      "art",
-      "education"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "results",
-    "choices": [
-      "همکاری",
-      "برتر",
-      "داخلی",
-      "نتایج"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "river",
-    "choices": [
-      "رودخانه",
-      "اینکه",
-      "ترکیب",
-      "شهرت"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "elections",
-    "choices": [
-      "جدید",
-      "انتخابات",
-      "مهندسی",
-      "تحقیقات"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "case",
-    "choices": [
-      "تئاتر",
-      "رضا",
-      "كه",
-      "جعبه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "distance",
-    "choices": [
-      "فاصله",
-      "راه",
-      "پخش",
-      "نزد"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "thermometer",
-    "choices": [
-      "درجه",
-      "اهالی",
-      "نرم",
-      "ابراهیم"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "likeness",
-    "choices": [
-      "مثال",
-      "پیشین",
-      "انتشار",
-      "ساله"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "some",
-    "choices": [
-      "رفته",
-      "بعضی",
-      "همانند",
-      "ملی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مرطوب",
-    "choices": [
-      "wet",
-      "training",
-      "return",
-      "Persian"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بر روی",
-    "choices": [
-      "very",
-      "normal",
-      "January",
-      "above"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جنسی",
-    "choices": [
-      "trip",
-      "like",
-      "sexual",
-      "outside of"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "winner",
-    "choices": [
-      "عبارت",
-      "قهرمان",
-      "مجموعه",
-      "قدر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نمره",
-    "choices": [
-      "more",
-      "opposite",
-      "televised",
-      "number"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رشید",
-    "choices": [
-      "friend",
-      "tall",
-      "king",
-      "establishment"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خوشحال",
-    "choices": [
-      "ناراحت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "rank",
-    "choices": [
-      "بازیابی‌شده",
-      "وب‌گاه",
-      "نشان",
-      "رتبه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "some",
-    "choices": [
-      "ترکی",
-      "چندین",
-      "هوا",
-      "جمهور"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "باز",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "بسته"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "غربی",
-    "choices": [
-      "westerner",
-      "asleep",
-      "matter",
-      "illegal"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "همانند",
-    "choices": [
-      "like",
-      "country",
-      "Europe",
-      "kind"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دختر",
-    "choices": [
-      "سایت",
-      "پسر",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "لندن",
-    "choices": [
-      "then",
-      "thrust",
-      "always",
-      "London"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "near",
-    "choices": [
-      "نزدیک",
-      "شرکت",
-      "آوریل",
-      "حال"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "large",
-    "choices": [
-      "یادکرد",
-      "بزرگ",
-      "موارد",
-      "کشاورزی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "باز",
-    "choices": [
-      "بسته",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "Abbas",
-    "choices": [
-      "زمانی",
-      "عباس",
-      "مهم",
-      "تقویم"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "government",
-    "choices": [
-      "مهم",
-      "این",
-      "چین",
-      "دولت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "outside of",
-    "choices": [
-      "های",
-      "گذشته",
-      "خارج",
-      "بالای"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دولت",
-    "choices": [
-      "ignorance",
-      "expensive",
-      "government",
-      "sweet"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کارفرمان",
-    "choices": [
-      "television",
-      "manager",
-      "transformation",
-      "stranger"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "study",
-    "choices": [
-      "تلویزیونی",
-      "مطالعه",
-      "تقسیم",
-      "عهده"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خیس",
-    "choices": [
-      "خشک",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "معنی بخشیدن",
-    "choices": [
-      "mean",
-      "political party",
-      "special",
-      "poet"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "nowadays",
-    "choices": [
-      "ورود",
-      "امروزه",
-      "جای",
-      "سیارک‌ها"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "passing",
-    "choices": [
-      "امکان",
-      "موقعیت",
-      "عبور",
-      "حکومت"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "mankind",
-    "choices": [
-      "نقل",
-      "سابق",
-      "بشر",
-      "رابطه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "زندانی",
-    "choices": [
-      "large",
-      "river",
-      "prisoner",
-      "national"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "به روی",
-    "choices": [
-      "on",
-      "professor",
-      "illegal",
-      "Qoran"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فنی",
-    "choices": [
-      "last",
-      "technical",
-      "likeness",
-      "black"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "توقف",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "حرکت"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "college",
-    "choices": [
-      "نیز",
-      "علاوه",
-      "دانشکده",
-      "دقیقه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "today",
-    "choices": [
-      "امروز",
-      "نظر",
-      "خلیج",
-      "طرف"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "television",
-    "choices": [
-      "شرقی",
-      "تلویزیون",
-      "اشاره",
-      "نقاط"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مشکل",
-    "choices": [
-      "Arabic",
-      "return visit",
-      "hard",
-      "industrious"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پریرو",
-    "choices": [
-      "special",
-      "girl",
-      "step",
-      "beautiful"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "personality",
-    "choices": [
-      "گردید",
-      "علم",
-      "شخصیت",
-      "برخوردار"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Meshed",
-    "choices": [
-      "مشهد",
-      "محصولات",
-      "پیام",
-      "درست"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "زشت",
-    "choices": [
-      "زیبا",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "مادامیکه",
-    "choices": [
-      "covering",
-      "while",
-      "uderstood",
-      "the same"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مطلق",
-    "choices": [
-      "independent",
-      "closed",
-      "April",
-      "museum"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "paint",
-    "choices": [
-      "رنگ",
-      "بنیاد",
-      "حاکم",
-      "پزشکی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "motive",
-    "choices": [
-      "می‌گیرد",
-      "خانواده",
-      "ج",
-      "موجب"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قدیمی",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "جدید"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "attack",
-    "choices": [
-      "وسیله",
-      "را",
-      "حمله",
-      "اصل"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "زمان",
-    "choices": [
-      "Iran",
-      "illegal",
-      "step",
-      "time"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خشک",
-    "choices": [
-      "ابهام‌زدایی",
-      "خیس",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "شامل",
-    "choices": [
-      "محروم",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "ناراحت",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "خوشحال",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "مهربان",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "نامهربان",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "ایالت",
-    "choices": [
-      "state",
-      "tower",
-      "outside of",
-      "marriage"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پیر",
-    "choices": [
-      "جوان",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "prince",
-    "choices": [
-      "می‌دهد",
-      "وارد",
-      "امیر",
-      "معنای"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "روم",
-    "choices": [
-      "face",
-      "Rome",
-      "machine",
-      "term"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "series",
-    "choices": [
-      "هستند",
-      "کمتر",
-      "دیگر",
-      "سری"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "یمن",
-    "choices": [
-      "go",
-      "Yemen",
-      "out",
-      "supply"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "white",
-    "choices": [
-      "لندن",
-      "متال",
-      "سفید",
-      "جز"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "religious",
-    "choices": [
-      "موسیقی",
-      "دینی",
-      "مطالعات",
-      "تغییر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "موسفید",
-    "choices": [
-      "king",
-      "sour",
-      "scared",
-      "old"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "news agency",
-    "choices": [
-      "خبرگزاری",
-      "مشاهیر",
-      "عضو",
-      "مهم‌ترین"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "asteroid",
-    "choices": [
-      "خوانده",
-      "سیارک",
-      "بالای",
-      "عملیات"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "willing",
-    "choices": [
-      "حاضر",
-      "باغ",
-      "الکتریکی",
-      "ترانه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قدیمی",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "جدید"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "خیلی",
-    "choices": [
-      "rate",
-      "severe",
-      "small",
-      "very"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شیرین",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "شور"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "دیپلوماسی",
-    "choices": [
-      "limited",
-      "politics",
-      "",
-      "far"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "descended from Emam Reza",
-    "choices": [
-      "رضوی",
-      "آنان",
-      "کنید",
-      "اهمیت"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "governmental",
-    "choices": [
-      "دولتی",
-      "تجاری",
-      "کوچک",
-      "مسعود"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "suburbs",
-    "choices": [
-      "حاصل",
-      "پیوند",
-      "توابع",
-      "ترک"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کانون",
-    "choices": [
-      "first",
-      "center",
-      "bitter",
-      "union"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "affairs",
-    "choices": [
-      "مطالعات",
-      "برق",
-      "امور",
-      "نوامبر"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "zinc",
-    "choices": [
-      "دهد",
-      "حفظ",
-      "مشهور",
-      "روی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ترانه",
-    "choices": [
-      "Korea",
-      "Iran",
-      "oriental",
-      "Taraneh"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موسفید",
-    "choices": [
-      "solar",
-      "volume",
-      "the majority of",
-      "old"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "افشا شده",
-    "choices": [
-      "ignorance",
-      "works",
-      "out",
-      "wet"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عملیات",
-    "choices": [
-      "performance",
-      "poet",
-      "operations",
-      "love"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "number",
-    "choices": [
-      "متفاوت",
-      "جدا",
-      "شمار",
-      "بوده‌است"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "روی زدن",
-    "choices": [
-      "view",
-      "universal",
-      "hot",
-      "zinc"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دوست کردن",
-    "choices": [
-      "income",
-      "friend",
-      "",
-      "college"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تابستان",
-    "choices": [
-      "زمستان",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "به کارگیری",
-    "choices": [
-      "utilization",
-      "small",
-      "excess",
-      "national"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آنها",
-    "choices": [
-      "ugly",
-      "they",
-      "closed",
-      "mother"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سفید",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سیاه"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "wealthy",
-    "choices": [
-      "جزیره",
-      "گردد",
-      "میرزا",
-      "برخوردار"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ماهانه",
-    "choices": [
-      "reply",
-      "collection",
-      "expensive",
-      "monthly"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تازه",
-    "choices": [
-      "recent",
-      "sweet",
-      "Hasan",
-      "size"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "دور",
-    "choices": [
-      "far",
-      "prince",
-      "combination",
-      "ugly"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جان",
-    "choices": [
-      "life",
-      "whoever",
-      "leadership",
-      "factors"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "loaded",
-    "choices": [
-      "قدیمی",
-      "مرگ",
-      "پر",
-      "بررسی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نو",
-    "choices": [
-      "اعلام",
-      "قدیمی",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "طبع",
-    "choices": [
-      "inspection",
-      "little",
-      "brother",
-      "publishing"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گرفت",
-    "choices": [
-      "lack",
-      "illegal",
-      "seizure",
-      "club"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جدول",
-    "choices": [
-      "over",
-      "table",
-      "biography",
-      "Internet"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "برهان آوردن",
-    "choices": [
-      "reason",
-      "way",
-      "white",
-      "Greece"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "energetic",
-    "choices": [
-      "جامع",
-      "فعال",
-      "خدمت",
-      "تقویم"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حادث",
-    "choices": [
-      "moon",
-      "new",
-      "illegal",
-      "new"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Italy",
-    "choices": [
-      "لیگ",
-      "دوست",
-      "ایتالیا",
-      "داشت"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سیاسی",
-    "choices": [
-      "moon",
-      "correlated",
-      "center",
-      "diplomatic"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شاه",
-    "choices": [
-      "Shah",
-      "increase",
-      "without",
-      "human"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خوشحال",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "ناراحت"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "France",
-    "choices": [
-      "استفاده",
-      "جوان",
-      "خرداد",
-      "فرانسه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عباس",
-    "choices": [
-      "month",
-      "newspaper",
-      "Abbas",
-      "exclude"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "basis",
-    "choices": [
-      "ساختار",
-      "بنیاد",
-      "تو",
-      "دی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ready",
-    "choices": [
-      "تیم",
-      "توانست",
-      "فراهم",
-      "پایه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "وسایل",
-    "choices": [
-      "shine",
-      "traditional",
-      "way",
-      "on"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "flat",
-    "choices": [
-      "شبکه",
-      "عباس",
-      "یونان",
-      "تخت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "engineering",
-    "choices": [
-      "مهندسی",
-      "تاسیس",
-      "فوریه",
-      "ورودی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "square",
-    "choices": [
-      "فرانسوی",
-      "میدان",
-      "ترین",
-      "میزان"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خاطر",
-    "choices": [
-      "after",
-      "God",
-      "memory",
-      "square"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شاگردی",
-    "choices": [
-      "area",
-      "probability",
-      "moon",
-      "training"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "به طرف",
-    "choices": [
-      "toward",
-      "city",
-      "right",
-      "Afghanistan"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "registeration",
-    "choices": [
-      "اهالی",
-      "مهم",
-      "دهه",
-      "ثبت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ادبیاتی",
-    "choices": [
-      "utilization",
-      "China",
-      "imaginary",
-      "literary"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کانادا",
-    "choices": [
-      "named",
-      "end",
-      "state",
-      "Canada"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اخبار",
-    "choices": [
-      "Mehdi",
-      "sign",
-      "number",
-      "news"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "thriving",
-    "choices": [
-      "اجازه",
-      "سوم",
-      "دریاچه",
-      "آباد"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "الکل",
-    "choices": [
-      "limit",
-      "stage",
-      "elections",
-      "spirit"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "without",
-    "choices": [
-      "خراسان",
-      "دهستان‌های",
-      "بدون",
-      "بکار"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "راهنمایی",
-    "choices": [
-      "domain",
-      "hospital",
-      "guidance",
-      "four"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "همگردانی",
-    "choices": [
-      "compilation",
-      "bitter",
-      "free",
-      "requirement"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بالا",
-    "choices": [
-      "subscriber",
-      "given",
-      "cry",
-      "top"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سومین",
-    "choices": [
-      "third",
-      "my",
-      "ugly",
-      "expansion"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "base",
-    "choices": [
-      "آن‌ها",
-      "مرکزی",
-      "دانش",
-      "پایگاه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "انجمن",
-    "choices": [
-      "society",
-      "relevant",
-      "ugly",
-      "capital"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ناوابستگی",
-    "choices": [
-      "certain",
-      "independence",
-      "tool",
-      "successful"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "this",
-    "choices": [
-      "این",
-      "مهر",
-      "محمدرضا",
-      "نرم"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برملا",
-    "choices": [
-      "known",
-      "happy",
-      "news agency",
-      "after"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خیالی",
-    "choices": [
-      "اعلام",
-      "واقعی",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "first",
-    "choices": [
-      "نخست",
-      "جشنواره",
-      "ویژه",
-      "نفت"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جوان",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "پیر",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "رفتن",
-    "choices": [
-      "combination",
-      "row",
-      "one",
-      "go"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مناسب",
-    "choices": [
-      "ranks",
-      "free",
-      "cultural",
-      "base"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تلویزیون",
-    "choices": [
-      "word",
-      "television",
-      "ignorance",
-      "beautiful"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "family",
-    "choices": [
-      "علاوه",
-      "خانوار",
-      "گاه",
-      "دسترسی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خنده",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "گریه",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
   },
   {
     "question": "انقطاع یافتن",
     "choices": [
-      "rarely",
-      "bad",
-      "personality",
-      "end"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "صنعت",
-    "choices": [
-      "october",
-      "import",
-      "industry",
-      "appearance"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "worth",
-    "choices": [
-      "بازیابی‌شده",
-      "بیرون",
-      "تن",
-      "مقدار"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "معروف",
-    "choices": [
       "exclude",
-      "spring",
-      "famous",
-      "uncertain"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "cause",
-    "choices": [
-      "شبیه",
-      "زمین",
-      "عملیات",
-      "باعث"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Seine",
-    "choices": [
-      "سن",
-      "کالیفرنیا",
-      "می‌کنند",
-      "یافت"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "معماری",
-    "choices": [
-      "unique",
-      "architecture",
       "end",
-      "free"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عید",
-    "choices": [
-      "found",
-      "beautiful",
-      "sign",
-      "festival"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "لرزه",
-    "choices": [
-      "except",
-      "paint",
-      "tremor",
-      "half"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گشادن",
-    "choices": [
-      "thousand",
-      "saying",
-      "specific",
-      "open"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "توقف",
-    "choices": [
-      "twenty",
-      "town",
-      "but",
-      "stop"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پا",
-    "choices": [
-      "tremor",
-      "bring up",
-      "Esfehan",
-      "foot"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موسوم",
-    "choices": [
-      "happy",
-      "most",
-      "include",
-      "named"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "truth",
-    "choices": [
-      "حقیقت",
-      "سطح",
-      "فوتبال",
-      "همکاری"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "performance",
-    "choices": [
-      "رخ",
-      "لازم",
-      "اجرا",
-      "کلمه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دیروقت",
-    "choices": [
-      "death",
-      "sea",
-      "late",
-      "museum"
+      "end",
+      "in order to"
     ],
     "answer": 2,
     "type": "translate_en_fa"
@@ -26425,2518 +16562,6192 @@ var WordsQuestions =
   {
     "question": "green",
     "choices": [
-      "بازیکنان",
       "سبز",
-      "پیام",
-      "عمل"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "برونی",
-    "choices": [
-      "industrious",
-      "outside",
-      "given",
-      "Taraneh"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Shahrivar",
-    "choices": [
-      "کشور",
-      "شهریور",
-      "آمده",
-      "مشاهیر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جهل",
-    "choices": [
-      "ignorance",
-      "sweet",
-      "opposite",
-      "week"
+      "نوعی",
+      "آثار",
+      "حقیقت"
     ],
     "answer": 0,
-    "type": "translate_en_fa"
+    "type": "translate_fa_en"
   },
   {
-    "question": "نزست",
+    "question": "پیش بینی هوای ------ را به من نشان بده",
     "choices": [
-      "crooked",
-      "body",
-      "first",
-      "organization"
+      "این هفته",
+      "مسلمانان",
+      "انتشارات",
+      "دادند"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "weather_query"
   },
   {
-    "question": "افشا شده",
+    "question": "آیا به زودی ------ وجود خواهد داشت",
+    "choices": [
+      "فعال",
+      "گذاری",
+      "نامیده",
+      "تغییر ناگهانی وضع هوا"
+    ],
+    "answer": "تغییر ناگهانی وضع هوا",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "یک توصیفی درباره ------ پیدا کن",
+    "choices": [
+      "امپراتوری",
+      "تلوزیون سامسونگ",
+      "مثال",
+      "نیاز"
+    ],
+    "answer": "تلوزیون سامسونگ",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "اجتماعی",
     "choices": [
       "stay",
-      "special",
-      "out",
-      "land"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زمستان",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "تابستان",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "پایان",
-    "choices": [
-      "آغاز",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "گرون",
-    "choices": [
-      "اعلام",
-      "ارزون",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "ماندن",
-    "choices": [
-      "رفتن",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "برونی",
-    "choices": [
-      "definition",
-      "country",
-      "tradition",
-      "outside"
+      "explanation",
+      "first",
+      "social"
     ],
     "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "آبادی",
+    "question": "آخرین تیترهای خبری این ------ چیست",
     "choices": [
-      "gulf",
-      "village",
-      "Korea",
-      "marriage"
+      "علم",
+      "دیده",
+      "ترکیه",
+      "منبع جدید"
+    ],
+    "answer": "منبع جدید",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "الهه ------ عناوین های داغ خبری",
+    "choices": [
+      "مهم‌ترین",
+      "مصرف",
+      "ترند",
+      "های"
+    ],
+    "answer": "ترند",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "------ را خاموش کن",
+    "choices": [
+      "متفاوت",
+      "دهستان",
+      "خاطر",
+      "سوکت مهسان"
+    ],
+    "answer": "سوکت مهسان",
+    "type": "sentence",
+    "intent": "iot_wemo_off"
+  },
+  {
+    "question": "خوشحال",
+    "choices": [
+      "می‌توان",
+      "قدر",
+      "ناراحت",
+      "شرح"
+    ],
+    "answer": 2,
+    "type": "antonym"
+  },
+  {
+    "question": "یادآورهای ------ را به من نشان بده",
+    "choices": [
+      "خدمات",
+      "فردا",
+      "شده‌است",
+      "آهنگ"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "فتوا",
+    "choices": [
+      "remaining",
+      "sentence",
+      "memory",
+      "rural district"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "lunar",
+    "question": "زندانی کردن",
     "choices": [
-      "روستا",
-      "اقتصاد",
-      "قمری",
-      "مجله"
+      "imprison",
+      "wet",
+      "bottom",
+      "environment"
     ],
-    "answer": 2,
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "کلمه ------ را تعریف کن و در جمله بکار ببر",
+    "choices": [
+      "کره",
+      "مطلق",
+      "مرکز",
+      "ذکر"
+    ],
+    "answer": "مطلق",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "شما هرگز حدس نمی‌زنی که ------ چه اتفاقی افتاده",
+    "choices": [
+      "اوایل روز",
+      "الدین",
+      "می‌کردند",
+      "سابق"
+    ],
+    "answer": "اوایل روز",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "آخرین اخبار محلی از ------ چیست",
+    "choices": [
+      "دیگری",
+      "حکم",
+      "گفته",
+      "منطقه‌ی اسلامشهر"
+    ],
+    "answer": "منطقه‌ی اسلامشهر",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "------ ها رو پخش کن",
+    "choices": [
+      "پربیننده ترین",
+      "هفت",
+      "ایالت",
+      "شدن"
+    ],
+    "answer": "پربیننده ترین",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "لطفا ------ را روشن کن",
+    "choices": [
+      "گذاری",
+      "مسائل",
+      "اتاق",
+      "معاصر"
+    ],
+    "answer": "اتاق",
+    "type": "sentence",
+    "intent": "iot_hue_lightup"
+  },
+  {
+    "question": "به ------ در مورد تمیزی فروشگاه آنها توئیت کن",
+    "choices": [
+      "دولتی",
+      "دوباره",
+      "خواننده",
+      "خرده فروشی اسپات"
+    ],
+    "answer": "خرده فروشی اسپات",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "دوست",
+    "choices": [
+      "دختر",
+      "توجه",
+      "رتبه",
+      "بیگانه"
+    ],
+    "answer": 3,
+    "type": "antonym"
+  },
+  {
+    "question": "allexa با من ------ بازی کن",
+    "choices": [
+      "شطرنج",
+      "اوایل",
+      "تحقیقات",
+      "اغلب"
+    ],
+    "answer": "شطرنج",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "به من بگو نتایج انتخبات مجلس در ------ چطور می شود",
+    "choices": [
+      "مه",
+      "کشتی",
+      "تصمیم",
+      "تهران"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "همبرگر را در فهرست ------ من قرار بده",
+    "choices": [
+      "خواربار",
+      "شمار",
+      "تر",
+      "سنت"
+    ],
+    "answer": "خواربار",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "لطفا تمام ایمیل‌های جدید ------ را بررسی کن",
+    "choices": [
+      "بی‌بی‌سی",
+      "باب",
+      "اداره‌ی مالیات بر درآمد",
+      "کسب"
+    ],
+    "answer": "اداره‌ی مالیات بر درآمد",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "شماره تماس ------ را نشان بده",
+    "choices": [
+      "استقلال",
+      "احمد",
+      "تحت",
+      "جزیره"
+    ],
+    "answer": "احمد",
+    "type": "sentence",
+    "intent": "email_querycontact"
+  },
+  {
+    "question": "زنگ هشدار ------ صبح من را لغو کن",
+    "choices": [
+      "جمهور",
+      "فردا",
+      "چشم",
+      "ترک"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "alarm_remove"
+  },
+  {
+    "question": "------ ی بعدی چندم است",
+    "choices": [
+      "سبز",
+      "کلی",
+      "تقسیمات",
+      "چهارشنبه"
+    ],
+    "answer": "چهارشنبه",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "علی رنگ نور من را به ------ تغییر بده و لطفا لامپ آشپزخانه را خاموش کن",
+    "choices": [
+      "فرزند",
+      "یاد",
+      "مشخص",
+      "آبی"
+    ],
+    "answer": "آبی",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "هراسانده",
+    "choices": [
+      "Esmail",
+      "scared",
+      "school",
+      "very"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "مشغول",
+    "choices": [
+      "بیکار",
+      "کامل",
+      "چهارم",
+      "خانوار"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "letter",
+    "choices": [
+      "نامه",
+      "نمایش",
+      "موسسه",
+      "اضافه"
+    ],
+    "answer": 0,
     "type": "translate_fa_en"
   },
   {
-    "question": "یکه",
+    "question": "من میخوام ------ را بشنوم",
     "choices": [
-      "become",
-      "education",
-      "Asia",
-      "unique"
+      "بزرگی",
+      "امور",
+      "لیست آهنگ های رپ",
+      "حضور"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "لیست آهنگ های رپ",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "مسجد",
+    "question": "------ را تعریف کن",
+    "choices": [
+      "بادقت شرح دادن",
+      "نشان",
+      "در",
+      "بیمارستان"
+    ],
+    "answer": "بادقت شرح دادن",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "------ از شادمهر را پخش کن",
+    "choices": [
+      "رشته",
+      "مطالعه",
+      "ترس",
+      "باشند"
+    ],
+    "answer": "ترس",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "سلام ------ در twitter چه خبر است",
+    "choices": [
+      "امروز",
+      "هفته",
+      "ماده",
+      "اقتصاد"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "social_query"
+  },
+  {
+    "question": "علی من یک ------ می‌خواهم",
+    "choices": [
+      "دست",
+      "آیت",
+      "لندن",
+      "اسپرسو"
+    ],
+    "answer": "اسپرسو",
+    "type": "sentence",
+    "intent": "iot_coffee"
+  },
+  {
+    "question": "حتما ------ بعدازظهر فردا را یادآوری کن",
+    "choices": [
+      "فاصله",
+      "مرز",
+      "جلسه",
+      "پیدا"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "یک ایمیل به ------ بفرست",
+    "choices": [
+      "دومین",
+      "علی",
+      "می‌دهند",
+      "بسیار"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "اخبار ------ همین الان",
+    "choices": [
+      "سی",
+      "جهان",
+      "بازیگران",
+      "قرار"
+    ],
+    "answer": "جهان",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "------ در حال حاضر با کی در رابطه هست",
+    "choices": [
+      "هفتم",
+      "زبان",
+      "نیویورک",
+      "ریحانا"
+    ],
+    "answer": "ریحانا",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "قد ------ چقدره",
+    "choices": [
+      "قلعه",
+      "سمت",
+      "چشمه",
+      "رضا عطاران"
+    ],
+    "answer": "رضا عطاران",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "------ نزدیک را به من نشان بده",
+    "choices": [
+      "سرخ",
+      "خدمات",
+      "سوم",
+      "رویدادهای موسیقایی"
+    ],
+    "answer": "رویدادهای موسیقایی",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "بی درد سر",
     "choices": [
       "beginning",
-      "Mosque",
-      "motive",
-      "area"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "list",
-    "choices": [
-      "مصر",
-      "گلستان",
-      "فهرست",
-      "ارتباط"
+      "but",
+      "easy",
+      "records"
     ],
     "answer": 2,
-    "type": "translate_fa_en"
+    "type": "translate_en_fa"
   },
   {
-    "question": "Mehr",
+    "question": "verdict",
     "choices": [
-      "آورد",
-      "ام",
-      "پیش",
-      "مهر"
+      "فرزندان",
+      "شود",
+      "کرمان",
+      "حکم"
     ],
     "answer": 3,
     "type": "translate_fa_en"
   },
   {
-    "question": "former",
+    "question": "من به این رویداد در یک ------ در تقویم خودم نیاز دارم",
     "choices": [
-      "دفاع",
-      "بیشتری",
-      "علم",
-      "پیشین"
+      "شروع",
+      "چرخه تکرار شونده",
+      "حمل",
+      "کنند"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "چرخه تکرار شونده",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "model",
+    "question": "باید ------ رو چک کنی حرف نداره",
     "choices": [
-      "ه",
-      "مثل",
-      "غرب",
-      "سپاه"
+      "نام‌های",
+      "ابی",
+      "کشاورزی",
+      "نوع"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music_likeness"
+  },
+  {
+    "question": "آهنگ های ------ پخش کن",
+    "choices": [
+      "هیپ هاپ",
+      "پسر",
+      "می‌کرد",
+      "فهرست"
+    ],
+    "answer": "هیپ هاپ",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ را فعال کن",
+    "choices": [
+      "ویکی",
+      "سوکت هوشمند",
+      "دیگر",
+      "عراق"
+    ],
+    "answer": "سوکت هوشمند",
+    "type": "sentence",
+    "intent": "iot_wemo_on"
+  },
+  {
+    "question": "رشته خبر ------ را دنبال کن",
+    "choices": [
+      "کمپین ترامپ",
+      "گذشته",
+      "چهارم",
+      "هر"
+    ],
+    "answer": "کمپین ترامپ",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "آیا من شیر را به لیست ------ اضافه کردم",
+    "choices": [
+      "بررسی",
+      "خرید",
+      "زن",
+      "جمع"
+    ],
+    "answer": "خرید",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "مشاهده",
+    "choices": [
+      "strength",
+      "outside",
+      "perception",
+      "idle"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "have",
+    "choices": [
+      "دولتی",
+      "داشتن",
+      "بود",
+      "دارند"
     ],
     "answer": 1,
     "type": "translate_fa_en"
   },
   {
-    "question": "rank",
+    "question": "چه نمایش‌هایی در ------ نمایش داده می‌شود",
     "choices": [
-      "به",
-      "اروپا",
-      "درخت",
-      "پایه"
+      "زبان‌های",
+      "پدرش",
+      "تئاتر",
+      "ه"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "تئاتر",
+    "type": "sentence",
+    "intent": "recommendation_events"
   },
   {
-    "question": "هور",
+    "question": "یک توئیت ------ بفرست که خدمات آنها خیلی بد است و من یک ساعت اضافی منتظر ماندم",
     "choices": [
-      "representative",
-      "ship",
-      "Greece",
-      "sun"
+      "دلار",
+      "وب",
+      "پیتزا پرپروک",
+      "سپتامبر"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "پیتزا پرپروک",
+    "type": "sentence",
+    "intent": "social_post"
   },
   {
-    "question": "valley",
+    "question": "برنامه من برای ------ را به من یادآوری کن",
     "choices": [
-      "تأسیس",
-      "دره",
-      "افراد",
-      "ق"
+      "را",
+      "شمالی",
+      "بعد از ظهر",
+      "پر"
+    ],
+    "answer": "بعد از ظهر",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ کجاست",
+    "choices": [
+      "رنگ",
+      "آمریکا",
+      "نصرت",
+      "برنامه"
+    ],
+    "answer": "نصرت",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "لامپ ها را در ------ خاموش کن",
+    "choices": [
+      "صدای",
+      "اشپزخانه",
+      "تقسیمات",
+      "دلیل"
+    ],
+    "answer": "اشپزخانه",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "question": "آیا ------ در شهر در این زمان یا در هفته پیش رو هست",
+    "choices": [
+      "طول",
+      "فستیوالی",
+      "طرح",
+      "درگذشتگان"
+    ],
+    "answer": "فستیوالی",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "پایتخت ------ کجاست",
+    "choices": [
+      "تعدادی",
+      "کم",
+      "نیویورک",
+      "وبگاه"
+    ],
+    "answer": "نیویورک",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "سفید",
+    "choices": [
+      "شکست",
+      "سیاه",
+      "زمینه",
+      "مردم"
     ],
     "answer": 1,
-    "type": "translate_fa_en"
+    "type": "antonym"
   },
   {
-    "question": "استرالیا",
+    "question": "پست های ------ در ساعت پیش را نشان بده",
     "choices": [
-      "September",
-      "industrious",
-      "big",
-      "Australia"
+      "مثال",
+      "شیخ",
+      "دوران",
+      "دوستان"
+    ],
+    "answer": "دوستان",
+    "type": "sentence",
+    "intent": "social_query"
+  },
+  {
+    "question": "لطفا نگه دار برای ------",
+    "choices": [
+      "ساعت بعد",
+      "کتاب‌های",
+      "نامیده",
+      "مرد"
+    ],
+    "answer": "ساعت بعد",
+    "type": "sentence",
+    "intent": "audio_volume_mute"
+  },
+  {
+    "question": "توقف",
+    "choices": [
+      "شاه",
+      "مقاله",
+      "ای",
+      "حرکت"
     ],
     "answer": 3,
-    "type": "translate_en_fa"
+    "type": "antonym"
   },
   {
-    "question": "بوم",
+    "question": "در مورد برنامه تمرین بدن به ------ ایمیل ارسال کن",
     "choices": [
-      "protection",
-      "country",
-      "Russia",
-      "off"
+      "تقویم",
+      "کمک",
+      "ندا",
+      "برگزار"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "ندا",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "------ من را از ابتدای آخرین فصلی که شروع کردم پخش کن",
+    "choices": [
+      "آخرین",
+      "کتاب صوتی",
+      "نتیجه",
+      "باعث"
+    ],
+    "answer": "کتاب صوتی",
+    "type": "sentence",
+    "intent": "play_audiobook"
   },
   {
     "question": "روابط",
     "choices": [
-      "Saheb",
-      "bitter",
-      "relations",
-      "Iran"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بااحتیاط",
-    "choices": [
-      "ابهام‌زدایی",
-      "احتیاط",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "ولادت",
-    "choices": [
-      "best",
-      "birth",
-      "system",
-      "individuals"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ملل",
-    "choices": [
-      "ugly",
-      "nations",
-      "sake",
-      "Reza"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آثار",
-    "choices": [
-      "no",
-      "works",
-      "January",
-      "illegal"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "volume",
-    "choices": [
-      "جلد",
-      "نشر",
-      "جمهور",
-      "نوشته"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مسائل",
-    "choices": [
-      "problems",
-      "excess",
-      "professor",
-      "certain"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قانونی",
-    "choices": [
-      "اعلام",
-      "غیرقانونی",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "زمان",
-    "choices": [
-      "imaginary",
-      "with",
-      "November",
-      "time"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "جغرافیایی",
-    "choices": [
-      "geographical",
-      "excess",
-      "summer",
-      "prisoner"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "legacy",
-    "choices": [
-      "میراث",
-      "درگذشتگان",
-      "ایجاد",
-      "دکتر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "انجمن",
-    "choices": [
-      "portrait",
-      "iron",
-      "typical",
-      "society"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "توی",
-    "choices": [
-      "struggle",
-      "moon",
-      "tune",
-      "in"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "برحسب",
-    "choices": [
-      "Esfehan",
+      "always",
+      "steering wheel",
       "large",
-      "based on",
-      "late"
+      "relations"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "من همرای ------ خوش نیستم لطفا من را کمک کن",
+    "choices": [
+      "اصل",
+      "کد",
+      "حاکم",
+      "اسنپ فود"
+    ],
+    "answer": "اسنپ فود",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "گیرنده‌ی ایمیل جدید ------ آیا شما برای امروز برنامه‌ای داری",
+    "choices": [
+      "مانند",
+      "رضوی",
+      "ژوئن",
+      "ندا"
+    ],
+    "answer": "ندا",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "لیست ایجاد شده ------ را حذف کن",
+    "choices": [
+      "دیروز",
+      "ماده",
+      "بازار",
+      "بررسی"
+    ],
+    "answer": "دیروز",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "آیدی ------ را در مخاطبین من اضافه کن",
+    "choices": [
+      "بین",
+      "ان مینابی ات یاهو دات کام",
+      "فضای",
+      "پایین"
+    ],
+    "answer": "ان مینابی ات یاهو دات کام",
+    "type": "sentence",
+    "intent": "email_addcontact"
+  },
+  {
+    "question": "عکس در ------ بگذار",
+    "choices": [
+      "نامیده",
+      "ادبی",
+      "facebook",
+      "می‌گردد"
+    ],
+    "answer": "facebook",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "کوچک",
+    "choices": [
+      "cry",
+      "proximity",
+      "suggestion",
+      "small"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ را از لیست مخاطبین من حذف کن",
+    "choices": [
+      "روستاهای",
+      "مادر",
+      "همکاری",
+      "آب"
+    ],
+    "answer": "مادر",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "------ دا را شروع کن",
+    "choices": [
+      "پاپ",
+      "کتاب صوتی",
+      "هنری",
+      "به"
+    ],
+    "answer": "کتاب صوتی",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "Turkish",
+    "choices": [
+      "مسابقات",
+      "شامل",
+      "ترکی",
+      "ترک"
     ],
     "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "------ هوا بادی می شود",
+    "choices": [
+      "جوایز",
+      "پا",
+      "فردا",
+      "چیزی"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "آیا به ------ در مرد کنترل اسلحه ایمیل زدم",
+    "choices": [
+      "جنبش",
+      "علی",
+      "چشم",
+      "تحصیل"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "ثمر",
+    "choices": [
+      "exclude",
+      "result",
+      "mud",
+      "exclude"
+    ],
+    "answer": 1,
     "type": "translate_en_fa"
+  },
+  {
+    "question": "آهنگ ------ جدید پخش کن",
+    "choices": [
+      "طبقه",
+      "دور",
+      "پاپ",
+      "می‌رود"
+    ],
+    "answer": "پاپ",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "because",
+    "choices": [
+      "چون",
+      "چهار",
+      "دیده",
+      "بیت"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "تمام تقویم من را برای ------ حذف کن",
+    "choices": [
+      "مارس",
+      "دلار",
+      "امروز",
+      "انرژی"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "نزدیک",
+    "choices": [
+      "چهار",
+      "هنر",
+      "حکومت",
+      "دور"
+    ],
+    "answer": 3,
+    "type": "antonym"
   },
   {
     "question": "کسری دار",
     "choices": [
       "under",
-      "imported",
-      "organ",
-      "history"
+      "professor",
+      "for some time",
+      "after"
     ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "way",
+    "question": "یک بلیط ------ برای قطار بعدی به اصفهان بگیر",
     "choices": [
-      "حکم",
-      "طریق",
+      "درجه یک",
+      "دستور",
+      "غیر",
+      "کمتر"
+    ],
+    "answer": "درجه یک",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "گندم زار ------ از هفته قبل رو پخش کن",
+    "choices": [
+      "طرف",
+      "رادیو آوا",
+      "آبی",
+      "بازیکنان"
+    ],
+    "answer": "رادیو آوا",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "Mohammed",
+    "choices": [
+      "کار",
+      "محمد",
+      "می‌شوند",
+      "سنتی"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "لرزه",
+    "choices": [
+      "under",
+      "republic",
+      "tremor",
+      "two"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لطفا ------ را دوباره پخش کن",
+    "choices": [
+      "تهران",
+      "نامه ای به آیدا",
+      "کتاب",
+      "متفاوت"
+    ],
+    "answer": "نامه ای به آیدا",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "------ در کدام شهر زندگی می کند",
+    "choices": [
+      "بعد",
+      "پارسا پیروزفر",
+      "ارشد",
+      "شهرهای"
+    ],
+    "answer": "پارسا پیروزفر",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "الهه آخرین آپدیت ------ چیست",
+    "choices": [
+      "ارتباط",
+      "طوفان کاترینا",
+      "می‌گیرد",
+      "نشانی"
+    ],
+    "answer": "طوفان کاترینا",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "lunar",
+    "choices": [
+      "دید",
+      "شرح",
+      "قمری",
+      "باستان"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "می‌توانی ------ امروز من را بخوانی",
+    "choices": [
+      "گذاری",
+      "کاهش",
+      "افراد",
+      "جلسه‌های"
+    ],
+    "answer": "جلسه‌های",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "امروز",
+      "ادبیات",
+      "نفت",
+      "بررسی"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "چه رویدادهایی امروز در ------ در حال برگزاری است",
+    "choices": [
+      "اصفهان",
+      "بازدید",
+      "را",
+      "سه"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "آیا من در لیست ------ خود موز دارم",
+    "choices": [
+      "جز",
+      "خرید",
       "نظر",
+      "بالا"
+    ],
+    "answer": "خرید",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "------ چند ساله است",
+    "choices": [
+      "گوگوش",
+      "خاک",
+      "بهمن",
+      "گذاری"
+    ],
+    "answer": "گوگوش",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "ببین آیا ------ سفارشات بیرون‌بری انجام می دهد یا خیر",
+    "choices": [
+      "کیلومتر",
+      "فقط",
+      "رستوران",
+      "تشکیل"
+    ],
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "takeaway_query"
+  },
+  {
+    "question": "------ را خاموش کن",
+    "choices": [
+      "دریایی",
+      "گلستان",
+      "موضوع",
+      "دوشاخه‌ی مهسان"
+    ],
+    "answer": "دوشاخه‌ی مهسان",
+    "type": "sentence",
+    "intent": "iot_wemo_off"
+  },
+  {
+    "question": "interior",
+    "choices": [
+      "حرکت",
+      "قدر",
+      "باستان",
+      "درون"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا ------ به من ایمیل زده است",
+    "choices": [
+      "پخش",
+      "جمعیت",
+      "زندگینامه",
+      "دانشگاه تهران"
+    ],
+    "answer": "دانشگاه تهران",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "------ همه جا را دنبال تلفنم گشتم و نتوانستم پیدایش کنم",
+    "choices": [
+      "نور",
+      "تاریخی",
+      "امروز",
+      "پروژه"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "بازی ------ را باز کن",
+    "choices": [
+      "موج سواران مترو",
+      "مواد",
+      "امر",
+      "داده"
+    ],
+    "answer": "موج سواران مترو",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "تخت",
+    "choices": [
+      "flat",
+      "shout",
+      "theater",
+      "fracture"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "فیلم های در حال نمایش ------ در ساحل گیسوم را به من بگو",
+    "choices": [
+      "هاي",
+      "امشب",
+      "میلیون",
+      "رنگ"
+    ],
+    "answer": "امشب",
+    "type": "sentence",
+    "intent": "recommendation_movies"
+  },
+  {
+    "question": "برای ------ سه شنبه با حسین یادآوری تنظیم کن",
+    "choices": [
+      "جمع",
+      "خانه",
+      "جلسه",
+      "داده"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ باران می بارد",
+    "choices": [
+      "وب",
+      "عهده",
+      "دولت",
+      "فردا"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "سفر برنامه‌ریزی شده ------ را حذف کن",
+    "choices": [
+      "سیزدهم تیر",
+      "ارتفاع",
+      "بسته",
+      "پشت"
+    ],
+    "answer": "سیزدهم تیر",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "------ را در sirius پخش کن",
+    "choices": [
+      "مطالعات",
+      "اعدام",
+      "چند",
+      "رادیو جوان"
+    ],
+    "answer": "رادیو جوان",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "میتونی ------ بعدی من با رئیس در یک ساعت دیگر را قبل از شروع ------ به من یادآوری کنی",
+    "choices": [
+      "هدایت",
+      "جلسه",
+      "دیگری",
+      "همکاری"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "پخش آهنگ ------ را حالا شروع کن",
+    "choices": [
+      "دار",
+      "آبی",
+      "شعر",
+      "صدام بزن"
+    ],
+    "answer": "صدام بزن",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "با توجه به ترافیک فعلی چقدر طول می‌کشد تا به ------ برسم",
+    "choices": [
+      "دولت",
+      "خیابان پارک",
+      "بخش‌های",
+      "منابع"
+    ],
+    "answer": "خیابان پارک",
+    "type": "sentence",
+    "intent": "transport_traffic"
+  },
+  {
+    "question": "------ پخش کن",
+    "choices": [
+      "راک کلاسیک",
+      "آنجا",
+      "شمال",
+      "داستان"
+    ],
+    "answer": "راک کلاسیک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ پخش کن",
+    "choices": [
+      "تقویم",
+      "شادمهر عقیلی",
+      "سیاسی",
+      "خیلی"
+    ],
+    "answer": "شادمهر عقیلی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "زنگ هشدار برای ------ بگذار",
+    "choices": [
+      "خدمت",
+      "صبح",
+      "تبریز",
+      "بانک"
+    ],
+    "answer": "صبح",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "مخاطب‌های تجاری را به ------ اضافه کن",
+    "choices": [
+      "مهر",
+      "لیست مخاطبین",
+      "کمونیست",
+      "خاطر"
+    ],
+    "answer": "لیست مخاطبین",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "قرار ساعت ------ من را حذف کن",
+    "choices": [
+      "خون",
+      "کنند",
+      "یک و نیم",
+      "ایستگاه"
+    ],
+    "answer": "یک و نیم",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "که ارزان‌ترین نت‌بوک‌ها را در ------ می‌فروشد",
+    "choices": [
+      "معنای",
+      "خلق",
+      "شده",
+      "نکا"
+    ],
+    "answer": "نکا",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "مورد خرید تخم مرغ را از فهرست ------ حذف کن",
+    "choices": [
+      "اندازه",
+      "اند",
+      "کارهای انجام دادنی",
+      "رضوی"
+    ],
+    "answer": "کارهای انجام دادنی",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "زنگ هشدار چه ساعتی برای ------ فردا تنظیم شده است",
+    "choices": [
+      "تابع",
+      "درون",
+      "به",
+      "صبح"
+    ],
+    "answer": "صبح",
+    "type": "sentence",
+    "intent": "alarm_query"
+  },
+  {
+    "question": "قیمت سهام ------ را به من بده",
+    "choices": [
+      "پول",
+      "قدیمی",
+      "اپل",
+      "پادشاهی"
+    ],
+    "answer": "اپل",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "من می خواهم سهام ------ را بدانم",
+    "choices": [
+      "بخش‌های",
+      "مس سرچشمه",
+      "درگذشت",
+      "ادبیات"
+    ],
+    "answer": "مس سرچشمه",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "آیا ------ برای من ایمیل جدیدی ارسال کرده است",
+    "choices": [
+      "پرواز",
+      "علی آهنگر",
+      "کننده",
+      "دسته"
+    ],
+    "answer": "علی آهنگر",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "زشت",
+    "choices": [
+      "خوشگل",
+      "دهستان‌های",
+      "تدریس",
+      "می‌باشند"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "بیوک",
+    "choices": [
+      "big",
+      "selection",
+      "very",
+      "title"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "آیا ------ ژاکت لازم دارم",
+    "choices": [
+      "سخن",
+      "امروز",
+      "ساکن",
+      "قلعه"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "بازی ------ را شروع کن",
+    "choices": [
+      "مشترک",
+      "هوای",
+      "پیدا",
+      "اسپایدر"
+    ],
+    "answer": "اسپایدر",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "مبادله بین ------ و پوند انگلیس چقدر است",
+    "choices": [
+      "تاسیس",
+      "بطور",
+      "بعضی",
+      "دلار"
+    ],
+    "answer": "دلار",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "up",
+    "choices": [
+      "بالا",
+      "قم",
+      "براي",
+      "داشت"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "قیمت سهام ------ چقدر است",
+    "choices": [
+      "یک",
+      "سایپا",
+      "انجمن",
+      "متحد"
+    ],
+    "answer": "سایپا",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "علی من ------ به خرید رفتم و یک دیدلو بزرگ خریدم",
+    "choices": [
+      "جنگ",
+      "ویکی",
+      "امروز",
+      "تقویم"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "دستور پخت آرام پز برای ------",
+    "choices": [
+      "دورهٔ",
+      "دارد",
+      "سبک",
+      "آلفردو مرغ"
+    ],
+    "answer": "آلفردو مرغ",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "مشکل",
+    "choices": [
+      "times more",
+      "doctor",
+      "hard",
+      "beautiful"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "space",
+    "choices": [
+      "خودش",
+      "جا",
+      "بین‌المللی",
+      "محله"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "------ پخش کن",
+    "choices": [
+      "ایوان بند",
+      "نزدیک",
+      "داخلی",
+      "ایرانی"
+    ],
+    "answer": "ایوان بند",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "اولی چطور ------ درست کنم",
+    "choices": [
+      "برنج",
+      "تأثیر",
+      "سنت",
+      "مشاهیر"
+    ],
+    "answer": "برنج",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "لطفا سطح صدا را ------ تغییر بده",
+    "choices": [
+      "به نوزده",
+      "اولیه",
+      "چند",
+      "می‌شوند"
+    ],
+    "answer": "به نوزده",
+    "type": "sentence",
+    "intent": "audio_volume_up"
+  },
+  {
+    "question": "آهنگ ------ ابی را بزار",
+    "choices": [
+      "برنامه",
+      "عرب",
+      "بهار",
+      "نوازش"
+    ],
+    "answer": "نوازش",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "از کجا می‌توانم یک ------ در شعاع پانصد متری تهیه کنم",
+    "choices": [
+      "بین",
+      "دولتی",
+      "برگر خوب",
+      "توابع"
+    ],
+    "answer": "برگر خوب",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "لطفا ------ را روشن کن",
+    "choices": [
+      "تشکیل",
+      "رادیو راه",
+      "گرفتن",
+      "آمار"
+    ],
+    "answer": "رادیو راه",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "زنگ هشدار ------ را تنظیم کن",
+    "choices": [
+      "همانند",
+      "ده صبح",
+      "اهالی",
+      "فوتبال"
+    ],
+    "answer": "ده صبح",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "پلی لیستم تو ------ رو پخش کن.",
+    "choices": [
+      "باشگاه",
+      "مانند",
+      "سرانجام",
+      "رادیو جوان"
+    ],
+    "answer": "رادیو جوان",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "آیا تعریف ------ را می دانی",
+    "choices": [
+      "طریق",
+      "بشر",
+      "مدرسه",
+      "سرشماری"
+    ],
+    "answer": "مدرسه",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "آخری",
+    "choices": [
+      "اولی",
+      "ترجمه",
+      "سالهای",
+      "رده"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "می‌توانی این رویداد ------ را حذف کنی",
+    "choices": [
+      "نژاد",
+      "بی‌بی‌سی",
+      "مهمانی شام",
+      "نیروی"
+    ],
+    "answer": "مهمانی شام",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "می توانی قطارهای ------ به ساری را لیست کنی",
+    "choices": [
+      "فردا",
+      "استقلال",
+      "که",
+      "موقعیت"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "------ من را روشن کن",
+    "choices": [
+      "دنبال",
+      "یکم",
+      "سوکت مهسان",
+      "علوم"
+    ],
+    "answer": "سوکت مهسان",
+    "type": "sentence",
+    "intent": "iot_wemo_on"
+  },
+  {
+    "question": "some",
+    "choices": [
+      "خوانده",
+      "محصول",
+      "بعضی",
+      "مانده"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "release",
+    "choices": [
+      "تصویر",
+      "پاپ",
+      "بهترین",
+      "انتشار"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "------ را پخش کن",
+    "choices": [
+      "واژه",
+      "جهت",
+      "شدند",
+      "دا"
+    ],
+    "answer": "دا",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "جزئیات کار و زندگی ------",
+    "choices": [
+      "طرح",
+      "داریوش اقبالی",
+      "فیلم",
+      "پهلوی"
+    ],
+    "answer": "داریوش اقبالی",
+    "type": "sentence",
+    "intent": "music_query"
+  },
+  {
+    "question": "جزییاتی را در مورد ------ پیدا کن",
+    "choices": [
+      "ایالات متحده امریکا",
+      "همسر",
+      "برابر",
+      "متفاوت"
+    ],
+    "answer": "ایالات متحده امریکا",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "من چه رویدادهایی را برای ------ برنامه‌ریزی کرده‌ام",
+    "choices": [
+      "کمتر",
+      "امروز",
+      "حالت",
+      "عباس"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "آیا سهام ------ امروز بالا رفته است",
+    "choices": [
+      "پنجم",
+      "مناطق",
+      "مادیران",
+      "باقی"
+    ],
+    "answer": "مادیران",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "آهنگی از ژانر ------ را باز کن و پخش کن",
+    "choices": [
+      "صنعت",
+      "سوی",
+      "جاز",
+      "آخر"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "من می خواهم ------ برای تولد پری این شنبه آزاد کنم",
+    "choices": [
+      "تعیین",
+      "روستا",
+      "چاپ",
+      "پنج ساعت"
+    ],
+    "answer": "پنج ساعت",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "من می خواهم یک ایمیل به ایمیل ------ ارسال کنم",
+    "choices": [
+      "تولد",
+      "مسئول پذیرش جدید",
+      "آنها",
+      "مثل"
+    ],
+    "answer": "مسئول پذیرش جدید",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "در ------ چه می گذرد",
+    "choices": [
+      "جهان",
+      "رودخانه",
+      "فقط",
+      "عبارت"
+    ],
+    "answer": "جهان",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "ایا ------ هیچ اتفاق جالبی در توئیتر من افتاده است",
+    "choices": [
+      "مربع",
+      "امروز",
+      "مشغول",
+      "انتقال"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "social_query"
+  },
+  {
+    "question": "لطفا لامپ ها را ------ خاموش کن",
+    "choices": [
+      "ثبت",
+      "پاسیو",
+      "دلیل",
+      "اند"
+    ],
+    "answer": "پاسیو",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "question": "برای ------ در مورد مدیر ارتقا یافته نوشته کن برای تپه",
+    "choices": [
+      "بالا",
+      "فیسبوک",
+      "وضعیت",
+      "حل"
+    ],
+    "answer": "فیسبوک",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "در مورد ------ به من بگو",
+    "choices": [
+      "ماهی",
+      "نوشهر",
+      "آثار",
+      "مسلمانان"
+    ],
+    "answer": "نوشهر",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "------ را بیصدا کن",
+    "choices": [
+      "بلندگوهای اتاق نشیمن",
+      "نقش",
+      "سن",
+      "کودکان"
+    ],
+    "answer": "بلندگوهای اتاق نشیمن",
+    "type": "sentence",
+    "intent": "audio_volume_mute"
+  },
+  {
+    "question": "ترند امروز ------ را به من بده",
+    "choices": [
+      "پاناسونیک",
+      "کالیفرنیا",
+      "دارای",
+      "اعضای"
+    ],
+    "answer": "پاناسونیک",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "برای برنامه‌ریزی مجدد ------ ما به علی زنگ بزن",
+    "choices": [
+      "مارس",
+      "جلسه",
+      "خوانندگان",
+      "دهه"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ در ماه آینده را پاک کن",
+    "choices": [
+      "اقدام",
+      "جلسه مراقبت از چمن",
+      "روزنامه",
+      "ساله"
+    ],
+    "answer": "جلسه مراقبت از چمن",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "هی بیرون خیلی ------ امروز بعدالظهر هوا چند درجه هست",
+    "choices": [
+      "اسکار",
+      "شیراز",
+      "پادشاهی",
+      "گرمه"
+    ],
+    "answer": "گرمه",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "وضعیت آب و هوا در ------ چگونه است",
+    "choices": [
+      "دهه",
+      "استان‌های",
+      "می‌کرد",
+      "نوشهر"
+    ],
+    "answer": "نوشهر",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "بعدی ------ را پخش کن",
+    "choices": [
+      "کتاب",
+      "فشار",
+      "عاشقانه",
       "سفر"
     ],
+    "answer": "عاشقانه",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "میشه بگی چطوری ------ درست کنم",
+    "choices": [
+      "شیرینی خامه‌ای",
+      "بلند",
+      "گیاهان",
+      "ریشه"
+    ],
+    "answer": "شیرینی خامه‌ای",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "من باید موز را به فهرست ------ خود اضافه کنم",
+    "choices": [
+      "طرح",
+      "خواربار",
+      "جز",
+      "سیستم"
+    ],
+    "answer": "خواربار",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "برنامه‌ی این زندگی آمریکایی رو روی ------ پخش کن",
+    "choices": [
+      "گیلان",
+      "رادیوی ماشین",
+      "متحده",
+      "ترک"
+    ],
+    "answer": "رادیوی ماشین",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "------ دوشنبه‌ی بعد را حذف کن",
+    "choices": [
+      "می‌توانند",
+      "جلسه",
+      "جعبه",
+      "اوت"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "برای ------ چند جای خالی برای جلسه گذاشتن وجود داره",
+    "choices": [
+      "کلی",
+      "نشده",
+      "ماه آینده",
+      "تعریف"
+    ],
+    "answer": "ماه آینده",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "به من یک ------ معرفی کن",
+    "choices": [
+      "جهانی",
+      "نوشیدنی الکلی",
+      "علی",
+      "بندر"
+    ],
+    "answer": "نوشیدنی الکلی",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "لطفا همین الآن یک ------ رزرو کن",
+    "choices": [
+      "حد",
+      "ششم",
+      "اسنپ",
+      "دانشکده"
+    ],
+    "answer": "اسنپ",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "چه ------ موجودند",
+    "choices": [
+      "دفتر",
+      "مفهوم",
+      "کارگردانی",
+      "قطارهایی"
+    ],
+    "answer": "قطارهایی",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "بلندترین سازه در ------ چیست",
+    "choices": [
+      "امام",
+      "تلویزیونی",
+      "جهان",
+      "جریان"
+    ],
+    "answer": "جهان",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "آیا میتوانی این را در ------ بگذاری",
+    "choices": [
+      "مذهبی",
+      "فیسبوک",
+      "دهه",
+      "شخصی"
+    ],
+    "answer": "فیسبوک",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "من میخام موزیک ------ مورد علاقه ام را بشنوم",
+    "choices": [
+      "بیش",
+      "نیست",
+      "جاز",
+      "پنج"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "کم",
+      "بی‌بی‌سی",
+      "عامل",
+      "جاروبرقی رباتیک"
+    ],
+    "answer": "جاروبرقی رباتیک",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "لطفا ------ اتاق را خاموش کن",
+    "choices": [
+      "چراغ وسطی",
+      "نسخه",
+      "کشاورزی",
+      "فلسفه"
+    ],
+    "answer": "چراغ وسطی",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "question": "یک ------ برایم بگیر",
+    "choices": [
+      "ماشین",
+      "پرونده",
+      "آیت",
+      "من"
+    ],
+    "answer": "ماشین",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "هر پیام رویداد که در ------ در دسترس است",
+    "choices": [
+      "ها",
+      "دو روز اخیر",
+      "هنگامی",
+      "شهید"
+    ],
+    "answer": "دو روز اخیر",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "آهنگ ------ از شادمهر عقیلی پخش کن",
+    "choices": [
+      "کشاورزی",
+      "انقلاب",
+      "من بی تو",
+      "همچنین"
+    ],
+    "answer": "من بی تو",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "واثق",
+    "choices": [
+      "manager",
+      "volume",
+      "primary",
+      "certain"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "صدای ------ من را به هشتاد درصد تغییر بده",
+    "choices": [
+      "پخش کننده‌ی موسیقی",
+      "ویژه",
+      "وضعیت",
+      "یکی"
+    ],
+    "answer": "پخش کننده‌ی موسیقی",
+    "type": "sentence",
+    "intent": "audio_volume_up"
+  },
+  {
+    "question": "لطفا برای ------ با ماهان در ساعت ده صبح دوازدهم فروردین برنامه ریزی کن",
+    "choices": [
+      "خلیج",
+      "جلسه",
+      "محصول",
+      "می‌تواند"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "لطفا گزارش ترافیک ------ را به من بده",
+    "choices": [
+      "هنگام",
+      "امروز بعد از ظهر",
+      "دستور",
+      "موسوی"
+    ],
+    "answer": "امروز بعد از ظهر",
+    "type": "sentence",
+    "intent": "transport_traffic"
+  },
+  {
+    "question": "لطفا قیمت سهام ------ شرکت سامسونگ را پیدا کن",
+    "choices": [
+      "کارگردانی",
+      "شهرداری",
+      "شهید",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "اهنگ ------ پخش کن",
+    "choices": [
+      "لندن",
+      "هیپ هاپ",
+      "هاي",
+      "هوایی"
+    ],
+    "answer": "هیپ هاپ",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "لطفاً به ایمیلی که ------ برایم فرستاده بگو من اکنون به پول نیاز دارم فوری است",
+    "choices": [
+      "هیچ",
+      "جستارهای",
+      "آمریکایی",
+      "علی"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "آیا ------ برای رفتن سر کار باید پالتو بپوشم",
+    "choices": [
+      "کشف",
+      "دسته",
+      "فردا",
+      "بدون"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "با من ------ بازی کن",
+    "choices": [
+      "میزان",
+      "زن",
+      "پزشکی",
+      "جورچین"
+    ],
+    "answer": "جورچین",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "ایا میتونی برای ------ ساعت یک بعدازظهر برای جلسه ام یک یادآور تنظیم کنی",
+    "choices": [
+      "آلبوم",
+      "بازیگر",
+      "عصر",
+      "چهارشنبه"
+    ],
+    "answer": "چهارشنبه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ محلی در این منطقه را به من بگو",
+    "choices": [
+      "عنوان",
+      "رستوران‌های",
+      "صدا",
+      "بانک"
+    ],
+    "answer": "رستوران‌های",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "من می خواهم صدای ------ را بعد از این آهنگ بشنوم",
+    "choices": [
+      "مدتی",
+      "اسلام",
+      "ترانه",
+      "ابی"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "به ------ من ایمیل بفرست",
+    "choices": [
+      "رئیس",
+      "زنان",
+      "ولی",
+      "فشار"
+    ],
+    "answer": "رئیس",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "فایل صوتی ------ را پخش کن",
+    "choices": [
+      "شهرهای",
+      "رادیو کافه",
+      "ترانه",
+      "میانه"
+    ],
+    "answer": "رادیو کافه",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "------ من را از ادامه پخش کن",
+    "choices": [
+      "خانوار",
+      "کتاب صوتی",
+      "تصویر",
+      "پروژه"
+    ],
+    "answer": "کتاب صوتی",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "صیحه زدن",
+    "choices": [
+      "fire",
+      "cry",
+      "four",
+      "hajji"
+    ],
     "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "economy",
+    "choices": [
+      "اقتصاد",
+      "برنامه",
+      "متال",
+      "گیلان"
+    ],
+    "answer": 0,
     "type": "translate_fa_en"
   },
   {
-    "question": "خاموش",
+    "question": "آخرین اخبار فناوری ------ را برایش بفرست",
     "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "روشن",
-      "اعلام"
+      "موارد",
+      "آرمان",
+      "درباره",
+      "قبل"
+    ],
+    "answer": "آرمان",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "قیمت سهام ------ را به من نمایش بده",
+    "choices": [
+      "دید",
+      "قهرمانی",
+      "ایران خودرو",
+      "حاضر"
+    ],
+    "answer": "ایران خودرو",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "------ گرمه یا نه",
+    "choices": [
+      "دریا",
+      "میلادی",
+      "امروز",
+      "چیزی"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "یک بلیط ------ به ساری رزرو کن",
+    "choices": [
+      "جهت",
+      "دفاع",
+      "دسامبر",
+      "قطار"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "یک شکایت در مورد ------ توئیت کن",
+    "choices": [
+      "خدمات مشتریان دیجی کالا",
+      "قلعه",
+      "فرمان",
+      "فهرست"
+    ],
+    "answer": "خدمات مشتریان دیجی کالا",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "کمی ------ پخش کن",
+    "choices": [
+      "مشهور",
+      "انجمن",
+      "عضو",
+      "سافت راک"
+    ],
+    "answer": "سافت راک",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "بیرون",
+    "choices": [
+      "newspaper",
+      "interpretation",
+      "operation",
+      "outside of"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "ایا ------ هست",
+    "choices": [
+      "وب‌گاه",
+      "کشور",
+      "جمعه",
+      "جا"
+    ],
+    "answer": "جمعه",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "ترافیک نزدیک ------ چقدر بد است",
+    "choices": [
+      "خودش",
+      "فرودگاه",
+      "جنوب",
+      "پاسخ"
+    ],
+    "answer": "فرودگاه",
+    "type": "sentence",
+    "intent": "transport_traffic"
+  },
+  {
+    "question": "------ در محل کار با چه کسی جلسه دارم",
+    "choices": [
+      "فضایی",
+      "تعیین",
+      "فردا",
+      "شناخته"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "آیا من برای ------ قراری دارم",
+    "choices": [
+      "امشب",
+      "مناسبت‌ها",
+      "نه",
+      "چون"
+    ],
+    "answer": "امشب",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "کاری کن که ------ عصر ساعت پنج در تقویم من همیشه ملاقات با حسین باشد",
+    "choices": [
+      "تپه",
+      "ضد",
+      "چهارشنبه",
+      "نیاز"
+    ],
+    "answer": "چهارشنبه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "known",
+    "choices": [
+      "جشنواره",
+      "اینترنتی",
+      "شناخته",
+      "استان‌های"
     ],
     "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "بیشتر",
-    "choices": [
-      "new",
-      "the majority of",
-      "system",
-      "young"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آفتاب",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "مهتاب"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "یمین",
-    "choices": [
-      "rate",
-      "right",
-      "February",
-      "old days"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "girl",
-    "choices": [
-      "ایالت",
-      "ویکی‌پدیای",
-      "مانند",
-      "دختر"
-    ],
-    "answer": 3,
     "type": "translate_fa_en"
   },
   {
-    "question": "sediment",
+    "question": "هیچوقت برای من موزیک ------ نذار",
     "choices": [
-      "نیویورک",
-      "محمدرضا",
-      "جرم",
+      "اهالی",
+      "کانتری",
+      "خاصی",
+      "چه"
+    ],
+    "answer": "کانتری",
+    "type": "sentence",
+    "intent": "music_dislikeness"
+  },
+  {
+    "question": "خلیج",
+    "choices": [
+      "zinc",
+      "gulf",
+      "portrait",
+      "bitter"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "آیا من ------ قرار ناهار دارم",
+    "choices": [
+      "شدند",
+      "چشمه",
+      "امروز",
+      "ژوئیه"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "محبوب ترین موزیک ------ من را پخش کن",
+    "choices": [
+      "دلیل",
+      "یک",
+      "کانتری",
+      "افراد"
+    ],
+    "answer": "کانتری",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "شطرنج",
+      "پادشاهی",
+      "استرالیا",
+      "سبب"
+    ],
+    "answer": "شطرنج",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "توپوگرافی کلی ------ را توضیح بده",
+    "choices": [
+      "آذر",
+      "المپیک",
+      "شماره",
+      "پارک جمشیدیه"
+    ],
+    "answer": "پارک جمشیدیه",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "------ کجاست",
+    "choices": [
+      "خدا",
+      "نشده",
+      "مجسمه آزادی",
       "قاجار"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "مجسمه آزادی",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "زندانی کردن",
+    "question": "علی ------ از کجا شروع می شود",
     "choices": [
-      "on",
-      "daytime",
-      "source",
-      "imprison"
+      "رشته کوه‌های البرز",
+      "سپس",
+      "هنری",
+      "مسیر"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "رشته کوه‌های البرز",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "جهل",
+    "question": "اداره",
     "choices": [
-      "verdict",
-      "portion",
-      "providing",
+      "off",
+      "office",
+      "Ordibehesht",
       "ignorance"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "راستین",
+    "question": "لیست ------ امروز من چیست",
     "choices": [
-      "real",
-      "free",
-      "based on",
-      "crooked"
+      "قدیمی",
+      "معاصر",
+      "کارهای",
+      "چنین"
+    ],
+    "answer": "کارهای",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "مرخصی",
+    "choices": [
+      "off",
+      "free will",
+      "lack",
+      "side"
     ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "عنیف",
+    "question": "بیا یک بازی کنیم ------ چطوره",
     "choices": [
-      "piece",
-      "severe",
-      "closed",
-      "Saltanat"
+      "شرایط",
+      "بسیار",
+      "tic tac toe",
+      "زمانی"
+    ],
+    "answer": "tic tac toe",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "لیست آهنگ های ------ من را پخش کن",
+    "choices": [
+      "راک",
+      "خوانندگان",
+      "داستان",
+      "رفته"
+    ],
+    "answer": "راک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "چه رویدادهایی برای ------ دارم",
+    "choices": [
+      "تحت",
+      "هفته آینده",
+      "ج",
+      "فرانسه"
+    ],
+    "answer": "هفته آینده",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "آهنگ ------",
+    "choices": [
+      "سازمان",
+      "ایوان بند",
+      "خوانندگان",
+      "مناطق"
+    ],
+    "answer": "ایوان بند",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "یک یادآور قرار ------ تنظیم کن",
+    "choices": [
+      "هفتگی",
+      "یمن",
+      "تدریس",
+      "شورای"
+    ],
+    "answer": "هفتگی",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "میتوانی به پخش ------ دا ادامه دهی",
+    "choices": [
+      "احتمال",
+      "گاز",
+      "کتاب صوتی",
+      "اکتبر"
+    ],
+    "answer": "کتاب صوتی",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "آخرین اخبار در مورد ------ چیست",
+    "choices": [
+      "چشم",
+      "دونالد ترامپ",
+      "داشتن",
+      "باب"
+    ],
+    "answer": "دونالد ترامپ",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "با ------ به اشتراک بگذار",
+    "choices": [
+      "ویژه",
+      "همین",
+      "وی",
+      "twitter"
+    ],
+    "answer": "twitter",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "قیمت الان ------ چنده",
+    "choices": [
+      "سایپا",
+      "نگاه",
+      "نظیر",
+      "دنبال"
+    ],
+    "answer": "سایپا",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "اطلاعات ------ را در مورد محل کارش را بیاب",
+    "choices": [
+      "علی احمدی",
+      "دوران",
+      "خان",
+      "خورشید"
+    ],
+    "answer": "علی احمدی",
+    "type": "sentence",
+    "intent": "email_querycontact"
+  },
+  {
+    "question": "آیا ------ در این نزدیکی هست",
+    "choices": [
+      "شخص",
+      "منجر",
+      "خواروبار فروشی",
+      "وزیر"
+    ],
+    "answer": "خواروبار فروشی",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "یک ایمیل به ------ بفرست با این مضمون که پروژه تمام شده لطفا صورتحساب برای من ارسال کن",
+    "choices": [
+      "بنابراین",
+      "علی",
+      "تبریز",
+      "پیش"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "------ سفارش بده",
+    "choices": [
+      "تنها",
+      "عضو",
+      "هایدا",
+      "علوم"
+    ],
+    "answer": "هایدا",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "کیلومتر",
+    "choices": [
+      "kilometer",
+      "Esmail",
+      "Islam",
+      "eight"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ هفته‌ی آینده را به من یادآوری کن",
+    "choices": [
+      "جلسه‌ی",
+      "کرمان",
+      "تعداد",
+      "حمله"
+    ],
+    "answer": "جلسه‌ی",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "قیمت سهام باز شده کامپیوترهای ------ را به من بده",
+    "choices": [
+      "‌",
+      "acer",
+      "سازمان",
+      "میدان"
+    ],
+    "answer": "acer",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "آزادی اراده",
+    "choices": [
+      "resulting",
+      "free will",
+      "wet",
+      "rank"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "خراسان",
+    "question": "------ کی از ایستگاه ساعی راه می افتد",
     "choices": [
-      "agreement",
-      "loaded",
-      "Khorasan",
-      "court"
+      "برخوردار",
+      "ساختار",
+      "فعالیت",
+      "قطار"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_query"
   },
   {
-    "question": "oriental",
+    "question": "تنبل",
     "choices": [
-      "بی‌بی‌سی",
-      "شرقی",
-      "کاهش",
-      "استقلال"
+      "زرنگ",
+      "ورودی",
+      "کسب",
+      "ایالات"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": 0,
+    "type": "antonym"
   },
   {
-    "question": "subscriber",
+    "question": "شامل",
     "choices": [
-      "استان‌های",
-      "پسر",
-      "ق",
-      "مشترک"
+      "رفته",
+      "دوره",
+      "يا",
+      "محروم"
     ],
     "answer": 3,
+    "type": "antonym"
+  },
+  {
+    "question": "ساعت ------ مرا بیدار کن",
+    "choices": [
+      "بنا",
+      "پنج و نیم",
+      "یونان",
+      "فوق"
+    ],
+    "answer": "پنج و نیم",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "جستجوی ------ کشور ایران",
+    "choices": [
+      "خوانندگان",
+      "محلی",
+      "تعطیلات خاص",
+      "میلیون"
+    ],
+    "answer": "تعطیلات خاص",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "زنگ هشدار ساعت ------ عصر امروز را با برچسب تاکسی تنظیم کن",
+    "choices": [
+      "پنج",
+      "هوای",
+      "یمن",
+      "بنیاد"
+    ],
+    "answer": "پنج",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "central",
+    "choices": [
+      "مرکزی",
+      "ان",
+      "پرورش",
+      "سنتی"
+    ],
+    "answer": 0,
     "type": "translate_fa_en"
   },
   {
-    "question": "تیر",
+    "question": "پایان",
     "choices": [
-      "ignorance",
-      "tir",
-      "united",
-      "go"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "counted",
-    "choices": [
-      "پایه",
-      "کنند",
-      "خط",
-      "محسوب"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شهر",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "دهات",
-      "اعلام"
+      "خارج",
+      "ممکن",
+      "آغاز",
+      "میلادی"
     ],
     "answer": 2,
     "type": "antonym"
   },
   {
-    "question": "tune",
+    "question": "غذای همیشگی را از ------ سفارش بده",
     "choices": [
-      "اولین",
-      "جریان",
-      "عملیات",
-      "آهنگ"
+      "سی",
+      "زمین",
+      "نقاشی",
+      "عطاویچ"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "عطاویچ",
+    "type": "sentence",
+    "intent": "takeaway_order"
   },
   {
-    "question": "India",
+    "question": "------ چند شنبه است",
     "choices": [
-      "مرداد",
-      "ریاست",
-      "ثابت",
+      "دانشگاه",
+      "الدین",
+      "شهرستان",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "لطفا ------ را روشن کن",
+    "choices": [
+      "جارو برقی",
+      "فرانسوی",
+      "علمی",
+      "سیاسی"
+    ],
+    "answer": "جارو برقی",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "آیا ------ برای رفتن سر کار به چتر احتیاج دارم",
+    "choices": [
+      "آثار",
+      "سرانجام",
+      "تاکنون",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "برای ------ جواب نده",
+    "choices": [
+      "زندان",
+      "کرده‌است",
+      "پنجاه ثانیه",
+      "کتابخانه"
+    ],
+    "answer": "پنجاه ثانیه",
+    "type": "sentence",
+    "intent": "audio_volume_mute"
+  },
+  {
+    "question": "تمام رویدادهای ------ را حذف کن",
+    "choices": [
+      "بنابر",
+      "گذاری",
+      "خلق",
+      "پنج روز آینده"
+    ],
+    "answer": "پنج روز آینده",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "لطفا لیست ------ را از مجموعه لیست‌های من حذف کن",
+    "choices": [
+      "بزرگ",
+      "گرفت",
+      "خواروبار",
+      "ایتالیا"
+    ],
+    "answer": "خواروبار",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "درباره ------ به من بگو",
+    "choices": [
+      "مدل",
+      "شامل",
+      "محمد مصدق",
+      "پاسخ"
+    ],
+    "answer": "محمد مصدق",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "رادیو ------ پخش کن.",
+    "choices": [
+      "رودخانه",
+      "کلی",
+      "پاندورا",
+      "دانشگاه"
+    ],
+    "answer": "پاندورا",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "لطفاً ------ و عرفان را به جلسه‌ای در روز پنج‌شنبه در ساعت سه بعدازظهر دعوت کن",
+    "choices": [
+      "گاهی",
+      "ماهان احمدی",
+      "سایر",
+      "عبارتند"
+    ],
+    "answer": "ماهان احمدی",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "یک ------ به فروشگاه رفاه بنویس بگو که آنها باید به جای شهروند بسته می‌شدند",
+    "choices": [
+      "هجری",
+      "توئیت",
+      "تر",
+      "مه"
+    ],
+    "answer": "توئیت",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "من ------ چه کار انجام می دهم",
+    "choices": [
+      "امروز",
+      "اش",
+      "تقسیمات",
+      "فرهنگی"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "لطفا زنگ ساعت را برای ------ آینده ساعت شش و نیم صبح تنظیم کن",
+    "choices": [
+      "فراهم",
+      "اعضای",
+      "بعضی",
+      "جمعه"
+    ],
+    "answer": "جمعه",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "به من بگو الان در ------ ساعت چند است",
+    "choices": [
+      "ایران",
+      "انتشار",
+      "آقای",
+      "مرگ"
+    ],
+    "answer": "ایران",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "------ جوکی که می دانی چیست",
+    "choices": [
+      "خورشید",
+      "بامزه‌ترین",
+      "دولت",
       "هند"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "بامزه‌ترین",
+    "type": "sentence",
+    "intent": "general_joke"
   },
   {
-    "question": "official",
+    "question": "لطفاً فیلم‌های پخش شده در ------ اطراف را بررسی کن",
     "choices": [
-      "رسمی",
-      "باستانی",
-      "یکی",
-      "اتحاد"
+      "برنامه",
+      "سینماهای",
+      "اعلام",
+      "علاوه"
+    ],
+    "answer": "سینماهای",
+    "type": "sentence",
+    "intent": "recommendation_movies"
+  },
+  {
+    "question": "یک جایگزین گیاهی خوب برای ------ چیست",
+    "choices": [
+      "تخم مرغ",
+      "هیچ",
+      "آبان",
+      "بخشی"
+    ],
+    "answer": "تخم مرغ",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "------ اتاق را تاریک کن",
+    "choices": [
+      "کمی",
+      "آتش",
+      "ابهام‌زدایی",
+      "نبرد"
+    ],
+    "answer": "کمی",
+    "type": "sentence",
+    "intent": "iot_hue_lightdim"
+  },
+  {
+    "question": "واثق",
+    "choices": [
+      "certain",
+      "off",
+      "ignorance",
+      "murdered"
     ],
     "answer": 0,
-    "type": "translate_fa_en"
+    "type": "translate_en_fa"
   },
   {
-    "question": "order",
+    "question": "------ با دندانپزشک در دوم خرداد را به من یادآوری کن",
     "choices": [
-      "باب",
-      "امر",
-      "گردد",
-      "برج"
+      "سی",
+      "زمان",
+      "جلسه",
+      "مانند"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "strength",
+    "question": "machine",
     "choices": [
-      "عمر",
-      "تمام",
-      "پرداخت",
-      "توان"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شاد",
-    "choices": [
-      "union",
-      "stranger",
-      "happy",
-      "century"
+      "خارجی",
+      "عملیات",
+      "ماشین",
+      "را"
     ],
     "answer": 2,
-    "type": "translate_en_fa"
+    "type": "translate_fa_en"
   },
   {
     "question": "قمر",
     "choices": [
-      "go",
       "moon",
-      "beautiful",
-      "beautiful"
+      "distribution",
+      "person",
+      "year old"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "سست بودن",
+    "choices": [
+      "imprison",
+      "economy",
+      "trip",
+      "lazy"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ های خواننده هایده پخش کن",
+    "choices": [
+      "آهنگ",
+      "خارج",
+      "اقتصادی",
+      "قلعه"
+    ],
+    "answer": "آهنگ",
+    "type": "sentence",
+    "intent": "music_settings"
+  },
+  {
+    "question": "Pavlavi",
+    "choices": [
+      "معماری",
+      "می‌گیرد",
+      "پهلوی",
+      "کنار"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا می توانم ------ بیرون بری از عطاویچ سفارش بدهم",
+    "choices": [
+      "بیمارستان",
+      "گرفته‌است",
+      "تهران",
+      "شام"
+    ],
+    "answer": "شام",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "آیا ------ تک فرزند است",
+    "choices": [
+      "تام کروز",
+      "بزرگ‌ترین",
+      "حقوق",
+      "می‌آید"
+    ],
+    "answer": "تام کروز",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "هی ------ چهار چه ساعتی از ایستگاه می ره بیرون",
+    "choices": [
+      "بزرگ‌ترین",
+      "قطار",
+      "مسیر",
+      "امر"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "------ من چه زمانی است",
+    "choices": [
+      "جلسه",
+      "مشاهده",
+      "آموزشی",
+      "فرد"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "لطفا ------ در حوالی من را به من نشان بده",
+    "choices": [
+      "کشته",
+      "گرفت",
+      "درباره",
+      "ماراتن"
+    ],
+    "answer": "ماراتن",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "یک ------ تقویمی به نادر ارسال کن",
+    "choices": [
+      "دارد",
+      "قرار",
+      "آمریکا",
+      "جعبه"
+    ],
+    "answer": "قرار",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ در برابر پوند چقدر می ارزد",
+    "choices": [
+      "هستند",
+      "دلار آمریکا",
+      "مشاهده",
+      "جنگ"
+    ],
+    "answer": "دلار آمریکا",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "مشفق",
+    "choices": [
+      "kind",
+      "rule",
+      "closed",
+      "new"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "مهندسی",
+    "choices": [
+      "other",
+      "post",
+      "engineering",
+      "way"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "در رادیو ماشین ------ را روشن کن",
+    "choices": [
+      "رادیو جوان",
+      "دوباره",
+      "حالت",
+      "ایالت"
+    ],
+    "answer": "رادیو جوان",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "گزارش وضع هوای ------ را بده",
+    "choices": [
+      "شاعر",
+      "جدا",
+      "آبادان",
+      "دادن"
+    ],
+    "answer": "آبادان",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "خبرهای ------ امروز را به من بده",
+    "choices": [
+      "داشتن",
+      "ورزشی",
+      "خون",
+      "اصل"
+    ],
+    "answer": "ورزشی",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "فهرستی از برنامه کنسرت ------ تهیه کن",
+    "choices": [
+      "شرقی",
+      "جزیره",
+      "گوگوش",
+      "شوند"
+    ],
+    "answer": "گوگوش",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "چه چیزهایی برای ------ خود نیاز دارم",
+    "choices": [
+      "سفر",
+      "فرمان",
+      "واحد",
+      "دادگان"
+    ],
+    "answer": "سفر",
+    "type": "sentence",
+    "intent": "lists_query"
+  },
+  {
+    "question": "باید یک ------ رزرو کنم",
+    "choices": [
+      "دارای",
+      "کتابخانه",
+      "رتبه",
+      "تاکسی"
+    ],
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "------ در اخبار چه داریم",
+    "choices": [
+      "چپ",
+      "امروز",
+      "بازدید",
+      "آمریکا"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "سطح",
+    "choices": [
+      "made",
+      "area",
+      "May",
+      "mother"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "سفید",
+    "question": "شهر پایتخت ------ چیست",
     "choices": [
+      "البرز",
+      "خارجی",
+      "طرف",
+      "بسته"
+    ],
+    "answer": "البرز",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "آهنگ هایی از ------ پخش کن",
+    "choices": [
+      "ابی",
+      "ایرانی",
+      "آیت",
+      "کره"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ که عطاویچ شهرک اکباتان سرویس افتضاحی دارد",
+    "choices": [
+      "توییت کن",
+      "حضور",
+      "تپه",
+      "کارگردانی"
+    ],
+    "answer": "توییت کن",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "احتیاط",
+    "choices": [
+      "سد",
+      "ه",
+      "بااحتیاط",
+      "گسترش"
+    ],
+    "answer": 2,
+    "type": "antonym"
+  },
+  {
+    "question": "occupied",
+    "choices": [
+      "گیری",
+      "روستا",
+      "دل",
+      "مشغول"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "------ را باز کن",
+    "choices": [
+      "گاز",
+      "آمد",
+      "تابع",
+      "fifa seventeen"
+    ],
+    "answer": "fifa seventeen",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "پریرو",
+    "choices": [
+      "awak",
+      "scared",
+      "beautiful",
+      "subordinate"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "ته",
+    "choices": [
+      "such a",
+      "centers",
+      "industrious",
+      "bottom"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ علی را نشان بده",
+    "choices": [
+      "کیلومتر",
+      "اختیار",
+      "مقابل",
+      "آدرس"
+    ],
+    "answer": "آدرس",
+    "type": "sentence",
+    "intent": "email_querycontact"
+  },
+  {
+    "question": "برابر",
+    "choices": [
+      "variation",
+      "four",
+      "model",
+      "times more"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "ساعت الان ------",
+    "choices": [
+      "مطالعات",
+      "مطلق",
+      "تئاتر",
+      "اصفهان"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "اش",
+      "نویسنده",
+      "براساس",
+      "منطقه زمانی خلیج فارس"
+    ],
+    "answer": "منطقه زمانی خلیج فارس",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "------ قریب‌الوقوع من را به تقویم من اضافه کن",
+    "choices": [
+      "جلسه",
+      "ساخته",
+      "پشت",
+      "ارومیه"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "آیا از ------ به شاهرود برای ظهر قطار هست",
+    "choices": [
+      "اساس",
+      "دید",
+      "دامغان",
+      "نظام"
+    ],
+    "answer": "دامغان",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "------ یک بلیط قطار سیر و سفر بخر",
+    "choices": [
+      "پنج شنبه",
+      "توسط",
       "سیاه",
-      "سایت",
-      "ابهام‌زدایی",
+      "کمک"
+    ],
+    "answer": "پنج شنبه",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "یک ------ به ساری برای من پیدا کن",
+    "choices": [
+      "قطار",
+      "کردن",
+      "تقریباً",
+      "بود"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "ارزون",
+    "choices": [
+      "گرون",
+      "کنید",
+      "نور",
+      "تمام"
+    ],
+    "answer": 0,
+    "type": "antonym"
+  },
+  {
+    "question": "چه ------ برای این هفته در رشت برنامه ریزی شده است",
+    "choices": [
+      "قهرمانی",
+      "قرآن",
+      "مسلمانان",
+      "بازی‌های بیسبال"
+    ],
+    "answer": "بازی‌های بیسبال",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "------ را پیدا کن",
+    "choices": [
+      "مستقل",
+      "بی",
+      "محمود",
+      "لیست پخش بیست و پنج باند"
+    ],
+    "answer": "لیست پخش بیست و پنج باند",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "آهنگ از ------ بزار",
+    "choices": [
+      "مرداد",
+      "ابی",
+      "آهنگ",
+      "شکست"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "رویدادهای محلی ------",
+    "choices": [
+      "بوده‌است",
+      "ها",
+      "امروز",
+      "می‌گوید"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "------ در مورد پیتزای سرد توئیت کن",
+    "choices": [
+      "همچون",
+      "سلطنت",
+      "دفاع",
+      "پیتزا پاشا"
+    ],
+    "answer": "پیتزا پاشا",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "آیا ------ بین هشت صبح تا پنج بعدازظهر قرار جایی دارم",
+    "choices": [
+      "نور",
+      "شیعه",
+      "امروز",
+      "رسید"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "military",
+    "choices": [
+      "چشم",
+      "موقعیت",
+      "معرفی",
+      "ارتش"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "Sinai Mountain",
+    "choices": [
+      "ساز",
+      "دانش",
+      "بعدی",
+      "طور"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "وابسته",
+    "choices": [
+      "young",
+      "related",
+      "country",
+      "selection"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "Saltanat",
+    "choices": [
+      "سلطنت",
+      "دهستان‌های",
+      "طبق",
+      "انتشارات"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "آیا تا ------ دما کاهش می‌یابد",
+    "choices": [
+      "قانون",
+      "محسن",
+      "شب",
+      "معمولاً"
+    ],
+    "answer": "شب",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "من مایلم آمار چیزهایی که برای من انجام شده است را بدانم مثلا هر چند وقت یک بار ------ بیرون غذا خورده ام",
+    "choices": [
+      "دستگاه",
+      "سعید",
+      "این ماه",
+      "فهرست"
+    ],
+    "answer": "این ماه",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "الکسا به ------ ایمیل بزن و بپرس هوا آنجا چطور است",
+    "choices": [
+      "اسکار",
+      "شیر",
+      "مامان",
+      "ثبت"
+    ],
+    "answer": "مامان",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "خب گوگل بهترین و مقرون به صرفه‌ترین مکان برای اقامت در ------ کجاست",
+    "choices": [
+      "رشت",
+      "محمد",
+      "پس",
+      "پایین"
+    ],
+    "answer": "رشت",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "رویداد ------ فردای من را حذف کن",
+    "choices": [
+      "خارجی",
+      "شام",
+      "مرتبط",
+      "روش"
+    ],
+    "answer": "شام",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "که در ------ برای من ایمیل فرستاده است",
+    "choices": [
+      "یاد",
+      "اساس",
+      "مطلق",
+      "هفته‌ی گذشته"
+    ],
+    "answer": "هفته‌ی گذشته",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "------ را خاموش کن",
+    "choices": [
+      "زمین",
+      "آمد",
+      "اجرام",
+      "سوکت هوشمند"
+    ],
+    "answer": "سوکت هوشمند",
+    "type": "sentence",
+    "intent": "iot_wemo_off"
+  },
+  {
+    "question": "ایمیل ------ من را برای کلاهبرداری چک کن",
+    "choices": [
+      "داشتند",
+      "ارائه",
+      "هرزنامه",
+      "قبلی"
+    ],
+    "answer": "هرزنامه",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "هی کنار سفارش قبلی ام یک ------ هم سفارش بده",
+    "choices": [
+      "تشخیص",
+      "نفت",
+      "قبل",
+      "بال کبابی"
+    ],
+    "answer": "بال کبابی",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "قیمت بسته شده امروز ------",
+    "choices": [
+      "وب",
+      "هنوز",
+      "گوگل",
       "اعلام"
     ],
+    "answer": "گوگل",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "تعریف ------ چیست",
+    "choices": [
+      "یاد",
+      "تقریباً",
+      "زودرس",
+      "جستارهای"
+    ],
+    "answer": "زودرس",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "------ مامان در روز پانزدهم اردیبهشت را به تقویم من اضافه کن",
+    "choices": [
+      "شام مد",
+      "اتحاد",
+      "محمدرضا",
+      "کلیسای"
+    ],
+    "answer": "شام مد",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "رویداد ------ مجید را تنظیم کن",
+    "choices": [
+      "انتخاب",
+      "تولد",
+      "اعداد",
+      "عالی"
+    ],
+    "answer": "تولد",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "آیا ------ هنوز زنده است",
+    "choices": [
+      "ملی",
+      "طبقه",
+      "کلمه",
+      "الیزابت تیلور"
+    ],
+    "answer": "الیزابت تیلور",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "سرخط خبرهای ------",
+    "choices": [
+      "صدای آمریکا",
+      "توسعه",
+      "داد",
+      "فوریه"
+    ],
+    "answer": "صدای آمریکا",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "آیا می‌توانی دعوتنامه ------ را در دوشنبه آینده ساعت شش بعدازظهر به آقای تبریزی ارسال کنی",
+    "choices": [
+      "پر",
+      "جلسه",
+      "زیبا",
+      "باعث"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "آیا می توانی به من اطلاع بدی چه چیزی برای ------ دارم",
+    "choices": [
+      "سینما",
+      "این هفته",
+      "ارائه",
+      "گروهی"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ امروز اراک چطور خواهد بود",
+    "choices": [
+      "دمای هوای",
+      "اصفهان",
+      "موضوع",
+      "سخت"
+    ],
+    "answer": "دمای هوای",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "یک ایمیل جدید به ------ بفرست",
+    "choices": [
+      "علوم",
+      "برابر",
+      "زمزم ات جیمیل دات کام",
+      "خیلی"
+    ],
+    "answer": "زمزم ات جیمیل دات کام",
+    "type": "sentence",
+    "intent": "email_sendemail"
+  },
+  {
+    "question": "بیا ------ بازی کنیم",
+    "choices": [
+      "استاندارد",
+      "چکرز",
+      "خویش",
+      "کشاورزی"
+    ],
+    "answer": "چکرز",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "هر ------ خوبی که شد",
+    "choices": [
+      "می‌شوند",
+      "دهد",
+      "طول",
+      "فست فود"
+    ],
+    "answer": "فست فود",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "لطفا تاریخ ------ را که برای این جمعه در ساعت نه شب برنامه‌ریزی شده است حذف کن",
+    "choices": [
+      "خط",
+      "آمده",
+      "زیبا",
+      "شام"
+    ],
+    "answer": "شام",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "رابطه",
+    "choices": [
+      "relation",
+      "ancient",
+      "end",
+      "length"
+    ],
+    "answer": 0,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "آیا زنگ هشدار ------ صبح تنظیم شده است",
+    "choices": [
+      "اینکه",
+      "عبارت",
+      "مورد",
+      "فردا"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "alarm_query"
+  },
+  {
+    "question": "قدیمی",
+    "choices": [
+      "نو",
+      "کردستان",
+      "طرح",
+      "دین"
+    ],
     "answer": 0,
     "type": "antonym"
   },
   {
-    "question": "توقف",
+    "question": "من میخوام فایل صوتی ------ از کانال مورد علاقه ام را گوش بدم",
     "choices": [
-      "سایت",
-      "حرکت",
-      "اعلام",
+      "دیروز",
+      "تو",
+      "اعمال",
+      "آیت"
+    ],
+    "answer": "دیروز",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "------ جلسه جمعه من با امیر به من یادآوری کن",
+    "choices": [
+      "بیست و چهار ساعت قبل از",
+      "اندازه",
+      "بار",
       "ابهام‌زدایی"
     ],
-    "answer": 1,
-    "type": "antonym"
+    "answer": "بیست و چهار ساعت قبل از",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "sign",
+    "question": "بگو چرا ------ بهتر از رامبد جوان است",
     "choices": [
-      "مسعود",
-      "وب",
-      "کنار",
+      "اجازه",
+      "خصوصی",
+      "جای",
+      "مکس امینی"
+    ],
+    "answer": "مکس امینی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "هوای ------",
+    "choices": [
+      "ارسنجان",
+      "زمینه",
+      "سایت",
+      "کودکان"
+    ],
+    "answer": "ارسنجان",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "آیا می توانی برای ------ شام سوشی سفارش بدهی",
+    "choices": [
+      "پشت",
+      "رویدادها",
+      "چرا",
+      "امشب"
+    ],
+    "answer": "امشب",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "قیمت سهام ------ چقدر است",
+    "choices": [
+      "منتشر",
+      "حمله",
+      "مهاجرت",
+      "گوگل"
+    ],
+    "answer": "گوگل",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "تقسیمات",
+      "وبگاه",
+      "گرگان",
+      "روستا"
+    ],
+    "answer": "گرگان",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "اگر در ------ چهار بعد از ظهر باشد در تهران ساعت چند است",
+    "choices": [
+      "اردبیل",
+      "عبارت",
+      "سنت",
+      "نزدیک"
+    ],
+    "answer": "اردبیل",
+    "type": "sentence",
+    "intent": "datetime_convert"
+  },
+  {
+    "question": "pond",
+    "choices": [
+      "هفتم",
+      "روستا",
+      "مجموعه",
+      "دریاچه"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "علی چه مقدار زمان برا ی ------ ماکارونی لازم است",
+    "choices": [
+      "زیر",
+      "میلاد",
+      "پختن",
+      "وزیر"
+    ],
+    "answer": "پختن",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "هستند",
+      "دسترسی",
+      "گروه‌های",
+      "اصفهان"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "------ بعدی چه تاریخی هست",
+    "choices": [
+      "فناوری",
+      "دهستان",
+      "سه شنبه",
+      "بسته"
+    ],
+    "answer": "سه شنبه",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "------ صحبت نکن",
+    "choices": [
+      "علیه",
+      "امروز",
+      "منطقه",
+      "نظام"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "audio_volume_mute"
+  },
+  {
+    "question": "طرح",
+    "choices": [
+      "Kerman",
+      "bitter",
+      "project",
+      "spreading"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "لطفا به من بگو کلمه ------ به چه معناست",
+    "choices": [
+      "اولین",
+      "ویکی",
+      "برتر",
+      "خانه"
+    ],
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "من می خواهم ------ را اکنون خاموش کنم",
+    "choices": [
+      "سوکت هوشمند",
+      "نظر",
+      "ساختار",
+      "حل"
+    ],
+    "answer": "سوکت هوشمند",
+    "type": "sentence",
+    "intent": "iot_wemo_off"
+  },
+  {
+    "question": "point",
+    "choices": [
+      "استرالیا",
+      "نقطه",
+      "آنکه",
+      "مقدار"
+    ],
+    "answer": 1,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "به من یادآوری کن تا فراموش نکنم که با ------ تماس بگیرم",
+    "choices": [
+      "قانون",
+      "علی",
+      "بزرگترین",
+      "می‌تواند"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "برج",
+      "انجمن",
+      "امنیت",
+      "رادیو اوا"
+    ],
+    "answer": "رادیو اوا",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "------ آفتابی است مگر نه",
+    "choices": [
+      "جا",
+      "حفظ",
+      "فردا",
+      "مکان"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "لطفا ------ مورد علاقه م رو در طول راه پخش کن.",
+    "choices": [
+      "شیمیایی",
+      "آب",
+      "برنامه صبحگاهی",
+      "میلیون"
+    ],
+    "answer": "برنامه صبحگاهی",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "عامل",
+      "بشر",
+      "رادیو کافه",
+      "باقی"
+    ],
+    "answer": "رادیو کافه",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "اجازه نده که ------ را در روز بیست و پنجم فراموش کنم",
+    "choices": [
+      "شهرستان",
+      "نوبت دامپزشکی ژو",
+      "حسن",
+      "مصرف"
+    ],
+    "answer": "نوبت دامپزشکی ژو",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "مدرسه",
+      "درخت",
+      "اخبار زنده بی. بی. سی.",
+      "نیز"
+    ],
+    "answer": "اخبار زنده بی. بی. سی.",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "آخرین اخبار از ------ چیست",
+    "choices": [
+      "تاریخ",
+      "اختیار",
+      "بازگشت",
+      "همراه اول"
+    ],
+    "answer": "همراه اول",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "من را ببر ------",
+    "choices": [
+      "پل طبیعت",
+      "نتیجه",
+      "حمل",
+      "تغییر"
+    ],
+    "answer": "پل طبیعت",
+    "type": "sentence",
+    "intent": "transport_query"
+  },
+  {
+    "question": "یک فهرست ------ جدید ایجاد کن",
+    "choices": [
+      "کارهای انجام دادنی",
+      "استرالیا",
+      "دفتر",
       "نشان"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "کارهای انجام دادنی",
+    "type": "sentence",
+    "intent": "lists_createoradd"
   },
   {
-    "question": "شایستگی",
+    "question": "برنامه های بعدی ------ رو بهم‌ نشون بده",
     "choices": [
-      "special",
-      "surname",
-      "without",
-      "worthiness"
+      "رادیو راه",
+      "گروه",
+      "پنج",
+      "کارگردانی"
     ],
-    "answer": 3,
+    "answer": "رادیو راه",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "زمان پخت ------ چقدر است",
+    "choices": [
+      "اند",
+      "تخم مرغ آب پز",
+      "بستک",
+      "آنچه"
+    ],
+    "answer": "تخم مرغ آب پز",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "اتحاد شوروی",
+    "choices": [
+      "transformation",
+      "Soviet Union",
+      "early",
+      "profession"
+    ],
+    "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "پایین",
+    "question": "هوای بیرون چند ------ است",
     "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "بالا",
-      "سایت"
+      "شوروی",
+      "درجه",
+      "اجرا",
+      "مناطق"
+    ],
+    "answer": "درجه",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "برایم یک ------ به خیابان کاج بگیر",
+    "choices": [
+      "اسنپ",
+      "نزد",
+      "محمد",
+      "عصر"
+    ],
+    "answer": "اسنپ",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "آیا من هیچ ایمیل جدیدی از ------ دارم که بخونم",
+    "choices": [
+      "نظیر",
+      "وضعیت",
+      "علی",
+      "میدان"
+    ],
+    "answer": "علی",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "آبان",
+    "choices": [
+      "spouse",
+      "poet",
+      "Aban",
+      "designing"
     ],
     "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "اکبر",
+    "choices": [
+      "finished",
+      "Akbar",
+      "small",
+      "country"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "------ هوا بادی می شود",
+    "choices": [
+      "بهترین",
+      "امشب",
+      "کنند",
+      "نبرد"
+    ],
+    "answer": "امشب",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "درگذشت",
+      "جعبه",
+      "بعضی",
+      "اصفهان"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "هیچ خبر جدیدی درباره ------ نیست",
+    "choices": [
+      "شهاب حسینی",
+      "متعلق",
+      "نیروی",
+      "بنابر"
+    ],
+    "answer": "شهاب حسینی",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "محمود",
+      "معرفی",
+      "حالت",
+      "جاروبرقی"
+    ],
+    "answer": "جاروبرقی",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "وقتی راجع به ------ می شنوی به من اطلاع بده",
+    "choices": [
+      "طراحی",
+      "چشمه",
+      "ایران",
+      "باغ"
+    ],
+    "answer": "ایران",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "لطفا ------ دوازدهم فروردین را حذف کن",
+    "choices": [
+      "قرار",
+      "نتایج",
+      "صفحه",
+      "باز"
+    ],
+    "answer": "قرار",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "آهنگ های ------ پخش کن",
+    "choices": [
+      "سیستم",
+      "کلاسیک",
+      "به",
+      "می‌گردد"
+    ],
+    "answer": "کلاسیک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "چند تا آهنگ ------ پخش کن",
+    "choices": [
+      "درجه",
+      "فارس",
+      "بندری",
+      "هنرمند"
+    ],
+    "answer": "بندری",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "by",
+    "choices": [
+      "عبدالله",
+      "بنا",
+      "بدست",
+      "پشت"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "جلد",
+      "تصویر",
+      "آفریقا",
+      "اصفهان"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "اهنگی که در حال پخش هست را ------",
+    "choices": [
+      "تکرار کن",
+      "فارسی",
+      "پهلوی",
+      "فرهنگ"
+    ],
+    "answer": "تکرار کن",
+    "type": "sentence",
+    "intent": "music_settings"
+  },
+  {
+    "question": "یادت باشد تا ساعت ------ مرا از فرودگاه ببری من ساعت سه بعدازظهر جلسه دارم",
+    "choices": [
+      "اولیه",
+      "علت",
+      "دوازده ظهر",
+      "بنیاد"
+    ],
+    "answer": "دوازده ظهر",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "آیا ------ نزدیک است",
+    "choices": [
+      "تابستان",
+      "باستان",
+      "باشگاه",
+      "گاه"
+    ],
+    "answer": "تابستان",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "برای من بلیط ------ به سمنان پیدا کن",
+    "choices": [
+      "قطار",
+      "دهد",
+      "زمین",
+      "رهبر"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "بین ------ و اهواز چقدر فاصله زمانی وجود دارد",
+    "choices": [
+      "علمی",
+      "لازم",
+      "شهرت",
+      "اصفهان"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "datetime_convert"
+  },
+  {
+    "question": "------ چطور تعریف می شود",
+    "choices": [
+      "شخصیت",
+      "انگلیسی",
+      "رابطه",
+      "طوفان"
+    ],
+    "answer": "طوفان",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "جدیدترین اخبار ------",
+    "choices": [
+      "احتمال",
+      "تهیه",
+      "روز جهانی زنان",
+      "آنجا"
+    ],
+    "answer": "روز جهانی زنان",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "رویدادهای ------ چیست",
+    "choices": [
+      "نبرد",
+      "شرح",
+      "مراسم",
+      "هفته‌ی آینده"
+    ],
+    "answer": "هفته‌ی آینده",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "------ من را به یادآوری کن",
+    "choices": [
+      "جلسه",
+      "مناسب",
+      "مدرسه",
+      "اسفند"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "درمورد ------ به من بگو",
+    "choices": [
+      "ه",
+      "محمد",
+      "امریکا",
+      "بسیار"
+    ],
+    "answer": "امریکا",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "داخل",
+    "choices": [
+      "خط",
+      "خدمات",
+      "میراث",
+      "داخل"
+    ],
+    "answer": 3,
     "type": "antonym"
   },
   {
-    "question": "she",
+    "question": "temper",
     "choices": [
-      "تولید",
-      "ایشان",
-      "دسامبر",
-      "مربوط"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "technical",
-    "choices": [
-      "گفت",
-      "برخی",
-      "موسسه",
-      "فنی"
+      "اساسی",
+      "چندین",
+      "روزنامه",
+      "خلق"
     ],
     "answer": 3,
     "type": "translate_fa_en"
   },
   {
-    "question": "هجری",
+    "question": "خیالی",
     "choices": [
-      "flight",
-      "far",
-      "hejira",
-      "stay"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اسلام",
-    "choices": [
-      "based on",
-      "Islam",
-      "six",
-      "dam"
+      "نوعی",
+      "واقعی",
+      "ابتدا",
+      "مدیریت"
     ],
     "answer": 1,
-    "type": "translate_en_fa"
+    "type": "antonym"
   },
   {
-    "question": "Shah",
+    "question": "------ چند سالشه",
     "choices": [
-      "شاه",
-      "خانه",
-      "صنایع",
-      "استقلال"
+      "پادشاه",
+      "شقایق دهقان",
+      "بیرون",
+      "بنیاد"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "شقایق دهقان",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "مجهول",
+    "question": "rank",
     "choices": [
-      "sweet",
-      "science",
-      "unknown",
-      "rules"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "profession",
-    "choices": [
-      "شوند",
-      "دوم",
-      "کسب",
-      "کیلومتر"
+      "آذربایجان",
+      "صدا",
+      "پایه",
+      "بازار"
     ],
     "answer": 2,
     "type": "translate_fa_en"
   },
   {
-    "question": "اعتماد",
+    "question": "چند آلارم برای ساعات ------ بین شش تا نه ------ تنظیم کرده‌ام",
     "choices": [
-      "uncertain",
-      "March",
-      "person",
-      "trust"
+      "صبح",
+      "سیاه",
+      "حاضر",
+      "خوانندگان"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "صبح",
+    "type": "sentence",
+    "intent": "alarm_query"
   },
   {
-    "question": "محترم داشتن",
+    "question": "خبرهای اخبار ------ چیست",
     "choices": [
-      "respect",
-      "someone",
-      "club",
-      "twenty"
+      "باستان",
+      "صاحب",
+      "بی. بی. سی.",
+      "قوانین"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "بی. بی. سی.",
+    "type": "sentence",
+    "intent": "news_query"
   },
   {
-    "question": "Asia",
+    "question": "------ پخش کن",
     "choices": [
-      "نقطه",
-      "آسیا",
-      "ششم",
+      "کنیم",
+      "کارشناسی",
+      "ابی",
+      "قلعه"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "برای صرفه جویی در مصرف انرژی هنگام خروج از خانه ------ را خاموش کن",
+    "choices": [
+      "وای فای",
+      "اساس",
+      "نموده",
+      "فعال"
+    ],
+    "answer": "وای فای",
+    "type": "sentence",
+    "intent": "iot_wemo_off"
+  },
+  {
+    "question": "------ بعدی من با دکتر اکبری کی است",
+    "choices": [
+      "توزیع",
+      "ارتفاع",
+      "انقلاب",
+      "قرار"
+    ],
+    "answer": "قرار",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "همه آهنگ های ------ را پخش کن",
+    "choices": [
+      "فعال",
+      "جایزه",
+      "راک",
+      "جرم"
+    ],
+    "answer": "راک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "به ------ از فایل صوتی برو لطفا",
+    "choices": [
+      "قسمت بعد",
+      "نمود",
+      "غربی",
+      "می‌کرد"
+    ],
+    "answer": "قسمت بعد",
+    "type": "sentence",
+    "intent": "play_podcasts"
+  },
+  {
+    "question": "بین موقعیت من و ------ چند ساعت فاصله هست",
+    "choices": [
+      "اصفهان",
+      "برای",
+      "بعد",
+      "ابهام‌زدایی"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "datetime_convert"
+  },
+  {
+    "question": "آیا الآن باید همراه خودم ------ بیاورم",
+    "choices": [
+      "نیمه",
+      "کرده‌است",
+      "چتر",
+      "هیچ"
+    ],
+    "answer": "چتر",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "------ خنده را از من بگیر را پخش کن",
+    "choices": [
+      "کتاب صوتی",
+      "بندی",
+      "رهبری",
+      "آبان"
+    ],
+    "answer": "کتاب صوتی",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "هوای ------ م چطور است",
+    "choices": [
+      "تدریس",
+      "شهر محل تولد",
+      "رئیس",
       "مقام"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "شهر محل تولد",
+    "type": "sentence",
+    "intent": "weather_query"
   },
   {
-    "question": "local",
+    "question": "بدایت",
     "choices": [
-      "داخلی",
-      "توجه",
-      "رضا",
-      "اعدام"
+      "official",
+      "beginning",
+      "visage",
+      "boy"
     ],
-    "answer": 0,
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "یک بلیط ------ از نکا به ساری می خواهم",
+    "choices": [
+      "قطار",
+      "وزارت",
+      "فروش",
+      "طراحی"
+    ],
+    "answer": "قطار",
+    "type": "sentence",
+    "intent": "transport_ticket"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "بیرون",
+      "راک",
+      "انسانی",
+      "سطح"
+    ],
+    "answer": "راک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "الان ------ ساعت چنده",
+    "choices": [
+      "ها",
+      "لندن",
+      "دارای",
+      "بی"
+    ],
+    "answer": "لندن",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "لیست مخاطبین را باز کن و با ------ تماس بگیر",
+    "choices": [
+      "فقط",
+      "بخش",
+      "علی آهنگر",
+      "بیشتری"
+    ],
+    "answer": "علی آهنگر",
+    "type": "sentence",
+    "intent": "email_querycontact"
+  },
+  {
+    "question": "پست کن که من دارم به ------ شعبه تجریش می‌روم",
+    "choices": [
+      "فرانسه",
+      "افراد",
+      "فست فود شیلا",
+      "خدمات"
+    ],
+    "answer": "فست فود شیلا",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "اگر من پنج ------ داشته باشم به دلار استرالیا چقدر می شود",
+    "choices": [
+      "دلار آمریکا",
+      "همسر",
+      "اسرائیل",
+      "خودش"
+    ],
+    "answer": "دلار آمریکا",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "نرخ بین ------ و ریال ایران رو بهم نشون بده",
+    "choices": [
+      "دلار",
+      "جای",
+      "سیاسی",
+      "پرداخت"
+    ],
+    "answer": "دلار",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "ایمیل‌های ------ را برای ساعت پیش چک کن",
+    "choices": [
+      "ناشر",
+      "نگاه",
+      "جواد",
+      "یافت"
+    ],
+    "answer": "جواد",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "شیرین",
+    "choices": [
+      "توسعه",
+      "مقدس",
+      "کارگردان",
+      "شور"
+    ],
+    "answer": 3,
+    "type": "antonym"
+  },
+  {
+    "question": "به خاطر داشته باش که باید ------ ساعت یازده امشب تکلیف ریاضی‌ام را تحویل بدهم",
+    "choices": [
+      "اگر",
+      "دیگر",
+      "تا",
+      "نامزد"
+    ],
+    "answer": "تا",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ در کدام روز است",
+    "choices": [
+      "حکومت",
+      "جلسه",
+      "زبان",
+      "جوایز"
+    ],
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "خبر جدید در ------ چیست",
+    "choices": [
+      "اکثر",
+      "ام",
+      "صنعت بازی",
+      "ساختمان"
+    ],
+    "answer": "صنعت بازی",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "spread",
+    "choices": [
+      "گفت",
+      "کلیسای",
+      "عمر",
+      "باز"
+    ],
+    "answer": 3,
     "type": "translate_fa_en"
   },
   {
-    "question": "موسفید",
+    "question": "لطفا پیش بینی هوای ------ را پیدا کن",
     "choices": [
-      "records",
-      "go",
-      "old",
-      "number"
+      "امروز",
+      "کرمان",
+      "تهران",
+      "حتی"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "برنامه ------ فردای من چه شکلیه",
+    "choices": [
+      "صبح",
+      "بریتانیا",
+      "سلطنت",
+      "کد"
+    ],
+    "answer": "صبح",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "به من تعریف کلمه ------ را بده",
+    "choices": [
+      "زره پوش",
+      "دوره",
+      "اطلاعات",
+      "آمد"
+    ],
+    "answer": "زره پوش",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "پیش‌بینی هوای ------ چطوره",
+    "choices": [
+      "هفته",
+      "بشر",
+      "محسن",
+      "زمانی"
+    ],
+    "answer": "هفته",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "خرداد",
+      "آپارات",
+      "تغییر",
+      "مجموعه"
+    ],
+    "answer": "آپارات",
+    "type": "sentence",
+    "intent": "social_query"
+  },
+  {
+    "question": "لیست کارهای ------ من را حذف کن",
+    "choices": [
+      "کنونی",
+      "پست",
+      "انجام دادنی",
+      "عالی"
+    ],
+    "answer": "انجام دادنی",
+    "type": "sentence",
+    "intent": "lists_remove"
+  },
+  {
+    "question": "شهرستان",
+    "choices": [
+      "stop",
+      "threshold",
+      "province",
+      "Said"
     ],
     "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "شاعر",
+    "question": "------ کیست",
     "choices": [
-      "industrious",
-      "compilation",
-      "attack",
-      "poet"
+      "دور",
+      "رئیس",
+      "امر",
+      "باراک اوباما"
     ],
-    "answer": 3,
+    "answer": "باراک اوباما",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "مرتبط",
+    "choices": [
+      "certain",
+      "foreigner",
+      "correlated",
+      "start"
+    ],
+    "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "کوشارو",
+    "question": "شور",
     "choices": [
-      "Internet",
-      "industrious",
-      "worst",
-      "grail"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مه",
-    "choices": [
-      "May",
-      "imprison",
-      "handle",
-      "four"
+      "شیرین",
+      "شمالی",
+      "براي",
+      "زمان"
     ],
     "answer": 0,
-    "type": "translate_en_fa"
+    "type": "antonym"
   },
   {
-    "question": "خفته",
+    "question": "------",
     "choices": [
-      "summer",
-      "asleep",
-      "letter",
-      "India"
+      "سالهای",
+      "اصول",
+      "باز",
+      "مهمانی ساحلی"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "مهمانی ساحلی",
+    "type": "sentence",
+    "intent": "general_quirky"
   },
   {
-    "question": "خبر دادن",
+    "question": "لطفا لامپ ها ی ------ را خاموش کن",
     "choices": [
-      "New York",
-      "report",
-      "certain",
-      "share"
+      "آشپزخانه",
+      "عشق",
+      "تولید",
+      "زیر"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "آشپزخانه",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "question": "آهنگ های سبک ------ و هیپ هاپ پخش کن.",
+    "choices": [
+      "رپ",
+      "اسکار",
+      "تر",
+      "شوروی"
+    ],
+    "answer": "رپ",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "------ را از ا------مه پخش کن",
+    "choices": [
+      "دا",
+      "جمهوری",
+      "ص",
+      "جعبه"
+    ],
+    "answer": "دا",
+    "type": "sentence",
+    "intent": "play_audiobook"
+  },
+  {
+    "question": "نتایج ------",
+    "choices": [
+      "برخوردار",
+      "ورزش ها",
+      "جامعه",
+      "دریافت"
+    ],
+    "answer": "ورزش ها",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "------ چه تعداد فرزند دارد",
+    "choices": [
+      "مردان",
+      "نفر",
+      "جلد",
+      "هانیه توسلی"
+    ],
+    "answer": "هانیه توسلی",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "rose garden",
+    "choices": [
+      "باز",
+      "جامع",
+      "آهنگ",
+      "گلستان"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "اوولی من باید به یاد داشته باشم که به ------ بروم قبل از اینکه بسته شوند",
+    "choices": [
+      "نظیر",
+      "مغازه",
+      "اکبر",
+      "هم"
+    ],
+    "answer": "مغازه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "آیا میتوانی در مورد کار نکردن ------ پوست کنی",
+    "choices": [
+      "درمان",
+      "ترکی",
+      "چیزی",
+      "دیجی کالا"
+    ],
+    "answer": "دیجی کالا",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "هی گوگل هی زنگ بزن به نزدیک ترین ------ چینی برای یه غذای بیرون بر",
+    "choices": [
+      "رستوران",
+      "تمام",
+      "شروع",
+      "داشت"
+    ],
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "در ------ باید با جواد در مورد سفر آخر هفته خودمان صحبت کنم",
+    "choices": [
+      "دوشنبه بیستم",
+      "دار",
+      "شده‌اند",
+      "سالهای"
+    ],
+    "answer": "دوشنبه بیستم",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ قبل از جلسه ام فردا در ساعت سه بعد ازظهر به من هشداربده",
+    "choices": [
+      "شکل",
+      "نیم ساعت",
+      "مقام",
+      "ماده"
+    ],
+    "answer": "نیم ساعت",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "دستور تهیه ی یک ------ ی کم کالری",
+    "choices": [
+      "سیاه",
+      "اطراف",
+      "صبحانه",
+      "عربی"
+    ],
+    "answer": "صبحانه",
+    "type": "sentence",
+    "intent": "cooking_recipe"
+  },
+  {
+    "question": "من میخوام بهترین آهنگ های ------ دهه شصت را گوش بدم",
+    "choices": [
+      "کانتری",
+      "سخت",
+      "ناسا",
+      "مشهور"
+    ],
+    "answer": "کانتری",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "من ------ یک قرار ملاقات دارم به من یادآوری کن",
+    "choices": [
+      "روستا",
+      "کسی",
+      "منجر",
+      "فردا"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "جارو برقی",
+      "تک",
+      "جغرافیایی",
+      "جامعه"
+    ],
+    "answer": "جارو برقی",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "اُلی پیشبینی وضعیت هوای ------ چیه",
+    "choices": [
+      "عضو",
+      "نوامبر",
+      "انسانی",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "الآن ترافیک ------ چطوره",
+    "choices": [
+      "کل",
+      "خیابون مطهری",
+      "جمهوری",
+      "مورد"
+    ],
+    "answer": "خیابون مطهری",
+    "type": "sentence",
+    "intent": "transport_traffic"
+  },
+  {
+    "question": "آیا روز ------ وقتم آزاد است",
+    "choices": [
+      "برنامه‌های",
+      "تولید",
+      "یکشنبه",
+      "محصول"
+    ],
+    "answer": "یکشنبه",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "صدا را ------ زیاد کن",
+    "choices": [
+      "مستقل",
+      "پایتخت",
+      "تا شصت",
+      "برده"
+    ],
+    "answer": "تا شصت",
+    "type": "sentence",
+    "intent": "audio_volume_up"
+  },
+  {
+    "question": "علی من ------ یک روز عالی داشتم",
+    "choices": [
+      "تبدیل",
+      "امروز",
+      "کاهش",
+      "می‌رود"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "قیمت روزانه سهام ------ چقدر است",
+    "choices": [
+      "جانسون و جانسون",
+      "رنگ",
+      "جنوب",
+      "موارد"
+    ],
+    "answer": "جانسون و جانسون",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "غذای ------ سفارش بده",
+    "choices": [
+      "می‌تواند",
+      "عملیات",
+      "اول",
+      "بیرون بر"
+    ],
+    "answer": "بیرون بر",
+    "type": "sentence",
+    "intent": "takeaway_order"
+  },
+  {
+    "question": "hour",
+    "choices": [
+      "ساعت",
+      "دلار",
+      "دو",
+      "میانه"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "از تو می‌خواهم چراغ ------ من را خاموش کنی",
+    "choices": [
+      "اتاق خواب",
+      "کتاب",
+      "شدن",
+      "عبور"
+    ],
+    "answer": "اتاق خواب",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
   },
   {
     "question": "خیس",
     "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
+      "حاصل",
+      "دارند",
+      "دریای",
       "خشک"
     ],
     "answer": 3,
     "type": "antonym"
   },
   {
-    "question": "گشادن",
+    "question": "سوپ را به فهرست ------ من اضافه کن",
     "choices": [
-      "out",
-      "story",
-      "open",
-      "first"
+      "سیاسی",
+      "شمال",
+      "رادیو",
+      "خرید"
     ],
-    "answer": 2,
+    "answer": "خرید",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "لطفا ترافیک مسیر ------ را چک کن",
+    "choices": [
+      "آقای",
+      "نماید",
+      "خانه",
+      "درصد"
+    ],
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "transport_traffic"
+  },
+  {
+    "question": "------ را باز کن",
+    "choices": [
+      "پایان",
+      "کامل",
+      "انگری بردز",
+      "گسترش"
+    ],
+    "answer": "انگری بردز",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "یک رویداد ------ در سی و دو کیلومتری رشت در این هفته پیشنهاد بده",
+    "choices": [
+      "دهستان",
+      "خاک",
+      "گروه موسیقی سنتی",
+      "شدت"
+    ],
+    "answer": "گروه موسیقی سنتی",
+    "type": "sentence",
+    "intent": "recommendation_events"
+  },
+  {
+    "question": "بخدمت",
+    "choices": [
+      "to",
+      "if",
+      "fundamental",
+      "stroke"
+    ],
+    "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "model",
+    "question": "زمان آلارم‌های منو به ساعت ------ تغییر بده",
     "choices": [
-      "معنی",
-      "امر",
-      "مدل",
-      "ارتباط"
+      "جان",
+      "تهران",
+      "شرق",
+      "علم"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "alarm_set"
   },
   {
-    "question": "king",
+    "question": "------ موجود در ماه اسفند چه هستند",
     "choices": [
-      "پادشاه",
-      "ترکیه",
-      "قوانین",
-      "بلکه"
+      "جلسات",
+      "حکم",
+      "طول",
+      "ارزش"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "جلسات",
+    "type": "sentence",
+    "intent": "calendar_query"
   },
   {
-    "question": "مسابقه قهرمانی",
+    "question": "مجهول",
     "choices": [
-      "kind",
-      "championship",
-      "Mr.",
-      "religious"
+      "winning",
+      "unknown",
+      "ugly",
+      "asteroid"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "مبنا",
+    "question": "------ بعدی من چه زمانی است و با چه کسی برای تعیین وقت مجدد تماس بگیرم",
     "choices": [
-      "soccer",
-      "role",
-      "play",
-      "basis"
+      "نماینده",
+      "حمایت",
+      "آنها",
+      "قرار"
+    ],
+    "answer": "قرار",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "به من در مورد ------ من در فروشگاه اتکا در روز بیست و ششم یادآوری کن",
+    "choices": [
+      "شخصی",
+      "معاینه‌ی چشم",
+      "قلعه",
+      "مسائل"
+    ],
+    "answer": "معاینه‌ی چشم",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "می‌توانی آخرین سلفی من را در ------ خودم بارگذاری کنی",
+    "choices": [
+      "مهر",
+      "تاریخی",
+      "نظیر",
+      "حساب facebook"
+    ],
+    "answer": "حساب facebook",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "به اطلاعات جغرافیایی درباره ------ نیاز هست",
+    "choices": [
+      "کمتر",
+      "نوامبر",
+      "ایتالیا",
+      "بلند"
+    ],
+    "answer": "ایتالیا",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "به من راجع به نرخ سهام ------ بگو",
+    "choices": [
+      "شاعر",
+      "پادشاهی",
+      "نفت",
+      "هیوندا"
+    ],
+    "answer": "هیوندا",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "رخسار",
+    "choices": [
+      "white",
+      "ministry",
+      "parliament",
+      "visage"
     ],
     "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "عرب",
+    "question": "من میخوام آهنگ ------ را در لیست آهنگ های راک خودم گوش بدم",
     "choices": [
-      "Arab",
-      "in",
-      "primary",
-      "demise"
+      "شهریور",
+      "مستقیم",
+      "رسیدن",
+      "عشق"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "عشق",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "November",
+    "question": "stage manager",
     "choices": [
-      "گروه‌های",
-      "نوامبر",
-      "قرآن",
-      "ساز"
+      "قابل",
+      "کارگردان",
+      "علوم",
+      "دلار"
     ],
     "answer": 1,
     "type": "translate_fa_en"
   },
   {
-    "question": "جای",
+    "question": "subject",
     "choices": [
-      "place",
-      "science",
-      "independence",
-      "cheap"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "درگاه",
-    "choices": [
-      "threshold",
-      "spring",
-      "Ahmed",
-      "must"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پایین",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
+      "عدد",
+      "باب",
+      "آبان",
       "بالا"
     ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "school",
-    "choices": [
-      "مدرسه",
-      "شدت",
-      "ماشین",
-      "امپراتوری"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Esmail",
-    "choices": [
-      "موسسه",
-      "سیارک‌ها",
-      "د",
-      "اسماعیل"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "municipality",
-    "choices": [
-      "شهرداری",
-      "سعید",
-      "آثار",
-      "پیروزی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "قابلیت دیدن",
-    "choices": [
-      "visibility",
-      "position",
-      "moon",
-      "kind"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رابطه",
-    "choices": [
-      "ugly",
-      "knowledge",
-      "mean",
-      "relation"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "such a",
-    "choices": [
-      "آن‌ها",
-      "همان",
-      "سبز",
-      "چنین"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "united",
-    "choices": [
-      "رتبه",
-      "البته",
-      "متحده",
-      "حرکت"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "dill",
-    "choices": [
-      "بستک",
-      "شود",
-      "گاهی",
-      "درون"
-    ],
     "answer": 1,
     "type": "translate_fa_en"
   },
   {
-    "question": "زشت",
+    "question": "کمی موزیک ------ پخش کن",
     "choices": [
-      "خوشگل",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "این",
-    "choices": [
-      "distance",
-      "specially for",
-      "sweet",
-      "this"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "age of",
-    "choices": [
-      "نظامی",
-      "دار",
-      "طراحی",
-      "سالگی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "روشن",
-    "choices": [
-      "خاموش",
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "operations",
-    "choices": [
-      "در",
-      "بیماری",
-      "تئاتر",
-      "عملیات"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "definition",
-    "choices": [
-      "دوم",
-      "رادیو",
-      "تعریف",
-      "درباره"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "military",
-    "choices": [
-      "گزارش",
-      "حقوق",
-      "ارتش",
-      "پوشش"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اولی",
-    "choices": [
-      "آخری",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "قمر",
-    "choices": [
-      "intention",
-      "late",
-      "moon",
-      "opposite"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "وثیقه",
-    "choices": [
-      "brave",
-      "country",
-      "security",
-      "length"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "literature",
-    "choices": [
-      "آموزش",
-      "خط",
-      "ادبیات",
-      "همیشه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "داخل",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "داخل"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "we",
-    "choices": [
-      "ما",
-      "جاده",
-      "موقعیت",
-      "دیگری"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شهبانو",
-    "choices": [
-      "big",
-      "registeration",
-      "queen",
-      "universal"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بيرون",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "ابهام‌زدایی",
-      "داخل"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "September",
-    "choices": [
-      "سپتامبر",
-      "بوده‌است",
-      "سازمان",
-      "بیشتری"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "inspection",
-    "choices": [
-      "آمده",
-      "کنترل",
-      "بخش",
-      "مي"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "transformation",
-    "choices": [
-      "جغرافیایی",
-      "اهل",
-      "سایت",
-      "تبدیل"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نساء",
-    "choices": [
-      "woman",
-      "beautiful",
-      "old",
-      "communist"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "end",
-    "choices": [
-      "ی",
-      "بازیابی‌شده",
-      "اسلام",
-      "اواخر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "announcement",
-    "choices": [
-      "سیارک",
-      "افراد",
-      "اعلام",
-      "بدن"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "محرور",
-    "choices": [
-      "creation",
-      "cry",
-      "hard",
-      "hot"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "palace",
-    "choices": [
-      "ریاست",
-      "کسی",
-      "بودند",
-      "کاخ"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حقیقت",
-    "choices": [
-      "economy",
-      "sweet",
-      "truth",
-      "trip"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ضعیف",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "قوی"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "برخوردار بودن",
-    "choices": [
-      "ugly",
-      "state",
-      "have",
-      "prescription"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "of",
-    "choices": [
-      "ترانه",
-      "ی",
-      "تهران",
-      "مناسبت‌ها"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ناشناس",
-    "choices": [
-      "ابهام‌زدایی",
-      "شناس",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "based on",
-    "choices": [
-      "منبع",
-      "تاکنون",
-      "براساس",
-      "ایستگاه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بی زور",
-    "choices": [
-      "weak",
-      "collaboration",
-      "presence",
-      "Seine"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خوشگل",
-    "choices": [
-      "سایت",
-      "زشت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "دختر",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "پسر",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "طرح",
-    "choices": [
-      "foreigner",
-      "project",
-      "while",
-      "then"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "weight",
-    "choices": [
-      "وزن",
-      "موجب",
-      "رسید",
-      "عملیات"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "زیبا",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "زشت"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "شخصی",
-    "choices": [
-      "beautiful",
-      "what",
-      "previous",
-      "private"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مرطوب",
-    "choices": [
-      "independence",
-      "visibility",
-      "wet",
-      "young"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "decision",
-    "choices": [
-      "تصمیم",
-      "راست",
-      "جز",
-      "اعدام"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مشفق",
-    "choices": [
-      "kind",
-      "mean",
-      "parliament",
-      "yours"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ministry",
-    "choices": [
-      "وزارت",
-      "ملی",
-      "تهیه",
-      "شیر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دارای انرژی",
-    "choices": [
-      "corps",
-      "time",
-      "energetic",
-      "october"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رابطه",
-    "choices": [
-      "remembering",
-      "village",
-      "relation",
-      "manager"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نا محرم",
-    "choices": [
-      "stranger",
-      "cheap",
-      "free",
-      "contrary"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ظفر",
-    "choices": [
-      "production",
-      "surely",
-      "victory",
-      "prisoner"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موسفید",
-    "choices": [
-      "sultan",
-      "ugly",
-      "old",
-      "world"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مجمع",
-    "choices": [
-      "bad",
-      "sexual",
-      "club",
-      "sun"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "science",
-    "choices": [
-      "نقش",
-      "خلیج",
-      "علوم",
-      "تاریخچه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خیالی",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "واقعی",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "رها ساختن",
-    "choices": [
-      "well-known",
-      "Australia",
-      "release",
-      "legacy"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زمستانی",
-    "choices": [
-      "flat",
-      "second",
-      "system",
-      "winter"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "return",
-    "choices": [
-      "میرزا",
-      "بازگشت",
-      "اهالی",
-      "مبارزه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مشترک",
-    "choices": [
-      "ranks",
-      "iron",
-      "too",
-      "subscriber"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زرنگ",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "تنبل",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "رویه",
-    "choices": [
-      "short",
-      "too",
-      "attack",
-      "surface"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "civil",
-    "choices": [
-      "تاریخی",
-      "کشوری",
-      "تاکنون",
-      "دوست"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "باقیمانده",
-    "choices": [
-      "young",
-      "",
-      "small",
-      "rest"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مثال",
-    "choices": [
-      "lazy",
-      "likeness",
-      "go",
-      "writer"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خیس",
-    "choices": [
-      "خشک",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "مهتاب",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "آفتاب"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "visage",
-    "choices": [
-      "ساله",
-      "شبیه",
-      "ترجمه",
-      "رو"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عاطل",
-    "choices": [
-      "stay",
-      "spring",
-      "she",
-      "idle"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اولو",
-    "choices": [
-      "presence",
-      "end",
-      "professor",
-      "born"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "or",
-    "choices": [
-      "درگذشتگان",
-      "ثبت",
-      "می‌گردد",
-      "یا"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مشهور",
-    "choices": [
-      "hospital",
-      "transportation",
-      "power",
-      "well-known"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "همین",
-    "choices": [
-      "sweet",
-      "the same",
-      "outside",
-      "interior"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "itself",
-    "choices": [
-      "خودش",
-      "گیاهان",
-      "پیام",
-      "توجه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بی درد سر",
-    "choices": [
-      "beginning",
-      "cheap",
-      "easy",
-      "near"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "منظره",
-    "choices": [
-      "go",
-      "certain",
-      "Abdullah",
-      "view"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "امریکا",
-    "choices": [
-      "two",
-      "off",
-      "up",
-      "America"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "directorship",
-    "choices": [
-      "شرکت",
-      "ریاست",
-      "کارشناسی",
-      "نماینده"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بدایت",
-    "choices": [
-      "simple",
-      "reason",
-      "out",
-      "beginning"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "hajji",
-    "choices": [
-      "اقتصاد",
-      "آزاد",
-      "حاج",
-      "پوشش"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "body",
-    "choices": [
-      "بدن",
-      "روستا",
-      "مدیر",
-      "عباس"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ولادت",
-    "choices": [
-      "paint",
-      "birth",
-      "outside",
-      "newspaper"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "illustration",
-    "choices": [
-      "هیچ",
-      "کتابخانه",
-      "نمایش",
-      "سد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "تخیلی",
-    "choices": [
-      "imaginary",
-      "fortress",
-      "machine",
-      "surrounding"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ریاضیات",
-    "choices": [
-      "small",
-      "monthly",
-      "mathematics",
-      "worth"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "mathematics",
-    "choices": [
-      "توانست",
-      "ششم",
-      "ثابت",
-      "ریاضی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پادشاه",
-    "choices": [
-      "ملکه",
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "thousand",
-    "choices": [
-      "تئاتر",
-      "هزار",
-      "زبان",
-      "ه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "موکول به",
-    "choices": [
-      "November",
-      "subject",
-      "subscriber",
-      "laugh"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "fundamental",
-    "choices": [
-      "طبقه",
       "اساسی",
-      "تنها",
-      "سد"
+      "قرآنی",
+      "پول",
+      "معمولاً"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "قرآنی",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "کوچک",
+    "question": "می توانی برای ------ م یک بلیط قطار رزرو کنی",
     "choices": [
-      "near",
-      "small",
-      "ugly",
-      "Iran"
+      "خلق",
+      "مادر",
+      "نام‌های",
+      "میرزا"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "مادر",
+    "type": "sentence",
+    "intent": "transport_ticket"
   },
   {
-    "question": "سیاه",
+    "question": "یک نظردر ------ اعلام کن",
     "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "سفید",
-      "اعلام"
+      "مشترک",
+      "فیسبوک",
+      "آنچه",
+      "تابع"
+    ],
+    "answer": "فیسبوک",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "من چگونه می توان ------ را در یک جمله استفاده کنم",
+    "choices": [
+      "ژانویه",
+      "بوده‌است",
+      "مهیب",
+      "ثبت"
+    ],
+    "answer": "مهیب",
+    "type": "sentence",
+    "intent": "qa_definition"
+  },
+  {
+    "question": "انقطاع یافتن",
+    "choices": [
+      "ignorance",
+      "seizure",
+      "end",
+      "residential"
     ],
     "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "Saudi Arabia",
-    "choices": [
-      "باغ",
-      "نشانی",
-      "دانشجویان",
-      "عربستان"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ورودی",
-    "choices": [
-      "reason",
-      "beneath",
-      "imported",
-      "winning"
-    ],
-    "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "previous",
+    "question": "------",
     "choices": [
-      "قبلی",
-      "باشد",
-      "میلاد",
-      "محیط"
+      "شبکه خبر",
+      "باشند",
+      "سوم",
+      "گرفته"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "شبکه خبر",
+    "type": "sentence",
+    "intent": "news_query"
   },
   {
-    "question": "عاطل",
+    "question": "قیمت سهام کنونی ------",
     "choices": [
-      "idle",
-      "for some time",
-      "asleep",
-      "idle"
+      "کاربرد",
+      "شمال",
+      "صورت",
+      "سایپا"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "سایپا",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "خیلی خوب میشه اگر در ------ پائین شهر که تازه باز شده شام خورد",
+    "choices": [
+      "بررسی",
+      "رستوران",
+      "ویکی",
+      "منبع"
+    ],
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "general_quirky"
+  },
+  {
+    "question": "در مورد ترافیک ------ چطور",
+    "choices": [
+      "عربی",
+      "استرالیا",
+      "اصفهان",
+      "اینترنتی"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "transport_traffic"
+  },
+  {
+    "question": "برای من جدیدترین آهنگ ------ را پخش کن",
+    "choices": [
+      "پاپ",
+      "ابی",
+      "مجموعه",
+      "سپس"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
     "question": "گرم",
     "choices": [
-      "سایت",
-      "اعلام",
+      "نیروی",
       "سرد",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "بالا",
-    "choices": [
-      "top",
-      "soft",
-      "exclude",
-      "industry"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "uderstood",
-    "choices": [
-      "دیگر",
-      "مفهوم",
-      "برنامه‌های",
-      "بازگشت"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "outside of",
-    "choices": [
-      "بیرون",
-      "فارسی",
-      "ششم",
-      "قاجار"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جان",
-    "choices": [
-      "order",
-      "soul",
-      "strong",
-      "outside"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پریرو",
-    "choices": [
-      "Seine",
-      "fundamental",
-      "beautiful",
-      "unknown"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "instrumental",
-    "choices": [
-      "آیت",
-      "سازی",
-      "صورت",
-      "قهرمان"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "جزم",
-    "choices": [
-      "cold",
-      "decision",
-      "necessary",
-      "son"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "sea",
-    "choices": [
-      "دریایی",
-      "حاج",
-      "گلستان",
-      "اطلاعات"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "توان",
-    "choices": [
-      "Ziad",
-      "extra",
-      "strength",
-      "warm"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ارقام",
-    "choices": [
-      "product",
-      "ugly",
-      "ministry",
-      "numbers"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "باغ",
-    "choices": [
-      "diary",
-      "orchard",
-      "old",
-      "winning"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شرق",
-    "choices": [
-      "new",
-      "cold",
-      "out",
-      "orient"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ایتالیا",
-    "choices": [
-      "except",
-      "professor",
-      "Italy",
-      "after"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فره",
-    "choices": [
-      "",
-      "stay",
-      "government",
-      "good"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شور",
-    "choices": [
-      "اعلام",
-      "شیرین",
-      "ابهام‌زدایی",
-      "سایت"
+      "مساحت",
+      "ترکیب"
     ],
     "answer": 1,
     "type": "antonym"
   },
   {
-    "question": "سنت",
+    "question": "عکس",
     "choices": [
-      "surrounding",
-      "proximity",
-      "tradition",
-      "revolution"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "هیچ",
-    "choices": [
-      "no",
-      "shi'a",
-      "early",
+      "contrary",
+      "state",
+      "bottom",
       "energy"
     ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "نو",
+    "question": "domain",
     "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "قدیمی",
-      "سایت"
+      "خمینی",
+      "عربستان",
+      "حوزه",
+      "وضعیت"
+    ],
+    "answer": 2,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "قیمت ------ چند است",
+    "choices": [
+      "صفحه",
+      "نامزد",
+      "هیچ",
+      "دلار"
+    ],
+    "answer": "دلار",
+    "type": "sentence",
+    "intent": "qa_currency"
+  },
+  {
+    "question": "report",
+    "choices": [
+      "دوباره",
+      "شاعران",
+      "سایت",
+      "گزارش"
+    ],
+    "answer": 3,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "یک ------ برای فرودگاه بگیر",
+    "choices": [
+      "ایتالیا",
+      "معنای",
+      "گذشته",
+      "تاکسی"
+    ],
+    "answer": "تاکسی",
+    "type": "sentence",
+    "intent": "transport_taxi"
+  },
+  {
+    "question": "لیست پخشی را که من به موزیک ------ اختصاص دادم پخش کن",
+    "choices": [
+      "بازیابی‌شده",
+      "تبریز",
+      "متر",
+      "راک"
+    ],
+    "answer": "راک",
+    "type": "sentence",
+    "intent": "play_music"
+  },
+  {
+    "question": "آفتاب",
+    "choices": [
+      "نمونه",
+      "گسترده",
+      "چشم",
+      "مهتاب"
+    ],
+    "answer": 3,
+    "type": "antonym"
+  },
+  {
+    "question": "پادشاه",
+    "choices": [
+      "ان",
+      "خط",
+      "ملکه",
+      "ساله"
     ],
     "answer": 2,
     "type": "antonym"
   },
   {
-    "question": "united",
+    "question": "بلندترین کوههای ------ کدامند",
+    "choices": [
+      "آمریکا",
+      "مناسبت‌ها",
+      "گرم",
+      "نویسندگان"
+    ],
+    "answer": "آمریکا",
+    "type": "sentence",
+    "intent": "qa_factoid"
+  },
+  {
+    "question": "------ رنگ چراغ را قرمز کن",
+    "choices": [
+      "اعضای",
+      "بکار",
+      "بیرون از خانه",
+      "مستقیم"
+    ],
+    "answer": "بیرون از خانه",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "question": "یک زنگ هشدار برای ------ ایجاد کن",
+    "choices": [
+      "شش صبح",
+      "موتور",
+      "جمع",
+      "نیاز"
+    ],
+    "answer": "شش صبح",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "result",
+    "choices": [
+      "حاصل",
+      "هدف",
+      "آنچه",
+      "هفته"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "لطفا لیست ------ من را با یک گالن شیر دو درصد به روز کن",
+    "choices": [
+      "می‌گوید",
+      "معمولا",
+      "چون",
+      "خواروبار"
+    ],
+    "answer": "خواروبار",
+    "type": "sentence",
+    "intent": "lists_createoradd"
+  },
+  {
+    "question": "------ را شروع کن",
+    "choices": [
+      "بلند",
+      "نمونه",
+      "دانش",
+      "جارو برقی کردن"
+    ],
+    "answer": "جارو برقی کردن",
+    "type": "sentence",
+    "intent": "iot_cleaning"
+  },
+  {
+    "question": "ارباب قلم",
+    "choices": [
+      "model",
+      "expensive",
+      "directorship",
+      "writer"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "یک زنگ برای ساعت ------ تنظیم کن",
+    "choices": [
+      "اینترنتی",
+      "تصمیم",
+      "بهمن",
+      "شش صبح"
+    ],
+    "answer": "شش صبح",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "آیا من از ------ ایمیلی دریافت کرده‌ام",
+    "choices": [
+      "امیر",
+      "مورد",
+      "تعداد",
+      "سرشماری"
+    ],
+    "answer": "امیر",
+    "type": "sentence",
+    "intent": "email_query"
+  },
+  {
+    "question": "اخبار جدید درباره ------ را بده",
+    "choices": [
+      "اعدام",
+      "قوانین",
+      "تعطیلی دولت",
+      "توسط"
+    ],
+    "answer": "تعطیلی دولت",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "ولو شدن",
+    "choices": [
+      "ignorance",
+      "ugly",
+      "spread",
+      "parliament"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "می‌توانی زنگ هشدار من را برای ------ تنظیم کنی",
+    "choices": [
+      "اصول",
+      "کم",
+      "استاد",
+      "هفت و سی صبح"
+    ],
+    "answer": "هفت و سی صبح",
+    "type": "sentence",
+    "intent": "alarm_set"
+  },
+  {
+    "question": "فقط ------ پخش کن",
+    "choices": [
+      "دکتر",
+      "رادیو جوان",
+      "ایرانی",
+      "یا"
+    ],
+    "answer": "رادیو جوان",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "تقویم من برای ------ را چک کن",
+    "choices": [
+      "امروز",
+      "اقتصاد",
+      "حکم",
+      "‌ها"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
+  },
+  {
+    "question": "هر ایمیل جدیدی در ------ من",
     "choices": [
       "متحد",
-      "تاسیس",
-      "متعلق",
-      "مثال"
+      "امروزه",
+      "مربوط",
+      "صندوق ورودی"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "صندوق ورودی",
+    "type": "sentence",
+    "intent": "email_query"
   },
   {
-    "question": "father",
+    "question": "یک شکایت به ------ توئیت کن",
     "choices": [
-      "جهان",
-      "پدر",
-      "براساس",
-      "روابط"
+      "خدمات مشتریان فروشگاه رفاه",
+      "فقط",
+      "بریتانیا",
+      "پایان"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "خدمات مشتریان فروشگاه رفاه",
+    "type": "sentence",
+    "intent": "social_post"
   },
   {
-    "question": "تخیلی",
+    "question": "من میخوام که تو ------ را پخش کنی",
     "choices": [
-      "Paris",
-      "imaginary",
-      "moon",
-      "hard"
+      "رادیو راه",
+      "برجسته",
+      "استاندارد",
+      "همچنین"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "رادیو راه",
+    "type": "sentence",
+    "intent": "play_radio"
   },
   {
-    "question": "استوار",
+    "question": "نیرومند",
     "choices": [
-      "nowadays",
-      "two",
-      "red",
-      "speech"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "یمین",
-    "choices": [
-      "Reza",
-      "foot",
-      "imprison",
-      "right"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مشکل",
-    "choices": [
-      "hard",
-      "manner",
-      "cold",
-      "operation"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شتاب",
-    "choices": [
-      "speed",
-      "Nur",
-      "wet",
-      "big"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "brother",
-    "choices": [
-      "برادر",
-      "حاکم",
-      "تصویر",
-      "شکل"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پایستن",
-    "choices": [
-      "certain",
-      "boy",
-      "sources",
-      "last"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "China",
-    "choices": [
-      "چین",
-      "واحد",
-      "گونه",
-      "نام‌های"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "take",
-    "choices": [
-      "گرفتن",
-      "انتخابات",
-      "نوامبر",
-      "ساختمان"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "چه",
-    "choices": [
-      "royal",
-      "sweet",
-      "definition",
-      "what"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ایشان",
-    "choices": [
-      "twenty",
-      "she",
-      "old",
-      "everybody"
+      "instrumental",
+      "strong",
+      "agriculture",
+      "industry"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "نوشین",
+    "question": "می تونی یک ------ تو جاده هزار بهم معرفی کنی",
     "choices": [
-      "sweet",
-      "while",
-      "prison",
-      "start"
+      "سازی",
+      "نگاه",
+      "رستوران",
+      "مطالعه"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "recommendation_locations"
   },
   {
-    "question": "do",
+    "question": "زمانی که قرار است در مراسم ------ پانزدهم اسفند شرکت کنم به من اطلاع بده",
     "choices": [
-      "اعمال",
-      "وضعیت",
-      "روشن",
-      "کردن"
+      "آنها",
+      "اجرای رقص",
+      "روستایی",
+      "مرکز"
     ],
-    "answer": 3,
+    "answer": "اجرای رقص",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "تمام ------ تکرار شونده کارکنان را حذف کن",
+    "choices": [
+      "شماره",
+      "جلسات",
+      "عمده",
+      "نیروهای"
+    ],
+    "answer": "جلسات",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "میشه با من ------ بازی کنی",
+    "choices": [
+      "دسترسی",
+      "دریافت",
+      "چکرز",
+      "دید"
+    ],
+    "answer": "چکرز",
+    "type": "sentence",
+    "intent": "play_game"
+  },
+  {
+    "question": "اولی لطفا یک شکایت در مورد فروشگاهی که من بازدید می کنم ------",
+    "choices": [
+      "افراد",
+      "دوم",
+      "باز",
+      "توئیت کن"
+    ],
+    "answer": "توئیت کن",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "universal",
+    "choices": [
+      "دانش",
+      "زنان",
+      "جامع",
+      "سیستم"
+    ],
+    "answer": 2,
     "type": "translate_fa_en"
   },
   {
-    "question": "بریتانیا",
+    "question": "افشا شده",
     "choices": [
-      "Britain",
-      "Hey",
-      "share",
-      "piece"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "land",
-    "choices": [
-      "انتخاب",
-      "زمین",
-      "مقام",
-      "قرار"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ته",
-    "choices": [
-      "bottom",
-      "way",
-      "foundation",
-      "sake"
+      "out",
+      "prominent",
+      "medical profession",
+      "system"
     ],
     "answer": 0,
     "type": "translate_en_fa"
@@ -28944,3477 +22755,822 @@ var WordsQuestions =
   {
     "question": "education",
     "choices": [
-      "رمان",
-      "هجری",
-      "متولد",
-      "تحصیلات"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "الله",
-    "choices": [
-      "god",
-      "excess",
-      "nowadays",
-      "sometimes"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بد",
-    "choices": [
-      "today",
-      "on",
-      "bad",
-      "resumption"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "چنانچه",
-    "choices": [
-      "idle",
-      "too",
-      "knowledge",
-      "if"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شاد",
-    "choices": [
-      "queen",
-      "happy",
-      "God",
-      "hard"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "احمد",
-    "choices": [
-      "parliament",
-      "Ahmed",
-      "February",
-      "attack"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "معمولا",
-    "choices": [
-      "top",
-      "out",
-      "cold",
-      "usually"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پازدن",
-    "choices": [
-      "busy",
-      "including",
-      "step",
-      "old"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زشت",
-    "choices": [
-      "سایت",
-      "قشنگ",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "کوچک",
-    "choices": [
-      "exclude",
-      "good",
-      "red",
-      "small"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تو",
-    "choices": [
-      "right",
-      "your",
-      "inhabitant",
-      "beautiful"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ناحیه دسته بندی",
-    "choices": [
-      "zone",
-      "old",
-      "low",
-      "cheap"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شیر افکن",
-    "choices": [
-      "thirty",
-      "brave",
-      "former",
-      "old days"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "داخل",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "داخل"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "murder",
-    "choices": [
-      "شهرت",
-      "مشهد",
-      "رو",
-      "قتل"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بیوک",
-    "choices": [
-      "big",
-      "professor",
-      "large",
-      "brave"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ژوئیه",
-    "choices": [
-      "girl",
-      "July",
-      "factors",
-      "protection"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مشکل",
-    "choices": [
-      "king",
-      "hard",
-      "Australia",
-      "area"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "right",
-    "choices": [
-      "برده",
-      "رویدادها",
-      "منجر",
-      "حق"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شود",
-    "choices": [
-      "dill",
-      "counted",
-      "Meshed",
-      "cause"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "متعدد",
-    "choices": [
-      "stop",
-      "various",
-      "ignorance",
-      "asleep"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "trade",
-    "choices": [
-      "قرار",
-      "تجاری",
-      "ریاست",
-      "شوروی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "tool",
-    "choices": [
-      "صدا",
-      "وسیله",
-      "مسیر",
-      "دیگری"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عدد چهار",
-    "choices": [
-      "open",
-      "four",
-      "economic",
-      "in"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اسلامی",
-    "choices": [
-      "resulting",
-      "Islamic",
-      "protection",
-      "tune"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "خوشحال",
-    "choices": [
-      "ناراحت",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "برقی",
-    "choices": [
-      "frontier",
-      "electric",
-      "possible",
-      "white"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "داخل",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "داخل"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "mother",
-    "choices": [
-      "ترانه",
-      "کرده‌اند",
-      "ام",
-      "علاوه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ماندن",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "رفتن",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "the same",
-    "choices": [
-      "عبدالله",
-      "اضافه",
-      "همین",
-      "جنگ"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "رده",
-    "choices": [
-      "row",
-      "spring",
-      "stating",
-      "statistics"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "برنامه",
-    "choices": [
-      "Masood",
-      "out",
-      "plan",
-      "olympic"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "عدد صد",
-    "choices": [
-      "knowledge",
-      "the other",
-      "education",
-      "hundred"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شیعه",
-    "choices": [
-      "reduction",
-      "network",
-      "lawful",
-      "shi'a"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "gloomy",
-    "choices": [
-      "گرفته",
-      "چپ",
-      "دولتی",
-      "مقاله"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "time",
-    "choices": [
-      "مدیر",
-      "مشاهده",
-      "بیشتر",
-      "مدت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عنوان",
-    "choices": [
-      "spring",
-      "title",
-      "by",
-      "industrious"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فهرست",
-    "choices": [
-      "list",
-      "result",
-      "relevant",
-      "original"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نقطه اتکاء",
-    "choices": [
-      "Germany",
-      "creation",
-      "stay",
-      "selection"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "participation",
-    "choices": [
-      "توزیع",
-      "سیارک‌ها",
-      "خلیج",
-      "شرکت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "birth",
-    "choices": [
-      "میلاد",
-      "افزایش",
-      "طبقه",
-      "هنر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پیشگیری",
-    "choices": [
-      "reach",
-      "prevention",
-      "take",
-      "resumption"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "skilled",
-    "choices": [
-      "کره",
-      "پا",
-      "بار",
-      "عامل"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "رفتن",
-    "choices": [
-      "go",
-      "series",
-      "boy",
-      "outside"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نیکوترین",
-    "choices": [
-      "Saltanat",
-      "known",
-      "best",
-      "height"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "آب و هوا",
-    "choices": [
-      "official",
-      "museum",
-      "end",
-      "weather"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "همخواب",
-    "choices": [
-      "outside",
-      "spouse",
-      "effective",
-      "score"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بیوک",
-    "choices": [
-      "training",
-      "stomach",
-      "big",
-      "she"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ده",
-    "choices": [
-      "united",
-      "body",
-      "same",
-      "ten"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "and",
-    "choices": [
-      "روستایی",
-      "و",
-      "موزه",
-      "آنچه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "حمل و نقل",
-    "choices": [
-      "truth",
-      "village",
-      "transportation",
-      "certain"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "December",
-    "choices": [
-      "دسامبر",
-      "داد",
-      "مهدی",
-      "کوتاه"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ثمین",
-    "choices": [
-      "by",
-      "early",
-      "expensive",
-      "Canada"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "معده",
-    "choices": [
-      "outside of",
-      "stomach",
-      "cultural",
-      "imprison"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شجاع",
-    "choices": [
-      "اعلام",
-      "ترسو",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "field of study",
-    "choices": [
-      "مطالعه",
-      "مراکز",
-      "منابع",
-      "رشته"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ثمر",
-    "choices": [
-      "subscriber",
-      "gallows",
-      "stroke",
-      "result"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نزست",
-    "choices": [
-      "go",
-      "imprison",
-      "first",
-      "end"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "area",
-    "choices": [
-      "مساحت",
-      "کشتی",
-      "روش",
-      "پول"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "کسی",
-    "choices": [
-      "profit",
-      "someone",
-      "right",
-      "idle"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بالا",
-    "choices": [
-      "marriage",
-      "humane",
-      "entered",
-      "top"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بد",
-    "choices": [
-      "mean",
-      "through",
-      "blood",
-      "bad"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "رفتن",
-    "choices": [
-      "ماندن",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "periodical",
-    "choices": [
-      "شکل",
-      "قتل",
-      "کوتاه",
-      "مجله"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "reason",
-    "choices": [
-      "علی",
-      "بعدها",
-      "دل",
-      "جهت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پاپ",
-    "choices": [
-      "shi'a",
-      "system",
-      "certain",
-      "Pope"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بوم",
-    "choices": [
-      "country",
-      "sources",
-      "time",
-      "Ziba"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "وسایل",
-    "choices": [
-      "A.D.",
-      "Ordibehesht",
-      "ceremony",
-      "way"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مطمئن",
-    "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت",
-      "نامطمئن"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "second",
-    "choices": [
-      "دومین",
-      "سنگ",
-      "سن",
-      "مقام"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "French",
-    "choices": [
-      "شخص",
+      "تحصیل",
       "می‌باشد",
-      "نماینده",
-      "فرانسوی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "source",
-    "choices": [
-      "اجازه",
-      "محل",
-      "گذشته",
-      "دارند"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "left",
-    "choices": [
-      "جمهور",
-      "دلیل",
-      "چپ",
-      "جهانی"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "if",
-    "choices": [
-      "هفت",
-      "شده‌اند",
-      "صد",
-      "اگر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "stratum",
-    "choices": [
-      "طبقه",
-      "دیگر",
-      "استقلال",
-      "افزایش"
+      "کیلومتری",
+      "شامل"
     ],
     "answer": 0,
     "type": "translate_fa_en"
   },
   {
-    "question": "رسیدن",
+    "question": "لطفا ------ من را پخش کن",
     "choices": [
-      "foreigner",
-      "reach",
-      "busy",
-      "like"
+      "‌",
+      "مطلق",
+      "آهنگ",
+      "سوی"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "آهنگ",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "پریرو",
+    "question": "از رستوران ------ یک وعده کته کباب به همراه اشپل ماهی سفارش بده",
     "choices": [
-      "itself",
-      "rose garden",
-      "certain",
-      "beautiful"
+      "گیلانی",
+      "می‌باشند",
+      "هنوز",
+      "باستان"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "گیلانی",
+    "type": "sentence",
+    "intent": "takeaway_order"
   },
   {
-    "question": "به داخل",
+    "question": "آهنگ ------ را دوباره برایم پخش کن",
     "choices": [
-      "inside",
-      "real",
-      "legacy",
-      "in order to"
+      "ابی",
+      "درصد",
+      "مشهد",
+      "ص"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "زشت",
+    "question": "همه لامپ ها در ------ را خاموش کن لطفا",
     "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام",
-      "خوشگل"
+      "محمدرضا",
+      "امام",
+      "خانه",
+      "متعلق"
     ],
-    "answer": 3,
-    "type": "antonym"
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
   },
   {
-    "question": "مستثنی کردن",
+    "question": "لطفا لامپ رنگ ها را به ------ عوض کن",
     "choices": [
-      "inspection",
-      "speed",
-      "exclude",
-      "computer"
+      "جعبه",
+      "قدر",
+      "قرمز",
+      "جشن"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "قرمز",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
   },
   {
-    "question": "energy",
+    "question": "قیمت سهام فعلی ------ چقدر است",
     "choices": [
-      "حاج",
-      "برگزار",
+      "جغرافیایی",
+      "آمازون",
       "انرژی",
-      "نتایج"
+      "می‌شد"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "آمازون",
+    "type": "sentence",
+    "intent": "qa_stock"
   },
   {
-    "question": "بخدمت",
+    "question": "published",
     "choices": [
-      "known",
-      "yours",
-      "Persian",
-      "to"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مر",
-    "choices": [
-      "negative",
-      "bitter",
-      "exclude",
-      "office"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ضحک",
-    "choices": [
-      "laugh",
-      "go",
-      "defense",
-      "team"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "period",
-    "choices": [
-      "اسماعیل",
-      "عبارتند",
-      "دوره",
-      "اتحاد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شهری",
-    "choices": [
-      "seriously",
-      "urban",
-      "medical profession",
-      "TRUE"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "usually",
-    "choices": [
-      "قانون",
-      "سایت",
-      "نوشته",
-      "معمولا"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سبک",
-    "choices": [
-      "style",
-      "profession",
-      "hour",
-      "times more"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "اولی",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "آخری"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "خواب",
-    "choices": [
-      "بیدار",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "مصرف",
-    "choices": [
-      "iron",
-      "top",
-      "use",
-      "spring"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بسته",
-    "choices": [
-      "tied",
-      "green",
-      "loaded",
-      "based on"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "هور",
-    "choices": [
-      "sun",
-      "truth",
-      "closed",
-      "military"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "معنی بخشیدن",
-    "choices": [
-      "mean",
-      "some",
-      "young",
-      "last"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "visible",
-    "choices": [
-      "دنیا",
-      "خویش",
-      "پیدا",
-      "طرح"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "portrait",
-    "choices": [
-      "عضو",
-      "تصویر",
-      "آمریکا",
-      "بدست"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "دستگاه",
-    "choices": [
-      "big",
-      "sweet",
-      "plant",
-      "then"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موسفید",
-    "choices": [
-      "Nur",
-      "dry",
-      "old",
-      "queen"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ترکی",
-    "choices": [
-      "Greek",
-      "Turkish",
-      "human",
-      "thereafter"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "prison",
-    "choices": [
-      "رشد",
-      "شیعه",
-      "زندان",
-      "شب"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "تیید",
-    "choices": [
-      "king",
-      "participation",
-      "approval",
-      "extra"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "باستان",
-    "choices": [
-      "every",
-      "ancient.",
-      "regarding",
-      "distance"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گریه",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام",
-      "خنده"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "سبقت",
-    "choices": [
-      "results",
-      "military",
-      "passing",
-      "manager"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "August",
-    "choices": [
-      "تپه",
-      "هزار",
-      "اوت",
-      "محله"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "writer",
-    "choices": [
-      "توابع",
-      "همیشه",
-      "ترجمه",
-      "نویسنده"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خلق",
-    "choices": [
-      "resistance",
-      "worst",
-      "creation",
-      "rural district"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "person",
-    "choices": [
-      "فرد",
-      "خواننده",
-      "بسیار",
-      "برنامه‌های"
+      "منتشر",
+      "جدول",
+      "جمله",
+      "موسوی"
     ],
     "answer": 0,
     "type": "translate_fa_en"
   },
   {
-    "question": "ثمین",
+    "question": "لامپ ------ را خاموش کن",
     "choices": [
-      "expensive",
-      "scientific",
-      "governmental",
-      "Fars"
+      "حمام",
+      "دیگری",
+      "اکبر",
+      "بن"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "حمام",
+    "type": "sentence",
+    "intent": "iot_hue_lightoff"
   },
   {
-    "question": "سهی",
+    "question": "------ دوشنبه ها چه ساعتی تشکیل میشود",
     "choices": [
-      "straight",
-      "slow",
-      "radio",
-      "beautiful"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بدایت",
-    "choices": [
-      "king",
-      "month",
-      "related",
-      "beginning"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "منابع",
-    "choices": [
-      "speed",
-      "sources",
-      "service",
-      "ugly"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "power",
-    "choices": [
-      "قدرت",
-      "کل",
-      "فراهم",
-      "ستاره"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "آلمان",
-    "choices": [
-      "early",
-      "given",
-      "Germany",
-      "eight"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مسکونی",
-    "choices": [
-      "residential",
-      "negative",
-      "beautiful",
-      "selection"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "collaboration",
-    "choices": [
-      "حالی",
-      "زندگی",
-      "شرح",
-      "همکاری"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ملکه",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
-      "پادشاه"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "دکتری",
-    "choices": [
-      "medical profession",
-      "lazy",
-      "beautiful",
-      "end"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پرونده",
-    "choices": [
-      "case",
-      "row",
-      "expansion",
-      "bottom"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سرما",
-    "choices": [
-      "winner",
-      "cold",
-      "world",
-      "scientific"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "north",
-    "choices": [
-      "شمال",
-      "باشگاه",
-      "که",
-      "شمال"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پایستن",
-    "choices": [
-      "bitter",
-      "activity",
-      "house",
-      "last"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سه لو",
-    "choices": [
-      "Internet",
-      "three",
-      "release",
-      "Ahmed"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قدیمی",
-    "choices": [
-      "ابهام‌زدایی",
-      "نو",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "خفته",
-    "choices": [
-      "include",
-      "asleep",
-      "sale",
-      "seriously"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "چونکه",
-    "choices": [
-      "because",
-      "whoever",
-      "end",
-      "trade"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Farhang",
-    "choices": [
-      "جستارهای",
-      "سه",
-      "فرهنگ",
-      "شهری"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شیر افکن",
-    "choices": [
-      "operation",
-      "brave",
-      "step",
-      "awak"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بیعوض",
-    "choices": [
-      "free",
-      "good",
-      "spouse",
-      "beautiful"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زندانی کردن",
-    "choices": [
-      "sale",
-      "imprison",
-      "times more",
-      "selection"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زمان بندی کردن",
-    "choices": [
-      "work",
-      "asleep",
-      "schedule",
-      "beautiful"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "طرح",
-    "choices": [
-      "cold",
-      "historic",
-      "project",
-      "solar year"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "medical profession",
-    "choices": [
-      "پزشکی",
-      "خدمات",
-      "ج",
-      "استقلال"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "term",
-    "choices": [
-      "قدیم",
-      "حضور",
-      "خرداد",
-      "دور"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مشفق",
-    "choices": [
-      "past",
-      "kind",
-      "Dollar",
-      "go"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کارفرمان",
-    "choices": [
-      "eight",
-      "white",
-      "free",
-      "manager"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نازیبا",
-    "choices": [
-      "ignorance",
-      "ugly",
-      "far",
-      "ugly"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "televised",
-    "choices": [
-      "صدا",
-      "شب",
-      "تلویزیونی",
-      "مه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "January",
-    "choices": [
-      "ژانویه",
-      "ذکر",
-      "تعدادی",
-      "متحد"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "من",
-    "choices": [
-      "small",
-      "last",
-      "court",
-      "man"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "موسفید",
-    "choices": [
-      "new",
-      "old",
-      "office",
-      "awak"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "محمود",
-    "choices": [
-      "suggestion",
-      "center",
-      "Mahmud",
-      "good"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "first",
-    "choices": [
-      "هنر",
-      "اول",
-      "می‌رود",
-      "مقاله"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "route",
-    "choices": [
-      "وجود",
-      "پادشاهی",
-      "علاوه",
-      "مسیر"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پسر",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "دختر",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "شجاع",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "ترسو",
-      "سایت"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "پیغام",
-    "choices": [
-      "hard",
-      "lawful",
-      "message",
-      "number"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "traditional",
-    "choices": [
-      "سنتی",
-      "بزرگ",
-      "قدیم",
-      "محلی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نوشین",
-    "choices": [
-      "asleep",
-      "revolution",
-      "born",
-      "sweet"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "Germanic",
-    "choices": [
-      "می",
-      "آلمانی",
-      "کلمه",
-      "اکنون"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "distribution",
-    "choices": [
-      "شهرت",
-      "شعر",
-      "توزیع",
-      "قلعه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بهمن",
-    "choices": [
-      "treatment",
-      "late",
-      "February",
-      "sentence"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زیر",
-    "choices": [
-      "Russia",
-      "beneath",
-      "free",
-      "beautiful"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "to",
-    "choices": [
-      "پیش",
-      "سطح",
-      "کنار",
-      "زنان"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "فاتح",
-    "choices": [
-      "white",
-      "young",
-      "winner",
-      "leader"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نامه",
-    "choices": [
-      "tall",
-      "mathematics",
-      "letter",
-      "Rome"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سراینده",
-    "choices": [
-      "phantom",
-      "singer",
-      "what",
-      "lazy"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بد",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "خوب",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "قالب",
-    "choices": [
-      "regarding",
-      "early",
-      "mold",
-      "office"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "special",
-    "choices": [
-      "خاص",
-      "براساس",
-      "مردان",
-      "بسته"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "hour",
-    "choices": [
-      "ساعت",
-      "شدند",
-      "تشخیص",
-      "اهالی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خلیج",
-    "choices": [
-      "upon",
-      "factors",
-      "gulf",
-      "universal"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "plant",
-    "choices": [
-      "دستگاه",
-      "دل",
-      "نوامبر",
-      "دارد"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "social",
-    "choices": [
-      "دریایی",
-      "کرمان",
-      "استقلال",
-      "اجتماعی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "درس خواندن",
-    "choices": [
-      "study",
-      "mean",
-      "closed",
-      "University"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "هراسانده",
-    "choices": [
-      "crooked",
-      "scared",
-      "age",
-      "relation"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زود",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "دیر",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "yet",
-    "choices": [
-      "وبگاه",
-      "ساخته",
-      "صاحب",
-      "هنوز"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "یمین",
-    "choices": [
-      "right",
-      "other",
-      "asleep",
-      "worst"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "کوه",
-    "choices": [
-      "slow",
-      "mountain",
-      "illegal",
-      "right"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سیاه",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام",
-      "سفید"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "musical instrument",
-    "choices": [
-      "ای",
-      "ساز",
-      "گردید",
-      "مدرسه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "باعرزه",
-    "choices": [
-      "capable",
-      "source",
-      "whenever",
-      "extra"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ته",
-    "choices": [
-      "spreading",
-      "Germany",
-      "bottom",
-      "person"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "معرفی",
-    "choices": [
-      "sun",
-      "river",
-      "reaction",
-      "free"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "some",
-    "choices": [
-      "گرفتن",
-      "بستک",
-      "برخی",
-      "جز"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "پایین",
-    "choices": [
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی",
+      "کشف",
+      "جلسه",
+      "کارگردان",
       "بالا"
     ],
-    "answer": 3,
-    "type": "antonym"
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_query"
   },
   {
-    "question": "ستارک",
+    "question": "Mahmud",
     "choices": [
-      "numbers",
-      "expansion",
-      "asteroid",
-      "subscriber"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "between",
-    "choices": [
-      "بین",
-      "مشهور",
-      "تاریخچه",
-      "نسبت"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "صفت شخص",
-    "choices": [
-      "personality",
-      "park",
-      "star",
-      "six"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ما",
-    "choices": [
-      "moon",
-      "resulting",
-      "we",
-      "ton"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "probability",
-    "choices": [
-      "امکان",
-      "ورود",
-      "مثل",
-      "کمونیست"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "place",
-    "choices": [
-      "تن",
-      "روز",
-      "جهانی",
-      "جای"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "علم",
-    "choices": [
-      "translation",
-      "result",
-      "science",
-      "cause"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "like",
-    "choices": [
-      "امنیت",
-      "درست",
-      "زندگینامه",
-      "بصورت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "extra",
-    "choices": [
-      "یونان",
-      "درمان",
-      "حساب",
-      "زیادی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مر",
-    "choices": [
-      "inside",
-      "correlated",
-      "religion",
-      "bitter"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نزست",
-    "choices": [
-      "first",
-      "best",
-      "brave",
-      "Hasan"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "square",
-    "choices": [
-      "همانند",
-      "متن",
-      "روستاهای",
-      "مربع"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "fresh",
-    "choices": [
-      "زنده",
-      "خدمات",
-      "سایر",
-      "بازیگر"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "solar",
-    "choices": [
-      "امنیت",
-      "قرآن",
-      "مساحت",
-      "خورشیدی"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "look",
-    "choices": [
-      "نگاه",
-      "می‌دهند",
-      "محصولات",
-      "مطلق"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "هورا کشیدن",
-    "choices": [
-      "institution",
-      "perception",
-      "cry",
-      "shout"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "relations",
-    "choices": [
-      "بنیاد",
-      "شده‌است",
-      "مثل",
-      "روابط"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ناقص بودن",
-    "choices": [
-      "last",
-      "organization",
-      "California",
-      "lack"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "امر",
-    "choices": [
-      "first",
-      "Mehdi",
-      "order",
-      "isle"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "protection",
-    "choices": [
-      "نگهداری",
-      "بر",
-      "استاندارد",
-      "است"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "monetary",
-    "choices": [
-      "سوی",
-      "مالی",
-      "پیشین",
-      "تشخیص"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اشغال شده",
-    "choices": [
-      "determination",
-      "late",
-      "occupied",
-      "asteroid"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زد و خورد",
-    "choices": [
-      "fight",
-      "hot",
-      "with",
-      "born"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حرکت",
-    "choices": [
-      "سایت",
-      "توقف",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "رقت انگیز",
-    "choices": [
-      "west",
-      "sad",
-      "Tehran",
-      "type"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مانند",
-    "choices": [
-      "early",
-      "foundation",
-      "asleep",
-      "such as"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "doctor",
-    "choices": [
-      "مدتی",
-      "ارتش",
-      "دکتر",
-      "شوروی"
+      "موسسه",
+      "بالای",
+      "محمود",
+      "نیست"
     ],
     "answer": 2,
     "type": "translate_fa_en"
   },
   {
-    "question": "بی توجه",
+    "question": "ایستگاه های رادیویی جدید ------ کدام ها هستند",
     "choices": [
-      "hot",
-      "careless",
-      "relative",
-      "foundation"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "سعید",
-    "choices": [
-      "the other",
-      "best",
-      "Said",
-      "what"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "public",
-    "choices": [
-      "كه",
-      "تحت",
-      "جمهور",
-      "ابن"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "یکه",
-    "choices": [
-      "awak",
-      "similar to",
-      "idle",
-      "unit"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "حاصل ضرب",
-    "choices": [
-      "mankind",
-      "product",
-      "passing",
-      "start"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "وسایل",
-    "choices": [
-      "way",
-      "go",
-      "correlated",
-      "club"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "works",
-    "choices": [
-      "آثار",
-      "برنامه‌های",
-      "کمک",
-      "کنند"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "trace",
-    "choices": [
-      "وجود",
-      "اثر",
-      "اغلب",
-      "بازدید"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "ولی",
-    "choices": [
-      "body",
-      "specific",
-      "performer",
-      "but"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "covering",
-    "choices": [
-      "مقدس",
-      "مانده",
-      "کیلومتر",
-      "پوشش"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "providing",
-    "choices": [
-      "مراکز",
-      "ارائه",
-      "اطلاعات",
-      "خاطر"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نیکوترین",
-    "choices": [
-      "best",
-      "meter",
-      "distribution",
-      "route"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "پایین",
-    "choices": [
-      "ابهام‌زدایی",
-      "بالا",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "subject",
-    "choices": [
-      "عراق",
-      "مساحت",
-      "باب",
-      "چین"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "movie theater",
-    "choices": [
-      "سینما",
-      "برنامه‌های",
       "موضوع",
-      "فرمان"
+      "راک",
+      "عدم",
+      "نشانی"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "راک",
+    "type": "sentence",
+    "intent": "play_radio"
   },
   {
-    "question": "mold",
+    "question": "فعالیت",
     "choices": [
-      "پایتخت",
-      "قالب",
-      "می‌باشد",
-      "ه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "law",
-    "choices": [
-      "شهریور",
-      "قانون",
-      "زیادی",
-      "ساله"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "سال نجومی",
-    "choices": [
-      "short",
-      "year",
-      "increase",
-      "straight"
+      "sediment",
+      "activity",
+      "shi'a",
+      "black"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "ارزون",
+    "question": "resident",
     "choices": [
-      "سایت",
-      "گرون",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "friend",
-    "choices": [
-      "باشد",
-      "ترک",
-      "دوست",
-      "مهم‌ترین"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "necessary",
-    "choices": [
-      "لازم",
-      "داد",
-      "تلویزیونی",
-      "مطرح"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بعضی مواقع",
-    "choices": [
-      "sometimes",
-      "out",
-      "worst",
-      "imperial"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "بیعوض",
-    "choices": [
-      "subscriber",
-      "well-known",
-      "free",
-      "Esfand"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "ارزون",
-    "choices": [
-      "سایت",
-      "گرون",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "wet",
-    "choices": [
-      "راه",
-      "تر",
-      "ان",
-      "دارد"
+      "برنده",
+      "ساکن",
+      "تپه",
+      "روستای"
     ],
     "answer": 1,
     "type": "translate_fa_en"
   },
   {
-    "question": "راست",
+    "question": "------ بعدی را لغو کن",
     "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "چب"
+      "سعید",
+      "عمومی",
+      "پایه",
+      "جلسه"
     ],
-    "answer": 3,
-    "type": "antonym"
+    "answer": "جلسه",
+    "type": "sentence",
+    "intent": "calendar_remove"
   },
   {
-    "question": "read",
+    "question": "ترافیک از محل کار به ------ چطور است",
     "choices": [
-      "خوانده",
-      "نمایش",
-      "منجر",
-      "بسیار"
+      "سابق",
+      "هنر",
+      "خانه",
+      "پیشین"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "transport_traffic"
   },
   {
-    "question": "واردشونده",
+    "question": "برنامه‌ام برای اواخر ------ را به من بگو",
     "choices": [
-      "yet",
-      "small",
-      "incoming",
-      "must"
+      "بعدازظهر امروز",
+      "گیلان",
+      "ریاضی",
+      "نامیده"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "بعدازظهر امروز",
+    "type": "sentence",
+    "intent": "calendar_query"
   },
   {
-    "question": "hundred",
+    "question": "------ ساعت سه بعدازظهر یک جلسه‌ی معلمان وجود دارد که باید به من یادآوری کنی",
     "choices": [
-      "حل",
+      "جمله",
+      "بندی",
+      "پنج‌شنبه",
+      "اختلاف"
+    ],
+    "answer": "پنج‌شنبه",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "از تو می‌خواهم بازی ------ از مرحله پنجم ادامه دهی",
+    "choices": [
+      "می‌باشند",
       "صد",
-      "موارد",
-      "تئاتر"
+      "فوتبال",
+      "نیاز"
     ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "اذن",
-    "choices": [
-      "permission",
-      "friend",
-      "one",
-      "land"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "گلزار",
-    "choices": [
-      "rose garden",
-      "certain",
-      "soccer",
-      "protection"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "شناس",
-    "choices": [
-      "ناشناس",
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "بمیان آوردن",
-    "choices": [
-      "imaginary",
-      "bring up",
-      "bad",
-      "hour"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "stomach",
-    "choices": [
-      "دل",
-      "تاریخچه",
-      "بین‌المللی",
-      "ژاپن"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "guidance",
-    "choices": [
-      "خون",
-      "کاربرد",
-      "چین",
-      "هدایت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "هراسانده",
-    "choices": [
-      "entered",
-      "queen",
-      "obstruction",
-      "scared"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "یک هفتم",
-    "choices": [
-      "seven",
-      "illustration",
-      "rewards",
-      "electric"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "fortress",
-    "choices": [
-      "مرگ",
-      "بیان",
-      "لحاظ",
-      "قلعه"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نزدیک",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "دور",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "sources",
-    "choices": [
-      "اواخر",
-      "نیست",
-      "سیارک",
-      "منابع"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "شهر",
-    "choices": [
-      "small",
-      "hard",
-      "city",
-      "collection"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زیر",
-    "choices": [
-      "unknown",
-      "beneath",
-      "small",
-      "power"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "نامهربان",
-    "choices": [
-      "ابهام‌زدایی",
-      "مهربان",
-      "سایت",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "پایان",
-    "choices": [
-      "شروع",
-      "سایت",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "زشت",
-    "choices": [
-      "ابهام‌زدایی",
-      "قشنگ",
-      "اعلام",
-      "سایت"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "marriage",
-    "choices": [
-      "نماید",
-      "ازدواج",
-      "کاخ",
-      "تن"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
+    "answer": "فوتبال",
+    "type": "sentence",
+    "intent": "play_game"
   },
   {
     "question": "دور",
     "choices": [
-      "result",
-      "struggle",
-      "history",
-      "far"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "مهر",
-    "choices": [
-      "product",
-      "Mehr",
-      "effective",
-      "recognition"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "century",
-    "choices": [
-      "تدریس",
-      "به",
-      "قرن",
-      "عراق"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "rural district",
-    "choices": [
-      "تلاش",
-      "پل",
-      "این",
-      "دهستان"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "plan",
-    "choices": [
-      "ج",
-      "نقشه",
-      "قبل",
-      "هدف"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بسته",
-    "choices": [
-      "beautiful",
-      "singer",
-      "closed",
-      "spring"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "training",
-    "choices": [
-      "بنابر",
-      "آموزش",
-      "ایرانیان",
-      "نقشه"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "خواب",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "بیدار"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "watery",
-    "choices": [
-      "سرشماری",
-      "جنگ",
-      "آبی",
-      "فعالیت"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "town",
-    "choices": [
-      "اضافه",
-      "آنها",
-      "شهر",
-      "خواهد"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "Mohammad Reza",
-    "choices": [
-      "تابع",
-      "محمدرضا",
-      "تاکنون",
-      "زیاد"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مستقیم",
-    "choices": [
-      "کج",
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 0,
-    "type": "antonym"
-  },
-  {
-    "question": "محسن",
-    "choices": [
-      "summer",
-      "production",
-      "Mohsen",
-      "letter"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "زمستان",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "تابستان",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "with",
-    "choices": [
-      "نزد",
-      "اکنون",
-      "سنگ",
-      "میلادی"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "نوازش کردن",
-    "choices": [
-      "winter",
-      "stroke",
-      "until",
-      "tune"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "requirement",
-    "choices": [
-      "نیاز",
-      "جمهوری",
-      "گرفت",
-      "بنام"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "زیستنامه",
-    "choices": [
-      "center",
-      "Tehran",
-      "performance",
-      "biography"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "فضایی",
-    "choices": [
-      "bottom",
-      "space",
-      "old",
-      "size"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "تنبل",
-    "choices": [
-      "سایت",
-      "زرنگ",
-      "اعلام",
-      "ابهام‌زدایی"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "کوچک",
-    "choices": [
-      "ابهام‌زدایی",
-      "سایت",
-      "اعلام",
-      "بزرگ"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "نازیبا",
-    "choices": [
-      "ugly",
-      "sources",
-      "above",
-      "outside"
+      "term",
+      "mud",
+      "May",
+      "star"
     ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "عینا",
+    "question": "موسوم",
     "choices": [
-      "little",
-      "elections",
-      "start",
-      "original"
+      "geographical",
+      "inside",
+      "short",
+      "named"
     ],
     "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "understanding",
+    "question": "برنا",
     "choices": [
-      "خواننده",
-      "کد",
-      "دریافت",
-      "ایشان"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "face",
-    "choices": [
-      "غیر",
-      "قتل",
-      "دارای",
-      "صورت"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "مسعود",
-    "choices": [
-      "Masood",
-      "straight",
-      "census",
-      "moon"
-    ],
-    "answer": 0,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "قشنگ",
-    "choices": [
-      "اعلام",
-      "ابهام‌زدایی",
-      "سایت",
-      "زشت"
-    ],
-    "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "تفهم",
-    "choices": [
-      "open",
-      "understanding",
-      "moon",
-      "warm"
+      "family",
+      "young",
+      "well-known",
+      "winter"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "کج",
+    "question": "------ را بالا بیار",
     "choices": [
-      "سایت",
-      "مستقیم",
-      "ابهام‌زدایی",
-      "اعلام"
+      "papa pear saga",
+      "جوایز",
+      "هنر",
+      "مرگ"
     ],
-    "answer": 1,
-    "type": "antonym"
+    "answer": "papa pear saga",
+    "type": "sentence",
+    "intent": "play_game"
   },
   {
-    "question": "famous",
+    "question": "------ آمازون را برای من پیدا کن",
     "choices": [
-      "معروف",
-      "بسته",
-      "پیرامون",
-      "یکدیگر"
+      "فرمان",
+      "خوانده",
+      "بالای",
+      "رستوران‌های"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "رستوران‌های",
+    "type": "sentence",
+    "intent": "recommendation_locations"
   },
   {
-    "question": "حاوی بودن",
+    "question": "لامپ ها ی ------ را به صورتی تغییر بده",
     "choices": [
-      "dill",
-      "good",
-      "include",
-      "historic"
+      "پهلوی",
+      "خانه",
+      "شخصیت",
+      "جهانی"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "iot_hue_lightchange"
   },
   {
-    "question": "تابستان",
+    "question": "لطفا فایل صوتی ------ را پخش کن",
     "choices": [
-      "ابهام‌زدایی",
-      "اعلام",
-      "زمستان",
-      "سایت"
+      "مواد",
+      "شش",
+      "رادیو راه",
+      "نمایندگان"
     ],
-    "answer": 2,
-    "type": "antonym"
+    "answer": "رادیو راه",
+    "type": "sentence",
+    "intent": "play_podcasts"
   },
   {
-    "question": "بسیط",
+    "question": "به من یادآوری کن که در ------ عصر روز هفتم ژاله را بردارم",
     "choices": [
-      "simple",
-      "ignorance",
-      "do",
-      "imaginary"
+      "نرم",
+      "کره",
+      "بسیاری",
+      "پنج"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "پنج",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "ancient.",
+    "question": "آیا می‌توانی ------ را برای جلسه‌ای در روز دوشنبه آینده ساعت شش بعدازظهر دعوت کنی",
     "choices": [
-      "ابراهیم",
-      "پس",
-      "المپیک",
-      "باستان"
+      "آقای محمدی",
+      "ریاضی",
+      "دی",
+      "مهر"
     ],
-    "answer": 3,
-    "type": "translate_fa_en"
+    "answer": "آقای محمدی",
+    "type": "sentence",
+    "intent": "calendar_set"
   },
   {
-    "question": "معروف",
+    "question": "------ از فرزاد فرزین پخش کن",
     "choices": [
-      "straight",
-      "right",
-      "illegal",
-      "famous"
+      "ترجمه",
+      "سد",
+      "مانکن",
+      "گونه"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "مانکن",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "به روی",
+    "question": "لطفا ------ پخش کن",
     "choices": [
-      "face",
-      "on",
-      "outside",
-      "happy"
+      "نیروی",
+      "ابی",
+      "چیزی",
+      "توانست"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "غشاوت",
+    "question": "در مورد وضعیت آب و هوایی فعلی به ------ ایمیل بفرست",
     "choices": [
-      "covering",
-      "then",
-      "successful",
-      "late"
+      "مرتبط",
+      "نیروهای",
+      "عمویم",
+      "متال"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "عمویم",
+    "type": "sentence",
+    "intent": "email_sendemail"
   },
   {
-    "question": "بعد از",
+    "question": "اخبار آپدیت ------ چیست",
     "choices": [
-      "Italy",
-      "after",
-      "Asia",
-      "fresh"
+      "شوند",
+      "هجری",
+      "رابطه",
+      "بی. بی. سی"
     ],
-    "answer": 1,
-    "type": "translate_en_fa"
+    "answer": "بی. بی. سی",
+    "type": "sentence",
+    "intent": "news_query"
   },
   {
-    "question": "گشادن",
+    "question": "از آخرین لیست آهنگ های من ------ پخش کن",
     "choices": [
-      "stranger",
-      "those",
-      "open",
-      "method"
+      "آزاد",
+      "ابی",
+      "مرکزی",
+      "چه"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "play_music"
   },
   {
-    "question": "organization",
+    "question": "یه ------ از رستوران سیب سفارش بده",
     "choices": [
-      "سازمان",
-      "عربی",
-      "میراث",
-      "شهرت"
+      "می‌تواند",
+      "ساندویچ",
+      "خیلی",
+      "مرز"
     ],
-    "answer": 0,
-    "type": "translate_fa_en"
+    "answer": "ساندویچ",
+    "type": "sentence",
+    "intent": "takeaway_order"
   },
   {
-    "question": "ترقی کردن",
+    "question": "آهنگ ------ را در لیست پخش من ذخیره کن",
     "choices": [
-      "album",
-      "Turkey",
-      "paying attention",
-      "increase"
+      "کاخ",
+      "طور",
+      "ارشد",
+      "کجایی"
     ],
-    "answer": 3,
-    "type": "translate_en_fa"
+    "answer": "کجایی",
+    "type": "sentence",
+    "intent": "music_likeness"
   },
   {
-    "question": "pond",
+    "question": "درباره ------ چه می دانی",
     "choices": [
-      "مرکز",
-      "جاده",
-      "دریاچه",
-      "شب"
+      "ایران",
+      "سرانجام",
+      "کردند",
+      "بین‌المللی"
     ],
-    "answer": 2,
-    "type": "translate_fa_en"
+    "answer": "ایران",
+    "type": "sentence",
+    "intent": "general_quirky"
   },
   {
-    "question": "Esfand",
+    "question": "مجهول",
     "choices": [
-      "اسفند",
-      "رودخانه",
-      "درصد",
-      "بیماری"
-    ],
-    "answer": 0,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "آزاد",
-    "choices": [
-      "اعلام",
-      "سایت",
-      "زندانی",
-      "ابهام‌زدایی"
-    ],
-    "answer": 2,
-    "type": "antonym"
-  },
-  {
-    "question": "انگلیس",
-    "choices": [
-      "itself",
-      "real",
-      "England",
-      "sign"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "از توی",
-    "choices": [
+      "unknown",
       "through",
-      "sad",
-      "Greece",
-      "sour"
+      "best",
+      "small"
     ],
     "answer": 0,
     "type": "translate_en_fa"
   },
   {
-    "question": "نوشین",
+    "question": "------ چه کسی بود",
     "choices": [
-      "Yemen",
-      "cases",
-      "sweet",
-      "movement"
+      "سالهای",
+      "جان دلینگر",
+      "آثار",
+      "نظامی"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "جان دلینگر",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "زیاد",
+    "question": "آیا مخاطبی ------ علی در فهرست من هست",
     "choices": [
-      "Ziad",
-      "old",
-      "state",
-      "six"
+      "موقعیت",
+      "علت",
+      "به نام",
+      "تیر"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "به نام",
+    "type": "sentence",
+    "intent": "email_querycontact"
   },
   {
-    "question": "بلا تکلیف",
+    "question": "آیا هیچ مکان ------ در ساری وجود دارد",
     "choices": [
-      "reason",
-      "agreement",
-      "uncertain",
-      "solar year"
+      "بن",
+      "اروپا",
+      "لبنانی",
+      "فرانسوی"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "لبنانی",
+    "type": "sentence",
+    "intent": "recommendation_locations"
   },
   {
-    "question": "sun",
+    "question": "بربستی",
     "choices": [
-      "نمایندگان",
-      "خورشید",
-      "یونانی",
-      "اینترنتی"
-    ],
-    "answer": 1,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "گرون",
-    "choices": [
-      "سایت",
-      "ابهام‌زدایی",
-      "اعلام",
-      "ارزون"
+      "establishment",
+      "central",
+      "weather",
+      "lawful"
     ],
     "answer": 3,
-    "type": "antonym"
-  },
-  {
-    "question": "نا محرم",
-    "choices": [
-      "France",
-      "height",
-      "stranger",
-      "rukh"
-    ],
-    "answer": 2,
     "type": "translate_en_fa"
   },
   {
-    "question": "موقع",
+    "question": "------ کجاست",
     "choices": [
-      "situation",
-      "then",
-      "diary",
-      "sour"
+      "رفته",
+      "واقع",
+      "ژانویه",
+      "پارک جمشیدیه"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "پارک جمشیدیه",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "اینترنت",
+    "question": "------ در کجا قرار گرفته است",
     "choices": [
-      "Internet",
-      "straight",
-      "free",
-      "off"
+      "روم",
+      "فرانسوی",
+      "انقلاب",
+      "هند"
     ],
-    "answer": 0,
-    "type": "translate_en_fa"
+    "answer": "هند",
+    "type": "sentence",
+    "intent": "qa_factoid"
   },
   {
-    "question": "حقوقی",
+    "question": "یک جلسه با ------ برای دوشنبه دو بعدازظهر تنظیم کن",
     "choices": [
-      "book",
-      "agriculture",
-      "civil",
-      "California"
+      "حد",
+      "وضعیت",
+      "می‌آید",
+      "پیام آزادی"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "پیام آزادی",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "پلی لیست ------ پاندورا رو پخش کن.",
+    "choices": [
+      "متر",
+      "طریق",
+      "خلق",
+      "موسیقی ورزشی"
+    ],
+    "answer": "موسیقی ورزشی",
+    "type": "sentence",
+    "intent": "play_radio"
+  },
+  {
+    "question": "آیا می‌توانی ------ را که من برای جمعه برنامه‌ریزی کرده‌ام پاک کنی",
+    "choices": [
+      "مهم‌ترین",
+      "شمسی",
+      "داخل",
+      "کوتاهی مو"
+    ],
+    "answer": "کوتاهی مو",
+    "type": "sentence",
+    "intent": "calendar_remove"
+  },
+  {
+    "question": "برای من چند تا ------ سفارش بده",
+    "choices": [
+      "این",
+      "داد",
+      "ساندویچ مرغ",
+      "سرزمین"
+    ],
+    "answer": "ساندویچ مرغ",
+    "type": "sentence",
+    "intent": "takeaway_order"
   },
   {
     "question": "نقش کردن",
     "choices": [
-      "wet",
-      "variation",
-      "careful",
-      "paint"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "fulfillment",
-    "choices": [
-      "مصرف",
-      "آلمان",
-      "بریتانیا",
-      "انجام"
-    ],
-    "answer": 3,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "عدد سی",
-    "choices": [
-      "late",
-      "Iran",
-      "thirty",
-      "friend"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa"
-  },
-  {
-    "question": "children",
-    "choices": [
-      "ورود",
-      "علم",
-      "زادگان",
-      "زندگینامه"
-    ],
-    "answer": 2,
-    "type": "translate_fa_en"
-  },
-  {
-    "question": "بدایت",
-    "choices": [
-      "bitter",
-      "beginning",
-      "ugly",
-      "in"
+      "laugh",
+      "paint",
+      "uncertain",
+      "famous"
     ],
     "answer": 1,
     "type": "translate_en_fa"
   },
   {
-    "question": "علم",
+    "question": "موسفید",
     "choices": [
-      "سایت",
-      "جهل",
-      "ابهام‌زدایی",
-      "اعلام"
-    ],
-    "answer": 1,
-    "type": "antonym"
-  },
-  {
-    "question": "بلا تکلیف",
-    "choices": [
-      "spots",
-      "Iran",
-      "soft",
-      "uncertain"
+      "records",
+      "human",
+      "large",
+      "old"
     ],
     "answer": 3,
     "type": "translate_en_fa"
   },
   {
-    "question": "تابحال",
+    "question": "ایا در ------ کارم تعطییل هست",
     "choices": [
-      "political party",
-      "NASA",
-      "so far",
-      "sour"
+      "بررسی",
+      "نمایش",
+      "روز بزرگداشت سربازان گمنام",
+      "ارتفاع"
     ],
-    "answer": 2,
-    "type": "translate_en_fa"
+    "answer": "روز بزرگداشت سربازان گمنام",
+    "type": "sentence",
+    "intent": "calendar_query"
   },
   {
-    "question": "کج",
+    "question": "قیمت سهام باز شده ------ را به من بدهید",
     "choices": [
-      "مستقیم",
-      "ابهام‌زدایی",
-      "اعلام",
-      "سایت"
+      "می‌رود",
+      "سونی",
+      "امام",
+      "کردند"
+    ],
+    "answer": "سونی",
+    "type": "sentence",
+    "intent": "qa_stock"
+  },
+  {
+    "question": "then",
+    "choices": [
+      "بعد",
+      "بالا",
+      "سبب",
+      "نسخه"
     ],
     "answer": 0,
-    "type": "antonym"
+    "type": "translate_fa_en"
   },
   {
-    "question": "that",
+    "question": "یک یادآور برای ------ ماه بعد تنظیم کن",
     "choices": [
-      "زیادی",
-      "که",
-      "بار",
-      "ق"
+      "كه",
+      "جهان",
+      "شود",
+      "تعطیلات"
+    ],
+    "answer": "تعطیلات",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "سلام برای ------ چه هوایی پیش‌بینی میشه",
+    "choices": [
+      "فردا",
+      "بازیگر",
+      "سلطان",
+      "دوباره"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "الان ------ ساعت چنده",
+    "choices": [
+      "آذربایجان",
+      "آن",
+      "نیویورک",
+      "کننده"
+    ],
+    "answer": "نیویورک",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "برو به وب سایت ------",
+    "choices": [
+      "روزنامه شرق",
+      "قهرمان",
+      "رویدادها",
+      "ترکیه"
+    ],
+    "answer": "روزنامه شرق",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "رفت",
+    "choices": [
+      "face",
+      "murder",
+      "nominee",
+      "went"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "صدای موسیقی را ------ افزایش بده",
+    "choices": [
+      "تا نود",
+      "نگهداری",
+      "چپ",
+      "خانواده"
+    ],
+    "answer": "تا نود",
+    "type": "sentence",
+    "intent": "audio_volume_up"
+  },
+  {
+    "question": "سیری ------ را باز کن به روزنامه همشهری توئیت بزن",
+    "choices": [
+      "twitter",
+      "رهبر",
+      "خمینی",
+      "قسمت"
+    ],
+    "answer": "twitter",
+    "type": "sentence",
+    "intent": "social_post"
+  },
+  {
+    "question": "death",
+    "choices": [
+      "مرگ",
+      "یا",
+      "ان",
+      "شهرستان"
+    ],
+    "answer": 0,
+    "type": "translate_fa_en"
+  },
+  {
+    "question": "portion",
+    "choices": [
+      "می‌دهند",
+      "بخش",
+      "می‌باشند",
+      "ماه"
     ],
     "answer": 1,
     "type": "translate_fa_en"
+  },
+  {
+    "question": "------ بعد چه روزی از ماه است",
+    "choices": [
+      "قهرمان",
+      "سخت",
+      "کارشناسی",
+      "سه شنبه"
+    ],
+    "answer": "سه شنبه",
+    "type": "sentence",
+    "intent": "datetime_query"
+  },
+  {
+    "question": "مربوط",
+    "choices": [
+      "industry",
+      "library",
+      "relevant",
+      "matter"
+    ],
+    "answer": 2,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "بهار",
+    "choices": [
+      "office",
+      "spring",
+      "city",
+      "neigborhood"
+    ],
+    "answer": 1,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "الآن در ------ چه می گذرد",
+    "choices": [
+      "همسر",
+      "پول",
+      "جهان",
+      "ارومیه"
+    ],
+    "answer": "جهان",
+    "type": "sentence",
+    "intent": "news_query"
+  },
+  {
+    "question": "هوای ------ زنجان چطور است",
+    "choices": [
+      "عوامل",
+      "بالای",
+      "امروز",
+      "پانویس"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "weather_query"
+  },
+  {
+    "question": "نزدیک‌ترین ------ شمالی در عباس آباد چیست",
+    "choices": [
+      "برجسته",
+      "رستوران",
+      "شدت",
+      "زادگان"
+    ],
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "recommendation_locations"
+  },
+  {
+    "question": "لیست همه‌ی رویداد‌های ------ رو بهم بده و برای همه‌ی اونا یادآور تنظیم کن",
+    "choices": [
+      "نظام",
+      "صاحب",
+      "جهان",
+      "ماه بعد"
+    ],
+    "answer": "ماه بعد",
+    "type": "sentence",
+    "intent": "calendar_set"
+  },
+  {
+    "question": "سازی",
+    "choices": [
+      "known",
+      "inside",
+      "ceremony",
+      "instrumental"
+    ],
+    "answer": 3,
+    "type": "translate_en_fa"
+  },
+  {
+    "question": "معنی ------ چیه",
+    "choices": [
+      "گرفته‌است",
+      "فیصله دادن",
+      "بازیگر",
+      "سر"
+    ],
+    "answer": "فیصله دادن",
+    "type": "sentence",
+    "intent": "qa_definition"
   }
 ]

@@ -49,20 +49,20 @@
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // The Firebase SDK is initialized and available here!
+        
+        //firebase.auth().onAuthStateChanged(user => { console.log(user); });
+        //firebase.database().ref('https://goftan-509c7-default-rtdb.europe-west1.firebasedatabase.app/').on('value', snapshot => { });
+        //firebase.firestore().doc('/foo/bar').get().then(() => { });
+        //firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        //firebase.messaging().requestPermission().then(() => { });
+        //firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //firebase.analytics(); // call to activate
+        //firebase.analytics().logEvent('tutorial_completed');
+        //firebase.performance(); // call to activate
+        
+        // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 	
 	var ui = new firebaseui.auth.AuthUI(firebase.auth());
         ui.start('#firebaseui-auth-container', {
@@ -89,7 +89,7 @@
   	},
   	// Will use popup for IDP Providers sign-in flow instead of the default, redirect.
   	signInFlow: 'popup',
-  	signInSuccessUrl: '<url-to-redirect-to-on-success>',
+  	signInSuccessUrl: 'Quiz/index.html',
   	signInOptions: [
     	// Leave the lines as is for the providers you want to offer your users.
     	firebase.auth.EmailAuthProvider.PROVIDER_ID,
@@ -102,7 +102,6 @@
 	};
 	
 	ui.start('#firebaseui-auth-container', uiConfig);
-
 
         try {
           let app = firebase.app();
