@@ -5,13 +5,17 @@
 //     // No user is signed in.
 //   }
 // });
-
 var questionSentence = {
     "antonym" : "Antonym of",
     "translate_en_fa": "Translation of",
     "translate_fa_en": "Translation of",
     "synonym": "Synonym of",
     "sentence": "Fill in the blank"
+}
+
+function suitableQuestionSentece(questionType, question, intent) {
+    return "<h2>" + questionType + "(" + intent + ") <h2> <br/>" +
+           "<h1>"+question+"</h1>";
 }
 
 function shuffleArray(array) {
@@ -48,8 +52,7 @@ document.querySelector(".choose-lang").addEventListener("click",function(){
     //window["anything"] will convert "anything" string to object because window is also an object
     document.querySelector(".quiz").style.display="block";
 
-        document.querySelector(".question").innerHTML= "<h2>" + questionSentence[window[lang][countQues].type] + "<h2> <br/>" +
-        "<h1>"+window[lang][countQues].question+"</h1>";
+        document.querySelector(".question").innerHTML= suitableQuestionSentece()
 
      for (var i=0;i<=3;i++){                     
         document.getElementById("opt"+i).value=window[lang][countQues].choices[i];
@@ -107,7 +110,10 @@ document.querySelector(".next-question").addEventListener("click",function(){
 
 document.getElementById("ques-left").textContent="Question : "+(countQues+1)+"/"+window[lang].length;
 
-    document.querySelector(".question").innerHTML= "<h2>" + questionSentence[window[lang][countQues].type] + "<h2> <br/>" +
+    document.querySelector(".question").innerHTML= suitableQuestionSentece(window[lang][countQues].type,
+        window[lang][countQues].question, window[lang][countQues].intent);
+    
+    "<h2>" + questionSentence[window[lang][countQues].type] + "<h2> <br/>" +
     "<h1 direction=rtl>"+window[lang][countQues].question+"</h1>";
     
     for (i=0;i<=3;i++){                     
