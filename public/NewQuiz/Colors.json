@@ -1,0 +1,444 @@
+[
+  {
+    "question": "سفید",
+    "choices": [
+      "white",
+      "blue",
+      "yellow",
+      "pink"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "سیاه",
+    "choices": [
+      "black",
+      "silver",
+      "brown",
+      "white"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "مشکی",
+    "choices": [
+      "black",
+      "violet",
+      "black",
+      "yellow"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "خاکستری",
+    "choices": [
+      "lemon",
+      "gray",
+      "red hot",
+      "dark gray"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "توسی",
+    "choices": [
+      "yellow",
+      "black",
+      "green",
+      "dark gray"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "نقره ای",
+    "choices": [
+      "silver",
+      "green",
+      "black",
+      "gray"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "آبی",
+    "choices": [
+      "blue",
+      "violet",
+      "dark gray",
+      "green"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "بنفش",
+    "choices": [
+      "black",
+      "gold",
+      "violet",
+      "red"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "سبز",
+    "choices": [
+      "red hot",
+      "green",
+      "violet",
+      "blue"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "قرمز",
+    "choices": [
+      "yellow",
+      "red",
+      "white",
+      "red"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "سرخ",
+    "choices": [
+      "red hot",
+      "yellow",
+      "gray",
+      "black"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "صورتی",
+    "choices": [
+      "pink",
+      "red",
+      "silver",
+      "yellow"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "قهوه ای",
+    "choices": [
+      "dark gray",
+      "brown",
+      "pink",
+      "green"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "زرد",
+    "choices": [
+      "yellow",
+      "gold",
+      "black",
+      "white"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "طلایی",
+    "choices": [
+      "gray",
+      "gold",
+      "silver",
+      "white"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "لیمویی",
+    "choices": [
+      "lemon",
+      "violet",
+      "lemon",
+      "white"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "نارنجی",
+    "choices": [
+      "black",
+      "orange",
+      "red",
+      "yellow"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of"
+  },
+  {
+    "question": "<div class='square' style='background-color:white'></div>",
+    "choices": [
+      "توسی",
+      "سفید",
+      "مشکی",
+      "سفید"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:black'></div>",
+    "choices": [
+      "توسی",
+      "صورتی",
+      "سیاه",
+      "لیمویی"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:black'></div>",
+    "choices": [
+      "نقره ای",
+      "قرمز",
+      "سیاه",
+      "مشکی"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:gray'></div>",
+    "choices": [
+      "بنفش",
+      "خاکستری",
+      "سبز",
+      "طلایی"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:dark gray'></div>",
+    "choices": [
+      "توسی",
+      "سرخ",
+      "صورتی",
+      "توسی"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:silver'></div>",
+    "choices": [
+      "قهوه ای",
+      "آبی",
+      "سرخ",
+      "نقره ای"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:blue'></div>",
+    "choices": [
+      "مشکی",
+      "لیمویی",
+      "سبز",
+      "آبی"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:violet'></div>",
+    "choices": [
+      "سرخ",
+      "سبز",
+      "مشکی",
+      "بنفش"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:green'></div>",
+    "choices": [
+      "توسی",
+      "سبز",
+      "لیمویی",
+      "خاکستری"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:red'></div>",
+    "choices": [
+      "قرمز",
+      "بنفش",
+      "زرد",
+      "طلایی"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:red hot'></div>",
+    "choices": [
+      "صورتی",
+      "خاکستری",
+      "لیمویی",
+      "سرخ"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:pink'></div>",
+    "choices": [
+      "سبز",
+      "بنفش",
+      "صورتی",
+      "سیاه"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:brown'></div>",
+    "choices": [
+      "قهوه ای",
+      "طلایی",
+      "صورتی",
+      "بنفش"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:yellow'></div>",
+    "choices": [
+      "لیمویی",
+      "توسی",
+      "سفید",
+      "زرد"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:gold'></div>",
+    "choices": [
+      "طلایی",
+      "آبی",
+      "قهوه ای",
+      "بنفش"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:lemon'></div>",
+    "choices": [
+      "لیمویی",
+      "مشکی",
+      "طلایی",
+      "لیمویی"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  },
+  {
+    "question": "<div class='square' style='background-color:orange'></div>",
+    "choices": [
+      "لیمویی",
+      "قهوه ای",
+      "زرد",
+      "نارنجی"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "Color of"
+  }
+]

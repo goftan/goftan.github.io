@@ -1,7 +1,7 @@
 var avialble_topics = [
     'Capitals',
     // 'Countries',
-    // 'Colors',
+    'Colors',
     // 'Animals',
     'Antonyms',
     'Common Words', 
@@ -12,18 +12,6 @@ function fill_topic_checkboxes() {
         .enter().append('label').text(function(d){return d;}).attr('class','container')
         .html(function(d){return '<input type="checkbox" name="topics" value="'+d+'" checked="checked" class="mycheckbox">'
                                   + d +'<span class="checkmark"></span>';});
-        // .enter().append('input').attr('type', 'checkbox').attr('checked', true).attr('value','CheckBoxValue').attr('class','mycheckbox')
-        // .enter().append('span').attr('class','checkmark');
-    // var container = document.getElementById('container'))
-    // for(var t of avialble_topics) {
-    //    var topic_checkboxes_template = `
-    //     <label class="container">CheckBoxValue
-    //     <input type="checkbox" checked="checked" value="CheckBoxValue" class="mycheckbox">
-    //     <span class="checkmark"></span>
-    //     </label>`;
-    //     var topic_checkboxes_replaced = topic_checkboxes_template.replaceAll('CheckBoxValue', t);
-    //     d3.select('#topics_checkboxes').append('label').style('')
-    // } 
 }
 
 
@@ -37,7 +25,8 @@ function shuffleArray(array) {
 }
 
 function fill_qa(q) {
-    d3.select("#question").html(q.extra + "<br/>" + q.question);
+    d3.select("#extra").html(q.extra);
+    d3.select("#question").html(q.question);
     for (i=0;i<=3;i++) {
         d3.select('#opt'+i).text(q.choices[i]);
     }  

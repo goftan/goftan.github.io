@@ -3,9 +3,9 @@
     "question": "پکن",
     "choices": [
       "چین",
-      "سنت پیر و ماژلان (فرانسه)",
-      "جزایر فالکلند (بریتانیا)",
-      "پاراگوئه"
+      "نیووی (نیوزیلند)",
+      "زیمبابوه",
+      "جمهوری آفریقای مرکزی"
     ],
     "answer": 0,
     "type": "sentence",
@@ -15,12 +15,12 @@
   {
     "question": "دهلی نو",
     "choices": [
-      "اتیوپی",
-      "صربستان",
       "هند",
-      "بلغارستان"
+      "جیبوتی",
+      "ماکائو (چین)",
+      "هائیتی"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -28,12 +28,12 @@
   {
     "question": "توکیو",
     "choices": [
-      "مونته‌نگرو",
-      "اوکراین",
-      "ژاپن",
-      "هندوراس"
+      "پالائو",
+      "شیلی",
+      "سوریه",
+      "ژاپن"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -41,12 +41,12 @@
   {
     "question": "مانیل",
     "choices": [
-      "پرتغال",
-      "فیلیپین",
-      "جزایر ویرجین ایالات متحده (ایالات متحده)",
-      "بلغارستان"
+      "جزایر تورکس و کایکوس (بریتانیا)",
+      "پاپوآ گینه نو",
+      "هند",
+      "فیلیپین"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -54,12 +54,12 @@
   {
     "question": "مسکو",
     "choices": [
-      "آلبانی",
-      "بوروندی",
-      "روسیه",
-      "قطر"
+      "برزیل",
+      "وانواتو",
+      "گامبیا",
+      "روسیه"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -67,10 +67,10 @@
   {
     "question": "قاهره",
     "choices": [
-      "اردن",
+      "ترینیداد و توباگو",
       "مصر",
-      "سومالی",
-      "گرجستان"
+      "اسواتینی",
+      "کوزوو"
     ],
     "answer": 1,
     "type": "sentence",
@@ -80,36 +80,10 @@
   {
     "question": "جاکارتا",
     "choices": [
-      "مصر",
       "اندونزی",
-      "بورکینافاسو",
-      "امارات متحده عربی"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "کینشاسا",
-    "choices": [
-      "جرسی (بریتانیا)",
-      "جبل طارق (بریتانیا)",
-      "جمهوری دموکراتیک کنگو",
-      "سوئیس"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "سئول",
-    "choices": [
-      "کره جنوبی",
-      "کانادا",
-      "وانواتو",
-      "ترانسنیستریا"
+      "ژاپن",
+      "جمهوری دموکراتیک صحرای غربی",
+      "پادشاهی بوتان"
     ],
     "answer": 0,
     "type": "sentence",
@@ -117,11 +91,37 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "کینشاسا",
+    "choices": [
+      "جمهوری دموکراتیک کنگو",
+      "مغولستان",
+      "بلغارستان",
+      "فرانسه"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "سئول",
+    "choices": [
+      "استرالیا",
+      "کره جنوبی",
+      "جمهوری دموکراتیک کنگو",
+      "ماداگاسکار"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "داکا",
     "choices": [
-      "مالی",
-      "هائیتی",
-      "سنت لوسیا",
+      "دماغه سبز",
+      "آلمان",
+      "اردن",
       "بنگلادش"
     ],
     "answer": 3,
@@ -133,9 +133,9 @@
     "question": "مکزیکوسیتی",
     "choices": [
       "مکزیک",
-      "سوئد",
-      "بولیوی",
-      "نیوزیلند"
+      "توگو",
+      "سائوتومه و پرنسیپ",
+      "کوبا"
     ],
     "answer": 0,
     "type": "sentence",
@@ -146,9 +146,9 @@
     "question": "تهران",
     "choices": [
       "ایران",
-      "سیرالئون",
-      "مجارستان",
-      "ویتنام"
+      "اروگوئه",
+      "کلمبیا",
+      "قزاقستان"
     ],
     "answer": 0,
     "type": "sentence",
@@ -158,49 +158,10 @@
   {
     "question": "لندن",
     "choices": [
-      "بریتانیا",
-      "فرانسه",
-      "بورکینافاسو",
-      "ایالات فدرال میکرونزی"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "لیما",
-    "choices": [
-      "امارات متحده عربی",
       "پرو",
-      "جزیره نورفولک (استرالیا)",
-      "لیبی"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "بانکوک",
-    "choices": [
-      "تایلند",
-      "اکوادور",
-      "سنت لوسیا",
-      "جمهوری آذربایجان"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "بوگوتا",
-    "choices": [
-      "جمهوری چین",
-      "قزاقستان",
-      "کلمبیا",
-      "کنیا"
+      "سودان جنوبی",
+      "بریتانیا",
+      "لائوس"
     ],
     "answer": 2,
     "type": "sentence",
@@ -208,11 +169,50 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "لیما",
+    "choices": [
+      "پرو",
+      "کره شمالی",
+      "آفریقای جنوبی",
+      "آنگولا"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "بانکوک",
+    "choices": [
+      "جامائیکا",
+      "تایلند",
+      "سورینام",
+      "جزایر آلند (فنلاند)"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "بوگوتا",
+    "choices": [
+      "بریتانیا",
+      "کلمبیا",
+      "جمهوری آفریقای مرکزی",
+      "قبرس"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "هانوی",
     "choices": [
-      "آفریقای جنوبی",
-      "سینت هلینا (بریتانیا)",
-      "جزایر سلیمان",
+      "کیریباتی",
+      "نیکاراگوئه",
+      "قرقیزستان",
       "ویتنام"
     ],
     "answer": 3,
@@ -223,12 +223,12 @@
   {
     "question": "هنگ کنگ",
     "choices": [
-      "اوکراین",
-      "امارات متحده عربی",
       "هنگ کنگ (چین)",
-      "اسرائیل"
+      "ایالات متحده آمریکا",
+      "جمهوری دموکراتیک صحرای غربی",
+      "گینه"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -236,23 +236,10 @@
   {
     "question": "بغداد",
     "choices": [
-      "ترانسنیستریا",
-      "عراق",
-      "مالزی",
-      "جزیره کریسمس (استرالیا)"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "سنگاپور",
-    "choices": [
-      "جبل طارق (بریتانیا)",
       "کامرون",
-      "سنگاپور",
-      "پاکستان"
+      "مغولستان",
+      "عراق",
+      "جمهوری آفریقای مرکزی"
     ],
     "answer": 2,
     "type": "sentence",
@@ -260,11 +247,24 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "سنگاپور",
+    "choices": [
+      "قزاقستان",
+      "سنگاپور",
+      "کاستاریکا",
+      "مالی"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "آنکارا",
     "choices": [
-      "تاجیکستان",
-      "نیوزیلند",
-      "استونی",
+      "گامبیا",
+      "گینه استوایی",
+      "بلژیک",
       "ترکیه"
     ],
     "answer": 3,
@@ -275,23 +275,10 @@
   {
     "question": "سانتیاگو",
     "choices": [
+      "جمهوری آفریقای مرکزی",
+      "مونته‌نگرو",
       "شیلی",
-      "کوزوو",
-      "ساموآ",
-      "گابن"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "ریاض",
-    "choices": [
-      "برزیل",
-      "کوبا",
-      "جمهوری ایرلند",
-      "عربستان سعودی"
+      "شیلی"
     ],
     "answer": 3,
     "type": "sentence",
@@ -299,14 +286,27 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "ریاض",
+    "choices": [
+      "لائوس",
+      "عربستان سعودی",
+      "سینت هلینا (بریتانیا)",
+      "پاپوآ گینه نو"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "برلین",
     "choices": [
-      "آلمان",
-      "هندوراس",
-      "بولیوی",
-      "جزیره من (بریتانیا)"
+      "افغانستان",
+      "ماکائو (چین)",
+      "گینه",
+      "آلمان"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -314,12 +314,12 @@
   {
     "question": "دمشق",
     "choices": [
-      "اکوادور",
-      "لیختن‌اشتاین",
-      "سوریه",
-      "جزایر سلیمان"
+      "قطر",
+      "کره جنوبی",
+      "اندونزی",
+      "سوریه"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -327,12 +327,12 @@
   {
     "question": "الجزیره",
     "choices": [
-      "کرواسی",
-      "مولداوی",
+      "مراکش",
       "الجزایر",
-      "سوریه"
+      "اردن",
+      "مالت"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -341,9 +341,9 @@
     "question": "مادرید",
     "choices": [
       "اسپانیا",
-      "لبنان",
-      "سوئیس",
-      "سومالی"
+      "السالوادور",
+      "قرقیزستان",
+      "کیریباتی"
     ],
     "answer": 0,
     "type": "sentence",
@@ -353,12 +353,12 @@
   {
     "question": "پیونگ یانگ",
     "choices": [
-      "رواندا",
-      "کره شمالی",
-      "الجزایر",
-      "کویت"
+      "سنگال",
+      "نیجر",
+      "کلمبیا",
+      "کره شمالی"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -366,12 +366,12 @@
   {
     "question": "کابل",
     "choices": [
-      "جزایر کوک (نیوزیلند)",
-      "الجزایر",
+      "سوئیس",
       "افغانستان",
-      "زیمبابوه"
+      "عربستان سعودی",
+      "اسلواکی"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -379,9 +379,9 @@
   {
     "question": "نایروبی",
     "choices": [
-      "گامبیا",
-      "ژاپن",
-      "قرقیزستان",
+      "سری‌لانکا",
+      "سورینام",
+      "لسوتو",
       "کنیا"
     ],
     "answer": 3,
@@ -392,49 +392,10 @@
   {
     "question": "آتن",
     "choices": [
-      "جزیره نورفولک (استرالیا)",
       "یونان",
-      "امارات متحده عربی",
-      "فنلاند"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "آدیس آبابا",
-    "choices": [
-      "ساحل عاج",
-      "اردن",
-      "اتیوپی",
-      "تووالو"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "بوئنوس آیرس",
-    "choices": [
-      "ارمنستان",
-      "آرژانتین",
-      "تیمور شرقی",
-      "استرالیا"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "رم",
-    "choices": [
-      "ایتالیا",
-      "صربستان",
-      "توگو",
-      "جزیره من (بریتانیا)"
+      "جمهوری کنگو",
+      "توکلائو (نیوزیلند)",
+      "کاستاریکا"
     ],
     "answer": 0,
     "type": "sentence",
@@ -442,38 +403,25 @@
     "extra": "The country with the following capital:"
   },
   {
-    "question": "کی یف",
+    "question": "آدیس آبابا",
     "choices": [
-      "گینه استوایی",
-      "قبرس",
-      "اوکراین",
-      "سنگال"
+      "اتیوپی",
+      "اسلوونی",
+      "موریتانی",
+      "چین"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
   },
   {
-    "question": "یائونده",
+    "question": "بوئنوس آیرس",
     "choices": [
-      "چین",
-      "کامرون",
-      "ترکمنستان",
-      "جمهوری آذربایجان"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "تایپه",
-    "choices": [
-      "جزایر ویرجین بریتانیا (بریتانیا)",
-      "ماداگاسکار",
-      "تیمور شرقی",
-      "جمهوری چین"
+      "سومالی",
+      "مونتسرات (بریتانیا)",
+      "جزیره من (بریتانیا)",
+      "آرژانتین"
     ],
     "answer": 3,
     "type": "sentence",
@@ -481,12 +429,64 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "رم",
+    "choices": [
+      "آنگویلا (بریتانیا)",
+      "ایتالیا",
+      "بنین",
+      "آفریقای جنوبی"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "کی یف",
+    "choices": [
+      "پاناما",
+      "اسلوونی",
+      "پاکستان",
+      "اوکراین"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "یائونده",
+    "choices": [
+      "کامرون",
+      "ترینیداد و توباگو",
+      "مغولستان",
+      "بوروندی"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "تایپه",
+    "choices": [
+      "ترکیه",
+      "کرانه باختری رود اردن (اسرائیل/حکومت خودگردان فلسطین)",
+      "جمهوری چین",
+      "جرسی (بریتانیا)"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "برازیلیا",
     "choices": [
-      "اسلوونی",
-      "چاد",
+      "سنت پیر و ماژلان (فرانسه)",
+      "موناکو",
       "برزیل",
-      "ساحل عاج"
+      "کیریباتی"
     ],
     "answer": 2,
     "type": "sentence",
@@ -496,12 +496,12 @@
   {
     "question": "امان",
     "choices": [
-      "برمودا (بریتانیا)",
-      "کنیا",
-      "ساموآ",
-      "اردن"
+      "سینت هلینا (بریتانیا)",
+      "اردن",
+      "گینه استوایی",
+      "جزایر کوک (نیوزیلند)"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -509,12 +509,12 @@
   {
     "question": "لواندا",
     "choices": [
-      "دانمارک",
-      "لهستان",
       "آنگولا",
-      "پرتغال"
+      "الجزایر",
+      "پادشاهی بوتان",
+      "ارمنستان"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -522,10 +522,10 @@
   {
     "question": "پرتوریا",
     "choices": [
-      "لیبریا",
-      "ایالات متحده آمریکا",
+      "گرجستان",
+      "گویان",
       "آفریقای جنوبی",
-      "جزیره کریسمس (استرالیا)"
+      "کوبا"
     ],
     "answer": 2,
     "type": "sentence",
@@ -535,12 +535,12 @@
   {
     "question": "پاریس",
     "choices": [
-      "سری‌لانکا",
+      "بحرین",
+      "گواتمالا",
       "فرانسه",
-      "بریتانیا",
-      "ساموآ"
+      "اندونزی"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -548,12 +548,12 @@
   {
     "question": "تاشکند",
     "choices": [
-      "پرتغال",
-      "لهستان",
-      "موناکو",
-      "ازبکستان"
+      "رواندا",
+      "ازبکستان",
+      "پاراگوئه",
+      "نپال"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -561,12 +561,12 @@
   {
     "question": "باکو",
     "choices": [
-      "مالزی",
-      "دانمارک",
-      "ترکیه",
-      "جمهوری آذربایجان"
+      "گرنزی (بریتانیا)",
+      "جمهوری آذربایجان",
+      "سنت کیتس و نویس",
+      "مونتسرات (بریتانیا)"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -574,10 +574,10 @@
   {
     "question": "هاوانا",
     "choices": [
-      "تووالو",
-      "پاپوآ گینه نو",
+      "نیکاراگوئه",
+      "عراق",
       "کوبا",
-      "اتیوپی"
+      "غنا"
     ],
     "answer": 2,
     "type": "sentence",
@@ -587,10 +587,10 @@
   {
     "question": "پنوم پن",
     "choices": [
-      "مالی",
+      "ونزوئلا",
       "کامبوج",
-      "ازبکستان",
-      "برمودا (بریتانیا)"
+      "مالت",
+      "توکلائو (نیوزیلند)"
     ],
     "answer": 1,
     "type": "sentence",
@@ -600,36 +600,10 @@
   {
     "question": "بخارست",
     "choices": [
-      "دماغه سبز",
-      "جمهوری دومینیکن",
-      "باربادوس",
-      "رومانی"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "کاراکاس",
-    "choices": [
-      "ونزوئلا",
-      "بلیز",
-      "شیلی",
-      "کرواسی"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "رباط",
-    "choices": [
-      "اتریش",
-      "مراکش",
-      "بنگلادش",
-      "گوآم (ایالات متحده)"
+      "پاکستان",
+      "رومانی",
+      "کویت",
+      "لسوتو"
     ],
     "answer": 1,
     "type": "sentence",
@@ -637,12 +611,38 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "کاراکاس",
+    "choices": [
+      "عراق",
+      "ماداگاسکار",
+      "ونزوئلا",
+      "کلمبیا"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "رباط",
+    "choices": [
+      "زامبیا",
+      "عمان",
+      "مراکش",
+      "اسلواکی"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "وین",
     "choices": [
-      "برمودا (بریتانیا)",
-      "بلاروس",
+      "جزیره کریسمس (استرالیا)",
+      "اسواتینی",
       "اتریش",
-      "مغولستان"
+      "امارات متحده عربی"
     ],
     "answer": 2,
     "type": "sentence",
@@ -652,10 +652,10 @@
   {
     "question": "خارطوم",
     "choices": [
-      "کانادا",
-      "پاراگوئه",
+      "سائوتومه و پرنسیپ",
+      "سان مارینو",
       "سودان",
-      "اسپانیا"
+      "السالوادور"
     ],
     "answer": 2,
     "type": "sentence",
@@ -665,12 +665,12 @@
   {
     "question": "بوداپست",
     "choices": [
-      "سومالی",
-      "لتونی",
-      "گرنادا",
-      "مجارستان"
+      "مجارستان",
+      "جبل طارق (بریتانیا)",
+      "هند",
+      "نامیبیا"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -678,12 +678,12 @@
   {
     "question": "ورشو",
     "choices": [
-      "هنگ کنگ (چین)",
-      "موزامبیک",
-      "لهستان",
-      "زامبیا"
+      "آنگولا",
+      "جمهوری کنگو",
+      "سنگال",
+      "لهستان"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -691,10 +691,10 @@
   {
     "question": "مینسک",
     "choices": [
-      "بوتسوانا",
-      "جمهوری چک",
+      "نیجریه",
+      "ایالات فدرال میکرونزی",
       "بلاروس",
-      "کره جنوبی"
+      "نیجر"
     ],
     "answer": 2,
     "type": "sentence",
@@ -704,12 +704,12 @@
   {
     "question": "کامپالا",
     "choices": [
-      "توگو",
-      "سنت کیتس و نویس",
+      "چاد",
+      "اوگاندا",
       "اوگاندا",
       "کلمبیا"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -717,12 +717,12 @@
   {
     "question": "آکرا",
     "choices": [
-      "جمهوری ایرلند",
-      "سوالبارد (نروژ)",
       "غنا",
-      "جزایر ویرجین بریتانیا (بریتانیا)"
+      "مکزیک",
+      "جمهوری دموکراتیک صحرای غربی",
+      "سودان"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -730,9 +730,9 @@
   {
     "question": "آنتاناناریوو",
     "choices": [
-      "پاکستان",
-      "زامبیا",
-      "تونس",
+      "آنگولا",
+      "سوئیس",
+      "جمهوری آذربایجان",
       "ماداگاسکار"
     ],
     "answer": 3,
@@ -743,12 +743,12 @@
   {
     "question": "بیروت",
     "choices": [
-      "بوسنی و هرزگوین",
-      "گینه استوایی",
-      "مراکش",
-      "لبنان"
+      "جزایر تورکس و کایکوس (بریتانیا)",
+      "ایرلند شمالی",
+      "لبنان",
+      "اسرائیل"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -756,75 +756,10 @@
   {
     "question": "استکهلم",
     "choices": [
-      "اسرائیل",
-      "سوئیس",
       "سوئد",
-      "مغولستان"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "کیتو",
-    "choices": [
-      "جزایر ویرجین بریتانیا (بریتانیا)",
-      "پاناما",
-      "لسوتو",
-      "اکوادور"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "هراره",
-    "choices": [
-      "موناکو",
-      "موریتانی",
-      "زیمبابوه",
-      "جمهوری دموکراتیک کنگو"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "دوحه",
-    "choices": [
-      "گابن",
-      "ایسلند",
-      "گرنزی (بریتانیا)",
-      "قطر"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "صنعا",
-    "choices": [
-      "مونته‌نگرو",
-      "پالائو",
-      "یمن",
-      "چین"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "کوناکری",
-    "choices": [
-      "گینه",
-      "جمهوری دموکراتیک صحرای غربی",
       "اسلوونی",
-      "دانمارک"
+      "فنلاند",
+      "گینه بیسائو"
     ],
     "answer": 0,
     "type": "sentence",
@@ -832,12 +767,25 @@
     "extra": "The country with the following capital:"
   },
   {
-    "question": "کوالالامپور",
+    "question": "کیتو",
     "choices": [
-      "اردن",
-      "مالزی",
-      "تووالو",
-      "جرسی (بریتانیا)"
+      "اکوادور",
+      "گرینلند (دانمارک)",
+      "الجزایر",
+      "استرالیا"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "هراره",
+    "choices": [
+      "عراق",
+      "زیمبابوه",
+      "گرنزی (بریتانیا)",
+      "شیلی"
     ],
     "answer": 1,
     "type": "sentence",
@@ -845,14 +793,66 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "دوحه",
+    "choices": [
+      "میانمار",
+      "سنگاپور",
+      "قطر",
+      "جمهوری آفریقای مرکزی"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "صنعا",
+    "choices": [
+      "یمن",
+      "سودان جنوبی",
+      "لهستان",
+      "قبرس"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "کوناکری",
+    "choices": [
+      "پاراگوئه",
+      "گینه",
+      "برزیل",
+      "تونگا"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "کوالالامپور",
+    "choices": [
+      "رومانی",
+      "استونی",
+      "مالزی",
+      "جزایر تورکس و کایکوس (بریتانیا)"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "مونته ویدئو",
     "choices": [
-      "آنتیگوا و باربودا",
-      "بحرین",
-      "قرقیزستان",
-      "اروگوئه"
+      "ترینیداد و توباگو",
+      "اروگوئه",
+      "بریتانیا",
+      "دانمارک"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -861,9 +861,9 @@
     "question": "لوزاکا",
     "choices": [
       "زامبیا",
-      "پلی‌نزی فرانسه (فرانسه)",
-      "اسلوونی",
-      "هائیتی"
+      "کامبوج",
+      "آنگولا",
+      "موناکو"
     ],
     "answer": 0,
     "type": "sentence",
@@ -873,62 +873,10 @@
   {
     "question": "باماکو",
     "choices": [
-      "توگو",
+      "ترانسنیستریا",
       "مالی",
-      "لائوس",
-      "بوسنی و هرزگوین"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "پراگ",
-    "choices": [
-      "جمهوری چک",
-      "چین",
-      "لسوتو",
-      "سینت هلینا (بریتانیا)"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "پورتوپرنس",
-    "choices": [
-      "هائیتی",
-      "تانزانیا",
-      "موریس",
-      "بلیز"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "طرابلس",
-    "choices": [
-      "گویان",
-      "لیبی",
-      "اسپانیا",
-      "لیختن‌اشتاین"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "کویت",
-    "choices": [
-      "چین",
-      "گواتمالا",
-      "سان مارینو",
-      "کویت"
+      "گرینلند (دانمارک)",
+      "مالی"
     ],
     "answer": 3,
     "type": "sentence",
@@ -936,14 +884,66 @@
     "extra": "The country with the following capital:"
   },
   {
-    "question": "بلگراد",
+    "question": "پراگ",
     "choices": [
-      "بلیز",
-      "صربستان",
-      "اسواتینی",
-      "میانمار"
+      "بنگلادش",
+      "اروگوئه",
+      "جمهوری چک",
+      "کوبا"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "پورتوپرنس",
+    "choices": [
+      "جامائیکا",
+      "هائیتی",
+      "اسپانیا",
+      "توگو"
     ],
     "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "طرابلس",
+    "choices": [
+      "لیبی",
+      "آلمان",
+      "کامرون",
+      "اروگوئه"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "کویت",
+    "choices": [
+      "اسواتینی",
+      "جرسی (بریتانیا)",
+      "کویت",
+      "کلمبیا"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "بلگراد",
+    "choices": [
+      "صربستان",
+      "سنت کیتس و نویس",
+      "پرتغال",
+      "پرو"
+    ],
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -951,12 +951,12 @@
   {
     "question": "سانتو دومینگو",
     "choices": [
-      "ساحل عاج",
-      "نیووی (نیوزیلند)",
       "جمهوری دومینیکن",
-      "گابن"
+      "اتحاد قمر",
+      "مالی",
+      "جزایر کیمن (بریتانیا)"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -964,36 +964,10 @@
   {
     "question": "موگادیشو",
     "choices": [
-      "بورکینافاسو",
+      "جمهوری دموکراتیک صحرای غربی",
+      "ترینیداد و توباگو",
       "سومالی",
-      "لتونی",
-      "جمهوری چک"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "صوفیه",
-    "choices": [
-      "گواتمالا",
-      "بلغارستان",
-      "سنت پیر و ماژلان (فرانسه)",
-      "جمهوری آفریقای مرکزی"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "برازاویل",
-    "choices": [
-      "دومینیکا",
-      "نائورو",
-      "جمهوری کنگو",
-      "کره جنوبی"
+      "موزامبیک"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1001,14 +975,40 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "صوفیه",
+    "choices": [
+      "بلغارستان",
+      "سوئد",
+      "چین",
+      "بلغارستان"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "برازاویل",
+    "choices": [
+      "مالزی",
+      "افغانستان",
+      "جزیره کریسمس (استرالیا)",
+      "جمهوری کنگو"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "بروکسل",
     "choices": [
-      "کنیا",
       "بلژیک",
-      "سومالی",
-      "سودان جنوبی"
+      "مالزی",
+      "ویتنام",
+      "جمهوری آذربایجان"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1016,12 +1016,12 @@
   {
     "question": "ایروان",
     "choices": [
-      "ارمنستان",
-      "غنا",
-      "مالاوی",
-      "کیریباتی"
+      "کرانه باختری رود اردن (اسرائیل/حکومت خودگردان فلسطین)",
+      "کیریباتی",
+      "جزیره کریسمس (استرالیا)",
+      "ارمنستان"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1030,9 +1030,9 @@
     "question": "ماپوتو",
     "choices": [
       "موزامبیک",
-      "کلمبیا",
-      "لیبریا",
-      "مالت"
+      "نائورو",
+      "بلژیک",
+      "لیبریا"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1042,23 +1042,10 @@
   {
     "question": "فری تاون",
     "choices": [
-      "ساموای آمریکا (ایالات متحده)",
       "سیرالئون",
-      "لیبی",
-      "کاستاریکا"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "دوبلین",
-    "choices": [
-      "جمهوری ایرلند",
-      "جمهوری دموکراتیک کنگو",
-      "فیجی",
-      "غنا"
+      "اسلواکی",
+      "اکوادور",
+      "سنگال"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1066,14 +1053,27 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "دوبلین",
+    "choices": [
+      "استونی",
+      "جمهوری ایرلند",
+      "یمن",
+      "کامرون"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "تفلیس",
     "choices": [
-      "آلبانی",
-      "سوالبارد (نروژ)",
-      "گامبیا",
-      "گرجستان"
+      "تونس",
+      "گرجستان",
+      "جمهوری دموکراتیک کنگو",
+      "آندورا"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1081,9 +1081,9 @@
   {
     "question": "داکار",
     "choices": [
-      "لیبی",
-      "غنا",
-      "جزایر مارشال",
+      "گینه استوایی",
+      "جزایر تورکس و کایکوس (بریتانیا)",
+      "لیختن‌اشتاین",
       "سنگال"
     ],
     "answer": 3,
@@ -1094,12 +1094,12 @@
   {
     "question": "گواتمالاسیتی",
     "choices": [
+      "اسلواکی",
+      "سان مارینو",
       "گواتمالا",
-      "پورتوریکو (ایالات متحده)",
-      "لسوتو",
-      "سنت بارثلمی (فرانسه)"
+      "آنگولا"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1107,10 +1107,10 @@
   {
     "question": "مونروویا",
     "choices": [
-      "سنگال",
+      "جمهوری کنگو",
       "لیبریا",
-      "دانمارک",
-      "سری‌لانکا"
+      "پلی‌نزی فرانسه (فرانسه)",
+      "امارات متحده عربی"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1120,12 +1120,12 @@
   {
     "question": "آواگادوگو",
     "choices": [
-      "لتونی",
-      "بریتانیا",
-      "روسیه",
-      "بورکینافاسو"
+      "نیکاراگوئه",
+      "کرواسی",
+      "بورکینافاسو",
+      "موزامبیک"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1133,12 +1133,12 @@
   {
     "question": "کاتماندو",
     "choices": [
-      "نپال",
-      "آرژانتین",
-      "ترکمنستان",
-      "جزایر ویرجین ایالات متحده (ایالات متحده)"
+      "جزایر تورکس و کایکوس (بریتانیا)",
+      "جمهوری دومینیکن",
+      "کامبوج",
+      "نپال"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1147,9 +1147,9 @@
     "question": "اسلام‌آباد",
     "choices": [
       "پاکستان",
-      "کامرون",
-      "کوراسائو (هلند)",
-      "مغولستان"
+      "سیرالئون",
+      "پاناما",
+      "آنگولا"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1159,12 +1159,12 @@
   {
     "question": "ماناگوئه",
     "choices": [
-      "جزایر سلیمان",
-      "جزایر ویرجین ایالات متحده (ایالات متحده)",
-      "نیجریه",
-      "نیکاراگوئه"
+      "اردن",
+      "زیمبابوه",
+      "نیکاراگوئه",
+      "سینت هلینا (بریتانیا)"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1172,12 +1172,12 @@
   {
     "question": "نایپیداو",
     "choices": [
-      "سان مارینو",
-      "جمهوری دموکراتیک کنگو",
+      "سومالی",
       "میانمار",
-      "فرانسه"
+      "کلمبیا",
+      "آرژانتین"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1185,36 +1185,10 @@
   {
     "question": "اولان باتور",
     "choices": [
-      "پالائو",
-      "قبرس شمالی",
-      "مغولستان",
-      "کانادا"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "لیلونگوه",
-    "choices": [
-      "اروگوئه",
-      "سنت بارثلمی (فرانسه)",
-      "مالاوی",
-      "بنگلادش"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "اتاوا",
-    "choices": [
-      "سینت هلینا (بریتانیا)",
-      "تیمور شرقی",
-      "بلغارستان",
-      "کانادا"
+      "جامائیکا",
+      "ایالات فدرال میکرونزی",
+      "بنین",
+      "مغولستان"
     ],
     "answer": 3,
     "type": "sentence",
@@ -1222,14 +1196,40 @@
     "extra": "The country with the following capital:"
   },
   {
-    "question": "لاپاز",
+    "question": "لیلونگوه",
     "choices": [
-      "بولیوی",
-      "الجزایر",
-      "مونته‌نگرو",
-      "گرجستان"
+      "بحرین",
+      "مالاوی",
+      "سائوتومه و پرنسیپ",
+      "جبل طارق (بریتانیا)"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "اتاوا",
+    "choices": [
+      "کانادا",
+      "بوتسوانا",
+      "هائیتی",
+      "لیختن‌اشتاین"
     ],
     "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "لاپاز",
+    "choices": [
+      "بنگلادش",
+      "بولیوی",
+      "سوالبارد (نروژ)",
+      "لسوتو"
+    ],
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1237,12 +1237,12 @@
   {
     "question": "بیشکک",
     "choices": [
-      "اسلواکی",
-      "قرقیزستان",
-      "تووالو",
-      "کلمبیا"
+      "مالی",
+      "مونتسرات (بریتانیا)",
+      "آرژانتین",
+      "قرقیزستان"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1250,36 +1250,10 @@
   {
     "question": "نورسلطان",
     "choices": [
-      "یونان",
       "قزاقستان",
-      "واتیکان",
-      "لوکزامبورگ"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "لومه",
-    "choices": [
-      "تونس",
-      "قطر",
-      "توگو",
-      "تاجیکستان"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "پاناماسیتی",
-    "choices": [
-      "پاناما",
-      "چاد",
-      "اتحاد قمر",
-      "لتونی"
+      "سیشل",
+      "یونان",
+      "گویان"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1287,12 +1261,38 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "لومه",
+    "choices": [
+      "سورینام",
+      "توگو",
+      "کره جنوبی",
+      "مالت"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "پاناماسیتی",
+    "choices": [
+      "بلژیک",
+      "پاناما",
+      "سنت وینسنت و گرنادین‌ها",
+      "کره جنوبی"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "آمستردام",
     "choices": [
-      "ایران",
-      "سوالبارد (نروژ)",
+      "سری‌لانکا",
+      "قزاقستان",
       "هلند",
-      "مونته‌نگرو"
+      "جزایر آلند (فنلاند)"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1302,10 +1302,10 @@
   {
     "question": "زاگرب",
     "choices": [
-      "اتریش",
-      "بولیوی",
+      "لیبی",
+      "پورتوریکو (ایالات متحده)",
       "کرواسی",
-      "تاجیکستان"
+      "پاپوآ گینه نو"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1315,12 +1315,12 @@
   {
     "question": "مسقط",
     "choices": [
+      "سنگاپور",
+      "ژاپن",
       "عمان",
-      "نروژ",
-      "نپال",
-      "پادشاهی بوتان"
+      "پرتغال"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1328,12 +1328,12 @@
   {
     "question": "نیامی",
     "choices": [
-      "لوکزامبورگ",
-      "ماداگاسکار",
-      "سورینام",
-      "نیجر"
+      "لیبریا",
+      "والیس و فوتونا (فرانسه)",
+      "نیجر",
+      "بلاروس"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1342,9 +1342,9 @@
     "question": "کیشیناو",
     "choices": [
       "مولداوی",
-      "بوتسوانا",
-      "وانواتو",
-      "گرینلند (دانمارک)"
+      "ساموای آمریکا (ایالات متحده)",
+      "مالاوی",
+      "سودان جنوبی"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1354,10 +1354,10 @@
   {
     "question": "اورشلیم",
     "choices": [
-      "پلی‌نزی فرانسه (فرانسه)",
+      "بلغارستان",
       "اسرائیل",
-      "زیمبابوه",
-      "کویت"
+      "گامبیا",
+      "سودان"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1367,12 +1367,12 @@
   {
     "question": "ابوجا",
     "choices": [
-      "پالائو",
+      "کامبوج",
+      "یونان",
       "نیجریه",
-      "بنگلادش",
-      "کالدونیای جدید (فرانسه)"
+      "جمهوری آذربایجان"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1380,9 +1380,9 @@
   {
     "question": "تیرانا",
     "choices": [
-      "کوزوو",
-      "لائوس",
-      "جمهوری چین",
+      "صربستان",
+      "هنگ کنگ (چین)",
+      "مونته‌نگرو",
       "آلبانی"
     ],
     "answer": 3,
@@ -1393,75 +1393,10 @@
   {
     "question": "تونس",
     "choices": [
-      "جزایر ویرجین بریتانیا (بریتانیا)",
-      "تونس",
-      "پرتغال",
-      "کرواسی"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "عشق آباد",
-    "choices": [
-      "ساموآ",
-      "جزیره کریسمس (استرالیا)",
-      "ترکمنستان",
-      "صربستان"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "انجامنا",
-    "choices": [
-      "صربستان",
-      "چاد",
-      "ساحل عاج",
-      "گویان"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "تگوسیگالپا",
-    "choices": [
-      "هندوراس",
-      "جزایر مارشال",
-      "گرنزی (بریتانیا)",
-      "استرالیا"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "بانگی",
-    "choices": [
-      "اوکراین",
-      "جمهوری آفریقای مرکزی",
-      "میانمار",
-      "سورینام"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "نواکشوت",
-    "choices": [
-      "هند",
-      "قطر",
-      "کرواسی",
-      "موریتانی"
+      "روسیه",
+      "اسلواکی",
+      "مالت",
+      "تونس"
     ],
     "answer": 3,
     "type": "sentence",
@@ -1469,11 +1404,76 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "عشق آباد",
+    "choices": [
+      "ترکمنستان",
+      "گواتمالا",
+      "سنت پیر و ماژلان (فرانسه)",
+      "یونان"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "انجامنا",
+    "choices": [
+      "سوئیس",
+      "کاستاریکا",
+      "چاد",
+      "نیوزیلند"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "تگوسیگالپا",
+    "choices": [
+      "گرینلند (دانمارک)",
+      "چاد",
+      "سنت پیر و ماژلان (فرانسه)",
+      "هندوراس"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "بانگی",
+    "choices": [
+      "لیتوانی",
+      "واتیکان",
+      "قطر",
+      "جمهوری آفریقای مرکزی"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "نواکشوت",
+    "choices": [
+      "گینه",
+      "موریتانی",
+      "سری‌لانکا",
+      "جزایر ویرجین ایالات متحده (ایالات متحده)"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "کیگالی",
     "choices": [
-      "غنا",
-      "والیس و فوتونا (فرانسه)",
-      "یمن",
+      "مالی",
+      "آندورا",
+      "بلیز",
       "رواندا"
     ],
     "answer": 3,
@@ -1485,9 +1485,9 @@
     "question": "ریگا",
     "choices": [
       "لتونی",
-      "سوریه",
-      "گویان",
-      "بوسنی و هرزگوین"
+      "بلیز",
+      "نیجریه",
+      "سنت بارثلمی (فرانسه)"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1497,12 +1497,12 @@
   {
     "question": "کینگستون",
     "choices": [
+      "نیووی (نیوزیلند)",
       "جزیره نورفولک (استرالیا)",
-      "جزایر آلند (فنلاند)",
-      "فیلیپین",
-      "هلند"
+      "اکوادور",
+      "تانزانیا"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1510,12 +1510,12 @@
   {
     "question": "واشینگتن دی سی",
     "choices": [
+      "کوزوو",
+      "آفریقای جنوبی",
       "ایالات متحده آمریکا",
-      "سنت لوسیا",
-      "ازبکستان",
-      "اسرائیل"
+      "آروبا (اورنجستاد)"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1523,12 +1523,12 @@
   {
     "question": "اسلو",
     "choices": [
+      "مصر",
+      "گرجستان",
       "نروژ",
-      "لوکزامبورگ",
-      "بلیز",
-      "هائیتی"
+      "آندورا"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1536,12 +1536,12 @@
   {
     "question": "هلسینکی",
     "choices": [
-      "ماداگاسکار",
       "فنلاند",
-      "مراکش",
-      "سوئد"
+      "ایران",
+      "مکزیک",
+      "پاپوآ گینه نو"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1549,12 +1549,12 @@
   {
     "question": "ابوظبی",
     "choices": [
-      "جامائیکا",
+      "پاراگوئه",
+      "ایسلند",
       "امارات متحده عربی",
-      "اریتره",
-      "سودان جنوبی"
+      "جرسی (بریتانیا)"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1562,12 +1562,12 @@
   {
     "question": "دوشنبه",
     "choices": [
-      "اسلواکی",
       "تاجیکستان",
-      "کوراسائو (هلند)",
-      "مالدیو"
+      "نیجریه",
+      "جمهوری آذربایجان",
+      "جزایر آلند (فنلاند)"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1575,12 +1575,12 @@
   {
     "question": "لیسبون",
     "choices": [
+      "جرسی (بریتانیا)",
+      "سوئد",
       "پرتغال",
-      "گویان",
-      "کره جنوبی",
-      "اتریش"
+      "جزایر فارو (دانمارک)"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1588,12 +1588,12 @@
   {
     "question": "کپنهاگ",
     "choices": [
+      "گامبیا",
+      "اسکاتلند",
       "دانمارک",
-      "اسرائیل",
-      "گوآم (ایالات متحده)",
-      "مولداوی"
+      "بریتانیا"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1601,10 +1601,10 @@
   {
     "question": "ویلنیوس",
     "choices": [
-      "زیمبابوه",
+      "مالی",
       "لیتوانی",
-      "آلمان",
-      "لیختن‌اشتاین"
+      "بوتسوانا",
+      "ایران"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1614,23 +1614,10 @@
   {
     "question": "لیبرویل",
     "choices": [
-      "گرنادا",
-      "لتونی",
-      "ایالات متحده آمریکا",
-      "گابن"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "اسمره",
-    "choices": [
-      "پاپوآ گینه نو",
-      "اریتره",
-      "گویان",
-      "ایسلند"
+      "جمهوری دومینیکن",
+      "گابن",
+      "آندورا",
+      "اتحاد قمر"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1638,14 +1625,27 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "اسمره",
+    "choices": [
+      "اریتره",
+      "قبرس",
+      "رواندا",
+      "جزایر فارو (دانمارک)"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "سان سالوادور",
     "choices": [
-      "لیختن‌اشتاین",
-      "سان مارینو",
-      "ارمنستان",
-      "السالوادور"
+      "پادشاهی بوتان",
+      "السالوادور",
+      "بوروندی",
+      "زیمبابوه"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1653,12 +1653,12 @@
   {
     "question": "آسونسیون",
     "choices": [
-      "گوآم (ایالات متحده)",
-      "جرسی (بریتانیا)",
+      "جمهوری ایرلند",
       "پاراگوئه",
-      "یونان"
+      "بلغارستان",
+      "جامائیکا"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1667,9 +1667,9 @@
     "question": "ماکائو",
     "choices": [
       "ماکائو (چین)",
-      "کوبا",
-      "بورکینافاسو",
-      "اتحاد قمر"
+      "جمهوری آذربایجان",
+      "الجزایر",
+      "هنگ کنگ (چین)"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1679,9 +1679,9 @@
   {
     "question": "ادینبورگ",
     "choices": [
-      "عراق",
-      "مولداوی",
-      "برونئی",
+      "چین",
+      "اتریش",
+      "پورتوریکو (ایالات متحده)",
       "اسکاتلند"
     ],
     "answer": 3,
@@ -1693,9 +1693,9 @@
     "question": "شهر جیبوتی",
     "choices": [
       "جیبوتی",
-      "جمهوری کنگو",
-      "اروگوئه",
-      "بوسنی و هرزگوین"
+      "مالت",
+      "مالدیو",
+      "گرینلند (دانمارک)"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1705,12 +1705,12 @@
   {
     "question": "یاموسوکرو",
     "choices": [
-      "ویتنام",
-      "ساحل عاج",
-      "سومالی",
-      "جزایر مارشال"
+      "لبنان",
+      "کامبوج",
+      "پرتغال",
+      "ساحل عاج"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1718,12 +1718,12 @@
   {
     "question": "بیسائو",
     "choices": [
-      "پاپوآ گینه نو",
-      "گینه بیسائو",
-      "نائورو",
-      "گرنادا"
+      "یونان",
+      "نپال",
+      "جمهوری آفریقای مرکزی",
+      "گینه بیسائو"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1731,23 +1731,10 @@
   {
     "question": "تالین",
     "choices": [
+      "جبل طارق (بریتانیا)",
       "استونی",
-      "ترکیه",
-      "آفریقای جنوبی",
-      "جزایر فالکلند (بریتانیا)"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "براتیسلاوا",
-    "choices": [
-      "ترینیداد و توباگو",
-      "اسلواکی",
-      "گواتمالا",
-      "جزایر مارشال"
+      "ماداگاسکار",
+      "بولیوی"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1755,14 +1742,27 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "براتیسلاوا",
+    "choices": [
+      "پرو",
+      "آلمان",
+      "اسلواکی",
+      "بلاروس"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "سان خوآن",
     "choices": [
+      "آروبا (اورنجستاد)",
       "پورتوریکو (ایالات متحده)",
-      "هنگ کنگ (چین)",
-      "سیرالئون",
-      "کالدونیای جدید (فرانسه)"
+      "فنلاند",
+      "لیختن‌اشتاین"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1771,9 +1771,9 @@
     "question": "ولینگتون",
     "choices": [
       "نیوزیلند",
-      "نروژ",
-      "غنا",
-      "کامرون"
+      "گرینلند (دانمارک)",
+      "گرنزی (بریتانیا)",
+      "سائوتومه و پرنسیپ"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1783,12 +1783,12 @@
   {
     "question": "بوجومبورا",
     "choices": [
+      "فیجی",
+      "کوزوو",
       "بوروندی",
-      "سومالی",
-      "قرقیزستان",
-      "جامائیکا"
+      "موناکو"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1796,12 +1796,12 @@
   {
     "question": "سارایوو",
     "choices": [
+      "آفریقای جنوبی",
       "بوسنی و هرزگوین",
-      "قبرس",
-      "مالی",
-      "تونس"
+      "جمهوری دموکراتیک کنگو",
+      "سوئیس"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1809,12 +1809,12 @@
   {
     "question": "جوبا",
     "choices": [
-      "بوسنی و هرزگوین",
-      "جزیره نورفولک (استرالیا)",
-      "جمهوری آذربایجان",
-      "سودان جنوبی"
+      "تانزانیا",
+      "سودان جنوبی",
+      "مولداوی",
+      "جزیره کریسمس (استرالیا)"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1822,10 +1822,10 @@
   {
     "question": "کانبرا",
     "choices": [
-      "باربادوس",
-      "تاجیکستان",
+      "سودان جنوبی",
+      "مالزی",
       "استرالیا",
-      "پاکستان"
+      "جزایر مارشال"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1836,9 +1836,9 @@
     "question": "کاردیف",
     "choices": [
       "ولز",
-      "ایران",
-      "مراکش",
-      "پرو"
+      "پاراگوئه",
+      "ایالات متحده آمریکا",
+      "دومینیکا"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1848,12 +1848,12 @@
   {
     "question": "بلفاست",
     "choices": [
-      "مالاوی",
-      "فرانسه",
-      "عراق",
-      "ایرلند شمالی"
+      "ایرلند شمالی",
+      "فیجی",
+      "گوآم (ایالات متحده)",
+      "جامائیکا"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1861,12 +1861,12 @@
   {
     "question": "سان خوزه",
     "choices": [
-      "قبرس شمالی",
-      "کاستاریکا",
-      "نیوزیلند",
-      "مجارستان"
+      "چین",
+      "سائوتومه و پرنسیپ",
+      "بلغارستان",
+      "کاستاریکا"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1874,12 +1874,12 @@
   {
     "question": "پورت مورسبی",
     "choices": [
-      "اتریش",
-      "پاپوآ گینه نو",
-      "بحرین",
-      "اوگاندا"
+      "گینه",
+      "سیرالئون",
+      "جامائیکا",
+      "پاپوآ گینه نو"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1887,12 +1887,12 @@
   {
     "question": "وین تیان",
     "choices": [
-      "آلمان",
-      "ایتالیا",
-      "جمهوری چین",
-      "لائوس"
+      "لائوس",
+      "اتریش",
+      "ماداگاسکار",
+      "جمهوری کنگو"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1900,12 +1900,12 @@
   {
     "question": "دودوما",
     "choices": [
-      "جزایر کوک (نیوزیلند)",
-      "گرینلند (دانمارک)",
-      "آرژانتین",
-      "تانزانیا"
+      "ساموآ",
+      "تانزانیا",
+      "جمهوری کنگو",
+      "سان مارینو"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1913,10 +1913,10 @@
   {
     "question": "ماسرو",
     "choices": [
-      "اتریش",
+      "کرانه باختری رود اردن (اسرائیل/حکومت خودگردان فلسطین)",
       "لسوتو",
-      "کرواسی",
-      "هند"
+      "لیتوانی",
+      "اسپانیا"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1927,9 +1927,9 @@
     "question": "نیکوزیا (جنوبی)",
     "choices": [
       "قبرس",
-      "بولیوی",
-      "سودان جنوبی",
-      "موریس"
+      "لوکزامبورگ",
+      "پاناما",
+      "بنین"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1939,36 +1939,10 @@
   {
     "question": "لیوبلیانا",
     "choices": [
-      "مصر",
-      "سورینام",
-      "ژاپن",
-      "اسلوونی"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "پاراماریبو",
-    "choices": [
-      "سورینام",
-      "ازبکستان",
-      "اسپانیا",
-      "فیلیپین"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "ویندهوک",
-    "choices": [
-      "اسرائیل",
-      "جمهوری کنگو",
-      "نامیبیا",
-      "ترکیه"
+      "مولداوی",
+      "وانواتو",
+      "اسلوونی",
+      "اسکاتلند"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1976,14 +1950,40 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "پاراماریبو",
+    "choices": [
+      "جزایر ویرجین ایالات متحده (ایالات متحده)",
+      "اندونزی",
+      "قطر",
+      "سورینام"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "ویندهوک",
+    "choices": [
+      "برمودا (بریتانیا)",
+      "نامیبیا",
+      "ساحل عاج",
+      "ایالات فدرال میکرونزی"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "ناسائو",
     "choices": [
-      "باهاما",
-      "زیمبابوه",
-      "سنت کیتس و نویس",
-      "جمهوری کنگو"
+      "جمهوری آذربایجان",
+      "سنگاپور",
+      "آنتیگوا و باربودا",
+      "باهاما"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -1991,9 +1991,9 @@
   {
     "question": "گابورون",
     "choices": [
-      "سوئیس",
-      "هلند",
-      "جزایر ماریانای شمالی (ایالات متحده آمریکا)",
+      "چین",
+      "گینه استوایی",
+      "اسواتینی",
       "بوتسوانا"
     ],
     "answer": 3,
@@ -2004,10 +2004,10 @@
   {
     "question": "پورتو نووو",
     "choices": [
-      "مالی",
+      "قطر",
       "بنین",
-      "ولز",
-      "جمهوری چک"
+      "پاناما",
+      "جزایر فالکلند (بریتانیا)"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2017,12 +2017,12 @@
   {
     "question": "پریشتینا",
     "choices": [
-      "جزایر آلند (فنلاند)",
       "کوزوو",
-      "هندوراس",
-      "جامائیکا"
+      "مجارستان",
+      "ماداگاسکار",
+      "اریتره"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2030,12 +2030,12 @@
   {
     "question": "العیون / تیفاریتی",
     "choices": [
-      "کاستاریکا",
-      "اسرائیل",
-      "بلغارستان",
-      "جمهوری دموکراتیک صحرای غربی"
+      "جمهوری دموکراتیک صحرای غربی",
+      "زامبیا",
+      "گواتمالا",
+      "پاناما"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2043,8 +2043,8 @@
   {
     "question": "تیراسپول",
     "choices": [
-      "نیوزیلند",
-      "نیکاراگوئه",
+      "جزیره من (بریتانیا)",
+      "دماغه سبز",
       "ترانسنیستریا",
       "بنگلادش"
     ],
@@ -2056,12 +2056,12 @@
   {
     "question": "پورت لوئیس",
     "choices": [
-      "بلژیک",
-      "قطر",
       "جمهوری دومینیکن",
-      "موریس"
+      "سودان جنوبی",
+      "موریس",
+      "سوئیس"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2069,12 +2069,12 @@
   {
     "question": "پودگوریتسا",
     "choices": [
-      "اروگوئه",
-      "ولز",
-      "نیکاراگوئه",
-      "مونته‌نگرو"
+      "کره جنوبی",
+      "مونته‌نگرو",
+      "یونان",
+      "مولداوی"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2082,12 +2082,12 @@
   {
     "question": "منامه",
     "choices": [
-      "بحرین",
-      "مالاوی",
-      "دانمارک",
-      "السالوادور"
+      "سورینام",
+      "جمهوری چین",
+      "ایالات فدرال میکرونزی",
+      "بحرین"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2095,12 +2095,12 @@
   {
     "question": "جرج تاون",
     "choices": [
-      "افغانستان",
+      "یونان",
+      "نامیبیا",
       "جزایر کیمن (بریتانیا)",
-      "بنین",
-      "نیجریه"
+      "لهستان"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2108,12 +2108,12 @@
   {
     "question": "پرایا",
     "choices": [
-      "گابن",
-      "لهستان",
-      "مالت",
-      "دماغه سبز"
+      "کره جنوبی",
+      "هند",
+      "دماغه سبز",
+      "ترکیه"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2121,12 +2121,12 @@
   {
     "question": "برن (دفاکتو)",
     "choices": [
+      "الجزایر",
+      "مغولستان",
       "سوئیس",
-      "ونزوئلا",
-      "جزایر ماریانای شمالی (ایالات متحده آمریکا)",
-      "گرجستان"
+      "مونته‌نگرو"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2134,23 +2134,10 @@
   {
     "question": "سری جایاواردنپورا کوته",
     "choices": [
+      "جزایر کوک (نیوزیلند)",
       "سری‌لانکا",
-      "جمهوری آذربایجان",
-      "نپال",
-      "لوکزامبورگ"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "ریکیاویک",
-    "choices": [
-      "ترینیداد و توباگو",
-      "ایسلند",
-      "جزایر ماریانای شمالی (ایالات متحده آمریکا)",
-      "تونس"
+      "امارات متحده عربی",
+      "فیجی"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2158,14 +2145,27 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "ریکیاویک",
+    "choices": [
+      "ایسلند",
+      "کامبوج",
+      "زیمبابوه",
+      "سنگال"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "بریج تاون",
     "choices": [
-      "سنت بارثلمی (فرانسه)",
-      "دومینیکا",
-      "ایالات متحده آمریکا",
-      "باربادوس"
+      "باربادوس",
+      "گرینلند (دانمارک)",
+      "موریتانی",
+      "سودان جنوبی"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2173,10 +2173,10 @@
   {
     "question": "ماله",
     "choices": [
-      "عراق",
-      "جزیره نورفولک (استرالیا)",
+      "بوسنی و هرزگوین",
+      "نیجر",
       "مالدیو",
-      "سودان جنوبی"
+      "اوگاندا"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2186,12 +2186,12 @@
   {
     "question": "تیمفو",
     "choices": [
-      "مراکش",
-      "بلاروس",
-      "کالدونیای جدید (فرانسه)",
-      "پادشاهی بوتان"
+      "تووالو",
+      "اتحاد قمر",
+      "پادشاهی بوتان",
+      "لهستان"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2199,9 +2199,9 @@
   {
     "question": "مالابو",
     "choices": [
-      "آروبا (اورنجستاد)",
-      "موریتانی",
-      "روسیه",
+      "هائیتی",
+      "سری‌لانکا",
+      "سنت وینسنت و گرنادین‌ها",
       "گینه استوایی"
     ],
     "answer": 3,
@@ -2212,9 +2212,9 @@
   {
     "question": "نومئا",
     "choices": [
-      "اندونزی",
-      "کوراسائو (هلند)",
-      "قزاقستان",
+      "کنیا",
+      "جمهوری چین",
+      "تاجیکستان",
       "کالدونیای جدید (فرانسه)"
     ],
     "answer": 3,
@@ -2225,23 +2225,10 @@
   {
     "question": "نیکوزیا (شمالی)",
     "choices": [
+      "قبرس",
+      "سنت وینسنت و گرنادین‌ها",
       "قبرس شمالی",
-      "رومانی",
-      "بریتانیا",
-      "کره جنوبی"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "سووا",
-    "choices": [
-      "جزیره من (بریتانیا)",
-      "لتونی",
-      "فیجی",
-      "کالدونیای جدید (فرانسه)"
+      "رواندا"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2249,14 +2236,27 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "سووا",
+    "choices": [
+      "الجزایر",
+      "فیجی",
+      "اتحاد قمر",
+      "قرقیزستان"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "امبابانه",
     "choices": [
-      "اسواتینی",
-      "جزایر آلند (فنلاند)",
-      "چین",
-      "والیس و فوتونا (فرانسه)"
+      "مونتسرات (بریتانیا)",
+      "آلمان",
+      "تونگا",
+      "اسواتینی"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2264,12 +2264,12 @@
   {
     "question": "شهر لوکزامبورگ",
     "choices": [
-      "کره شمالی",
-      "لوکزامبورگ",
-      "جزایر کیمن (بریتانیا)",
-      "صربستان"
+      "گابن",
+      "پورتوریکو (ایالات متحده)",
+      "موزامبیک",
+      "لوکزامبورگ"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2278,9 +2278,9 @@
     "question": "کاستریس",
     "choices": [
       "سنت لوسیا",
-      "اندونزی",
-      "آروبا (اورنجستاد)",
-      "شیلی"
+      "دومینیکا",
+      "اسلوونی",
+      "بنگلادش"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2290,12 +2290,12 @@
   {
     "question": "سایپن",
     "choices": [
-      "گینه بیسائو",
-      "جزیره نورفولک (استرالیا)",
-      "بنگلادش",
-      "جزایر ماریانای شمالی (ایالات متحده آمریکا)"
+      "جزایر ماریانای شمالی (ایالات متحده آمریکا)",
+      "نائورو",
+      "نیجریه",
+      "نیووی (نیوزیلند)"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2303,12 +2303,12 @@
   {
     "question": "مورونی",
     "choices": [
-      "هلند",
-      "آنتیگوا و باربودا",
-      "ایران",
-      "اتحاد قمر"
+      "موزامبیک",
+      "کاستاریکا",
+      "اتحاد قمر",
+      "میانمار"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2316,62 +2316,10 @@
   {
     "question": "هونیارا",
     "choices": [
-      "پادشاهی بوتان",
-      "جزایر سلیمان",
-      "امارات متحده عربی",
-      "کامبوج"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "دیلی",
-    "choices": [
-      "جزایر مارشال",
-      "افغانستان",
-      "تیمور شرقی",
-      "اریتره"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "سائوتومه",
-    "choices": [
-      "برونئی",
-      "سوئیس",
-      "سائوتومه و پرنسیپ",
-      "کامرون"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "پاگو پاگو",
-    "choices": [
-      "سنت لوسیا",
-      "ساموای آمریکا (ایالات متحده)",
-      "بلغارستان",
-      "مالدیو"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "پرت آو اسپاین",
-    "choices": [
-      "ترانسنیستریا",
-      "لتونی",
-      "اندونزی",
-      "ترینیداد و توباگو"
+      "سیرالئون",
+      "مالدیو",
+      "جمهوری آذربایجان",
+      "جزایر سلیمان"
     ],
     "answer": 3,
     "type": "sentence",
@@ -2379,14 +2327,66 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "دیلی",
+    "choices": [
+      "لائوس",
+      "گینه استوایی",
+      "ایرلند شمالی",
+      "تیمور شرقی"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "سائوتومه",
+    "choices": [
+      "سائوتومه و پرنسیپ",
+      "فنلاند",
+      "گینه",
+      "نیجریه"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "پاگو پاگو",
+    "choices": [
+      "ساموای آمریکا (ایالات متحده)",
+      "تاجیکستان",
+      "ایالات متحده آمریکا",
+      "رواندا"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "پرت آو اسپاین",
+    "choices": [
+      "ترینیداد و توباگو",
+      "مونتسرات (بریتانیا)",
+      "اریتره",
+      "گوآم (ایالات متحده)"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "باکو",
     "choices": [
-      "بحرین",
-      "نروژ",
       "جمهوری آذربایجان",
-      "جمهوری آذربایجان"
+      "بنین",
+      "بحرین",
+      "الجزایر"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2394,10 +2394,10 @@
   {
     "question": "ویلمستاد",
     "choices": [
-      "مغولستان",
-      "آنتیگوا و باربودا",
+      "جمهوری آفریقای مرکزی",
+      "آلبانی",
       "کوراسائو (هلند)",
-      "گویان"
+      "ایتالیا"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2407,12 +2407,12 @@
   {
     "question": "کینگستون",
     "choices": [
-      "گینه",
+      "تیمور شرقی",
+      "گرنادا",
       "جزیره نورفولک (استرالیا)",
-      "گامبیا",
-      "جمهوری چین"
+      "ویتنام"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2421,9 +2421,9 @@
     "question": "آپیا",
     "choices": [
       "ساموآ",
-      "نیووی (نیوزیلند)",
-      "آرژانتین",
-      "ترکیه"
+      "یونان",
+      "کلمبیا",
+      "آندورا"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2433,12 +2433,12 @@
   {
     "question": "پورت ویلا",
     "choices": [
-      "قطر",
-      "عربستان سعودی",
-      "هنگ کنگ (چین)",
-      "وانواتو"
+      "اسواتینی",
+      "جمهوری آذربایجان",
+      "وانواتو",
+      "بلیز"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2446,23 +2446,10 @@
   {
     "question": "موناکو",
     "choices": [
+      "لائوس",
       "موناکو",
-      "هندوراس",
-      "موناکو",
-      "بنین"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "بانجول",
-    "choices": [
-      "بلاروس",
-      "گامبیا",
-      "لوکزامبورگ",
-      "اکوادور"
+      "پاپوآ گینه نو",
+      "جرسی (بریتانیا)"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2470,14 +2457,27 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "بانجول",
+    "choices": [
+      "شیلی",
+      "والیس و فوتونا (فرانسه)",
+      "جزایر کیمن (بریتانیا)",
+      "گامبیا"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "تاراوا",
     "choices": [
-      "فیلیپین",
-      "ساموای آمریکا (ایالات متحده)",
-      "کیریباتی",
-      "الجزایر"
+      "آفریقای جنوبی",
+      "مالاوی",
+      "لیبریا",
+      "کیریباتی"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2485,10 +2485,10 @@
   {
     "question": "اورنجستاد",
     "choices": [
-      "آنگولا",
-      "سنت وینسنت و گرنادین‌ها",
+      "سان مارینو",
+      "سنت لوسیا",
       "آروبا (اورنجستاد)",
-      "سنت پیر و ماژلان (فرانسه)"
+      "بریتانیا"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2498,101 +2498,10 @@
   {
     "question": "ویکتوریا",
     "choices": [
-      "سیرالئون",
-      "اروگوئه",
-      "بولیوی",
-      "سیشل"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "جبل طارق",
-    "choices": [
-      "جمهوری کنگو",
-      "ایرلند شمالی",
-      "جبل طارق (بریتانیا)",
-      "سنت بارثلمی (فرانسه)"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "سن هلیه",
-    "choices": [
-      "کاستاریکا",
-      "پرو",
-      "جرسی (بریتانیا)",
-      "نامیبیا"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "بندر سری بگاوان",
-    "choices": [
-      "جمهوری آفریقای مرکزی",
-      "ازبکستان",
-      "برونئی",
-      "پالائو"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "جرج تاون",
-    "choices": [
-      "اوکراین",
-      "کره جنوبی",
-      "مالی",
-      "جزایر کیمن (بریتانیا)"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "دوگلاس",
-    "choices": [
-      "جزایر ویرجین ایالات متحده (ایالات متحده)",
-      "فنلاند",
-      "ترانسنیستریا",
-      "جزیره من (بریتانیا)"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "پاپیته",
-    "choices": [
-      "بورکینافاسو",
-      "تاجیکستان",
-      "پاناما",
-      "پلی‌نزی فرانسه (فرانسه)"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "رام‌الله (دفاکتو)",
-    "choices": [
-      "ترکیه",
-      "کرانه باختری رود اردن (اسرائیل/حکومت خودگردان فلسطین)",
-      "اسواتینی",
-      "هائیتی"
+      "آروبا (اورنجستاد)",
+      "سیشل",
+      "مالزی",
+      "لیتوانی"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2600,25 +2509,38 @@
     "extra": "The country with the following capital:"
   },
   {
-    "question": "ماجورو",
+    "question": "جبل طارق",
     "choices": [
-      "فرانسه",
-      "سنت مارتین فرانسه (فرانسه)",
-      "دماغه سبز",
-      "جزایر مارشال"
+      "لیبریا",
+      "جبل طارق (بریتانیا)",
+      "کاستاریکا",
+      "اسپانیا"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
   },
   {
-    "question": "آندورا لاولا",
+    "question": "سن هلیه",
     "choices": [
-      "آندورا",
-      "مونته‌نگرو",
-      "بنین",
-      "جمهوری چین"
+      "یونان",
+      "جرسی (بریتانیا)",
+      "اکوادور",
+      "استونی"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "بندر سری بگاوان",
+    "choices": [
+      "برونئی",
+      "چاد",
+      "بوتسوانا",
+      "اسلوونی"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2626,12 +2548,90 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "جرج تاون",
+    "choices": [
+      "گوآم (ایالات متحده)",
+      "جزایر کیمن (بریتانیا)",
+      "جزایر فالکلند (بریتانیا)",
+      "تونس"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "دوگلاس",
+    "choices": [
+      "پادشاهی بوتان",
+      "جزیره من (بریتانیا)",
+      "سوئد",
+      "ماداگاسکار"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "پاپیته",
+    "choices": [
+      "توکلائو (نیوزیلند)",
+      "پلی‌نزی فرانسه (فرانسه)",
+      "گامبیا",
+      "ایالات فدرال میکرونزی"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "رام‌الله (دفاکتو)",
+    "choices": [
+      "بنگلادش",
+      "جزیره من (بریتانیا)",
+      "کرانه باختری رود اردن (اسرائیل/حکومت خودگردان فلسطین)",
+      "نیجریه"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "ماجورو",
+    "choices": [
+      "مالت",
+      "جزایر مارشال",
+      "بوتسوانا",
+      "سودان جنوبی"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "آندورا لاولا",
+    "choices": [
+      "بحرین",
+      "هائیتی",
+      "آندورا",
+      "مونتسرات (بریتانیا)"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "سنت جانز",
     "choices": [
-      "سنت پیر و ماژلان (فرانسه)",
-      "هائیتی",
+      "دانمارک",
+      "بلیز",
       "آنتیگوا و باربودا",
-      "لتونی"
+      "پاپوآ گینه نو"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2641,12 +2641,12 @@
   {
     "question": "نوکوآلوفا",
     "choices": [
-      "جمهوری دومینیکن",
       "تونگا",
-      "ایتالیا",
-      "الجزایر"
+      "اتحاد قمر",
+      "تونگا",
+      "کنیا"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2654,12 +2654,12 @@
   {
     "question": "توشهاون",
     "choices": [
+      "سنت کیتس و نویس",
+      "کانادا",
       "جزایر فارو (دانمارک)",
-      "اسلوونی",
-      "پاناما",
-      "کره شمالی"
+      "سنت مارتین فرانسه (فرانسه)"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2667,12 +2667,12 @@
   {
     "question": "سن پتر پورت",
     "choices": [
+      "گرجستان",
       "گرنزی (بریتانیا)",
-      "پادشاهی بوتان",
-      "سنت مارتین فرانسه (فرانسه)",
-      "موزامبیک"
+      "اسواتینی",
+      "اروگوئه"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2680,9 +2680,9 @@
   {
     "question": "نوک",
     "choices": [
-      "کرواسی",
-      "نیکاراگوئه",
-      "فیجی",
+      "جزایر سلیمان",
+      "غنا",
+      "پاراگوئه",
       "گرینلند (دانمارک)"
     ],
     "answer": 3,
@@ -2693,12 +2693,12 @@
   {
     "question": "روسو",
     "choices": [
-      "بنگلادش",
-      "سنت بارثلمی (فرانسه)",
-      "پاراگوئه",
-      "دومینیکا"
+      "دومینیکا",
+      "والیس و فوتونا (فرانسه)",
+      "ترکیه",
+      "واتیکان"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2706,10 +2706,10 @@
   {
     "question": "بلموپان",
     "choices": [
-      "یونان",
-      "سنت مارتین (هلند)",
+      "ارمنستان",
+      "آندورا",
       "بلیز",
-      "رواندا"
+      "لیبریا"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2719,12 +2719,12 @@
   {
     "question": "باستر",
     "choices": [
+      "ایسلند",
       "سنت کیتس و نویس",
-      "آفریقای جنوبی",
-      "نامیبیا",
-      "اسرائیل"
+      "بلاروس",
+      "کوبا"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2732,12 +2732,12 @@
   {
     "question": "ماریهام",
     "choices": [
-      "لوکزامبورگ",
-      "جزایر آلند (فنلاند)",
-      "تانزانیا",
-      "جزایر سلیمان"
+      "صربستان",
+      "جزایر فالکلند (بریتانیا)",
+      "ایران",
+      "جزایر آلند (فنلاند)"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2746,9 +2746,9 @@
     "question": "شارلوت آمالی",
     "choices": [
       "جزایر ویرجین ایالات متحده (ایالات متحده)",
-      "ایالات متحده آمریکا",
-      "ساموای آمریکا (ایالات متحده)",
-      "جزایر ماریانای شمالی (ایالات متحده آمریکا)"
+      "ماکائو (چین)",
+      "شیلی",
+      "عربستان سعودی"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2758,12 +2758,12 @@
   {
     "question": "پالیکیر",
     "choices": [
-      "سنت کیتس و نویس",
-      "کامرون",
-      "جزایر کیمن (بریتانیا)",
-      "ایالات فدرال میکرونزی"
+      "جمهوری دموکراتیک صحرای غربی",
+      "ایالات فدرال میکرونزی",
+      "پادشاهی بوتان",
+      "گینه استوایی"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2771,23 +2771,10 @@
   {
     "question": "رود تاون",
     "choices": [
-      "برزیل",
-      "لتونی",
-      "جزایر ویرجین بریتانیا (بریتانیا)",
-      "توکلائو (نیوزیلند)"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "سینت‌جورجس",
-    "choices": [
-      "گرجستان",
-      "کره جنوبی",
-      "عمان",
-      "گرنادا"
+      "توکلائو (نیوزیلند)",
+      "آلبانی",
+      "جزایر سلیمان",
+      "جزایر ویرجین بریتانیا (بریتانیا)"
     ],
     "answer": 3,
     "type": "sentence",
@@ -2795,14 +2782,27 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "سینت‌جورجس",
+    "choices": [
+      "جبل طارق (بریتانیا)",
+      "گرنادا",
+      "بحرین",
+      "لهستان"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "والتا",
     "choices": [
-      "آلمان",
-      "فیلیپین",
-      "مالت",
-      "کامرون"
+      "کلمبیا",
+      "اسلوونی",
+      "سنت وینسنت و گرنادین‌ها",
+      "مالت"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2810,12 +2810,12 @@
   {
     "question": "گوستاویا",
     "choices": [
-      "اوکراین",
-      "سورینام",
+      "جزایر ماریانای شمالی (ایالات متحده آمریکا)",
       "سنت بارثلمی (فرانسه)",
-      "موریس"
+      "جمهوری کنگو",
+      "کامرون"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2823,12 +2823,12 @@
   {
     "question": "ماریگو",
     "choices": [
-      "موریس",
-      "کنیا",
+      "کوراسائو (هلند)",
       "سنت مارتین فرانسه (فرانسه)",
-      "لبنان"
+      "کرواسی",
+      "ماداگاسکار"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2837,11 +2837,11 @@
     "question": "سن پیر، سن-پیر-ا-میکلون",
     "choices": [
       "کلمبیا",
-      "تونس",
-      "بولیوی",
-      "سنت پیر و ماژلان (فرانسه)"
+      "سنت پیر و ماژلان (فرانسه)",
+      "سنت وینسنت و گرنادین‌ها",
+      "آنگویلا (بریتانیا)"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2849,10 +2849,10 @@
   {
     "question": "آواروآ",
     "choices": [
-      "سومالی",
-      "ایسلند",
+      "جزایر فارو (دانمارک)",
+      "پالائو",
       "جزایر کوک (نیوزیلند)",
-      "رومانی"
+      "واتیکان"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2862,10 +2862,10 @@
   {
     "question": "فادوتس",
     "choices": [
-      "ساموای آمریکا (ایالات متحده)",
+      "ساموآ",
       "لیختن‌اشتاین",
-      "اوگاندا",
-      "ویتنام"
+      "تووالو",
+      "باربادوس"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2875,12 +2875,12 @@
   {
     "question": "سان مارینو",
     "choices": [
-      "گابن",
-      "سان مارینو",
-      "سوئد",
-      "گوآم (ایالات متحده)"
+      "مجارستان",
+      "کاستاریکا",
+      "جمهوری کنگو",
+      "سان مارینو"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2888,10 +2888,10 @@
   {
     "question": "فونافوتی",
     "choices": [
-      "پرتغال",
+      "آنتیگوا و باربودا",
       "تووالو",
-      "جمهوری کنگو",
-      "نیجریه"
+      "باهاما",
+      "ترکیه"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2901,49 +2901,10 @@
   {
     "question": "کوک برن تاون، باهاما",
     "choices": [
+      "آلمان",
       "جزایر تورکس و کایکوس (بریتانیا)",
-      "کانادا",
-      "لیختن‌اشتاین",
-      "اروگوئه"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "نوحی",
-    "choices": [
-      "توگو",
-      "آنتیگوا و باربودا",
-      "ونزوئلا",
-      "جزایر فالکلند (بریتانیا)"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "لانگیربین",
-    "choices": [
-      "جمهوری ایرلند",
-      "قبرس شمالی",
-      "سوالبارد (نروژ)",
-      "لتونی"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "فلاینگ فیش کاو",
-    "choices": [
-      "جزایر کیمن (بریتانیا)",
-      "جزیره کریسمس (استرالیا)",
-      "اریتره",
-      "عراق"
+      "صربستان",
+      "بلیز"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2951,14 +2912,53 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "نوحی",
+    "choices": [
+      "سومالی",
+      "جزایر فالکلند (بریتانیا)",
+      "سودان",
+      "کوزوو"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "لانگیربین",
+    "choices": [
+      "اسرائیل",
+      "سوالبارد (نروژ)",
+      "گرنادا",
+      "پاپوآ گینه نو"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "فلاینگ فیش کاو",
+    "choices": [
+      "قزاقستان",
+      "زامبیا",
+      "تانزانیا",
+      "جزیره کریسمس (استرالیا)"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "فیلیپسبورگ، سینت مارتن",
     "choices": [
-      "چین",
-      "آندورا",
       "سنت مارتین (هلند)",
-      "سنت مارتین (هلند)"
+      "لیختن‌اشتاین",
+      "بوروندی",
+      "بریتانیا"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2966,12 +2966,12 @@
   {
     "question": "ماتا-اوتو",
     "choices": [
-      "والیس و فوتونا (فرانسه)",
-      "بریتانیا",
-      "مونته‌نگرو",
-      "گواتمالا"
+      "گینه بیسائو",
+      "قبرس",
+      "فرانسه",
+      "والیس و فوتونا (فرانسه)"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -2980,9 +2980,9 @@
     "question": "د ولی",
     "choices": [
       "آنگویلا (بریتانیا)",
-      "آرژانتین",
-      "سوئیس",
-      "شیلی"
+      "کلمبیا",
+      "نپال",
+      "سنت بارثلمی (فرانسه)"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2992,23 +2992,10 @@
   {
     "question": "یارن (دفاکتو)",
     "choices": [
-      "ایسلند",
-      "باهاما",
-      "لیتوانی",
-      "نائورو"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "هاگاتنیا",
-    "choices": [
-      "هنگ کنگ (چین)",
-      "نپال",
-      "گوآم (ایالات متحده)",
-      "مولداوی"
+      "جزایر تورکس و کایکوس (بریتانیا)",
+      "اتحاد قمر",
+      "نائورو",
+      "جزایر مارشال"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3016,11 +3003,24 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "هاگاتنیا",
+    "choices": [
+      "گوآم (ایالات متحده)",
+      "پاناما",
+      "جمهوری دموکراتیک کنگو",
+      "موریتانی"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "همیلتون",
     "choices": [
-      "ساموای آمریکا (ایالات متحده)",
-      "روسیه",
-      "ونزوئلا",
+      "نیووی (نیوزیلند)",
+      "یمن",
+      "بریتانیا",
       "برمودا (بریتانیا)"
     ],
     "answer": 3,
@@ -3031,12 +3031,12 @@
   {
     "question": "کینگستون",
     "choices": [
-      "سائوتومه و پرنسیپ",
-      "مالزی",
-      "مالدیو",
-      "جزیره نورفولک (استرالیا)"
+      "کلمبیا",
+      "جیبوتی",
+      "جزیره نورفولک (استرالیا)",
+      "باربادوس"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -3044,12 +3044,12 @@
   {
     "question": "واتیکان (دولت‌شهر)",
     "choices": [
+      "گابن",
+      "فنلاند",
       "واتیکان",
-      "موریتانی",
-      "ساموای آمریکا (ایالات متحده)",
-      "جزایر فارو (دانمارک)"
+      "پادشاهی بوتان"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -3057,12 +3057,12 @@
   {
     "question": "جیمزتاون، سینت هلینا",
     "choices": [
-      "سودان جنوبی",
-      "پلی‌نزی فرانسه (فرانسه)",
+      "لبنان",
       "سینت هلینا (بریتانیا)",
-      "ترانسنیستریا"
+      "آنگویلا (بریتانیا)",
+      "کامرون"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "",
     "extra": "The country with the following capital:"
@@ -3070,62 +3070,10 @@
   {
     "question": "الوفی",
     "choices": [
-      "تونگا",
-      "نیووی (نیوزیلند)",
-      "سان مارینو",
-      "بلغارستان"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "ندارد",
-    "choices": [
-      "ولز",
-      "ساموآ",
-      "توکلائو (نیوزیلند)",
-      "مراکش"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "بریدز (دفاکتو)",
-    "choices": [
-      "کیریباتی",
-      "مونتسرات (بریتانیا)",
-      "کرواسی",
-      "موریتانی"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "نگرولمود",
-    "choices": [
-      "سنت بارثلمی (فرانسه)",
-      "پالائو",
-      "بلژیک",
-      "صربستان"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "",
-    "extra": "The country with the following capital:"
-  },
-  {
-    "question": "وست آیلند، جزایر کوکوس",
-    "choices": [
-      "سائوتومه و پرنسیپ",
-      "موریس",
-      "پلی‌نزی فرانسه (فرانسه)",
-      "جزایر کوکوس (استرالیا)"
+      "گرنزی (بریتانیا)",
+      "مراکش",
+      "آنتیگوا و باربودا",
+      "نیووی (نیوزیلند)"
     ],
     "answer": 3,
     "type": "sentence",
@@ -3133,11 +3081,63 @@
     "extra": "The country with the following capital:"
   },
   {
+    "question": "ندارد",
+    "choices": [
+      "توکلائو (نیوزیلند)",
+      "گرجستان",
+      "استونی",
+      "چاد"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "بریدز (دفاکتو)",
+    "choices": [
+      "مونتسرات (بریتانیا)",
+      "کره جنوبی",
+      "ارمنستان",
+      "هائیتی"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "نگرولمود",
+    "choices": [
+      "پالائو",
+      "سری‌لانکا",
+      "چاد",
+      "استرالیا"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
+    "question": "وست آیلند، جزایر کوکوس",
+    "choices": [
+      "ویتنام",
+      "آرژانتین",
+      "جزایر کوکوس (استرالیا)",
+      "مغولستان"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "",
+    "extra": "The country with the following capital:"
+  },
+  {
     "question": "چین",
     "choices": [
-      "بندر سری بگاوان",
-      "لانگیربین",
-      "کینگستون",
+      "ویندهوک",
+      "بوجومبورا",
+      "ماجورو",
       "پکن"
     ],
     "answer": 3,
@@ -3148,23 +3148,10 @@
   {
     "question": "هند",
     "choices": [
-      "باکو",
-      "لیوبلیانا",
-      "کامپالا",
-      "دهلی نو"
-    ],
-    "answer": 3,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "ژاپن",
-    "choices": [
-      "لاپاز",
-      "سانتیاگو",
-      "توکیو",
-      "گواتمالاسیتی"
+      "تونس",
+      "وین",
+      "دهلی نو",
+      "پاگو پاگو"
     ],
     "answer": 2,
     "type": "capital",
@@ -3172,14 +3159,27 @@
     "extra": "The capital of:"
   },
   {
+    "question": "ژاپن",
+    "choices": [
+      "سان خوآن",
+      "شهر جیبوتی",
+      "کینگستون",
+      "توکیو"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "فیلیپین",
     "choices": [
-      "شهر لوکزامبورگ",
       "مانیل",
-      "جرج تاون",
-      "امبابانه"
+      "بریج تاون",
+      "بلگراد",
+      "ماناگوئه"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3187,10 +3187,10 @@
   {
     "question": "روسیه",
     "choices": [
-      "براتیسلاوا",
-      "مسکو",
       "جرج تاون",
-      "سنت جانز"
+      "مسکو",
+      "بریدز (دفاکتو)",
+      "ماجورو"
     ],
     "answer": 1,
     "type": "capital",
@@ -3200,12 +3200,12 @@
   {
     "question": "مصر",
     "choices": [
-      "واشینگتن دی سی",
-      "موگادیشو",
-      "کانبرا",
-      "قاهره"
+      "پرایا",
+      "قاهره",
+      "سری جایاواردنپورا کوته",
+      "آسونسیون"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3213,10 +3213,10 @@
   {
     "question": "اندونزی",
     "choices": [
-      "کامپالا",
-      "رباط",
+      "امبابانه",
+      "آواروآ",
       "جاکارتا",
-      "لاپاز"
+      "ماناگوئه"
     ],
     "answer": 2,
     "type": "capital",
@@ -3226,12 +3226,12 @@
   {
     "question": "جمهوری دموکراتیک کنگو",
     "choices": [
-      "فری تاون",
-      "بغداد",
-      "لیبرویل",
-      "کینشاسا"
+      "کوک برن تاون، باهاما",
+      "د ولی",
+      "کینشاسا",
+      "مانیل"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3239,12 +3239,12 @@
   {
     "question": "کره جنوبی",
     "choices": [
-      "ماجورو",
-      "تیرانا",
-      "بوگوتا",
-      "سئول"
+      "دهلی نو",
+      "کیگالی",
+      "سئول",
+      "ندارد"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3252,12 +3252,12 @@
   {
     "question": "بنگلادش",
     "choices": [
-      "سینت‌جورجس",
-      "آنتاناناریوو",
-      "ماریهام",
-      "داکا"
+      "سان خوزه",
+      "برازیلیا",
+      "داکا",
+      "پالیکیر"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3265,12 +3265,12 @@
   {
     "question": "مکزیک",
     "choices": [
-      "شهر جیبوتی",
-      "اورشلیم",
       "مکزیکوسیتی",
-      "ماریهام"
+      "فلاینگ فیش کاو",
+      "عشق آباد",
+      "کینشاسا"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3278,12 +3278,12 @@
   {
     "question": "ایران",
     "choices": [
-      "فیلیپسبورگ، سینت مارتن",
-      "فلاینگ فیش کاو",
-      "لندن",
-      "تهران"
+      "موناکو",
+      "برازیلیا",
+      "تهران",
+      "الوفی"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3291,12 +3291,12 @@
   {
     "question": "بریتانیا",
     "choices": [
+      "پورت لوئیس",
+      "سری جایاواردنپورا کوته",
       "لندن",
-      "ندارد",
-      "رام‌الله (دفاکتو)",
-      "پورتوپرنس"
+      "نایپیداو"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3304,12 +3304,12 @@
   {
     "question": "پرو",
     "choices": [
-      "گوستاویا",
-      "اسلام‌آباد",
-      "تاشکند",
-      "لیما"
+      "بخارست",
+      "ریاض",
+      "لیما",
+      "امان"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3317,12 +3317,12 @@
   {
     "question": "تایلند",
     "choices": [
-      "کابل",
-      "بلگراد",
-      "کوناکری",
-      "بانکوک"
+      "تاراوا",
+      "ریکیاویک",
+      "بانکوک",
+      "پورتو نووو"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3330,75 +3330,10 @@
   {
     "question": "کلمبیا",
     "choices": [
+      "موگادیشو",
       "بوگوتا",
-      "دوگلاس",
-      "اولان باتور",
-      "نیکوزیا (شمالی)"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "ویتنام",
-    "choices": [
-      "کیشیناو",
-      "پاریس",
-      "هانوی",
-      "دهلی نو"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "هنگ کنگ (چین)",
-    "choices": [
-      "هنگ کنگ",
-      "پورتوپرنس",
-      "سان سالوادور",
-      "شهر جیبوتی"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "عراق",
-    "choices": [
-      "پورت مورسبی",
-      "مادرید",
-      "بغداد",
-      "گابورون"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "سنگاپور",
-    "choices": [
-      "بیشکک",
-      "بندر سری بگاوان",
-      "سنگاپور",
-      "دوحه"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "ترکیه",
-    "choices": [
-      "سن پتر پورت",
-      "آنکارا",
-      "کینگستون",
-      "کوناکری"
+      "هونیارا",
+      "اسلو"
     ],
     "answer": 1,
     "type": "capital",
@@ -3406,38 +3341,64 @@
     "extra": "The capital of:"
   },
   {
-    "question": "شیلی",
+    "question": "ویتنام",
     "choices": [
-      "واتیکان (دولت‌شهر)",
-      "انجامنا",
-      "سانتیاگو",
-      "پورت ویلا"
+      "گابورون",
+      "هانوی",
+      "پرایا",
+      "برن (دفاکتو)"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
   },
   {
-    "question": "عربستان سعودی",
+    "question": "هنگ کنگ (چین)",
     "choices": [
-      "ویلمستاد",
-      "نواکشوت",
-      "ریاض",
-      "کی یف"
+      "ماتا-اوتو",
+      "هنگ کنگ",
+      "شارلوت آمالی",
+      "باستر"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
   },
   {
-    "question": "آلمان",
+    "question": "عراق",
     "choices": [
-      "برلین",
-      "بانکوک",
-      "بریدز (دفاکتو)",
-      "اسلام‌آباد"
+      "بخارست",
+      "بغداد",
+      "ابوظبی",
+      "تگوسیگالپا"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "سنگاپور",
+    "choices": [
+      "لیما",
+      "سنگاپور",
+      "جرج تاون",
+      "جاکارتا"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "ترکیه",
+    "choices": [
+      "آنکارا",
+      "هراره",
+      "سائوتومه",
+      "کینگستون"
     ],
     "answer": 0,
     "type": "capital",
@@ -3445,12 +3406,38 @@
     "extra": "The capital of:"
   },
   {
-    "question": "سوریه",
+    "question": "شیلی",
     "choices": [
-      "هاگاتنیا",
-      "ویلمستاد",
-      "پورت مورسبی",
-      "دمشق"
+      "سانتیاگو",
+      "پورت لوئیس",
+      "پورتو نووو",
+      "موگادیشو"
+    ],
+    "answer": 0,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "عربستان سعودی",
+    "choices": [
+      "آمستردام",
+      "ریاض",
+      "آدیس آبابا",
+      "ماتا-اوتو"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "آلمان",
+    "choices": [
+      "فری تاون",
+      "لانگیربین",
+      "ابوجا",
+      "برلین"
     ],
     "answer": 3,
     "type": "capital",
@@ -3458,11 +3445,24 @@
     "extra": "The capital of:"
   },
   {
+    "question": "سوریه",
+    "choices": [
+      "دمشق",
+      "مانیل",
+      "دمشق",
+      "نایروبی"
+    ],
+    "answer": 0,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "الجزایر",
     "choices": [
-      "کامپالا",
-      "بغداد",
-      "تفلیس",
+      "پرتوریا",
+      "کینشاسا",
+      "کی یف",
       "الجزیره"
     ],
     "answer": 3,
@@ -3473,12 +3473,12 @@
   {
     "question": "اسپانیا",
     "choices": [
+      "سایپن",
       "مادرید",
-      "شهر جیبوتی",
-      "لیما",
-      "مانیل"
+      "رام‌الله (دفاکتو)",
+      "لندن"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3486,12 +3486,12 @@
   {
     "question": "کره شمالی",
     "choices": [
-      "ادینبورگ",
-      "پیونگ یانگ",
-      "کیگالی",
-      "آسونسیون"
+      "دوگلاس",
+      "آواروآ",
+      "پودگوریتسا",
+      "پیونگ یانگ"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3500,11 +3500,11 @@
     "question": "افغانستان",
     "choices": [
       "لوزاکا",
-      "تگوسیگالپا",
       "کابل",
-      "پاریس"
+      "لیسبون",
+      "نیامی"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3512,12 +3512,12 @@
   {
     "question": "کنیا",
     "choices": [
+      "موناکو",
+      "باستر",
       "نایروبی",
-      "نگرولمود",
-      "جاکارتا",
-      "فیلیپسبورگ، سینت مارتن"
+      "بریدز (دفاکتو)"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3525,12 +3525,12 @@
   {
     "question": "یونان",
     "choices": [
+      "بریدز (دفاکتو)",
       "آتن",
-      "تهران",
-      "تایپه",
-      "فری تاون"
+      "العیون / تیفاریتی",
+      "لیوبلیانا"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3538,9 +3538,9 @@
   {
     "question": "اتیوپی",
     "choices": [
-      "لاپاز",
-      "کاراکاس",
-      "موگادیشو",
+      "قاهره",
+      "فری تاون",
+      "توشهاون",
       "آدیس آبابا"
     ],
     "answer": 3,
@@ -3551,10 +3551,10 @@
   {
     "question": "آرژانتین",
     "choices": [
-      "ویندهوک",
+      "بوجومبورا",
       "بوئنوس آیرس",
-      "مالابو",
-      "نایپیداو"
+      "لیما",
+      "لواندا"
     ],
     "answer": 1,
     "type": "capital",
@@ -3564,12 +3564,12 @@
   {
     "question": "ایتالیا",
     "choices": [
-      "سن هلیه",
+      "پاگو پاگو",
+      "امبابانه",
       "رم",
-      "داکار",
-      "کابل"
+      "اسلو"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3577,12 +3577,12 @@
   {
     "question": "اوکراین",
     "choices": [
-      "جوبا",
-      "واشینگتن دی سی",
-      "پرتوریا",
-      "کی یف"
+      "ویلنیوس",
+      "کی یف",
+      "پرت آو اسپاین",
+      "نایپیداو"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3590,36 +3590,10 @@
   {
     "question": "کامرون",
     "choices": [
-      "تیراسپول",
-      "یائونده",
-      "لانگیربین",
-      "ویلمستاد"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "جمهوری چین",
-    "choices": [
-      "براتیسلاوا",
-      "تایپه",
-      "آواروآ",
-      "جاکارتا"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "برزیل",
-    "choices": [
-      "رباط",
-      "نورسلطان",
-      "واتیکان (دولت‌شهر)",
-      "برازیلیا"
+      "مانیل",
+      "نگرولمود",
+      "انجامنا",
+      "یائونده"
     ],
     "answer": 3,
     "type": "capital",
@@ -3627,12 +3601,12 @@
     "extra": "The capital of:"
   },
   {
-    "question": "اردن",
+    "question": "جمهوری چین",
     "choices": [
-      "امان",
-      "سن هلیه",
-      "لومه",
-      "موگادیشو"
+      "تایپه",
+      "پرتوریا",
+      "ابوجا",
+      "سنت جانز"
     ],
     "answer": 0,
     "type": "capital",
@@ -3640,12 +3614,38 @@
     "extra": "The capital of:"
   },
   {
+    "question": "برزیل",
+    "choices": [
+      "پالیکیر",
+      "بانجول",
+      "برازیلیا",
+      "نایپیداو"
+    ],
+    "answer": 2,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "اردن",
+    "choices": [
+      "فلاینگ فیش کاو",
+      "امان",
+      "سانتیاگو",
+      "سنت جانز"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "آنگولا",
     "choices": [
-      "بلگراد",
+      "بیروت",
       "لواندا",
-      "سان سالوادور",
-      "آنکارا"
+      "توکیو",
+      "اورشلیم"
     ],
     "answer": 1,
     "type": "capital",
@@ -3655,100 +3655,9 @@
   {
     "question": "آفریقای جنوبی",
     "choices": [
-      "لیما",
-      "هراره",
-      "بیشکک",
-      "پرتوریا"
-    ],
-    "answer": 3,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "فرانسه",
-    "choices": [
-      "پاریس",
-      "استکهلم",
-      "بریدز (دفاکتو)",
-      "مسقط"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "ازبکستان",
-    "choices": [
-      "کی یف",
-      "تاشکند",
-      "آتن",
-      "توکیو"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "جمهوری آذربایجان",
-    "choices": [
-      "ماجورو",
-      "کاراکاس",
-      "باکو",
-      "ابوظبی"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "کوبا",
-    "choices": [
-      "لواندا",
-      "ندارد",
-      "دودوما",
-      "هاوانا"
-    ],
-    "answer": 3,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "کامبوج",
-    "choices": [
-      "کیتو",
-      "پنوم پن",
-      "امبابانه",
-      "ویکتوریا"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "رومانی",
-    "choices": [
-      "آواگادوگو",
-      "روسو",
-      "بخارست",
-      "کوالالامپور"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "ونزوئلا",
-    "choices": [
-      "کاراکاس",
-      "باستر",
-      "آنتاناناریوو",
+      "پرتوریا",
+      "کینگستون",
+      "بوداپست",
       "شارلوت آمالی"
     ],
     "answer": 0,
@@ -3757,14 +3666,105 @@
     "extra": "The capital of:"
   },
   {
-    "question": "مراکش",
+    "question": "فرانسه",
     "choices": [
-      "رباط",
+      "بوئنوس آیرس",
+      "پاریس",
+      "واتیکان (دولت‌شهر)",
+      "فیلیپسبورگ، سینت مارتن"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "ازبکستان",
+    "choices": [
+      "بیروت",
+      "ماپوتو",
+      "ادینبورگ",
+      "تاشکند"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "جمهوری آذربایجان",
+    "choices": [
+      "کپنهاگ",
+      "پرتوریا",
+      "ابوجا",
+      "باکو"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "کوبا",
+    "choices": [
+      "کاردیف",
+      "جبل طارق",
+      "هاوانا",
+      "ماتا-اوتو"
+    ],
+    "answer": 2,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "کامبوج",
+    "choices": [
+      "هراره",
+      "بخارست",
+      "نورسلطان",
+      "پنوم پن"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "رومانی",
+    "choices": [
+      "بخارست",
+      "آکرا",
       "یائونده",
-      "پکن",
-      "سانتو دومینگو"
+      "سری جایاواردنپورا کوته"
     ],
     "answer": 0,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "ونزوئلا",
+    "choices": [
+      "تفلیس",
+      "ویلنیوس",
+      "آندورا لاولا",
+      "کاراکاس"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "مراکش",
+    "choices": [
+      "کویت",
+      "مالابو",
+      "آنکارا",
+      "رباط"
+    ],
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3773,11 +3773,11 @@
     "question": "اتریش",
     "choices": [
       "وین",
-      "الوفی",
-      "وین",
-      "ریاض"
+      "بیسائو",
+      "د ولی",
+      "دودوما"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3785,10 +3785,10 @@
   {
     "question": "سودان",
     "choices": [
-      "شارلوت آمالی",
-      "واشینگتن دی سی",
+      "هونیارا",
+      "جرج تاون",
       "خارطوم",
-      "شهر جیبوتی"
+      "امبابانه"
     ],
     "answer": 2,
     "type": "capital",
@@ -3798,23 +3798,10 @@
   {
     "question": "مجارستان",
     "choices": [
-      "بلموپان",
-      "نومئا",
       "بوداپست",
-      "هلسینکی"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "لهستان",
-    "choices": [
-      "ورشو",
-      "بلموپان",
-      "جرج تاون",
-      "پورتوپرنس"
+      "مکزیکوسیتی",
+      "صوفیه",
+      "ماناگوئه"
     ],
     "answer": 0,
     "type": "capital",
@@ -3822,12 +3809,25 @@
     "extra": "The capital of:"
   },
   {
+    "question": "لهستان",
+    "choices": [
+      "آتن",
+      "موناکو",
+      "بلموپان",
+      "ورشو"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "بلاروس",
     "choices": [
-      "داکا",
+      "لانگیربین",
       "مینسک",
-      "نایپیداو",
-      "برازاویل"
+      "گواتمالاسیتی",
+      "لیبرویل"
     ],
     "answer": 1,
     "type": "capital",
@@ -3837,12 +3837,12 @@
   {
     "question": "اوگاندا",
     "choices": [
-      "اولان باتور",
-      "کامپالا",
-      "سن پتر پورت",
-      "کویت"
+      "دهلی نو",
+      "سارایوو",
+      "سنت جانز",
+      "کامپالا"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3850,12 +3850,12 @@
   {
     "question": "غنا",
     "choices": [
-      "پرت آو اسپاین",
-      "سینت‌جورجس",
-      "نومئا",
-      "آکرا"
+      "پرایا",
+      "فیلیپسبورگ، سینت مارتن",
+      "آکرا",
+      "نورسلطان"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3863,49 +3863,10 @@
   {
     "question": "ماداگاسکار",
     "choices": [
-      "تونس",
-      "فیلیپسبورگ، سینت مارتن",
-      "ویندهوک",
-      "آنتاناناریوو"
-    ],
-    "answer": 3,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "لبنان",
-    "choices": [
-      "مادرید",
-      "بیروت",
-      "نوحی",
-      "کابل"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "سوئد",
-    "choices": [
-      "بریج تاون",
-      "استکهلم",
-      "موناکو",
-      "پرتوریا"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "اکوادور",
-    "choices": [
-      "کیتو",
-      "مالابو",
-      "نورسلطان",
-      "کوناکری"
+      "آنتاناناریوو",
+      "مسکو",
+      "نیامی",
+      "مکزیکوسیتی"
     ],
     "answer": 0,
     "type": "capital",
@@ -3913,14 +3874,53 @@
     "extra": "The capital of:"
   },
   {
+    "question": "لبنان",
+    "choices": [
+      "همیلتون",
+      "سئول",
+      "نومئا",
+      "بیروت"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "سوئد",
+    "choices": [
+      "استکهلم",
+      "بروکسل",
+      "لیما",
+      "العیون / تیفاریتی"
+    ],
+    "answer": 0,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "اکوادور",
+    "choices": [
+      "اسلام‌آباد",
+      "کوالالامپور",
+      "پاپیته",
+      "کیتو"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "زیمبابوه",
     "choices": [
-      "سان سالوادور",
-      "هراره",
-      "سانتیاگو",
-      "باستر"
+      "بیروت",
+      "بخارست",
+      "فری تاون",
+      "هراره"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3928,12 +3928,12 @@
   {
     "question": "قطر",
     "choices": [
-      "آنتاناناریوو",
-      "دوحه",
-      "واشینگتن دی سی",
-      "پرت آو اسپاین"
+      "بوئنوس آیرس",
+      "دوگلاس",
+      "بوجومبورا",
+      "دوحه"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3942,9 +3942,9 @@
     "question": "یمن",
     "choices": [
       "صنعا",
-      "موناکو",
-      "طرابلس",
-      "کی یف"
+      "دودوما",
+      "سن پتر پورت",
+      "هلسینکی"
     ],
     "answer": 0,
     "type": "capital",
@@ -3954,12 +3954,12 @@
   {
     "question": "گینه",
     "choices": [
-      "والتا",
-      "فونافوتی",
-      "ندارد",
-      "کوناکری"
+      "کوناکری",
+      "کی یف",
+      "کینشاسا",
+      "ماناگوئه"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3967,12 +3967,12 @@
   {
     "question": "مالزی",
     "choices": [
-      "نورسلطان",
-      "سووا",
-      "کابل",
-      "کوالالامپور"
+      "نایروبی",
+      "صوفیه",
+      "کوالالامپور",
+      "پکن"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3980,12 +3980,12 @@
   {
     "question": "اروگوئه",
     "choices": [
-      "یاموسوکرو",
-      "ابوجا",
-      "سنگاپور",
-      "مونته ویدئو"
+      "دیلی",
+      "مونته ویدئو",
+      "هنگ کنگ",
+      "کاردیف"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -3994,9 +3994,9 @@
     "question": "زامبیا",
     "choices": [
       "لوزاکا",
-      "آواگادوگو",
-      "کوک برن تاون، باهاما",
-      "نایروبی"
+      "باماکو",
+      "سووا",
+      "بوئنوس آیرس"
     ],
     "answer": 0,
     "type": "capital",
@@ -4006,12 +4006,12 @@
   {
     "question": "مالی",
     "choices": [
+      "پورت لوئیس",
       "باماکو",
-      "صوفیه",
-      "الجزیره",
-      "تایپه"
+      "بیروت",
+      "فادوتس"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4019,12 +4019,12 @@
   {
     "question": "جمهوری چک",
     "choices": [
-      "کاستریس",
-      "لوزاکا",
       "پراگ",
-      "آدیس آبابا"
+      "آسونسیون",
+      "هراره",
+      "پراگ"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4032,10 +4032,10 @@
   {
     "question": "هائیتی",
     "choices": [
-      "یائونده",
-      "ماسرو",
+      "نومئا",
+      "ریاض",
       "پورتوپرنس",
-      "آواروآ"
+      "دهلی نو"
     ],
     "answer": 2,
     "type": "capital",
@@ -4045,10 +4045,10 @@
   {
     "question": "لیبی",
     "choices": [
-      "ماله",
+      "تفلیس",
       "طرابلس",
-      "کیشیناو",
-      "کینگستون"
+      "هانوی",
+      "باکو"
     ],
     "answer": 1,
     "type": "capital",
@@ -4058,23 +4058,10 @@
   {
     "question": "کویت",
     "choices": [
+      "یاموسوکرو",
       "کویت",
-      "موگادیشو",
-      "پنوم پن",
-      "سووا"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "صربستان",
-    "choices": [
-      "وین",
-      "بلگراد",
-      "بلفاست",
-      "بریدز (دفاکتو)"
+      "نایپیداو",
+      "بوداپست"
     ],
     "answer": 1,
     "type": "capital",
@@ -4082,38 +4069,12 @@
     "extra": "The capital of:"
   },
   {
-    "question": "جمهوری دومینیکن",
+    "question": "صربستان",
     "choices": [
-      "لندن",
-      "تفلیس",
-      "مینسک",
-      "سانتو دومینگو"
-    ],
-    "answer": 3,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "سومالی",
-    "choices": [
-      "پاناماسیتی",
-      "مادرید",
-      "موگادیشو",
-      "سنگاپور"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "بلغارستان",
-    "choices": [
-      "صوفیه",
-      "سری جایاواردنپورا کوته",
-      "کویت",
-      "جیمزتاون، سینت هلینا"
+      "بلگراد",
+      "پورت ویلا",
+      "برن (دفاکتو)",
+      "پیونگ یانگ"
     ],
     "answer": 0,
     "type": "capital",
@@ -4121,12 +4082,51 @@
     "extra": "The capital of:"
   },
   {
+    "question": "جمهوری دومینیکن",
+    "choices": [
+      "کیشیناو",
+      "نورسلطان",
+      "سانتو دومینگو",
+      "ویلمستاد"
+    ],
+    "answer": 2,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "سومالی",
+    "choices": [
+      "فیلیپسبورگ، سینت مارتن",
+      "وین",
+      "فادوتس",
+      "موگادیشو"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "بلغارستان",
+    "choices": [
+      "لاپاز",
+      "صوفیه",
+      "بوگوتا",
+      "همیلتون"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "جمهوری کنگو",
     "choices": [
-      "کامپالا",
+      "ویکتوریا",
       "برازاویل",
-      "پاراماریبو",
-      "آمستردام"
+      "هراره",
+      "باستر"
     ],
     "answer": 1,
     "type": "capital",
@@ -4136,12 +4136,12 @@
   {
     "question": "بلژیک",
     "choices": [
-      "نواکشوت",
-      "فیلیپسبورگ، سینت مارتن",
-      "استکهلم",
-      "بروکسل"
+      "پورتوپرنس",
+      "ویکتوریا",
+      "بروکسل",
+      "شهر جیبوتی"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4149,9 +4149,9 @@
   {
     "question": "ارمنستان",
     "choices": [
-      "تایپه",
-      "کابل",
-      "سن هلیه",
+      "شهر لوکزامبورگ",
+      "براتیسلاوا",
+      "قاهره",
       "ایروان"
     ],
     "answer": 3,
@@ -4162,12 +4162,12 @@
   {
     "question": "موزامبیک",
     "choices": [
-      "پاریس",
-      "قاهره",
-      "ماپوتو",
-      "سن هلیه"
+      "دودوما",
+      "سان خوزه",
+      "کوناکری",
+      "ماپوتو"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4175,12 +4175,12 @@
   {
     "question": "سیرالئون",
     "choices": [
-      "کانبرا",
+      "دودوما",
+      "ورشو",
       "فری تاون",
-      "سئول",
-      "یارن (دفاکتو)"
+      "هانوی"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4188,12 +4188,12 @@
   {
     "question": "جمهوری ایرلند",
     "choices": [
-      "لندن",
-      "دوبلین",
-      "نایپیداو",
-      "پیونگ یانگ"
+      "پاریس",
+      "تهران",
+      "پالیکیر",
+      "دوبلین"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4201,12 +4201,12 @@
   {
     "question": "گرجستان",
     "choices": [
-      "امان",
       "تفلیس",
       "کینگستون",
-      "آندورا لاولا"
+      "مورونی",
+      "ابوظبی"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4214,9 +4214,9 @@
   {
     "question": "سنگال",
     "choices": [
-      "کویت",
-      "اولان باتور",
-      "اسمره",
+      "تیراسپول",
+      "کاردیف",
+      "پورتو نووو",
       "داکار"
     ],
     "answer": 3,
@@ -4227,12 +4227,12 @@
   {
     "question": "گواتمالا",
     "choices": [
-      "آواروآ",
       "گواتمالاسیتی",
-      "نورسلطان",
-      "بریدز (دفاکتو)"
+      "وین تیان",
+      "دوحه",
+      "ریکیاویک"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4240,10 +4240,10 @@
   {
     "question": "لیبریا",
     "choices": [
-      "بوجومبورا",
-      "نومئا",
+      "گوستاویا",
+      "کاستریس",
       "مونروویا",
-      "اورنجستاد"
+      "بریج تاون"
     ],
     "answer": 2,
     "type": "capital",
@@ -4253,49 +4253,10 @@
   {
     "question": "بورکینافاسو",
     "choices": [
-      "موناکو",
-      "جیمزتاون، سینت هلینا",
+      "هراره",
       "آواگادوگو",
-      "تاشکند"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "نپال",
-    "choices": [
-      "کاتماندو",
-      "پورت مورسبی",
-      "هلسینکی",
-      "دیلی"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "پاکستان",
-    "choices": [
-      "ماله",
-      "لانگیربین",
-      "کانبرا",
-      "اسلام‌آباد"
-    ],
-    "answer": 3,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "نیکاراگوئه",
-    "choices": [
-      "پورت ویلا",
-      "ماناگوئه",
-      "پرتوریا",
-      "براتیسلاوا"
+      "صوفیه",
+      "یارن (دفاکتو)"
     ],
     "answer": 1,
     "type": "capital",
@@ -4303,12 +4264,51 @@
     "extra": "The capital of:"
   },
   {
+    "question": "نپال",
+    "choices": [
+      "تهران",
+      "دودوما",
+      "پکن",
+      "کاتماندو"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "پاکستان",
+    "choices": [
+      "پراگ",
+      "اسلام‌آباد",
+      "اسمره",
+      "ریکیاویک"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "نیکاراگوئه",
+    "choices": [
+      "ماناگوئه",
+      "ماتا-اوتو",
+      "کامپالا",
+      "العیون / تیفاریتی"
+    ],
+    "answer": 0,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "میانمار",
     "choices": [
-      "ندارد",
-      "کینگستون",
+      "پراگ",
+      "ولینگتون",
       "نایپیداو",
-      "نومئا"
+      "یاموسوکرو"
     ],
     "answer": 2,
     "type": "capital",
@@ -4318,10 +4318,10 @@
   {
     "question": "مغولستان",
     "choices": [
-      "ماپوتو",
+      "پرت آو اسپاین",
       "اولان باتور",
-      "یائونده",
-      "باکو"
+      "کاستریس",
+      "گابورون"
     ],
     "answer": 1,
     "type": "capital",
@@ -4331,12 +4331,12 @@
   {
     "question": "مالاوی",
     "choices": [
-      "مانیل",
-      "دهلی نو",
-      "اسلام‌آباد",
-      "لیلونگوه"
+      "بوداپست",
+      "نیکوزیا (شمالی)",
+      "لیلونگوه",
+      "دوبلین"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4344,12 +4344,12 @@
   {
     "question": "کانادا",
     "choices": [
-      "پاپیته",
-      "لوزاکا",
       "اتاوا",
-      "هراره"
+      "ابوجا",
+      "برازاویل",
+      "هاوانا"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4357,12 +4357,12 @@
   {
     "question": "بولیوی",
     "choices": [
-      "مادرید",
-      "جرج تاون",
-      "لاپاز",
-      "برلین"
+      "اسلام‌آباد",
+      "پاریس",
+      "مورونی",
+      "لاپاز"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4370,12 +4370,12 @@
   {
     "question": "قرقیزستان",
     "choices": [
-      "پورت لوئیس",
-      "داکار",
+      "بوداپست",
       "بیشکک",
-      "کوناکری"
+      "اورنجستاد",
+      "پریشتینا"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4383,9 +4383,9 @@
   {
     "question": "قزاقستان",
     "choices": [
-      "امبابانه",
-      "دودوما",
-      "مونته ویدئو",
+      "کاردیف",
+      "باکو",
+      "ماجورو",
       "نورسلطان"
     ],
     "answer": 3,
@@ -4396,12 +4396,12 @@
   {
     "question": "توگو",
     "choices": [
-      "لومه",
-      "پورت ویلا",
-      "تالین",
-      "تونس"
+      "جرج تاون",
+      "مینسک",
+      "توکیو",
+      "لومه"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4409,12 +4409,12 @@
   {
     "question": "پاناما",
     "choices": [
-      "همیلتون",
-      "فادوتس",
+      "بانگی",
       "پاناماسیتی",
-      "کاتماندو"
+      "باماکو",
+      "براتیسلاوا"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4422,12 +4422,12 @@
   {
     "question": "هلند",
     "choices": [
-      "آمستردام",
-      "پاریس",
-      "منامه",
-      "جرج تاون"
+      "پراگ",
+      "ویکتوریا",
+      "بانکوک",
+      "آمستردام"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4435,12 +4435,12 @@
   {
     "question": "کرواسی",
     "choices": [
-      "نگرولمود",
-      "مسقط",
-      "کینگستون",
-      "زاگرب"
+      "ماتا-اوتو",
+      "زاگرب",
+      "سری جایاواردنپورا کوته",
+      "سانتیاگو"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4448,23 +4448,10 @@
   {
     "question": "عمان",
     "choices": [
-      "مسقط",
-      "باکو",
-      "بخارست",
-      "مونروویا"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "نیجر",
-    "choices": [
-      "ریاض",
-      "برلین",
-      "شهر لوکزامبورگ",
-      "نیامی"
+      "کیشیناو",
+      "سان سالوادور",
+      "اولان باتور",
+      "مسقط"
     ],
     "answer": 3,
     "type": "capital",
@@ -4472,14 +4459,27 @@
     "extra": "The capital of:"
   },
   {
+    "question": "نیجر",
+    "choices": [
+      "بوداپست",
+      "نیامی",
+      "همیلتون",
+      "بوئنوس آیرس"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "مولداوی",
     "choices": [
+      "برلین",
+      "موناکو",
       "کیشیناو",
-      "اتاوا",
-      "پکن",
-      "تفلیس"
+      "اولان باتور"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4487,12 +4487,12 @@
   {
     "question": "اسرائیل",
     "choices": [
-      "اورشلیم",
-      "گابورون",
-      "دوشنبه",
-      "د ولی"
+      "فیلیپسبورگ، سینت مارتن",
+      "دوحه",
+      "دهلی نو",
+      "اورشلیم"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4500,9 +4500,9 @@
   {
     "question": "نیجریه",
     "choices": [
-      "خارطوم",
-      "کانبرا",
-      "نواکشوت",
+      "لواندا",
+      "رم",
+      "جرج تاون",
       "ابوجا"
     ],
     "answer": 3,
@@ -4513,12 +4513,12 @@
   {
     "question": "آلبانی",
     "choices": [
-      "کوک برن تاون، باهاما",
-      "تونس",
-      "وین",
+      "تیرانا",
+      "الوفی",
+      "آواگادوگو",
       "تیرانا"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4526,12 +4526,12 @@
   {
     "question": "تونس",
     "choices": [
-      "پاراماریبو",
-      "مینسک",
       "تونس",
-      "مسقط"
+      "سووا",
+      "نواکشوت",
+      "سان خوزه"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4539,23 +4539,10 @@
   {
     "question": "ترکمنستان",
     "choices": [
-      "بریدز (دفاکتو)",
-      "شارلوت آمالی",
-      "بلفاست",
-      "عشق آباد"
-    ],
-    "answer": 3,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "چاد",
-    "choices": [
-      "اسلو",
-      "انجامنا",
-      "بلگراد",
-      "ابوظبی"
+      "اسمره",
+      "عشق آباد",
+      "هاوانا",
+      "رباط"
     ],
     "answer": 1,
     "type": "capital",
@@ -4563,14 +4550,27 @@
     "extra": "The capital of:"
   },
   {
+    "question": "چاد",
+    "choices": [
+      "نایروبی",
+      "ماله",
+      "قاهره",
+      "انجامنا"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "هندوراس",
     "choices": [
+      "سارایوو",
       "تگوسیگالپا",
-      "یارن (دفاکتو)",
-      "عشق آباد",
-      "باکو"
+      "سایپن",
+      "سانتیاگو"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4578,12 +4578,12 @@
   {
     "question": "جمهوری آفریقای مرکزی",
     "choices": [
+      "پورت مورسبی",
       "بانگی",
-      "رم",
-      "سان سالوادور",
-      "پورتو نووو"
+      "شهر جیبوتی",
+      "اورشلیم"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4591,9 +4591,9 @@
   {
     "question": "موریتانی",
     "choices": [
-      "جاکارتا",
-      "فلاینگ فیش کاو",
-      "کانبرا",
+      "ویندهوک",
+      "پاگو پاگو",
+      "ریاض",
       "نواکشوت"
     ],
     "answer": 3,
@@ -4604,12 +4604,12 @@
   {
     "question": "رواندا",
     "choices": [
-      "تهران",
-      "برازاویل",
-      "هانوی",
-      "کیگالی"
+      "ادینبورگ",
+      "تایپه",
+      "کیگالی",
+      "ماریهام"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4617,12 +4617,12 @@
   {
     "question": "لتونی",
     "choices": [
+      "رم",
       "ریگا",
-      "گوستاویا",
-      "هاگاتنیا",
-      "بندر سری بگاوان"
+      "یائونده",
+      "هلسینکی"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4630,23 +4630,10 @@
   {
     "question": "جامائیکا",
     "choices": [
-      "لوزاکا",
       "کینگستون",
-      "نگرولمود",
-      "فونافوتی"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "ایالات متحده آمریکا",
-    "choices": [
-      "جبل طارق",
-      "توکیو",
-      "بغداد",
-      "واشینگتن دی سی"
+      "اتاوا",
+      "دوشنبه",
+      "کینگستون"
     ],
     "answer": 3,
     "type": "capital",
@@ -4654,24 +4641,11 @@
     "extra": "The capital of:"
   },
   {
-    "question": "نروژ",
+    "question": "ایالات متحده آمریکا",
     "choices": [
-      "آتن",
-      "اسلو",
-      "دیلی",
-      "پاریس"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "فنلاند",
-    "choices": [
-      "سینت‌جورجس",
-      "هلسینکی",
-      "لواندا",
+      "پاپیته",
+      "واشینگتن دی سی",
+      "پورتوپرنس",
       "آنکارا"
     ],
     "answer": 1,
@@ -4680,12 +4654,25 @@
     "extra": "The capital of:"
   },
   {
-    "question": "امارات متحده عربی",
+    "question": "نروژ",
     "choices": [
-      "ماجورو",
-      "لاپاز",
-      "رود تاون",
-      "ابوظبی"
+      "بلگراد",
+      "ایروان",
+      "اسلو",
+      "نوحی"
+    ],
+    "answer": 2,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "فنلاند",
+    "choices": [
+      "تاشکند",
+      "پاگو پاگو",
+      "بانکوک",
+      "هلسینکی"
     ],
     "answer": 3,
     "type": "capital",
@@ -4693,14 +4680,27 @@
     "extra": "The capital of:"
   },
   {
+    "question": "امارات متحده عربی",
+    "choices": [
+      "بیروت",
+      "برن (دفاکتو)",
+      "ابوظبی",
+      "بلموپان"
+    ],
+    "answer": 2,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "تاجیکستان",
     "choices": [
-      "کیگالی",
-      "ماله",
-      "جیمزتاون، سینت هلینا",
-      "دوشنبه"
+      "یائونده",
+      "دوشنبه",
+      "لیلونگوه",
+      "کینگستون"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4709,9 +4709,9 @@
     "question": "پرتغال",
     "choices": [
       "لیسبون",
-      "پودگوریتسا",
-      "موگادیشو",
-      "مکزیکوسیتی"
+      "تیرانا",
+      "اتاوا",
+      "پاناماسیتی"
     ],
     "answer": 0,
     "type": "capital",
@@ -4721,12 +4721,12 @@
   {
     "question": "دانمارک",
     "choices": [
-      "آپیا",
-      "هاوانا",
-      "ابوجا",
-      "کپنهاگ"
+      "کپنهاگ",
+      "ویندهوک",
+      "شهر لوکزامبورگ",
+      "هلسینکی"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4734,12 +4734,12 @@
   {
     "question": "لیتوانی",
     "choices": [
-      "تاراوا",
-      "بندر سری بگاوان",
       "ویلنیوس",
-      "یارن (دفاکتو)"
+      "کویت",
+      "سنگاپور",
+      "مکزیکوسیتی"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4747,9 +4747,9 @@
   {
     "question": "گابن",
     "choices": [
-      "بروکسل",
+      "جرج تاون",
       "کینگستون",
-      "ماریگو",
+      "مونته ویدئو",
       "لیبرویل"
     ],
     "answer": 3,
@@ -4760,9 +4760,9 @@
   {
     "question": "اریتره",
     "choices": [
-      "بندر سری بگاوان",
-      "نیکوزیا (شمالی)",
-      "هانوی",
+      "پورت لوئیس",
+      "پرایا",
+      "تگوسیگالپا",
       "اسمره"
     ],
     "answer": 3,
@@ -4773,10 +4773,10 @@
   {
     "question": "السالوادور",
     "choices": [
-      "فادوتس",
+      "سانتیاگو",
       "سان سالوادور",
-      "پورت مورسبی",
-      "دوحه"
+      "مسکو",
+      "بانگی"
     ],
     "answer": 1,
     "type": "capital",
@@ -4786,12 +4786,12 @@
   {
     "question": "پاراگوئه",
     "choices": [
-      "الوفی",
-      "براتیسلاوا",
-      "پاگو پاگو",
-      "آسونسیون"
+      "آسونسیون",
+      "هنگ کنگ",
+      "کینگستون",
+      "موگادیشو"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4799,23 +4799,10 @@
   {
     "question": "ماکائو (چین)",
     "choices": [
-      "نایپیداو",
+      "بوگوتا",
+      "نگرولمود",
       "ماکائو",
-      "اورنجستاد",
-      "فیلیپسبورگ، سینت مارتن"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "اسکاتلند",
-    "choices": [
-      "فیلیپسبورگ، سینت مارتن",
-      "لیوبلیانا",
-      "ادینبورگ",
-      "آدیس آبابا"
+      "اولان باتور"
     ],
     "answer": 2,
     "type": "capital",
@@ -4823,11 +4810,24 @@
     "extra": "The capital of:"
   },
   {
+    "question": "اسکاتلند",
+    "choices": [
+      "ادینبورگ",
+      "امان",
+      "سانتیاگو",
+      "الجزیره"
+    ],
+    "answer": 0,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "جیبوتی",
     "choices": [
-      "بانجول",
-      "اورنجستاد",
-      "ماله",
+      "گواتمالاسیتی",
+      "بوگوتا",
+      "نایروبی",
       "شهر جیبوتی"
     ],
     "answer": 3,
@@ -4838,9 +4838,9 @@
   {
     "question": "ساحل عاج",
     "choices": [
-      "اورنجستاد",
-      "فادوتس",
-      "پورت لوئیس",
+      "یائونده",
+      "آندورا لاولا",
+      "تفلیس",
       "یاموسوکرو"
     ],
     "answer": 3,
@@ -4851,12 +4851,12 @@
   {
     "question": "گینه بیسائو",
     "choices": [
-      "فادوتس",
       "بیسائو",
-      "نورسلطان",
-      "شارلوت آمالی"
+      "جبل طارق",
+      "سارایوو",
+      "یارن (دفاکتو)"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4865,9 +4865,9 @@
     "question": "استونی",
     "choices": [
       "تالین",
-      "داکا",
-      "واتیکان (دولت‌شهر)",
-      "مکزیکوسیتی"
+      "دودوما",
+      "هلسینکی",
+      "توکیو"
     ],
     "answer": 0,
     "type": "capital",
@@ -4877,12 +4877,12 @@
   {
     "question": "اسلواکی",
     "choices": [
-      "آواروآ",
-      "الوفی",
-      "براتیسلاوا",
-      "سانتیاگو"
+      "واتیکان (دولت‌شهر)",
+      "کپنهاگ",
+      "کابل",
+      "براتیسلاوا"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4890,9 +4890,9 @@
   {
     "question": "پورتوریکو (ایالات متحده)",
     "choices": [
-      "لیلونگوه",
-      "کیتو",
-      "هاگاتنیا",
+      "کینشاسا",
+      "کاردیف",
+      "رود تاون",
       "سان خوآن"
     ],
     "answer": 3,
@@ -4903,12 +4903,12 @@
   {
     "question": "نیوزیلند",
     "choices": [
+      "سووا",
       "ولینگتون",
-      "امان",
-      "نوک",
-      "سری جایاواردنپورا کوته"
+      "لیوبلیانا",
+      "نگرولمود"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -4916,23 +4916,10 @@
   {
     "question": "بوروندی",
     "choices": [
-      "پرایا",
       "بوجومبورا",
-      "نایپیداو",
-      "همیلتون"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "بوسنی و هرزگوین",
-    "choices": [
-      "سارایوو",
-      "برلین",
-      "خارطوم",
-      "لندن"
+      "آسونسیون",
+      "داکا",
+      "سان خوزه"
     ],
     "answer": 0,
     "type": "capital",
@@ -4940,12 +4927,12 @@
     "extra": "The capital of:"
   },
   {
-    "question": "سودان جنوبی",
+    "question": "بوسنی و هرزگوین",
     "choices": [
-      "تاراوا",
-      "جوبا",
-      "کانبرا",
-      "یاموسوکرو"
+      "گابورون",
+      "سارایوو",
+      "هراره",
+      "دیلی"
     ],
     "answer": 1,
     "type": "capital",
@@ -4953,12 +4940,25 @@
     "extra": "The capital of:"
   },
   {
+    "question": "سودان جنوبی",
+    "choices": [
+      "نوکوآلوفا",
+      "ابوظبی",
+      "اولان باتور",
+      "جوبا"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "استرالیا",
     "choices": [
-      "لندن",
-      "مینسک",
+      "جبل طارق",
+      "سارایوو",
       "کانبرا",
-      "وین تیان"
+      "بندر سری بگاوان"
     ],
     "answer": 2,
     "type": "capital",
@@ -4968,9 +4968,9 @@
   {
     "question": "ولز",
     "choices": [
-      "اورشلیم",
-      "ناسائو",
-      "ریاض",
+      "هلسینکی",
+      "آنتاناناریوو",
+      "مورونی",
       "کاردیف"
     ],
     "answer": 3,
@@ -4981,10 +4981,10 @@
   {
     "question": "ایرلند شمالی",
     "choices": [
-      "نوحی",
+      "سانتیاگو",
       "بلفاست",
-      "سان سالوادور",
-      "لیما"
+      "توشهاون",
+      "گواتمالاسیتی"
     ],
     "answer": 1,
     "type": "capital",
@@ -4994,36 +4994,10 @@
   {
     "question": "کاستاریکا",
     "choices": [
-      "سان خوزه",
-      "صوفیه",
-      "اولان باتور",
-      "بانجول"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "پاپوآ گینه نو",
-    "choices": [
-      "پورت مورسبی",
-      "نوحی",
-      "گوستاویا",
-      "ولینگتون"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "لائوس",
-    "choices": [
-      "دمشق",
-      "پکن",
-      "لواندا",
-      "وین تیان"
+      "آدیس آبابا",
+      "انجامنا",
+      "موگادیشو",
+      "سان خوزه"
     ],
     "answer": 3,
     "type": "capital",
@@ -5031,12 +5005,12 @@
     "extra": "The capital of:"
   },
   {
-    "question": "تانزانیا",
+    "question": "پاپوآ گینه نو",
     "choices": [
-      "ویلنیوس",
-      "دودوما",
-      "بروکسل",
-      "پریشتینا"
+      "تیراسپول",
+      "پورت مورسبی",
+      "جرج تاون",
+      "آواگادوگو"
     ],
     "answer": 1,
     "type": "capital",
@@ -5044,14 +5018,40 @@
     "extra": "The capital of:"
   },
   {
+    "question": "لائوس",
+    "choices": [
+      "عشق آباد",
+      "وین تیان",
+      "دمشق",
+      "آندورا لاولا"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "تانزانیا",
+    "choices": [
+      "آسونسیون",
+      "خارطوم",
+      "رم",
+      "دودوما"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "لسوتو",
     "choices": [
-      "داکار",
       "ماسرو",
-      "ماسرو",
-      "ماناگوئه"
+      "ماپوتو",
+      "بروکسل",
+      "واشینگتن دی سی"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5059,12 +5059,12 @@
   {
     "question": "قبرس",
     "choices": [
-      "وین",
-      "پورت مورسبی",
+      "ماسرو",
       "نیکوزیا (جنوبی)",
-      "بخارست"
+      "کینشاسا",
+      "ماناگوئه"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5073,9 +5073,9 @@
     "question": "اسلوونی",
     "choices": [
       "لیوبلیانا",
-      "ماناگوئه",
-      "مالابو",
-      "ویکتوریا"
+      "قاهره",
+      "کینگستون",
+      "مونته ویدئو"
     ],
     "answer": 0,
     "type": "capital",
@@ -5086,9 +5086,9 @@
     "question": "سورینام",
     "choices": [
       "پاراماریبو",
-      "کینگستون",
-      "پورتوپرنس",
-      "الجزیره"
+      "سان خوزه",
+      "ریاض",
+      "لیوبلیانا"
     ],
     "answer": 0,
     "type": "capital",
@@ -5098,12 +5098,12 @@
   {
     "question": "نامیبیا",
     "choices": [
-      "نورسلطان",
-      "پرایا",
-      "نیکوزیا (جنوبی)",
-      "ویندهوک"
+      "ویندهوک",
+      "لیما",
+      "نیامی",
+      "نایپیداو"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5111,12 +5111,12 @@
   {
     "question": "باهاما",
     "choices": [
-      "بلموپان",
-      "کیتو",
-      "نیکوزیا (شمالی)",
-      "ناسائو"
+      "باماکو",
+      "ناسائو",
+      "پاراماریبو",
+      "لاپاز"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5124,10 +5124,10 @@
   {
     "question": "بوتسوانا",
     "choices": [
-      "ویندهوک",
+      "کینگستون",
       "گابورون",
-      "پاگو پاگو",
-      "تالین"
+      "پودگوریتسا",
+      "هانوی"
     ],
     "answer": 1,
     "type": "capital",
@@ -5137,12 +5137,12 @@
   {
     "question": "بنین",
     "choices": [
-      "العیون / تیفاریتی",
-      "ماجورو",
-      "نایروبی",
-      "پورتو نووو"
+      "کویت",
+      "نومئا",
+      "پورتو نووو",
+      "اتاوا"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5150,12 +5150,12 @@
   {
     "question": "کوزوو",
     "choices": [
-      "سائوتومه",
-      "ماریهام",
-      "اسمره",
-      "پریشتینا"
+      "کابل",
+      "برازیلیا",
+      "پریشتینا",
+      "فادوتس"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5163,12 +5163,12 @@
   {
     "question": "جمهوری دموکراتیک صحرای غربی",
     "choices": [
-      "بریج تاون",
-      "صوفیه",
-      "واتیکان (دولت‌شهر)",
-      "العیون / تیفاریتی"
+      "العیون / تیفاریتی",
+      "ورشو",
+      "تاشکند",
+      "بانکوک"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5176,12 +5176,12 @@
   {
     "question": "ترانسنیستریا",
     "choices": [
-      "لیما",
-      "صوفیه",
-      "انجامنا",
-      "تیراسپول"
+      "جرج تاون",
+      "الجزیره",
+      "تیراسپول",
+      "بندر سری بگاوان"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5189,12 +5189,12 @@
   {
     "question": "موریس",
     "choices": [
-      "بغداد",
+      "کویت",
+      "یارن (دفاکتو)",
       "پورت لوئیس",
-      "واشینگتن دی سی",
-      "براتیسلاوا"
+      "گواتمالاسیتی"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5202,12 +5202,12 @@
   {
     "question": "مونته‌نگرو",
     "choices": [
-      "کاراکاس",
       "پودگوریتسا",
-      "پورتو نووو",
-      "سنگاپور"
+      "سن پتر پورت",
+      "بخارست",
+      "پورتو نووو"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5216,9 +5216,9 @@
     "question": "بحرین",
     "choices": [
       "منامه",
-      "رباط",
-      "ماریهام",
-      "همیلتون"
+      "اسمره",
+      "تاشکند",
+      "لیسبون"
     ],
     "answer": 0,
     "type": "capital",
@@ -5228,12 +5228,12 @@
   {
     "question": "گویان",
     "choices": [
-      "ریاض",
-      "رام‌الله (دفاکتو)",
+      "ماکائو",
       "جرج تاون",
-      "وین"
+      "روسو",
+      "پراگ"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5242,9 +5242,9 @@
     "question": "دماغه سبز",
     "choices": [
       "پرایا",
-      "سایپن",
+      "نوکوآلوفا",
       "آکرا",
-      "نوکوآلوفا"
+      "پورت لوئیس"
     ],
     "answer": 0,
     "type": "capital",
@@ -5254,12 +5254,12 @@
   {
     "question": "سوئیس",
     "choices": [
-      "هونیارا",
-      "برن (دفاکتو)",
-      "مسقط",
-      "نوحی"
+      "کامپالا",
+      "نایروبی",
+      "یائونده",
+      "برن (دفاکتو)"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5267,9 +5267,9 @@
   {
     "question": "سری‌لانکا",
     "choices": [
-      "فونافوتی",
-      "موناکو",
-      "اورنجستاد",
+      "بندر سری بگاوان",
+      "کابل",
+      "کینگستون",
       "سری جایاواردنپورا کوته"
     ],
     "answer": 3,
@@ -5280,12 +5280,12 @@
   {
     "question": "ایسلند",
     "choices": [
-      "ریکیاویک",
-      "برلین",
-      "کینگستون",
-      "اسلو"
+      "تگوسیگالپا",
+      "مونروویا",
+      "پودگوریتسا",
+      "ریکیاویک"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5293,10 +5293,10 @@
   {
     "question": "باربادوس",
     "choices": [
-      "پنوم پن",
-      "امان",
+      "داکا",
+      "اسمره",
       "بریج تاون",
-      "تونس"
+      "بانگی"
     ],
     "answer": 2,
     "type": "capital",
@@ -5306,9 +5306,9 @@
   {
     "question": "مالدیو",
     "choices": [
-      "هاوانا",
-      "تیرانا",
-      "اورشلیم",
+      "کینگستون",
+      "باکو",
+      "رام‌الله (دفاکتو)",
       "ماله"
     ],
     "answer": 3,
@@ -5319,12 +5319,12 @@
   {
     "question": "پادشاهی بوتان",
     "choices": [
-      "کینگستون",
-      "تیمفو",
-      "صنعا",
-      "ناسائو"
+      "کیشیناو",
+      "نیکوزیا (جنوبی)",
+      "کی یف",
+      "تیمفو"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5333,9 +5333,9 @@
     "question": "گینه استوایی",
     "choices": [
       "مالابو",
-      "کی یف",
-      "کوک برن تاون، باهاما",
-      "خارطوم"
+      "ماریگو",
+      "اتاوا",
+      "جرج تاون"
     ],
     "answer": 0,
     "type": "capital",
@@ -5345,49 +5345,10 @@
   {
     "question": "کالدونیای جدید (فرانسه)",
     "choices": [
-      "بوئنوس آیرس",
       "نومئا",
-      "ریکیاویک",
-      "پورت مورسبی"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "قبرس شمالی",
-    "choices": [
-      "ادینبورگ",
-      "آواگادوگو",
-      "سان مارینو",
-      "نیکوزیا (شمالی)"
-    ],
-    "answer": 3,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "فیجی",
-    "choices": [
-      "بوگوتا",
-      "بیروت",
-      "سووا",
-      "سن پیر، سن-پیر-ا-میکلون"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "اسواتینی",
-    "choices": [
-      "امبابانه",
-      "زاگرب",
-      "گوستاویا",
-      "نگرولمود"
+      "پنوم پن",
+      "استکهلم",
+      "پودگوریتسا"
     ],
     "answer": 0,
     "type": "capital",
@@ -5395,14 +5356,53 @@
     "extra": "The capital of:"
   },
   {
-    "question": "لوکزامبورگ",
+    "question": "قبرس شمالی",
     "choices": [
-      "رام‌الله (دفاکتو)",
-      "شهر لوکزامبورگ",
-      "منامه",
-      "وین تیان"
+      "نیکوزیا (شمالی)",
+      "نواکشوت",
+      "بوگوتا",
+      "مالابو"
+    ],
+    "answer": 0,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "فیجی",
+    "choices": [
+      "تیرانا",
+      "سووا",
+      "همیلتون",
+      "فری تاون"
     ],
     "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "اسواتینی",
+    "choices": [
+      "پودگوریتسا",
+      "امبابانه",
+      "بانگی",
+      "ماکائو"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "لوکزامبورگ",
+    "choices": [
+      "شهر لوکزامبورگ",
+      "کاردیف",
+      "جوبا",
+      "فیلیپسبورگ، سینت مارتن"
+    ],
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5411,9 +5411,9 @@
     "question": "سنت لوسیا",
     "choices": [
       "کاستریس",
-      "پیونگ یانگ",
-      "بیروت",
-      "الجزیره"
+      "آواروآ",
+      "نگرولمود",
+      "بروکسل"
     ],
     "answer": 0,
     "type": "capital",
@@ -5423,12 +5423,12 @@
   {
     "question": "جزایر ماریانای شمالی (ایالات متحده آمریکا)",
     "choices": [
-      "سایپن",
-      "نگرولمود",
+      "رم",
       "رباط",
-      "اورشلیم"
+      "سایپن",
+      "ادینبورگ"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5436,10 +5436,10 @@
   {
     "question": "اتحاد قمر",
     "choices": [
-      "هونیارا",
+      "ابوجا",
       "مورونی",
-      "خارطوم",
-      "بیروت"
+      "سنت جانز",
+      "پرتوریا"
     ],
     "answer": 1,
     "type": "capital",
@@ -5449,75 +5449,10 @@
   {
     "question": "جزایر سلیمان",
     "choices": [
-      "کوالالامپور",
-      "پورت لوئیس",
       "هونیارا",
-      "آندورا لاولا"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "تیمور شرقی",
-    "choices": [
-      "کاستریس",
-      "دیلی",
-      "یائونده",
-      "کینگستون"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "سائوتومه و پرنسیپ",
-    "choices": [
-      "سن پیر، سن-پیر-ا-میکلون",
-      "پنوم پن",
-      "سائوتومه",
-      "پکن"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "ساموای آمریکا (ایالات متحده)",
-    "choices": [
-      "استکهلم",
-      "فری تاون",
-      "پاگو پاگو",
-      "رم"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "ترینیداد و توباگو",
-    "choices": [
-      "مونروویا",
-      "واتیکان (دولت‌شهر)",
-      "یاموسوکرو",
-      "پرت آو اسپاین"
-    ],
-    "answer": 3,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "جمهوری آذربایجان",
-    "choices": [
-      "باکو",
-      "پالیکیر",
-      "دوشنبه",
-      "یارن (دفاکتو)"
+      "موگادیشو",
+      "باستر",
+      "یاموسوکرو"
     ],
     "answer": 0,
     "type": "capital",
@@ -5525,12 +5460,77 @@
     "extra": "The capital of:"
   },
   {
+    "question": "تیمور شرقی",
+    "choices": [
+      "پالیکیر",
+      "سئول",
+      "صنعا",
+      "دیلی"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "سائوتومه و پرنسیپ",
+    "choices": [
+      "پورتو نووو",
+      "لیبرویل",
+      "آندورا لاولا",
+      "سائوتومه"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "ساموای آمریکا (ایالات متحده)",
+    "choices": [
+      "لوزاکا",
+      "پاگو پاگو",
+      "داکار",
+      "رام‌الله (دفاکتو)"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "ترینیداد و توباگو",
+    "choices": [
+      "وین تیان",
+      "لیبرویل",
+      "پرت آو اسپاین",
+      "کینگستون"
+    ],
+    "answer": 2,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "جمهوری آذربایجان",
+    "choices": [
+      "پرایا",
+      "ابوظبی",
+      "باکو",
+      "هاوانا"
+    ],
+    "answer": 2,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "کوراسائو (هلند)",
     "choices": [
-      "پورت لوئیس",
+      "فادوتس",
       "ویلمستاد",
-      "اسلو",
-      "دوبلین"
+      "لیسبون",
+      "باکو"
     ],
     "answer": 1,
     "type": "capital",
@@ -5540,12 +5540,12 @@
   {
     "question": "سنت وینسنت و گرنادین‌ها",
     "choices": [
-      "کینگستون",
-      "آواگادوگو",
-      "لواندا",
-      "الجزیره"
+      "دوبلین",
+      "قاهره",
+      "پودگوریتسا",
+      "کینگستون"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5553,9 +5553,9 @@
   {
     "question": "ساموآ",
     "choices": [
-      "کیگالی",
-      "پاریس",
-      "ماریگو",
+      "رام‌الله (دفاکتو)",
+      "باماکو",
+      "یارن (دفاکتو)",
       "آپیا"
     ],
     "answer": 3,
@@ -5566,62 +5566,10 @@
   {
     "question": "وانواتو",
     "choices": [
-      "کوک برن تاون، باهاما",
-      "تایپه",
-      "پورت ویلا",
-      "ریگا"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "موناکو",
-    "choices": [
-      "کینگستون",
-      "موناکو",
-      "توکیو",
-      "امبابانه"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "گامبیا",
-    "choices": [
-      "آواروآ",
-      "بانجول",
-      "سانتو دومینگو",
-      "کینشاسا"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "کیریباتی",
-    "choices": [
-      "مونته ویدئو",
-      "تاراوا",
-      "آواگادوگو",
-      "گواتمالاسیتی"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "آروبا (اورنجستاد)",
-    "choices": [
-      "آمستردام",
-      "سن پتر پورت",
-      "نیکوزیا (شمالی)",
-      "اورنجستاد"
+      "بوگوتا",
+      "مانیل",
+      "سایپن",
+      "پورت ویلا"
     ],
     "answer": 3,
     "type": "capital",
@@ -5629,14 +5577,66 @@
     "extra": "The capital of:"
   },
   {
-    "question": "سیشل",
+    "question": "موناکو",
     "choices": [
-      "کپنهاگ",
-      "هلسینکی",
-      "ویکتوریا",
-      "گابورون"
+      "سان خوزه",
+      "عشق آباد",
+      "هاگاتنیا",
+      "موناکو"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "گامبیا",
+    "choices": [
+      "بانجول",
+      "قاهره",
+      "ورشو",
+      "لیسبون"
+    ],
+    "answer": 0,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "کیریباتی",
+    "choices": [
+      "رم",
+      "تایپه",
+      "کینشاسا",
+      "تاراوا"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "آروبا (اورنجستاد)",
+    "choices": [
+      "ماله",
+      "نواکشوت",
+      "اورنجستاد",
+      "جوبا"
     ],
     "answer": 2,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "سیشل",
+    "choices": [
+      "ماله",
+      "بلفاست",
+      "کیشیناو",
+      "ویکتوریا"
+    ],
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5644,12 +5644,12 @@
   {
     "question": "جبل طارق (بریتانیا)",
     "choices": [
-      "دمشق",
-      "جبل طارق",
-      "آواگادوگو",
-      "لیما"
+      "لاپاز",
+      "جیمزتاون، سینت هلینا",
+      "سن پیر، سن-پیر-ا-میکلون",
+      "جبل طارق"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5657,12 +5657,12 @@
   {
     "question": "جرسی (بریتانیا)",
     "choices": [
+      "اولان باتور",
+      "تاشکند",
       "سن هلیه",
-      "ماسرو",
-      "سائوتومه",
-      "کی یف"
+      "نوکوآلوفا"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5670,12 +5670,12 @@
   {
     "question": "برونئی",
     "choices": [
-      "بندر سری بگاوان",
-      "اورشلیم",
-      "فیلیپسبورگ، سینت مارتن",
-      "سن پتر پورت"
+      "ایروان",
+      "آندورا لاولا",
+      "لیلونگوه",
+      "بندر سری بگاوان"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5683,12 +5683,12 @@
   {
     "question": "جزایر کیمن (بریتانیا)",
     "choices": [
-      "پریشتینا",
-      "نوکوآلوفا",
       "جرج تاون",
-      "دوحه"
+      "نایپیداو",
+      "ولینگتون",
+      "پورت مورسبی"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5696,12 +5696,12 @@
   {
     "question": "جزیره من (بریتانیا)",
     "choices": [
-      "ولینگتون",
-      "یارن (دفاکتو)",
       "دوگلاس",
-      "کامپالا"
+      "اورشلیم",
+      "کوک برن تاون، باهاما",
+      "ابوجا"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5709,12 +5709,12 @@
   {
     "question": "پلی‌نزی فرانسه (فرانسه)",
     "choices": [
-      "آندورا لاولا",
-      "موناکو",
+      "کیگالی",
       "پاپیته",
-      "جرج تاون"
+      "ولینگتون",
+      "لیلونگوه"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5722,12 +5722,12 @@
   {
     "question": "کرانه باختری رود اردن (اسرائیل/حکومت خودگردان فلسطین)",
     "choices": [
-      "بندر سری بگاوان",
-      "کیگالی",
+      "بلفاست",
       "رام‌الله (دفاکتو)",
-      "مسقط"
+      "نیکوزیا (جنوبی)",
+      "رام‌الله (دفاکتو)"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5735,10 +5735,10 @@
   {
     "question": "جزایر مارشال",
     "choices": [
-      "کاراکاس",
-      "آمستردام",
+      "باستر",
+      "لیما",
       "ماجورو",
-      "ماناگوئه"
+      "سان سالوادور"
     ],
     "answer": 2,
     "type": "capital",
@@ -5748,36 +5748,10 @@
   {
     "question": "آندورا",
     "choices": [
+      "بریج تاون",
+      "رم",
       "آندورا لاولا",
-      "شهر جیبوتی",
-      "گواتمالاسیتی",
-      "پورت ویلا"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "آنتیگوا و باربودا",
-    "choices": [
-      "سنت جانز",
-      "یاموسوکرو",
-      "فیلیپسبورگ، سینت مارتن",
-      "ویلمستاد"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "تونگا",
-    "choices": [
-      "پالیکیر",
-      "پودگوریتسا",
-      "نوکوآلوفا",
-      "بلگراد"
+      "آواروآ"
     ],
     "answer": 2,
     "type": "capital",
@@ -5785,12 +5759,38 @@
     "extra": "The capital of:"
   },
   {
+    "question": "آنتیگوا و باربودا",
+    "choices": [
+      "دوگلاس",
+      "تونس",
+      "سنت جانز",
+      "سائوتومه"
+    ],
+    "answer": 2,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "تونگا",
+    "choices": [
+      "ابوجا",
+      "نوکوآلوفا",
+      "مسقط",
+      "نومئا"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "جزایر فارو (دانمارک)",
     "choices": [
-      "نوکوآلوفا",
-      "آندورا لاولا",
+      "آسونسیون",
+      "باستر",
       "توشهاون",
-      "کانبرا"
+      "هراره"
     ],
     "answer": 2,
     "type": "capital",
@@ -5801,9 +5801,9 @@
     "question": "گرنزی (بریتانیا)",
     "choices": [
       "سن پتر پورت",
-      "بانجول",
-      "نوک",
-      "جرج تاون"
+      "برلین",
+      "بوداپست",
+      "ویلمستاد"
     ],
     "answer": 0,
     "type": "capital",
@@ -5813,12 +5813,12 @@
   {
     "question": "گرینلند (دانمارک)",
     "choices": [
-      "ریکیاویک",
-      "برلین",
-      "د ولی",
-      "نوک"
+      "پاگو پاگو",
+      "نوک",
+      "رباط",
+      "ویلنیوس"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5826,10 +5826,10 @@
   {
     "question": "دومینیکا",
     "choices": [
-      "بوجومبورا",
+      "پالیکیر",
       "رود تاون",
       "روسو",
-      "بیروت"
+      "رباط"
     ],
     "answer": 2,
     "type": "capital",
@@ -5839,12 +5839,12 @@
   {
     "question": "بلیز",
     "choices": [
-      "پاراماریبو",
-      "بلموپان",
-      "پنوم پن",
-      "کاتماندو"
+      "سن هلیه",
+      "برازاویل",
+      "لیوبلیانا",
+      "بلموپان"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5852,12 +5852,12 @@
   {
     "question": "سنت کیتس و نویس",
     "choices": [
-      "ماکائو",
-      "باستر",
-      "یاموسوکرو",
-      "تالین"
+      "پاراماریبو",
+      "ویکتوریا",
+      "بانکوک",
+      "باستر"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5865,9 +5865,9 @@
   {
     "question": "جزایر آلند (فنلاند)",
     "choices": [
-      "رام‌الله (دفاکتو)",
-      "نومئا",
-      "ابوظبی",
+      "جاکارتا",
+      "سنگاپور",
+      "ماسرو",
       "ماریهام"
     ],
     "answer": 3,
@@ -5878,75 +5878,10 @@
   {
     "question": "جزایر ویرجین ایالات متحده (ایالات متحده)",
     "choices": [
-      "ماسرو",
-      "بوئنوس آیرس",
-      "شارلوت آمالی",
-      "براتیسلاوا"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "ایالات فدرال میکرونزی",
-    "choices": [
-      "پالیکیر",
-      "ویکتوریا",
-      "سن پیر، سن-پیر-ا-میکلون",
-      "تالین"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "جزایر ویرجین بریتانیا (بریتانیا)",
-    "choices": [
-      "شهر جیبوتی",
-      "کپنهاگ",
-      "رود تاون",
-      "ریاض"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "گرنادا",
-    "choices": [
-      "سینت‌جورجس",
-      "تایپه",
-      "برلین",
-      "برازاویل"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "مالت",
-    "choices": [
-      "والتا",
-      "روسو",
-      "هنگ کنگ",
-      "آسونسیون"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "سنت بارثلمی (فرانسه)",
-    "choices": [
-      "لیما",
-      "اورنجستاد",
-      "لانگیربین",
-      "گوستاویا"
+      "مانیل",
+      "دهلی نو",
+      "هانوی",
+      "شارلوت آمالی"
     ],
     "answer": 3,
     "type": "capital",
@@ -5954,12 +5889,77 @@
     "extra": "The capital of:"
   },
   {
+    "question": "ایالات فدرال میکرونزی",
+    "choices": [
+      "سن هلیه",
+      "ماریگو",
+      "یائونده",
+      "پالیکیر"
+    ],
+    "answer": 3,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "جزایر ویرجین بریتانیا (بریتانیا)",
+    "choices": [
+      "رود تاون",
+      "والتا",
+      "ویندهوک",
+      "زاگرب"
+    ],
+    "answer": 0,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "گرنادا",
+    "choices": [
+      "آواروآ",
+      "سینت‌جورجس",
+      "بوداپست",
+      "دودوما"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "مالت",
+    "choices": [
+      "بلموپان",
+      "والتا",
+      "مکزیکوسیتی",
+      "مونته ویدئو"
+    ],
+    "answer": 1,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "سنت بارثلمی (فرانسه)",
+    "choices": [
+      "گوستاویا",
+      "ریکیاویک",
+      "ابوظبی",
+      "سووا"
+    ],
+    "answer": 0,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "سنت مارتین فرانسه (فرانسه)",
     "choices": [
-      "لیسبون",
-      "ویندهوک",
+      "آکرا",
+      "نومئا",
       "ماریگو",
-      "باکو"
+      "تفلیس"
     ],
     "answer": 2,
     "type": "capital",
@@ -5969,12 +5969,12 @@
   {
     "question": "سنت پیر و ماژلان (فرانسه)",
     "choices": [
-      "ویندهوک",
-      "موناکو",
+      "شارلوت آمالی",
       "سن پیر، سن-پیر-ا-میکلون",
-      "تایپه"
+      "العیون / تیفاریتی",
+      "امان"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5982,12 +5982,12 @@
   {
     "question": "جزایر کوک (نیوزیلند)",
     "choices": [
-      "واشینگتن دی سی",
+      "پنوم پن",
+      "ولینگتون",
       "آواروآ",
-      "پاریس",
-      "فلاینگ فیش کاو"
+      "کینشاسا"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -5995,23 +5995,10 @@
   {
     "question": "لیختن‌اشتاین",
     "choices": [
-      "هلسینکی",
-      "فادوتس",
-      "بانکوک",
-      "خارطوم"
-    ],
-    "answer": 1,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "سان مارینو",
-    "choices": [
-      "مانیل",
-      "پاراماریبو",
-      "لیلونگوه",
-      "سان مارینو"
+      "لیوبلیانا",
+      "عشق آباد",
+      "نیکوزیا (شمالی)",
+      "فادوتس"
     ],
     "answer": 3,
     "type": "capital",
@@ -6019,14 +6006,27 @@
     "extra": "The capital of:"
   },
   {
+    "question": "سان مارینو",
+    "choices": [
+      "ویندهوک",
+      "کامپالا",
+      "سان مارینو",
+      "کینشاسا"
+    ],
+    "answer": 2,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "تووالو",
     "choices": [
+      "مانیل",
+      "سارایوو",
       "فونافوتی",
-      "بخارست",
-      "یاموسوکرو",
-      "بریدز (دفاکتو)"
+      "آمستردام"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -6034,12 +6034,12 @@
   {
     "question": "جزایر تورکس و کایکوس (بریتانیا)",
     "choices": [
-      "پاناماسیتی",
+      "سن هلیه",
+      "پورت لوئیس",
       "کوک برن تاون، باهاما",
-      "بوداپست",
-      "آمستردام"
+      "سایپن"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -6047,10 +6047,10 @@
   {
     "question": "جزایر فالکلند (بریتانیا)",
     "choices": [
-      "پورت ویلا",
-      "فیلیپسبورگ، سینت مارتن",
+      "لیبرویل",
+      "مکزیکوسیتی",
       "نوحی",
-      "ماناگوئه"
+      "مینسک"
     ],
     "answer": 2,
     "type": "capital",
@@ -6060,12 +6060,12 @@
   {
     "question": "سوالبارد (نروژ)",
     "choices": [
-      "بلفاست",
-      "پکن",
-      "بوگوتا",
-      "لانگیربین"
+      "نورسلطان",
+      "پاریس",
+      "لانگیربین",
+      "لواندا"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -6073,12 +6073,12 @@
   {
     "question": "جزیره کریسمس (استرالیا)",
     "choices": [
-      "تایپه",
-      "ویندهوک",
-      "فلاینگ فیش کاو",
-      "ماجورو"
+      "نواکشوت",
+      "بروکسل",
+      "دمشق",
+      "فلاینگ فیش کاو"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -6086,12 +6086,12 @@
   {
     "question": "سنت مارتین (هلند)",
     "choices": [
-      "بروکسل",
-      "ماتا-اوتو",
+      "لیما",
       "فیلیپسبورگ، سینت مارتن",
-      "جیمزتاون، سینت هلینا"
+      "یاموسوکرو",
+      "خارطوم"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -6099,12 +6099,12 @@
   {
     "question": "والیس و فوتونا (فرانسه)",
     "choices": [
-      "سنگاپور",
-      "پورتوپرنس",
+      "تیراسپول",
       "ماتا-اوتو",
-      "تیمفو"
+      "اتاوا",
+      "رود تاون"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -6112,12 +6112,12 @@
   {
     "question": "آنگویلا (بریتانیا)",
     "choices": [
-      "تیمفو",
-      "د ولی",
-      "منامه",
-      "لانگیربین"
+      "برلین",
+      "لندن",
+      "سائوتومه",
+      "د ولی"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -6125,12 +6125,12 @@
   {
     "question": "نائورو",
     "choices": [
-      "یارن (دفاکتو)",
-      "پکن",
-      "سان مارینو",
-      "کانبرا"
+      "ابوظبی",
+      "آسونسیون",
+      "دوبلین",
+      "یارن (دفاکتو)"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -6138,12 +6138,12 @@
   {
     "question": "گوآم (ایالات متحده)",
     "choices": [
-      "ابوظبی",
-      "هاگاتنیا",
-      "سانتیاگو",
-      "لواندا"
+      "مونروویا",
+      "رام‌الله (دفاکتو)",
+      "بیسائو",
+      "هاگاتنیا"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -6151,12 +6151,12 @@
   {
     "question": "برمودا (بریتانیا)",
     "choices": [
-      "لندن",
-      "باماکو",
-      "همیلتون",
-      "نایپیداو"
+      "باکو",
+      "ولینگتون",
+      "ماناگوئه",
+      "همیلتون"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -6164,12 +6164,12 @@
   {
     "question": "جزیره نورفولک (استرالیا)",
     "choices": [
-      "ویندهوک",
-      "سائوتومه",
       "کینگستون",
-      "گواتمالاسیتی"
+      "کینگستون",
+      "اولان باتور",
+      "برازاویل"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -6177,12 +6177,12 @@
   {
     "question": "واتیکان",
     "choices": [
-      "واتیکان (دولت‌شهر)",
-      "لومه",
-      "عشق آباد",
-      "ویلمستاد"
+      "پاپیته",
+      "ناسائو",
+      "ریاض",
+      "واتیکان (دولت‌شهر)"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -6190,36 +6190,10 @@
   {
     "question": "سینت هلینا (بریتانیا)",
     "choices": [
-      "بریج تاون",
-      "نیکوزیا (شمالی)",
+      "تالین",
       "جیمزتاون، سینت هلینا",
-      "بندر سری بگاوان"
-    ],
-    "answer": 2,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "نیووی (نیوزیلند)",
-    "choices": [
-      "الوفی",
-      "ماتا-اوتو",
-      "آندورا لاولا",
-      "گوستاویا"
-    ],
-    "answer": 0,
-    "type": "capital",
-    "intent": "",
-    "extra": "The capital of:"
-  },
-  {
-    "question": "توکلائو (نیوزیلند)",
-    "choices": [
-      "پاپیته",
-      "ندارد",
-      "وین تیان",
-      "مینسک"
+      "گواتمالاسیتی",
+      "اتاوا"
     ],
     "answer": 1,
     "type": "capital",
@@ -6227,12 +6201,38 @@
     "extra": "The capital of:"
   },
   {
+    "question": "نیووی (نیوزیلند)",
+    "choices": [
+      "هراره",
+      "لوزاکا",
+      "الوفی",
+      "ولینگتون"
+    ],
+    "answer": 2,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
+    "question": "توکلائو (نیوزیلند)",
+    "choices": [
+      "دمشق",
+      "شهر لوکزامبورگ",
+      "ندارد",
+      "هاگاتنیا"
+    ],
+    "answer": 2,
+    "type": "capital",
+    "intent": "",
+    "extra": "The capital of:"
+  },
+  {
     "question": "مونتسرات (بریتانیا)",
     "choices": [
-      "آمستردام",
+      "هلسینکی",
       "بریدز (دفاکتو)",
-      "کامپالا",
-      "پاگو پاگو"
+      "فیلیپسبورگ، سینت مارتن",
+      "باستر"
     ],
     "answer": 1,
     "type": "capital",
@@ -6242,12 +6242,12 @@
   {
     "question": "پالائو",
     "choices": [
-      "کاتماندو",
-      "آسونسیون",
       "نگرولمود",
-      "پورتو نووو"
+      "اسمره",
+      "سان خوآن",
+      "کوک برن تاون، باهاما"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "capital",
     "intent": "",
     "extra": "The capital of:"
@@ -6255,10 +6255,10 @@
   {
     "question": "جزایر کوکوس (استرالیا)",
     "choices": [
-      "بوداپست",
+      "تگوسیگالپا",
       "وست آیلند، جزایر کوکوس",
-      "سن هلیه",
-      "آندورا لاولا"
+      "لوزاکا",
+      "کینگستون"
     ],
     "answer": 1,
     "type": "capital",
