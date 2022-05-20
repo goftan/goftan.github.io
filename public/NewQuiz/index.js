@@ -47,6 +47,7 @@ var countQues=0;
 var quiz = [];
 var countCorrect = 0;
 var countIncorrect = 0;
+var countViewed = 0;
 function startQuiz() {
     let readers = [];
     d3.selectAll('.mycheckbox:checked').each(function() {
@@ -73,9 +74,11 @@ function startQuiz() {
 }
 
 function nextQuestion() {
+    
     for (i=0;i<=3;i++) {
         d3.select('#opt'+i).style('color','black');
     }
+    countViewed++;
     countQues++;
     if(countQues < quiz.length) {
         fill_qa(quiz[countQues]);  
@@ -120,8 +123,13 @@ function viewResults() {
     d3.select("#topics_").attr('class','inactive');
     d3.select("#quiz_").attr('class','inactive');
     d3.select("#results_").attr('class','active');
-    d3.select("#correct").text(countCorrect);
-    d3.select('#incorrect').text(countIncorrect);
+    // d3.select("#correct").text(countCorrect);
+    // d3.select('#incorrect').text(countIncorrect);
+    d3.select('table').append('tr').selectAll("td")
+                .data([d3.select('table').selectAll('tr').size()  - 1, 
+                countCorrect, countIncorrect, countViewed - countCorrect - countIncorrect])
+                .enter()
+                .append("td").text(function(d) { return d; });
 }
 
 function restartQuiz() {
@@ -131,4 +139,7 @@ function restartQuiz() {
     d3.select("#topics_").attr('class','active');
     d3.select("#quiz_").attr('class','inactive');
     d3.select("#results_").attr('class','inactive');
+    countCorrect = 0;
+    countIncorrect = 0;
+    countViewed = 0;
 }
