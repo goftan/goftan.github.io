@@ -48,7 +48,7 @@ var quiz = [];
 var countCorrect = 0;
 function startQuiz() {
     let readers = [];
-    d3.selectAll('.mycheckbox').property('checked', true).each(function() {
+    d3.selectAll('.mycheckbox:checked').each(function() {
         var topic_name = d3.select(this).node().value.replaceAll(' ','') + '.json';
         console.log(topic_name);
         readers.push(d3.json(topic_name));
