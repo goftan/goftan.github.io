@@ -111,6 +111,7 @@ function submitAnswer() {
 }
 
 function viewResults() {
+    decolorCorrectAnswer(); 
     d3.select('#first_page').style("display", 'none');
     d3.select('#second_page').style("display", 'none');
     d3.select('#third_page').style("display", 'block');
@@ -119,5 +120,13 @@ function viewResults() {
     d3.select("#results_").attr('class','active');
     d3.select("#correct").text(countCorrect);
     d3.select('#incorrect').text(countQues - countCorrect);
-    
+}
+
+function restartQuiz() {
+    d3.select('#first_page').style("display", 'block');
+    d3.select('#second_page').style("display", 'none');
+    d3.select('#third_page').style("display", 'none');
+    d3.select("#topics_").attr('class','active');
+    d3.select("#quiz_").attr('class','inactive');
+    d3.select("#results_").attr('class','inactive');
 }
