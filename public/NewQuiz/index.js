@@ -29,10 +29,22 @@ function fill_topic_checkboxes() {
 
 fill_topic_checkboxes();
 
-// d3.csv('Capitals.csv').then(function(d) {
-//     console.log(d);
-// });
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
 
+function fill_qa(q) {
+    d3.select("#question").html(q.extra + "<br/>" + q.question);
+    for (i=0;i<=3;i++) {
+        d3.select('#opt'+i).text(q.choices[i]);
+    }  
+}
+
+var countQues=0;
+var quiz = [];
 function startQuiz() {
     let readers = [];
     d3.selectAll('.mycheckbox').property('checked', true).each(function() {
@@ -41,13 +53,36 @@ function startQuiz() {
         readers.push(d3.json(topic_name));
     });
 
-
-    Promise.all(readers).then(function(files) {
-        for(f of files) {
-            console.log(f);
-        }
-        d3.select('#first_page').style("visibility", 'hidden');
+    Promise.allSettled(readers).then(function(files) {
+        // for(f of files) {
+        //     console.log(f);
+        //     // quiz.concat(f);
+        // }
+        // for(f of files) {
+        //     console.log(f);
+        //     quiz.concat(f);
+        // }
+        // console.log(quiz);
+        quizall = [];
+        all = [].concat.apply([], files);
+        for(a of all) quizall.push(a.value);
+        quiz = [].concat.apply([], quizall);
+        console.log(quiz);
+        shuffleArray(quiz);
+        fill_qa(quiz[0]);
+        d3.select('#first_page').style("display", 'none');
+        d3.select('#second_page').style("display", 'block');
     }).catch(function(err) {
         // handle error here
     })
+}
+
+function nextQuestion() {
+    countQues++;
+    if(countQues < quiz.length) {
+        fill_qa(quiz[countQues]);  
+    } else {
+        // d3.select('#second_page').style("display", 'none');
+        // d3.select('#third_page').style("display", 'block');
+    }
 }
