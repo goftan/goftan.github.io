@@ -1,4 +1,11 @@
-var avialble_topics = ['Capitals','Countries','Colors','Animals','Common Words', 'Common Sentences'];
+var avialble_topics = [
+    'Capitals',
+    // 'Countries',
+    // 'Colors',
+    // 'Animals',
+    'Antonyms',
+    'Common Words', 
+    'Common Sentences'];
 
 function fill_topic_checkboxes() {
     d3.select('#topics_checkboxes').selectAll('label').data(avialble_topics)
@@ -22,25 +29,25 @@ function fill_topic_checkboxes() {
 
 fill_topic_checkboxes();
 
-d3.csv('Capitals.csv',function(d) {
-    console.log(d);
-});
-
-// let readers = [];
-// d3.selectAll('.mycheckbox').property('checked', true).each(function() {
-//     var topic_name = d3.select(this).node().value.replaceAll(' ','') + '.csv';
-//     console.log(topic_name);
-//     readers.push(d3.csv(topic_name));
+// d3.csv('Capitals.csv').then(function(d) {
+//     console.log(d);
 // });
 
+function startQuiz() {
+    let readers = [];
+    d3.selectAll('.mycheckbox').property('checked', true).each(function() {
+        var topic_name = d3.select(this).node().value.replaceAll(' ','') + '.json';
+        console.log(topic_name);
+        readers.push(d3.json(topic_name));
+    });
 
 
-// Promise.all(readers).then(function(files) {
-//     // files[0] will contain file1.csv
-//     // files[1] will contain file2.csv
-//     for(f of files) {
-//         console.log(f);
-//     }
-// }).catch(function(err) {
-//     // handle error here
-// })
+    Promise.all(readers).then(function(files) {
+        for(f of files) {
+            console.log(f);
+        }
+        d3.select('#first_page').style("visibility", 'hidden');
+    }).catch(function(err) {
+        // handle error here
+    })
+}

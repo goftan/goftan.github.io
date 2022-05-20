@@ -1,0 +1,6014 @@
+[
+  {
+    "question": "------ ساعت پنج صبح بیدارم کن",
+    "choices": [
+      "و",
+      "این هفته",
+      "صنعت",
+      "میزان"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "مرا ------ ساعت نه صبح بیدار کن",
+    "choices": [
+      "ادامه",
+      "جمعه",
+      "جمع",
+      "اواخر"
+    ],
+    "answer": "جمعه",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "یک زنگ هشدار را برای ------ تنظیم کن",
+    "choices": [
+      "بکار",
+      "لازم",
+      "دو ساعت دیگر",
+      "میراث"
+    ],
+    "answer": "دو ساعت دیگر",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "برای ------ متوقف کن",
+    "choices": [
+      "تلویزیون",
+      "ده ثانیه",
+      "لیگ",
+      "شخصی"
+    ],
+    "answer": "ده ثانیه",
+    "type": "sentence",
+    "intent": "volume_mute"
+  },
+  {
+    "question": "برای ------ مکث کن",
+    "choices": [
+      "امام",
+      "بازیابی‌شده",
+      "مهم",
+      "ده ثانیه"
+    ],
+    "answer": "ده ثانیه",
+    "type": "sentence",
+    "intent": "volume_mute"
+  },
+  {
+    "question": "------ همان چیزی است که نیاز داریم",
+    "choices": [
+      "جوان",
+      "صورتی",
+      "آلبوم",
+      "می‌شود"
+    ],
+    "answer": "صورتی",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "نور اینجا را کمی ------ کن",
+    "choices": [
+      "رهبری",
+      "گرمتر",
+      "میزان",
+      "حتی"
+    ],
+    "answer": "گرمتر",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "لطفا روشنایی را در حالت ------ تنظیم کن",
+    "choices": [
+      "رود",
+      "خلیج",
+      "مناسب برای مطالعه",
+      "خاطر"
+    ],
+    "answer": "مناسب برای مطالعه",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "لامپ ------ را خاموش کن",
+    "choices": [
+      "دسترسی",
+      "حمام",
+      "هدف",
+      "فروش"
+    ],
+    "answer": "حمام",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "علی روشنایی ------ را کم کن",
+    "choices": [
+      "هال",
+      "ابهام‌زدایی",
+      "ایالات",
+      "توابع"
+    ],
+    "answer": "هال",
+    "type": "sentence",
+    "intent": "hue_lightdim"
+  },
+  {
+    "question": "لامپ ها را در ------ کم کن",
+    "choices": [
+      "هال",
+      "گاهی",
+      "شدید",
+      "اولین"
+    ],
+    "answer": "هال",
+    "type": "sentence",
+    "intent": "hue_lightdim"
+  },
+  {
+    "question": "لامپ ها را در ------ خاموش کن",
+    "choices": [
+      "اتاق خواب",
+      "بشر",
+      "مستقل",
+      "اینترنت"
+    ],
+    "answer": "اتاق خواب",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "علی چراغ‌های ------ خواب را خاموش کن",
+    "choices": [
+      "محصولات",
+      "اعلام",
+      "خوبی",
+      "اتاق"
+    ],
+    "answer": "اتاق",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "نور را ------ تنظیم کن",
+    "choices": [
+      "روی بیست درصد",
+      "متحده",
+      "تنها",
+      "چنین"
+    ],
+    "answer": "روی بیست درصد",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "آلی روشنایی را ------ تنظیم کن",
+    "choices": [
+      "سالهای",
+      "داخلی",
+      "دوم",
+      "تا بیست درصد"
+    ],
+    "answer": "تا بیست درصد",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "علی نور ------ را کم کن",
+    "choices": [
+      "دریایی",
+      "رنگ",
+      "محدود",
+      "آشپزخانه"
+    ],
+    "answer": "آشپزخانه",
+    "type": "sentence",
+    "intent": "hue_lightdim"
+  },
+  {
+    "question": "نور ------ را کم کن",
+    "choices": [
+      "زندان",
+      "آشپزخانه",
+      "ممکن",
+      "می‌گردد"
+    ],
+    "answer": "آشپزخانه",
+    "type": "sentence",
+    "intent": "hue_lightdim"
+  },
+  {
+    "question": "------ را تاریکتر بکن",
+    "choices": [
+      "نمونه",
+      "بن",
+      "اتاق",
+      "شبکه"
+    ],
+    "answer": "اتاق",
+    "type": "sentence",
+    "intent": "hue_lightdim"
+  },
+  {
+    "question": "علی ------ را تمییز کن",
+    "choices": [
+      "ش",
+      "احمد",
+      "همکف",
+      "توجه"
+    ],
+    "answer": "همکف",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "------ را تمیز کن",
+    "choices": [
+      "همکف",
+      "منتشر",
+      "چرا",
+      "صد"
+    ],
+    "answer": "همکف",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "------ را جارو کن",
+    "choices": [
+      "مشترک",
+      "خانه",
+      "مختلف",
+      "معروف"
+    ],
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "علی ------ را جاروبرقی بکش",
+    "choices": [
+      "شهرت",
+      "ملل",
+      "ما",
+      "خانه"
+    ],
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "تمیز کردن خوب است گردو غبار خیلی بد است اکنون ------ من را تمیز کن",
+    "choices": [
+      "آقای",
+      "فیزیک",
+      "فرش",
+      "آلبوم"
+    ],
+    "answer": "فرش",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "------ را جارو بکش",
+    "choices": [
+      "خمینی",
+      "تبریز",
+      "راهرو",
+      "مارس"
+    ],
+    "answer": "راهرو",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "------ را جارو بکش",
+    "choices": [
+      "فرش‌ها",
+      "اصول",
+      "مدتی",
+      "تقویم"
+    ],
+    "answer": "فرش‌ها",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "من میخوام دوباره آهنگ ------ را گوش بدم",
+    "choices": [
+      "به‌",
+      "ابی",
+      "گزارش",
+      "مراسم"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "من میخوام آن ------ را دوباره پخش کنم",
+    "choices": [
+      "ژانویه",
+      "مدرسه",
+      "موزیک",
+      "منبع"
+    ],
+    "answer": "موزیک",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "اما",
+      "ایران",
+      "سپاه",
+      "جنسی"
+    ],
+    "answer": "ایران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ ساعت چنده",
+    "choices": [
+      "تهران",
+      "بی",
+      "بدن",
+      "و"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ چند میشه",
+    "choices": [
+      "اطلاعات",
+      "پنج ساعت جلوتر از ساعت گرینویچ",
+      "منتشر",
+      "انتخابات"
+    ],
+    "answer": "پنج ساعت جلوتر از ساعت گرینویچ",
+    "type": "sentence",
+    "intent": "convert"
+  },
+  {
+    "question": "اولی بهم بگو ساعت توی ------ چنده",
+    "choices": [
+      "خبر",
+      "پنج ساعت جلوتر از وقت گرینویچ",
+      "حاکم",
+      "بسیاری"
+    ],
+    "answer": "پنج ساعت جلوتر از وقت گرینویچ",
+    "type": "sentence",
+    "intent": "convert"
+  },
+  {
+    "question": "الهه بالاترین امتیازهای گزینه های ------ غذای ایرانی را لیست کن",
+    "choices": [
+      "بیرون بر",
+      "سپس",
+      "زیر",
+      "تاکنون"
+    ],
+    "answer": "بیرون بر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "بالاترین امتیاز سرویس ------ در محل برای غذای چینی",
+    "choices": [
+      "می‌گیرد",
+      "طور",
+      "تحویل",
+      "محله"
+    ],
+    "answer": "تحویل",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "غذای ------ تحویل در محل با بالاترین امتیازها را لیست کن",
+    "choices": [
+      "چینی",
+      "بود",
+      "شیمیایی",
+      "کرده‌اند"
+    ],
+    "answer": "چینی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "olly بهترین گزینه‌های ------ غذای چینی",
+    "choices": [
+      "پادشاه",
+      "برده",
+      "تحویل",
+      "شخصی"
+    ],
+    "answer": "تحویل",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "من یک مقدار ------ بیرون بر می خواهم هیچ پیشنهادی داری",
+    "choices": [
+      "منجر",
+      "ترین",
+      "خوراک کاری دار",
+      "برنامه‌های"
+    ],
+    "answer": "خوراک کاری دار",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "من یه کمی ------ می‌خوام پیشنهادی داری اولی",
+    "choices": [
+      "نفت",
+      "دیگری",
+      "خوراک کاری‌دار",
+      "زندگینامه"
+    ],
+    "answer": "خوراک کاری‌دار",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "برای من غذای ------ بیرون بر در بازار تهران پیدا کن",
+    "choices": [
+      "شرق",
+      "ایرانی",
+      "ویکی",
+      "فرانسوی"
+    ],
+    "answer": "ایرانی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "غذای ------ بیرون‌بر من را اطراف بازار تهران پیدا کن",
+    "choices": [
+      "شخصیت",
+      "شرایط",
+      "تایلندی",
+      "معمولا"
+    ],
+    "answer": "تایلندی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "هشدار ساعت ------ من را لغو کن",
+    "choices": [
+      "نشر",
+      "کسب",
+      "اوت",
+      "هفت صبح"
+    ],
+    "answer": "هفت صبح",
+    "type": "sentence",
+    "intent": "remove"
+  },
+  {
+    "question": "زنگ هشدار ------ را متوقف کن",
+    "choices": [
+      "شامل",
+      "دولتی",
+      "هفت صبح",
+      "موسیقی"
+    ],
+    "answer": "هفت صبح",
+    "type": "sentence",
+    "intent": "remove"
+  },
+  {
+    "question": "اخبار ------ فوتبال چیست",
+    "choices": [
+      "د",
+      "آثار",
+      "متعلق",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "لطفا ------ از ایوان بند را پخش کن",
+    "choices": [
+      "ارتباط",
+      "خاطر خواه",
+      "جنسی",
+      "وزن"
+    ],
+    "answer": "خاطر خواه",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "من دوس دارم آهنگ ------ منصور را گوش بدم",
+    "choices": [
+      "صنعتی",
+      "بازیگر",
+      "آزادی",
+      "پیش"
+    ],
+    "answer": "آزادی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ از سامان جلیلی را برایم پخش کن",
+    "choices": [
+      "تبدیل",
+      "کافر",
+      "قتل",
+      "انتشارات"
+    ],
+    "answer": "کافر",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "من موسیقی ------ دوست دارم",
+    "choices": [
+      "گل",
+      "امپراتوری",
+      "راک",
+      "قوانین"
+    ],
+    "answer": "راک",
+    "type": "sentence",
+    "intent": "likeness"
+  },
+  {
+    "question": "گروه موسیقی مورد علاقه من ------ است",
+    "choices": [
+      "نویسنده",
+      "عمر",
+      "کویین",
+      "نتایج"
+    ],
+    "answer": "کویین",
+    "type": "sentence",
+    "intent": "likeness"
+  },
+  {
+    "question": "من آهنگ های ------ را دوست دارم",
+    "choices": [
+      "نیویورک",
+      "دیگری",
+      "پایین",
+      "ابی"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "likeness"
+  },
+  {
+    "question": "لطفا روشنایی را ------ افزایش بده",
+    "choices": [
+      "هفت",
+      "اعلام",
+      "وارد",
+      "به حداکثر"
+    ],
+    "answer": "به حداکثر",
+    "type": "sentence",
+    "intent": "hue_lightup"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "جارو برقی رباتیک",
+      "امروز",
+      "اگر",
+      "فضای"
+    ],
+    "answer": "جارو برقی رباتیک",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "ربات تمیز کننده",
+      "نظریه",
+      "ایجاد",
+      "کنیم"
+    ],
+    "answer": "ربات تمیز کننده",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "تاریخ ------ را به من بگو",
+    "choices": [
+      "ویکی‌پدیای",
+      "دریایی",
+      "مدت",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ چندم است",
+    "choices": [
+      "کنار",
+      "شد",
+      "نزدیک",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "لطفا مقداری ------ برای شام سفارش بده",
+    "choices": [
+      "تأثیر",
+      "جنبش",
+      "نویسنده",
+      "سوشی"
+    ],
+    "answer": "سوشی",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "هی می خوام ------ سفارش بدی",
+    "choices": [
+      "برگر",
+      "گفته",
+      "علی",
+      "گاه"
+    ],
+    "answer": "برگر",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "آیا می توانی برای ------ شام سوشی سفارش بدهی",
+    "choices": [
+      "همان",
+      "پیش",
+      "عهده",
+      "امشب"
+    ],
+    "answer": "امشب",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "آیا می توانم ------ بیرون بری از عطاویچ سفارش بدهم",
+    "choices": [
+      "شام",
+      "زیبا",
+      "مشاهده",
+      "صفحه"
+    ],
+    "answer": "شام",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "آیا ------ غذای بیرون بری دارد",
+    "choices": [
+      "داشتند",
+      "عطاویچ",
+      "سپس",
+      "بزرگ‌ترین"
+    ],
+    "answer": "عطاویچ",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "زنگ هشدار را برای ------ تنظیم کن",
+    "choices": [
+      "ارزش",
+      "سر",
+      "دوازده",
+      "سفید"
+    ],
+    "answer": "دوازده",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "------ زنگ هشدار را تنظیم کن",
+    "choices": [
+      "مذهبی",
+      "چهل دقیقه‌ی دیگر",
+      "دانشجویان",
+      "انواع"
+    ],
+    "answer": "چهل دقیقه‌ی دیگر",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "زنگ هشدار را برای ساعت ------ هر روز هفته تنظیم کن",
+    "choices": [
+      "ها",
+      "عصر",
+      "هشت",
+      "موفق"
+    ],
+    "answer": "هشت",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "داره ------",
+    "choices": [
+      "بارون میاد",
+      "موسیقی",
+      "سفید",
+      "ج"
+    ],
+    "answer": "بارون میاد",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا می خواهد ------ ببارد",
+    "choices": [
+      "باران",
+      "درآمد",
+      "بن",
+      "رابطه"
+    ],
+    "answer": "باران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "داره ------",
+    "choices": [
+      "سر",
+      "از",
+      "برف میاد",
+      "تقویم"
+    ],
+    "answer": "برف میاد",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "پیش‌بینی هوای ------ چطوره",
+    "choices": [
+      "ایرانی",
+      "هفته",
+      "قرار",
+      "بودند"
+    ],
+    "answer": "هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "پیش‌بینی ------ چیست",
+    "choices": [
+      "بی",
+      "هفته",
+      "درگذشتگان",
+      "همراه"
+    ],
+    "answer": "هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "ممکن",
+      "روم",
+      "تقریباً",
+      "این هفته"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "هوای ------ چطوره",
+    "choices": [
+      "این هفته",
+      "دل",
+      "کارهای",
+      "دومین"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "وضع هوای ------ را به من بگو",
+    "choices": [
+      "می‌رود",
+      "این هفته",
+      "ستاره",
+      "عبدالله"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "اخبار ------ را به من بگو",
+    "choices": [
+      "خبرگزاری مهر",
+      "تدوین",
+      "مناسبت‌ها",
+      "سر"
+    ],
+    "answer": "خبرگزاری مهر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "خبرهای اخبار ------ چیست",
+    "choices": [
+      "بی. بی. سی.",
+      "درباره",
+      "مناسبت‌ها",
+      "چهار"
+    ],
+    "answer": "بی. بی. سی.",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آخرین اخبار ------ چیست",
+    "choices": [
+      "بیشتر",
+      "رویدادها",
+      "بی. بی. سی.",
+      "عالی"
+    ],
+    "answer": "بی. بی. سی.",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ را پخش کن",
+    "choices": [
+      "محسوب",
+      "بزرگی",
+      "قهرمان",
+      "مجنون لیلی"
+    ],
+    "answer": "مجنون لیلی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ را پخش کن",
+    "choices": [
+      "اختلاف",
+      "مدیر",
+      "عشق",
+      "الکتریکی"
+    ],
+    "answer": "عشق",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ پخش کن",
+    "choices": [
+      "مشاهده",
+      "دار",
+      "نقش",
+      "ایوان بند"
+    ],
+    "answer": "ایوان بند",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "چند تا ------ پخش کن",
+    "choices": [
+      "می‌توانند",
+      "کاهش",
+      "رستاک",
+      "گیتار"
+    ],
+    "answer": "رستاک",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "چند تا ------ بزار",
+    "choices": [
+      "می‌باشد",
+      "قبل",
+      "ساختمان",
+      "ابی"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "این قطعه را ------",
+    "choices": [
+      "اردیبهشت",
+      "اطراف",
+      "تکرار کن",
+      "انجمن"
+    ],
+    "answer": "تکرار کن",
+    "type": "sentence",
+    "intent": "settings"
+  },
+  {
+    "question": "صدا را بر ------ تنظیم کن",
+    "choices": [
+      "روی کم",
+      "خون",
+      "ابن",
+      "می‌باشد"
+    ],
+    "answer": "روی کم",
+    "type": "sentence",
+    "intent": "volume_down"
+  },
+  {
+    "question": "یک جوک ------ به من بگو",
+    "choices": [
+      "خوب",
+      "مکان",
+      "شاه",
+      "خاص"
+    ],
+    "answer": "خوب",
+    "type": "sentence",
+    "intent": "joke"
+  },
+  {
+    "question": "------ چه روزی هست",
+    "choices": [
+      "امروز",
+      "ژوئن",
+      "معنای",
+      "يا"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "درباره ------ به من بگو",
+    "choices": [
+      "دریای",
+      "ایتالیا",
+      "امروز",
+      "زمین"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "quirky"
+  },
+  {
+    "question": "یک ------ سفارش بده",
+    "choices": [
+      "رهبر",
+      "پیتزا",
+      "درجه",
+      "مارس"
+    ],
+    "answer": "پیتزا",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "یک وعده ------ از رستوران تورنج سفارش بده",
+    "choices": [
+      "سطح",
+      "چلوکباب",
+      "کلیسای",
+      "قدر"
+    ],
+    "answer": "چلوکباب",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "یک غذای ------ سفارش بده",
+    "choices": [
+      "محصولات",
+      "برنده",
+      "شهرت",
+      "بیرون بر"
+    ],
+    "answer": "بیرون بر",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "غذای ------ من چقدر می‌کشه",
+    "choices": [
+      "هنری",
+      "بیرون‌بر",
+      "بین",
+      "سخت"
+    ],
+    "answer": "بیرون‌بر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "وضعیت ------ غذای عطاویچ",
+    "choices": [
+      "اغلب",
+      "دهد",
+      "گسترش",
+      "تحویل"
+    ],
+    "answer": "تحویل",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "لیست آهنگ های ------ من پخش کن",
+    "choices": [
+      "جاز",
+      "احمد",
+      "فی",
+      "اصل"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "لیست آهنگ های ------ من را پخش کن",
+    "choices": [
+      "مدیریت",
+      "می‌کرد",
+      "جاز",
+      "قدیم"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "من ------ دوست دارم",
+    "choices": [
+      "غربی",
+      "جاز",
+      "نفر",
+      "امر"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "likeness"
+  },
+  {
+    "question": "میتونی چند تا ------ پخش کنی",
+    "choices": [
+      "جاز",
+      "مقدار",
+      "مردان",
+      "حساب"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "من دوست دارم ------ گوش بدم",
+    "choices": [
+      "ارشد",
+      "جاز",
+      "باید",
+      "منجر"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "olly من دوست دارم ------ گوش بدم",
+    "choices": [
+      "سینما",
+      "اجرای",
+      "جاز",
+      "قوانین"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ را فعال کن",
+    "choices": [
+      "پخش ترکیبی",
+      "جهت",
+      "وقت",
+      "باقی"
+    ],
+    "answer": "پخش ترکیبی",
+    "type": "sentence",
+    "intent": "settings"
+  },
+  {
+    "question": "روشنایی را ------ تنظیم کن",
+    "choices": [
+      "در",
+      "نوعی",
+      "به پنجاه درصد",
+      "فرانسه"
+    ],
+    "answer": "به پنجاه درصد",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "آیا آنها سرویس ------ دارند",
+    "choices": [
+      "د",
+      "بیرون بر",
+      "چین",
+      "رهبر"
+    ],
+    "answer": "بیرون بر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا آنها ------ دارند",
+    "choices": [
+      "آغاز",
+      "ریشه",
+      "ایستگاه",
+      "تحویل در محل"
+    ],
+    "answer": "تحویل در محل",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا آنها ------ در منزل دارند",
+    "choices": [
+      "قالب",
+      "سید",
+      "تحویل",
+      "آموزشی"
+    ],
+    "answer": "تحویل",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "الهه آیا آنها ------ در منزل دارند",
+    "choices": [
+      "دنیا",
+      "تحویل",
+      "ژاپن",
+      "بدن"
+    ],
+    "answer": "تحویل",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "زنگ هشدار ------ را تنظیم کن",
+    "choices": [
+      "توسعه",
+      "حفظ",
+      "ده صبح",
+      "توسط"
+    ],
+    "answer": "ده صبح",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "زنگ ساعت ------ را ساعت شش صبح تنظیم کن",
+    "choices": [
+      "فردا",
+      "چپ",
+      "آخر",
+      "بهار"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "------ هفت صبح ساعت بیدارباش بگذار",
+    "choices": [
+      "انرژی",
+      "ارزش",
+      "پنج‌شنبه",
+      "برج"
+    ],
+    "answer": "پنج‌شنبه",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "آخرین اخبار ------ را به من بگو",
+    "choices": [
+      "گیلان",
+      "استفاده",
+      "تکنولوژی",
+      "تلاش"
+    ],
+    "answer": "تکنولوژی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آخرین اخبار ------ را به من بگو",
+    "choices": [
+      "انسانی",
+      "فوتبال",
+      "شاعر",
+      "تکنولوژی"
+    ],
+    "answer": "تکنولوژی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "چند خبر ------ به من بگو",
+    "choices": [
+      "اقتصادی",
+      "نموده",
+      "بیرون",
+      "پدرش"
+    ],
+    "answer": "اقتصادی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "اخبار ------ را به من بگو",
+    "choices": [
+      "مردان",
+      "بین‌المللی",
+      "می‌کرد",
+      "شیخ"
+    ],
+    "answer": "بین‌المللی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "الان ------",
+    "choices": [
+      "روستا",
+      "باران می‌بارد",
+      "می‌آید",
+      "زنده"
+    ],
+    "answer": "باران می‌بارد",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "لیست آهنگ های ------ من را پخش کن",
+    "choices": [
+      "راک",
+      "چین",
+      "اهمیت",
+      "الله"
+    ],
+    "answer": "راک",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "لیست آهنگ های ------ من را پخش کن",
+    "choices": [
+      "تصویب",
+      "مانند",
+      "ابی",
+      "رسیدن"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ را از لیست آهنگ های من پخش کن",
+    "choices": [
+      "فرزاد فرزین",
+      "ورودی",
+      "میلیون",
+      "بنیاد"
+    ],
+    "answer": "فرزاد فرزین",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ از لیست آهنگ های مورد علاقه من را پخش کن",
+    "choices": [
+      "آخرین آهنگ",
+      "ملل",
+      "فی",
+      "بیان"
+    ],
+    "answer": "آخرین آهنگ",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "یونانی",
+      "بدون",
+      "گاه",
+      "دوشاخه"
+    ],
+    "answer": "دوشاخه",
+    "type": "sentence",
+    "intent": "wemo_on"
+  },
+  {
+    "question": "------ را وصل کن",
+    "choices": [
+      "دوشاخه",
+      "نوع",
+      "يا",
+      "جوان"
+    ],
+    "answer": "دوشاخه",
+    "type": "sentence",
+    "intent": "wemo_on"
+  },
+  {
+    "question": "------ من را روشن کن",
+    "choices": [
+      "رئیس",
+      "دوشاخه‌ی",
+      "مستقیم",
+      "مرکزی"
+    ],
+    "answer": "دوشاخه‌ی",
+    "type": "sentence",
+    "intent": "wemo_on"
+  },
+  {
+    "question": "آیا ------ غذای بیرون بر دارد",
+    "choices": [
+      "عرضه",
+      "انگلستان",
+      "پرورش",
+      "عطاویچ"
+    ],
+    "answer": "عطاویچ",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا ------ فروشی مورد علاقه ام سرویس بیرون بر دارد",
+    "choices": [
+      "پیتزا",
+      "شرح",
+      "با",
+      "گرفته"
+    ],
+    "answer": "پیتزا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا می توانم از رستوران ------ غذای بیرون بری سفارش بدهم",
+    "choices": [
+      "مرداد",
+      "مطلق",
+      "اسپانیایی",
+      "جغرافیایی"
+    ],
+    "answer": "اسپانیایی",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "شمار",
+      "پا",
+      "جلد",
+      "تهران"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "وضع هوای ------ را بگو",
+    "choices": [
+      "توزیع",
+      "بسته",
+      "تبریز",
+      "اساس"
+    ],
+    "answer": "تبریز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "لطفا نور را ------ کن",
+    "choices": [
+      "یا",
+      "مناسب مطالعه",
+      "یادکرد",
+      "اجرای"
+    ],
+    "answer": "مناسب مطالعه",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "لطفا لامپ ها را ------ بساز",
+    "choices": [
+      "نشده",
+      "براي",
+      "صمیمانه برای تماشا",
+      "دانشگاه"
+    ],
+    "answer": "صمیمانه برای تماشا",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "------ را روشن تر کن",
+    "choices": [
+      "هنر",
+      "درجه",
+      "اتاق",
+      "مصرف"
+    ],
+    "answer": "اتاق",
+    "type": "sentence",
+    "intent": "hue_lightup"
+  },
+  {
+    "question": "------ چندم است",
+    "choices": [
+      "فشار",
+      "ق",
+      "امروز",
+      "سیستم"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ چند شنبه است",
+    "choices": [
+      "امام",
+      "آباد",
+      "امروز",
+      "زن"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ هوا چطور است",
+    "choices": [
+      "سوی",
+      "حد",
+      "وبگاه",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "بیرون ------",
+    "choices": [
+      "محصول",
+      "باران می بارد",
+      "آغاز",
+      "دلار"
+    ],
+    "answer": "باران می بارد",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "olly آیا بیرون ------",
+    "choices": [
+      "باران می‌بارد",
+      "موفق",
+      "نوع",
+      "مرگ"
+    ],
+    "answer": "باران می‌بارد",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا ------ باید چتر بیاورم",
+    "choices": [
+      "اقتصادی",
+      "فردا",
+      "آتش",
+      "مشخص"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "از ------ من آهنگ پخش کن",
+    "choices": [
+      "داخل",
+      "تمام",
+      "به",
+      "لیست آهنگ های راک"
+    ],
+    "answer": "لیست آهنگ های راک",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "رنگ نورها رو ------ کن",
+    "choices": [
+      "مرحله",
+      "سبز",
+      "آمده",
+      "فوق"
+    ],
+    "answer": "سبز",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "لطفا ------ را تمیز کن",
+    "choices": [
+      "کف",
+      "بدون",
+      "هجری",
+      "محسوب"
+    ],
+    "answer": "کف",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "تاسیس",
+      "اروپا",
+      "ام",
+      "پریز پلوپز"
+    ],
+    "answer": "پریز پلوپز",
+    "type": "sentence",
+    "intent": "wemo_on"
+  },
+  {
+    "question": "------ رو خاموش کن",
+    "choices": [
+      "پیشنهاد",
+      "ژوئن",
+      "مثل",
+      "پلوپز"
+    ],
+    "answer": "پلوپز",
+    "type": "sentence",
+    "intent": "wemo_off"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "عرضه",
+      "قدر",
+      "تبریز",
+      "امپراتوری"
+    ],
+    "answer": "تبریز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "چپ",
+      "استان",
+      "ام",
+      "تهران"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "می توانی لطفا به من کمک کنی کمی ------ از عطاویچ سفارش بدهم",
+    "choices": [
+      "سوشی",
+      "حل",
+      "نقاشی",
+      "کنار"
+    ],
+    "answer": "سوشی",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "ساعت ------ صبح زنگ هشدار را تنظیم کن",
+    "choices": [
+      "جدا",
+      "آنجا",
+      "شش",
+      "کسب"
+    ],
+    "answer": "شش",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "یک هشدار برای ساعت ------ بعدازظهر تنظیم کن",
+    "choices": [
+      "انقلاب",
+      "چهار",
+      "شبه",
+      "نگاه"
+    ],
+    "answer": "چهار",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "olly در ساعت ------ به من هشدار بده که به کنسرت بروم",
+    "choices": [
+      "اجتماعی",
+      "وابسته",
+      "شخصیت",
+      "سه بعدازظهر"
+    ],
+    "answer": "سه بعدازظهر",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "ساعت ------ برای رفتن به کنسرت به من هشدار بده",
+    "choices": [
+      "می‌آید",
+      "سه بعدازظهر",
+      "فرمان",
+      "ذکر"
+    ],
+    "answer": "سه بعدازظهر",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "آیا من برای ------ صبح زنگ هشدار تنظیم کرده‌ام",
+    "choices": [
+      "پرواز",
+      "اجرام",
+      "ایستگاه",
+      "الله"
+    ],
+    "answer": "پرواز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا من زنگ هشدار را برای ------ در صبح تنظیم کرده‌ام",
+    "choices": [
+      "ایرانی",
+      "بیدار شدن",
+      "روی",
+      "د"
+    ],
+    "answer": "بیدار شدن",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا ------ بارانی است",
+    "choices": [
+      "دست",
+      "رود",
+      "بیش",
+      "شیراز"
+    ],
+    "answer": "شیراز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ باران می بارد",
+    "choices": [
+      "ص",
+      "امروز",
+      "ایران",
+      "استاد"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "در ------ چه خبر است",
+    "choices": [
+      "آمریکا",
+      "نشانی",
+      "ولی",
+      "قالب"
+    ],
+    "answer": "آمریکا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "در ------ چه خبر است",
+    "choices": [
+      "بهمن",
+      "جهان",
+      "را",
+      "دهد"
+    ],
+    "answer": "جهان",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ چه خبر است",
+    "choices": [
+      "شدت",
+      "شما",
+      "زندگینامه",
+      "زنجان"
+    ],
+    "answer": "زنجان",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "چند خبر از ------ به من نشان بده",
+    "choices": [
+      "خوانده",
+      "هم",
+      "تولد",
+      "خبرگزاری مهر"
+    ],
+    "answer": "خبرگزاری مهر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "الهه تعدادی خبر از ------ به من نشان بده",
+    "choices": [
+      "سپس",
+      "کرده‌است",
+      "بالای",
+      "بی. بی. سی."
+    ],
+    "answer": "بی. بی. سی.",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "مسیر",
+      "فروش",
+      "شبکه خبر",
+      "جوان"
+    ],
+    "answer": "شبکه خبر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "الهه ------",
+    "choices": [
+      "پنج",
+      "جز",
+      "شبکه خبر",
+      "اين"
+    ],
+    "answer": "شبکه خبر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "چند تا آهنگ ------ برای من پخش کن",
+    "choices": [
+      "هیپ هاپ",
+      "پایان",
+      "ناحیه",
+      "علیه"
+    ],
+    "answer": "هیپ هاپ",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "احساس میکنم الان دوست دارم ------ گوش بدم تو چطور",
+    "choices": [
+      "جاز",
+      "پاریس",
+      "میانه",
+      "تلویزیون"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "حالا فقط ------ پخش کن",
+    "choices": [
+      "بود",
+      "دورهٔ",
+      "محسوب",
+      "متال"
+    ],
+    "answer": "متال",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "الان ------ پخش کن.",
+    "choices": [
+      "می‌گویند",
+      "نزدیک",
+      "ترین",
+      "متال"
+    ],
+    "answer": "متال",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "اوولی یک قطعه خوب از نوازنده ------ مورد علاقه من پخش کن",
+    "choices": [
+      "محدود",
+      "جاز",
+      "اعدام",
+      "مستقیم"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "olly از ------ مورد علاقه من آهنگ پخش کن",
+    "choices": [
+      "طبیعی",
+      "پیانیست",
+      "هفت",
+      "دیده"
+    ],
+    "answer": "پیانیست",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "لامپ ها را به ------ عوض کن",
+    "choices": [
+      "آبی",
+      "شاعر",
+      "ایالات",
+      "ذکر"
+    ],
+    "answer": "آبی",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "بیا چراغ‌ها را ------ کنیم",
+    "choices": [
+      "زبان‌های",
+      "رده",
+      "آبی",
+      "دوباره"
+    ],
+    "answer": "آبی",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "لامپ ها را ------ بکن",
+    "choices": [
+      "آبی براق",
+      "کشته",
+      "میلادی",
+      "کشتی"
+    ],
+    "answer": "آبی براق",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "آهن",
+      "وقت",
+      "فعال",
+      "تهران"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "منظور خواننده از اسم اهنگ ------ چیست",
+    "choices": [
+      "ایتالیا",
+      "عشق",
+      "فناوری",
+      "رسید"
+    ],
+    "answer": "عشق",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آهنگ ------ رو کی خونده",
+    "choices": [
+      "وب‌گاه",
+      "محسن",
+      "برنده",
+      "فال قهوه"
+    ],
+    "answer": "فال قهوه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "اهمیت",
+      "بهار",
+      "کتابخانه",
+      "تهران"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "پایه",
+      "تبریز",
+      "اعضای",
+      "شرایط"
+    ],
+    "answer": "تبریز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "پیش بینی وضع هوای ------ تهران چیست",
+    "choices": [
+      "فناوری",
+      "اول",
+      "شناخته",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "وضعیت جاری ------ چیست",
+    "choices": [
+      "مذاکرات برگزیت",
+      "امر",
+      "مدیریت",
+      "رادیو"
+    ],
+    "answer": "مذاکرات برگزیت",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ چقدر است",
+    "choices": [
+      "مربع",
+      "استان",
+      "بین‌المللی",
+      "نرخ برابری دلار آمریکا با ریال ایران"
+    ],
+    "answer": "نرخ برابری دلار آمریکا با ریال ایران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ آینده فرانسه را چه کسی می برد",
+    "choices": [
+      "بازی‌های",
+      "انتخابات",
+      "کلیسای",
+      "هستند"
+    ],
+    "answer": "انتخابات",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا ------ انتظار هوای آفتابی داری",
+    "choices": [
+      "تیر",
+      "یکشنبه",
+      "هفت",
+      "ممکن"
+    ],
+    "answer": "یکشنبه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "امروز ------ باران می بارد",
+    "choices": [
+      "پانویس",
+      "پول",
+      "داشت",
+      "عصر"
+    ],
+    "answer": "عصر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ هوا بادی می شود",
+    "choices": [
+      "معنی",
+      "فردا",
+      "شمار",
+      "علمی"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "چراغ‌های ------ را روشن کن",
+    "choices": [
+      "آلبوم",
+      "تاریخچه",
+      "بدین",
+      "آشپزخانه"
+    ],
+    "answer": "آشپزخانه",
+    "type": "sentence",
+    "intent": "hue_lighton"
+  },
+  {
+    "question": "------ را روشن تر کن",
+    "choices": [
+      "لامپ کنار مبل",
+      "همانند",
+      "عرب",
+      "پل"
+    ],
+    "answer": "لامپ کنار مبل",
+    "type": "sentence",
+    "intent": "hue_lightup"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "اهمیت",
+      "تقریباً",
+      "تهران",
+      "امپراتوری"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ را شروع کن",
+    "choices": [
+      "همراه",
+      "قرن",
+      "جاروبرقی",
+      "حاکم"
+    ],
+    "answer": "جاروبرقی",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "------ را جاروبرقی بکش",
+    "choices": [
+      "آشپزخانه",
+      "چندین",
+      "چین",
+      "ادبیات"
+    ],
+    "answer": "آشپزخانه",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "تر",
+      "ای",
+      "جارو برقی",
+      "کردند"
+    ],
+    "answer": "جارو برقی",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "در ------ چه خبر است",
+    "choices": [
+      "جهان",
+      "طریق",
+      "بسیاری",
+      "چه"
+    ],
+    "answer": "جهان",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "تیترهای ------ روزنامه را بگو",
+    "choices": [
+      "پنجم",
+      "فراهم",
+      "امروز",
+      "آتش"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ را پخش کن",
+    "choices": [
+      "نرم",
+      "منبع",
+      "ژوئن",
+      "لیست موسیقی آرامش بخش"
+    ],
+    "answer": "لیست موسیقی آرامش بخش",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "آهنگ های ------ را پخش کن",
+    "choices": [
+      "تو",
+      "تنها",
+      "رفته",
+      "ماکان بند"
+    ],
+    "answer": "ماکان بند",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ پخش کن",
+    "choices": [
+      "ترانه",
+      "شماعی زاده",
+      "وجود",
+      "تک"
+    ],
+    "answer": "شماعی زاده",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "پیش بینی هوای ------ چطور است",
+    "choices": [
+      "بعدی",
+      "بستک",
+      "امروز",
+      "کوه"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "یک ------ از فست فود آی گون سفارش بده",
+    "choices": [
+      "خورشید",
+      "فضایی",
+      "پیتزا",
+      "مهر"
+    ],
+    "answer": "پیتزا",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "دوست دارم ------ بخورم میتونی برای نهار برام سفارش بدی",
+    "choices": [
+      "شمسی",
+      "آنچه",
+      "سوشی",
+      "گونه"
+    ],
+    "answer": "سوشی",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "alexa من می‌خواهم یک ------ بخورم می‌توانی یک نهار به من سفارش بدهی",
+    "choices": [
+      "بیماری",
+      "چلوکباب برگ",
+      "دلار",
+      "شده"
+    ],
+    "answer": "چلوکباب برگ",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "------ و سوپ از رستوران ایتالیایی بیرون بر سفارش بده",
+    "choices": [
+      "می‌تواند",
+      "عالی",
+      "مصرف",
+      "ساندویچ"
+    ],
+    "answer": "ساندویچ",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "چند روز تا پایان ------ مونده",
+    "choices": [
+      "توابع",
+      "فرمان",
+      "موجود",
+      "امسال"
+    ],
+    "answer": "امسال",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ عید سال نو در چه روزی است",
+    "choices": [
+      "قرمز",
+      "امسال",
+      "سخن",
+      "چند"
+    ],
+    "answer": "امسال",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ روز عید نوروز چند شنبه است",
+    "choices": [
+      "بهمن",
+      "سن",
+      "خوبی",
+      "امسال"
+    ],
+    "answer": "امسال",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "روشنایی را ------ زیاد کن",
+    "choices": [
+      "منبع",
+      "تا بیست درصد",
+      "نیز",
+      "تاسیس"
+    ],
+    "answer": "تا بیست درصد",
+    "type": "sentence",
+    "intent": "hue_lightup"
+  },
+  {
+    "question": "لامپ ها را به ------ تنظیم کن",
+    "choices": [
+      "غیر",
+      "شارژ کامل",
+      "امام",
+      "همیشه"
+    ],
+    "answer": "شارژ کامل",
+    "type": "sentence",
+    "intent": "hue_lightup"
+  },
+  {
+    "question": "لطفا برای ------ بی صدا باش",
+    "choices": [
+      "نزدیک",
+      "یک ساعت دیگر",
+      "سینما",
+      "نزد"
+    ],
+    "answer": "یک ساعت دیگر",
+    "type": "sentence",
+    "intent": "volume_mute"
+  },
+  {
+    "question": "------ صحبت نکن",
+    "choices": [
+      "فروش",
+      "امروز",
+      "دوران",
+      "یک"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "volume_mute"
+  },
+  {
+    "question": "------ باران می بارد",
+    "choices": [
+      "بزرگ",
+      "باز",
+      "فردا",
+      "کند"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آب و هوای ------ را تا دو روز آینده به من بگو",
+    "choices": [
+      "کشوری",
+      "شیراز",
+      "ان",
+      "فارسی"
+    ],
+    "answer": "شیراز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ باید چتر بردارم",
+    "choices": [
+      "ده",
+      "شهریور",
+      "عشق",
+      "فردا"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ را غیر فعال کن",
+    "choices": [
+      "سری",
+      "موزه",
+      "جارو برقی",
+      "یافته"
+    ],
+    "answer": "جارو برقی",
+    "type": "sentence",
+    "intent": "wemo_off"
+  },
+  {
+    "question": "------ من را فعال کن",
+    "choices": [
+      "محمود",
+      "استقلال",
+      "سپتامبر",
+      "دوشاخه"
+    ],
+    "answer": "دوشاخه",
+    "type": "sentence",
+    "intent": "wemo_on"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "سبز",
+      "تیم",
+      "مسیر",
+      "شارژر هوشمند"
+    ],
+    "answer": "شارژر هوشمند",
+    "type": "sentence",
+    "intent": "wemo_on"
+  },
+  {
+    "question": "اخبا ر ------ از مجله‌ی ------ را به من بگو",
+    "choices": [
+      "تکنولوژی",
+      "کتاب",
+      "میلادی",
+      "ترکی"
+    ],
+    "answer": "تکنولوژی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "سالگی",
+      "صنعت",
+      "نویسندگان",
+      "عصر"
+    ],
+    "answer": "عصر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "شاعر",
+      "یکشنبه",
+      "کمک",
+      "تحت"
+    ],
+    "answer": "یکشنبه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آهنگ ------",
+    "choices": [
+      "اغلب",
+      "بارون",
+      "زندگینامه",
+      "ایرانی"
+    ],
+    "answer": "بارون",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "وضعیت آب و هوا در ------ چگونه است",
+    "choices": [
+      "کلی",
+      "حتی",
+      "هرمزگان",
+      "نوشهر"
+    ],
+    "answer": "نوشهر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "می خواهم وضع هوای ------ را بدانم",
+    "choices": [
+      "هدایت",
+      "طبیعی",
+      "پاسخ",
+      "کرمان"
+    ],
+    "answer": "کرمان",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "می خواهم وضع هوای ------ را بدانم",
+    "choices": [
+      "اش",
+      "مختلف",
+      "آن‌ها",
+      "ساری"
+    ],
+    "answer": "ساری",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا ------ برف می بارد",
+    "choices": [
+      "مرداد",
+      "می‌باشند",
+      "اهواز",
+      "کشاورزی"
+    ],
+    "answer": "اهواز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "علی من ------ به یک فقیر نیازمند کمک کردم",
+    "choices": [
+      "شعر",
+      "درگذشت",
+      "وجود",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "coffee"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "جایزه",
+      "بازیگر",
+      "قهوه ساز",
+      "بسته"
+    ],
+    "answer": "قهوه ساز",
+    "type": "sentence",
+    "intent": "coffee"
+  },
+  {
+    "question": "------ هوا چطور خواهد بود",
+    "choices": [
+      "فاصله",
+      "ارومیه",
+      "فردا",
+      "دفتر"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ بارانی می شود",
+    "choices": [
+      "فنی",
+      "فردا",
+      "بسته",
+      "کمتر"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ دمای هوا چند درجه است",
+    "choices": [
+      "افغانستان",
+      "زیادی",
+      "عراق",
+      "فردا"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "پیش‌بینی هوای ------ چیست",
+    "choices": [
+      "شود",
+      "از",
+      "فردا",
+      "مشاهده"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "پیش‌بینی هوای ------ چیست",
+    "choices": [
+      "فردا",
+      "درصد",
+      "هنرمند",
+      "دریافت"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ باران می بارد",
+    "choices": [
+      "آن‌ها",
+      "م",
+      "فردا",
+      "بلکه"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ برف می بارد",
+    "choices": [
+      "فردا",
+      "باستان",
+      "پل",
+      "شهید"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "ببین آیا ------ سفارشات بیرون‌بری انجام می دهد یا خیر",
+    "choices": [
+      "رستوران",
+      "وابسته",
+      "جدید",
+      "سده"
+    ],
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "سرچ کن ببین ------ سرویس بیرون بر دارد یا نه",
+    "choices": [
+      "می‌توانند",
+      "نمایندگان",
+      "رستوران",
+      "فوق"
+    ],
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا ------ منوی غذای بیرون بر دارد",
+    "choices": [
+      "رستوران",
+      "کردند",
+      "فوریه",
+      "گلستان"
+    ],
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ چند شنبه ست",
+    "choices": [
+      "اهمیت",
+      "دوم فروردین",
+      "می‌تواند",
+      "شد"
+    ],
+    "answer": "دوم فروردین",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ چه روزی است",
+    "choices": [
+      "جوایز",
+      "پارک",
+      "بیست و نهم فروردین",
+      "صفحه"
+    ],
+    "answer": "بیست و نهم فروردین",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ چند شنبه است",
+    "choices": [
+      "چاپ",
+      "خوبی",
+      "اسپانیا",
+      "اول اردیبهشت"
+    ],
+    "answer": "اول اردیبهشت",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "زنگ هشدار من ------ چه ساعتی خاموش می‌شود",
+    "choices": [
+      "اکنون",
+      "امروز",
+      "کمک",
+      "پایگاه"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ از موسیقی google play را پخش کن",
+    "choices": [
+      "درصد",
+      "اسکار",
+      "ترک هشت",
+      "اساس"
+    ],
+    "answer": "ترک هشت",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "از آهنگ های ------ آهنگ دوم را پخش کن",
+    "choices": [
+      "رنگ",
+      "مناسب",
+      "بعضی",
+      "شادمهر"
+    ],
+    "answer": "شادمهر",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "آیا ------ است",
+    "choices": [
+      "شده‌اند",
+      "مجله",
+      "از",
+      "امروز دوشنبه"
+    ],
+    "answer": "امروز دوشنبه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "وضع هوای ------ چطور است",
+    "choices": [
+      "نوشهر",
+      "اجتماعی",
+      "مصرف",
+      "دل"
+    ],
+    "answer": "نوشهر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا الان در ------ هوا آفتابی است",
+    "choices": [
+      "آلمانی",
+      "مختلف",
+      "گنبد",
+      "یاد"
+    ],
+    "answer": "گنبد",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "لطفا آهنگ ------ منصور را پخش کن",
+    "choices": [
+      "آزادی",
+      "نشده",
+      "کالیفرنیا",
+      "علم"
+    ],
+    "answer": "آزادی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "لطفا نرم افزار موزیک من را باز کن و آهنگ ------ مهدی جهانی را پخش کن",
+    "choices": [
+      "نشد",
+      "ادبیات",
+      "زندگی",
+      "گسترش"
+    ],
+    "answer": "نشد",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "آهنگ ------ از شادمهر را لطفا پخش کن",
+    "choices": [
+      "غرب",
+      "توابع",
+      "تقدیر",
+      "کل"
+    ],
+    "answer": "تقدیر",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "لامپ ------ را خاموش کن",
+    "choices": [
+      "پاپ",
+      "گاراژ",
+      "قدیمی",
+      "دیگری"
+    ],
+    "answer": "گاراژ",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "داغ ترین خبرها را از ------ به من بگو",
+    "choices": [
+      "نیورک تایمز",
+      "می‌توان",
+      "قرار",
+      "نمونه"
+    ],
+    "answer": "نیورک تایمز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "مطلب جنجالی در ------ چیست",
+    "choices": [
+      "یک",
+      "سیاسی",
+      "بلند",
+      "تبریز تایمز"
+    ],
+    "answer": "تبریز تایمز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "هر خبر ------ در روزنامه شرق",
+    "choices": [
+      "شمسی",
+      "شهر",
+      "سمت",
+      "تلفاتی"
+    ],
+    "answer": "تلفاتی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "به محض اینکه خبر جدیدی از ------ شد به من اطلاع بده",
+    "choices": [
+      "برگزیت",
+      "شمسی",
+      "فضایی",
+      "پخش"
+    ],
+    "answer": "برگزیت",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ را خاموش کن",
+    "choices": [
+      "اهل",
+      "شکل",
+      "پریز هوشمند",
+      "سید"
+    ],
+    "answer": "پریز هوشمند",
+    "type": "sentence",
+    "intent": "wemo_off"
+  },
+  {
+    "question": "------ را را روشن کن",
+    "choices": [
+      "پریز هوشمند",
+      "قبل",
+      "برگزار",
+      "بدون"
+    ],
+    "answer": "پریز هوشمند",
+    "type": "sentence",
+    "intent": "wemo_on"
+  },
+  {
+    "question": "سوکت ------ را عوض کن",
+    "choices": [
+      "علاوه",
+      "پریز هوشمند",
+      "تحت",
+      "سلطنت"
+    ],
+    "answer": "پریز هوشمند",
+    "type": "sentence",
+    "intent": "wemo_on"
+  },
+  {
+    "question": "آهنگ ------ از لیست پخش من پخش کن",
+    "choices": [
+      "شناخته",
+      "چیزی",
+      "بشر",
+      "ریمیکس"
+    ],
+    "answer": "ریمیکس",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "اگر در ------ ظهر باشد در زنجان ساعت چند است",
+    "choices": [
+      "گیلان",
+      "رمان",
+      "کرمان",
+      "فعال"
+    ],
+    "answer": "کرمان",
+    "type": "sentence",
+    "intent": "convert"
+  },
+  {
+    "question": "فاصله زمانی بین زمان ------ و زمان خلیج فارس چند ساعت است",
+    "choices": [
+      "ولی",
+      "رئیس",
+      "شرقی",
+      "آخرین"
+    ],
+    "answer": "شرقی",
+    "type": "sentence",
+    "intent": "convert"
+  },
+  {
+    "question": "------ از شادمهر را پخش کن",
+    "choices": [
+      "خراسان",
+      "ترس",
+      "تحقیقات",
+      "هند"
+    ],
+    "answer": "ترس",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "هر آهنگی از ------ را پخش کن",
+    "choices": [
+      "بسته",
+      "هوا",
+      "ابی",
+      "بعدی"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ هوا گرم است",
+    "choices": [
+      "فردا",
+      "نتیجه",
+      "همراه",
+      "پادشاهی"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "می توانی رنگ نور را در ------ عوض کنی",
+    "choices": [
+      "خانه",
+      "پول",
+      "اوایل",
+      "می‌دهد"
+    ],
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "آیا می‌توانی نور ------ را به حالت پخش تصادفی درآوری",
+    "choices": [
+      "سیاسی",
+      "می‌گویند",
+      "روشن",
+      "خانه"
+    ],
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "آیا می توانی رنگ های روشن را در ------ به تیره تبدیل کنی",
+    "choices": [
+      "رتبه",
+      "اساسی",
+      "خانه",
+      "معمولا"
+    ],
+    "answer": "خانه",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "من دوست دارم آهنگ ------ گوش بدم",
+    "choices": [
+      "واقع",
+      "می‌تواند",
+      "پنجم",
+      "پاپ"
+    ],
+    "answer": "پاپ",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "میتونی یک ------ موزیک راک پخش کنی",
+    "choices": [
+      "ساعت بعد",
+      "آوریل",
+      "ملی",
+      "طبیعی"
+    ],
+    "answer": "ساعت بعد",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "یک جوک ------ به من بگو",
+    "choices": [
+      "خط",
+      "خنده‌دار",
+      "وقت",
+      "صنایع"
+    ],
+    "answer": "خنده‌دار",
+    "type": "sentence",
+    "intent": "joke"
+  },
+  {
+    "question": "نور اتاقم رو ------ کن",
+    "choices": [
+      "طریق",
+      "زیر",
+      "آبی",
+      "دوست"
+    ],
+    "answer": "آبی",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "نور اتاقم رو به یه رنگ ------ تغییر بده",
+    "choices": [
+      "مواد",
+      "بازیگران",
+      "اگر",
+      "عاشقانه"
+    ],
+    "answer": "عاشقانه",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "نور اتاق من را عوض کن تا بتوانم ------ داشته باشم",
+    "choices": [
+      "مناسبت‌ها",
+      "میانه",
+      "خواب خوب",
+      "کنار"
+    ],
+    "answer": "خواب خوب",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "یک زنگ برای ساعت ------ من تنظیم کن",
+    "choices": [
+      "هشت صبح",
+      "خلیج",
+      "افزایش",
+      "ام"
+    ],
+    "answer": "هشت صبح",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "یک زنگ هشدار برای ساعت ------ بساز",
+    "choices": [
+      "آموزشی",
+      "چهار بعدازظهر",
+      "اتحاد",
+      "طرح"
+    ],
+    "answer": "چهار بعدازظهر",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "برای من ساعت ------ زنگ بیداری را بساز",
+    "choices": [
+      "فناوری",
+      "اسلام",
+      "شامل",
+      "هشت و چهل و پنج صبح"
+    ],
+    "answer": "هشت و چهل و پنج صبح",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "اخبار ------",
+    "choices": [
+      "پاپ",
+      "کاربرد",
+      "دلخراش",
+      "جایزه"
+    ],
+    "answer": "دلخراش",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "رهبر",
+      "آن",
+      "همکاری",
+      "دوشاخه ی یک"
+    ],
+    "answer": "دوشاخه ی یک",
+    "type": "sentence",
+    "intent": "wemo_on"
+  },
+  {
+    "question": "لامپ ها ی ------ را خاموش کن",
+    "choices": [
+      "بدن",
+      "حمام",
+      "روسیه",
+      "سعید"
+    ],
+    "answer": "حمام",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "لامپ ها ی ------ را خاموش کن",
+    "choices": [
+      "بخش‌های",
+      "اکثر",
+      "قرآن",
+      "حمام"
+    ],
+    "answer": "حمام",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "لامپ های ------ را خاموش کن",
+    "choices": [
+      "فرزند",
+      "سنگ",
+      "حمام",
+      "حد"
+    ],
+    "answer": "حمام",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "شرح",
+      "جمعه",
+      "آلبوم",
+      "طبقه"
+    ],
+    "answer": "جمعه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "الان بیرون چقدر ------",
+    "choices": [
+      "گرمه",
+      "نبرد",
+      "فوق",
+      "گذشته"
+    ],
+    "answer": "گرمه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ چند شنبه است",
+    "choices": [
+      "امروز",
+      "طور",
+      "مشهد",
+      "باید"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ بعد چه روزی از ماه است",
+    "choices": [
+      "سه شنبه",
+      "خاطر",
+      "تپه",
+      "شهید"
+    ],
+    "answer": "سه شنبه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "پوشه ------ را پخش کن",
+    "choices": [
+      "نیروی",
+      "پالت",
+      "همکاری",
+      "کنیم"
+    ],
+    "answer": "پالت",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "پوشه ------ را باز کن",
+    "choices": [
+      "ترانه",
+      "گروه بمرانی",
+      "نام",
+      "می‌کند"
+    ],
+    "answer": "گروه بمرانی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ قرار است باران ببارد",
+    "choices": [
+      "امروز",
+      "مدل",
+      "درون",
+      "روشن"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ باید ژاکت بپوشم",
+    "choices": [
+      "گیاهان",
+      "امروز",
+      "گفت",
+      "است"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "وقت",
+      "پایگاه",
+      "پخش تصادفی را غیر فعال کن",
+      "فلسفه"
+    ],
+    "answer": "پخش تصادفی را غیر فعال کن",
+    "type": "sentence",
+    "intent": "settings"
+  },
+  {
+    "question": "آلبوم را ------",
+    "choices": [
+      "تکرار کن",
+      "خارج",
+      "سبب",
+      "سنگ"
+    ],
+    "answer": "تکرار کن",
+    "type": "sentence",
+    "intent": "settings"
+  },
+  {
+    "question": "------ پخش کن",
+    "choices": [
+      "آموزش",
+      "ابی",
+      "موفق",
+      "آذر"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "موزیک ------ پخش کن",
+    "choices": [
+      "یونانی",
+      "آلمان",
+      "ترکیب",
+      "عید نوروز قدیمی"
+    ],
+    "answer": "عید نوروز قدیمی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "اختیار",
+      "بدون",
+      "متحد",
+      "قهوه ساز"
+    ],
+    "answer": "قهوه ساز",
+    "type": "sentence",
+    "intent": "coffee"
+  },
+  {
+    "question": "آخرین ------ را به من بده",
+    "choices": [
+      "تعداد",
+      "آورد",
+      "قیمت سهام کاستکو",
+      "میلاد"
+    ],
+    "answer": "قیمت سهام کاستکو",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "در حال حاضر چه کسی در ------ پیشتاز است",
+    "choices": [
+      "بر",
+      "کاخ",
+      "انتخابات پارلمانی",
+      "تاسیس"
+    ],
+    "answer": "انتخابات پارلمانی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ چندم است",
+    "choices": [
+      "سلطان",
+      "امروز",
+      "دارد",
+      "حمایت"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "لامپ های ------ را به آبی تغییر بده",
+    "choices": [
+      "آشپزخانه",
+      "تولید",
+      "روستایی",
+      "عصر"
+    ],
+    "answer": "آشپزخانه",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "چراغ‌های ------ را قرمز کن",
+    "choices": [
+      "ارتباط",
+      "هزار",
+      "بنابر",
+      "اتاق نشیمن"
+    ],
+    "answer": "اتاق نشیمن",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "روشنایی ------ را به سبز تغییر بده",
+    "choices": [
+      "طبیعی",
+      "مرگ",
+      "اتاق خواب",
+      "مستقل"
+    ],
+    "answer": "اتاق خواب",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "من میخوام آهنگ ------ گوش بدم",
+    "choices": [
+      "روشن",
+      "پر",
+      "کلاسیک",
+      "تمامی"
+    ],
+    "answer": "کلاسیک",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "من میخوام ------ گوش بدم",
+    "choices": [
+      "پیوند",
+      "جاز",
+      "ثبت",
+      "شورای"
+    ],
+    "answer": "جاز",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "لامپ ------ من را روشن‌تر کن",
+    "choices": [
+      "اتاق خواب",
+      "گرفتن",
+      "نیاز",
+      "عنوان"
+    ],
+    "answer": "اتاق خواب",
+    "type": "sentence",
+    "intent": "hue_lightup"
+  },
+  {
+    "question": "------ را خاموش کن",
+    "choices": [
+      "رو",
+      "جدید",
+      "ولی",
+      "لامپ"
+    ],
+    "answer": "لامپ",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "آهنگ هایی از ------ پخش کن",
+    "choices": [
+      "مهر",
+      "عضو",
+      "بی‌بی‌سی",
+      "ابی"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "آهنگ ------ را پخش کن",
+    "choices": [
+      "عشق",
+      "اسلامی",
+      "سد",
+      "ژوئیه"
+    ],
+    "answer": "عشق",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "آهنگ هایی از ------ پخش کن",
+    "choices": [
+      "ابی",
+      "هشت",
+      "دفتر",
+      "ايران"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "اخبار ------ را پیدا کن",
+    "choices": [
+      "زبان‌های",
+      "نبود",
+      "را",
+      "برگزیت"
+    ],
+    "answer": "برگزیت",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "اخبار ------ را باز کن",
+    "choices": [
+      "تهیه",
+      "اهمیت",
+      "پیشین",
+      "شرکت ملی نفت"
+    ],
+    "answer": "شرکت ملی نفت",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "اخبار ------ را برای من پیدا کن",
+    "choices": [
+      "متفاوت",
+      "سخنرانی ترامپ",
+      "سخت",
+      "شیراز"
+    ],
+    "answer": "سخنرانی ترامپ",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "اشاره",
+      "مفهوم",
+      "منطقه های زمانی دیگر",
+      "باستان"
+    ],
+    "answer": "منطقه های زمانی دیگر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ در کدام منطقه ی زمانی قرار دارد",
+    "choices": [
+      "ایرانیان",
+      "روزنامه",
+      "اساس",
+      "آریزونا"
+    ],
+    "answer": "آریزونا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "کشورهای",
+      "ام",
+      "اصفهان",
+      "رتبه"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "آنها",
+      "کرده",
+      "بکار",
+      "ایران"
+    ],
+    "answer": "ایران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "اوت",
+      "ایران",
+      "عربی",
+      "قرن"
+    ],
+    "answer": "ایران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "بیرون چند ------ است",
+    "choices": [
+      "ندارد",
+      "مختلف",
+      "درجه",
+      "فضایی"
+    ],
+    "answer": "درجه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا بیرون ------ است",
+    "choices": [
+      "گرم",
+      "گروهی",
+      "فعال",
+      "کسی"
+    ],
+    "answer": "گرم",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا بیرون ------ است",
+    "choices": [
+      "سرد",
+      "می‌شود",
+      "سلطان",
+      "نشده"
+    ],
+    "answer": "سرد",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "چه شوخی ------ می‌دانی",
+    "choices": [
+      "احمقانه‌ای",
+      "خوانده",
+      "مسیر",
+      "بی‌بی‌سی"
+    ],
+    "answer": "احمقانه‌ای",
+    "type": "sentence",
+    "intent": "joke"
+  },
+  {
+    "question": "چه شوخی ------ ای بلدی",
+    "choices": [
+      "احمقانه",
+      "مرحله",
+      "امروزه",
+      "توان"
+    ],
+    "answer": "احمقانه",
+    "type": "sentence",
+    "intent": "joke"
+  },
+  {
+    "question": "یک جوک ------ چیست",
+    "choices": [
+      "معروف",
+      "خوب",
+      "دختر",
+      "همیشه"
+    ],
+    "answer": "خوب",
+    "type": "sentence",
+    "intent": "joke"
+  },
+  {
+    "question": "رنگ نور را به ------ تغییر بده",
+    "choices": [
+      "تمامی",
+      "لندن",
+      "آبی",
+      "همان"
+    ],
+    "answer": "آبی",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "تایید کن که آیا نور ------ است",
+    "choices": [
+      "رنگ",
+      "قدر",
+      "آبی",
+      "رشد"
+    ],
+    "answer": "آبی",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "رنگ نور رو ------ کن",
+    "choices": [
+      "وزن",
+      "موقعیت",
+      "موتور",
+      "قرمز"
+    ],
+    "answer": "قرمز",
+    "type": "sentence",
+    "intent": "hue_lightchange"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "شهری",
+      "مستقیم",
+      "شخص",
+      "بیرجند"
+    ],
+    "answer": "بیرجند",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "در ------ ساعت چند است",
+    "choices": [
+      "هجری",
+      "برق",
+      "عنوان",
+      "اراک"
+    ],
+    "answer": "اراک",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آهنگ هایی از ------ بزار",
+    "choices": [
+      "وارد",
+      "درصد",
+      "عصر",
+      "ایوان بند"
+    ],
+    "answer": "ایوان بند",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "برای یک ------ بیصدا باش",
+    "choices": [
+      "ساعت بعد",
+      "مانند",
+      "خوانده",
+      "استان‌های"
+    ],
+    "answer": "ساعت بعد",
+    "type": "sentence",
+    "intent": "volume_mute"
+  },
+  {
+    "question": "جوک ------ به من بگو",
+    "choices": [
+      "كه",
+      "‌ها",
+      "هفته",
+      "تصادفی"
+    ],
+    "answer": "تصادفی",
+    "type": "sentence",
+    "intent": "joke"
+  },
+  {
+    "question": "آخرین اخبار ------ چیست",
+    "choices": [
+      "گیاهان",
+      "جهان",
+      "چین",
+      "محصول"
+    ],
+    "answer": "جهان",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "اخبار ------ لطفا",
+    "choices": [
+      "صورت",
+      "اسفند",
+      "بین المللی",
+      "ترجمه"
+    ],
+    "answer": "بین المللی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "زنگ هشدار را برای ------ تنظیم کن",
+    "choices": [
+      "مستقل",
+      "نه صبح",
+      "دولت",
+      "گفت"
+    ],
+    "answer": "نه صبح",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "یک زنگ بیدارباش برای ------ تنظیم کن",
+    "choices": [
+      "شاعران",
+      "ده صبح",
+      "زاده",
+      "نتیجه"
+    ],
+    "answer": "ده صبح",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "من به ------ زنگ هشدار یادآوری در ساعت ------ نیاز دارم",
+    "choices": [
+      "یک",
+      "معروف",
+      "می‌شوند",
+      "انتقال"
+    ],
+    "answer": "یک",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "یک زنگ هشدار برای ساعت ------ بساز",
+    "choices": [
+      "وابسته",
+      "سه بعدازظهر",
+      "نسخه",
+      "تو"
+    ],
+    "answer": "سه بعدازظهر",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "زنگ ساعت را برای ------ روشن کن",
+    "choices": [
+      "سمت",
+      "نه صبح",
+      "تمام",
+      "ندارد"
+    ],
+    "answer": "نه صبح",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "یک زنگ هشدار برای ساعت ------ تنظیم کن",
+    "choices": [
+      "حمل",
+      "یک بعدازظهر",
+      "آلمانی",
+      "سیارک"
+    ],
+    "answer": "یک بعدازظهر",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "آلبوم ------ را سرچ کن",
+    "choices": [
+      "نبرد",
+      "محمدرضا",
+      "ابی",
+      "آوریل"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آهنگ مانکن از ------ را پخش کن",
+    "choices": [
+      "فرزاد فرزین",
+      "ارتش",
+      "سابق",
+      "امروزه"
+    ],
+    "answer": "فرزاد فرزین",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "آهنگ ------ را پخش کن",
+    "choices": [
+      "خون",
+      "بیت",
+      "عشق",
+      "صنعت"
+    ],
+    "answer": "عشق",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ جوک چیست",
+    "choices": [
+      "گرفته",
+      "جامعه",
+      "اینکه",
+      "خنده دار ترین"
+    ],
+    "answer": "خنده دار ترین",
+    "type": "sentence",
+    "intent": "joke"
+  },
+  {
+    "question": "یک جوک ------ به من بگو",
+    "choices": [
+      "کثیف",
+      "فارسی",
+      "حالت",
+      "پنجم"
+    ],
+    "answer": "کثیف",
+    "type": "sentence",
+    "intent": "joke"
+  },
+  {
+    "question": "لطفا صدای موسیقی ------ را بلند تر کن",
+    "choices": [
+      "که",
+      "عشق آخر",
+      "آهن",
+      "حتی"
+    ],
+    "answer": "عشق آخر",
+    "type": "sentence",
+    "intent": "volume_up"
+  },
+  {
+    "question": "لطفا سرعت ------ اهنگ عشق را کم کن",
+    "choices": [
+      "کسب",
+      "خبرگزاری",
+      "پخش ترکیبی",
+      "ش"
+    ],
+    "answer": "پخش ترکیبی",
+    "type": "sentence",
+    "intent": "settings"
+  },
+  {
+    "question": "لطفا آن اهنگ از ------ را دوباره تکرار کن",
+    "choices": [
+      "ابی",
+      "کوه",
+      "اثر",
+      "آباد"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "settings"
+  },
+  {
+    "question": "لامپ های ------ را خاموش کن",
+    "choices": [
+      "طبیعی",
+      "هال",
+      "یافته",
+      "مرگ"
+    ],
+    "answer": "هال",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "لطفا لامپ های ------ رو خاموش کن",
+    "choices": [
+      "بخشی",
+      "قابل",
+      "هال",
+      "روی"
+    ],
+    "answer": "هال",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "نوازش از ------ را پخش کن",
+    "choices": [
+      "قوانین",
+      "تتلو",
+      "مجله",
+      "کننده"
+    ],
+    "answer": "تتلو",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "میتونم چند تا آهنگ ------ بگیرم",
+    "choices": [
+      "گیاهان",
+      "پس زمینه",
+      "ما",
+      "موارد"
+    ],
+    "answer": "پس زمینه",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "آیا من هیچ زنگ هشدار برای ------ ندارم",
+    "choices": [
+      "اسماعیل",
+      "خورشید",
+      "فردا",
+      "دقیقه"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "وضعیت زنگ هشدار ------ چگونه است",
+    "choices": [
+      "گرفتن",
+      "فردا",
+      "دهه",
+      "مدل"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "زنگ هشدار ساعت ------ را خاموش کن",
+    "choices": [
+      "ی",
+      "حوزه",
+      "هشت صبح",
+      "الکتریکی"
+    ],
+    "answer": "هشت صبح",
+    "type": "sentence",
+    "intent": "remove"
+  },
+  {
+    "question": "زنگ هشدار ------ من را لغو کن",
+    "choices": [
+      "می‌توانند",
+      "رئیس",
+      "هشت صبح",
+      "شخصی"
+    ],
+    "answer": "هشت صبح",
+    "type": "sentence",
+    "intent": "remove"
+  },
+  {
+    "question": "زنگ هشدار ساعت ------ من را حذف کن",
+    "choices": [
+      "هشت صبح",
+      "آمده",
+      "نگاه",
+      "فارس"
+    ],
+    "answer": "هشت صبح",
+    "type": "sentence",
+    "intent": "remove"
+  },
+  {
+    "question": "هوا چند ------ است",
+    "choices": [
+      "درجه",
+      "هرمزگان",
+      "سنت",
+      "تلویزیون"
+    ],
+    "answer": "درجه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "اون چقدر ------",
+    "choices": [
+      "گرمه",
+      "نظام",
+      "مثل",
+      "فرانسوی"
+    ],
+    "answer": "گرمه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "هوا چقدر ------ است",
+    "choices": [
+      "جدا",
+      "خورشیدی",
+      "سرد",
+      "بنیاد"
+    ],
+    "answer": "سرد",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ تولد چند نفره",
+    "choices": [
+      "هدف",
+      "بیست و سوم",
+      "انتخابات",
+      "اقدام"
+    ],
+    "answer": "بیست و سوم",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "ایا ------ است",
+    "choices": [
+      "تلویزیون",
+      "دومین شنبه دوازدهم",
+      "دریا",
+      "بررسی"
+    ],
+    "answer": "دومین شنبه دوازدهم",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "ایا ------ بیست و دوم است",
+    "choices": [
+      "شخصیت",
+      "برگزار",
+      "باشگاه",
+      "کریسمس"
+    ],
+    "answer": "کریسمس",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "همان ------ را ده بار تکرار کن",
+    "choices": [
+      "امر",
+      "چون",
+      "آهنگ",
+      "داخلی"
+    ],
+    "answer": "آهنگ",
+    "type": "sentence",
+    "intent": "settings"
+  },
+  {
+    "question": "------ های خواننده هایده پخش کن",
+    "choices": [
+      "نخست",
+      "آهنگ",
+      "ترجمه",
+      "همین"
+    ],
+    "answer": "آهنگ",
+    "type": "sentence",
+    "intent": "settings"
+  },
+  {
+    "question": "در لیست آهنگ ------ را پخش کن",
+    "choices": [
+      "می",
+      "تا",
+      "یک تا ده",
+      "سنگ"
+    ],
+    "answer": "یک تا ده",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "یک لامپ را در ------ خاموش کن",
+    "choices": [
+      "موسیقی",
+      "اصول",
+      "طراحی",
+      "ایوان"
+    ],
+    "answer": "ایوان",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "------ را خاموش کن",
+    "choices": [
+      "عدم",
+      "لامپ",
+      "بعد",
+      "کند"
+    ],
+    "answer": "لامپ",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "آیا ------ باران می بارد",
+    "choices": [
+      "شخصیت",
+      "فردا",
+      "رتبه",
+      "سد"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "غروب خورشید ------ ساعت پنج و نیم بعد از ظهره",
+    "choices": [
+      "فردا",
+      "باید",
+      "اساسی",
+      "حاصل"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا احتمال ------ در این هفته وجود دارد",
+    "choices": [
+      "جنبش",
+      "قدر",
+      "بارندگی",
+      "قرار"
+    ],
+    "answer": "بارندگی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "الان چی ------ شبکه های اجتماعی شده",
+    "choices": [
+      "نقل مجلس",
+      "نشده",
+      "متر",
+      "می‌کرد"
+    ],
+    "answer": "نقل مجلس",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "اخبار جدید برای ------ چیست",
+    "choices": [
+      "مثال",
+      "لیگ",
+      "آثار",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "در منطقه زمانی ------ ساعت چند است",
+    "choices": [
+      "بزرگ",
+      "شرقی",
+      "معماری",
+      "توان"
+    ],
+    "answer": "شرقی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "الان چقدر ------",
+    "choices": [
+      "تاکنون",
+      "گرمه",
+      "درون",
+      "آب"
+    ],
+    "answer": "گرمه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "ایا من میتونم به ------ که تو الان داری از رادیو گوش میدی گوش بدم",
+    "choices": [
+      "ارومیه",
+      "مقدس",
+      "بیست",
+      "پنجاه قطعه برتر"
+    ],
+    "answer": "پنجاه قطعه برتر",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "لطفا اکنون موسیقی ------ را برای شام پخش کن",
+    "choices": [
+      "پاپ",
+      "کلاسیک",
+      "عدم",
+      "رسمی"
+    ],
+    "answer": "کلاسیک",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "من میخوام ------ از تتلو گوش بدم لطفا",
+    "choices": [
+      "توزیع",
+      "نوازش",
+      "پادشاه",
+      "اختیار"
+    ],
+    "answer": "نوازش",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "میتونی ------ لیدی گاگا پخش کنی",
+    "choices": [
+      "ویژه",
+      "آهنگ",
+      "مقام",
+      "یونان"
+    ],
+    "answer": "آهنگ",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "من میخوام آهنگ مورد علاقم از ------ را بشنوم",
+    "choices": [
+      "اسلامی",
+      "خاطر",
+      "حفظ",
+      "ایوان بند"
+    ],
+    "answer": "ایوان بند",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "زنگ هشدار را تغییر بده تا از ------ زنگ بخورد",
+    "choices": [
+      "بدین",
+      "بوده‌است",
+      "نیمه شب",
+      "متولد"
+    ],
+    "answer": "نیمه شب",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "هوای یک ------ چگونه خواهد بود",
+    "choices": [
+      "هفته دیگر",
+      "دوست",
+      "تمام",
+      "زندان"
+    ],
+    "answer": "هفته دیگر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "هوای ------ قرار است چطور باشد",
+    "choices": [
+      "دنیا",
+      "دادند",
+      "انجام",
+      "سه شنبه"
+    ],
+    "answer": "سه شنبه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "پیش بینی هوای ------ چطور است",
+    "choices": [
+      "آخر هفته",
+      "نیویورک",
+      "جلد",
+      "رودخانه"
+    ],
+    "answer": "آخر هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "بی صدا کن برای ------",
+    "choices": [
+      "کشف",
+      "کد",
+      "پشت",
+      "بیست دقیقه"
+    ],
+    "answer": "بیست دقیقه",
+    "type": "sentence",
+    "intent": "volume_mute"
+  },
+  {
+    "question": "من می‌خواهم ------ ساعت شش صبح بیدار شوم لطفا",
+    "choices": [
+      "شخصیت",
+      "خبرگزاری",
+      "نوعی",
+      "فردا"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "لطفا زنگ هشدار را برای ------ روی هفت صبح تنظیم کن",
+    "choices": [
+      "چشم",
+      "صبح روز بعد",
+      "کار",
+      "استقلال"
+    ],
+    "answer": "صبح روز بعد",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "لطفا ساعت ------ شنبه آینده زنگ بیداری را بزن",
+    "choices": [
+      "آب",
+      "کارهای",
+      "هشت صبح",
+      "خاطر"
+    ],
+    "answer": "هشت صبح",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "لیست آهنگ های ------ را پخش کن",
+    "choices": [
+      "دادن",
+      "شماره هفت",
+      "فیلم",
+      "میدان"
+    ],
+    "answer": "شماره هفت",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ چند شنبه است",
+    "choices": [
+      "زمینه",
+      "گاز",
+      "جا",
+      "جشن مهرگان"
+    ],
+    "answer": "جشن مهرگان",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آخرین روز این ------ چندشنبه ست",
+    "choices": [
+      "همسر",
+      "کتاب‌های",
+      "شما",
+      "ماه"
+    ],
+    "answer": "ماه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "در منطقه زمانی ------ ساعت چند است",
+    "choices": [
+      "دقیقه",
+      "مرکزی",
+      "بندر",
+      "کشف"
+    ],
+    "answer": "مرکزی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "در منطقه زمانی ------ الان ساعت چند است",
+    "choices": [
+      "الدین",
+      "بدن",
+      "کوه",
+      "محدود"
+    ],
+    "answer": "کوه",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آخرین جنجال در مورد ------ چیست",
+    "choices": [
+      "لحاظ",
+      "دنبال",
+      "دونالد ترامپ",
+      "گروهی"
+    ],
+    "answer": "دونالد ترامپ",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "جدیدترین قیل و قال درباره ------ چیست",
+    "choices": [
+      "محمود احمدی نژاد",
+      "بودند",
+      "ایالت",
+      "مناسب"
+    ],
+    "answer": "محمود احمدی نژاد",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آهنگ ------ در رادیو پخش کن",
+    "choices": [
+      "یادکرد",
+      "ابی",
+      "درصد",
+      "همراه"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "لطفا اجازه بده من به آهنگ ------ گوش بدم",
+    "choices": [
+      "خبر",
+      "نشانی",
+      "قدر",
+      "لیلا"
+    ],
+    "answer": "لیلا",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "آهنگ های ------ آخرین آلبوم متالیکا رو پخش کن.",
+    "choices": [
+      "معروف",
+      "شخصی",
+      "هنگام",
+      "نیویورک"
+    ],
+    "answer": "معروف",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "هر وقت خبری راجع به ------ بود به من اطلاع بده",
+    "choices": [
+      "بهمن",
+      "مسیر لوله بندرعباس",
+      "پانویس",
+      "موتور"
+    ],
+    "answer": "مسیر لوله بندرعباس",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "درباره اخبار ------ اعلان تنظیم کن",
+    "choices": [
+      "خط لوله داکوتا",
+      "میلادی",
+      "عربستان",
+      "آسیا"
+    ],
+    "answer": "خط لوله داکوتا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "هر وقت خبری در مورد ------ بود به من اطلاع بده",
+    "choices": [
+      "کنار",
+      "خط لوله پارسیان",
+      "پایتخت",
+      "ارائه"
+    ],
+    "answer": "خط لوله پارسیان",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ را شروع کن",
+    "choices": [
+      "جارو برقی",
+      "بهترین",
+      "تصویر",
+      "لندن"
+    ],
+    "answer": "جارو برقی",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "لطفا ------ را روشن کن",
+    "choices": [
+      "شبه",
+      "تقسیمات",
+      "جاروبرقی",
+      "مهر"
+    ],
+    "answer": "جاروبرقی",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "یک جوک ------ در مورد ماشین چیه",
+    "choices": [
+      "گردید",
+      "خنده‌دار",
+      "خاک",
+      "آلبوم"
+    ],
+    "answer": "خنده‌دار",
+    "type": "sentence",
+    "intent": "joke"
+  },
+  {
+    "question": "یک جوک در مورد یک ------ به من بگو",
+    "choices": [
+      "اطراف",
+      "موسیقی",
+      "نبود",
+      "مرد"
+    ],
+    "answer": "مرد",
+    "type": "sentence",
+    "intent": "joke"
+  },
+  {
+    "question": "میتونی یک جک در مورد ------ بهم بگی",
+    "choices": [
+      "دی",
+      "حیوانات",
+      "تقریباً",
+      "فرد"
+    ],
+    "answer": "حیوانات",
+    "type": "sentence",
+    "intent": "joke"
+  },
+  {
+    "question": "بهم یادآوری کن این اهنگ را ------ گوش بدم",
+    "choices": [
+      "امشب",
+      "هنرمند",
+      "ازدواج",
+      "سایت"
+    ],
+    "answer": "امشب",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "یک آهنگ از ------ برای من پخش کن",
+    "choices": [
+      "یونانی",
+      "لیلا فروهر",
+      "پایه",
+      "آوریل"
+    ],
+    "answer": "لیلا فروهر",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "لطفا ------ رو روشن کن",
+    "choices": [
+      "شرح",
+      "کردن",
+      "مسائل",
+      "جاروبرقی"
+    ],
+    "answer": "جاروبرقی",
+    "type": "sentence",
+    "intent": "cleaning"
+  },
+  {
+    "question": "------ این هفته چند درجه خواهد بود",
+    "choices": [
+      "حداکثر دمای هوای",
+      "موضوع",
+      "آبان",
+      "داشت"
+    ],
+    "answer": "حداکثر دمای هوای",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ نور را افزایش بده",
+    "choices": [
+      "کمی",
+      "سر",
+      "وضعیت",
+      "ششم"
+    ],
+    "answer": "کمی",
+    "type": "sentence",
+    "intent": "hue_lightup"
+  },
+  {
+    "question": "------ نور لامپ را بیشتر کن",
+    "choices": [
+      "راست",
+      "کمی",
+      "عصر",
+      "مواد"
+    ],
+    "answer": "کمی",
+    "type": "sentence",
+    "intent": "hue_lightup"
+  },
+  {
+    "question": "آیا من ------ هیچ هشدار تنظیم شده‌ای دارم",
+    "choices": [
+      "کنار",
+      "سه",
+      "می‌گویند",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "چراغ‌های ------ را خاموش کن",
+    "choices": [
+      "اتاق",
+      "جغرافیایی",
+      "ریشه",
+      "وقت"
+    ],
+    "answer": "اتاق",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "روشنایی را کنترل کن لامپ ها ی ------ را خاموش کن",
+    "choices": [
+      "رسیدن",
+      "سفر",
+      "اتاق",
+      "شخصیت"
+    ],
+    "answer": "اتاق",
+    "type": "sentence",
+    "intent": "hue_lightoff"
+  },
+  {
+    "question": "لطفا چندتا از قطعات موسیقی ------ پخش کن",
+    "choices": [
+      "ساز",
+      "عبور",
+      "فنی",
+      "کلیسایی"
+    ],
+    "answer": "کلیسایی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "من میخوام به چند تا موزیک ------ گوش بدم",
+    "choices": [
+      "شهرداری",
+      "البته",
+      "قرانی",
+      "نویسندگان"
+    ],
+    "answer": "قرانی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "هوای فعلی ------ چطوره",
+    "choices": [
+      "گفته",
+      "طبق",
+      "استان البرز",
+      "الدین"
+    ],
+    "answer": "استان البرز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "هوای فعلی ------ چطور است",
+    "choices": [
+      "آذر",
+      "کرمان",
+      "تهران",
+      "سالهای"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "آبادان",
+      "افراد",
+      "پزشکی",
+      "شهید"
+    ],
+    "answer": "آبادان",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "ساعت الان ------",
+    "choices": [
+      "فقط",
+      "مذهبی",
+      "شرکت",
+      "اصفهان"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "زمان فعلی در ------",
+    "choices": [
+      "ایران",
+      "یکدیگر",
+      "ملی",
+      "درباره"
+    ],
+    "answer": "ایران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "ممکنه لطفا بدونم ساعت ------ اینجا به وقت ایران ساعت چند می‌شه",
+    "choices": [
+      "آهنگ",
+      "شش بعدازظهر",
+      "با",
+      "شخصیت"
+    ],
+    "answer": "شش بعدازظهر",
+    "type": "sentence",
+    "intent": "convert"
+  },
+  {
+    "question": "میتونی به من بگی بین ------ و بندرعباس چقدر فاصله زمانی هست",
+    "choices": [
+      "داشته",
+      "ص",
+      "نماید",
+      "اصفهان"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "convert"
+  },
+  {
+    "question": "من دو تا ------ و یک کوکا کولا می‌خواهم فوری آن را سفارش بده",
+    "choices": [
+      "میان",
+      "برگر",
+      "درصد",
+      "بن"
+    ],
+    "answer": "برگر",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "دو تا ------ برای من سفارش بده",
+    "choices": [
+      "همبرگر",
+      "می‌گویند",
+      "گیلان",
+      "می‌گوید"
+    ],
+    "answer": "همبرگر",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "یک ------ سفارش بده",
+    "choices": [
+      "پیشنهاد",
+      "چند",
+      "پیتزا",
+      "دولتی"
+    ],
+    "answer": "پیتزا",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "لطفا ------ من را پس از شارژ قطع کن",
+    "choices": [
+      "ماده",
+      "یونان",
+      "سوکت دو شاخه تلفن",
+      "عدد"
+    ],
+    "answer": "سوکت دو شاخه تلفن",
+    "type": "sentence",
+    "intent": "wemo_off"
+  },
+  {
+    "question": "زمانی که من به خانه می‌رسم سوکت ------ را روشن کن",
+    "choices": [
+      "چنین",
+      "ناسا",
+      "جدید",
+      "تلویزیون"
+    ],
+    "answer": "تلویزیون",
+    "type": "sentence",
+    "intent": "wemo_on"
+  },
+  {
+    "question": "از تو می خواهم قبل از شارژ شدن ------ را خاموش کنی",
+    "choices": [
+      "تلفن همراه سوکت پریز",
+      "پیروزی",
+      "علمی",
+      "حالی"
+    ],
+    "answer": "تلفن همراه سوکت پریز",
+    "type": "sentence",
+    "intent": "wemo_off"
+  },
+  {
+    "question": "------ را مرتب به من اطلاع بده",
+    "choices": [
+      "استفاده",
+      "هنگامی",
+      "خاک",
+      "قیمت بیتکوین"
+    ],
+    "answer": "قیمت بیتکوین",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "من را با ------ روزآمد نگه دار",
+    "choices": [
+      "قیمت های بازار سهام",
+      "منتشر",
+      "تشخیص",
+      "توجه"
+    ],
+    "answer": "قیمت های بازار سهام",
+    "type": "sentence",
+    "intent": "stock"
+  },
+  {
+    "question": "اخبار ------ از موضوع نوار مصاحبه ظریف را دنبال کن",
+    "choices": [
+      "بسیاری",
+      "جلد",
+      "آینده",
+      "اشعار"
+    ],
+    "answer": "آینده",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "میتونی ------ من را پخش کنی",
+    "choices": [
+      "آخرین آهنگ",
+      "پل",
+      "بعد",
+      "روشن"
+    ],
+    "answer": "آخرین آهنگ",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "یک آهنگ از ------ پخش کن",
+    "choices": [
+      "آورد",
+      "ابی",
+      "داشتند",
+      "نفت"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "یک آهنگ از ------ ساعت شش غروب پخش کن",
+    "choices": [
+      "ارومیه",
+      "بیشتر",
+      "ویژه",
+      "دیشب"
+    ],
+    "answer": "دیشب",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "روستا",
+      "ابتدا",
+      "چپ",
+      "اصفهان"
+    ],
+    "answer": "اصفهان",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "به من بگو در ------ ساعت چند است",
+    "choices": [
+      "تهران",
+      "امور",
+      "آهنگ",
+      "صفحه"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "همین حالا ساعت ------ را بگو",
+    "choices": [
+      "کند",
+      "د",
+      "تهران",
+      "ابراهیم"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "من تازه غذا سفارش دادم زنگ بزن ببین ------ یا نه",
+    "choices": [
+      "اکبر",
+      "تحویل داده شده",
+      "خیلی",
+      "بنیاد"
+    ],
+    "answer": "تحویل داده شده",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا امکان ------ سفارش من وجود داره",
+    "choices": [
+      "نظریه",
+      "تغییر",
+      "ارسال",
+      "باشگاه"
+    ],
+    "answer": "ارسال",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "به ------ زنگ بزن ببین سفارش در راه هست یا نه",
+    "choices": [
+      "رستوران",
+      "شعر",
+      "کردن",
+      "برای"
+    ],
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "لطفا ------ را روشن کن",
+    "choices": [
+      "اتاق",
+      "استاندارد",
+      "بررسی",
+      "می‌کند"
+    ],
+    "answer": "اتاق",
+    "type": "sentence",
+    "intent": "hue_lightup"
+  },
+  {
+    "question": "در ------ چه می گذرد",
+    "choices": [
+      "شده",
+      "مجلس",
+      "گردد",
+      "چیزی"
+    ],
+    "answer": "مجلس",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "چیزی ------ به من بگو",
+    "choices": [
+      "شرق",
+      "خنده دار",
+      "ارومیه",
+      "خرداد"
+    ],
+    "answer": "خنده دار",
+    "type": "sentence",
+    "intent": "joke"
+  },
+  {
+    "question": "من میخوام ------ گوش بدم لطفا",
+    "choices": [
+      "عمر",
+      "محمدرضا",
+      "ایوان بند",
+      "تر"
+    ],
+    "answer": "ایوان بند",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "من الان می‌خواهم ------ گوش کنم",
+    "choices": [
+      "متولد",
+      "کلهر",
+      "ای",
+      "اواخر"
+    ],
+    "answer": "کلهر",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "الآن چه کسی پیشتاز مسابقه ------ است",
+    "choices": [
+      "خانواده",
+      "فرمول یک",
+      "هفت",
+      "عمده"
+    ],
+    "answer": "فرمول یک",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آخرین خبرها درباره ------ را به من بگو",
+    "choices": [
+      "عشق",
+      "نظرسنجی انتخاباتی",
+      "قم",
+      "سپتامبر"
+    ],
+    "answer": "نظرسنجی انتخاباتی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "تیتر اخبار ------ را بخوان",
+    "choices": [
+      "گیری",
+      "دارند",
+      "ایرانیان",
+      "روزنامه‌ی همشهری"
+    ],
+    "answer": "روزنامه‌ی همشهری",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "می خواهم آخرین اخبار ------ را بشنوم",
+    "choices": [
+      "خبرگزاری مهر",
+      "جامعه",
+      "حسن",
+      "ایران"
+    ],
+    "answer": "خبرگزاری مهر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "می توانی آخرین خبر فوری از ------ را به من نشان بدهی",
+    "choices": [
+      "روزنامه آفتاب",
+      "نیاز",
+      "سوم",
+      "دیگر"
+    ],
+    "answer": "روزنامه آفتاب",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "می خواهم خبرهای ------ را بدانم",
+    "choices": [
+      "روزنامه اطلاعات",
+      "حق",
+      "ویژه",
+      "آلبوم"
+    ],
+    "answer": "روزنامه اطلاعات",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "لطفا آخرین اخبار ------ را برای من بخوان",
+    "choices": [
+      "سال‌های",
+      "پی",
+      "منجر",
+      "روزنامه آفتاب"
+    ],
+    "answer": "روزنامه آفتاب",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا می توانم اخبار فوری ------ را بدانم",
+    "choices": [
+      "خبرگزاری مهر",
+      "کامپیوتر",
+      "بهره",
+      "فصل"
+    ],
+    "answer": "خبرگزاری مهر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "یک زنگ هشدار برای ساعت ------ صبح فردا ایجاد کن",
+    "choices": [
+      "چهار",
+      "مهندسی",
+      "ها",
+      "خورشید"
+    ],
+    "answer": "چهار",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "یک زنگ هشدار تنظیم کن تا ------ بیدارم کند",
+    "choices": [
+      "بعد از پنج ساعت",
+      "مطلق",
+      "گلستان",
+      "قتل"
+    ],
+    "answer": "بعد از پنج ساعت",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "برای بیدار شدن من ------ زنگ هشداری تنظیم کن",
+    "choices": [
+      "بیست",
+      "استرالیا",
+      "می‌کنند",
+      "بعد از سه ساعت"
+    ],
+    "answer": "بعد از سه ساعت",
+    "type": "sentence",
+    "intent": "set"
+  },
+  {
+    "question": "وضعیت آب و هوای ------ را ارائه بده",
+    "choices": [
+      "آبان",
+      "فرهنگی",
+      "هفته",
+      "اعدام"
+    ],
+    "answer": "هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آب و هوای ------ را نمایش بده",
+    "choices": [
+      "سرخ",
+      "کننده",
+      "پیش",
+      "هفته"
+    ],
+    "answer": "هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "وضع هوای ------ رو خلاصه کن",
+    "choices": [
+      "علیه",
+      "هفته",
+      "عربی",
+      "کشورهای"
+    ],
+    "answer": "هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "من میخوام آهنگ های ------ را گوش بدم",
+    "choices": [
+      "ابی",
+      "بخش‌های",
+      "اکنون",
+      "قمری"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "آهنگ نوازش ------ را پخش کن",
+    "choices": [
+      "برتر",
+      "ابی",
+      "توسط",
+      "کوتاه"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "بعد از این یکی آخرین آهنگ های ------ را پخش کن",
+    "choices": [
+      "بزرگترین",
+      "روستایی",
+      "ابی",
+      "محمدرضا"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "ببین چقدر ------ بیرون هوا سرد است",
+    "choices": [
+      "پوشش",
+      "جریان",
+      "همراه",
+      "امروز"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ هوا چند درجه است",
+    "choices": [
+      "انتقال",
+      "معمولا",
+      "امروز",
+      "پسر"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ دور و بر چقدر مرطوب است",
+    "choices": [
+      "ارومیه",
+      "امروز",
+      "دورهٔ",
+      "دلیل"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آهنگ های سبک ------ و هیپ هاپ پخش کن.",
+    "choices": [
+      "کوتاه",
+      "رپ",
+      "بیت",
+      "گذاری"
+    ],
+    "answer": "رپ",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "همه ی جدیدترین آهنگ های ------ را پخش کن",
+    "choices": [
+      "یکم",
+      "کشاورزی",
+      "پاپ",
+      "چنین"
+    ],
+    "answer": "پاپ",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "بعدی ------ را پخش کن",
+    "choices": [
+      "خون",
+      "دوره",
+      "هستند",
+      "لیست آهنگ های شاد"
+    ],
+    "answer": "لیست آهنگ های شاد",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "چه چیزی ------ است",
+    "choices": [
+      "تفسیر",
+      "خورشیدی",
+      "نماید",
+      "باب شده"
+    ],
+    "answer": "باب شده",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "از ------ موزیک های ترنس من پخش کن",
+    "choices": [
+      "لیست",
+      "ابن",
+      "حسین",
+      "مورد"
+    ],
+    "answer": "لیست",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "صدا رو ------ کاهش بده.",
+    "choices": [
+      "تحصیل",
+      "روستای",
+      "قدر",
+      "به ده درصد"
+    ],
+    "answer": "به ده درصد",
+    "type": "sentence",
+    "intent": "volume_down"
+  },
+  {
+    "question": "این منطقه زمانی را به ------ تغییر بده",
+    "choices": [
+      "می‌گویند",
+      "تهران",
+      "مقدار",
+      "حوزه"
+    ],
+    "answer": "تهران",
+    "type": "sentence",
+    "intent": "convert"
+  },
+  {
+    "question": "زمان را از ------ به زمان استاندارد ایران تغییر بده",
+    "choices": [
+      "این موقعیت",
+      "دهستان",
+      "حمایت",
+      "می‌توانند"
+    ],
+    "answer": "این موقعیت",
+    "type": "sentence",
+    "intent": "convert"
+  },
+  {
+    "question": "آیا می‌توانی ------ را خاموش کنی",
+    "choices": [
+      "درگذشتگان",
+      "ساعت",
+      "سوکت دوشاخه‌ی مهسان",
+      "ص"
+    ],
+    "answer": "سوکت دوشاخه‌ی مهسان",
+    "type": "sentence",
+    "intent": "wemo_off"
+  },
+  {
+    "question": "------ را روشن کن تا شارژر خودم را به آن وصل کنم",
+    "choices": [
+      "سوکت دوشاخه‌ی مهسان",
+      "چون",
+      "حمل",
+      "تعدادی"
+    ],
+    "answer": "سوکت دوشاخه‌ی مهسان",
+    "type": "sentence",
+    "intent": "wemo_on"
+  },
+  {
+    "question": "------ را روشن کن تا دانگل من وصل شود",
+    "choices": [
+      "سوکت دوشاخه‌ی مهسان",
+      "کارگردانی",
+      "سن",
+      "مدرسه"
+    ],
+    "answer": "سوکت دوشاخه‌ی مهسان",
+    "type": "sentence",
+    "intent": "wemo_on"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "وارد",
+      "قهرمانی",
+      "می‌گوید",
+      "این هفته"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "هوای ------ قرار است چطور باشد",
+    "choices": [
+      "اساس",
+      "تحصیل",
+      "زمان",
+      "این هفته"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "پیش بینی وضع هوای ------ چطور است",
+    "choices": [
+      "لازم",
+      "فراهم",
+      "این هفته",
+      "کل"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "ممکن است لطفا تازه ترین سر خط خبرها را از ------ به من بدهی",
+    "choices": [
+      "رئیس",
+      "جدیدترین منبع خبری ام",
+      "شاعر",
+      "خدمت"
+    ],
+    "answer": "جدیدترین منبع خبری ام",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "می‌توانی لطفا ------ را برای آخرین اخبار جستجو کنی",
+    "choices": [
+      "شیراز",
+      "اين",
+      "خبررسانی",
+      "بازی"
+    ],
+    "answer": "خبررسانی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آخرین اخبار ------ را به من بگو",
+    "choices": [
+      "بازیابی‌شده",
+      "موضوع",
+      "سیاسی",
+      "تدوین"
+    ],
+    "answer": "سیاسی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "از آخرین اخبار ------ به من بگو",
+    "choices": [
+      "ورزشی",
+      "کانادا",
+      "شدند",
+      "ریاست"
+    ],
+    "answer": "ورزشی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "این روزها در ------ چه می گذرد",
+    "choices": [
+      "زن",
+      "دنیا",
+      "مشغول",
+      "حال"
+    ],
+    "answer": "دنیا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آپدیت اخبار ------ را به من بده",
+    "choices": [
+      "قبل",
+      "دادگاه",
+      "اولیه",
+      "بی. بی. سی."
+    ],
+    "answer": "بی. بی. سی.",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "اخبار آپدیت ------ چیست",
+    "choices": [
+      "هدایت",
+      "فقط",
+      "بی. بی. سی",
+      "فعال"
+    ],
+    "answer": "بی. بی. سی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آخرین اخبار ------ را به من نشان بده",
+    "choices": [
+      "بازیکنان",
+      "روز",
+      "زیر",
+      "بی. بی. سی."
+    ],
+    "answer": "بی. بی. سی.",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آخرین آپدیت های خبری ------ را نشان بده",
+    "choices": [
+      "بنابر",
+      "مکان",
+      "گیاهان",
+      "بی. بی. سی."
+    ],
+    "answer": "بی. بی. سی.",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "وقتی ------ در اخبار است به من اطلاع بده",
+    "choices": [
+      "ساخت",
+      "کامپیوتر",
+      "مهم",
+      "روحانی"
+    ],
+    "answer": "روحانی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا اخیرا جایی در دنیا ------ اومده",
+    "choices": [
+      "عالی",
+      "مسائل",
+      "اعدام",
+      "زلزله"
+    ],
+    "answer": "زلزله",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ از ابی را برایم پخش کن",
+    "choices": [
+      "رادیو",
+      "طبیعی",
+      "نوازش",
+      "نام‌های"
+    ],
+    "answer": "نوازش",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "من میخوام آهنگ ------ شادمهر را گوش بدم",
+    "choices": [
+      "ترس",
+      "احمد",
+      "نگاه",
+      "بر"
+    ],
+    "answer": "ترس",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "به ------ از شادمهر گوش بده",
+    "choices": [
+      "ترس",
+      "فروش",
+      "امروز",
+      "می‌شوند"
+    ],
+    "answer": "ترس",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ را پخش کن",
+    "choices": [
+      "پسر",
+      "بیشتری",
+      "آمار",
+      "عشق"
+    ],
+    "answer": "عشق",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ از شادمهر را لطفا پخش کن",
+    "choices": [
+      "تاریخی",
+      "مشاهده",
+      "تقدیر",
+      "روی"
+    ],
+    "answer": "تقدیر",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ بزار",
+    "choices": [
+      "کنید",
+      "آهنگ های عاشقانه",
+      "ژاپن",
+      "پل"
+    ],
+    "answer": "آهنگ های عاشقانه",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "همه آهنگ های ------ را پخش کن",
+    "choices": [
+      "ابراهیم",
+      "راک",
+      "المپیک",
+      "نمود"
+    ],
+    "answer": "راک",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "به ترتیب فعلی ------ را اضافه کن",
+    "choices": [
+      "ترس",
+      "سابق",
+      "اساسی",
+      "تحصیلات"
+    ],
+    "answer": "ترس",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "امروز",
+      "نیمه",
+      "مسجد",
+      "شدت"
+    ],
+    "answer": "امروز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ در حال حاضر چقدره",
+    "choices": [
+      "دما",
+      "نخست",
+      "آن",
+      "متفاوت"
+    ],
+    "answer": "دما",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "هوای ------ چطور بود",
+    "choices": [
+      "بخش",
+      "سیاسی",
+      "نویسنده",
+      "این هفته"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "هوای ------ یا بد",
+    "choices": [
+      "عملیات",
+      "ایشان",
+      "کمی",
+      "ملایم"
+    ],
+    "answer": "ملایم",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ این هفته را به من نشان بده",
+    "choices": [
+      "حقیقت",
+      "حداکثر دمای هوای",
+      "یاد",
+      "خارجی"
+    ],
+    "answer": "حداکثر دمای هوای",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا ------ نزدیک است",
+    "choices": [
+      "برنامه‌های",
+      "تابستان",
+      "مشاهیر",
+      "الله"
+    ],
+    "answer": "تابستان",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "------ احتمال ریزش تگرگ هست",
+    "choices": [
+      "فناوری",
+      "این هفته",
+      "طبقه",
+      "مسعود"
+    ],
+    "answer": "این هفته",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "زنگ هشدار برای ------ صبح را تایید کن",
+    "choices": [
+      "محمد",
+      "بیش",
+      "بنابراین",
+      "فردا"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "زنگ ساعت برای ------ چه ساعتی تنظیم شده است",
+    "choices": [
+      "البته",
+      "فردا",
+      "شیعه",
+      "کند"
+    ],
+    "answer": "فردا",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "می توانی لطفا یک ------ مکزیکی با سرویس بیرون بر معرفی کنی",
+    "choices": [
+      "رستوران",
+      "نامه",
+      "مدل",
+      "اساسی"
+    ],
+    "answer": "رستوران",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "کدام ------ غذای بیرون بر دارند",
+    "choices": [
+      "میانه",
+      "گذاری",
+      "چپ",
+      "رستوران ها"
+    ],
+    "answer": "رستوران ها",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "آیا می‌توانم در ------ غذای بیرون‌بر را سفارش بدهم",
+    "choices": [
+      "ای",
+      "این زمان",
+      "رشد",
+      "دریا"
+    ],
+    "answer": "این زمان",
+    "type": "sentence",
+    "intent": "order"
+  },
+  {
+    "question": "می خواهم جدیدترین ------ شهر را بدانم",
+    "choices": [
+      "ساختمان",
+      "هایی",
+      "اخبار محلی",
+      "گروه‌های"
+    ],
+    "answer": "اخبار محلی",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "قهوه را ------ درست کن",
+    "choices": [
+      "اساسی",
+      "دفاع",
+      "هشت صبح",
+      "نام‌های"
+    ],
+    "answer": "هشت صبح",
+    "type": "sentence",
+    "intent": "coffee"
+  },
+  {
+    "question": "قهوه را ------ دم کن",
+    "choices": [
+      "رسید",
+      "اعداد",
+      "حمایت",
+      "ظهر"
+    ],
+    "answer": "ظهر",
+    "type": "sentence",
+    "intent": "coffee"
+  },
+  {
+    "question": "لیست آهنگ های جدید ------ را پخش کن",
+    "choices": [
+      "حقوق",
+      "بازی‌های",
+      "ابی",
+      "درجه"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "فهرست آهنگ های جدید ------ را پخش کن",
+    "choices": [
+      "ابی",
+      "تشخیص",
+      "برخی",
+      "ژانویه"
+    ],
+    "answer": "ابی",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "------ ابی را پخش کن",
+    "choices": [
+      "تیر",
+      "نظامی",
+      "توابع",
+      "نوازش"
+    ],
+    "answer": "نوازش",
+    "type": "sentence",
+    "intent": "music"
+  },
+  {
+    "question": "اپلیکیشن ------ را باز کن",
+    "choices": [
+      "دست",
+      "شبه",
+      "طول",
+      "نیویورک تایمز"
+    ],
+    "answer": "نیویورک تایمز",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "ایمیل گزارش صبحگاهی ------ را برایم باز کن",
+    "choices": [
+      "لیگ",
+      "مراکز",
+      "خبرگزاری مهر",
+      "زندان"
+    ],
+    "answer": "خبرگزاری مهر",
+    "type": "sentence",
+    "intent": "query"
+  },
+  {
+    "question": "به پاندورا برو و رادیو ------ را پیدا کن و پخش کن لطفا",
+    "choices": [
+      "استاندارد",
+      "پیشنهاد",
+      "راه شب",
+      "خاص"
+    ],
+    "answer": "راه شب",
+    "type": "sentence",
+    "intent": "music"
+  }
+]

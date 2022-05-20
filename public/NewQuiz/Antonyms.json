@@ -1,0 +1,5186 @@
+[
+  {
+    "question": "بیکار",
+    "choices": [
+      "سخت",
+      "اشاره",
+      "فاصله",
+      "مشغول"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "غیرقانونی",
+    "choices": [
+      "باب",
+      "کشورهای",
+      "قانونی",
+      "تحت"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خیالی",
+    "choices": [
+      "دادگان",
+      "چندین",
+      "آورد",
+      "واقعی"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زندانی",
+    "choices": [
+      "اداره",
+      "مانده",
+      "اسلام",
+      "آزاد"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شامل",
+    "choices": [
+      "تشکیل",
+      "مدیر",
+      "محروم",
+      "سرشماری"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "چب",
+    "choices": [
+      "مطالعه",
+      "زمانی",
+      "زیبا",
+      "راست"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بااحتیاط",
+    "choices": [
+      "تلاش",
+      "احتیاط",
+      "خرداد",
+      "نوامبر"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شروع",
+    "choices": [
+      "گروه",
+      "دست",
+      "شیخ",
+      "پایان"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آغاز",
+    "choices": [
+      "فصل",
+      "طرح",
+      "پایان",
+      "نیویورک"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ماندن",
+    "choices": [
+      "رفتن",
+      "ماشین",
+      "یادکرد",
+      "مدیر"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "توقف",
+    "choices": [
+      "عدد",
+      "به‌",
+      "کلمه",
+      "حرکت"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مستقیم",
+    "choices": [
+      "المپیک",
+      "آموزش",
+      "کج",
+      "حمله"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "داخل",
+    "choices": [
+      "مقاله",
+      "بيرون",
+      "آخر",
+      "چین"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "داخل",
+    "choices": [
+      "داشته",
+      "داخل",
+      "دفتر",
+      "نامه"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مهربان",
+    "choices": [
+      "ساکن",
+      "ژاپن",
+      "در",
+      "نامهربان"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پادشاه",
+    "choices": [
+      "سفید",
+      "احتمال",
+      "بازیگر",
+      "ملکه"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "علم",
+    "choices": [
+      "جهل",
+      "ق",
+      "فاصله",
+      "میان"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شناس",
+    "choices": [
+      "هوای",
+      "وبگاه",
+      "ناشناس",
+      "بسیار"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بزرگ",
+    "choices": [
+      "داشت",
+      "کوچک",
+      "نزدیک",
+      "جرم"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آخری",
+    "choices": [
+      "همیشه",
+      "اولی",
+      "تدوین",
+      "مشاهیر"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خنده",
+    "choices": [
+      "گریه",
+      "می‌شوند",
+      "درگذشت",
+      "انتشار"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "تنبل",
+    "choices": [
+      "زرنگ",
+      "پزشکی",
+      "پروژه",
+      "بانک"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بیگانه",
+    "choices": [
+      "می‌کنند",
+      "شده‌اند",
+      "نبود",
+      "دوست"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قوی",
+    "choices": [
+      "روستای",
+      "ضعیف",
+      "دانشجویان",
+      "استان‌های"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "تابستان",
+    "choices": [
+      "زمستان",
+      "جدا",
+      "سنگ",
+      "رفته"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آفتاب",
+    "choices": [
+      "موفق",
+      "عربستان",
+      "رشته",
+      "مهتاب"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شیرین",
+    "choices": [
+      "این",
+      "آذر",
+      "شور",
+      "سنگ"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایین",
+    "choices": [
+      "ارزش",
+      "بالا",
+      "خانواده",
+      "همیشه"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "عالی",
+    "choices": [
+      "بدترین",
+      "باید",
+      "مهم",
+      "نتایج"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "تلخ",
+    "choices": [
+      "محصول",
+      "شیرین",
+      "شمالی",
+      "رابطه"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سیاه",
+    "choices": [
+      "سفید",
+      "نزدیک",
+      "نامزد",
+      "تمام"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایین",
+    "choices": [
+      "نقاط",
+      "ان",
+      "بالا",
+      "بیشتری"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پسر",
+    "choices": [
+      "پرداخت",
+      "آمد",
+      "معرفی",
+      "دختر"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شجاع",
+    "choices": [
+      "شیعه",
+      "خورشیدی",
+      "سی",
+      "ترسو"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خیس",
+    "choices": [
+      "فشار",
+      "ولایت",
+      "خشک",
+      "توابع"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مطمئن",
+    "choices": [
+      "بالای",
+      "برخی",
+      "نامطمئن",
+      "بزرگ‌ترین"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خوشحال",
+    "choices": [
+      "خدمت",
+      "فیلم‌های",
+      "یکم",
+      "ناراحت"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شهر",
+    "choices": [
+      "دهات",
+      "روابط",
+      "مذهبی",
+      "مساحت"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بسته",
+    "choices": [
+      "اجتماعی",
+      "باز",
+      "ای",
+      "تیم"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سرد",
+    "choices": [
+      "اکتبر",
+      "رفته",
+      "خارج",
+      "گرم"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "روشن",
+    "choices": [
+      "خاموش",
+      "کند",
+      "انواع",
+      "آخرین"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "جوان",
+    "choices": [
+      "قلعه",
+      "پیر",
+      "کسب",
+      "ستاره"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خوب",
+    "choices": [
+      "تعدادی",
+      "مطالعات",
+      "بد",
+      "نسبت"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "کوچیک",
+    "choices": [
+      "دستگاه",
+      "علیه",
+      "پایین",
+      "بزرگ"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خوشگل",
+    "choices": [
+      "زشت",
+      "بریتانیا",
+      "حمل",
+      "نام‌های"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زیبا",
+    "choices": [
+      "زشت",
+      "ساله",
+      "کتابخانه",
+      "ریاست"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قشنگ",
+    "choices": [
+      "درخت",
+      "کامپیوتر",
+      "زشت",
+      "های"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آسان",
+    "choices": [
+      "عامل",
+      "سخت",
+      "داشته",
+      "علی"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زود",
+    "choices": [
+      "دیر",
+      "محلی",
+      "سرزمین",
+      "رشته"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خواب",
+    "choices": [
+      "اضافه",
+      "بیدار",
+      "جنسی",
+      "قرار"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نو",
+    "choices": [
+      "قدیمی",
+      "خانوار",
+      "وارد",
+      "بازی‌های"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "جدید",
+    "choices": [
+      "هشت",
+      "خصوصی",
+      "نقشه",
+      "قدیمی"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نزدیک",
+    "choices": [
+      "پیشین",
+      "وب",
+      "دور",
+      "منجر"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ارزون",
+    "choices": [
+      "یعنی",
+      "گرون",
+      "شهرت",
+      "سری"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بیکار",
+    "choices": [
+      "ریشه",
+      "مشغول",
+      "گاه",
+      "موضوع"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "غیرقانونی",
+    "choices": [
+      "قانونی",
+      "شده",
+      "چندین",
+      "شش"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خیالی",
+    "choices": [
+      "هوا",
+      "واقعی",
+      "درباره",
+      "مشخص"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زندانی",
+    "choices": [
+      "آزاد",
+      "نظام",
+      "شاعران",
+      "حضور"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شامل",
+    "choices": [
+      "انقلاب",
+      "روستاهای",
+      "مطالعات",
+      "محروم"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "چب",
+    "choices": [
+      "موقعیت",
+      "راست",
+      "آورد",
+      "گرفتن"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بااحتیاط",
+    "choices": [
+      "پیوند",
+      "شش",
+      "قهرمان",
+      "احتیاط"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شروع",
+    "choices": [
+      "افراد",
+      "روستای",
+      "پایان",
+      "‌"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آغاز",
+    "choices": [
+      "پایان",
+      "معروف",
+      "چند",
+      "خاصی"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ماندن",
+    "choices": [
+      "محدود",
+      "رفتن",
+      "اگر",
+      "خیلی"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "توقف",
+    "choices": [
+      "دستور",
+      "عمر",
+      "الکتریکی",
+      "حرکت"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مستقیم",
+    "choices": [
+      "کج",
+      "برق",
+      "شرح",
+      "سلطنت"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "داخل",
+    "choices": [
+      "معروف",
+      "گیلان",
+      "بيرون",
+      "مهاجرت"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "داخل",
+    "choices": [
+      "شناسی",
+      "داخل",
+      "قاجار",
+      "تنها"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مهربان",
+    "choices": [
+      "نامهربان",
+      "کردند",
+      "اسماعیل",
+      "ویژه"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پادشاه",
+    "choices": [
+      "داشتند",
+      "ملکه",
+      "ام",
+      "من"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "علم",
+    "choices": [
+      "همسر",
+      "اصلی",
+      "جهل",
+      "میراث"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شناس",
+    "choices": [
+      "ه",
+      "ناشناس",
+      "آمد",
+      "‌ها"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بزرگ",
+    "choices": [
+      "نمونه",
+      "کوچک",
+      "اختیار",
+      "باعث"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آخری",
+    "choices": [
+      "اولی",
+      "سلطان",
+      "طرح",
+      "قدر"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خنده",
+    "choices": [
+      "پنج",
+      "اگر",
+      "فوریه",
+      "گریه"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "تنبل",
+    "choices": [
+      "زرنگ",
+      "وسیله",
+      "از",
+      "داشتن"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بیگانه",
+    "choices": [
+      "مسلمانان",
+      "دوست",
+      "یا",
+      "تنها"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قوی",
+    "choices": [
+      "ضعیف",
+      "دستور",
+      "راه",
+      "شدند"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "تابستان",
+    "choices": [
+      "آخرین",
+      "می‌رسد",
+      "زمستان",
+      "شاعران"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آفتاب",
+    "choices": [
+      "کامل",
+      "دهه",
+      "لندن",
+      "مهتاب"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شیرین",
+    "choices": [
+      "پول",
+      "شیر",
+      "شور",
+      "خانوار"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایین",
+    "choices": [
+      "بالا",
+      "استفاده",
+      "کشته",
+      "بزرگی"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "عالی",
+    "choices": [
+      "باعث",
+      "عراق",
+      "بدترین",
+      "عباس"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "تلخ",
+    "choices": [
+      "شیرین",
+      "شمسی",
+      "منجر",
+      "جهانی"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سیاه",
+    "choices": [
+      "سالهای",
+      "کمتر",
+      "سفید",
+      "دوم"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایین",
+    "choices": [
+      "ق",
+      "موفق",
+      "بالا",
+      "کنترل"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پسر",
+    "choices": [
+      "پیروزی",
+      "دختر",
+      "حسن",
+      "می‌کنند"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شجاع",
+    "choices": [
+      "اجرای",
+      "اش",
+      "ترسو",
+      "عبدالله"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خیس",
+    "choices": [
+      "خشک",
+      "اطراف",
+      "فیلم",
+      "حقوق"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مطمئن",
+    "choices": [
+      "نمایندگان",
+      "نامطمئن",
+      "یا",
+      "واژه"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خوشحال",
+    "choices": [
+      "نگاه",
+      "اوایل",
+      "ناراحت",
+      "می‌کردند"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شهر",
+    "choices": [
+      "جایزه",
+      "امور",
+      "دهات",
+      "پرواز"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بسته",
+    "choices": [
+      "باز",
+      "کاخ",
+      "بازیکنان",
+      "تغییر"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سرد",
+    "choices": [
+      "زن",
+      "بالای",
+      "متولد",
+      "گرم"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "روشن",
+    "choices": [
+      "خلیج",
+      "محمدرضا",
+      "اما",
+      "خاموش"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "جوان",
+    "choices": [
+      "پیر",
+      "سالگی",
+      "پرواز",
+      "اقدام"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خوب",
+    "choices": [
+      "ساده",
+      "دوم",
+      "بد",
+      "نماید"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "کوچیک",
+    "choices": [
+      "توابع",
+      "بازی‌های",
+      "فلسفه",
+      "بزرگ"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خوشگل",
+    "choices": [
+      "نشر",
+      "زشت",
+      "بازی",
+      "اختیار"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زیبا",
+    "choices": [
+      "خمینی",
+      "فی",
+      "زشت",
+      "قسمت"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قشنگ",
+    "choices": [
+      "زشت",
+      "طی",
+      "ادبی",
+      "کل"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آسان",
+    "choices": [
+      "تفسیر",
+      "پوشش",
+      "ام",
+      "سخت"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زود",
+    "choices": [
+      "بی‌بی‌سی",
+      "دیر",
+      "تابع",
+      "ولی"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خواب",
+    "choices": [
+      "داستان",
+      "ناسا",
+      "بیان",
+      "بیدار"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نو",
+    "choices": [
+      "قدیمی",
+      "فوریه",
+      "همه",
+      "ماهی"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "جدید",
+    "choices": [
+      "يا",
+      "شناخته",
+      "قدیمی",
+      "مستقل"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نزدیک",
+    "choices": [
+      "مسعود",
+      "ساختمان",
+      "می‌توانند",
+      "دور"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ارزون",
+    "choices": [
+      "سالهای",
+      "نشانی",
+      "گرون",
+      "اصلی"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بیکار",
+    "choices": [
+      "مشغول",
+      "سوی",
+      "میلاد",
+      "سرشماری"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "غیرقانونی",
+    "choices": [
+      "کنند",
+      "البته",
+      "حاکم",
+      "قانونی"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خیالی",
+    "choices": [
+      "واقعی",
+      "می‌توان",
+      "شامل",
+      "نوامبر"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زندانی",
+    "choices": [
+      "عنوان",
+      "باقی",
+      "آزاد",
+      "سطح"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شامل",
+    "choices": [
+      "قرن",
+      "ارتباط",
+      "دور",
+      "محروم"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "چب",
+    "choices": [
+      "دنیا",
+      "تلاش",
+      "راست",
+      "آنها"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بااحتیاط",
+    "choices": [
+      "در",
+      "استان‌های",
+      "ملل",
+      "احتیاط"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شروع",
+    "choices": [
+      "طبقه",
+      "پایان",
+      "پزشکی",
+      "خبر"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آغاز",
+    "choices": [
+      "پایان",
+      "پانویس",
+      "مراکز",
+      "مجله"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ماندن",
+    "choices": [
+      "کامل",
+      "رفتن",
+      "ابن",
+      "ق"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "توقف",
+    "choices": [
+      "تا",
+      "حرکت",
+      "نشر",
+      "ساخت"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مستقیم",
+    "choices": [
+      "رهبر",
+      "کج",
+      "اجتماعی",
+      "اجازه"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "داخل",
+    "choices": [
+      "برادر",
+      "کمک",
+      "بيرون",
+      "علمی"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "داخل",
+    "choices": [
+      "دسته",
+      "باز",
+      "بریتانیا",
+      "داخل"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مهربان",
+    "choices": [
+      "می‌باشند",
+      "آمد",
+      "نامهربان",
+      "بزرگ‌ترین"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پادشاه",
+    "choices": [
+      "ملکه",
+      "باز",
+      "ه",
+      "ناحیه"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "علم",
+    "choices": [
+      "موسسه",
+      "مربع",
+      "دانشگاه‌های",
+      "جهل"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شناس",
+    "choices": [
+      "ناشناس",
+      "دره",
+      "مانند",
+      "حسین"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بزرگ",
+    "choices": [
+      "دولتی",
+      "قابل",
+      "خیلی",
+      "کوچک"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آخری",
+    "choices": [
+      "انرژی",
+      "اولی",
+      "دکتر",
+      "یعنی"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خنده",
+    "choices": [
+      "بالای",
+      "اند",
+      "گریه",
+      "نرم"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "تنبل",
+    "choices": [
+      "کاری",
+      "امپراتوری",
+      "کشته",
+      "زرنگ"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بیگانه",
+    "choices": [
+      "دوست",
+      "تهیه",
+      "بدین",
+      "ضد"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قوی",
+    "choices": [
+      "عراق",
+      "ویکی‌پدیای",
+      "کردن",
+      "ضعیف"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "تابستان",
+    "choices": [
+      "ماده",
+      "اکثر",
+      "زمستان",
+      "رشد"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آفتاب",
+    "choices": [
+      "قبل",
+      "مهتاب",
+      "ریشه",
+      "شکست"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شیرین",
+    "choices": [
+      "تحت",
+      "شور",
+      "گاز",
+      "قرن"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایین",
+    "choices": [
+      "پیشین",
+      "بالا",
+      "شیمیایی",
+      "که"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "عالی",
+    "choices": [
+      "بدترین",
+      "همه",
+      "نویسندگان",
+      "غیر"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "تلخ",
+    "choices": [
+      "دهستان",
+      "شیرین",
+      "نویسندگان",
+      "می‌آید"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سیاه",
+    "choices": [
+      "مارس",
+      "تن",
+      "سفید",
+      "مستقل"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایین",
+    "choices": [
+      "هنگام",
+      "قتل",
+      "بالا",
+      "شعر"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پسر",
+    "choices": [
+      "مصرف",
+      "خوانده",
+      "دختر",
+      "سفر"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شجاع",
+    "choices": [
+      "ساختمان",
+      "ترسو",
+      "تحت",
+      "فرانسوی"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خیس",
+    "choices": [
+      "خشک",
+      "متر",
+      "آمده",
+      "پایه"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مطمئن",
+    "choices": [
+      "نامطمئن",
+      "قانون",
+      "تعریف",
+      "پا"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خوشحال",
+    "choices": [
+      "مدیر",
+      "جامعه",
+      "ناراحت",
+      "آباد"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شهر",
+    "choices": [
+      "موسیقی",
+      "جهت",
+      "دهات",
+      "بودند"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بسته",
+    "choices": [
+      "همکاری",
+      "بزرگترین",
+      "باز",
+      "بعدی"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سرد",
+    "choices": [
+      "گرم",
+      "دانشگاه‌های",
+      "عمل",
+      "رخ"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "روشن",
+    "choices": [
+      "خمینی",
+      "خاموش",
+      "اول",
+      "ژوئن"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "جوان",
+    "choices": [
+      "پیر",
+      "بن",
+      "داشتند",
+      "طریق"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خوب",
+    "choices": [
+      "هدف",
+      "بد",
+      "دارند",
+      "شروع"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "کوچیک",
+    "choices": [
+      "بزرگ",
+      "دهستان‌های",
+      "پزشکی",
+      "کشتی"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خوشگل",
+    "choices": [
+      "معروف",
+      "راک",
+      "زشت",
+      "يا"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زیبا",
+    "choices": [
+      "اقتصاد",
+      "زشت",
+      "فنی",
+      "کشف"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قشنگ",
+    "choices": [
+      "زشت",
+      "پاپ",
+      "اثر",
+      "کشور"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آسان",
+    "choices": [
+      "پیام",
+      "سخت",
+      "شاعران",
+      "عربی"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زود",
+    "choices": [
+      "بدون",
+      "فعالیت",
+      "نقطه",
+      "دیر"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خواب",
+    "choices": [
+      "بیدار",
+      "مقابل",
+      "سالگی",
+      "حق"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نو",
+    "choices": [
+      "اصفهان",
+      "عبارتند",
+      "قدیمی",
+      "شده‌اند"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "جدید",
+    "choices": [
+      "آنکه",
+      "قدیمی",
+      "هنری",
+      "مشهور"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نزدیک",
+    "choices": [
+      "بنابر",
+      "تحقیقات",
+      "عامل",
+      "دور"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ارزون",
+    "choices": [
+      "گرون",
+      "محسوب",
+      "کالیفرنیا",
+      "شما"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بیکار",
+    "choices": [
+      "مشغول",
+      "قسمت",
+      "بعدها",
+      "قرن"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "غیرقانونی",
+    "choices": [
+      "فوریه",
+      "جلوگیری",
+      "قانونی",
+      "حاکم"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خیالی",
+    "choices": [
+      "فرهنگ",
+      "شعر",
+      "سوم",
+      "واقعی"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زندانی",
+    "choices": [
+      "فهرست",
+      "لیگ",
+      "آزاد",
+      "سلطنت"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شامل",
+    "choices": [
+      "قاجار",
+      "محروم",
+      "سبز",
+      "نتایج"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "چب",
+    "choices": [
+      "تصویب",
+      "دیده",
+      "جعبه",
+      "راست"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بااحتیاط",
+    "choices": [
+      "نوامبر",
+      "مشهور",
+      "مسلمانان",
+      "احتیاط"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شروع",
+    "choices": [
+      "ان",
+      "پایان",
+      "کامپیوتر",
+      "مرداد"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آغاز",
+    "choices": [
+      "می‌توانند",
+      "نوع",
+      "پایان",
+      "صورت"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ماندن",
+    "choices": [
+      "اندازه",
+      "رفتن",
+      "دیگری",
+      "بلکه"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "توقف",
+    "choices": [
+      "عدد",
+      "حرکت",
+      "اند",
+      "همچنین"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مستقیم",
+    "choices": [
+      "بهترین",
+      "توزیع",
+      "کج",
+      "روی"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "داخل",
+    "choices": [
+      "بستک",
+      "اقتصادی",
+      "بيرون",
+      "قمری"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "داخل",
+    "choices": [
+      "عربی",
+      "بی",
+      "داخل",
+      "دریایی"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مهربان",
+    "choices": [
+      "پدر",
+      "نامهربان",
+      "شعر",
+      "آهن"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پادشاه",
+    "choices": [
+      "ایالت",
+      "ملکه",
+      "نامه",
+      "دینی"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "علم",
+    "choices": [
+      "جهل",
+      "عدم",
+      "گردید",
+      "قرن"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شناس",
+    "choices": [
+      "وسیله",
+      "حتی",
+      "رود",
+      "ناشناس"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بزرگ",
+    "choices": [
+      "می‌رود",
+      "کوچک",
+      "پیش",
+      "شمال"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آخری",
+    "choices": [
+      "نبود",
+      "اولی",
+      "باید",
+      "صد"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خنده",
+    "choices": [
+      "گرم",
+      "رضا",
+      "گریه",
+      "دوباره"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "تنبل",
+    "choices": [
+      "زرنگ",
+      "قوانین",
+      "مختلف",
+      "قلعه"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بیگانه",
+    "choices": [
+      "دوست",
+      "شرقی",
+      "کننده",
+      "عالی"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قوی",
+    "choices": [
+      "ام",
+      "ضعیف",
+      "تاریخ",
+      "اگر"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "تابستان",
+    "choices": [
+      "هر",
+      "زمستان",
+      "ملی",
+      "حد"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آفتاب",
+    "choices": [
+      "مهتاب",
+      "ساخته",
+      "دار",
+      "ملی"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شیرین",
+    "choices": [
+      "جامعه",
+      "شور",
+      "دومین",
+      "گوناگون"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایین",
+    "choices": [
+      "پر",
+      "شهر",
+      "تابع",
+      "بالا"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "عالی",
+    "choices": [
+      "معماری",
+      "بدترین",
+      "انجمن",
+      "آذربایجان"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "تلخ",
+    "choices": [
+      "همیشه",
+      "سخن",
+      "طبق",
+      "شیرین"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سیاه",
+    "choices": [
+      "حالت",
+      "نمود",
+      "جدول",
+      "سفید"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایین",
+    "choices": [
+      "گروه",
+      "ازدواج",
+      "بالا",
+      "رفته"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پسر",
+    "choices": [
+      "مقدس",
+      "ترجمه",
+      "دختر",
+      "طریق"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شجاع",
+    "choices": [
+      "محیط",
+      "ترسو",
+      "او",
+      "شبکه"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خیس",
+    "choices": [
+      "کسب",
+      "خشک",
+      "کاری",
+      "دارند"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مطمئن",
+    "choices": [
+      "براساس",
+      "نامطمئن",
+      "آن‌ها",
+      "چیزی"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خوشحال",
+    "choices": [
+      "تخت",
+      "دیگری",
+      "ناراحت",
+      "بعدی"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شهر",
+    "choices": [
+      "شمسی",
+      "ی",
+      "دهات",
+      "معاصر"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بسته",
+    "choices": [
+      "جمله",
+      "باز",
+      "کوچک",
+      "خان"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سرد",
+    "choices": [
+      "کلی",
+      "داستان",
+      "سرشماری",
+      "گرم"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "روشن",
+    "choices": [
+      "کنار",
+      "خاموش",
+      "می",
+      "بخش"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "جوان",
+    "choices": [
+      "بسیار",
+      "دوره",
+      "البته",
+      "پیر"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خوب",
+    "choices": [
+      "ریشه",
+      "بد",
+      "اسکار",
+      "شبه"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "کوچیک",
+    "choices": [
+      "کلیسای",
+      "گفت",
+      "بزرگ",
+      "انتشارات"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خوشگل",
+    "choices": [
+      "نامیده",
+      "وزن",
+      "زشت",
+      "مطالعه"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زیبا",
+    "choices": [
+      "زشت",
+      "داخلی",
+      "سخت",
+      "طول"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قشنگ",
+    "choices": [
+      "سایت",
+      "امروز",
+      "واقع",
+      "زشت"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آسان",
+    "choices": [
+      "اولیه",
+      "خلیج",
+      "سخت",
+      "معرفی"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زود",
+    "choices": [
+      "اول",
+      "ساز",
+      "دیر",
+      "سطح"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خواب",
+    "choices": [
+      "بیدار",
+      "رسیدن",
+      "باب",
+      "شهرت"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نو",
+    "choices": [
+      "مهدی",
+      "اسلام",
+      "مطلق",
+      "قدیمی"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "جدید",
+    "choices": [
+      "مواد",
+      "ارومیه",
+      "قدیمی",
+      "موجب"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نزدیک",
+    "choices": [
+      "تحصیلات",
+      "دور",
+      "نو",
+      "متعلق"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ارزون",
+    "choices": [
+      "جهان",
+      "طراحی",
+      "گرون",
+      "مرکز"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مشغول",
+    "choices": [
+      "آموزش",
+      "داخلی",
+      "خمینی",
+      "بیکار"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قانونی",
+    "choices": [
+      "عوامل",
+      "قسمت",
+      "غیرقانونی",
+      "دانشگاه"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "واقعی",
+    "choices": [
+      "خیالی",
+      "نبود",
+      "عالی",
+      "همان"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آزاد",
+    "choices": [
+      "اسرائیل",
+      "ده",
+      "زندانی",
+      "دادن"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "محروم",
+    "choices": [
+      "شامل",
+      "مرکز",
+      "بهترین",
+      "معمولاً"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "راست",
+    "choices": [
+      "چب",
+      "بازی",
+      "بودند",
+      "رئیس"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "احتیاط",
+    "choices": [
+      "دریای",
+      "بااحتیاط",
+      "تاریخی",
+      "فضایی"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایان",
+    "choices": [
+      "میرزا",
+      "شروع",
+      "اعمال",
+      "خویش"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایان",
+    "choices": [
+      "دانشجویان",
+      "ولایت",
+      "بدست",
+      "آغاز"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "رفتن",
+    "choices": [
+      "ماندن",
+      "صفحه",
+      "خود",
+      "کم"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "حرکت",
+    "choices": [
+      "کوتاه",
+      "هنگام",
+      "کمتر",
+      "توقف"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "کج",
+    "choices": [
+      "آوریل",
+      "نخستین",
+      "کارهای",
+      "مستقیم"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بيرون",
+    "choices": [
+      "خوانندگان",
+      "انجام",
+      "داخل",
+      "اکثر"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "داخل",
+    "choices": [
+      "انتخابات",
+      "رمان",
+      "داخل",
+      "بخشی"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نامهربان",
+    "choices": [
+      "فرهنگ",
+      "مهربان",
+      "بخش‌های",
+      "تحت"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ملکه",
+    "choices": [
+      "امروزه",
+      "خراسان",
+      "نبود",
+      "پادشاه"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "جهل",
+    "choices": [
+      "علم",
+      "خمینی",
+      "صنعتی",
+      "آنها"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ناشناس",
+    "choices": [
+      "شناس",
+      "بهار",
+      "مبارزه",
+      "تیر"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "کوچک",
+    "choices": [
+      "بزرگ",
+      "انگلیسی",
+      "ترین",
+      "سلطنت"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "اولی",
+    "choices": [
+      "هزار",
+      "یک",
+      "آخری",
+      "و"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "گریه",
+    "choices": [
+      "خنده",
+      "افغانستان",
+      "اين",
+      "تدریس"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زرنگ",
+    "choices": [
+      "مستقل",
+      "کاهش",
+      "ماهی",
+      "تنبل"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دوست",
+    "choices": [
+      "موارد",
+      "نمایندگان",
+      "شود",
+      "بیگانه"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ضعیف",
+    "choices": [
+      "قوی",
+      "رده",
+      "گرفت",
+      "مشاهده"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زمستان",
+    "choices": [
+      "تابستان",
+      "فعال",
+      "اندازه",
+      "فی"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مهتاب",
+    "choices": [
+      "نتیجه",
+      "آفتاب",
+      "درباره",
+      "مشاهده"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شور",
+    "choices": [
+      "شیرین",
+      "پشت",
+      "مناطق",
+      "نظر"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بالا",
+    "choices": [
+      "ایالات",
+      "پایین",
+      "یمن",
+      "اکتبر"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بدترین",
+    "choices": [
+      "موتور",
+      "او",
+      "بلکه",
+      "عالی"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شیرین",
+    "choices": [
+      "تلخ",
+      "اين",
+      "اوت",
+      "رخ"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سفید",
+    "choices": [
+      "خلیج",
+      "سیاه",
+      "اغلب",
+      "اعمال"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بالا",
+    "choices": [
+      "بعضی",
+      "پایین",
+      "لحاظ",
+      "ماشین"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دختر",
+    "choices": [
+      "اطراف",
+      "سه",
+      "پسر",
+      "قبل"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ترسو",
+    "choices": [
+      "مرکز",
+      "شجاع",
+      "انواع",
+      "وضعیت"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خشک",
+    "choices": [
+      "امر",
+      "خیس",
+      "ژوئن",
+      "شوند"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نامطمئن",
+    "choices": [
+      "آمده",
+      "هزار",
+      "مطمئن",
+      "دستور"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ناراحت",
+    "choices": [
+      "نظیر",
+      "سایت",
+      "یونانی",
+      "خوشحال"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دهات",
+    "choices": [
+      "كه",
+      "اختلاف",
+      "تابع",
+      "شهر"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "باز",
+    "choices": [
+      "بشر",
+      "مشغول",
+      "خواهد",
+      "بسته"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "گرم",
+    "choices": [
+      "آموزشی",
+      "سرد",
+      "سخن",
+      "بود"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خاموش",
+    "choices": [
+      "روشن",
+      "جنوب",
+      "فعالیت",
+      "اعداد"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پیر",
+    "choices": [
+      "رفته",
+      "جوان",
+      "قبل",
+      "پایه"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بد",
+    "choices": [
+      "فرانسه",
+      "خوب",
+      "آلبوم",
+      "هستند"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بزرگ",
+    "choices": [
+      "کارشناسی",
+      "کارگردانی",
+      "می‌شود",
+      "کوچیک"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زشت",
+    "choices": [
+      "خوشگل",
+      "نخستین",
+      "سمت",
+      "برادر"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زشت",
+    "choices": [
+      "کامل",
+      "آلمان",
+      "آهنگ",
+      "زیبا"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زشت",
+    "choices": [
+      "قشنگ",
+      "رودخانه",
+      "عربستان",
+      "آیت"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سخت",
+    "choices": [
+      "آسان",
+      "کوه",
+      "اين",
+      "معروف"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دیر",
+    "choices": [
+      "بعدی",
+      "زود",
+      "جدید",
+      "بیرون"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بیدار",
+    "choices": [
+      "خواب",
+      "حاج",
+      "كه",
+      "طبقه"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قدیمی",
+    "choices": [
+      "نو",
+      "جام",
+      "عالی",
+      "دارند"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قدیمی",
+    "choices": [
+      "جدید",
+      "ماهی",
+      "میدان",
+      "منتشر"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دور",
+    "choices": [
+      "مسلمانان",
+      "شمالی",
+      "افغانستان",
+      "نزدیک"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "گرون",
+    "choices": [
+      "المللی",
+      "ارزون",
+      "ایستگاه",
+      "ترجمه"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مشغول",
+    "choices": [
+      "بیکار",
+      "معرفی",
+      "صنایع",
+      "اثر"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قانونی",
+    "choices": [
+      "غیرقانونی",
+      "تعریف",
+      "می‌رسد",
+      "مستقیم"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "واقعی",
+    "choices": [
+      "می‌توان",
+      "فارسی",
+      "آهن",
+      "خیالی"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آزاد",
+    "choices": [
+      "زندانی",
+      "کانادا",
+      "ابراهیم",
+      "ماده"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "محروم",
+    "choices": [
+      "هستند",
+      "بالا",
+      "شامل",
+      "عرب"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "راست",
+    "choices": [
+      "چب",
+      "نوشته",
+      "بر",
+      "چندین"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "احتیاط",
+    "choices": [
+      "بااحتیاط",
+      "بدست",
+      "صورت",
+      "سری"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایان",
+    "choices": [
+      "آلمان",
+      "می‌دهد",
+      "شروع",
+      "چاپ"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایان",
+    "choices": [
+      "قبلی",
+      "آغاز",
+      "صدای",
+      "غرب"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "رفتن",
+    "choices": [
+      "شخصیت",
+      "ماندن",
+      "سرعت",
+      "حقیقت"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "حرکت",
+    "choices": [
+      "توقف",
+      "کننده",
+      "ایتالیا",
+      "مقدس"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "کج",
+    "choices": [
+      "ویکی‌پدیای",
+      "لازم",
+      "مستقیم",
+      "طی"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بيرون",
+    "choices": [
+      "داخل",
+      "عضو",
+      "تئاتر",
+      "ساده"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "داخل",
+    "choices": [
+      "روش",
+      "داخل",
+      "غیر",
+      "حقوق"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نامهربان",
+    "choices": [
+      "کشته",
+      "هدف",
+      "مهربان",
+      "نشانی"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ملکه",
+    "choices": [
+      "کند",
+      "پدرش",
+      "پادشاه",
+      "نوعی"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "جهل",
+    "choices": [
+      "قاجار",
+      "علم",
+      "برخوردار",
+      "کشورهای"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ناشناس",
+    "choices": [
+      "گرفته",
+      "شناس",
+      "پول",
+      "حل"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "کوچک",
+    "choices": [
+      "مدتی",
+      "مهاجرت",
+      "بزرگ",
+      "چهارم"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "اولی",
+    "choices": [
+      "آخری",
+      "همچنین",
+      "دل",
+      "مرکز"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "گریه",
+    "choices": [
+      "توانست",
+      "خنده",
+      "راه",
+      "ترکیب"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زرنگ",
+    "choices": [
+      "تنبل",
+      "تن",
+      "گیلان",
+      "سبز"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دوست",
+    "choices": [
+      "ما",
+      "ایرانی",
+      "بیگانه",
+      "قدر"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ضعیف",
+    "choices": [
+      "ارزش",
+      "هنری",
+      "استاد",
+      "قوی"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زمستان",
+    "choices": [
+      "بندر",
+      "می‌گوید",
+      "تابستان",
+      "آبی"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مهتاب",
+    "choices": [
+      "علاوه",
+      "حال",
+      "روی",
+      "آفتاب"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شور",
+    "choices": [
+      "استاندارد",
+      "شب",
+      "می‌شوند",
+      "شیرین"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بالا",
+    "choices": [
+      "پایین",
+      "حمل",
+      "جشن",
+      "تنها"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بدترین",
+    "choices": [
+      "عالی",
+      "ریاضی",
+      "نیز",
+      "مرد"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شیرین",
+    "choices": [
+      "تلخ",
+      "اینترنتی",
+      "آب",
+      "قانون"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سفید",
+    "choices": [
+      "مفهوم",
+      "هند",
+      "بی‌بی‌سی",
+      "سیاه"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بالا",
+    "choices": [
+      "دوست",
+      "پایین",
+      "تلاش",
+      "مارس"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دختر",
+    "choices": [
+      "گیاهان",
+      "پیشنهاد",
+      "ابتدا",
+      "پسر"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ترسو",
+    "choices": [
+      "شجاع",
+      "مهم",
+      "می‌شوند",
+      "مشهد"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خشک",
+    "choices": [
+      "خیس",
+      "شرایط",
+      "کانادا",
+      "گاه"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نامطمئن",
+    "choices": [
+      "مطمئن",
+      "عمر",
+      "اندازه",
+      "طبیعی"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ناراحت",
+    "choices": [
+      "درست",
+      "خوشحال",
+      "وزن",
+      "مکان"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دهات",
+    "choices": [
+      "مناسبت‌ها",
+      "شهر",
+      "اندازه",
+      "ذکر"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "باز",
+    "choices": [
+      "برد",
+      "دلیل",
+      "طی",
+      "بسته"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "گرم",
+    "choices": [
+      "ترانه",
+      "اوایل",
+      "سرد",
+      "منظور"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خاموش",
+    "choices": [
+      "بندر",
+      "سبک",
+      "خمینی",
+      "روشن"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پیر",
+    "choices": [
+      "جوان",
+      "بالای",
+      "می‌توان",
+      "مفهوم"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بد",
+    "choices": [
+      "خوب",
+      "خان",
+      "جریان",
+      "بالای"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بزرگ",
+    "choices": [
+      "بعدها",
+      "رئیس",
+      "آیت",
+      "کوچیک"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زشت",
+    "choices": [
+      "خوشگل",
+      "باعث",
+      "نور",
+      "نه"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زشت",
+    "choices": [
+      "جوایز",
+      "زیبا",
+      "سوی",
+      "داشت"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زشت",
+    "choices": [
+      "کلمه",
+      "قشنگ",
+      "ریشه",
+      "تشکیل"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سخت",
+    "choices": [
+      "لندن",
+      "آسان",
+      "مرگ",
+      "ساله"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دیر",
+    "choices": [
+      "بخش",
+      "زود",
+      "طی",
+      "صنعت"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بیدار",
+    "choices": [
+      "مرکز",
+      "خواب",
+      "گلستان",
+      "ساختمان"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قدیمی",
+    "choices": [
+      "دسامبر",
+      "خصوصی",
+      "سوی",
+      "نو"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قدیمی",
+    "choices": [
+      "سابق",
+      "عوامل",
+      "مقدار",
+      "جدید"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دور",
+    "choices": [
+      "اصلی",
+      "زادگان",
+      "بکار",
+      "نزدیک"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "گرون",
+    "choices": [
+      "ارزون",
+      "پسر",
+      "هفت",
+      "هوای"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مشغول",
+    "choices": [
+      "قرآن",
+      "ایالات",
+      "نتایج",
+      "بیکار"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قانونی",
+    "choices": [
+      "خدا",
+      "غیرقانونی",
+      "سرشماری",
+      "چیزی"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "واقعی",
+    "choices": [
+      "عشق",
+      "متعلق",
+      "خیالی",
+      "پیروزی"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آزاد",
+    "choices": [
+      "تخت",
+      "امر",
+      "تو",
+      "زندانی"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "محروم",
+    "choices": [
+      "شامل",
+      "تاریخ",
+      "سیاست",
+      "بسیار"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "راست",
+    "choices": [
+      "می‌گوید",
+      "ارائه",
+      "جوایز",
+      "چب"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "احتیاط",
+    "choices": [
+      "بااحتیاط",
+      "شده‌است",
+      "قدیمی",
+      "باب"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایان",
+    "choices": [
+      "غربی",
+      "پیام",
+      "شروع",
+      "مقاومت"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایان",
+    "choices": [
+      "درمان",
+      "آغاز",
+      "رسید",
+      "سازمان"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "رفتن",
+    "choices": [
+      "ماندن",
+      "رشد",
+      "جنبش",
+      "سپس"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "حرکت",
+    "choices": [
+      "می‌کنند",
+      "ص",
+      "توقف",
+      "قبل"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "کج",
+    "choices": [
+      "مستقیم",
+      "‌ها",
+      "شرق",
+      "مساحت"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بيرون",
+    "choices": [
+      "شهرداری",
+      "قالب",
+      "زنان",
+      "داخل"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "داخل",
+    "choices": [
+      "داخل",
+      "رود",
+      "جا",
+      "پدر"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نامهربان",
+    "choices": [
+      "سال",
+      "صورت",
+      "مهربان",
+      "رئیس"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ملکه",
+    "choices": [
+      "پادشاه",
+      "رویدادها",
+      "اینترنتی",
+      "وب"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "جهل",
+    "choices": [
+      "منبع",
+      "علم",
+      "مقدار",
+      "بازگشت"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ناشناس",
+    "choices": [
+      "شناس",
+      "آموزش",
+      "بیشتر",
+      "کنترل"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "کوچک",
+    "choices": [
+      "بزرگ",
+      "پسر",
+      "دهد",
+      "اسپانیا"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "اولی",
+    "choices": [
+      "موسسه",
+      "ژوئیه",
+      "یا",
+      "آخری"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "گریه",
+    "choices": [
+      "نخستین",
+      "تقسیمات",
+      "خنده",
+      "ساله"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زرنگ",
+    "choices": [
+      "تهران",
+      "هنگامی",
+      "ساخت",
+      "تنبل"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دوست",
+    "choices": [
+      "فی",
+      "آنان",
+      "بیگانه",
+      "مطرح"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ضعیف",
+    "choices": [
+      "گونه",
+      "امپراتوری",
+      "عدد",
+      "قوی"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زمستان",
+    "choices": [
+      "پرونده",
+      "فرهنگی",
+      "عهده",
+      "تابستان"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مهتاب",
+    "choices": [
+      "اند",
+      "ام",
+      "آفتاب",
+      "عصر"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شور",
+    "choices": [
+      "حکم",
+      "اسکار",
+      "ارزش",
+      "شیرین"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بالا",
+    "choices": [
+      "خواننده",
+      "پایین",
+      "زبان‌های",
+      "دریافت"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بدترین",
+    "choices": [
+      "عالی",
+      "نظیر",
+      "نسبت",
+      "تقسیم"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شیرین",
+    "choices": [
+      "رودخانه",
+      "مشترک",
+      "پایتخت",
+      "تلخ"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سفید",
+    "choices": [
+      "یکی",
+      "دارند",
+      "سیاه",
+      "آنان"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بالا",
+    "choices": [
+      "روستا",
+      "گوناگون",
+      "مناطق",
+      "پایین"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دختر",
+    "choices": [
+      "براي",
+      "پسر",
+      "رده",
+      "بهره"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ترسو",
+    "choices": [
+      "دومین",
+      "ادامه",
+      "شجاع",
+      "می‌کردند"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خشک",
+    "choices": [
+      "بودن",
+      "پرواز",
+      "خیس",
+      "نوشته"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نامطمئن",
+    "choices": [
+      "مطمئن",
+      "حسین",
+      "جغرافیایی",
+      "هفتم"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ناراحت",
+    "choices": [
+      "آلمانی",
+      "خاص",
+      "اول",
+      "خوشحال"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دهات",
+    "choices": [
+      "گرفته",
+      "شهر",
+      "می‌توانند",
+      "رسید"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "باز",
+    "choices": [
+      "طور",
+      "موسیقی",
+      "جنسی",
+      "بسته"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "گرم",
+    "choices": [
+      "سرد",
+      "وب",
+      "سده",
+      "دریا"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خاموش",
+    "choices": [
+      "کوتاه",
+      "بوده‌است",
+      "روشن",
+      "بدون"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پیر",
+    "choices": [
+      "شناخته",
+      "تصمیم",
+      "جوان",
+      "ساده"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بد",
+    "choices": [
+      "قرار",
+      "خوب",
+      "گیتار",
+      "اخیر"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بزرگ",
+    "choices": [
+      "روابط",
+      "بصورت",
+      "کوچیک",
+      "به"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زشت",
+    "choices": [
+      "جایزه",
+      "خوشگل",
+      "پول",
+      "علاوه"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زشت",
+    "choices": [
+      "میدان",
+      "ویژه",
+      "زیبا",
+      "طرف"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زشت",
+    "choices": [
+      "قشنگ",
+      "سابق",
+      "ترکیه",
+      "جمله"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سخت",
+    "choices": [
+      "اکتبر",
+      "کشف",
+      "آسان",
+      "خلیج"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دیر",
+    "choices": [
+      "دهه",
+      "زود",
+      "اصل",
+      "اشاره"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بیدار",
+    "choices": [
+      "خاصی",
+      "خواب",
+      "بازار",
+      "نظامی"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قدیمی",
+    "choices": [
+      "رنگ",
+      "مشترک",
+      "خاک",
+      "نو"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قدیمی",
+    "choices": [
+      "سنت",
+      "جدید",
+      "آن‌ها",
+      "هزار"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دور",
+    "choices": [
+      "جشنواره",
+      "قابل",
+      "اینترنت",
+      "نزدیک"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "گرون",
+    "choices": [
+      "داستان",
+      "تن",
+      "ارزون",
+      "ندارد"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مشغول",
+    "choices": [
+      "فهرست",
+      "دهه",
+      "نویسنده",
+      "بیکار"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قانونی",
+    "choices": [
+      "گونه",
+      "با",
+      "کنترل",
+      "غیرقانونی"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "واقعی",
+    "choices": [
+      "شدت",
+      "این",
+      "خیالی",
+      "اغلب"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "آزاد",
+    "choices": [
+      "زندانی",
+      "تئاتر",
+      "آخر",
+      "چین"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "محروم",
+    "choices": [
+      "بزرگی",
+      "معمولا",
+      "عمومی",
+      "شامل"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "راست",
+    "choices": [
+      "زیبا",
+      "چب",
+      "می‌کردند",
+      "مردم"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "احتیاط",
+    "choices": [
+      "صورت",
+      "پیام",
+      "بااحتیاط",
+      "مدرسه"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایان",
+    "choices": [
+      "آزادی",
+      "شهر",
+      "شروع",
+      "ورود"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پایان",
+    "choices": [
+      "آغاز",
+      "ماه",
+      "جز",
+      "شکل"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "رفتن",
+    "choices": [
+      "عشق",
+      "ماندن",
+      "کارهای",
+      "آذر"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "حرکت",
+    "choices": [
+      "توقف",
+      "اساس",
+      "پست",
+      "پروژه"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "کج",
+    "choices": [
+      "مستقیم",
+      "آب",
+      "را",
+      "بین"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بيرون",
+    "choices": [
+      "بوده‌است",
+      "رنگ",
+      "ترکیب",
+      "داخل"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "داخل",
+    "choices": [
+      "چین",
+      "بخش",
+      "عباس",
+      "داخل"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نامهربان",
+    "choices": [
+      "مهربان",
+      "کارهای",
+      "سرعت",
+      "بهار"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ملکه",
+    "choices": [
+      "هفتم",
+      "خرداد",
+      "پادشاه",
+      "بوده"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "جهل",
+    "choices": [
+      "مرگ",
+      "علم",
+      "یکدیگر",
+      "نشر"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ناشناس",
+    "choices": [
+      "صورت",
+      "شناس",
+      "بسیار",
+      "رئیس"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "کوچک",
+    "choices": [
+      "بزرگ",
+      "تدریس",
+      "پرونده",
+      "محصولات"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "اولی",
+    "choices": [
+      "سن",
+      "آخری",
+      "ادامه",
+      "ارتش"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "گریه",
+    "choices": [
+      "مطلق",
+      "مربع",
+      "شدید",
+      "خنده"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زرنگ",
+    "choices": [
+      "تنبل",
+      "زیر",
+      "قتل",
+      "شهرداری"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دوست",
+    "choices": [
+      "فراهم",
+      "در",
+      "پایگاه",
+      "بیگانه"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ضعیف",
+    "choices": [
+      "انجمن",
+      "قوی",
+      "كه",
+      "طریق"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زمستان",
+    "choices": [
+      "شاعران",
+      "تقریباً",
+      "تابستان",
+      "متولد"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "مهتاب",
+    "choices": [
+      "آفتاب",
+      "کشاورزی",
+      "مهم‌ترین",
+      "بوده"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شور",
+    "choices": [
+      "علاوه",
+      "ملل",
+      "شیرین",
+      "رسید"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بالا",
+    "choices": [
+      "سیاه",
+      "انگلیسی",
+      "پایین",
+      "اولین"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بدترین",
+    "choices": [
+      "عالی",
+      "جمله",
+      "توجه",
+      "حساب"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "شیرین",
+    "choices": [
+      "دهستان",
+      "می‌گویند",
+      "تلخ",
+      "احتمال"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سفید",
+    "choices": [
+      "کد",
+      "سیاه",
+      "اداره",
+      "زمانی"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بالا",
+    "choices": [
+      "تن",
+      "پایین",
+      "زمانی",
+      "تقویم"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دختر",
+    "choices": [
+      "پسر",
+      "سیارک",
+      "خلق",
+      "دره"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ترسو",
+    "choices": [
+      "بررسی",
+      "آغاز",
+      "شجاع",
+      "اینکه"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خشک",
+    "choices": [
+      "ادامه",
+      "خیس",
+      "بهترین",
+      "گیتار"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "نامطمئن",
+    "choices": [
+      "نشان",
+      "مطمئن",
+      "رادیو",
+      "تبدیل"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "ناراحت",
+    "choices": [
+      "اتحاد",
+      "نظام",
+      "نزدیکی",
+      "خوشحال"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دهات",
+    "choices": [
+      "شهر",
+      "غرب",
+      "خواننده",
+      "سرخ"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "باز",
+    "choices": [
+      "مهدی",
+      "بسته",
+      "فعال",
+      "به‌"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "گرم",
+    "choices": [
+      "مناسب",
+      "دسترسی",
+      "سرد",
+      "اوایل"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "خاموش",
+    "choices": [
+      "روشن",
+      "انسانی",
+      "بکار",
+      "ایستگاه"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "پیر",
+    "choices": [
+      "گروه‌های",
+      "سنگ",
+      "جوان",
+      "درون"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بد",
+    "choices": [
+      "باغ",
+      "بین",
+      "خوب",
+      "عباس"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بزرگ",
+    "choices": [
+      "کوچیک",
+      "بخشی",
+      "اصفهان",
+      "مجموعه"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زشت",
+    "choices": [
+      "جنوب",
+      "خوشگل",
+      "فیزیک",
+      "اغلب"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زشت",
+    "choices": [
+      "شبیه",
+      "می‌گیرد",
+      "زیبا",
+      "جای"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "زشت",
+    "choices": [
+      "سطح",
+      "تبریز",
+      "آبان",
+      "قشنگ"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "سخت",
+    "choices": [
+      "آسان",
+      "خارج",
+      "خود",
+      "نقش"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دیر",
+    "choices": [
+      "ویکی",
+      "آثار",
+      "زود",
+      "شیراز"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "بیدار",
+    "choices": [
+      "مثال",
+      "خواب",
+      "آلبوم",
+      "توجه"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قدیمی",
+    "choices": [
+      "شمار",
+      "قهرمانی",
+      "سلطنت",
+      "نو"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "قدیمی",
+    "choices": [
+      "جدید",
+      "می‌توان",
+      "موسیقی",
+      "کرد"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "دور",
+    "choices": [
+      "خانوار",
+      "آنان",
+      "فرانسوی",
+      "نزدیک"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": ""
+  },
+  {
+    "question": "گرون",
+    "choices": [
+      "ارزون",
+      "شوروی",
+      "الله",
+      "طرح"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": ""
+  }
+]
