@@ -45,6 +45,7 @@ function fill_qa(q) {
 
 var countQues=0;
 var quiz = [];
+var countCorrect = 0;
 function startQuiz() {
     let readers = [];
     d3.selectAll('.mycheckbox').property('checked', true).each(function() {
@@ -54,15 +55,6 @@ function startQuiz() {
     });
 
     Promise.allSettled(readers).then(function(files) {
-        // for(f of files) {
-        //     console.log(f);
-        //     // quiz.concat(f);
-        // }
-        // for(f of files) {
-        //     console.log(f);
-        //     quiz.concat(f);
-        // }
-        // console.log(quiz);
         quizall = [];
         all = [].concat.apply([], files);
         for(a of all) quizall.push(a.value);
@@ -72,12 +64,17 @@ function startQuiz() {
         fill_qa(quiz[0]);
         d3.select('#first_page').style("display", 'none');
         d3.select('#second_page').style("display", 'block');
+        d3.select("#topics_").attr('class','inactive');
+        d3.select("#quiz_").attr('class','active');
     }).catch(function(err) {
         // handle error here
     })
 }
 
 function nextQuestion() {
+    for (i=0;i<=3;i++) {
+        d3.select('#opt'+i).style('color','black');
+    }
     countQues++;
     if(countQues < quiz.length) {
         fill_qa(quiz[countQues]);  
@@ -85,4 +82,42 @@ function nextQuestion() {
         // d3.select('#second_page').style("display", 'none');
         // d3.select('#third_page').style("display", 'block');
     }
+}
+
+function colorCorrectAnswer() {
+    for (i=0;i<=3;i++) {
+        if(d3.select('#opt'+i).text() == quiz[countQues].choices[quiz[countQues].answer]) {
+            d3.select('#opt'+i).style('color','green');
+        }
+    }
+}
+
+function decolorCorrectAnswer() {
+    for (i=0;i<=3;i++) {
+            d3.select('#opt'+i).style('color','black');
+    }
+}
+
+function submitAnswer() {
+    decolorCorrectAnswer();    
+    var selectedAnswer = d3.select('input[name="radio"]:checked').node().previousElementSibling.textContent;
+    colorCorrectAnswer();    
+
+    if(selectedAnswer == quiz[countQues].choices[quiz[countQues].answer]) {
+        countCorrect++;
+    } else {
+        d3.select(d3.select('input[name="radio"]:checked').node().previousElementSibling).style('color','red')
+    }
+}
+
+function viewResults() {
+    d3.select('#first_page').style("display", 'none');
+    d3.select('#second_page').style("display", 'none');
+    d3.select('#third_page').style("display", 'block');
+    d3.select("#topics_").attr('class','inactive');
+    d3.select("#quiz_").attr('class','inactive');
+    d3.select("#results_").attr('class','active');
+    d3.select("#correct").text(countCorrect);
+    d3.select('#incorrect').text(countQues - countCorrect);
+    
 }
