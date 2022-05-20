@@ -17,8 +17,6 @@
     <script defer src="/__/firebase/9.8.1/firebase-analytics-compat.js"></script>
     <script defer src="/__/firebase/9.8.1/firebase-remote-config-compat.js"></script>
     <script defer src="/__/firebase/9.8.1/firebase-performance-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
     <!-- 
       initialize the SDK after all desired features are loaded, set useEmulator to false
       to avoid connecting the SDK to running emulators.
@@ -41,67 +39,31 @@
     </style>
   </head>
   <body>
-  <div id="message">
-  <h1>Welcome to My Awesome App</h1>
-  <div id="firebaseui-auth-container"></div>
-  <div id="loader">Loading...</div>
-  </div>
+    <div id="message">
+      <h2>Welcome</h2>
+      <h1>Firebase Hosting Setup Complete</h1>
+      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    </div>
+    <p id="load">Firebase SDK Loading&hellip;</p>
+
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         const loadEl = document.querySelector('#load');
-        // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // The Firebase SDK is initialized and available here!
-        
-        //firebase.auth().onAuthStateChanged(user => { console.log(user); });
-        //firebase.database().ref('https://goftan-509c7-default-rtdb.europe-west1.firebasedatabase.app/').on('value', snapshot => { });
-        //firebase.firestore().doc('/foo/bar').get().then(() => { });
-        //firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        //firebase.messaging().requestPermission().then(() => { });
-        //firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //firebase.analytics(); // call to activate
-        //firebase.analytics().logEvent('tutorial_completed');
-        //firebase.performance(); // call to activate
-        
-        // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-	
-	var ui = new firebaseui.auth.AuthUI(firebase.auth());
-        ui.start('#firebaseui-auth-container', {
-	  signInOptions: [
-	  firebase.auth.EmailAuthProvider.PROVIDER_ID,
-	  firebase.auth.GoogleAuthProvider.PROVIDER_ID
- 	 ],
-          // Other config options...
-	});
-	var uiConfig = {
-  
-  	callbacks: {
-  	  signInSuccessWithAuthResult: function(authResult, redirectUrl) {
-      	  // User successfully signed in.
-      	  // Return type determines whether we continue the redirect automatically
-          // or whether we leave that to developer to handle.
-	      return true;
-    	},
-    	uiShown: function() {
-      	// The widget is rendered.
-      	// Hide the loader.
-      	document.getElementById('loader').style.display = 'none';
-    	}
-  	},
-  	// Will use popup for IDP Providers sign-in flow instead of the default, redirect.
-  	signInFlow: 'popup',
-  	signInSuccessUrl: 'Quiz/index.html',
-  	signInOptions: [
-    	// Leave the lines as is for the providers you want to offer your users.
-    	firebase.auth.EmailAuthProvider.PROVIDER_ID,
-    	firebase.auth.GoogleAuthProvider.PROVIDER_ID
-  	],
-	  // Terms of service url.
-	//  tosUrl: '<your-tos-url>',
-  	// Privacy policy url.
- 	// privacyPolicyUrl: '<your-privacy-policy-url>'
-	};
-	
-	ui.start('#firebaseui-auth-container', uiConfig);
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
         try {
           let app = firebase.app();

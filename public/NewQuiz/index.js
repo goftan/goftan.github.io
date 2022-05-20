@@ -46,6 +46,7 @@ function fill_qa(q) {
 var countQues=0;
 var quiz = [];
 var countCorrect = 0;
+var countIncorrect = 0;
 function startQuiz() {
     let readers = [];
     d3.selectAll('.mycheckbox:checked').each(function() {
@@ -106,6 +107,7 @@ function submitAnswer() {
     if(selectedAnswer == quiz[countQues].choices[quiz[countQues].answer]) {
         countCorrect++;
     } else {
+        countIncorrect++;
         d3.select(d3.select('input[name="radio"]:checked').node().previousElementSibling).style('color','red')
     }
 }
@@ -119,7 +121,7 @@ function viewResults() {
     d3.select("#quiz_").attr('class','inactive');
     d3.select("#results_").attr('class','active');
     d3.select("#correct").text(countCorrect);
-    d3.select('#incorrect').text(countQues - countCorrect);
+    d3.select('#incorrect').text(countIncorrect);
 }
 
 function restartQuiz() {
