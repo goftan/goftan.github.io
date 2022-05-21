@@ -1,0 +1,6515 @@
+[
+  {
+    "question": "------ 오전 다섯 시 에 깨워줘",
+    "choices": [
+      "인물",
+      "이번 주",
+      "바라다",
+      "뉴스"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 오전 아홉 시 에 깨워줘",
+    "choices": [
+      "잔",
+      "금요일",
+      "아니다",
+      "발"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 동안 알람 설정해",
+    "choices": [
+      "개월",
+      "순간",
+      "지금부터 두시 간",
+      "시"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리 ------ 동안 멈춰줘",
+    "choices": [
+      "현실",
+      "표정",
+      "십초",
+      "기록"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 간 일시정지 해",
+    "choices": [
+      "자체",
+      "십초",
+      "부드럽다",
+      "새벽"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "분홍색",
+      "지나다",
+      "쪽",
+      "지원"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "여기 조명 조금 더 ------ 해 줘",
+    "choices": [
+      "따뜻하게",
+      "장",
+      "속도",
+      "출신"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 설정해",
+    "choices": [
+      "시작되다",
+      "이런",
+      "그러다",
+      "독서하기에 알맞게"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 불 꺼 줘",
+    "choices": [
+      "나가다",
+      "펴다",
+      "걸다",
+      "화장실"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 불 어둡게 해줘",
+    "choices": [
+      "한",
+      "현관",
+      "계속되다",
+      "정도"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 불 어둡게 해줘",
+    "choices": [
+      "내다",
+      "현관",
+      "일하다",
+      "이기다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 불 꺼 줘",
+    "choices": [
+      "관계",
+      "담다",
+      "얼마나",
+      "안방"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 꺼",
+    "choices": [
+      "요구하다",
+      "선생",
+      "비롯하다",
+      "침실"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "조명 ------ 설정해줘",
+    "choices": [
+      "컴퓨터",
+      "나아가다",
+      "주변",
+      "이십 퍼센트로"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리 조명 ------ 설정해",
+    "choices": [
+      "결혼",
+      "불과하다",
+      "제일",
+      "이십 퍼센트로"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 어둡게",
+    "choices": [
+      "마지막",
+      "주방",
+      "훌륭하다",
+      "관계"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 불 어둡게 해줘",
+    "choices": [
+      "언제",
+      "냄새",
+      "지나가다",
+      "주방"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 어둡게 해줘",
+    "choices": [
+      "경향",
+      "그리다",
+      "결정",
+      "방"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리 ------ 청소해",
+    "choices": [
+      "더욱",
+      "집",
+      "농업",
+      "강하다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 청소",
+    "choices": [
+      "뉴스",
+      "아파트",
+      "맛",
+      "사건"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 청소기 돌려",
+    "choices": [
+      "빠지다",
+      "집",
+      "조사",
+      "앉다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리 ------ 청소기 돌려",
+    "choices": [
+      "말다",
+      "집",
+      "미터",
+      "실제로"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "청소는 좋은 거지 먼지가 가득해 ------ 깨끗하게 해줘",
+    "choices": [
+      "직접",
+      "카페트",
+      "편",
+      "아직"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 청소기 돌려",
+    "choices": [
+      "일",
+      "거실",
+      "역할",
+      "년대"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 청소기 돌려줘",
+    "choices": [
+      "너무",
+      "거실",
+      "도시",
+      "현대"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래 다시 틀어줘",
+    "choices": [
+      "잔나비",
+      "잊다",
+      "빠르다",
+      "이르다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "그 ------ 다시 한번 듣고 싶어",
+    "choices": [
+      "잘",
+      "서양",
+      "심하다",
+      "노래"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 몇 시야",
+    "choices": [
+      "경험",
+      "자료",
+      "정부",
+      "호주"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 몇 시인지 알려줘",
+    "choices": [
+      "모스크바",
+      "보다",
+      "담다",
+      "나가다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 몇 시인지 알려줘",
+    "choices": [
+      "손",
+      "터지다",
+      "g. m. t. 에서 다섯 시간 더하면",
+      "그날"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 시간대의 시간 말해줘",
+    "choices": [
+      "싶다",
+      "g. m. t. 플러스 파이브",
+      "몸",
+      "보호"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리 가장 인기 있는 ------ 배달 알려줘",
+    "choices": [
+      "일하다",
+      "여기다",
+      "한식",
+      "존재하다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 음식에 대한 가장 높은 등급의 배달 옵션",
+    "choices": [
+      "말하다",
+      "사건",
+      "분",
+      "한식"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 식당의 가장 인기 있는 배달 옵션 보여줘",
+    "choices": [
+      "빼다",
+      "살다",
+      "만나다",
+      "중국"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리 가장 인기 있는 ------ 배달 옵션 찾아줘",
+    "choices": [
+      "부분",
+      "지구",
+      "각각",
+      "중국음식"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "추천할 만한 포장 ------ 있으면 좋겠어",
+    "choices": [
+      "공동",
+      "살아가다",
+      "걸리다",
+      "카레가"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리야 ------ 먹고 싶은데 어떤 추천이 있을까",
+    "choices": [
+      "죽음",
+      "돈까스",
+      "붙다",
+      "작다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 근처에서 내 중식 테이크아웃 찾아줘",
+    "choices": [
+      "지내다",
+      "강남",
+      "얘기",
+      "아저씨"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 근처에서 내 태국 포장음식 찾아",
+    "choices": [
+      "노동",
+      "광장시장",
+      "비하다",
+      "대신"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "오전 ------ 알람 취소해줘",
+    "choices": [
+      "일곱시에",
+      "개",
+      "과거",
+      "대통령"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 중지",
+    "choices": [
+      "냄새",
+      "그날",
+      "없다",
+      "오전 일곱 시"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 축구 소식 있어",
+    "choices": [
+      "오늘",
+      "그럼",
+      "현상",
+      "빠지다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 의 겨울잠 들려주세요",
+    "choices": [
+      "놀다",
+      "인정하다",
+      "아이유",
+      "행위"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 취기를 빌려 듣고 싶어",
+    "choices": [
+      "산들의",
+      "병원",
+      "지키다",
+      "노동"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 의 우리가 헤어져야 했던 이유 재생",
+    "choices": [
+      "비비",
+      "농민",
+      "데",
+      "작용"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "나는 ------ 음악 좋아",
+    "choices": [
+      "세우다",
+      "적",
+      "록",
+      "나중"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "likeness",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내가 가장 좋아하는 밴드는 ------",
+    "choices": [
+      "가능하다",
+      "송골매야",
+      "세",
+      "흐르다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "likeness",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "나는 ------ 노래 좋아",
+    "choices": [
+      "교사",
+      "눕다",
+      "코요태",
+      "젊다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "likeness",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "조명 ------ 올려주세요",
+    "choices": [
+      "특히",
+      "걸치다",
+      "최대로",
+      "심각하다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 작동시켜줘",
+    "choices": [
+      "노력",
+      "로봇 청소기",
+      "농민",
+      "세기"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 켜",
+    "choices": [
+      "로봇 청소기",
+      "앉다",
+      "아니",
+      "주변"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날짜 말해줘",
+    "choices": [
+      "오월",
+      "속",
+      "예정",
+      "오늘의"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 은 며칠이야",
+    "choices": [
+      "빠지다",
+      "오늘",
+      "개인",
+      "임금"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 초밥 주문해줘",
+    "choices": [
+      "저녁에",
+      "멀다",
+      "맞다",
+      "현장"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 좀 주문 해줘",
+    "choices": [
+      "야",
+      "치킨",
+      "공동",
+      "소녀"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 저녁 짜장면으로 시켜줄래",
+    "choices": [
+      "가지다",
+      "지식",
+      "하루",
+      "오늘밤"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 저녁 포장 시켜도 될까",
+    "choices": [
+      "꿈",
+      "나다",
+      "첫",
+      "뮤즈레스토랑에서"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 포장하나",
+    "choices": [
+      "발생하다",
+      "청춘식당에서",
+      "대중",
+      "이어지다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 설정",
+    "choices": [
+      "형",
+      "열두 시",
+      "구성",
+      "종교"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 맞춰줘",
+    "choices": [
+      "방안",
+      "지금부터 사십 분 후",
+      "쓴 맛",
+      "형태"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 여덟 시 로 알람 설정해줘",
+    "choices": [
+      "모든 평일",
+      "네",
+      "학생",
+      "업무"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "자라다",
+      "무섭다",
+      "비가 오나",
+      "일어나다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "가능성",
+      "비가 올까",
+      "차",
+      "실천"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "지금 밖에 ------",
+    "choices": [
+      "적",
+      "그러니까",
+      "인류",
+      "눈이 오나"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 기상정보 알려줘",
+    "choices": [
+      "사고",
+      "매우",
+      "주간",
+      "어떠하다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "한 ------ 예보",
+    "choices": [
+      "책임",
+      "주간",
+      "관계",
+      "인류"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨는 어때",
+    "choices": [
+      "임금",
+      "이번 주의",
+      "의견",
+      "아니다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨는 어때",
+    "choices": [
+      "국가",
+      "음식",
+      "이번 주의",
+      "오래"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨 알려줘",
+    "choices": [
+      "날",
+      "산업",
+      "면",
+      "이번 주"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 뉴스 말해줘",
+    "choices": [
+      "k. b. s.",
+      "스스로",
+      "편",
+      "면"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 뉴스에 어떤 뉴스 나와",
+    "choices": [
+      "시간",
+      "k. b. s.",
+      "회",
+      "모르다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "어떤 게 ------ 최신 뉴스야",
+    "choices": [
+      "벌이다",
+      "면",
+      "공간",
+      "k. b. s. 의"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 틀어줘",
+    "choices": [
+      "효과",
+      "첫 눈",
+      "애",
+      "사용하다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 틀어",
+    "choices": [
+      "쓰레기",
+      "자라다",
+      "겨울잠",
+      "미"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 재생",
+    "choices": [
+      "벌써",
+      "드렁큰 타이거",
+      "올리다",
+      "입"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 좀 틀어줘",
+    "choices": [
+      "불구하다",
+      "반",
+      "잔나비",
+      "남다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 좀 들려줘",
+    "choices": [
+      "각종",
+      "있다",
+      "넥스트",
+      "나타내다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "이 트랙 ------",
+    "choices": [
+      "국회",
+      "아빠",
+      "반복해줘",
+      "남"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "이 재생목록 ------",
+    "choices": [
+      "섞어줘",
+      "시",
+      "불구하다",
+      "즐기다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "볼륨 ------ 설정해",
+    "choices": [
+      "파악하다",
+      "애",
+      "낮게",
+      "이거"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "volume_down",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "나한테 ------ 농담해줘",
+    "choices": [
+      "재미있는",
+      "어깨",
+      "학생",
+      "원"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 무슨 날이야",
+    "choices": [
+      "그만",
+      "멀리",
+      "오늘",
+      "값"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 관련해서 나에게 말해줘",
+    "choices": [
+      "지내다",
+      "열심히",
+      "오늘",
+      "역사"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "quirky",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 주문해",
+    "choices": [
+      "짜장면",
+      "과정",
+      "달",
+      "대표"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 짜장면 주문해줘",
+    "choices": [
+      "사장",
+      "배달의 민족에서",
+      "속",
+      "비롯하다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 주문해",
+    "choices": [
+      "테이크아웃",
+      "나름",
+      "작년",
+      "일"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "제 ------ 얼마나 걸릴까요",
+    "choices": [
+      "바쁘다",
+      "테이크아웃",
+      "일",
+      "인물"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 배달 상태",
+    "choices": [
+      "주제",
+      "음식",
+      "교촌",
+      "대책"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 ------ 플레이리스트 재생해주세요",
+    "choices": [
+      "올해",
+      "없어지다",
+      "기회",
+      "재즈"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "나의 ------ 재생 목록 재생",
+    "choices": [
+      "줄이다",
+      "재즈",
+      "이날",
+      "걷다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "나는 ------ 좋아해",
+    "choices": [
+      "살아가다",
+      "재즈를",
+      "없다",
+      "그러므로"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "likeness",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 좀 틀어줄래",
+    "choices": [
+      "쓰다",
+      "어린이",
+      "우리",
+      "재즈"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 듣고 싶어",
+    "choices": [
+      "현실",
+      "말",
+      "재즈",
+      "아들"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리 나 ------ 듣는 것 좋아해",
+    "choices": [
+      "실천",
+      "재즈",
+      "제품",
+      "벗다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 실행",
+    "choices": [
+      "지역",
+      "셔플",
+      "형식",
+      "나이"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "밝기 ------ 설정",
+    "choices": [
+      "서양",
+      "오십으로",
+      "그녀",
+      "힘"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 할 수 있어",
+    "choices": [
+      "일",
+      "포장",
+      "요구하다",
+      "지나다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 가능해",
+    "choices": [
+      "역시",
+      "이전",
+      "통일",
+      "배달"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "집으로 ------ 해주니",
+    "choices": [
+      "팀",
+      "어",
+      "배달",
+      "자세"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리 집에도 ------",
+    "choices": [
+      "담다",
+      "잔",
+      "전체",
+      "배달돼"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 맞춰",
+    "choices": [
+      "오늘",
+      "소년",
+      "오전 열시",
+      "대다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 오전 여섯 시 알람 설정",
+    "choices": [
+      "경험",
+      "하나",
+      "내일",
+      "교수"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 오전 일곱시 로 기상 설정해줘",
+    "choices": [
+      "시",
+      "전문",
+      "태어나다",
+      "목요일"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "최신 ------ 소식 전해줘",
+    "choices": [
+      "차",
+      "참다",
+      "테크놀로지",
+      "않다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "최신 ------ 관련 뉴스를 알려줘",
+    "choices": [
+      "풀다",
+      "면",
+      "가슴",
+      "기술"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 뉴스 말해줘",
+    "choices": [
+      "한번",
+      "비즈니스",
+      "분야",
+      "특히"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 소식 알려주세요",
+    "choices": [
+      "국제",
+      "요즘",
+      "그러나",
+      "인생"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "지금 ------",
+    "choices": [
+      "종류",
+      "비 와",
+      "맞다",
+      "겪다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 ------ 플레이리스트 재생",
+    "choices": [
+      "말다",
+      "병원",
+      "락",
+      "삼다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "나의 ------ 재생 목록 틀어",
+    "choices": [
+      "키",
+      "유월",
+      "싸이",
+      "즐기다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "나의 재생 목록 에서 ------ 재생",
+    "choices": [
+      "무섭다",
+      "다른",
+      "이문세",
+      "어떻다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내가 좋아하는 플레이리스트 에서 ------ 재생",
+    "choices": [
+      "바라보다",
+      "수업",
+      "그런",
+      "사랑은 늘 도망가"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 켜줘",
+    "choices": [
+      "첫",
+      "강하다",
+      "옮기다",
+      "플러그"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 켜 줘",
+    "choices": [
+      "한번",
+      "프로그램",
+      "기본",
+      "플러그"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 ------ 켜 줘",
+    "choices": [
+      "플러그",
+      "놈",
+      "많다",
+      "힘들다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 테이크아웃 돼",
+    "choices": [
+      "만하다",
+      "도미노",
+      "국내",
+      "내려오다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내가 가장 좋아하는 ------ 포장 가능해",
+    "choices": [
+      "지난해",
+      "알리다",
+      "갈비집",
+      "대다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 식당에서 테이크아웃 주문 할 수 있나요",
+    "choices": [
+      "내놓다",
+      "한식",
+      "선거",
+      "알다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨 어때",
+    "choices": [
+      "서울",
+      "어디",
+      "변하다",
+      "길다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨 알려줘",
+    "choices": [
+      "서울",
+      "풀다",
+      "눈",
+      "결국"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "조명 ------ 만들어 줘",
+    "choices": [
+      "책 읽기 좋게",
+      "웃다",
+      "무섭다",
+      "입장"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 조정해줘",
+    "choices": [
+      "아프다",
+      "아직",
+      "말다",
+      "보기 좋게"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 더 밝게 만들어 줘",
+    "choices": [
+      "오르다",
+      "걷다",
+      "한편",
+      "방"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 며칠이야",
+    "choices": [
+      "식사",
+      "오늘",
+      "높다",
+      "기간"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 무슨 요일이야",
+    "choices": [
+      "분",
+      "준비하다",
+      "오늘",
+      "먹다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨 어때",
+    "choices": [
+      "남자",
+      "수업",
+      "맞추다",
+      "오늘"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "밖에 ------",
+    "choices": [
+      "즉",
+      "가지다",
+      "비가 오나",
+      "싫다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리야 밖에 ------ 오니",
+    "choices": [
+      "만들다",
+      "비",
+      "알려지다",
+      "주로"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내가 ------ 우산 가져가야 하나",
+    "choices": [
+      "여러",
+      "높다",
+      "야",
+      "내일"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 ------ 의 음악 재생",
+    "choices": [
+      "열다",
+      "짓다",
+      "이름",
+      "록 목록"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "등 ------ 으로 바꿔줘",
+    "choices": [
+      "차",
+      "형태",
+      "팔",
+      "초록색"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 청소 해줘",
+    "choices": [
+      "쓴 맛",
+      "지원",
+      "그때",
+      "바닥"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 켜",
+    "choices": [
+      "느껴지다",
+      "차",
+      "고통",
+      "밥솥 플러그"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 꺼 줘",
+    "choices": [
+      "밥 솥 전원",
+      "내려오다",
+      "당시",
+      "전혀"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 는 몇 시야",
+    "choices": [
+      "대답하다",
+      "열다",
+      "있다",
+      "라스베이거스"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 은 몇 시야",
+    "choices": [
+      "구성",
+      "나다",
+      "가격",
+      "북경"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 초밥을 주문하는 것을 도와주실 수 있나요",
+    "choices": [
+      "좋다",
+      "시키다",
+      "요기요에서",
+      "끌다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 여섯 시 알람 설정",
+    "choices": [
+      "최고",
+      "방법",
+      "그녀",
+      "아침"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 네 시 알람 설정",
+    "choices": [
+      "관계자",
+      "전문",
+      "오후",
+      "잠"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리 ------ 콘서트 가라고 알려줘",
+    "choices": [
+      "속",
+      "그러다",
+      "내용",
+      "오후 세 시"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 콘서트에 가기 알람 켜줘",
+    "choices": [
+      "엄청나다",
+      "잠",
+      "오후 세시에",
+      "행위"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "나 ------ 비행기 를 위해 설정한 알람 있나",
+    "choices": [
+      "뿐",
+      "예정",
+      "아침",
+      "끝"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 에 일어나기 알람 설정했나",
+    "choices": [
+      "새",
+      "민족",
+      "움직이다",
+      "아침"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 에 비가 오나",
+    "choices": [
+      "이전",
+      "부산",
+      "학교",
+      "참다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 비가 올까",
+    "choices": [
+      "다른",
+      "이상",
+      "오늘",
+      "그동안"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 무슨 일이 벌어지고 있니",
+    "choices": [
+      "지",
+      "미국에서",
+      "차다",
+      "말다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 무슨 일이 일어나고 있어",
+    "choices": [
+      "세계에",
+      "담배",
+      "부모",
+      "풀다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 무슨 일이야",
+    "choices": [
+      "인천에",
+      "이어지다",
+      "여름",
+      "가끔"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 뉴스 좀 보여 줘",
+    "choices": [
+      "s. b. s.",
+      "말",
+      "그래",
+      "하나"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리야 ------ 뉴스 보여줘",
+    "choices": [
+      "불과하다",
+      "k. b. s.에서",
+      "나가다",
+      "먹다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 뉴스 읽어줘",
+    "choices": [
+      "마을",
+      "여성",
+      "얼마나",
+      "m. b. s."
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리 ------",
+    "choices": [
+      "주요",
+      "문화",
+      "가지다",
+      "한국경제"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 좀 들려줘",
+    "choices": [
+      "올해",
+      "힙합",
+      "정확하다",
+      "나오다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "나 지금 ------ 듣고 싶은데 너는 어때",
+    "choices": [
+      "병원",
+      "재즈",
+      "생산",
+      "팔"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리 데스 ------ 지금 틀어",
+    "choices": [
+      "메탈",
+      "전국",
+      "벌다",
+      "아무런"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 바로 들려줘",
+    "choices": [
+      "분",
+      "트로트",
+      "기능",
+      "대표"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리 내가 가장 좋아하는 ------ 연주자 의 좋은 트랙 들려줘",
+    "choices": [
+      "저녁",
+      "남성",
+      "결혼",
+      "재즈"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리야 나의 가장 좋아하는 ------ 음악 틀어줘",
+    "choices": [
+      "선배",
+      "피아니스트에서",
+      "내려오다",
+      "최근"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 으로 바꿔줘",
+    "choices": [
+      "파란색",
+      "자주",
+      "농업",
+      "함께"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 불 켜줘",
+    "choices": [
+      "의견",
+      "파란색",
+      "벌이다",
+      "조사하다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "불 ------ 으로 만들어줘",
+    "choices": [
+      "하지만",
+      "가장",
+      "하늘색",
+      "꿈"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 지금 몇 시야",
+    "choices": [
+      "당신",
+      "활동",
+      "갈등",
+      "춘천은"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "그 가수는 ------ 라는 노래 제목으로 뭘 나타내려 했을까",
+    "choices": [
+      "경영",
+      "주장하다",
+      "회전목마",
+      "버리다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래 누가 커버했어",
+    "choices": [
+      "소설",
+      "넌 감동이었어",
+      "나오다",
+      "하늘"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨는 어때",
+    "choices": [
+      "인류",
+      "대통령",
+      "아니다",
+      "서울"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨는 어때",
+    "choices": [
+      "진주",
+      "상태",
+      "버리다",
+      "이어지다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 지역 오늘의 날씨 예보는 어때",
+    "choices": [
+      "서울",
+      "그런",
+      "현상",
+      "얼마"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "최근 ------ 상황 어때",
+    "choices": [
+      "그렇다",
+      "점",
+      "회의",
+      "브렉시트 협상"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 뭐야",
+    "choices": [
+      "방향",
+      "길",
+      "미국 달러에서 원화로의 환율",
+      "현실"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "다음 ------ 선거 누가 이길까",
+    "choices": [
+      "공업",
+      "이유",
+      "잘",
+      "한국"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 해가 비칠까",
+    "choices": [
+      "일요일에",
+      "신문",
+      "얘기하다",
+      "아니"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 에는 비가 올까",
+    "choices": [
+      "기분",
+      "내다",
+      "어른",
+      "저녁"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 바람이 불까",
+    "choices": [
+      "멀다",
+      "엄마",
+      "내일",
+      "자연스럽다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 불 켜 줘",
+    "choices": [
+      "과연",
+      "모르다",
+      "키우다",
+      "주방"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lighton",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 밝혀줘",
+    "choices": [
+      "그때",
+      "소파 옆 스탠드",
+      "초기",
+      "직장"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "지금 ------ 은 몇 시야",
+    "choices": [
+      "처음",
+      "그러다",
+      "이르다",
+      "서울"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 작동 시켜줘",
+    "choices": [
+      "그러다",
+      "그날",
+      "일하다",
+      "청소기"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 진공청소기 돌려",
+    "choices": [
+      "열심히",
+      "그러하다",
+      "밥",
+      "주방"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 작동 시켜줘",
+    "choices": [
+      "비롯하다",
+      "자체",
+      "청소기",
+      "지키다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 무슨 일 있을까",
+    "choices": [
+      "읽다",
+      "형",
+      "소년",
+      "세계에"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 신문의 헤드라인 말해줄래",
+    "choices": [
+      "오늘",
+      "대통령",
+      "입시",
+      "완전히"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 재생",
+    "choices": [
+      "지나다",
+      "남자",
+      "일부",
+      "임영웅 플레이리스트"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래들 셔플해줘",
+    "choices": [
+      "미치다",
+      "차",
+      "이승윤",
+      "음악"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 재생해줘",
+    "choices": [
+      "기르다",
+      "쇼팽",
+      "모르다",
+      "차"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 예보 알려줘",
+    "choices": [
+      "오늘",
+      "유월",
+      "새로",
+      "변하다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 피자 주문해줘",
+    "choices": [
+      "공장",
+      "그러니까",
+      "강정구의 피자생각에서",
+      "번째"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 먹고 싶은데 점심 좀 시켜줄래",
+    "choices": [
+      "곰탕",
+      "보이다",
+      "그리고",
+      "주로"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "알렉사 나 ------ 먹고 싶어 점심 좀 시켜줄래",
+    "choices": [
+      "발표하다",
+      "술",
+      "바다",
+      "초밥"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 샌드위치랑 스프 포장 주문해줘",
+    "choices": [
+      "카페마마스에서",
+      "결혼",
+      "삼월",
+      "울다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 며칠 남았어",
+    "choices": [
+      "자연스럽다",
+      "올해",
+      "오다",
+      "듯"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 마지막 날은 무슨 요일이야",
+    "choices": [
+      "그리다",
+      "편",
+      "생명",
+      "올해"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 현충일은 무슨 요일이야",
+    "choices": [
+      "올해",
+      "어느",
+      "작용",
+      "경영"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "밝기 ------ 높여줘",
+    "choices": [
+      "나서다",
+      "이십 퍼센트",
+      "알리다",
+      "필요하다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "불 ------ 설정",
+    "choices": [
+      "제일 밝게",
+      "강하다",
+      "먹다",
+      "머리"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조용히 해줘",
+    "choices": [
+      "한",
+      "말씀",
+      "시작하다",
+      "한 시간 더"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 하루 말하지 마",
+    "choices": [
+      "쓰레기",
+      "여자",
+      "오늘",
+      "전쟁"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 비가 오나",
+    "choices": [
+      "같다",
+      "수",
+      "내일",
+      "차"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 대전 날씨 어떨지 알려줘",
+    "choices": [
+      "그래서",
+      "가슴",
+      "노래",
+      "이틀 뒤"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 우산 챙겨야 하나",
+    "choices": [
+      "내일",
+      "세상",
+      "밝히다",
+      "찾다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 ------ 비활성화",
+    "choices": [
+      "오늘날",
+      "몽실이",
+      "선",
+      "사용"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 ------ 활성화",
+    "choices": [
+      "언제",
+      "플러그",
+      "그리다",
+      "시선"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 켜줘",
+    "choices": [
+      "짓다",
+      "스마트 충전기",
+      "아들",
+      "삼국"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 기술 관련 뉴스 알려줘",
+    "choices": [
+      "인기",
+      "카카오에서",
+      "노인",
+      "필요"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "조건",
+      "저녁",
+      "요즘",
+      "찾아오다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "일하다",
+      "낳다",
+      "일요일",
+      "이유"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "낳다",
+      "변하다",
+      "천일동안",
+      "멀리"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨 상황이 어떻게 돼",
+    "choices": [
+      "아래",
+      "사업",
+      "서울",
+      "훌륭하다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨 알고 싶은데",
+    "choices": [
+      "한마디",
+      "멀다",
+      "시장",
+      "강릉"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨 를 알고싶어",
+    "choices": [
+      "이상",
+      "응",
+      "나가다",
+      "부산"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 에 눈이 오나",
+    "choices": [
+      "경기도",
+      "당시",
+      "조사하다",
+      "종류"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "올리야 나 ------ 불쌍한 사람 도와줬어",
+    "choices": [
+      "오늘",
+      "텔레비전",
+      "던지다",
+      "눕다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 작동 시켜줘",
+    "choices": [
+      "커피 머신",
+      "그렇지만",
+      "편",
+      "술"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨는 어떨 것 같아",
+    "choices": [
+      "마지막",
+      "내일",
+      "겨울",
+      "항상"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 비가 올까",
+    "choices": [
+      "쉽다",
+      "옆",
+      "그것",
+      "내일"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 바깥 기온 은 어때",
+    "choices": [
+      "나다",
+      "말씀",
+      "가르치다",
+      "내일"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 기상 예보가 어떻게 돼",
+    "choices": [
+      "내일",
+      "그냥",
+      "느끼다",
+      "센티미터"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 기상 예보 알려줘",
+    "choices": [
+      "내일의",
+      "이루어지다",
+      "서다",
+      "넣다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 비가 올까",
+    "choices": [
+      "어쩌다",
+      "내일",
+      "정신",
+      "사회"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 눈 내릴까",
+    "choices": [
+      "그러다",
+      "아내",
+      "내일",
+      "내용"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "그 ------ 테이크아웃 주문을 하는지 알아봐",
+    "choices": [
+      "민족",
+      "어떻다",
+      "식당",
+      "몇"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 테이크아웃하는지 알아 봐",
+    "choices": [
+      "나가다",
+      "설명하다",
+      "잠",
+      "식당"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 테이크아웃 메뉴 있어",
+    "choices": [
+      "식당에",
+      "죽음",
+      "늦다",
+      "회"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 무슨 요일이야",
+    "choices": [
+      "전통",
+      "만들다",
+      "실시하다",
+      "삼월 이십이일"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 무슨 요일이야",
+    "choices": [
+      "수",
+      "그러니까",
+      "영향",
+      "삼월 이십구일"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 은 무슨 요일이야",
+    "choices": [
+      "사월 일일",
+      "속도",
+      "모두",
+      "이때"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 울리는 내 알람 시간 언제야",
+    "choices": [
+      "오늘",
+      "그곳",
+      "센티미터",
+      "그룹"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 에서 팔 번 트랙 틀어줘",
+    "choices": [
+      "집단",
+      "즐기다",
+      "다시",
+      "google play music"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래 중 두 번째 노래 재생",
+    "choices": [
+      "장기하의",
+      "그리다",
+      "사용하다",
+      "출신"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 이니",
+    "choices": [
+      "바쁘다",
+      "오늘 월요일",
+      "마을",
+      "허리"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨는 어때",
+    "choices": [
+      "마치",
+      "서울시",
+      "대하다",
+      "이것"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "지금 ------ 날씨 맑아",
+    "choices": [
+      "어른",
+      "오다",
+      "낮다",
+      "광주"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 의 멜로디 틀어주세요",
+    "choices": [
+      "소식",
+      "산들",
+      "다만",
+      "나서다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 음악 앱 열어서 ------ 의 겨울을 걷는다 틀어줘",
+    "choices": [
+      "텔레비전",
+      "예",
+      "윤딴딴",
+      "말"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 의 나랑 아니면 노래 재생해주세요",
+    "choices": [
+      "검정치마",
+      "아래",
+      "마련하다",
+      "경제"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 꺼",
+    "choices": [
+      "놓다",
+      "그러하다",
+      "차고",
+      "무대"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 속보 확인해",
+    "choices": [
+      "태도",
+      "조선일보",
+      "낮다",
+      "어렵다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 의 획기적인 뉴스는 뭐야",
+    "choices": [
+      "세기",
+      "관계자",
+      "의원",
+      "중앙일보"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 사망 소식",
+    "choices": [
+      "물질",
+      "마지막",
+      "국민일보",
+      "살펴보다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 관련 뉴스 뜨면 바로 알려줘",
+    "choices": [
+      "짓다",
+      "갑자기",
+      "허리",
+      "일산 싱크홀"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 꺼 줘",
+    "choices": [
+      "채",
+      "일으키다",
+      "모든",
+      "스마트 플러그"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 켜",
+    "choices": [
+      "네",
+      "모두",
+      "지키다",
+      "스마트 플러그"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 소켓 전환",
+    "choices": [
+      "반면",
+      "하루",
+      "스마트 플러그",
+      "지역"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 플레이리스트 에서 ------ 노래 재생해줘",
+    "choices": [
+      "학년",
+      "구조",
+      "레트로",
+      "교사"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 이 정오 라면 캘리포니아 는 몇 시야",
+    "choices": [
+      "꽃",
+      "다루다",
+      "놓다",
+      "서울"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 시간과 태평양 표준시 의 시차는 얼마야",
+    "choices": [
+      "일",
+      "눈",
+      "가슴",
+      "동부"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 의 나비 재생해줘",
+    "choices": [
+      "힘들다",
+      "무슨",
+      "강하다",
+      "윤도현"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래 무엇이든 재생해줘",
+    "choices": [
+      "즐기다",
+      "살리다",
+      "그러다",
+      "이승환"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 따뜻할까",
+    "choices": [
+      "내일",
+      "짓다",
+      "조직",
+      "보다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 색 바꿔줘",
+    "choices": [
+      "식",
+      "다니다",
+      "집",
+      "대로"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 색 계속 바꿔줄래",
+    "choices": [
+      "단계",
+      "정부",
+      "항상",
+      "집"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 색 어둡게 바꿔줘",
+    "choices": [
+      "집",
+      "주다",
+      "그만",
+      "나다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 음악 듣고 싶어",
+    "choices": [
+      "케이팝",
+      "확인하다",
+      "책임",
+      "현재"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 동안 록 음악 틀어줄 수 있어",
+    "choices": [
+      "환자",
+      "다음 한 시간",
+      "업무",
+      "새벽"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 농담해줘",
+    "choices": [
+      "년",
+      "필요하다",
+      "시장",
+      "웃긴"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 방 조명들 ------ 바꿔",
+    "choices": [
+      "인정하다",
+      "파랗게",
+      "소식",
+      "짓다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 방 조명 ------ 색 으로 바꿔줘",
+    "choices": [
+      "분위기 있는",
+      "힘들다",
+      "언제",
+      "일반"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 잘 수 있게 내 조명 바꿔",
+    "choices": [
+      "아니",
+      "찾아보다",
+      "꿀잠",
+      "배"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 설정해줘",
+    "choices": [
+      "열다",
+      "오전 여덟 시",
+      "알리다",
+      "넣다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 만들어줘",
+    "choices": [
+      "대다",
+      "그래",
+      "쓰레기",
+      "오후 네 시"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 에 기상 알람 맞춰줘",
+    "choices": [
+      "심하다",
+      "오전 여덟 시 사십오 분",
+      "나타나다",
+      "죽다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 뉴스 뭐 있어",
+    "choices": [
+      "관계",
+      "역사",
+      "일",
+      "극한직업"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 켜 줘",
+    "choices": [
+      "혹은",
+      "콘센트 일번",
+      "소리",
+      "일반"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 불 꺼 줘",
+    "choices": [
+      "모으다",
+      "개",
+      "화장실",
+      "국가"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 불 꺼 줘",
+    "choices": [
+      "새롭다",
+      "화장실",
+      "남다",
+      "태도"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 불 꺼 줘",
+    "choices": [
+      "싶다",
+      "화장실",
+      "벗다",
+      "넘다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "이번주 ------ 날씨 어떨 것 같아",
+    "choices": [
+      "대학",
+      "금요일",
+      "입장",
+      "순간"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "현재 바깥 날씨 얼마나 ------",
+    "choices": [
+      "회장",
+      "알다",
+      "그러다",
+      "따뜻해"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 무슨 요일이지",
+    "choices": [
+      "질서",
+      "삼월",
+      "오늘",
+      "위치"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "다음 ------ 은 며칠이야",
+    "choices": [
+      "이번",
+      "이",
+      "화요일",
+      "애"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 목록 틀어",
+    "choices": [
+      "직접",
+      "존재하다",
+      "방탄",
+      "자라다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래 틀어",
+    "choices": [
+      "곳",
+      "계속되다",
+      "싸이",
+      "지원"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 비가 올까",
+    "choices": [
+      "가치",
+      "오늘",
+      "여자",
+      "남녀"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 재킷 입어야 하나",
+    "choices": [
+      "부분",
+      "빛",
+      "인류",
+      "오늘"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "셔플 해제",
+      "학년",
+      "옛날",
+      "세기"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "앨범 ------ 해 줘",
+    "choices": [
+      "반복",
+      "교사",
+      "올라가다",
+      "종류"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 들려줘",
+    "choices": [
+      "만",
+      "키우다",
+      "달",
+      "들국화"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 음악 들려줘",
+    "choices": [
+      "대표",
+      "전통적인 크리스마스",
+      "만하다",
+      "만큼"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 작동",
+    "choices": [
+      "형",
+      "커피머신",
+      "대통령",
+      "인간"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "가장 최신 ------ 말해줘",
+    "choices": [
+      "무슨",
+      "그날",
+      "작다",
+      "애플 주가"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 누가 앞서고 있어",
+    "choices": [
+      "혹은",
+      "이야기",
+      "간",
+      "지방 선거에서"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 며칠이야",
+    "choices": [
+      "오늘",
+      "바뀌다",
+      "불",
+      "만"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 불 파란색 으로 바꿔줘",
+    "choices": [
+      "팔다",
+      "손님",
+      "주방",
+      "사장"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 불 빨간색 으로 바꿔줘",
+    "choices": [
+      "결과",
+      "거실",
+      "물질",
+      "계획"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 초록색 으로 바꿔줘",
+    "choices": [
+      "필요하다",
+      "자세",
+      "타다",
+      "침실"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 음악 듣고 싶어",
+    "choices": [
+      "클래식",
+      "풀다",
+      "허리",
+      "계속되다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 듣고 싶어",
+    "choices": [
+      "씻다",
+      "키",
+      "재즈",
+      "구조"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 ------ 불 밝게 해줘",
+    "choices": [
+      "이야기하다",
+      "방",
+      "입시",
+      "어"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 꺼 줘",
+    "choices": [
+      "멀다",
+      "머리",
+      "책",
+      "전등"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래 틀어줘",
+    "choices": [
+      "비",
+      "순간",
+      "늦다",
+      "에일리"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 재생해줘",
+    "choices": [
+      "차",
+      "지니다",
+      "고백",
+      "부분"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래들 열어줘",
+    "choices": [
+      "내다",
+      "모든",
+      "이승철",
+      "다리"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 소식 찾아줘",
+    "choices": [
+      "북한 미사일",
+      "예",
+      "생각하다",
+      "원"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 관련 뉴스 열어줘",
+    "choices": [
+      "선거",
+      "외",
+      "봄",
+      "s. k. 에너지"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 관련 뉴스 좀 찾아줘",
+    "choices": [
+      "밤",
+      "모습",
+      "문재인 신년사",
+      "언제나"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 는 지금 몇 시야",
+    "choices": [
+      "대회",
+      "재산",
+      "다른 시간대",
+      "무대"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 는 무슨 시간대야",
+    "choices": [
+      "저",
+      "공",
+      "애리조나",
+      "가정"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 는 몇 시야",
+    "choices": [
+      "결국",
+      "뉴욕시",
+      "내",
+      "웃다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "지금 ------ 는 몇 시야",
+    "choices": [
+      "눈물",
+      "엄마",
+      "인도",
+      "간"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 은 지금 몇 시야",
+    "choices": [
+      "술",
+      "기억",
+      "번째",
+      "필리핀"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "바깥 ------ 어때",
+    "choices": [
+      "온도",
+      "하루",
+      "꺼내다",
+      "이기다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "밖에 날씨 ------",
+    "choices": [
+      "불",
+      "말",
+      "덥나",
+      "귀"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "밖에 날씨 ------",
+    "choices": [
+      "가치",
+      "엄마",
+      "인물",
+      "추울까"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "네가 아는 ------ 농담이 뭐야",
+    "choices": [
+      "연극",
+      "애",
+      "회",
+      "시시한"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "네가 아는 ------ 농담 뭐 있어",
+    "choices": [
+      "노력하다",
+      "유치한",
+      "빠지다",
+      "오다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 농담 뭐 있어",
+    "choices": [
+      "할머니",
+      "재미 있는",
+      "정보",
+      "아이"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "전등 색깔 ------ 으로 바꿔줘",
+    "choices": [
+      "선수",
+      "지금",
+      "파란색",
+      "무슨"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "색상이 ------ 인지 확인해",
+    "choices": [
+      "파란색",
+      "묻다",
+      "자세",
+      "차례"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 으로 바꿔줘",
+    "choices": [
+      "영어",
+      "질서",
+      "빨간색",
+      "몸"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 몇 시야",
+    "choices": [
+      "그러하다",
+      "매우",
+      "뉴욕",
+      "인기"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 는 몇 시야",
+    "choices": [
+      "덴버",
+      "결과",
+      "이전",
+      "맞다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래들 열어",
+    "choices": [
+      "선생",
+      "어깨",
+      "이승철",
+      "나무"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 음소거 부탁해",
+    "choices": [
+      "과연",
+      "사고",
+      "앞으로 한 시간",
+      "광고"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 농담이나 나한테 말해줘",
+    "choices": [
+      "아무",
+      "어머니",
+      "놓다",
+      "친구"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "가장 최근의 ------ 뉴스가 뭐야",
+    "choices": [
+      "법",
+      "세계",
+      "보다",
+      "주다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 뉴스 읽어줘",
+    "choices": [
+      "갈등",
+      "빨리",
+      "국제",
+      "잡다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 맞춰줘",
+    "choices": [
+      "비슷하다",
+      "그",
+      "해",
+      "오전 아홉 시"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 에 기상 알람 설정해",
+    "choices": [
+      "바라보다",
+      "오전 열시",
+      "올라가다",
+      "그동안"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 에 리마인더 알람 맞춰줘",
+    "choices": [
+      "바람",
+      "살",
+      "한 시",
+      "안다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 만들어줘",
+    "choices": [
+      "제품",
+      "오후 세 시",
+      "시민",
+      "주장하다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 켜",
+    "choices": [
+      "마시다",
+      "오전 아홉시",
+      "하지만",
+      "올리다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 설정해",
+    "choices": [
+      "만하다",
+      "그림",
+      "모임",
+      "오후 한 시"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 앨범 찾아줘",
+    "choices": [
+      "이것",
+      "식",
+      "터",
+      "아이유"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 가 부른 노래 틀어",
+    "choices": [
+      "내다",
+      "애",
+      "아이유",
+      "정하다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "음악 ------ 틀어줘",
+    "choices": [
+      "넣다",
+      "이러하다",
+      "바로",
+      "생명"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 농담이 뭐야",
+    "choices": [
+      "올해",
+      "가장 재밌는",
+      "노력하다",
+      "특징"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 농담 해줘",
+    "choices": [
+      "야한",
+      "매우",
+      "넓다",
+      "키우다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 볼륨 높여줘",
+    "choices": [
+      "알다",
+      "비처럼 음악처럼",
+      "작용",
+      "소식"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "volume_up",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래 셔플 뒤로 넣어줘",
+    "choices": [
+      "맑다",
+      "투자",
+      "버터",
+      "넣다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 그 음악 다시 틀어줘",
+    "choices": [
+      "반드시",
+      "아이유의",
+      "잘하다",
+      "분야"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 불 꺼 줘",
+    "choices": [
+      "거실",
+      "기분",
+      "어쩌다",
+      "넓다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 꺼지도록 설정해",
+    "choices": [
+      "분명하다",
+      "원",
+      "뉴스",
+      "거실"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 아무거나 틀어",
+    "choices": [
+      "대신",
+      "표정",
+      "싸이",
+      "분"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 음악 좀 구할 수 있어",
+    "choices": [
+      "달",
+      "업체",
+      "어",
+      "배경"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 로 설정된 알람 있어",
+    "choices": [
+      "얼른",
+      "내일",
+      "결정하다",
+      "여기다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 상황 어때",
+    "choices": [
+      "내일",
+      "시인",
+      "그대로",
+      "마시다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 꺼줘",
+    "choices": [
+      "계속",
+      "말",
+      "같이",
+      "오전 여덟 시"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 ------ 알람 취소",
+    "choices": [
+      "어떠하다",
+      "오전 여덟 시",
+      "얼굴",
+      "만큼"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 삭제해줘",
+    "choices": [
+      "물질",
+      "향하다",
+      "생각하다",
+      "오전 여덟 시"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "지금 ------ 이 어때",
+    "choices": [
+      "버리다",
+      "기온",
+      "잠",
+      "아직"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "얼마나 ------",
+    "choices": [
+      "따뜻해",
+      "참",
+      "아직",
+      "출신"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "얼마나 ------",
+    "choices": [
+      "투자",
+      "못하다",
+      "종류",
+      "춥나"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 에 생일 얼마나 있어",
+    "choices": [
+      "대화",
+      "사장",
+      "질서",
+      "이십삼일"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 은 십이일 이야",
+    "choices": [
+      "우리",
+      "가지다",
+      "반",
+      "두번째 토요일"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 에 크리스마스 가 있어",
+    "choices": [
+      "게임",
+      "문제",
+      "이십이일",
+      "넓다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "같은 ------ 십 분 동안 반복해",
+    "choices": [
+      "노래",
+      "그래도",
+      "도시",
+      "아프다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "오직 특정 가수 ------ 플레이해",
+    "choices": [
+      "의하다",
+      "노래만",
+      "사람",
+      "거의"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "목록 에서 ------ 재생",
+    "choices": [
+      "교사",
+      "일부터 십까지",
+      "작품",
+      "채"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 하나 꺼",
+    "choices": [
+      "현관 쪽",
+      "말",
+      "강조하다",
+      "사실"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 꺼",
+    "choices": [
+      "아나운서",
+      "바다",
+      "램프",
+      "모양"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 비가 올까",
+    "choices": [
+      "내일",
+      "자다",
+      "이상",
+      "발표하다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 오후 다섯 시 삼십 분 에 일몰이려나",
+    "choices": [
+      "내일",
+      "원하다",
+      "움직이다",
+      "과연"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 비가 올 가능성 있어",
+    "choices": [
+      "국내",
+      "지난해",
+      "펴다",
+      "이번 주"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "요즘 ------ 는 뭐야",
+    "choices": [
+      "소설",
+      "트렌드",
+      "키우다",
+      "그림"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 새로운 소식은 뭐가 있니",
+    "choices": [
+      "물질",
+      "오늘",
+      "만큼",
+      "발전"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 시간대로 몇 시야",
+    "choices": [
+      "끝나다",
+      "채",
+      "곧",
+      "동부"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "지금 얼마나 ------",
+    "choices": [
+      "사랑",
+      "말하다",
+      "따뜻한가",
+      "오래"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "지금 라디오에서 들을 수 있는 ------ 들려줄래",
+    "choices": [
+      "옛날",
+      "히트곡 오십 개",
+      "마치다",
+      "편"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "저녁 식사 를 위한 ------ 음악 지금 켜주세요",
+    "choices": [
+      "국회",
+      "만들어지다",
+      "싶다",
+      "클래식"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 의 아침 이슬 듣고 싶어",
+    "choices": [
+      "걸리다",
+      "양희은",
+      "키",
+      "상황"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 히트곡 틀어줄래",
+    "choices": [
+      "샘김",
+      "결혼",
+      "움직이다",
+      "피해"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내가 좋아하는 ------ 노래 듣고 싶어",
+    "choices": [
+      "노동자",
+      "여행",
+      "언니네 이발관",
+      "오빠"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 시작하게 변경해",
+    "choices": [
+      "자정에",
+      "옮기다",
+      "여기다",
+      "대표"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨 어때",
+    "choices": [
+      "나서다",
+      "밖",
+      "교장",
+      "지금으로부터 한주간"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨는 어때",
+    "choices": [
+      "기준",
+      "화요일",
+      "않다",
+      "문"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 일기 예보는 어때",
+    "choices": [
+      "주말",
+      "모르다",
+      "받아들이다",
+      "심각하다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 동안 음소거",
+    "choices": [
+      "그날",
+      "무섭다",
+      "버리다",
+      "이십분"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 오전 여섯 시 에 일어나고 싶어요",
+    "choices": [
+      "내일",
+      "시작하다",
+      "공장",
+      "입"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 오전 일곱 시 알람 설정해주시겠어요",
+    "choices": [
+      "남",
+      "제품",
+      "이때",
+      "다음날 아침"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "다음 ------ 오전 여덟 시 에 기상 알람 울려주시겠어요",
+    "choices": [
+      "비다",
+      "토요일",
+      "그렇다",
+      "생산"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 플레이리스트 재생",
+    "choices": [
+      "이루다",
+      "칠번",
+      "분",
+      "자식"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 은 무슨 요일이야",
+    "choices": [
+      "필요",
+      "결코",
+      "초기",
+      "추석"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "그 ------ 의 마지막 날은 뭐야",
+    "choices": [
+      "달",
+      "형태",
+      "정말",
+      "같다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 는 몇 시야",
+    "choices": [
+      "중부",
+      "상품",
+      "잠시",
+      "아무리"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 표준시로 지금 몇 시지",
+    "choices": [
+      "존재",
+      "그러다",
+      "산지",
+      "가정"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 관련 최근 논란은 뭐니",
+    "choices": [
+      "그날",
+      "넘다",
+      "역할",
+      "윤석열"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 대한 최신 논란은 무엇이니",
+    "choices": [
+      "김건희에",
+      "하루",
+      "누구",
+      "그러나"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래 라디오에서 재생해주세요",
+    "choices": [
+      "줄이다",
+      "소년",
+      "지니다",
+      "이효리"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 들려줘",
+    "choices": [
+      "하루만 더",
+      "조건",
+      "일어나다",
+      "함께"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 최근 앨범 최근 히트곡 노래 틀어",
+    "choices": [
+      "비티에스",
+      "다음",
+      "놓다",
+      "전"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 관련 뉴스 있으면 알려줘",
+    "choices": [
+      "여성",
+      "한전",
+      "파악하다",
+      "관계자"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 관련 새소식 알림 설정해",
+    "choices": [
+      "강원도 도로 확장 공사",
+      "아니",
+      "갖추다",
+      "직장"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 관련 소식 알려줘",
+    "choices": [
+      "잡다",
+      "오스템 횡령",
+      "필요하다",
+      "한계"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 시작해",
+    "choices": [
+      "나타나다",
+      "다니다",
+      "말",
+      "청소기"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 돌려줘",
+    "choices": [
+      "외국",
+      "가능하다",
+      "일반",
+      "청소기"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 관련 재밌는 농담은 뭐가있을까",
+    "choices": [
+      "자동차",
+      "모르다",
+      "향하다",
+      "시"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 관한 농담 말해줘",
+    "choices": [
+      "질서",
+      "남자에",
+      "아빠",
+      "현장"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "나를 위해 ------ 에 관한 농담 찾아줘",
+    "choices": [
+      "동물",
+      "통신",
+      "환자",
+      "가격"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 이 노래 재생 하라고 알려줘",
+    "choices": [
+      "지",
+      "오늘밤",
+      "가운데",
+      "친구"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래 들려줘",
+    "choices": [
+      "이것",
+      "아이유",
+      "가치",
+      "경험"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 켜 줘",
+    "choices": [
+      "생기다",
+      "인기",
+      "청소기",
+      "인하다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 최고 온도 는 몇도야",
+    "choices": [
+      "성격",
+      "꺼내다",
+      "이번 주",
+      "지나가다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "불 ------ 올려줘",
+    "choices": [
+      "나타나다",
+      "약간",
+      "공연",
+      "하지만"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "조명 ------ 올려줘",
+    "choices": [
+      "나중",
+      "던지다",
+      "조금만",
+      "필요"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내가 ------ 로 설정한 알람 있어",
+    "choices": [
+      "군",
+      "관계",
+      "갖다",
+      "오늘"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 조명 꺼 줘",
+    "choices": [
+      "개",
+      "방",
+      "좀",
+      "대책"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "조명 제어 ------ 불 꺼 줘",
+    "choices": [
+      "평가",
+      "위하다",
+      "방",
+      "싫다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 음악 좀 찾아줘",
+    "choices": [
+      "한계",
+      "이해",
+      "실제로",
+      "가스펠"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 음악 좀 듣고 싶어",
+    "choices": [
+      "값",
+      "누구",
+      "열리다",
+      "가스펠"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 현재 날씨는 어때",
+    "choices": [
+      "하지만",
+      "아버지",
+      "할머니",
+      "경기도"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 현재 날씨는 어때",
+    "choices": [
+      "잠시",
+      "아나운서",
+      "경영",
+      "서울"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "시험",
+      "사실",
+      "캘리포니아",
+      "사람"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 현재 시간",
+    "choices": [
+      "뉴욕",
+      "먹다",
+      "식",
+      "이루다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 의 현재 시간",
+    "choices": [
+      "일본",
+      "작년",
+      "내다",
+      "농민"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "여기가 ------ 일 때 호주 는 몇 시인지 알 수 있을까",
+    "choices": [
+      "노력하다",
+      "반",
+      "오후 여섯 시",
+      "밝히다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 랑 서울 시차가 몇 시간이나 나는 지 알려 줄 수 있어",
+    "choices": [
+      "발전하다",
+      "자세",
+      "파리",
+      "밝히다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "나는 ------ 두개랑 콜라 한개 빨리 주문해줘",
+    "choices": [
+      "아무런",
+      "햄버거",
+      "성격",
+      "한마디"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 두 개 주문해줘",
+    "choices": [
+      "지",
+      "수",
+      "일반",
+      "햄버거"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 한 판을 주문해",
+    "choices": [
+      "재산",
+      "남다",
+      "피자",
+      "버스"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "충전되면 내 ------ 꺼주세요",
+    "choices": [
+      "산업",
+      "폰 플러그",
+      "세우다",
+      "결혼"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "나 집 에 도착하면 ------ 플러그 켜 줘",
+    "choices": [
+      "크다",
+      "티비",
+      "대중",
+      "노력"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 충전되기 전에 플러그 끄고 싶어",
+    "choices": [
+      "눕다",
+      "크기",
+      "핸드폰",
+      "고기"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 대해 알려줘",
+    "choices": [
+      "비트코인 가격에",
+      "학생",
+      "국가",
+      "노래"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 에 관해 업데이트 해줘",
+    "choices": [
+      "방향",
+      "주식 시장 가격",
+      "옮기다",
+      "이상하다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "stock",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 김건희 학력 위조 관련 뉴스 팔로우 해줘",
+    "choices": [
+      "삶",
+      "아마",
+      "작다",
+      "앞으로"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 ------ 틀어줄래",
+    "choices": [
+      "계획",
+      "시민",
+      "마지막 노래",
+      "주위"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 의 노래 재생해",
+    "choices": [
+      "값",
+      "신용재",
+      "내다",
+      "못"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 오후 여섯시 에 듣던 노래 틀어줘",
+    "choices": [
+      "어젯밤",
+      "자주",
+      "분",
+      "맛"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 지금 몇 시니",
+    "choices": [
+      "서울",
+      "비롯하다",
+      "심하다",
+      "엄청나다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 시간 알려줘",
+    "choices": [
+      "사랑하다",
+      "젊다",
+      "워싱턴",
+      "표현"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "지금 ------ 시간 알려줘",
+    "choices": [
+      "관점",
+      "워싱턴",
+      "이용하다",
+      "전혀"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "방금 음식을 주문했는데 ------ 전화해줘",
+    "choices": [
+      "고맙다",
+      "배달 되었는지",
+      "다음",
+      "그만"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 현황 체크해줘",
+    "choices": [
+      "배달",
+      "그렇다",
+      "결국",
+      "방식"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 오고 있는지 식당에 전화해",
+    "choices": [
+      "게임",
+      "선생",
+      "배",
+      "배달이"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 밝게 해줄래",
+    "choices": [
+      "방",
+      "모든",
+      "전혀",
+      "많이"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 무슨 일이야",
+    "choices": [
+      "이거",
+      "국회에",
+      "웃음",
+      "열다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 말 좀 해줘",
+    "choices": [
+      "그런",
+      "빠지다",
+      "재밌는",
+      "잔"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래 틀어줄래",
+    "choices": [
+      "시나위",
+      "준비",
+      "없어지다",
+      "만나다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "지금 ------ 듣고 싶어",
+    "choices": [
+      "장미여관",
+      "출신",
+      "발표하다",
+      "채"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "지금 ------ 경기 누가 선두야",
+    "choices": [
+      "포뮬러 원",
+      "투자",
+      "가장",
+      "기회"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 업데이트 전해줘",
+    "choices": [
+      "선거 여론조사",
+      "왜",
+      "인하다",
+      "웃다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 헤드라인 읽어줘",
+    "choices": [
+      "연합뉴스",
+      "이르다",
+      "성격",
+      "전혀"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 마지막 소식 듣고 싶어",
+    "choices": [
+      "제이 티 비 씨",
+      "종교",
+      "통하다",
+      "문학"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "마지막 ------ 속보 보여 줘",
+    "choices": [
+      "가르치다",
+      "사업",
+      "가깝다",
+      "s. b. s."
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 뉴스 알고 싶어",
+    "choices": [
+      "빛",
+      "특징",
+      "부산일보",
+      "자라다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 가장 최근 뉴스 읽어줘",
+    "choices": [
+      "의하다",
+      "새롭다",
+      "서울 신문에서",
+      "존재하다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 속보 알 수 있을까",
+    "choices": [
+      "아직",
+      "와이 티 엔",
+      "전화",
+      "대하다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 아침 네 시에 알람 설정해줘",
+    "choices": [
+      "특히",
+      "자",
+      "내일",
+      "세우다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 나 깨워줄 알람 만들어줘",
+    "choices": [
+      "인기",
+      "다섯 시간 후",
+      "그거",
+      "자라다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 나 깨워주는 알람 맞춰줘",
+    "choices": [
+      "오월",
+      "이르다",
+      "세 시간 후에",
+      "정신"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 기상 통계정보 알려줘",
+    "choices": [
+      "아래",
+      "각",
+      "주간",
+      "형식"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 기상정보 보여줘",
+    "choices": [
+      "주간",
+      "오히려",
+      "주민",
+      "오늘"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "이번 ------ 날씨 요약해줘",
+    "choices": [
+      "빛",
+      "물건",
+      "한 주의",
+      "그렇지만"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래들 듣고 싶어",
+    "choices": [
+      "작품",
+      "레드벨벳",
+      "선수",
+      "옮기다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 노래 별이 진다네 틀어줘",
+    "choices": [
+      "영어",
+      "차",
+      "정말",
+      "여행스케치"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "이 노래 뒤에 ------ 최신 노래 틀어",
+    "choices": [
+      "취하다",
+      "나다",
+      "흐르다",
+      "여자친구"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 밖은 얼마나 춥나",
+    "choices": [
+      "오늘",
+      "기계",
+      "기간",
+      "지금"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 기온 은 몇도야",
+    "choices": [
+      "아버지",
+      "그리고",
+      "오늘",
+      "티브이"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨 얼마나 습한가",
+    "choices": [
+      "먹다",
+      "첫",
+      "외국",
+      "오늘"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 및 소울 장르 음악 시작해",
+    "choices": [
+      "환자",
+      "요구하다",
+      "년",
+      "알앤비"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "모든 최신 ------ 노래 재생해줘",
+    "choices": [
+      "아직",
+      "케이팝",
+      "우리",
+      "경우"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "다음으로 ------ 재생",
+    "choices": [
+      "행복 플레이리스트",
+      "국제",
+      "사실",
+      "쓴 맛"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "뭐가 ------",
+    "choices": [
+      "유행이야",
+      "나타내다",
+      "역할",
+      "작가"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 ------ 에서 노래 재생해",
+    "choices": [
+      "준비하다",
+      "수면 음악 목록",
+      "학교",
+      "실제로"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 볼륨 낮춰",
+    "choices": [
+      "이데올로기",
+      "십 퍼센트로",
+      "성격",
+      "초기"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "volume_down",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 시간대로 바꿔줘",
+    "choices": [
+      "워싱턴",
+      "회장",
+      "소년",
+      "전쟁"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 시간대를 인도 표준시 로 변경해",
+    "choices": [
+      "지원",
+      "이 지역",
+      "빠지다",
+      "날"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 꺼줄 수 있어",
+    "choices": [
+      "지식",
+      "즐겁다",
+      "에이아이 스마트 플러그",
+      "즐기다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 충전기 연결 하게 ------ 켜 줘",
+    "choices": [
+      "얘기하다",
+      "그녀",
+      "wemo 콘센트",
+      "내다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 동글에 연결할 ------ 켜줘",
+    "choices": [
+      "다원 스마트 플러그",
+      "입",
+      "이루다",
+      "프로그램"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨는 어때",
+    "choices": [
+      "정보",
+      "보이다",
+      "이번 주",
+      "집단"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨는 어떨 것 같아",
+    "choices": [
+      "우선",
+      "기준",
+      "감정",
+      "이번 주"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 일기 예보 알려줘",
+    "choices": [
+      "엄마",
+      "이번 주",
+      "없다",
+      "언론"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 ------ 최신 소식들 알려 줄 수 있니",
+    "choices": [
+      "열리다",
+      "부모",
+      "최신 공급업체의",
+      "단계"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "내 ------ 가장 최신 뉴스 검색해줄래",
+    "choices": [
+      "하늘",
+      "이데올로기",
+      "조직",
+      "새로운 뉴스 채널에서"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "최신 ------ 뉴스에 관해 말해줄래",
+    "choices": [
+      "역사",
+      "모든",
+      "정치",
+      "크기"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "최신 ------ 소식 말해주세요",
+    "choices": [
+      "스포츠",
+      "전국",
+      "나라",
+      "주로"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "요즘 ------ 어떤 일들이 벌어지고 있니",
+    "choices": [
+      "이용하다",
+      "작용",
+      "세계에",
+      "풀다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 뉴스 업데이트 전해줘",
+    "choices": [
+      "남",
+      "냄새",
+      "괜찮다",
+      "k. b. s."
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 새로운 소식 어떤 것들이 있니",
+    "choices": [
+      "와이티엔",
+      "정신",
+      "다만",
+      "쉬다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 최신 업데이트 된 소식 알려줘",
+    "choices": [
+      "맡다",
+      "k. b. s.",
+      "하다",
+      "느끼다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 최신 뉴스 업데이트 보여 줘",
+    "choices": [
+      "k. b. s.",
+      "전하다",
+      "가족",
+      "시험"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 뉴스에 나오면 알려줘",
+    "choices": [
+      "의원",
+      "살",
+      "박근혜",
+      "만하다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "세계에서 ------ 일어나고 있는지 알려줘",
+    "choices": [
+      "사다",
+      "지진이",
+      "바꾸다",
+      "뭐"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알려줘",
+    "choices": [
+      "국회",
+      "각각",
+      "걸리다",
+      "바깥 온도가 삼십도가 되면"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 의 첫 눈 재생",
+    "choices": [
+      "약간",
+      "중심",
+      "경험",
+      "엑소"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 의 마이 유니버스 틀어줘",
+    "choices": [
+      "힘",
+      "이름",
+      "방탄",
+      "경향"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 의 피 땀 눈물 듣기",
+    "choices": [
+      "먹다",
+      "보호",
+      "방탄",
+      "세우다"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 재생",
+    "choices": [
+      "그대라는 사치",
+      "대화",
+      "바쁘다",
+      "대학"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 의 솔로 틀어줘",
+    "choices": [
+      "작가",
+      "그녀",
+      "제니",
+      "크기"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 틀어",
+    "choices": [
+      "일으키다",
+      "사랑 노래들",
+      "일하다",
+      "싶다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "모든 ------ 노래 스트리밍",
+    "choices": [
+      "록",
+      "편",
+      "지내다",
+      "꿈"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 현재 순서에 추가",
+    "choices": [
+      "마이 유니버스",
+      "거의",
+      "발전",
+      "형태"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨 어때",
+    "choices": [
+      "결과",
+      "오늘",
+      "가져오다",
+      "적다"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "지금 ------ 이 어때",
+    "choices": [
+      "넓다",
+      "첫",
+      "소리",
+      "기온"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨가 어땠어",
+    "choices": [
+      "이번 주",
+      "보다",
+      "책",
+      "사업"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 날씨",
+    "choices": [
+      "오래",
+      "그러므로",
+      "온화하거나 무거운",
+      "불"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 가장 더운 날 보여줘",
+    "choices": [
+      "인생",
+      "이번주",
+      "아이",
+      "회의"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 인가",
+    "choices": [
+      "학생",
+      "어울리다",
+      "버리다",
+      "여름"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 우박 올 가능성 있어",
+    "choices": [
+      "이번 주",
+      "즐기다",
+      "음식",
+      "편"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 아침 설정된 알람 확인해줘",
+    "choices": [
+      "생산",
+      "지나가다",
+      "내일",
+      "시간"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 알람 몇 시로 설정되어 있어",
+    "choices": [
+      "내일",
+      "시절",
+      "가족",
+      "계속"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 수 있는 멕시칸 식당을 추천해 주시겠어요",
+    "choices": [
+      "테이크아웃할",
+      "과",
+      "수",
+      "수준"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 음식을 제공하는 식당은 어디있어",
+    "choices": [
+      "가지다",
+      "그",
+      "포장",
+      "인류"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 음식 테이크아웃 되나",
+    "choices": [
+      "잘하다",
+      "그러나",
+      "지금",
+      "관심"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 관련 최근 지역 뉴스 알고 싶어",
+    "choices": [
+      "식",
+      "농업",
+      "멀리",
+      "시"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 에 커피 만들어",
+    "choices": [
+      "오전 여덟 시",
+      "만하다",
+      "자동차",
+      "맑다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 커피 내리기",
+    "choices": [
+      "인간",
+      "정오에",
+      "사다",
+      "대부분"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 신곡 플레이리스트 틀어",
+    "choices": [
+      "이무진",
+      "묻다",
+      "차",
+      "먹다"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "새 ------ 플레이리스트 시작",
+    "choices": [
+      "집",
+      "뉴스",
+      "시험",
+      "악뮤"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 탕 부터 재생",
+    "choices": [
+      "외",
+      "송민호",
+      "오늘",
+      "완전히"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ 어플 들어가줘",
+    "choices": [
+      "수업",
+      "중앙일보",
+      "일",
+      "운동"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  }
+]

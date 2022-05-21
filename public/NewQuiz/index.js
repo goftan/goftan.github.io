@@ -1,6 +1,6 @@
 var avialable_languages = [
     'Persian',
-    'English',
+    //'English',
     'Spanish',
     'Korean'
 ]
