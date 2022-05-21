@@ -1,3 +1,10 @@
+var avialable_languages = [
+    'Persian',
+    'English',
+    'Spanish',
+    'Korean'
+]
+
 var avialble_topics = [
     'Capitals',
     'Numbers',
@@ -7,15 +14,34 @@ var avialble_topics = [
     'Common Words', 
     'Common Sentences'];
 
+function deselectAllNav() {
+    d3.select('#language_page').style("display", 'none');
+    d3.select('#first_page').style("display", 'none');
+    d3.select('#second_page').style("display", 'none');
+    d3.select('#third_page').style("display", 'none');
+    d3.select('#about_page').style("display", 'block');
+}
+    
+
+function fill_language_checkboxes() {
+    d3.select('#language_checkboxes').selectAll('label').data(avialable_languages)
+        .enter().append('label').text(function(d){return d;}).attr('class','container')
+        .html(function(d){return '<input type="checkbox" name="topics" value="'+d+'" checked="checked" class="mycheckbox">'
+                                    + d +'<span class="checkmark"></span>';});
+}
+
+fill_language_checkboxes();
+
+function startLearning() {
+    fill_topic_checkboxes();
+}
+
 function fill_topic_checkboxes() {
     d3.select('#topics_checkboxes').selectAll('label').data(avialble_topics)
         .enter().append('label').text(function(d){return d;}).attr('class','container')
         .html(function(d){return '<input type="checkbox" name="topics" value="'+d+'" checked="checked" class="mycheckbox">'
                                   + d +'<span class="checkmark"></span>';});
 }
-
-
-fill_topic_checkboxes();
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -41,7 +67,6 @@ function startQuiz() {
     let readers = [];
     d3.selectAll('.mycheckbox:checked').each(function() {
         var topic_name = d3.select(this).node().value.replaceAll(' ','') + '.json';
-        console.log(topic_name);
         readers.push(d3.json(topic_name));
     });
 
@@ -50,7 +75,7 @@ function startQuiz() {
         all = [].concat.apply([], files);
         for(a of all) quizall.push(a.value);
         quiz = [].concat.apply([], quizall);
-        console.log(quiz);
+        // console.log(quiz);
         shuffleArray(quiz);
         fill_qa(quiz[0]);
         d3.select('#first_page').style("display", 'none');
