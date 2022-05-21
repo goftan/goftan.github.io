@@ -181,19 +181,44 @@ function click_nav(nav_name) {
     // border-collapse: collapse;
 //   }
 
-arr = []
-for(i = 0;i < 15 ;i++) {
-    arr.push(i)
+arr1 = []
+for(i = 0;i < 12 ;i++) {
+    arr1.push(i)
 }
-arr.forEach(function(e){
+
+arr2 = []
+for(i = 0;i < 13 ;i++) {
+    arr2.push(i);
+}
+
+cnt = 0;
+arr1.forEach(function(e){
+    if(cnt == 0) 
+        d3.select('#crossword').append('tr').selectAll("td")
+        .data(arr2)
+        .enter()
+        .append("td")
+        // .style('border', '1px solid black')
+        // .style('border-collapse', 'collapse')
+        .style('width', '20px')
+        .style('height', '20px')
+        .style('text-align','center')
+        .style('font-size','9px')
+        .text(function(d,c) { if(c==0)return ""; return ""+c; });
+
     d3.select('#crossword').append('tr').selectAll("td")
-    .data(arr)
+    .data(arr2)
     .enter()
     .append("td")
-    .style('border', '1px solid black')
+    .style('border', function(e,c){if(c == 0) return ""; return '1px solid black';})
     .style('border-collapse', 'collapse')
     .style('width', '20px')
+    .style('font-size','9px')
     .style('height', '20px')
     .style('text-align','center')
-    .text(function(d) { return "a"; });
+    .html(function(d,c) { 
+        if(c==0) return  (cnt+1)+"";
+        return "<input style='width:20px;heigh:20ox'></input>"; 
+    });
+    cnt++;
 });
