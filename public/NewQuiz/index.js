@@ -206,7 +206,7 @@ arr1.forEach(function(e){
         .style('font-size','9px')
         .text(function(d,c) { if(c==0)return ""; return ""+c; });
 
-    d3.select('#crossword').append('tr').selectAll("td")
+    td = d3.select('#crossword').append('tr').selectAll("td")
     .data(arr2)
     .enter()
     .append("td")
@@ -218,7 +218,20 @@ arr1.forEach(function(e){
     .style('text-align','center')
     .html(function(d,c) { 
         if(c==0) return  (cnt+1)+"";
-        return "<input id='crossword_cells' oninput='javascript: if(this.value.length > 1) this.value = this.value.slice(0, this.maxLength);' maxlength='1'>"; 
+        return "<input class='crossword_cells' id='crossword_cells'>"; 
+    });
+    d3.selectAll('input.crossword_cells').on('input', function() {
+        if(this.value.length > 1) {
+            this.value = this.value.slice(0,1);
+        }
+        return this.value;
     });
     cnt++;
 });
+
+function checkinput(e) {
+    console.log(this.value)
+    value = document.getElementById('myInput').value;
+    if(value.length > 1) 
+    document.getElementById('myInput').value = this.value.slice(0, 1);
+  }
