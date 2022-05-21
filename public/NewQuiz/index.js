@@ -218,7 +218,7 @@ arr1.forEach(function(e){
     .style('text-align','center')
     .html(function(d,c) { 
         if(c==0) return  (cnt+1)+"";
-        return "<input style='text-align:center;width:15px;height:15px;border:0;background: none;box-shadow: none;border-radius: 0px;' maxlength='1'>"; 
+        return "<input onkeypress='if(this.value.length >= max_length) return false;' style='text-align:center;width:15px;height:15px;border:0;background: none;box-shadow: none;border-radius: 0px;' maxlength='1'>"; 
     });
     cnt++;
 });
