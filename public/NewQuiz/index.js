@@ -183,7 +183,7 @@ function click_nav(nav_name) {
 
 arr = []
 for(i = 0;i < 15 ;i++) {
-    arr.append(i)
+    arr.push(i)
 }
 arr.forEach(function(e){
     d3.select('#crossword').append('tr').selectAll("td")
