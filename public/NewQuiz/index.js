@@ -42,8 +42,22 @@ function fill_language_checkboxes() {
 }
 
 fill_language_checkboxes();
+if(localStorage.getItem('lang') != null) {
+    startLearningWithKnownLanguage();
+}
 
 function startLearning() {
+    selectPage('topics_page');
+    if(d3.select('.myradiobox:checked').size() == 0) {
+        alert('Please select a language');
+        return;
+    }
+    var lang = d3.select('.myradiobox:checked').node().value;
+    localStorage.setItem('lang',lang);
+    fill_topic_checkboxes();
+}
+
+function startLearningWithKnownLanguage() {
     selectPage('topics_page');
     fill_topic_checkboxes();
 }
@@ -51,7 +65,7 @@ function startLearning() {
 function fill_topic_checkboxes() {
     d3.select('#topics_checkboxes').selectAll('label').data(avialble_topics)
         .enter().append('label').text(function(d){return d;}).attr('class','container')
-        .html(function(d){return '<input type="checkbox" name="topics" value="'+d+'" checked="checked" class="mycheckbox">'
+        .html(function(d){return '<input type="checkbox" name="topics" value="' + d +'" checked="checked" class="mycheckbox">'
                                   + d +'<span class="checkmark"></span>';});
 }
 
@@ -78,9 +92,10 @@ var countViewed = 0;
 
 function startQuiz() {
     let readers = [];
+    var lang = localStorage.getItem('lang');
     d3.selectAll('.mycheckbox:checked').each(function() {
         var topic_name = d3.select(this).node().value.replaceAll(' ','') + '.json';
-        readers.push(d3.json(topic_name));
+        readers.push(d3.json(lang + '/' + topic_name));
     });
 
     Promise.allSettled(readers).then(function(files) {
@@ -153,4 +168,9 @@ function restartQuiz() {
     countCorrect = 0;
     countIncorrect = 0;
     countViewed = 0;
+}
+
+
+function click_nav(nav_name) {
+    selectPage(nav_name);
 }
