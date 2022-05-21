@@ -156,7 +156,7 @@ function submitAnswer() {
 function viewResults() {
     decolorCorrectAnswer(); 
     selectPage('results_page');
-    d3.select('table').append('tr').selectAll("td")
+    d3.select('#result_table').append('tr').selectAll("td")
                 .data([d3.select('table').selectAll('tr').size()  - 1, 
                 countCorrect, countIncorrect])
                 .enter()
@@ -174,3 +174,22 @@ function restartQuiz() {
 function click_nav(nav_name) {
     selectPage(nav_name);
 }
+
+
+// table, th, td {
+    // border: 1px solid black;
+    // border-collapse: collapse;
+//   }
+
+[...Array(15).keys()].forEach(function(e){
+    d3.select('#crossword').append('tr').selectAll("td")
+    .data([...Array(15).keys()])
+    .enter()
+    .append("td")
+    .style('border', '1px solid black')
+    .style('border-collapse', 'collapse')
+    .style('width', '20px')
+    .style('height', '20px')
+    .style('text-align','center')
+    .text(function(d) { return "a"; });
+});
