@@ -3,9 +3,9 @@
     "question": "------ ساعت پنج صبح بیدارم کن",
     "choices": [
       "این هفته",
-      "مرد",
-      "ممکن",
-      "دیگری"
+      "رسید",
+      "گروه‌های",
+      "رو"
     ],
     "answer": 0,
     "type": "sentence",
@@ -15,10 +15,10 @@
   {
     "question": "مرا ------ ساعت نه صبح بیدار کن",
     "choices": [
-      "براي",
-      "پا",
+      "برده",
+      "چاپ",
       "جمعه",
-      "فیلم"
+      "تغییر"
     ],
     "answer": 2,
     "type": "sentence",
@@ -28,12 +28,12 @@
   {
     "question": "یک زنگ هشدار را برای ------ تنظیم کن",
     "choices": [
+      "ناشر",
       "دو ساعت دیگر",
-      "چرا",
-      "شاه",
-      "تصمیم"
+      "دیده",
+      "کار"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -41,12 +41,12 @@
   {
     "question": "برای ------ متوقف کن",
     "choices": [
-      "ریشه",
-      "جمع",
-      "اکتبر",
-      "ده ثانیه"
+      "انتخاب",
+      "ده ثانیه",
+      "کشاورزی",
+      "آموزشی"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "volume_mute",
     "extra": "Fill in the blank"
@@ -54,12 +54,12 @@
   {
     "question": "برای ------ مکث کن",
     "choices": [
-      "جمع",
       "ده ثانیه",
-      "شرح",
-      "پرورش"
+      "متحد",
+      "نظام",
+      "شبکه"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "volume_mute",
     "extra": "Fill in the blank"
@@ -67,12 +67,12 @@
   {
     "question": "------ همان چیزی است که نیاز داریم",
     "choices": [
-      "صورتی",
-      "خدا",
-      "تا",
-      "دفتر"
+      "قبلی",
+      "طی",
+      "تحقیقات",
+      "صورتی"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -80,12 +80,12 @@
   {
     "question": "نور اینجا را کمی ------ کن",
     "choices": [
+      "براساس",
       "گرمتر",
-      "ممکن",
-      "شرایط",
-      "فشار"
+      "داستان",
+      "قرار"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -93,12 +93,12 @@
   {
     "question": "لطفا روشنایی را در حالت ------ تنظیم کن",
     "choices": [
+      "سیاه",
       "مناسب برای مطالعه",
-      "منابع",
-      "بهار",
-      "الدین"
+      "جدا",
+      "معمولا"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -106,12 +106,12 @@
   {
     "question": "لامپ ------ را خاموش کن",
     "choices": [
-      "شهرستان",
+      "فیزیک",
+      "همراه",
       "حمام",
-      "عمل",
-      "بیت"
+      "عبارت"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank"
@@ -119,12 +119,12 @@
   {
     "question": "علی روشنایی ------ را کم کن",
     "choices": [
-      "آموزش",
-      "بالا",
-      "فقط",
-      "هال"
+      "هال",
+      "تک",
+      "شبیه",
+      "مربع"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightdim",
     "extra": "Fill in the blank"
@@ -132,10 +132,10 @@
   {
     "question": "لامپ ها را در ------ کم کن",
     "choices": [
-      "انتشارات",
-      "اساس",
+      "سیارک",
+      "ریشه",
       "هال",
-      "انگلستان"
+      "می‌کنند"
     ],
     "answer": 2,
     "type": "sentence",
@@ -146,9 +146,9 @@
     "question": "لامپ ها را در ------ خاموش کن",
     "choices": [
       "اتاق خواب",
-      "آب",
-      "اقتصادی",
-      "کردند"
+      "عهده",
+      "مالی",
+      "گرفته"
     ],
     "answer": 0,
     "type": "sentence",
@@ -158,12 +158,12 @@
   {
     "question": "علی چراغ‌های ------ خواب را خاموش کن",
     "choices": [
-      "اتاق",
-      "‌ها",
-      "جزیره",
-      "بوده‌است"
+      "نتایج",
+      "صنعتی",
+      "می‌کردند",
+      "اتاق"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank"
@@ -171,12 +171,12 @@
   {
     "question": "نور را ------ تنظیم کن",
     "choices": [
+      "روش",
+      "خارجی",
       "روی بیست درصد",
-      "منابع",
-      "برج",
-      "باغ"
+      "لیگ"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -185,9 +185,9 @@
     "question": "آلی روشنایی را ------ تنظیم کن",
     "choices": [
       "تا بیست درصد",
-      "ناشر",
-      "قدیمی",
-      "سفید"
+      "اطلاعات",
+      "محمود",
+      "غربی"
     ],
     "answer": 0,
     "type": "sentence",
@@ -197,12 +197,12 @@
   {
     "question": "علی نور ------ را کم کن",
     "choices": [
-      "حاصل",
-      "پرورش",
-      "هزار",
-      "آشپزخانه"
+      "اینترنت",
+      "آشپزخانه",
+      "بازار",
+      "آفریقا"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightdim",
     "extra": "Fill in the blank"
@@ -210,10 +210,10 @@
   {
     "question": "نور ------ را کم کن",
     "choices": [
-      "حزب",
+      "علت",
       "آشپزخانه",
-      "هم",
-      "حمل"
+      "برجسته",
+      "مشهد"
     ],
     "answer": 1,
     "type": "sentence",
@@ -223,10 +223,10 @@
   {
     "question": "------ را تاریکتر بکن",
     "choices": [
-      "کلی",
+      "کامپیوتر",
       "اتاق",
-      "سال",
-      "اندازه"
+      "میانه",
+      "می‌باشند"
     ],
     "answer": 1,
     "type": "sentence",
@@ -236,12 +236,12 @@
   {
     "question": "علی ------ را تمییز کن",
     "choices": [
-      "همکف",
-      "توزیع",
-      "دهه",
-      "حضور"
+      "نگهداری",
+      "شماره",
+      "بود",
+      "همکف"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -249,12 +249,12 @@
   {
     "question": "------ را تمیز کن",
     "choices": [
+      "نزدیک",
+      "کشتی",
       "همکف",
-      "ايران",
-      "دقیقه",
-      "بزرگی"
+      "آن‌ها"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -262,12 +262,12 @@
   {
     "question": "------ را جارو کن",
     "choices": [
-      "دهستان‌های",
       "خانه",
-      "تأسیس",
-      "تنها"
+      "رخ",
+      "که",
+      "پست"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -275,12 +275,12 @@
   {
     "question": "علی ------ را جاروبرقی بکش",
     "choices": [
-      "نقش",
       "خانه",
-      "بطور",
-      "چیزی"
+      "امر",
+      "فارسی",
+      "متحد"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -288,23 +288,10 @@
   {
     "question": "تمیز کردن خوب است گردو غبار خیلی بد است اکنون ------ من را تمیز کن",
     "choices": [
-      "پرونده",
-      "پادشاه",
       "فرش",
-      "سن"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "cleaning",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ را جارو بکش",
-    "choices": [
-      "راهرو",
-      "معنی",
-      "عربستان",
-      "روزنامه"
+      "دانش",
+      "تحت",
+      "مصرف"
     ],
     "answer": 0,
     "type": "sentence",
@@ -314,12 +301,25 @@
   {
     "question": "------ را جارو بکش",
     "choices": [
-      "عراق",
-      "در",
-      "فرش‌ها",
-      "دلیل"
+      "تهیه",
+      "راهرو",
+      "وبگاه",
+      "گیری"
     ],
-    "answer": 2,
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ را جارو بکش",
+    "choices": [
+      "نامه",
+      "فرش‌ها",
+      "سفر",
+      "چشمه"
+    ],
+    "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -327,12 +327,12 @@
   {
     "question": "من میخوام دوباره آهنگ ------ را گوش بدم",
     "choices": [
-      "پدرش",
-      "پخش",
-      "گسترده",
-      "ابی"
+      "محمود",
+      "ابی",
+      "سفر",
+      "ترانه"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -340,12 +340,12 @@
   {
     "question": "من میخوام آن ------ را دوباره پخش کنم",
     "choices": [
-      "میانه",
-      "آزادی",
       "موزیک",
-      "کارشناسی"
+      "درباره",
+      "خوبی",
+      "سرعت"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -353,10 +353,10 @@
   {
     "question": "در ------ ساعت چند است",
     "choices": [
-      "آنان",
+      "باقی",
       "ایران",
-      "شدن",
-      "بیماری"
+      "صنایع",
+      "مهم"
     ],
     "answer": 1,
     "type": "sentence",
@@ -366,12 +366,12 @@
   {
     "question": "------ ساعت چنده",
     "choices": [
-      "حکم",
-      "مردم",
       "تهران",
-      "استان‌های"
+      "بودند",
+      "اطلاعات",
+      "حالت"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -379,10 +379,10 @@
   {
     "question": "------ چند میشه",
     "choices": [
-      "آمد",
+      "ایالت",
       "پنج ساعت جلوتر از ساعت گرینویچ",
-      "استفاده",
-      "چشم"
+      "شبیه",
+      "بعد"
     ],
     "answer": 1,
     "type": "sentence",
@@ -392,10 +392,10 @@
   {
     "question": "اولی بهم بگو ساعت توی ------ چنده",
     "choices": [
-      "در",
-      "حاصل",
+      "جهت",
+      "بکار",
       "پنج ساعت جلوتر از وقت گرینویچ",
-      "کمتر"
+      "سخت"
     ],
     "answer": 2,
     "type": "sentence",
@@ -406,9 +406,9 @@
     "question": "الهه بالاترین امتیازهای گزینه های ------ غذای ایرانی را لیست کن",
     "choices": [
       "بیرون بر",
-      "سبب",
-      "باید",
-      "کشتی"
+      "برجسته",
+      "کننده",
+      "مناسبت‌ها"
     ],
     "answer": 0,
     "type": "sentence",
@@ -418,88 +418,10 @@
   {
     "question": "بالاترین امتیاز سرویس ------ در محل برای غذای چینی",
     "choices": [
-      "شب",
-      "تحویل",
-      "کمی",
-      "چشم"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "غذای ------ تحویل در محل با بالاترین امتیازها را لیست کن",
-    "choices": [
-      "چینی",
-      "ایشان",
-      "کسی",
-      "یونانی"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "olly بهترین گزینه‌های ------ غذای چینی",
-    "choices": [
-      "معنای",
-      "مشهور",
-      "تحویل",
-      "دارند"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "من یک مقدار ------ بیرون بر می خواهم هیچ پیشنهادی داری",
-    "choices": [
-      "استاد",
-      "خوراک کاری دار",
-      "سده",
-      "باز"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "من یه کمی ------ می‌خوام پیشنهادی داری اولی",
-    "choices": [
-      "خوراک کاری‌دار",
-      "ایالت",
-      "ابراهیم",
-      "داشتن"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "برای من غذای ------ بیرون بر در بازار تهران پیدا کن",
-    "choices": [
-      "زیر",
-      "ایرانی",
-      "شاعر",
-      "گرفته"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "غذای ------ بیرون‌بر من را اطراف بازار تهران پیدا کن",
-    "choices": [
-      "کم",
-      "نشان",
-      "فروش",
-      "تایلندی"
+      "دسترسی",
+      "هنرمند",
+      "درصد",
+      "تحویل"
     ],
     "answer": 3,
     "type": "sentence",
@@ -507,14 +429,92 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "غذای ------ تحویل در محل با بالاترین امتیازها را لیست کن",
+    "choices": [
+      "اختیار",
+      "سرشماری",
+      "سه",
+      "چینی"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "olly بهترین گزینه‌های ------ غذای چینی",
+    "choices": [
+      "تحویل",
+      "حوزه",
+      "محل",
+      "مهم‌ترین"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "من یک مقدار ------ بیرون بر می خواهم هیچ پیشنهادی داری",
+    "choices": [
+      "خوراک کاری دار",
+      "البته",
+      "پاریس",
+      "کلی"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "من یه کمی ------ می‌خوام پیشنهادی داری اولی",
+    "choices": [
+      "ایران",
+      "گفت",
+      "خوراک کاری‌دار",
+      "نزدیکی"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "برای من غذای ------ بیرون بر در بازار تهران پیدا کن",
+    "choices": [
+      "شده‌است",
+      "باعث",
+      "ایرانی",
+      "کره"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "غذای ------ بیرون‌بر من را اطراف بازار تهران پیدا کن",
+    "choices": [
+      "فنی",
+      "چهارم",
+      "تایلندی",
+      "زنده"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "هشدار ساعت ------ من را لغو کن",
     "choices": [
-      "سیستم",
-      "هفت صبح",
-      "طریق",
-      "ادبی"
+      "شبه",
+      "آمار",
+      "داخلی",
+      "هفت صبح"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "remove",
     "extra": "Fill in the blank"
@@ -522,10 +522,10 @@
   {
     "question": "زنگ هشدار ------ را متوقف کن",
     "choices": [
-      "زندگی",
-      "تغییر",
+      "اضافه",
+      "شیعه",
       "هفت صبح",
-      "انرژی"
+      "از"
     ],
     "answer": 2,
     "type": "sentence",
@@ -535,12 +535,12 @@
   {
     "question": "اخبار ------ فوتبال چیست",
     "choices": [
+      "داشت",
       "امروز",
-      "می‌کردند",
-      "اساسی",
-      "دینی"
+      "وب‌گاه",
+      "مالی"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -548,12 +548,12 @@
   {
     "question": "لطفا ------ از ایوان بند را پخش کن",
     "choices": [
+      "چند",
       "خاطر خواه",
-      "رود",
-      "آسیا",
-      "سمت"
+      "ما",
+      "بود"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -561,10 +561,10 @@
   {
     "question": "من دوس دارم آهنگ ------ منصور را گوش بدم",
     "choices": [
-      "شبیه",
+      "پسر",
       "آزادی",
-      "مساحت",
-      "روم"
+      "واحد",
+      "حسن"
     ],
     "answer": 1,
     "type": "sentence",
@@ -574,12 +574,12 @@
   {
     "question": "------ از سامان جلیلی را برایم پخش کن",
     "choices": [
-      "تقویم",
-      "پاسخ",
+      "دانشجویان",
       "کافر",
-      "اجتماعی"
+      "کارگردانی",
+      "نوشته"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -587,12 +587,12 @@
   {
     "question": "من موسیقی ------ دوست دارم",
     "choices": [
+      "حزب",
+      "شب",
       "راک",
-      "ورودی",
-      "منابع",
-      "نویسنده"
+      "برگزار"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "likeness",
     "extra": "Fill in the blank"
@@ -600,12 +600,12 @@
   {
     "question": "گروه موسیقی مورد علاقه من ------ است",
     "choices": [
-      "باب",
-      "کویین",
-      "آثار",
-      "مصر"
+      "کنترل",
+      "نبرد",
+      "طریق",
+      "کویین"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "likeness",
     "extra": "Fill in the blank"
@@ -613,12 +613,12 @@
   {
     "question": "من آهنگ های ------ را دوست دارم",
     "choices": [
+      "روستای",
+      "عامل",
       "ابی",
-      "مقابل",
-      "نظیر",
-      "‌ها"
+      "امور"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "likeness",
     "extra": "Fill in the blank"
@@ -626,12 +626,12 @@
   {
     "question": "لطفا روشنایی را ------ افزایش بده",
     "choices": [
-      "انرژی",
-      "قهرمان",
-      "چند",
-      "به حداکثر"
+      "به حداکثر",
+      "مه",
+      "غربی",
+      "کمتر"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank"
@@ -639,12 +639,12 @@
   {
     "question": "------ را روشن کن",
     "choices": [
-      "مسائل",
-      "کاربرد",
       "جارو برقی رباتیک",
-      "نشده"
+      "توسعه",
+      "روستای",
+      "کرد"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -652,12 +652,12 @@
   {
     "question": "------ را روشن کن",
     "choices": [
-      "ستاره",
+      "سنگ",
+      "نیز",
       "ربات تمیز کننده",
-      "عملیات",
-      "بوده"
+      "آنها"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -665,12 +665,12 @@
   {
     "question": "تاریخ ------ را به من بگو",
     "choices": [
+      "اتحادیه",
+      "روستای",
       "امروز",
-      "میرزا",
-      "محسن",
-      "دانشکده"
+      "مردان"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -678,12 +678,12 @@
   {
     "question": "------ چندم است",
     "choices": [
-      "از",
+      "چشمه",
+      "اطراف",
       "امروز",
-      "وی",
-      "ماشین"
+      "کانادا"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -691,12 +691,12 @@
   {
     "question": "لطفا مقداری ------ برای شام سفارش بده",
     "choices": [
-      "دریایی",
-      "روستا",
-      "رخ",
-      "سوشی"
+      "هنوز",
+      "سوشی",
+      "اصول",
+      "ماده"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank"
@@ -704,12 +704,12 @@
   {
     "question": "هی می خوام ------ سفارش بدی",
     "choices": [
-      "نشده",
-      "رویدادها",
-      "برگر",
-      "اصفهان"
+      "گروه‌های",
+      "مصر",
+      "مقدار",
+      "برگر"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank"
@@ -717,12 +717,12 @@
   {
     "question": "آیا می توانی برای ------ شام سوشی سفارش بدهی",
     "choices": [
-      "جامع",
-      "مقدار",
-      "امشب",
-      "سری"
+      "مثال",
+      "مالی",
+      "مشهد",
+      "امشب"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank"
@@ -730,12 +730,12 @@
   {
     "question": "آیا می توانم ------ بیرون بری از عطاویچ سفارش بدهم",
     "choices": [
-      "رویدادها",
+      "پس",
+      "جمهوری",
       "شام",
-      "پی",
-      "اوایل"
+      "علیه"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank"
@@ -743,12 +743,12 @@
   {
     "question": "آیا ------ غذای بیرون بری دارد",
     "choices": [
+      "پیروزی",
       "عطاویچ",
-      "گزارش",
-      "دکتر",
-      "بالای"
+      "کرده",
+      "بلند"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -756,12 +756,12 @@
   {
     "question": "زنگ هشدار را برای ------ تنظیم کن",
     "choices": [
-      "دریایی",
-      "رسید",
-      "فعال",
-      "دوازده"
+      "سیاسی",
+      "دوازده",
+      "جا",
+      "علیه"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -769,12 +769,12 @@
   {
     "question": "------ زنگ هشدار را تنظیم کن",
     "choices": [
-      "پرونده",
+      "حالت",
+      "شورای",
       "چهل دقیقه‌ی دیگر",
-      "نقاشی",
-      "بندر"
+      "مربع"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -782,12 +782,12 @@
   {
     "question": "زنگ هشدار را برای ساعت ------ هر روز هفته تنظیم کن",
     "choices": [
-      "فناوری",
-      "ايران",
-      "می‌رسد",
-      "هشت"
+      "معروف",
+      "تابع",
+      "هشت",
+      "بار"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -795,12 +795,12 @@
   {
     "question": "داره ------",
     "choices": [
-      "ده",
+      "دسامبر",
+      "سازی",
       "بارون میاد",
-      "مشاهده",
-      "الله"
+      "خانوار"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -808,10 +808,10 @@
   {
     "question": "آیا می خواهد ------ ببارد",
     "choices": [
-      "بودن",
-      "علوم",
+      "موسسه",
+      "کنید",
       "باران",
-      "فیلم‌های"
+      "بیان"
     ],
     "answer": 2,
     "type": "sentence",
@@ -821,12 +821,12 @@
   {
     "question": "داره ------",
     "choices": [
-      "واقع",
+      "نقاط",
+      "تاکنون",
       "برف میاد",
-      "بازگشت",
-      "احمد"
+      "می‌کردند"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -834,22 +834,9 @@
   {
     "question": "پیش‌بینی هوای ------ چطوره",
     "choices": [
-      "هفته",
-      "عباس",
-      "جلوگیری",
-      "قانون"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "پیش‌بینی ------ چیست",
-    "choices": [
-      "تا",
-      "همچنین",
-      "کنید",
+      "تاریخچه",
+      "شدن",
+      "باشد",
       "هفته"
     ],
     "answer": 3,
@@ -858,11 +845,24 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "پیش‌بینی ------ چیست",
+    "choices": [
+      "آزاد",
+      "هفته",
+      "شده‌اند",
+      "پیشنهاد"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "هوای ------ چطور است",
     "choices": [
-      "سرعت",
-      "گذاری",
-      "اینترنت",
+      "دریافت",
+      "اعضای",
+      "چهار",
       "این هفته"
     ],
     "answer": 3,
@@ -873,12 +873,12 @@
   {
     "question": "هوای ------ چطوره",
     "choices": [
-      "پایتخت",
-      "تاکنون",
-      "این هفته",
-      "کشاورزی"
+      "اداره",
+      "کمتر",
+      "گروهی",
+      "این هفته"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -886,12 +886,12 @@
   {
     "question": "وضع هوای ------ را به من بگو",
     "choices": [
-      "ارتفاع",
-      "فهرست",
       "این هفته",
-      "میان"
+      "عبارت",
+      "دوباره",
+      "می‌کرد"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -900,9 +900,9 @@
     "question": "اخبار ------ را به من بگو",
     "choices": [
       "خبرگزاری مهر",
-      "خواننده",
-      "تولید",
-      "جلد"
+      "تقسیم",
+      "دفاع",
+      "زادگان"
     ],
     "answer": 0,
     "type": "sentence",
@@ -912,12 +912,12 @@
   {
     "question": "خبرهای اخبار ------ چیست",
     "choices": [
-      "پاسخ",
+      "فوریه",
+      "داخل",
       "بی. بی. سی.",
-      "زاده",
-      "محصولات"
+      "همچنین"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -925,10 +925,10 @@
   {
     "question": "آخرین اخبار ------ چیست",
     "choices": [
-      "حد",
+      "درمان",
       "بی. بی. سی.",
-      "هجری",
-      "انتقال"
+      "موزه",
+      "فصل"
     ],
     "answer": 1,
     "type": "sentence",
@@ -938,12 +938,12 @@
   {
     "question": "------ را پخش کن",
     "choices": [
-      "ژوئیه",
-      "دست",
-      "مجنون لیلی",
-      "بین‌المللی"
+      "ثبت",
+      "عوامل",
+      "دقیقه",
+      "مجنون لیلی"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -952,9 +952,9 @@
     "question": "------ را پخش کن",
     "choices": [
       "عشق",
-      "می‌دهند",
-      "است",
-      "ساعت"
+      "خبرگزاری",
+      "روستا",
+      "نویسنده"
     ],
     "answer": 0,
     "type": "sentence",
@@ -964,12 +964,12 @@
   {
     "question": "------ پخش کن",
     "choices": [
-      "مادر",
-      "جمله",
-      "ایوان بند",
-      "حکم"
+      "پسر",
+      "علت",
+      "درجه",
+      "ایوان بند"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -977,12 +977,12 @@
   {
     "question": "چند تا ------ پخش کن",
     "choices": [
-      "گذاری",
+      "پیشنهاد",
+      "مادر",
       "رستاک",
-      "شورای",
-      "می‌گیرد"
+      "فناوری"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -990,12 +990,12 @@
   {
     "question": "چند تا ------ بزار",
     "choices": [
-      "گرم",
+      "بکار",
+      "وب",
       "ابی",
-      "چاپ",
-      "می‌کرد"
+      "پایان"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -1003,12 +1003,12 @@
   {
     "question": "این قطعه را ------",
     "choices": [
+      "دی",
       "تکرار کن",
-      "طرح",
-      "خوانده",
-      "شبکه"
+      "تخت",
+      "اسلام"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "settings",
     "extra": "Fill in the blank"
@@ -1016,12 +1016,12 @@
   {
     "question": "صدا را بر ------ تنظیم کن",
     "choices": [
-      "راست",
-      "عبدالله",
-      "راک",
-      "روی کم"
+      "روی کم",
+      "مرد",
+      "روسیه",
+      "ساختار"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "volume_down",
     "extra": "Fill in the blank"
@@ -1029,12 +1029,12 @@
   {
     "question": "یک جوک ------ به من بگو",
     "choices": [
+      "اعلام",
+      "نخستین",
       "خوب",
-      "عشق",
-      "اش",
-      "وابسته"
+      "شده"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank"
@@ -1042,9 +1042,9 @@
   {
     "question": "------ چه روزی هست",
     "choices": [
-      "معرفی",
-      "داخلی",
-      "عشق",
+      "خصوصی",
+      "اصول",
+      "نشان",
       "امروز"
     ],
     "answer": 3,
@@ -1055,12 +1055,12 @@
   {
     "question": "درباره ------ به من بگو",
     "choices": [
-      "امروز",
-      "کاربرد",
-      "ترین",
-      "آمد"
+      "نزد",
+      "فاصله",
+      "محلی",
+      "امروز"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "quirky",
     "extra": "Fill in the blank"
@@ -1068,12 +1068,12 @@
   {
     "question": "یک ------ سفارش بده",
     "choices": [
-      "درگاه",
-      "کاهش",
-      "معروف",
-      "پیتزا"
+      "پیتزا",
+      "شود",
+      "تأثیر",
+      "انقلاب"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank"
@@ -1081,10 +1081,10 @@
   {
     "question": "یک وعده ------ از رستوران تورنج سفارش بده",
     "choices": [
-      "شیعه",
+      "حدود",
       "چلوکباب",
-      "شده‌است",
-      "شهرهای"
+      "هر",
+      "موسسه"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1094,12 +1094,12 @@
   {
     "question": "یک غذای ------ سفارش بده",
     "choices": [
-      "زبان",
-      "دقیقه",
+      "خلق",
       "بیرون بر",
-      "همیشه"
+      "خدمت",
+      "سالهای"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank"
@@ -1107,10 +1107,10 @@
   {
     "question": "غذای ------ من چقدر می‌کشه",
     "choices": [
-      "محمدرضا",
+      "مهم‌ترین",
       "بیرون‌بر",
-      "عربستان",
-      "کردستان"
+      "دیگری",
+      "ادامه"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1120,12 +1120,12 @@
   {
     "question": "وضعیت ------ غذای عطاویچ",
     "choices": [
-      "نتایج",
-      "کودکان",
+      "وب‌گاه",
       "تحویل",
-      "گسترده"
+      "اش",
+      "چشمه"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1133,12 +1133,12 @@
   {
     "question": "لیست آهنگ های ------ من پخش کن",
     "choices": [
-      "بیان",
-      "رمان",
-      "جا",
-      "جاز"
+      "جاز",
+      "جمهور",
+      "دریاچه",
+      "مثال"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -1146,12 +1146,12 @@
   {
     "question": "لیست آهنگ های ------ من را پخش کن",
     "choices": [
-      "همین",
+      "امپراتوری",
+      "چه",
       "جاز",
-      "بسیار",
-      "فارس"
+      "استاد"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -1159,12 +1159,12 @@
   {
     "question": "من ------ دوست دارم",
     "choices": [
-      "نقش",
-      "زمانی",
+      "بی",
       "جاز",
-      "تعدادی"
+      "شرق",
+      "دکتر"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "likeness",
     "extra": "Fill in the blank"
@@ -1172,12 +1172,12 @@
   {
     "question": "میتونی چند تا ------ پخش کنی",
     "choices": [
-      "دار",
       "جاز",
-      "خاصی",
-      "سمت"
+      "ماده",
+      "قبلی",
+      "جشن"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -1185,12 +1185,12 @@
   {
     "question": "من دوست دارم ------ گوش بدم",
     "choices": [
-      "گل",
-      "آهنگ",
-      "بخش",
-      "جاز"
+      "جاز",
+      "انتقال",
+      "اکنون",
+      "دفاع"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -1198,12 +1198,12 @@
   {
     "question": "olly من دوست دارم ------ گوش بدم",
     "choices": [
-      "خیلی",
-      "دفتر",
-      "تمامی",
-      "جاز"
+      "ترکیه",
+      "نور",
+      "جاز",
+      "تفسیر"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -1211,12 +1211,12 @@
   {
     "question": "------ را فعال کن",
     "choices": [
+      "داستان",
+      "سبز",
       "پخش ترکیبی",
-      "جدا",
-      "خاطر",
-      "کرد"
+      "پیشنهاد"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "settings",
     "extra": "Fill in the blank"
@@ -1224,12 +1224,12 @@
   {
     "question": "روشنایی را ------ تنظیم کن",
     "choices": [
-      "ساعت",
-      "امکان",
-      "آنکه",
-      "به پنجاه درصد"
+      "احمد",
+      "به پنجاه درصد",
+      "سایر",
+      "می‌گویند"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -1237,12 +1237,12 @@
   {
     "question": "آیا آنها سرویس ------ دارند",
     "choices": [
-      "به‌",
-      "نیروی",
       "بیرون بر",
-      "شرایط"
+      "امپراتوری",
+      "بصورت",
+      "بشر"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1250,12 +1250,12 @@
   {
     "question": "آیا آنها ------ دارند",
     "choices": [
-      "این",
-      "پخش",
-      "اضافه",
-      "تحویل در محل"
+      "جایزه",
+      "توابع",
+      "تحویل در محل",
+      "هنری"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1263,9 +1263,22 @@
   {
     "question": "آیا آنها ------ در منزل دارند",
     "choices": [
-      "محمدرضا",
-      "ارزش",
-      "ساده",
+      "تحویل",
+      "فرانسوی",
+      "قابل",
+      "تقسیمات"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "الهه آیا آنها ------ در منزل دارند",
+    "choices": [
+      "ترکی",
+      "خیابان",
+      "سلطنت",
       "تحویل"
     ],
     "answer": 3,
@@ -1274,51 +1287,12 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "الهه آیا آنها ------ در منزل دارند",
-    "choices": [
-      "تحویل",
-      "کارگردانی",
-      "به‌",
-      "طریق"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
     "question": "زنگ هشدار ------ را تنظیم کن",
     "choices": [
-      "جشن",
-      "مجلس",
-      "کارگردانی",
-      "ده صبح"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "set",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "زنگ ساعت ------ را ساعت شش صبح تنظیم کن",
-    "choices": [
-      "فیلم",
-      "تعیین",
-      "مانند",
-      "فردا"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "set",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ هفت صبح ساعت بیدارباش بگذار",
-    "choices": [
-      "تمام",
-      "منبع",
-      "پنج‌شنبه",
-      "یافت"
+      "نخستین",
+      "اتحادیه",
+      "ده صبح",
+      "پادشاهی"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1326,38 +1300,38 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "آخرین اخبار ------ را به من بگو",
+    "question": "زنگ ساعت ------ را ساعت شش صبح تنظیم کن",
     "choices": [
-      "المپیک",
-      "تکنولوژی",
-      "مربوط",
-      "هنری"
+      "جستارهای",
+      "متولد",
+      "فردا",
+      "همیشه"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ هفت صبح ساعت بیدارباش بگذار",
+    "choices": [
+      "فنی",
+      "پنج‌شنبه",
+      "کلی",
+      "تو"
     ],
     "answer": 1,
     "type": "sentence",
-    "intent": "query",
+    "intent": "set",
     "extra": "Fill in the blank"
   },
   {
     "question": "آخرین اخبار ------ را به من بگو",
     "choices": [
-      "محیط",
       "تکنولوژی",
-      "جشن",
-      "ژاپن"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "چند خبر ------ به من بگو",
-    "choices": [
-      "اقتصادی",
-      "فشار",
-      "چه",
-      "خبرگزاری"
+      "شخص",
+      "شمار",
+      "تأثیر"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1365,11 +1339,37 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "آخرین اخبار ------ را به من بگو",
+    "choices": [
+      "تکنولوژی",
+      "مقابل",
+      "رویدادها",
+      "معماری"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "چند خبر ------ به من بگو",
+    "choices": [
+      "جزیره",
+      "جمعیت",
+      "اقتصادی",
+      "سبک"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "اخبار ------ را به من بگو",
     "choices": [
-      "خاصی",
-      "بررسی",
-      "فرمان",
+      "قابل",
+      "نیویورک",
+      "یافت",
       "بین‌المللی"
     ],
     "answer": 3,
@@ -1380,12 +1380,12 @@
   {
     "question": "الان ------",
     "choices": [
-      "دانش",
-      "مرتبط",
-      "کانادا",
-      "باران می‌بارد"
+      "باران می‌بارد",
+      "ارتش",
+      "کسی",
+      "مشخص"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1393,23 +1393,10 @@
   {
     "question": "لیست آهنگ های ------ من را پخش کن",
     "choices": [
-      "عصر",
-      "تاریخچه",
-      "نام‌های",
-      "راک"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "لیست آهنگ های ------ من را پخش کن",
-    "choices": [
-      "خط",
-      "رویدادها",
-      "ابی",
-      "دهستان"
+      "توابع",
+      "باستان",
+      "راک",
+      "سلطان"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1417,12 +1404,25 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "لیست آهنگ های ------ من را پخش کن",
+    "choices": [
+      "طبیعی",
+      "روستاهای",
+      "محسن",
+      "ابی"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "------ را از لیست آهنگ های من پخش کن",
     "choices": [
-      "زن",
-      "بالای",
+      "مدت",
+      "اروپا",
       "فرزاد فرزین",
-      "توجه"
+      "رده"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1432,12 +1432,12 @@
   {
     "question": "------ از لیست آهنگ های مورد علاقه من را پخش کن",
     "choices": [
-      "ساختار",
       "آخرین آهنگ",
-      "صنعت",
-      "کوچک"
+      "زبان‌های",
+      "زادگان",
+      "کسی"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -1445,12 +1445,12 @@
   {
     "question": "------ را روشن کن",
     "choices": [
-      "آلمان",
-      "خیابان",
+      "درست",
       "دوشاخه",
-      "دانشکده"
+      "جامع",
+      "مذهبی"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank"
@@ -1458,23 +1458,10 @@
   {
     "question": "------ را وصل کن",
     "choices": [
+      "شکل",
+      "سبز",
       "دوشاخه",
-      "کرده‌اند",
-      "موسسه",
-      "کاخ"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "wemo_on",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ من را روشن کن",
-    "choices": [
-      "براي",
-      "مفهوم",
-      "دوشاخه‌ی",
-      "شخص"
+      "فرانسوی"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1482,12 +1469,25 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "------ من را روشن کن",
+    "choices": [
+      "دوشاخه‌ی",
+      "قانون",
+      "شبکه",
+      "هنوز"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "آیا ------ غذای بیرون بر دارد",
     "choices": [
-      "کتاب‌های",
-      "سرشماری",
+      "تلویزیونی",
+      "درست",
       "عطاویچ",
-      "حسن"
+      "اسفند"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1497,12 +1497,12 @@
   {
     "question": "آیا ------ فروشی مورد علاقه ام سرویس بیرون بر دارد",
     "choices": [
+      "چاپ",
+      "زمین",
       "پیتزا",
-      "عمومی",
-      "تدوین",
-      "متن"
+      "مجله"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1510,9 +1510,9 @@
   {
     "question": "آیا می توانم از رستوران ------ غذای بیرون بری سفارش بدهم",
     "choices": [
-      "اصول",
-      "را",
-      "خان",
+      "یادکرد",
+      "گرم",
+      "درگاه",
       "اسپانیایی"
     ],
     "answer": 3,
@@ -1523,12 +1523,12 @@
   {
     "question": "هوای ------ چطور است",
     "choices": [
-      "مهندسی",
-      "ورودی",
-      "مناسب",
-      "تهران"
+      "تهران",
+      "نیروی",
+      "می‌کند",
+      "است"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1536,10 +1536,10 @@
   {
     "question": "وضع هوای ------ را بگو",
     "choices": [
-      "موسوی",
-      "تأثیر",
+      "دفتر",
+      "تشکیل",
       "تبریز",
-      "یافت"
+      "فوق"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1549,12 +1549,12 @@
   {
     "question": "لطفا نور را ------ کن",
     "choices": [
+      "حد",
       "مناسب مطالعه",
-      "شب",
-      "ناشر",
-      "مشغول"
+      "سالهای",
+      "المپیک"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -1562,12 +1562,12 @@
   {
     "question": "لطفا لامپ ها را ------ بساز",
     "choices": [
+      "انواع",
       "صمیمانه برای تماشا",
-      "جستارهای",
-      "همکاری",
-      "خلق"
+      "طور",
+      "پدرش"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -1575,12 +1575,12 @@
   {
     "question": "------ را روشن تر کن",
     "choices": [
+      "آموزشی",
+      "بهره",
       "اتاق",
-      "می‌کنند",
-      "اغلب",
-      "اقتصادی"
+      "مصر"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank"
@@ -1588,10 +1588,10 @@
   {
     "question": "------ چندم است",
     "choices": [
-      "توسعه",
+      "می‌رود",
       "امروز",
-      "آمریکایی",
-      "اقتصادی"
+      "پنج",
+      "بین‌المللی"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1601,22 +1601,9 @@
   {
     "question": "------ چند شنبه است",
     "choices": [
-      "ترجمه",
-      "سرشماری",
-      "امروز",
-      "آمریکایی"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ هوا چطور است",
-    "choices": [
-      "مقام",
-      "یاد",
-      "کشته",
+      "تدریس",
+      "سیارک‌ها",
+      "فناوری",
       "امروز"
     ],
     "answer": 3,
@@ -1625,14 +1612,27 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "بیرون ------",
+    "question": "------ هوا چطور است",
     "choices": [
-      "سوی",
-      "پادشاهی",
-      "باران می بارد",
-      "مصر"
+      "دفاع",
+      "جای",
+      "امروز",
+      "کلی"
     ],
     "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "بیرون ------",
+    "choices": [
+      "باران می بارد",
+      "دارد",
+      "بانک",
+      "افغانستان"
+    ],
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1640,12 +1640,12 @@
   {
     "question": "olly آیا بیرون ------",
     "choices": [
+      "نامزد",
+      "ادبی",
       "باران می‌بارد",
-      "گذاری",
-      "عمر",
-      "جمع"
+      "شمار"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1653,12 +1653,12 @@
   {
     "question": "آیا ------ باید چتر بیاورم",
     "choices": [
-      "طی",
-      "که",
+      "گیاهان",
       "فردا",
-      "تولید"
+      "می‌دهد",
+      "شیعه"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1666,12 +1666,12 @@
   {
     "question": "از ------ من آهنگ پخش کن",
     "choices": [
-      "علت",
-      "بن",
-      "دیگر",
-      "لیست آهنگ های راک"
+      "لیست آهنگ های راک",
+      "قتل",
+      "اتحادیه",
+      "یونان"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -1679,12 +1679,12 @@
   {
     "question": "رنگ نورها رو ------ کن",
     "choices": [
-      "جهان",
+      "جنسی",
+      "زمین",
       "سبز",
-      "توانست",
-      "نور"
+      "بالای"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -1692,12 +1692,12 @@
   {
     "question": "لطفا ------ را تمیز کن",
     "choices": [
-      "فرهنگی",
-      "قانون",
+      "اکتبر",
       "کف",
-      "برابر"
+      "گونه",
+      "فارسی"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -1705,12 +1705,12 @@
   {
     "question": "------ را روشن کن",
     "choices": [
-      "پیرامون",
-      "آذربایجان",
       "پریز پلوپز",
-      "راست"
+      "خاصی",
+      "گسترش",
+      "ایرانی"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank"
@@ -1718,12 +1718,12 @@
   {
     "question": "------ رو خاموش کن",
     "choices": [
-      "نظامی",
-      "سیاست",
       "پلوپز",
-      "سرعت"
+      "آن",
+      "است",
+      "دارند"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "wemo_off",
     "extra": "Fill in the blank"
@@ -1731,10 +1731,10 @@
   {
     "question": "در ------ ساعت چند است",
     "choices": [
-      "شعر",
-      "ساختار",
+      "سالگی",
+      "دانش",
       "تبریز",
-      "بازی"
+      "مانده"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1744,12 +1744,12 @@
   {
     "question": "در ------ ساعت چند است",
     "choices": [
+      "یکی",
       "تهران",
-      "درخت",
-      "دینی",
-      "ژوئیه"
+      "گردد",
+      "قرار"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1757,10 +1757,10 @@
   {
     "question": "می توانی لطفا به من کمک کنی کمی ------ از عطاویچ سفارش بدهم",
     "choices": [
-      "تحت",
-      "گوناگون",
+      "عضو",
+      "می‌تواند",
       "سوشی",
-      "جستارهای"
+      "شهرت"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1770,12 +1770,12 @@
   {
     "question": "ساعت ------ صبح زنگ هشدار را تنظیم کن",
     "choices": [
-      "توزیع",
+      "خیابان",
+      "جمهور",
       "شش",
-      "میلاد",
-      "برخوردار"
+      "حرکت"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -1783,23 +1783,10 @@
   {
     "question": "یک هشدار برای ساعت ------ بعدازظهر تنظیم کن",
     "choices": [
-      "بریتانیا",
-      "قلعه",
       "چهار",
-      "اول"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "set",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "olly در ساعت ------ به من هشدار بده که به کنسرت بروم",
-    "choices": [
-      "سه بعدازظهر",
-      "منطقه",
-      "آمار",
-      "شمال"
+      "خرداد",
+      "درصد",
+      "برده"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1807,14 +1794,27 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "olly در ساعت ------ به من هشدار بده که به کنسرت بروم",
+    "choices": [
+      "فی",
+      "اجازه",
+      "وزن",
+      "سه بعدازظهر"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "ساعت ------ برای رفتن به کنسرت به من هشدار بده",
     "choices": [
-      "می‌دهند",
-      "وضعیت",
       "سه بعدازظهر",
-      "اسلامی"
+      "دسته",
+      "خط",
+      "عرب"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -1822,12 +1822,12 @@
   {
     "question": "آیا من برای ------ صبح زنگ هشدار تنظیم کرده‌ام",
     "choices": [
-      "بلکه",
-      "یادکرد",
+      "چرا",
       "پرواز",
-      "هنری"
+      "تک",
+      "نقاط"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1835,10 +1835,10 @@
   {
     "question": "آیا من زنگ هشدار را برای ------ در صبح تنظیم کرده‌ام",
     "choices": [
-      "ام",
+      "نسخه",
       "بیدار شدن",
-      "چین",
-      "می‌گویند"
+      "خود",
+      "آنان"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1848,23 +1848,10 @@
   {
     "question": "آیا ------ بارانی است",
     "choices": [
-      "کرده",
-      "شیراز",
-      "هم",
-      "نه"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ باران می بارد",
-    "choices": [
-      "دقیقه",
-      "کامپیوتر",
-      "ساده",
-      "امروز"
+      "اعدام",
+      "عصر",
+      "چنین",
+      "شیراز"
     ],
     "answer": 3,
     "type": "sentence",
@@ -1872,14 +1859,14 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "در ------ چه خبر است",
+    "question": "------ باران می بارد",
     "choices": [
-      "فرمان",
-      "نتایج",
-      "آمریکا",
-      "لیگ"
+      "کارگردان",
+      "امروز",
+      "صدای",
+      "تعیین"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1887,10 +1874,23 @@
   {
     "question": "در ------ چه خبر است",
     "choices": [
-      "خانوار",
-      "موارد",
+      "درصد",
+      "آمریکا",
+      "فرمان",
+      "محسن"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "در ------ چه خبر است",
+    "choices": [
+      "خاطر",
+      "مطلق",
       "جهان",
-      "خرداد"
+      "تحت"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1900,9 +1900,9 @@
   {
     "question": "------ چه خبر است",
     "choices": [
-      "وب‌گاه",
-      "اقتصاد",
-      "بازدید",
+      "شیراز",
+      "سیستم",
+      "شهری",
       "زنجان"
     ],
     "answer": 3,
@@ -1913,9 +1913,9 @@
   {
     "question": "چند خبر از ------ به من نشان بده",
     "choices": [
-      "شود",
-      "زمینه",
-      "چهار",
+      "آزادی",
+      "آلمان",
+      "آورد",
       "خبرگزاری مهر"
     ],
     "answer": 3,
@@ -1926,12 +1926,12 @@
   {
     "question": "الهه تعدادی خبر از ------ به من نشان بده",
     "choices": [
-      "تیم",
-      "خوانده",
-      "باشند",
-      "بی. بی. سی."
+      "آتش",
+      "بی. بی. سی.",
+      "ایالت",
+      "کاری"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1939,12 +1939,12 @@
   {
     "question": "------",
     "choices": [
-      "سطح",
       "شبکه خبر",
-      "خرداد",
-      "مقاله"
+      "شرکت",
+      "حسن",
+      "پارک"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1952,12 +1952,12 @@
   {
     "question": "الهه ------",
     "choices": [
-      "آیت",
-      "شبیه",
+      "شکست",
       "شبکه خبر",
-      "می‌گویند"
+      "ششم",
+      "تهران"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -1965,49 +1965,10 @@
   {
     "question": "چند تا آهنگ ------ برای من پخش کن",
     "choices": [
-      "اگر",
-      "هیپ هاپ",
-      "می",
-      "شرق"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "احساس میکنم الان دوست دارم ------ گوش بدم تو چطور",
-    "choices": [
-      "تصمیم",
-      "درگذشت",
-      "جاز",
-      "قانون"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "حالا فقط ------ پخش کن",
-    "choices": [
-      "متال",
-      "سفر",
-      "کرد",
-      "شاه"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "الان ------ پخش کن.",
-    "choices": [
-      "درخت",
-      "مي",
-      "کننده",
-      "متال"
+      "ساخته",
+      "خیلی",
+      "می‌کردند",
+      "هیپ هاپ"
     ],
     "answer": 3,
     "type": "sentence",
@@ -2015,12 +1976,51 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "احساس میکنم الان دوست دارم ------ گوش بدم تو چطور",
+    "choices": [
+      "بازدید",
+      "کاهش",
+      "راک",
+      "جاز"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "حالا فقط ------ پخش کن",
+    "choices": [
+      "گونه",
+      "متال",
+      "تصمیم",
+      "یک"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "الان ------ پخش کن.",
+    "choices": [
+      "متال",
+      "روشن",
+      "راک",
+      "مطالعه"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "اوولی یک قطعه خوب از نوازنده ------ مورد علاقه من پخش کن",
     "choices": [
-      "سه",
+      "دارای",
       "جاز",
-      "پایگاه",
-      "رهبری"
+      "ده",
+      "مسیر"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2030,12 +2030,12 @@
   {
     "question": "olly از ------ مورد علاقه من آهنگ پخش کن",
     "choices": [
-      "پیانیست",
-      "ویکی‌پدیای",
-      "خارجی",
-      "عباس"
+      "قدیمی",
+      "مدرسه",
+      "نمایندگان",
+      "پیانیست"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -2043,36 +2043,10 @@
   {
     "question": "لامپ ها را به ------ عوض کن",
     "choices": [
-      "آبی",
-      "تولید",
-      "مسائل",
-      "پاپ"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "hue_lightchange",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "بیا چراغ‌ها را ------ کنیم",
-    "choices": [
-      "آبی",
-      "گردد",
-      "شماره",
-      "نیز"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "hue_lightchange",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "لامپ ها را ------ بکن",
-    "choices": [
-      "ستاره",
       "دولت",
-      "اروپا",
-      "آبی براق"
+      "ماه",
+      "جشنواره",
+      "آبی"
     ],
     "answer": 3,
     "type": "sentence",
@@ -2080,14 +2054,40 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "الان در ------ ساعت چند است",
+    "question": "بیا چراغ‌ها را ------ کنیم",
     "choices": [
-      "تهران",
-      "استرالیا",
-      "از",
-      "اسماعیل"
+      "واقع",
+      "آبی",
+      "دی",
+      "می‌شود"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "لامپ ها را ------ بکن",
+    "choices": [
+      "آبی براق",
+      "تاریخچه",
+      "خیلی",
+      "باعث"
     ],
     "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "الان در ------ ساعت چند است",
+    "choices": [
+      "بالا",
+      "تهران",
+      "ماهی",
+      "محمد"
+    ],
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -2095,12 +2095,12 @@
   {
     "question": "منظور خواننده از اسم اهنگ ------ چیست",
     "choices": [
-      "عشق",
-      "مصر",
-      "داشت",
-      "موزه"
+      "شمال",
+      "سرخ",
+      "حکم",
+      "عشق"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -2108,10 +2108,23 @@
   {
     "question": "آهنگ ------ رو کی خونده",
     "choices": [
-      "دوباره",
-      "ترانه",
       "فال قهوه",
-      "عامل"
+      "یعنی",
+      "تقسیم",
+      "آثار"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "پادشاه",
+      "رتبه",
+      "تهران",
+      "مشغول"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2121,23 +2134,10 @@
   {
     "question": "هوای ------ چطور است",
     "choices": [
-      "تهران",
-      "دل",
-      "ها",
-      "طبیعی"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "هوای ------ چطور است",
-    "choices": [
-      "هنگامی",
+      "علت",
       "تبریز",
-      "مانند",
-      "استاندارد"
+      "امنیت",
+      "جمهوری"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2147,10 +2147,10 @@
   {
     "question": "پیش بینی وضع هوای ------ تهران چیست",
     "choices": [
-      "تهیه",
-      "مسجد",
+      "پادشاه",
+      "باشند",
       "امروز",
-      "درصد"
+      "جمله"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2160,10 +2160,10 @@
   {
     "question": "وضعیت جاری ------ چیست",
     "choices": [
-      "منتشر",
+      "عامل",
       "عملیات",
       "مذاکرات برگزیت",
-      "جای"
+      "انجمن"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2173,12 +2173,12 @@
   {
     "question": "------ چقدر است",
     "choices": [
+      "داشت",
       "نرخ برابری دلار آمریکا با ریال ایران",
-      "اینکه",
-      "احتمال",
-      "پیام"
+      "شبه",
+      "امر"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -2186,12 +2186,12 @@
   {
     "question": "------ آینده فرانسه را چه کسی می برد",
     "choices": [
+      "درگذشتگان",
       "انتخابات",
-      "قمری",
-      "ورود",
-      "ادبی"
+      "شود",
+      "پیشین"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -2199,12 +2199,12 @@
   {
     "question": "آیا ------ انتظار هوای آفتابی داری",
     "choices": [
+      "حمل",
       "یکشنبه",
-      "درباره",
-      "خان",
-      "علت"
+      "تخت",
+      "زمین"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -2212,12 +2212,12 @@
   {
     "question": "امروز ------ باران می بارد",
     "choices": [
-      "روستایی",
-      "خورشید",
-      "عصر",
-      "قرآن"
+      "امر",
+      "ترانه",
+      "بهار",
+      "عصر"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -2226,9 +2226,9 @@
     "question": "------ هوا بادی می شود",
     "choices": [
       "فردا",
-      "من",
-      "تحقیقات",
-      "داشت"
+      "رسید",
+      "حاج",
+      "مساحت"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2238,12 +2238,12 @@
   {
     "question": "چراغ‌های ------ را روشن کن",
     "choices": [
-      "ایستگاه",
+      "المللی",
+      "ملی",
       "آشپزخانه",
-      "پدر",
-      "انگلستان"
+      "وقت"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lighton",
     "extra": "Fill in the blank"
@@ -2251,12 +2251,12 @@
   {
     "question": "------ را روشن تر کن",
     "choices": [
-      "قرمز",
-      "دسامبر",
-      "زاده",
-      "لامپ کنار مبل"
+      "آلمانی",
+      "نبود",
+      "لامپ کنار مبل",
+      "پانویس"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank"
@@ -2264,9 +2264,9 @@
   {
     "question": "الان در ------ ساعت چند است",
     "choices": [
-      "برادر",
-      "تخت",
-      "دره",
+      "راست",
+      "محمدرضا",
+      "وب‌گاه",
       "تهران"
     ],
     "answer": 3,
@@ -2277,12 +2277,12 @@
   {
     "question": "------ را شروع کن",
     "choices": [
-      "می‌گویند",
-      "تحت",
-      "گردد",
-      "جاروبرقی"
+      "شوروی",
+      "جاروبرقی",
+      "شکل",
+      "حزب"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -2290,12 +2290,12 @@
   {
     "question": "------ را جاروبرقی بکش",
     "choices": [
-      "گسترش",
-      "اساسی",
-      "آشپزخانه",
-      "کشف"
+      "نگاه",
+      "دیگر",
+      "دورهٔ",
+      "آشپزخانه"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -2303,12 +2303,12 @@
   {
     "question": "------ را روشن کن",
     "choices": [
+      "میدان",
       "جارو برقی",
-      "ساکن",
-      "قمری",
-      "خود"
+      "بالا",
+      "ارتباط"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -2316,23 +2316,10 @@
   {
     "question": "در ------ چه خبر است",
     "choices": [
-      "جهان",
-      "آغاز",
-      "تدوین",
-      "تیم"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "تیترهای ------ روزنامه را بگو",
-    "choices": [
-      "آبی",
-      "انتقال",
-      "بخشی",
-      "امروز"
+      "حساب",
+      "وجود",
+      "دل",
+      "جهان"
     ],
     "answer": 3,
     "type": "sentence",
@@ -2340,14 +2327,27 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "تیترهای ------ روزنامه را بگو",
+    "choices": [
+      "می‌شوند",
+      "امروز",
+      "آذربایجان",
+      "بنام"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "------ را پخش کن",
     "choices": [
-      "شهرهای",
-      "منجر",
       "لیست موسیقی آرامش بخش",
-      "دین"
+      "کتاب‌های",
+      "عبارتند",
+      "بهمن"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -2355,10 +2355,10 @@
   {
     "question": "آهنگ های ------ را پخش کن",
     "choices": [
-      "تاریخی",
+      "کالیفرنیا",
       "ماکان بند",
-      "بعضی",
-      "شهرت"
+      "زمانی",
+      "آموزشی"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2368,12 +2368,12 @@
   {
     "question": "------ پخش کن",
     "choices": [
+      "چشمه",
       "شماعی زاده",
-      "جریان",
-      "ساده",
-      "انجمن"
+      "می‌شوند",
+      "تئاتر"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -2381,12 +2381,12 @@
   {
     "question": "پیش بینی هوای ------ چطور است",
     "choices": [
-      "رئیس",
-      "ماهی",
-      "انتخابات",
-      "امروز"
+      "آموزش",
+      "امروز",
+      "مهر",
+      "گسترش"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -2394,10 +2394,10 @@
   {
     "question": "یک ------ از فست فود آی گون سفارش بده",
     "choices": [
-      "کرده",
-      "سایت",
+      "گاز",
+      "های",
       "پیتزا",
-      "هدف"
+      "مهندسی"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2407,12 +2407,12 @@
   {
     "question": "دوست دارم ------ بخورم میتونی برای نهار برام سفارش بدی",
     "choices": [
-      "اسرائیل",
-      "نمونه",
-      "ویژه",
-      "سوشی"
+      "قدیمی",
+      "سوشی",
+      "تک",
+      "واحد"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank"
@@ -2420,10 +2420,10 @@
   {
     "question": "alexa من می‌خواهم یک ------ بخورم می‌توانی یک نهار به من سفارش بدهی",
     "choices": [
-      "سینما",
-      "هند",
+      "بسیار",
+      "می‌توانند",
       "چلوکباب برگ",
-      "یونانی"
+      "کرده‌است"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2433,12 +2433,12 @@
   {
     "question": "------ و سوپ از رستوران ایتالیایی بیرون بر سفارش بده",
     "choices": [
+      "فقط",
+      "توجه",
       "ساندویچ",
-      "تقسیمات",
-      "هیچ",
-      "بعد"
+      "فرهنگ"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank"
@@ -2446,9 +2446,9 @@
   {
     "question": "چند روز تا پایان ------ مونده",
     "choices": [
-      "بین",
-      "بازیگران",
-      "کوه",
+      "کیلومتر",
+      "جمعیت",
+      "روستایی",
       "امسال"
     ],
     "answer": 3,
@@ -2460,9 +2460,9 @@
     "question": "------ عید سال نو در چه روزی است",
     "choices": [
       "امسال",
-      "آسیا",
-      "رسیدن",
-      "ایرانیان"
+      "خلیج",
+      "آمریکایی",
+      "سازمان"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2472,12 +2472,12 @@
   {
     "question": "------ روز عید نوروز چند شنبه است",
     "choices": [
-      "فیلم",
-      "رتبه",
-      "بیست",
-      "امسال"
+      "بوده‌است",
+      "امسال",
+      "اعداد",
+      "همانند"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -2485,12 +2485,12 @@
   {
     "question": "روشنایی را ------ زیاد کن",
     "choices": [
-      "عبارتند",
       "تا بیست درصد",
-      "میزان",
-      "هنوز"
+      "ترجمه",
+      "ژوئن",
+      "نقشه"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank"
@@ -2498,12 +2498,12 @@
   {
     "question": "لامپ ها را به ------ تنظیم کن",
     "choices": [
-      "صدای",
-      "یکی",
+      "سالهای",
       "شارژ کامل",
-      "رخ"
+      "علمی",
+      "جدا"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank"
@@ -2511,12 +2511,12 @@
   {
     "question": "لطفا برای ------ بی صدا باش",
     "choices": [
-      "اين",
-      "میانه",
+      "کانادا",
       "یک ساعت دیگر",
-      "برنده"
+      "گرفته",
+      "در"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "volume_mute",
     "extra": "Fill in the blank"
@@ -2524,12 +2524,12 @@
   {
     "question": "------ صحبت نکن",
     "choices": [
-      "کانادا",
-      "معاصر",
-      "کارگردانی",
-      "امروز"
+      "حالت",
+      "نور",
+      "امروز",
+      "سرعت"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "volume_mute",
     "extra": "Fill in the blank"
@@ -2537,12 +2537,12 @@
   {
     "question": "------ باران می بارد",
     "choices": [
-      "افغانستان",
-      "زن",
-      "فردا",
-      "اختیار"
+      "موزه",
+      "روشن",
+      "محیط",
+      "فردا"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -2550,12 +2550,12 @@
   {
     "question": "آب و هوای ------ را تا دو روز آینده به من بگو",
     "choices": [
-      "اینترنت",
+      "چند",
+      "آنکه",
       "شیراز",
-      "شوروی",
-      "حالی"
+      "کنترل"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -2563,10 +2563,10 @@
   {
     "question": "------ باید چتر بردارم",
     "choices": [
-      "روابط",
+      "ایرانیان",
       "فردا",
-      "ما",
-      "تلویزیونی"
+      "زمینه",
+      "ارزش"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2576,12 +2576,12 @@
   {
     "question": "------ را غیر فعال کن",
     "choices": [
+      "گونه",
+      "زندگینامه",
       "جارو برقی",
-      "تقریباً",
-      "هرمزگان",
-      "حزب"
+      "است"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "wemo_off",
     "extra": "Fill in the blank"
@@ -2589,12 +2589,12 @@
   {
     "question": "------ من را فعال کن",
     "choices": [
-      "نشر",
+      "مناسب",
+      "سازی",
       "دوشاخه",
-      "رابطه",
-      "مصر"
+      "ویکی‌پدیای"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank"
@@ -2602,12 +2602,12 @@
   {
     "question": "------ را روشن کن",
     "choices": [
-      "شارژر هوشمند",
-      "واحد",
-      "همچون",
-      "برابر"
+      "بررسی",
+      "ایجاد",
+      "دفتر",
+      "شارژر هوشمند"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank"
@@ -2615,140 +2615,10 @@
   {
     "question": "اخبا ر ------ از مجله‌ی ------ را به من بگو",
     "choices": [
-      "یافته",
-      "اقتصاد",
+      "می‌شود",
       "تکنولوژی",
-      "اعلام"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------",
-    "choices": [
-      "دانش",
-      "تر",
-      "عصر",
-      "نماینده"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------",
-    "choices": [
-      "یکشنبه",
-      "دنیا",
-      "مثال",
-      "طول"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "آهنگ ------",
-    "choices": [
-      "کم",
-      "صنایع",
-      "بارون",
-      "آلمان"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "وضعیت آب و هوا در ------ چگونه است",
-    "choices": [
-      "احمد",
-      "دادند",
-      "نوشهر",
-      "بدن"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "می خواهم وضع هوای ------ را بدانم",
-    "choices": [
-      "روستایی",
-      "عربستان",
-      "جان",
-      "کرمان"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "می خواهم وضع هوای ------ را بدانم",
-    "choices": [
-      "ساری",
-      "آمریکا",
-      "نماینده",
-      "شده‌است"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "آیا ------ برف می بارد",
-    "choices": [
-      "باشند",
-      "دادند",
-      "نگهداری",
-      "اهواز"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "علی من ------ به یک فقیر نیازمند کمک کردم",
-    "choices": [
-      "امروز",
-      "بی",
-      "رسیدن",
-      "مطلق"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "coffee",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ را روشن کن",
-    "choices": [
-      "سنتی",
-      "قالب",
-      "توسط",
-      "قهوه ساز"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "coffee",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ هوا چطور خواهد بود",
-    "choices": [
-      "پایان",
-      "فردا",
-      "برج",
-      "حقیقت"
+      "شهرستان",
+      "دنیا"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2756,12 +2626,51 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "------ بارانی می شود",
+    "question": "------",
     "choices": [
-      "فردا",
-      "تقسیم",
-      "باقی",
-      "اوت"
+      "شیراز",
+      "اصل",
+      "عصر",
+      "يا"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "استاد",
+      "شروع",
+      "انتشارات",
+      "یکشنبه"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "آهنگ ------",
+    "choices": [
+      "بارون",
+      "چین",
+      "غرب",
+      "برخوردار"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "وضعیت آب و هوا در ------ چگونه است",
+    "choices": [
+      "نوشهر",
+      "ژانویه",
+      "دره",
+      "زبان‌های"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2769,24 +2678,102 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "------ دمای هوا چند درجه است",
-    "choices": [
-      "دیگری",
-      "نزدیکی",
-      "فوق",
-      "فردا"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "پیش‌بینی هوای ------ چیست",
+    "question": "می خواهم وضع هوای ------ را بدانم",
     "choices": [
       "بیان",
-      "پیشنهاد",
-      "انجمن",
+      "کرمان",
+      "بی‌بی‌سی",
+      "آمریکا"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "می خواهم وضع هوای ------ را بدانم",
+    "choices": [
+      "ساختمان",
+      "ساری",
+      "آخر",
+      "آبی"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "آیا ------ برف می بارد",
+    "choices": [
+      "اکثر",
+      "دختر",
+      "اهواز",
+      "آخر"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "علی من ------ به یک فقیر نیازمند کمک کردم",
+    "choices": [
+      "مقام",
+      "کوه",
+      "درگذشتگان",
+      "امروز"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ را روشن کن",
+    "choices": [
+      "گروه",
+      "مدرسه",
+      "قهوه ساز",
+      "وضعیت"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ هوا چطور خواهد بود",
+    "choices": [
+      "دین",
+      "مدت",
+      "واژه",
+      "فردا"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ بارانی می شود",
+    "choices": [
+      "سیاست",
+      "فردا",
+      "محل",
+      "ایران"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ دمای هوا چند درجه است",
+    "choices": [
+      "آیت",
+      "زنده",
+      "انقلاب",
       "فردا"
     ],
     "answer": 3,
@@ -2797,10 +2784,23 @@
   {
     "question": "پیش‌بینی هوای ------ چیست",
     "choices": [
-      "رسیدن",
+      "ششم",
       "فردا",
-      "همچون",
-      "هوا"
+      "شده‌است",
+      "خودش"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "پیش‌بینی هوای ------ چیست",
+    "choices": [
+      "محیط",
+      "فردا",
+      "جلد",
+      "بنیاد"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2810,62 +2810,10 @@
   {
     "question": "------ باران می بارد",
     "choices": [
-      "سیارک‌ها",
+      "تر",
+      "تلویزیونی",
       "فردا",
-      "دنبال",
-      "مساحت"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ برف می بارد",
-    "choices": [
-      "فردا",
-      "حاج",
-      "برگزار",
-      "نیز"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "ببین آیا ------ سفارشات بیرون‌بری انجام می دهد یا خیر",
-    "choices": [
-      "اساس",
-      "رستوران",
-      "حفظ",
-      "منطقه"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "سرچ کن ببین ------ سرویس بیرون بر دارد یا نه",
-    "choices": [
-      "کردستان",
-      "رستوران",
-      "داشتند",
-      "تن"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "آیا ------ منوی غذای بیرون بر دارد",
-    "choices": [
-      "شیراز",
-      "حفظ",
-      "رستوران",
-      "کردند"
+      "جدول"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2873,11 +2821,63 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "------ برف می بارد",
+    "choices": [
+      "آذر",
+      "فردا",
+      "دید",
+      "گرم"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "ببین آیا ------ سفارشات بیرون‌بری انجام می دهد یا خیر",
+    "choices": [
+      "حمایت",
+      "پرداخت",
+      "رستوران",
+      "مسائل"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "سرچ کن ببین ------ سرویس بیرون بر دارد یا نه",
+    "choices": [
+      "بنابر",
+      "تحقیقات",
+      "حسن",
+      "رستوران"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "آیا ------ منوی غذای بیرون بر دارد",
+    "choices": [
+      "رستوران",
+      "واژه",
+      "داخل",
+      "جعبه"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "------ چند شنبه ست",
     "choices": [
-      "حتی",
-      "می‌کند",
-      "ادبیات",
+      "بشر",
+      "صدای",
+      "مختلف",
       "دوم فروردین"
     ],
     "answer": 3,
@@ -2888,12 +2888,12 @@
   {
     "question": "------ چه روزی است",
     "choices": [
-      "بسیار",
-      "انجام",
       "بیست و نهم فروردین",
-      "نفت"
+      "ایالات",
+      "دکتر",
+      "کمی"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -2902,9 +2902,9 @@
     "question": "------ چند شنبه است",
     "choices": [
       "اول اردیبهشت",
-      "وی",
-      "آمریکایی",
-      "عدم"
+      "مراسم",
+      "مردم",
+      "وزن"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2915,9 +2915,9 @@
     "question": "زنگ هشدار من ------ چه ساعتی خاموش می‌شود",
     "choices": [
       "امروز",
-      "پی",
-      "اردیبهشت",
-      "کسب"
+      "اتحادیه",
+      "کشته",
+      "تدریس"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2927,12 +2927,12 @@
   {
     "question": "------ از موسیقی google play را پخش کن",
     "choices": [
-      "شد",
-      "دهستان‌های",
-      "ترک هشت",
-      "ملی"
+      "ارومیه",
+      "بکار",
+      "ممکن",
+      "ترک هشت"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -2940,12 +2940,12 @@
   {
     "question": "از آهنگ های ------ آهنگ دوم را پخش کن",
     "choices": [
-      "قدیمی",
-      "هجری",
-      "نظر",
-      "شادمهر"
+      "خودش",
+      "داشت",
+      "شادمهر",
+      "مجلس"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -2953,12 +2953,12 @@
   {
     "question": "آیا ------ است",
     "choices": [
-      "استان‌های",
-      "باستان",
-      "جعبه",
-      "امروز دوشنبه"
+      "دو",
+      "امروز دوشنبه",
+      "می‌توانند",
+      "پخش"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -2966,10 +2966,10 @@
   {
     "question": "وضع هوای ------ چطور است",
     "choices": [
-      "پدر",
-      "فضایی",
+      "آموزشی",
+      "فرمان",
       "نوشهر",
-      "می‌گردد"
+      "دستور"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2979,75 +2979,10 @@
   {
     "question": "آیا الان در ------ هوا آفتابی است",
     "choices": [
-      "تقویم",
-      "شد",
-      "جلد",
-      "گنبد"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "لطفا آهنگ ------ منصور را پخش کن",
-    "choices": [
-      "کنونی",
-      "حق",
-      "جای",
-      "آزادی"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "لطفا نرم افزار موزیک من را باز کن و آهنگ ------ مهدی جهانی را پخش کن",
-    "choices": [
-      "نشد",
-      "معمولاً",
-      "شروع",
-      "هفتم"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "آهنگ ------ از شادمهر را لطفا پخش کن",
-    "choices": [
-      "بنا",
-      "کاخ",
-      "نوع",
-      "تقدیر"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "لامپ ------ را خاموش کن",
-    "choices": [
-      "گاراژ",
-      "حل",
-      "درگاه",
-      "بعضی"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "hue_lightoff",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "داغ ترین خبرها را از ------ به من بگو",
-    "choices": [
-      "اسماعیل",
-      "مشخص",
-      "نیورک تایمز",
-      "گرفته‌است"
+      "گردد",
+      "دین",
+      "گنبد",
+      "درست"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3055,12 +2990,77 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "لطفا آهنگ ------ منصور را پخش کن",
+    "choices": [
+      "آزادی",
+      "اقتصادی",
+      "بیش",
+      "باید"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "لطفا نرم افزار موزیک من را باز کن و آهنگ ------ مهدی جهانی را پخش کن",
+    "choices": [
+      "مبارزه",
+      "شخصیت",
+      "اندازه",
+      "نشد"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "آهنگ ------ از شادمهر را لطفا پخش کن",
+    "choices": [
+      "بالا",
+      "تقدیر",
+      "بندی",
+      "سرخ"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "لامپ ------ را خاموش کن",
+    "choices": [
+      "کند",
+      "تعریف",
+      "ترجمه",
+      "گاراژ"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "داغ ترین خبرها را از ------ به من بگو",
+    "choices": [
+      "نسخه",
+      "اگر",
+      "مرداد",
+      "نیورک تایمز"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "مطلب جنجالی در ------ چیست",
     "choices": [
-      "استرالیا",
-      "خانوار",
+      "باقی",
+      "مشاهیر",
       "تبریز تایمز",
-      "تحت"
+      "ویژه"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3070,12 +3070,12 @@
   {
     "question": "هر خبر ------ در روزنامه شرق",
     "choices": [
-      "بازیگر",
-      "آنکه",
-      "دفتر",
-      "تلفاتی"
+      "دوباره",
+      "شبکه",
+      "تلفاتی",
+      "تأثیر"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3083,12 +3083,12 @@
   {
     "question": "به محض اینکه خبر جدیدی از ------ شد به من اطلاع بده",
     "choices": [
-      "شدند",
       "برگزیت",
-      "مذهبی",
-      "آنکه"
+      "شده‌اند",
+      "نزدیک",
+      "اعدام"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3096,12 +3096,12 @@
   {
     "question": "------ را خاموش کن",
     "choices": [
-      "دیگر",
-      "هنری",
-      "پریز هوشمند",
-      "اسلام"
+      "کار",
+      "است",
+      "کل",
+      "پریز هوشمند"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "wemo_off",
     "extra": "Fill in the blank"
@@ -3109,12 +3109,12 @@
   {
     "question": "------ را را روشن کن",
     "choices": [
-      "نشانی",
-      "کوه",
-      "دست",
-      "پریز هوشمند"
+      "پریز هوشمند",
+      "دستور",
+      "چشم",
+      "آغاز"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank"
@@ -3122,12 +3122,12 @@
   {
     "question": "سوکت ------ را عوض کن",
     "choices": [
-      "شناخته",
-      "پر",
+      "جعبه",
       "پریز هوشمند",
-      "اروپا"
+      "رفت",
+      "گفت"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank"
@@ -3135,12 +3135,12 @@
   {
     "question": "آهنگ ------ از لیست پخش من پخش کن",
     "choices": [
-      "را",
       "ریمیکس",
-      "می‌باشد",
-      "نو"
+      "وزن",
+      "نتیجه",
+      "بلند"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -3148,12 +3148,12 @@
   {
     "question": "اگر در ------ ظهر باشد در زنجان ساعت چند است",
     "choices": [
-      "برتر",
-      "سیاست",
-      "نوامبر",
-      "کرمان"
+      "دسته",
+      "مقاله",
+      "کرمان",
+      "مصر"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "convert",
     "extra": "Fill in the blank"
@@ -3161,12 +3161,12 @@
   {
     "question": "فاصله زمانی بین زمان ------ و زمان خلیج فارس چند ساعت است",
     "choices": [
+      "نشده",
       "شرقی",
-      "چیزی",
-      "بازی",
-      "الدین"
+      "وی",
+      "مهم‌ترین"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "convert",
     "extra": "Fill in the blank"
@@ -3175,9 +3175,9 @@
     "question": "------ از شادمهر را پخش کن",
     "choices": [
       "ترس",
-      "انگلیسی",
-      "پیشین",
-      "دانش"
+      "می‌دهند",
+      "مربوط",
+      "خانواده"
     ],
     "answer": 0,
     "type": "sentence",
@@ -3187,10 +3187,10 @@
   {
     "question": "هر آهنگی از ------ را پخش کن",
     "choices": [
-      "انگلستان",
+      "عهده",
       "ابی",
-      "چه",
-      "قدرت"
+      "موسسه",
+      "هدف"
     ],
     "answer": 1,
     "type": "sentence",
@@ -3200,12 +3200,12 @@
   {
     "question": "------ هوا گرم است",
     "choices": [
-      "گردید",
-      "جمهور",
+      "بطور",
       "فردا",
-      "نام‌های"
+      "انسان",
+      "استان‌های"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3213,23 +3213,10 @@
   {
     "question": "می توانی رنگ نور را در ------ عوض کنی",
     "choices": [
-      "کسی",
-      "خویش",
-      "مساحت",
-      "خانه"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "hue_lightchange",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "آیا می‌توانی نور ------ را به حالت پخش تصادفی درآوری",
-    "choices": [
-      "ورودی",
+      "مبارزه",
       "خانه",
-      "دل",
-      "مرز"
+      "اساسی",
+      "کسی"
     ],
     "answer": 1,
     "type": "sentence",
@@ -3237,11 +3224,11 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "آیا می توانی رنگ های روشن را در ------ به تیره تبدیل کنی",
+    "question": "آیا می‌توانی نور ------ را به حالت پخش تصادفی درآوری",
     "choices": [
-      "جهت",
-      "سالگی",
-      "شرایط",
+      "مدیریت",
+      "امپراتوری",
+      "درگذشت",
       "خانه"
     ],
     "answer": 3,
@@ -3250,12 +3237,25 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "آیا می توانی رنگ های روشن را در ------ به تیره تبدیل کنی",
+    "choices": [
+      "کل",
+      "خانه",
+      "مرتبط",
+      "بلند"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "من دوست دارم آهنگ ------ گوش بدم",
     "choices": [
-      "عربی",
+      "وابسته",
       "پاپ",
-      "مسائل",
-      "لازم"
+      "دو",
+      "بسیار"
     ],
     "answer": 1,
     "type": "sentence",
@@ -3265,12 +3265,12 @@
   {
     "question": "میتونی یک ------ موزیک راک پخش کنی",
     "choices": [
-      "فعال",
       "ساعت بعد",
-      "پیش",
-      "بنیاد"
+      "شهری",
+      "مجلس",
+      "عضو"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -3278,12 +3278,12 @@
   {
     "question": "یک جوک ------ به من بگو",
     "choices": [
+      "همان",
       "خنده‌دار",
-      "فرانسوی",
-      "شیر",
-      "دورهٔ"
+      "عراق",
+      "شروع"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank"
@@ -3291,12 +3291,12 @@
   {
     "question": "نور اتاقم رو ------ کن",
     "choices": [
-      "آبی",
-      "بازیکنان",
-      "می‌کند",
-      "کارگردانی"
+      "درون",
+      "دهه",
+      "تحصیلات",
+      "آبی"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -3304,12 +3304,12 @@
   {
     "question": "نور اتاقم رو به یه رنگ ------ تغییر بده",
     "choices": [
-      "عاشقانه",
-      "یا",
-      "هزار",
-      "زندگی"
+      "زیرا",
+      "افغانستان",
+      "هنگامی",
+      "عاشقانه"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -3317,9 +3317,9 @@
   {
     "question": "نور اتاق من را عوض کن تا بتوانم ------ داشته باشم",
     "choices": [
-      "تا",
-      "مقابل",
-      "گل",
+      "همه",
+      "خوبی",
+      "نیروهای",
       "خواب خوب"
     ],
     "answer": 3,
@@ -3330,9 +3330,9 @@
   {
     "question": "یک زنگ برای ساعت ------ من تنظیم کن",
     "choices": [
-      "منجر",
-      "عراق",
-      "بصورت",
+      "زندگی",
+      "جز",
+      "نشر",
       "هشت صبح"
     ],
     "answer": 3,
@@ -3343,12 +3343,12 @@
   {
     "question": "یک زنگ هشدار برای ساعت ------ بساز",
     "choices": [
+      "جمهوری",
       "چهار بعدازظهر",
-      "که",
-      "برگزار",
-      "چه"
+      "فلسفه",
+      "مدت"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -3356,12 +3356,12 @@
   {
     "question": "برای من ساعت ------ زنگ بیداری را بساز",
     "choices": [
+      "هوای",
+      "اهل",
       "هشت و چهل و پنج صبح",
-      "بهترین",
-      "منبع",
-      "آذر"
+      "فرانسه"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -3369,12 +3369,12 @@
   {
     "question": "اخبار ------",
     "choices": [
-      "پرورش",
-      "نتایج",
-      "گروه",
-      "دلخراش"
+      "انرژی",
+      "دلخراش",
+      "رو",
+      "مرکزی"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3382,10 +3382,10 @@
   {
     "question": "------ را روشن کن",
     "choices": [
-      "رخ",
-      "بودن",
+      "همچنین",
+      "قتل",
       "دوشاخه ی یک",
-      "از"
+      "درگاه"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3395,10 +3395,10 @@
   {
     "question": "لامپ ها ی ------ را خاموش کن",
     "choices": [
-      "بی‌بی‌سی",
-      "یاد",
+      "صفحه",
+      "شرقی",
       "حمام",
-      "همیشه"
+      "کارگردانی"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3408,23 +3408,10 @@
   {
     "question": "لامپ ها ی ------ را خاموش کن",
     "choices": [
-      "نمایش",
       "حمام",
-      "تن",
-      "پاریس"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "hue_lightoff",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "لامپ های ------ را خاموش کن",
-    "choices": [
-      "حمام",
-      "‌ها",
-      "جمهوری",
-      "نیاز"
+      "باقی",
+      "حالی",
+      "فراهم"
     ],
     "answer": 0,
     "type": "sentence",
@@ -3432,14 +3419,27 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "لامپ های ------ را خاموش کن",
+    "choices": [
+      "آن",
+      "باز",
+      "آذر",
+      "حمام"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "هوای ------ چطور است",
     "choices": [
-      "سلطنت",
-      "ها",
       "جمعه",
-      "نقطه"
+      "پاریس",
+      "آمریکایی",
+      "نبود"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3448,9 +3448,9 @@
     "question": "الان بیرون چقدر ------",
     "choices": [
       "گرمه",
-      "زیادی",
-      "تبریز",
-      "میلیون"
+      "وزارت",
+      "پنجم",
+      "روزنامه"
     ],
     "answer": 0,
     "type": "sentence",
@@ -3460,10 +3460,10 @@
   {
     "question": "------ چند شنبه است",
     "choices": [
-      "رشته",
-      "تصویب",
+      "کاربرد",
+      "فضای",
       "امروز",
-      "مسائل"
+      "کرمان"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3473,12 +3473,12 @@
   {
     "question": "------ بعد چه روزی از ماه است",
     "choices": [
-      "داد",
-      "خاصی",
-      "سه شنبه",
-      "حاکم"
+      "اين",
+      "وی",
+      "لندن",
+      "سه شنبه"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3486,12 +3486,12 @@
   {
     "question": "پوشه ------ را پخش کن",
     "choices": [
-      "طبقه",
-      "کیلومتری",
-      "شما",
-      "پالت"
+      "درجه",
+      "نرم",
+      "پالت",
+      "اعداد"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -3499,12 +3499,12 @@
   {
     "question": "پوشه ------ را باز کن",
     "choices": [
+      "پوشش",
       "گروه بمرانی",
-      "احمد",
-      "داشتن",
-      "مسائل"
+      "دلار",
+      "بن"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -3512,12 +3512,12 @@
   {
     "question": "------ قرار است باران ببارد",
     "choices": [
-      "امروز",
-      "روزنامه",
-      "هاي",
-      "حمایت"
+      "دارد",
+      "گلستان",
+      "همانند",
+      "امروز"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3525,12 +3525,12 @@
   {
     "question": "------ باید ژاکت بپوشم",
     "choices": [
-      "امروز",
-      "اعدام",
-      "کلی",
-      "پسر"
+      "علی",
+      "متال",
+      "ساختار",
+      "امروز"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3538,10 +3538,10 @@
   {
     "question": "------",
     "choices": [
-      "اکتبر",
-      "ژانویه",
+      "آب",
+      "خوانندگان",
       "پخش تصادفی را غیر فعال کن",
-      "گزارش"
+      "حسین"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3551,12 +3551,12 @@
   {
     "question": "آلبوم را ------",
     "choices": [
-      "خمینی",
-      "عبارتند",
       "تکرار کن",
-      "پست"
+      "واحد",
+      "شیعه",
+      "جان"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "settings",
     "extra": "Fill in the blank"
@@ -3564,23 +3564,10 @@
   {
     "question": "------ پخش کن",
     "choices": [
-      "انگلستان",
-      "سایت",
-      "ورودی",
-      "ابی"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "موزیک ------ پخش کن",
-    "choices": [
-      "بهترین",
-      "رسیدن",
-      "عید نوروز قدیمی",
-      "پول"
+      "برج",
+      "ترجمه",
+      "ابی",
+      "خون"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3588,12 +3575,25 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "موزیک ------ پخش کن",
+    "choices": [
+      "اداره",
+      "بازار",
+      "کارگردان",
+      "عید نوروز قدیمی"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "------ را روشن کن",
     "choices": [
-      "نام‌های",
-      "ارتباط",
+      "طرح",
+      "مستقیم",
       "قهوه ساز",
-      "صنعتی"
+      "میرزا"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3603,36 +3603,10 @@
   {
     "question": "آخرین ------ را به من بده",
     "choices": [
-      "یادکرد",
-      "آمار",
-      "بلکه",
-      "قیمت سهام کاستکو"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "در حال حاضر چه کسی در ------ پیشتاز است",
-    "choices": [
-      "رفته",
-      "جهت",
-      "سوی",
-      "انتخابات پارلمانی"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ چندم است",
-    "choices": [
-      "میزان",
-      "خط",
-      "امروز",
-      "کرده"
+      "جنوب",
+      "تلاش",
+      "قیمت سهام کاستکو",
+      "صورت"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3640,14 +3614,40 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "لامپ های ------ را به آبی تغییر بده",
+    "question": "در حال حاضر چه کسی در ------ پیشتاز است",
     "choices": [
-      "آشپزخانه",
-      "ارزش",
-      "اعدام",
-      "نوعی"
+      "برده",
+      "مجموعه",
+      "انتخابات پارلمانی",
+      "پست"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ چندم است",
+    "choices": [
+      "امروز",
+      "مسابقات",
+      "دینی",
+      "درآمد"
     ],
     "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "لامپ های ------ را به آبی تغییر بده",
+    "choices": [
+      "جان",
+      "خان",
+      "یاد",
+      "آشپزخانه"
+    ],
+    "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -3655,12 +3655,12 @@
   {
     "question": "چراغ‌های ------ را قرمز کن",
     "choices": [
+      "اتحاد",
       "اتاق نشیمن",
-      "نوعی",
-      "زمان",
-      "اولین"
+      "روستاهای",
+      "محلی"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -3668,12 +3668,12 @@
   {
     "question": "روشنایی ------ را به سبز تغییر بده",
     "choices": [
-      "قرار",
-      "مراسم",
-      "كه",
-      "اتاق خواب"
+      "اتاق خواب",
+      "رضا",
+      "بدن",
+      "علوم"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -3682,9 +3682,9 @@
     "question": "من میخوام آهنگ ------ گوش بدم",
     "choices": [
       "کلاسیک",
-      "المللی",
-      "هستند",
-      "پارک"
+      "شبیه",
+      "زیر",
+      "قلعه"
     ],
     "answer": 0,
     "type": "sentence",
@@ -3694,12 +3694,12 @@
   {
     "question": "من میخوام ------ گوش بدم",
     "choices": [
-      "حدود",
-      "جاز",
-      "پهلوی",
-      "معروف"
+      "سد",
+      "سازی",
+      "گروه",
+      "جاز"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -3707,12 +3707,12 @@
   {
     "question": "لامپ ------ من را روشن‌تر کن",
     "choices": [
-      "مراکز",
-      "دلار",
       "اتاق خواب",
-      "محلی"
+      "نظر",
+      "بیشتری",
+      "فیزیک"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank"
@@ -3720,12 +3720,12 @@
   {
     "question": "------ را خاموش کن",
     "choices": [
+      "زبان‌های",
+      "میان",
       "لامپ",
-      "دادگاه",
-      "منجر",
-      "صنعت"
+      "رفته"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank"
@@ -3733,12 +3733,12 @@
   {
     "question": "آهنگ هایی از ------ پخش کن",
     "choices": [
-      "کنار",
-      "اضافه",
-      "ابی",
-      "شیر"
+      "خوانندگان",
+      "استفاده",
+      "بزرگترین",
+      "ابی"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -3746,12 +3746,12 @@
   {
     "question": "آهنگ ------ را پخش کن",
     "choices": [
-      "عشق",
-      "جز",
-      "جوایز",
-      "جغرافیایی"
+      "یکی",
+      "شناخته",
+      "مسعود",
+      "عشق"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -3759,12 +3759,12 @@
   {
     "question": "آهنگ هایی از ------ پخش کن",
     "choices": [
+      "کالیفرنیا",
       "ابی",
-      "تصمیم",
-      "درجه",
-      "آمار"
+      "تعیین",
+      "واژه"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -3772,12 +3772,12 @@
   {
     "question": "اخبار ------ را پیدا کن",
     "choices": [
-      "افغانستان",
-      "استان",
-      "حمل",
-      "برگزیت"
+      "کشور",
+      "جاده",
+      "برگزیت",
+      "شهرستان"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3785,10 +3785,10 @@
   {
     "question": "اخبار ------ را باز کن",
     "choices": [
-      "حمله",
+      "بشر",
       "شرکت ملی نفت",
-      "می‌کرد",
-      "هایی"
+      "بطور",
+      "تلویزیون"
     ],
     "answer": 1,
     "type": "sentence",
@@ -3798,12 +3798,12 @@
   {
     "question": "اخبار ------ را برای من پیدا کن",
     "choices": [
-      "سخنرانی ترامپ",
-      "لیگ",
-      "مسیر",
-      "بنام"
+      "اصل",
+      "شاعران",
+      "سری",
+      "سخنرانی ترامپ"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3811,12 +3811,12 @@
   {
     "question": "در ------ ساعت چند است",
     "choices": [
-      "قهرمان",
-      "تلاش",
-      "معرفی",
-      "منطقه های زمانی دیگر"
+      "منطقه های زمانی دیگر",
+      "بندر",
+      "را",
+      "می‌شود"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3824,12 +3824,12 @@
   {
     "question": "------ در کدام منطقه ی زمانی قرار دارد",
     "choices": [
-      "ما",
-      "شورای",
-      "ورودی",
-      "آریزونا"
+      "عشق",
+      "مصرف",
+      "آریزونا",
+      "فرهنگی"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3837,12 +3837,12 @@
   {
     "question": "در ------ ساعت چند است",
     "choices": [
-      "دور",
-      "اصفهان",
-      "آفریقا",
-      "سرزمین"
+      "می‌کردند",
+      "رضوی",
+      "سپاه",
+      "اصفهان"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3850,12 +3850,12 @@
   {
     "question": "الان در ------ ساعت چند است",
     "choices": [
+      "برتر",
+      "جنوب",
       "ایران",
-      "مناسب",
-      "مساحت",
-      "تاریخچه"
+      "کند"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3863,12 +3863,12 @@
   {
     "question": "الان در ------ ساعت چند است",
     "choices": [
-      "همسر",
+      "شکل",
+      "یونان",
       "ایران",
-      "مواد",
-      "حسن"
+      "پا"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -3876,10 +3876,10 @@
   {
     "question": "بیرون چند ------ است",
     "choices": [
-      "رود",
+      "اخیر",
       "درجه",
-      "پارک",
-      "روابط"
+      "متعلق",
+      "اینترنت"
     ],
     "answer": 1,
     "type": "sentence",
@@ -3889,10 +3889,23 @@
   {
     "question": "آیا بیرون ------ است",
     "choices": [
-      "گرم",
-      "روی",
       "شعر",
-      "منظور"
+      "ستاره",
+      "گرم",
+      "انتقال"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "آیا بیرون ------ است",
+    "choices": [
+      "سرد",
+      "باقی",
+      "امنیت",
+      "اجتماعی"
     ],
     "answer": 0,
     "type": "sentence",
@@ -3900,27 +3913,14 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "آیا بیرون ------ است",
-    "choices": [
-      "خاصی",
-      "کوتاه",
-      "خودش",
-      "سرد"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
     "question": "چه شوخی ------ می‌دانی",
     "choices": [
-      "فقط",
-      "اردیبهشت",
-      "باشد",
-      "احمقانه‌ای"
+      "نشده",
+      "اینترنتی",
+      "احمقانه‌ای",
+      "دوست"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank"
@@ -3928,12 +3928,12 @@
   {
     "question": "چه شوخی ------ ای بلدی",
     "choices": [
-      "جزیره",
-      "نخست",
-      "مهاجرت",
-      "احمقانه"
+      "احمقانه",
+      "شمسی",
+      "شروع",
+      "حزب"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank"
@@ -3941,12 +3941,12 @@
   {
     "question": "یک جوک ------ چیست",
     "choices": [
-      "زمان",
-      "مهاجرت",
       "خوب",
-      "شهید"
+      "زمان",
+      "آلبوم",
+      "قرمز"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank"
@@ -3954,12 +3954,12 @@
   {
     "question": "رنگ نور را به ------ تغییر بده",
     "choices": [
-      "اندازه",
-      "دوره",
       "آبی",
-      "تحصیل"
+      "شکل",
+      "شناسی",
+      "به"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -3967,12 +3967,12 @@
   {
     "question": "تایید کن که آیا نور ------ است",
     "choices": [
-      "سد",
-      "اروپا",
+      "اندازه",
       "آبی",
-      "مناطق"
+      "امروزه",
+      "موقعیت"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -3980,12 +3980,12 @@
   {
     "question": "رنگ نور رو ------ کن",
     "choices": [
-      "هایی",
-      "می‌گوید",
-      "جرم",
-      "قرمز"
+      "ژوئیه",
+      "خانه",
+      "قرمز",
+      "نظامی"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank"
@@ -3993,12 +3993,12 @@
   {
     "question": "در ------ ساعت چند است",
     "choices": [
-      "برابر",
-      "بیرجند",
-      "بوده",
-      "جا"
+      "همانند",
+      "کد",
+      "دانشکده",
+      "بیرجند"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -4006,12 +4006,12 @@
   {
     "question": "در ------ ساعت چند است",
     "choices": [
-      "شهر",
-      "ها",
       "اراک",
-      "بلند"
+      "درمان",
+      "سرانجام",
+      "آن‌ها"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -4019,10 +4019,10 @@
   {
     "question": "آهنگ هایی از ------ بزار",
     "choices": [
-      "مشترک",
+      "آسیا",
       "ایوان بند",
-      "نقل",
-      "بسته"
+      "مرد",
+      "ساده"
     ],
     "answer": 1,
     "type": "sentence",
@@ -4032,12 +4032,12 @@
   {
     "question": "برای یک ------ بیصدا باش",
     "choices": [
-      "باقی",
-      "یافته",
-      "رود",
-      "ساعت بعد"
+      "ساعت بعد",
+      "مذهبی",
+      "گرفت",
+      "نزدیکی"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "volume_mute",
     "extra": "Fill in the blank"
@@ -4045,12 +4045,12 @@
   {
     "question": "جوک ------ به من بگو",
     "choices": [
-      "فرانسه",
-      "نویسندگان",
-      "ستاره",
-      "تصادفی"
+      "تعداد",
+      "تصادفی",
+      "تحصیل",
+      "می‌شوند"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank"
@@ -4058,12 +4058,12 @@
   {
     "question": "آخرین اخبار ------ چیست",
     "choices": [
-      "نقاط",
-      "جهان",
-      "ریاضی",
-      "هنری"
+      "آخرین",
+      "اما",
+      "است",
+      "جهان"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -4071,12 +4071,12 @@
   {
     "question": "اخبار ------ لطفا",
     "choices": [
+      "رضا",
+      "مستقل",
       "بین المللی",
-      "امروزه",
-      "فشار",
-      "سعید"
+      "ناشر"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -4084,12 +4084,12 @@
   {
     "question": "زنگ هشدار را برای ------ تنظیم کن",
     "choices": [
-      "اقتصادی",
-      "معروف",
+      "داد",
       "نه صبح",
-      "جعبه"
+      "برنامه",
+      "گروه"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -4097,12 +4097,12 @@
   {
     "question": "یک زنگ بیدارباش برای ------ تنظیم کن",
     "choices": [
-      "گرفته",
-      "مقدار",
-      "بخش",
-      "ده صبح"
+      "رو",
+      "ده صبح",
+      "شمال",
+      "حال"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -4110,9 +4110,9 @@
   {
     "question": "من به ------ زنگ هشدار یادآوری در ساعت ------ نیاز دارم",
     "choices": [
-      "خانوار",
-      "نقشه",
-      "طراحی",
+      "نویسندگان",
+      "حفظ",
+      "جدید",
       "یک"
     ],
     "answer": 3,
@@ -4123,12 +4123,12 @@
   {
     "question": "یک زنگ هشدار برای ساعت ------ بساز",
     "choices": [
-      "رضوی",
-      "سه بعدازظهر",
-      "مستقیم",
-      "دسامبر"
+      "موارد",
+      "یعنی",
+      "دریا",
+      "سه بعدازظهر"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -4136,12 +4136,12 @@
   {
     "question": "زنگ ساعت را برای ------ روشن کن",
     "choices": [
-      "نه صبح",
-      "شمار",
-      "پشت",
-      "اسرائیل"
+      "آورد",
+      "شهری",
+      "مرداد",
+      "نه صبح"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -4149,12 +4149,12 @@
   {
     "question": "یک زنگ هشدار برای ساعت ------ تنظیم کن",
     "choices": [
-      "رسمی",
-      "دوباره",
-      "یک بعدازظهر",
-      "معمولاً"
+      "جمهوری",
+      "مهاجرت",
+      "لازم",
+      "یک بعدازظهر"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -4162,12 +4162,12 @@
   {
     "question": "آلبوم ------ را سرچ کن",
     "choices": [
-      "نیز",
-      "بازدید",
-      "پارک",
-      "ابی"
+      "امنیت",
+      "ابی",
+      "عدم",
+      "سی"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -4175,10 +4175,10 @@
   {
     "question": "آهنگ مانکن از ------ را پخش کن",
     "choices": [
-      "مرتبط",
-      "شیر",
+      "افزایش",
+      "قدیمی",
       "فرزاد فرزین",
-      "محله"
+      "چرا"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4188,12 +4188,12 @@
   {
     "question": "آهنگ ------ را پخش کن",
     "choices": [
-      "شیخ",
+      "سینما",
+      "فراهم",
       "عشق",
-      "افراد",
-      "اغلب"
+      "ژانویه"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -4202,9 +4202,9 @@
     "question": "------ جوک چیست",
     "choices": [
       "خنده دار ترین",
-      "کد",
-      "دفاع",
-      "مقدس"
+      "دادگان",
+      "واژه",
+      "مردم"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4214,12 +4214,12 @@
   {
     "question": "یک جوک ------ به من بگو",
     "choices": [
-      "چشمه",
-      "دست",
-      "رسیدن",
-      "کثیف"
+      "کسب",
+      "کثیف",
+      "بودند",
+      "بکار"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank"
@@ -4227,10 +4227,10 @@
   {
     "question": "لطفا صدای موسیقی ------ را بلند تر کن",
     "choices": [
-      "تبدیل",
-      "شهرهای",
+      "رابطه",
+      "آبان",
       "عشق آخر",
-      "جز"
+      "بسیاری"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4240,12 +4240,12 @@
   {
     "question": "لطفا سرعت ------ اهنگ عشق را کم کن",
     "choices": [
-      "نقشه",
-      "هنگامی",
-      "کشوری",
-      "پخش ترکیبی"
+      "هرمزگان",
+      "پخش ترکیبی",
+      "گل",
+      "مختلف"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "settings",
     "extra": "Fill in the blank"
@@ -4253,10 +4253,10 @@
   {
     "question": "لطفا آن اهنگ از ------ را دوباره تکرار کن",
     "choices": [
-      "حضور",
+      "تحصیل",
       "ابی",
-      "دیگری",
-      "کنار"
+      "کشور",
+      "فیلم‌های"
     ],
     "answer": 1,
     "type": "sentence",
@@ -4266,12 +4266,12 @@
   {
     "question": "لامپ های ------ را خاموش کن",
     "choices": [
+      "شوند",
+      "مسلمانان",
       "هال",
-      "نقل",
-      "تفسیر",
-      "اضافه"
+      "ادبیات"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank"
@@ -4280,9 +4280,9 @@
     "question": "لطفا لامپ های ------ رو خاموش کن",
     "choices": [
       "هال",
-      "داخلی",
-      "سایر",
-      "وزن"
+      "دانشگاه‌های",
+      "علی",
+      "بخشی"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4292,12 +4292,12 @@
   {
     "question": "نوازش از ------ را پخش کن",
     "choices": [
-      "کودکان",
-      "دهستان‌های",
+      "تولید",
       "تتلو",
-      "اولین"
+      "خانوار",
+      "پایان"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -4305,12 +4305,12 @@
   {
     "question": "میتونم چند تا آهنگ ------ بگیرم",
     "choices": [
-      "پس زمینه",
-      "نماید",
-      "بیرون",
-      "الکتریکی"
+      "حکومت",
+      "گیری",
+      "نام",
+      "پس زمینه"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -4318,9 +4318,9 @@
   {
     "question": "آیا من هیچ زنگ هشدار برای ------ ندارم",
     "choices": [
-      "ترانه",
-      "بوده",
-      "میانه",
+      "داشتن",
+      "روش",
+      "بدون",
       "فردا"
     ],
     "answer": 3,
@@ -4331,10 +4331,10 @@
   {
     "question": "وضعیت زنگ هشدار ------ چگونه است",
     "choices": [
-      "جنسی",
+      "موجود",
       "فردا",
-      "آسیا",
-      "شرکت"
+      "مجموعه",
+      "انرژی"
     ],
     "answer": 1,
     "type": "sentence",
@@ -4344,10 +4344,10 @@
   {
     "question": "زنگ هشدار ساعت ------ را خاموش کن",
     "choices": [
-      "عدم",
+      "ولایت",
       "هشت صبح",
-      "چرا",
-      "برد"
+      "اینکه",
+      "کردستان"
     ],
     "answer": 1,
     "type": "sentence",
@@ -4357,12 +4357,12 @@
   {
     "question": "زنگ هشدار ------ من را لغو کن",
     "choices": [
+      "جام",
+      "چندین",
       "هشت صبح",
-      "حقوق",
-      "واحد",
-      "نگهداری"
+      "اطراف"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "remove",
     "extra": "Fill in the blank"
@@ -4371,9 +4371,9 @@
     "question": "زنگ هشدار ساعت ------ من را حذف کن",
     "choices": [
       "هشت صبح",
-      "دورهٔ",
-      "اینکه",
-      "بررسی"
+      "امیر",
+      "روشن",
+      "دارای"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4383,12 +4383,12 @@
   {
     "question": "هوا چند ------ است",
     "choices": [
-      "سلطان",
-      "تهران",
+      "بیشتر",
       "درجه",
-      "اغلب"
+      "کسی",
+      "استقلال"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -4396,12 +4396,12 @@
   {
     "question": "اون چقدر ------",
     "choices": [
-      "بعدها",
-      "طراحی",
       "گرمه",
-      "رئیس"
+      "کردستان",
+      "شروع",
+      "شما"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -4409,10 +4409,10 @@
   {
     "question": "هوا چقدر ------ است",
     "choices": [
-      "نویسنده",
+      "را",
       "سرد",
-      "حمل",
-      "کند"
+      "بخش‌های",
+      "نشر"
     ],
     "answer": 1,
     "type": "sentence",
@@ -4422,10 +4422,10 @@
   {
     "question": "------ تولد چند نفره",
     "choices": [
-      "مشترک",
+      "نظر",
       "بیست و سوم",
-      "خوانندگان",
-      "هشت"
+      "سازی",
+      "درگذشت"
     ],
     "answer": 1,
     "type": "sentence",
@@ -4435,12 +4435,12 @@
   {
     "question": "ایا ------ است",
     "choices": [
-      "دومین شنبه دوازدهم",
-      "عربستان",
-      "رهبری",
-      "تحصیل"
+      "حل",
+      "اکتبر",
+      "نبرد",
+      "دومین شنبه دوازدهم"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -4448,12 +4448,12 @@
   {
     "question": "ایا ------ بیست و دوم است",
     "choices": [
-      "اساسی",
-      "فضایی",
       "کریسمس",
-      "شبکه"
+      "خصوصی",
+      "انواع",
+      "بیشتری"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -4461,10 +4461,10 @@
   {
     "question": "همان ------ را ده بار تکرار کن",
     "choices": [
-      "پادشاه",
+      "محلی",
       "آهنگ",
-      "حد",
-      "خوانندگان"
+      "شود",
+      "سبز"
     ],
     "answer": 1,
     "type": "sentence",
@@ -4475,9 +4475,9 @@
     "question": "------ های خواننده هایده پخش کن",
     "choices": [
       "آهنگ",
-      "علم",
-      "بیشتر",
-      "پیشنهاد"
+      "انتشارات",
+      "مقابل",
+      "تو"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4487,12 +4487,12 @@
   {
     "question": "در لیست آهنگ ------ را پخش کن",
     "choices": [
+      "ویژه",
+      "یکی",
       "یک تا ده",
-      "محلی",
-      "بنابراین",
-      "واقع"
+      "قبل"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -4501,9 +4501,9 @@
     "question": "یک لامپ را در ------ خاموش کن",
     "choices": [
       "ایوان",
-      "باستان",
-      "دومین",
-      "کوه"
+      "رئیس",
+      "مهم‌ترین",
+      "نیویورک"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4513,12 +4513,12 @@
   {
     "question": "------ را خاموش کن",
     "choices": [
-      "زمانی",
-      "قهرمان",
-      "سازی",
-      "لامپ"
+      "علوم",
+      "لامپ",
+      "پرورش",
+      "انتقال"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank"
@@ -4527,9 +4527,9 @@
     "question": "آیا ------ باران می بارد",
     "choices": [
       "فردا",
-      "عملیات",
-      "بین‌المللی",
-      "پرونده"
+      "مسلمانان",
+      "مراسم",
+      "کتاب"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4539,10 +4539,10 @@
   {
     "question": "غروب خورشید ------ ساعت پنج و نیم بعد از ظهره",
     "choices": [
-      "کیلومتری",
-      "عصر",
+      "وبگاه",
+      "ایتالیا",
       "فردا",
-      "تصمیم"
+      "جهانی"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4553,9 +4553,9 @@
     "question": "آیا احتمال ------ در این هفته وجود دارد",
     "choices": [
       "بارندگی",
-      "باشد",
-      "سالهای",
-      "محدود"
+      "معمولا",
+      "اسپانیا",
+      "کرده"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4565,9 +4565,9 @@
   {
     "question": "الان چی ------ شبکه های اجتماعی شده",
     "choices": [
-      "باشگاه",
-      "شامل",
-      "عباس",
+      "شخص",
+      "مهاجرت",
+      "دستگاه",
       "نقل مجلس"
     ],
     "answer": 3,
@@ -4578,36 +4578,10 @@
   {
     "question": "اخبار جدید برای ------ چیست",
     "choices": [
-      "ماه",
-      "ذکر",
-      "ده",
-      "امروز"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "در منطقه زمانی ------ ساعت چند است",
-    "choices": [
-      "شرقی",
-      "عبدالله",
-      "شخصی",
-      "هفت"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "الان چقدر ------",
-    "choices": [
-      "تپه",
-      "پایه",
-      "گرمه",
-      "اطلاعات"
+      "می‌باشند",
+      "منبع",
+      "امروز",
+      "آیت"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4615,14 +4589,40 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "ایا من میتونم به ------ که تو الان داری از رادیو گوش میدی گوش بدم",
+    "question": "در منطقه زمانی ------ ساعت چند است",
     "choices": [
-      "کسی",
-      "پنجاه قطعه برتر",
-      "شامل",
-      "صدا"
+      "تخت",
+      "شرقی",
+      "ترتیب",
+      "باز"
     ],
     "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "الان چقدر ------",
+    "choices": [
+      "گرمه",
+      "پنج",
+      "شدند",
+      "شهید"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "ایا من میتونم به ------ که تو الان داری از رادیو گوش میدی گوش بدم",
+    "choices": [
+      "منجر",
+      "بازگشت",
+      "روستا",
+      "پنجاه قطعه برتر"
+    ],
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -4630,12 +4630,12 @@
   {
     "question": "لطفا اکنون موسیقی ------ را برای شام پخش کن",
     "choices": [
+      "روستایی",
       "کلاسیک",
-      "پایتخت",
-      "مانده",
-      "منجر"
+      "مي",
+      "ریشه"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -4643,10 +4643,10 @@
   {
     "question": "من میخوام ------ از تتلو گوش بدم لطفا",
     "choices": [
-      "استرالیا",
-      "قبلی",
+      "شورای",
+      "چهار",
       "نوازش",
-      "کوتاه"
+      "خویش"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4656,12 +4656,12 @@
   {
     "question": "میتونی ------ لیدی گاگا پخش کنی",
     "choices": [
-      "آهنگ",
-      "تاریخ",
-      "کارگردان",
-      "تدریس"
+      "فلسفه",
+      "تر",
+      "کمک",
+      "آهنگ"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -4669,12 +4669,12 @@
   {
     "question": "من میخوام آهنگ مورد علاقم از ------ را بشنوم",
     "choices": [
-      "انسانی",
       "ایوان بند",
-      "توسط",
-      "ساخته"
+      "گرفت",
+      "جغرافیایی",
+      "روزنامه"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -4682,12 +4682,12 @@
   {
     "question": "زنگ هشدار را تغییر بده تا از ------ زنگ بخورد",
     "choices": [
-      "آتش",
+      "پیشین",
+      "ساختار",
       "نیمه شب",
-      "کوچک",
-      "تاسیس"
+      "باز"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -4696,9 +4696,9 @@
     "question": "هوای یک ------ چگونه خواهد بود",
     "choices": [
       "هفته دیگر",
-      "رادیو",
-      "اهمیت",
-      "قمری"
+      "سلطان",
+      "یادکرد",
+      "دادگاه"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4708,12 +4708,12 @@
   {
     "question": "هوای ------ قرار است چطور باشد",
     "choices": [
-      "سه شنبه",
-      "رهبر",
-      "گسترده",
-      "براي"
+      "سالهای",
+      "برج",
+      "دادگاه",
+      "سه شنبه"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -4721,10 +4721,10 @@
   {
     "question": "پیش بینی هوای ------ چطور است",
     "choices": [
-      "اهالی",
-      "ايران",
+      "عدم",
+      "واژه",
       "آخر هفته",
-      "جشنواره"
+      "نوامبر"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4735,9 +4735,9 @@
     "question": "بی صدا کن برای ------",
     "choices": [
       "بیست دقیقه",
-      "اصفهان",
-      "مشخص",
-      "هدف"
+      "مقاله",
+      "خیابان",
+      "بنا"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4748,9 +4748,9 @@
     "question": "من می‌خواهم ------ ساعت شش صبح بیدار شوم لطفا",
     "choices": [
       "فردا",
-      "خلق",
-      "توضیح",
-      "فرمان"
+      "تنها",
+      "متر",
+      "بانک"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4760,12 +4760,12 @@
   {
     "question": "لطفا زنگ هشدار را برای ------ روی هفت صبح تنظیم کن",
     "choices": [
-      "ساخته",
-      "دریا",
-      "واقع",
-      "صبح روز بعد"
+      "صدا",
+      "رضا",
+      "صبح روز بعد",
+      "گونه"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -4773,12 +4773,12 @@
   {
     "question": "لطفا ساعت ------ شنبه آینده زنگ بیداری را بزن",
     "choices": [
-      "مالی",
       "هشت صبح",
-      "بالای",
-      "دهستان"
+      "سبک",
+      "دادگان",
+      "طبق"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -4786,10 +4786,10 @@
   {
     "question": "لیست آهنگ های ------ را پخش کن",
     "choices": [
-      "طبق",
+      "خوبی",
       "شماره هفت",
-      "مراسم",
-      "شعر"
+      "کشف",
+      "زندگی"
     ],
     "answer": 1,
     "type": "sentence",
@@ -4799,62 +4799,10 @@
   {
     "question": "------ چند شنبه است",
     "choices": [
-      "جشن مهرگان",
-      "همسر",
-      "شناسی",
-      "تو"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "آخرین روز این ------ چندشنبه ست",
-    "choices": [
-      "بعد",
-      "بلکه",
-      "ماه",
-      "جنوب"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "در منطقه زمانی ------ ساعت چند است",
-    "choices": [
-      "شیر",
-      "مرکزی",
-      "درجه",
-      "کنار"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "در منطقه زمانی ------ الان ساعت چند است",
-    "choices": [
-      "حالت",
-      "گل",
-      "کوه",
-      "برخوردار"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "آخرین جنجال در مورد ------ چیست",
-    "choices": [
-      "زمین",
-      "اسفند",
-      "چه",
-      "دونالد ترامپ"
+      "بیمارستان",
+      "بدین",
+      "دهه",
+      "جشن مهرگان"
     ],
     "answer": 3,
     "type": "sentence",
@@ -4862,14 +4810,66 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "آخرین روز این ------ چندشنبه ست",
+    "choices": [
+      "انتقال",
+      "ماه",
+      "پنج",
+      "حالت"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "در منطقه زمانی ------ ساعت چند است",
+    "choices": [
+      "توانست",
+      "تولید",
+      "مرکزی",
+      "پاریس"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "در منطقه زمانی ------ الان ساعت چند است",
+    "choices": [
+      "بی‌بی‌سی",
+      "اعدام",
+      "باز",
+      "کوه"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "آخرین جنجال در مورد ------ چیست",
+    "choices": [
+      "شخصی",
+      "دونالد ترامپ",
+      "بهمن",
+      "سلطان"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "جدیدترین قیل و قال درباره ------ چیست",
     "choices": [
+      "اسفند",
+      "جامع",
       "محمود احمدی نژاد",
-      "بیشتر",
-      "قبلی",
-      "گاه"
+      "یافت"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -4877,12 +4877,12 @@
   {
     "question": "آهنگ ------ در رادیو پخش کن",
     "choices": [
-      "کلمه",
-      "بازی",
       "ابی",
-      "دارد"
+      "صدا",
+      "بدن",
+      "اعداد"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -4890,12 +4890,12 @@
   {
     "question": "لطفا اجازه بده من به آهنگ ------ گوش بدم",
     "choices": [
-      "تلویزیون",
-      "لیلا",
-      "اهالی",
-      "نشده"
+      "تا",
+      "علوم",
+      "افراد",
+      "لیلا"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -4903,12 +4903,12 @@
   {
     "question": "آهنگ های ------ آخرین آلبوم متالیکا رو پخش کن.",
     "choices": [
-      "باعث",
+      "عمده",
+      "شیمیایی",
       "معروف",
-      "وزارت",
-      "ماه"
+      "شهید"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -4917,9 +4917,9 @@
     "question": "هر وقت خبری راجع به ------ بود به من اطلاع بده",
     "choices": [
       "مسیر لوله بندرعباس",
-      "برتر",
-      "حرکت",
-      "شرح"
+      "کنند",
+      "عنوان",
+      "برتر"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4929,12 +4929,12 @@
   {
     "question": "درباره اخبار ------ اعلان تنظیم کن",
     "choices": [
-      "تدوین",
-      "نامه",
-      "سرخ",
-      "خط لوله داکوتا"
+      "روستایی",
+      "خط لوله داکوتا",
+      "مهم‌ترین",
+      "نقطه"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -4942,12 +4942,12 @@
   {
     "question": "هر وقت خبری در مورد ------ بود به من اطلاع بده",
     "choices": [
-      "گاز",
-      "هرمزگان",
-      "خط لوله پارسیان",
-      "زندگی"
+      "حل",
+      "پرونده",
+      "بازار",
+      "خط لوله پارسیان"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -4955,12 +4955,12 @@
   {
     "question": "------ را شروع کن",
     "choices": [
+      "نقل",
       "جارو برقی",
-      "نامیده",
-      "قبل",
-      "انقلاب"
+      "مرکزی",
+      "مدیریت"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -4968,12 +4968,12 @@
   {
     "question": "لطفا ------ را روشن کن",
     "choices": [
-      "عربستان",
-      "رابطه",
+      "ارتش",
       "جاروبرقی",
-      "هایی"
+      "تابع",
+      "پول"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -4981,23 +4981,10 @@
   {
     "question": "یک جوک ------ در مورد ماشین چیه",
     "choices": [
+      "نامه",
       "خنده‌دار",
-      "قبلی",
-      "قرار",
-      "نیروی"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "joke",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "یک جوک در مورد یک ------ به من بگو",
-    "choices": [
-      "مناسب",
-      "مرد",
-      "تاسیس",
-      "حساب"
+      "دورهٔ",
+      "بسته"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5005,14 +4992,27 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "یک جوک در مورد یک ------ به من بگو",
+    "choices": [
+      "تلویزیونی",
+      "صد",
+      "مرد",
+      "شدت"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "میتونی یک جک در مورد ------ بهم بگی",
     "choices": [
-      "انتشارات",
-      "مرتبط",
-      "پایان",
-      "حیوانات"
+      "سیاسی",
+      "حیوانات",
+      "تأثیر",
+      "ندارد"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank"
@@ -5020,9 +5020,9 @@
   {
     "question": "بهم یادآوری کن این اهنگ را ------ گوش بدم",
     "choices": [
-      "باز",
-      "می‌کرد",
-      "نام‌های",
+      "سرانجام",
+      "اضافه",
+      "انواع",
       "امشب"
     ],
     "answer": 3,
@@ -5033,12 +5033,12 @@
   {
     "question": "یک آهنگ از ------ برای من پخش کن",
     "choices": [
-      "بهترین",
-      "کامپیوتر",
-      "بین‌المللی",
-      "لیلا فروهر"
+      "بیان",
+      "لیلا فروهر",
+      "هشت",
+      "ایرانیان"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -5046,12 +5046,12 @@
   {
     "question": "لطفا ------ رو روشن کن",
     "choices": [
-      "بر",
-      "فرد",
-      "چشم",
-      "جاروبرقی"
+      "تاریخچه",
+      "جاروبرقی",
+      "هفت",
+      "رفته"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank"
@@ -5059,10 +5059,10 @@
   {
     "question": "------ این هفته چند درجه خواهد بود",
     "choices": [
-      "گردید",
+      "راک",
       "حداکثر دمای هوای",
-      "مطالعات",
-      "زندگی"
+      "نیروهای",
+      "عبور"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5072,12 +5072,12 @@
   {
     "question": "------ نور را افزایش بده",
     "choices": [
-      "رنگ",
-      "ریاست",
       "کمی",
-      "هجری"
+      "جلوگیری",
+      "سیستم",
+      "موتور"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank"
@@ -5085,12 +5085,12 @@
   {
     "question": "------ نور لامپ را بیشتر کن",
     "choices": [
-      "مدت",
       "کمی",
-      "موجود",
-      "چهار"
+      "بازیگر",
+      "نیز",
+      "معمولا"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank"
@@ -5098,12 +5098,12 @@
   {
     "question": "آیا من ------ هیچ هشدار تنظیم شده‌ای دارم",
     "choices": [
-      "دادگاه",
+      "هنرمند",
+      "اند",
       "امروز",
-      "هشت",
-      "احمد"
+      "صدا"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5111,12 +5111,12 @@
   {
     "question": "چراغ‌های ------ را خاموش کن",
     "choices": [
-      "شدت",
+      "رفت",
+      "توسط",
       "اتاق",
-      "زنان",
-      "سازی"
+      "هفت"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank"
@@ -5124,12 +5124,12 @@
   {
     "question": "روشنایی را کنترل کن لامپ ها ی ------ را خاموش کن",
     "choices": [
-      "بازیگر",
-      "شاعران",
-      "می‌باشند",
-      "اتاق"
+      "اتاق",
+      "دانشگاه",
+      "مختلف",
+      "بیشتری"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank"
@@ -5137,12 +5137,12 @@
   {
     "question": "لطفا چندتا از قطعات موسیقی ------ پخش کن",
     "choices": [
-      "هنگامی",
       "کلیسایی",
-      "حاصل",
-      "دسامبر"
+      "ماشین",
+      "سلطان",
+      "ناحیه"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -5150,12 +5150,12 @@
   {
     "question": "من میخوام به چند تا موزیک ------ گوش بدم",
     "choices": [
-      "گل",
-      "گرفتن",
-      "واژه",
-      "قرانی"
+      "قرانی",
+      "مستقیم",
+      "کنونی",
+      "فاصله"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -5163,23 +5163,10 @@
   {
     "question": "هوای فعلی ------ چطوره",
     "choices": [
-      "خیابان",
-      "می",
-      "استان البرز",
-      "انسانی"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "هوای فعلی ------ چطور است",
-    "choices": [
-      "سبز",
-      "حساب",
-      "جرم",
-      "تهران"
+      "چون",
+      "کنترل",
+      "کرد",
+      "استان البرز"
     ],
     "answer": 3,
     "type": "sentence",
@@ -5187,14 +5174,27 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "هوای فعلی ------ چطور است",
+    "choices": [
+      "دوباره",
+      "بیان",
+      "تهران",
+      "امکان"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "الان در ------ ساعت چند است",
     "choices": [
-      "کالیفرنیا",
-      "آبادان",
-      "امروز",
-      "چاپ"
+      "عملیات",
+      "مرکزی",
+      "کامپیوتر",
+      "آبادان"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5202,12 +5202,12 @@
   {
     "question": "ساعت الان ------",
     "choices": [
-      "مساحت",
-      "خوبی",
       "اصفهان",
-      "فرانسه"
+      "نقش",
+      "اهالی",
+      "کند"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5215,12 +5215,12 @@
   {
     "question": "زمان فعلی در ------",
     "choices": [
-      "المپیک",
-      "طرف",
       "ایران",
-      "سیاه"
+      "ولی",
+      "مردم",
+      "بخش"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5228,9 +5228,9 @@
   {
     "question": "ممکنه لطفا بدونم ساعت ------ اینجا به وقت ایران ساعت چند می‌شه",
     "choices": [
-      "گروه",
-      "تن",
-      "طراحی",
+      "آهنگ",
+      "مهم",
+      "شاعر",
       "شش بعدازظهر"
     ],
     "answer": 3,
@@ -5241,10 +5241,10 @@
   {
     "question": "میتونی به من بگی بین ------ و بندرعباس چقدر فاصله زمانی هست",
     "choices": [
-      "امر",
+      "پیروزی",
       "اصفهان",
-      "آمریکا",
-      "تن"
+      "مرداد",
+      "نموده"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5254,12 +5254,12 @@
   {
     "question": "من دو تا ------ و یک کوکا کولا می‌خواهم فوری آن را سفارش بده",
     "choices": [
+      "انجام",
       "برگر",
-      "نمایش",
-      "مصرف",
-      "وابسته"
+      "مشهور",
+      "هنر"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank"
@@ -5267,10 +5267,10 @@
   {
     "question": "دو تا ------ برای من سفارش بده",
     "choices": [
-      "فضایی",
-      "نظام",
+      "گذشته",
+      "دفاع",
       "همبرگر",
-      "علت"
+      "داخلی"
     ],
     "answer": 2,
     "type": "sentence",
@@ -5280,12 +5280,12 @@
   {
     "question": "یک ------ سفارش بده",
     "choices": [
-      "عدم",
-      "پیتزا",
-      "داشته",
-      "میلاد"
+      "آمار",
+      "دوباره",
+      "بدست",
+      "پیتزا"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank"
@@ -5293,12 +5293,12 @@
   {
     "question": "لطفا ------ من را پس از شارژ قطع کن",
     "choices": [
+      "اضافه",
       "سوکت دو شاخه تلفن",
-      "نخستین",
-      "ممکن",
-      "ساخت"
+      "بررسی",
+      "پهلوی"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "wemo_off",
     "extra": "Fill in the blank"
@@ -5306,12 +5306,12 @@
   {
     "question": "زمانی که من به خانه می‌رسم سوکت ------ را روشن کن",
     "choices": [
-      "تلویزیون",
-      "زبان",
-      "المللی",
-      "كه"
+      "سبب",
+      "تو",
+      "طبیعی",
+      "تلویزیون"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank"
@@ -5319,12 +5319,12 @@
   {
     "question": "از تو می خواهم قبل از شارژ شدن ------ را خاموش کنی",
     "choices": [
-      "شب",
-      "شوروی",
       "تلفن همراه سوکت پریز",
-      "بنابراین"
+      "فعال",
+      "می",
+      "مبارزه"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "wemo_off",
     "extra": "Fill in the blank"
@@ -5332,12 +5332,12 @@
   {
     "question": "------ را مرتب به من اطلاع بده",
     "choices": [
-      "پاسخ",
-      "قیمت بیتکوین",
-      "هفته",
-      "سالهای"
+      "تولید",
+      "مردان",
+      "خاک",
+      "قیمت بیتکوین"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5345,10 +5345,10 @@
   {
     "question": "من را با ------ روزآمد نگه دار",
     "choices": [
-      "نمایش",
+      "خورشید",
       "قیمت های بازار سهام",
-      "دستگاه",
-      "آن"
+      "جزیره",
+      "شبیه"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5358,12 +5358,12 @@
   {
     "question": "اخبار ------ از موضوع نوار مصاحبه ظریف را دنبال کن",
     "choices": [
-      "دسترسی",
-      "برابر",
       "آینده",
-      "بخشی"
+      "کشف",
+      "امیر",
+      "کردن"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5371,12 +5371,12 @@
   {
     "question": "میتونی ------ من را پخش کنی",
     "choices": [
-      "آخرین آهنگ",
-      "پایین",
-      "کشوری",
-      "الکتریکی"
+      "پسر",
+      "استان",
+      "برق",
+      "آخرین آهنگ"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -5384,10 +5384,10 @@
   {
     "question": "یک آهنگ از ------ پخش کن",
     "choices": [
-      "وزیر",
+      "مهاجرت",
       "ابی",
-      "تک",
-      "دانش"
+      "می‌دهد",
+      "درجه"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5397,12 +5397,12 @@
   {
     "question": "یک آهنگ از ------ ساعت شش غروب پخش کن",
     "choices": [
-      "نامیده",
-      "واقع",
-      "دیشب",
-      "ابتدا"
+      "بعضی",
+      "سه",
+      "قسمت",
+      "دیشب"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -5410,12 +5410,12 @@
   {
     "question": "الان در ------ ساعت چند است",
     "choices": [
-      "مساحت",
       "اصفهان",
-      "داستان",
-      "پیشین"
+      "محلی",
+      "آنان",
+      "تپه"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5423,9 +5423,9 @@
   {
     "question": "به من بگو در ------ ساعت چند است",
     "choices": [
-      "اسلامی",
-      "برده",
-      "محمدرضا",
+      "دوم",
+      "بیان",
+      "نقاشی",
       "تهران"
     ],
     "answer": 3,
@@ -5436,10 +5436,10 @@
   {
     "question": "همین حالا ساعت ------ را بگو",
     "choices": [
-      "آفریقا",
+      "تصویب",
       "تهران",
-      "مرتبط",
-      "تفسیر"
+      "خبرگزاری",
+      "دهستان"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5449,12 +5449,12 @@
   {
     "question": "من تازه غذا سفارش دادم زنگ بزن ببین ------ یا نه",
     "choices": [
+      "بن",
       "تحویل داده شده",
-      "شیراز",
-      "انگلیسی",
-      "تجاری"
+      "وزیر",
+      "چند"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5462,10 +5462,10 @@
   {
     "question": "آیا امکان ------ سفارش من وجود داره",
     "choices": [
-      "انگلستان",
-      "اروپا",
+      "کلیسای",
+      "ساز",
       "ارسال",
-      "واژه"
+      "هجری"
     ],
     "answer": 2,
     "type": "sentence",
@@ -5475,12 +5475,12 @@
   {
     "question": "به ------ زنگ بزن ببین سفارش در راه هست یا نه",
     "choices": [
-      "می‌رود",
+      "مرد",
+      "میراث",
       "رستوران",
-      "ارشد",
-      "شرایط"
+      "قالب"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5488,12 +5488,12 @@
   {
     "question": "لطفا ------ را روشن کن",
     "choices": [
-      "فهرست",
-      "توسعه",
       "اتاق",
-      "گفت"
+      "انسان",
+      "اسلام",
+      "سایر"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank"
@@ -5502,9 +5502,9 @@
     "question": "در ------ چه می گذرد",
     "choices": [
       "مجلس",
-      "مقدار",
-      "نفت",
-      "بنابر"
+      "پانویس",
+      "قمری",
+      "آن‌ها"
     ],
     "answer": 0,
     "type": "sentence",
@@ -5514,12 +5514,12 @@
   {
     "question": "چیزی ------ به من بگو",
     "choices": [
-      "پارک",
+      "نه",
+      "میرزا",
       "خنده دار",
-      "هاي",
-      "سیاسی"
+      "آغاز"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank"
@@ -5527,12 +5527,12 @@
   {
     "question": "من میخوام ------ گوش بدم لطفا",
     "choices": [
-      "اصل",
       "ایوان بند",
-      "قاجار",
-      "مشهد"
+      "بندر",
+      "گردید",
+      "گرفت"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -5540,12 +5540,12 @@
   {
     "question": "من الان می‌خواهم ------ گوش کنم",
     "choices": [
+      "داده",
+      "قرار",
       "کلهر",
-      "آقای",
-      "بیش",
-      "شیر"
+      "زنده"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -5553,12 +5553,12 @@
   {
     "question": "الآن چه کسی پیشتاز مسابقه ------ است",
     "choices": [
+      "عنوان",
+      "هستند",
       "فرمول یک",
-      "مکان",
-      "ترکیب",
-      "مي"
+      "رسیدن"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5567,9 +5567,9 @@
     "question": "آخرین خبرها درباره ------ را به من بگو",
     "choices": [
       "نظرسنجی انتخاباتی",
-      "برجسته",
-      "شوروی",
-      "امروزه"
+      "نامه",
+      "جا",
+      "نقاشی"
     ],
     "answer": 0,
     "type": "sentence",
@@ -5579,12 +5579,12 @@
   {
     "question": "تیتر اخبار ------ را بخوان",
     "choices": [
+      "گیلان",
       "روزنامه‌ی همشهری",
-      "حسن",
-      "نوعی",
-      "تقسیم"
+      "پنجم",
+      "باز"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5592,12 +5592,12 @@
   {
     "question": "می خواهم آخرین اخبار ------ را بشنوم",
     "choices": [
+      "شیمیایی",
+      "علی",
       "خبرگزاری مهر",
-      "چرا",
-      "می‌کنند",
-      "می"
+      "زادگان"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5605,10 +5605,10 @@
   {
     "question": "می توانی آخرین خبر فوری از ------ را به من نشان بدهی",
     "choices": [
-      "علم",
+      "کارگردان",
       "روزنامه آفتاب",
-      "معنای",
-      "باشگاه"
+      "حکم",
+      "علیه"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5618,10 +5618,10 @@
   {
     "question": "می خواهم خبرهای ------ را بدانم",
     "choices": [
-      "چندین",
+      "حالی",
       "روزنامه اطلاعات",
-      "ایران",
-      "ده"
+      "فراهم",
+      "نماینده"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5631,12 +5631,12 @@
   {
     "question": "لطفا آخرین اخبار ------ را برای من بخوان",
     "choices": [
-      "روزنامه آفتاب",
-      "آلبوم",
-      "مهر",
-      "تشکیل"
+      "می",
+      "آنچه",
+      "حال",
+      "روزنامه آفتاب"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5644,12 +5644,12 @@
   {
     "question": "آیا می توانم اخبار فوری ------ را بدانم",
     "choices": [
-      "تیر",
       "خبرگزاری مهر",
-      "مهر",
-      "ممکن"
+      "مراکز",
+      "دیگری",
+      "تجاری"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5657,9 +5657,9 @@
   {
     "question": "یک زنگ هشدار برای ساعت ------ صبح فردا ایجاد کن",
     "choices": [
-      "باغ",
-      "پزشکی",
-      "دینی",
+      "کشاورزی",
+      "شماره",
+      "پیشین",
       "چهار"
     ],
     "answer": 3,
@@ -5670,12 +5670,12 @@
   {
     "question": "یک زنگ هشدار تنظیم کن تا ------ بیدارم کند",
     "choices": [
-      "ملل",
-      "تقریباً",
-      "دهه",
-      "بعد از پنج ساعت"
+      "جنگ",
+      "بعد از پنج ساعت",
+      "قدیم",
+      "کانادا"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank"
@@ -5683,10 +5683,10 @@
   {
     "question": "برای بیدار شدن من ------ زنگ هشداری تنظیم کن",
     "choices": [
-      "داده",
+      "شمسی",
       "بعد از سه ساعت",
-      "بنا",
-      "عبدالله"
+      "پرورش",
+      "احمد"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5696,9 +5696,22 @@
   {
     "question": "وضعیت آب و هوای ------ را ارائه بده",
     "choices": [
-      "تمام",
-      "آلمانی",
-      "نشان",
+      "هفته",
+      "یافته",
+      "خیابان",
+      "ابن"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "آب و هوای ------ را نمایش بده",
+    "choices": [
+      "محمد",
+      "فرزندان",
+      "سد",
       "هفته"
     ],
     "answer": 3,
@@ -5707,27 +5720,14 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "آب و هوای ------ را نمایش بده",
-    "choices": [
-      "هفته",
-      "بلکه",
-      "شمار",
-      "فرهنگی"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
     "question": "وضع هوای ------ رو خلاصه کن",
     "choices": [
-      "قلعه",
-      "شخصی",
-      "هفته",
-      "آموزش"
+      "دریافت",
+      "محدود",
+      "بیرون",
+      "هفته"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5735,12 +5735,12 @@
   {
     "question": "من میخوام آهنگ های ------ را گوش بدم",
     "choices": [
-      "اخیر",
-      "قاجار",
-      "نسخه",
-      "ابی"
+      "معرفی",
+      "ابی",
+      "بسته",
+      "هدف"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -5749,9 +5749,9 @@
     "question": "آهنگ نوازش ------ را پخش کن",
     "choices": [
       "ابی",
-      "مسعود",
-      "فرانسه",
-      "ایرانی"
+      "خلق",
+      "علوم",
+      "المللی"
     ],
     "answer": 0,
     "type": "sentence",
@@ -5761,10 +5761,10 @@
   {
     "question": "بعد از این یکی آخرین آهنگ های ------ را پخش کن",
     "choices": [
-      "بهترین",
-      "زادگان",
+      "دادند",
+      "تاسیس",
       "ابی",
-      "داده"
+      "درجه"
     ],
     "answer": 2,
     "type": "sentence",
@@ -5774,36 +5774,10 @@
   {
     "question": "ببین چقدر ------ بیرون هوا سرد است",
     "choices": [
-      "فرانسوی",
       "امروز",
-      "اثر",
-      "طبق"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ هوا چند درجه است",
-    "choices": [
-      "کنند",
-      "متن",
-      "امروز",
-      "فیلم"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ دور و بر چقدر مرطوب است",
-    "choices": [
-      "امروز",
-      "کنید",
-      "ملل",
-      "نتیجه"
+      "سیارک",
+      "ارائه",
+      "وارد"
     ],
     "answer": 0,
     "type": "sentence",
@@ -5811,12 +5785,38 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "------ هوا چند درجه است",
+    "choices": [
+      "امروز",
+      "مربوط",
+      "تاریخ",
+      "سی"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ دور و بر چقدر مرطوب است",
+    "choices": [
+      "باید",
+      "برنده",
+      "امروز",
+      "هایی"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "آهنگ های سبک ------ و هیپ هاپ پخش کن.",
     "choices": [
-      "ملی",
-      "اگر",
+      "جان",
+      "دسامبر",
       "رپ",
-      "جلوگیری"
+      "فرهنگ"
     ],
     "answer": 2,
     "type": "sentence",
@@ -5826,10 +5826,10 @@
   {
     "question": "همه ی جدیدترین آهنگ های ------ را پخش کن",
     "choices": [
-      "قبل",
-      "شکست",
+      "بوده‌است",
+      "افراد",
       "پاپ",
-      "پدر"
+      "هند"
     ],
     "answer": 2,
     "type": "sentence",
@@ -5839,12 +5839,12 @@
   {
     "question": "بعدی ------ را پخش کن",
     "choices": [
-      "پرداخت",
-      "گلستان",
-      "شبه",
-      "لیست آهنگ های شاد"
+      "لندن",
+      "لیست آهنگ های شاد",
+      "فرمان",
+      "صنعتی"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -5852,10 +5852,10 @@
   {
     "question": "چه چیزی ------ است",
     "choices": [
-      "کمی",
+      "خاص",
       "باب شده",
-      "آلبوم",
-      "شهر"
+      "فارسی",
+      "فیلم"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5865,12 +5865,12 @@
   {
     "question": "از ------ موزیک های ترنس من پخش کن",
     "choices": [
-      "ما",
-      "ارائه",
-      "لیست",
-      "نویسندگان"
+      "نوامبر",
+      "زمانی",
+      "جعبه",
+      "لیست"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -5878,12 +5878,12 @@
   {
     "question": "صدا رو ------ کاهش بده.",
     "choices": [
-      "پایتخت",
+      "وزیر",
+      "مردان",
       "به ده درصد",
-      "ارزش",
-      "انتقال"
+      "انواع"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "volume_down",
     "extra": "Fill in the blank"
@@ -5891,23 +5891,10 @@
   {
     "question": "این منطقه زمانی را به ------ تغییر بده",
     "choices": [
-      "تحصیلات",
-      "ای",
-      "برق",
-      "تهران"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "convert",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "زمان را از ------ به زمان استاندارد ایران تغییر بده",
-    "choices": [
-      "بیمارستان",
-      "این موقعیت",
-      "طریق",
-      "مراکز"
+      "آتش",
+      "تهران",
+      "تمامی",
+      "ناحیه"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5915,14 +5902,27 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "زمان را از ------ به زمان استاندارد ایران تغییر بده",
+    "choices": [
+      "بیست",
+      "ابن",
+      "این موقعیت",
+      "تقسیمات"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "آیا می‌توانی ------ را خاموش کنی",
     "choices": [
+      "باشد",
+      "نشانی",
       "سوکت دوشاخه‌ی مهسان",
-      "هنوز",
-      "روم",
-      "پایه"
+      "داده"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "wemo_off",
     "extra": "Fill in the blank"
@@ -5930,12 +5930,12 @@
   {
     "question": "------ را روشن کن تا شارژر خودم را به آن وصل کنم",
     "choices": [
-      "مسعود",
-      "قدیم",
-      "توضیح",
-      "سوکت دوشاخه‌ی مهسان"
+      "انتخاب",
+      "پارک",
+      "سوکت دوشاخه‌ی مهسان",
+      "سرزمین"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank"
@@ -5943,10 +5943,10 @@
   {
     "question": "------ را روشن کن تا دانگل من وصل شود",
     "choices": [
-      "بودند",
+      "موجب",
       "سوکت دوشاخه‌ی مهسان",
-      "واحد",
-      "تن"
+      "پیروزی",
+      "طبق"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5956,12 +5956,12 @@
   {
     "question": "هوای ------ چطور است",
     "choices": [
-      "ثابت",
-      "براي",
+      "تعداد",
       "این هفته",
-      "ورود"
+      "موقعیت",
+      "چهارم"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5969,12 +5969,12 @@
   {
     "question": "هوای ------ قرار است چطور باشد",
     "choices": [
-      "توضیح",
-      "تعیین",
-      "این هفته",
-      "افزایش"
+      "رود",
+      "برنامه",
+      "آیت",
+      "این هفته"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -5982,49 +5982,10 @@
   {
     "question": "پیش بینی وضع هوای ------ چطور است",
     "choices": [
-      "هیچ",
+      "شدید",
+      "مانند",
       "این هفته",
-      "شورای",
-      "نیروهای"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "ممکن است لطفا تازه ترین سر خط خبرها را از ------ به من بدهی",
-    "choices": [
-      "جدیدترین منبع خبری ام",
-      "می‌آید",
-      "می‌کردند",
-      "المپیک"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "می‌توانی لطفا ------ را برای آخرین اخبار جستجو کنی",
-    "choices": [
-      "وابسته",
-      "طبق",
-      "دوست",
-      "خبررسانی"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "آخرین اخبار ------ را به من بگو",
-    "choices": [
-      "پهلوی",
-      "مورد",
-      "سیاسی",
-      "گیری"
+      "مطالعات"
     ],
     "answer": 2,
     "type": "sentence",
@@ -6032,25 +5993,12 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "از آخرین اخبار ------ به من بگو",
+    "question": "ممکن است لطفا تازه ترین سر خط خبرها را از ------ به من بدهی",
     "choices": [
-      "کمونیست",
-      "همانند",
-      "هشت",
-      "ورزشی"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "این روزها در ------ چه می گذرد",
-    "choices": [
-      "دینی",
-      "دنیا",
-      "حفظ",
-      "معماری"
+      "اين",
+      "جدیدترین منبع خبری ام",
+      "دهستان",
+      "می‌کردند"
     ],
     "answer": 1,
     "type": "sentence",
@@ -6058,12 +6006,38 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "آپدیت اخبار ------ را به من بده",
+    "question": "می‌توانی لطفا ------ را برای آخرین اخبار جستجو کنی",
     "choices": [
-      "بی. بی. سی.",
-      "دکتر",
-      "زیبا",
-      "شاه"
+      "کل",
+      "خبررسانی",
+      "همه",
+      "آذربایجان"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "آخرین اخبار ------ را به من بگو",
+    "choices": [
+      "بهره",
+      "سیاسی",
+      "ماده",
+      "خاص"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "از آخرین اخبار ------ به من بگو",
+    "choices": [
+      "ورزشی",
+      "ساز",
+      "دیده",
+      "طراحی"
     ],
     "answer": 0,
     "type": "sentence",
@@ -6071,14 +6045,40 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "این روزها در ------ چه می گذرد",
+    "choices": [
+      "پایان",
+      "شروع",
+      "دنیا",
+      "نظام"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "آپدیت اخبار ------ را به من بده",
+    "choices": [
+      "گذشته",
+      "سازمان",
+      "بی. بی. سی.",
+      "امکان"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "اخبار آپدیت ------ چیست",
     "choices": [
-      "کره",
+      "صدا",
+      "شد",
       "بی. بی. سی",
-      "نظام",
-      "مقابل"
+      "آخر"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -6086,10 +6086,10 @@
   {
     "question": "آخرین اخبار ------ را به من نشان بده",
     "choices": [
-      "پسر",
-      "البته",
+      "در",
+      "رابطه",
       "بی. بی. سی.",
-      "تهیه"
+      "آنچه"
     ],
     "answer": 2,
     "type": "sentence",
@@ -6099,12 +6099,12 @@
   {
     "question": "آخرین آپدیت های خبری ------ را نشان بده",
     "choices": [
-      "کمونیست",
-      "ترتیب",
-      "بلند",
-      "بی. بی. سی."
+      "مراسم",
+      "بخشی",
+      "بی. بی. سی.",
+      "پاریس"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -6112,12 +6112,12 @@
   {
     "question": "وقتی ------ در اخبار است به من اطلاع بده",
     "choices": [
-      "مطرح",
-      "نفت",
+      "در",
       "روحانی",
-      "قهرمان"
+      "قدیم",
+      "امر"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -6125,12 +6125,12 @@
   {
     "question": "آیا اخیرا جایی در دنیا ------ اومده",
     "choices": [
-      "مالی",
-      "موسوی",
+      "رود",
       "زلزله",
-      "پایان"
+      "نیست",
+      "شمال"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -6138,12 +6138,12 @@
   {
     "question": "------ از ابی را برایم پخش کن",
     "choices": [
-      "مشهد",
-      "آتش",
-      "حضور",
-      "نوازش"
+      "دل",
+      "نوازش",
+      "رخ",
+      "ولی"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"
@@ -6151,9 +6151,9 @@
   {
     "question": "من میخوام آهنگ ------ شادمهر را گوش بدم",
     "choices": [
-      "سازمان",
-      "آخرین",
-      "عمر",
+      "جهانی",
+      "سایر",
+      "دارد",
       "ترس"
     ],
     "answer": 3,
@@ -6164,75 +6164,10 @@
   {
     "question": "به ------ از شادمهر گوش بده",
     "choices": [
-      "عشق",
-      "گیتار",
-      "کارهای",
-      "ترس"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ را پخش کن",
-    "choices": [
-      "نه",
-      "اصول",
-      "مانند",
-      "عشق"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ از شادمهر را لطفا پخش کن",
-    "choices": [
-      "صنایع",
-      "سابق",
-      "بی",
-      "تقدیر"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "------ بزار",
-    "choices": [
-      "ترکی",
-      "آهنگ های عاشقانه",
-      "تخت",
-      "اصول"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "همه آهنگ های ------ را پخش کن",
-    "choices": [
-      "مدل",
-      "راک",
-      "خدا",
-      "ماشین"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "به ترتیب فعلی ------ را اضافه کن",
-    "choices": [
-      "روز",
-      "خارج",
+      "چه",
+      "اکنون",
       "ترس",
-      "هنگامی"
+      "راست"
     ],
     "answer": 2,
     "type": "sentence",
@@ -6240,14 +6175,79 @@
     "extra": "Fill in the blank"
   },
   {
-    "question": "هوای ------ چطور است",
+    "question": "------ را پخش کن",
     "choices": [
-      "اعلام",
-      "ایرانی",
-      "جدید",
-      "امروز"
+      "عشق",
+      "مانند",
+      "میزان",
+      "بدن"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ از شادمهر را لطفا پخش کن",
+    "choices": [
+      "ساعت",
+      "بر",
+      "تقدیر",
+      "یعنی"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "------ بزار",
+    "choices": [
+      "کشور",
+      "خورشیدی",
+      "نزد",
+      "آهنگ های عاشقانه"
     ],
     "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "همه آهنگ های ------ را پخش کن",
+    "choices": [
+      "راک",
+      "مشاهیر",
+      "باشگاه",
+      "توانست"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "به ترتیب فعلی ------ را اضافه کن",
+    "choices": [
+      "ترس",
+      "عمده",
+      "قابل",
+      "نیروی"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "هوای ------ چطور است",
+    "choices": [
+      "پیام",
+      "فیلم",
+      "امروز",
+      "پیدا"
+    ],
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -6255,12 +6255,12 @@
   {
     "question": "------ در حال حاضر چقدره",
     "choices": [
-      "شهرستان",
-      "زاده",
-      "وزارت",
-      "دما"
+      "سرشماری",
+      "تلاش",
+      "دما",
+      "فرزند"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -6268,10 +6268,10 @@
   {
     "question": "هوای ------ چطور بود",
     "choices": [
-      "ولی",
+      "مرتبط",
       "این هفته",
-      "قانون",
-      "بدون"
+      "تئاتر",
+      "حدود"
     ],
     "answer": 1,
     "type": "sentence",
@@ -6281,12 +6281,12 @@
   {
     "question": "هوای ------ یا بد",
     "choices": [
-      "بسته",
-      "بخشی",
+      "نمایندگان",
       "ملایم",
-      "کنید"
+      "دهستان‌های",
+      "راه"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -6294,9 +6294,9 @@
   {
     "question": "------ این هفته را به من نشان بده",
     "choices": [
-      "اقتصاد",
-      "اسفند",
-      "پاپ",
+      "ادامه",
+      "صنعت",
+      "ممکن",
       "حداکثر دمای هوای"
     ],
     "answer": 3,
@@ -6307,12 +6307,12 @@
   {
     "question": "آیا ------ نزدیک است",
     "choices": [
-      "مرکز",
-      "گزارش",
-      "مقاله",
-      "تابستان"
+      "میلاد",
+      "تابستان",
+      "اعداد",
+      "داخل"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -6320,12 +6320,12 @@
   {
     "question": "------ احتمال ریزش تگرگ هست",
     "choices": [
+      "شروع",
       "این هفته",
-      "بیش",
-      "نوع",
-      "برای"
+      "فروش",
+      "آفریقا"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -6333,12 +6333,12 @@
   {
     "question": "زنگ هشدار برای ------ صبح را تایید کن",
     "choices": [
-      "تحت",
-      "ترکیب",
+      "حفظ",
       "فردا",
-      "نقش"
+      "ایرانیان",
+      "استاد"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -6346,9 +6346,9 @@
   {
     "question": "زنگ ساعت برای ------ چه ساعتی تنظیم شده است",
     "choices": [
-      "شیمیایی",
-      "انسانی",
-      "باستان",
+      "بوده",
+      "برد",
+      "وزیر",
       "فردا"
     ],
     "answer": 3,
@@ -6359,49 +6359,10 @@
   {
     "question": "می توانی لطفا یک ------ مکزیکی با سرویس بیرون بر معرفی کنی",
     "choices": [
-      "ایشان",
-      "متولد",
-      "عشق",
-      "رستوران"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "کدام ------ غذای بیرون بر دارند",
-    "choices": [
-      "رنگ",
-      "شناسی",
-      "جای",
-      "رستوران ها"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "آیا می‌توانم در ------ غذای بیرون‌بر را سفارش بدهم",
-    "choices": [
-      "یکم",
-      "مشغول",
-      "این زمان",
-      "دره"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "order",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "می خواهم جدیدترین ------ شهر را بدانم",
-    "choices": [
-      "جنبش",
-      "اخبار محلی",
-      "حزب",
-      "واقع"
+      "دسترسی",
+      "رستوران",
+      "فصل",
+      "به‌"
     ],
     "answer": 1,
     "type": "sentence",
@@ -6409,14 +6370,53 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "کدام ------ غذای بیرون بر دارند",
+    "choices": [
+      "زندان",
+      "رستوران ها",
+      "ساختار",
+      "خانواده"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "آیا می‌توانم در ------ غذای بیرون‌بر را سفارش بدهم",
+    "choices": [
+      "پادشاهی",
+      "این زمان",
+      "عصر",
+      "پخش"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank"
+  },
+  {
+    "question": "می خواهم جدیدترین ------ شهر را بدانم",
+    "choices": [
+      "اخبار محلی",
+      "وب‌گاه",
+      "ترجمه",
+      "بطور"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "قهوه را ------ درست کن",
     "choices": [
-      "می‌توانند",
-      "امر",
+      "جامع",
       "هشت صبح",
-      "فارس"
+      "اختیار",
+      "شدند"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "coffee",
     "extra": "Fill in the blank"
@@ -6424,9 +6424,9 @@
   {
     "question": "قهوه را ------ دم کن",
     "choices": [
-      "ساخت",
-      "اهل",
-      "تشکیل",
+      "می‌کند",
+      "محمدرضا",
+      "می‌دهند",
       "ظهر"
     ],
     "answer": 3,
@@ -6437,23 +6437,10 @@
   {
     "question": "لیست آهنگ های جدید ------ را پخش کن",
     "choices": [
-      "فروش",
-      "سال",
-      "سفید",
-      "ابی"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank"
-  },
-  {
-    "question": "فهرست آهنگ های جدید ------ را پخش کن",
-    "choices": [
       "ابی",
-      "چنین",
-      "شماره",
-      "عرضه"
+      "ارتباط",
+      "اجرام",
+      "نبرد"
     ],
     "answer": 0,
     "type": "sentence",
@@ -6461,11 +6448,24 @@
     "extra": "Fill in the blank"
   },
   {
+    "question": "فهرست آهنگ های جدید ------ را پخش کن",
+    "choices": [
+      "حمله",
+      "زنان",
+      "ابی",
+      "عمر"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank"
+  },
+  {
     "question": "------ ابی را پخش کن",
     "choices": [
-      "ها",
-      "اداره",
-      "می‌دهند",
+      "اسماعیل",
+      "نظیر",
+      "زادگان",
       "نوازش"
     ],
     "answer": 3,
@@ -6476,10 +6476,10 @@
   {
     "question": "اپلیکیشن ------ را باز کن",
     "choices": [
-      "همه",
-      "تنها",
+      "حاصل",
+      "برادر",
       "نیویورک تایمز",
-      "ناحیه"
+      "دهد"
     ],
     "answer": 2,
     "type": "sentence",
@@ -6489,12 +6489,12 @@
   {
     "question": "ایمیل گزارش صبحگاهی ------ را برایم باز کن",
     "choices": [
-      "شهریور",
-      "اغلب",
+      "امنیت",
       "خبرگزاری مهر",
-      "طرف"
+      "ای",
+      "هفته"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank"
@@ -6502,12 +6502,12 @@
   {
     "question": "به پاندورا برو و رادیو ------ را پیدا کن و پخش کن لطفا",
     "choices": [
+      "گزارش",
       "راه شب",
-      "خود",
-      "سوم",
-      "اطراف"
+      "مقدس",
+      "معروف"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank"

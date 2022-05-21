@@ -1,6 +1,6 @@
 var avialble_topics = [
     'Capitals',
-    // 'Countries',
+    'Numbers',
     'Colors',
     // 'Animals',
     'Antonyms',
