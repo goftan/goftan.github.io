@@ -218,7 +218,7 @@ arr1.forEach(function(e){
     .style('text-align','center')
     .html(function(d,c) { 
         if(c==0) return  (cnt+1)+"";
-        return "<input id='crossword_cells' onkeypress='if(this.value.length >= 1) return false;' maxlength='1'>"; 
+        return "<input id='crossword_cells' oninput='javascript: if(this.value.length > 1) this.value = this.value.slice(0, this.maxLength);' maxlength='1'>"; 
     });
     cnt++;
 });
