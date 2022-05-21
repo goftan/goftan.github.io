@@ -36,9 +36,9 @@ function selectPage(page) {
 
 function fill_language_checkboxes() {
     d3.select('#language_checkboxes').selectAll('label').data(avialable_languages)
-        .enter().append('label').text(function(d){return d;}).attr('class','container')
-        .html(function(d){return '<input type="checkbox" name="topics" value="'+d+'" checked="checked" class="mycheckbox">'
-                                    + d +'<span class="checkmark"></span>';});
+        .enter().append('label').text(function(d){return d;}).attr('class','radiocontainer')
+        .html(function(d){return '<input type="radio" name="topics" value="'+d+'" class="myradiobox">'
+                                    + d +'<span class="radiocheckmark"></span>';});
 }
 
 fill_language_checkboxes();
