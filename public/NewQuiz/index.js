@@ -15,13 +15,24 @@ var avialble_topics = [
     'Common Sentences'];
 
 function deselectAllNav() {
+    d3.select('#language_page_nav').attr('class','inactive');
+    d3.select("#topics_page_nav").attr('class','inactive');
+    d3.select("#quiz_page_nav").attr('class','inactive');
+    d3.select("#results_page_nav").attr('class','inactive');
+    d3.select('#about_page_nav').attr('class','inactive');
+
     d3.select('#language_page').style("display", 'none');
-    d3.select('#first_page').style("display", 'none');
-    d3.select('#second_page').style("display", 'none');
-    d3.select('#third_page').style("display", 'none');
-    d3.select('#about_page').style("display", 'block');
+    d3.select('#topics_page').style("display", 'none');
+    d3.select('#quiz_page').style("display", 'none');
+    d3.select('#results_page').style("display", 'none');
+    d3.select('#about_page').style("display", 'none');
 }
-    
+
+function selectPage(page) {
+    deselectAllNav();
+    d3.select('#'+page+"_nav").attr('class','active');
+    d3.select('#'+page).style("display", 'block');
+}
 
 function fill_language_checkboxes() {
     d3.select('#language_checkboxes').selectAll('label').data(avialable_languages)
@@ -33,6 +44,7 @@ function fill_language_checkboxes() {
 fill_language_checkboxes();
 
 function startLearning() {
+    selectPage('topics_page');
     fill_topic_checkboxes();
 }
 
@@ -63,6 +75,7 @@ var quiz = [];
 var countCorrect = 0;
 var countIncorrect = 0;
 var countViewed = 0;
+
 function startQuiz() {
     let readers = [];
     d3.selectAll('.mycheckbox:checked').each(function() {
@@ -75,13 +88,9 @@ function startQuiz() {
         all = [].concat.apply([], files);
         for(a of all) quizall.push(a.value);
         quiz = [].concat.apply([], quizall);
-        // console.log(quiz);
         shuffleArray(quiz);
         fill_qa(quiz[0]);
-        d3.select('#first_page').style("display", 'none');
-        d3.select('#second_page').style("display", 'block');
-        d3.select("#topics_").attr('class','inactive');
-        d3.select("#quiz_").attr('class','active');
+        selectPage('quiz_page');
     }).catch(function(err) {
         // handle error here
     })
@@ -131,28 +140,16 @@ function submitAnswer() {
 
 function viewResults() {
     decolorCorrectAnswer(); 
-    d3.select('#first_page').style("display", 'none');
-    d3.select('#second_page').style("display", 'none');
-    d3.select('#third_page').style("display", 'block');
-    d3.select("#topics_").attr('class','inactive');
-    d3.select("#quiz_").attr('class','inactive');
-    d3.select("#results_").attr('class','active');
-    // d3.select("#correct").text(countCorrect);
-    // d3.select('#incorrect').text(countIncorrect);
+    selectPage('results_page');
     d3.select('table').append('tr').selectAll("td")
                 .data([d3.select('table').selectAll('tr').size()  - 1, 
-                countCorrect, countIncorrect, countViewed - countCorrect - countIncorrect])
+                countCorrect, countIncorrect])
                 .enter()
                 .append("td").text(function(d) { return d; });
 }
 
 function restartQuiz() {
-    d3.select('#first_page').style("display", 'block');
-    d3.select('#second_page').style("display", 'none');
-    d3.select('#third_page').style("display", 'none');
-    d3.select("#topics_").attr('class','active');
-    d3.select("#quiz_").attr('class','inactive');
-    d3.select("#results_").attr('class','inactive');
+    selectPage('topics_page');
     countCorrect = 0;
     countIncorrect = 0;
     countViewed = 0;

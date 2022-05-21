@@ -13,11 +13,11 @@
 <!-- <p>Scroll down to see the sticky effect.</p> -->
 </div>
 <div id="navbar">
-<a href="javascript:void(0)" id="language_">Language</a>
-<a class="active" href="javascript:void(0)" id="topics_">Topics</a>
-<a href="javascript:void(0)" id="quiz_">Quiz</a>
-<a href="javascript:void(0)" id="results_">Results</a>
-<a href="javascript:void(0)" id="about_">About</a>   
+<a class="active" href="javascript:void(0)" id="language_page_nav" onclick="selectPage('language_page')">Language</a>
+<a href="javascript:void(0)" id="topics_page_nav" onclick="selectPage('topics_page')">Topics</a>
+<a href="javascript:void(0)" id="quiz_page_nav" onclick="selectPage('quiz_page')">Quiz</a>
+<a href="javascript:void(0)" id="results_page_nav" onclick="selectPage('results_page');">Results</a>
+<a href="javascript:void(0)" id="about_page_nav" onclick="selectPage('about_page');">About</a>   
 </div>
 <!-- <h2>Quiz for learning languages</h2> -->
 <!-- <p>This example does not really do anything, other than showing you how to add the viewport meta element.</p> -->
@@ -27,12 +27,12 @@
         <div id="language_checkboxes"></div>
         <button class="button button5" onclick="startLearning()" id="startLearning">Start Learning!</button>
     </div>
-    <div id="first_page" style="display: none;">
+    <div id="topics_page" style="display: none;">
         <h3>Select what should be contained in the quiz:</h3>
         <div id="topics_checkboxes"></div>
         <button class="button button5" onclick="startQuiz()" id="startQuizButton">Start Quiz!</button>
     </div>
-    <div id="second_page" style="display: none;">
+    <div id="quiz_page" style="display: none;">
         <div style="padding: 5px;">
             <h3 id="extra" style="padding: 5px;"></h3>
             <h2 id="question" style="padding: 5px;"></h2>
@@ -57,22 +57,23 @@
         <button class="button button5" onclick="submitAnswer()" id="nextQuestion">Submit</button>
         <button class="button button5" onclick="viewResults()"  id="nextQuestion">Results</button>
     </div>
-    <div id="third_page" style="display: none;">
+    <div id="results_page" style="display: none;">
         <table id="customers">
             <tr>
                 <th>Try</th>
                 <th>Correct</th>
                 <th>Incorrect</th>
-                <th>Not Answered</th>
+                <!-- <th>Not Answered</th> -->
               </tr>
         </table>
         <button class="button button5" onclick="restartQuiz()"  id="restartQuiz">Restart Quiz!</button>
     </div>
     <div id="about_page" style="display: none;">
-        <h3>About</h3>
-        <p>This is a open source quiz for learning languages. 
-        <p>https://github.com/goftan/goftan.github.io/tree/main
-
+        <h3>Learning languages by Quizes!</h3>
+        <p>This is an open source web project with the goal to create a learning platform for different languages in which the topics are organized as quizes.
+        </p><p>You can start to try it under 
+            <a href="https://goftan.github.io/public/NewQuiz/index.html"></a></p> 
+        <button class="button button5" onclick="selectPage('quiz_page');"  id="nextQuestion">Return to Quiz!</button>
     </div>
 </div>
 <script src="index.js"></script>
