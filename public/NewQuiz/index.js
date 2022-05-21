@@ -212,13 +212,13 @@ arr1.forEach(function(e){
     .append("td")
     .style('border', function(e,c){if(c == 0) return ""; return '1px solid black';})
     .style('border-collapse', 'collapse')
-    .style('width', '20px')
+    .style('width', '15px')
     .style('font-size','9px')
-    .style('height', '20px')
+    .style('height', '15px')
     .style('text-align','center')
     .html(function(d,c) { 
         if(c==0) return  (cnt+1)+"";
-        return "<input style='width:20px;heigh:20ox'></input>"; 
+        return "<input style='width:15px;heigh:15px;border:0;background: none;box-shadow: none;border-radius: 0px;'></input>"; 
     });
     cnt++;
 });
