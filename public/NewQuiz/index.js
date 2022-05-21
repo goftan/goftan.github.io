@@ -181,9 +181,13 @@ function click_nav(nav_name) {
     // border-collapse: collapse;
 //   }
 
-[...Array(15).keys()].forEach(function(e){
+arr = []
+for(i = 0;i < 15 ;i++) {
+    arr.append(i)
+}
+arr.forEach(function(e){
     d3.select('#crossword').append('tr').selectAll("td")
-    .data([...Array(15).keys()])
+    .data(arr)
     .enter()
     .append("td")
     .style('border', '1px solid black')
