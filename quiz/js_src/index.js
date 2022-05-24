@@ -89,7 +89,6 @@ function startQuiz() {
         shuffleArray(quiz);
         fill_qa(quiz[0]);
         selectPage('question_page');
-
         fill_crossword(quiz);
     }).catch(function(err) {
         // handle error here
@@ -173,19 +172,18 @@ for(i = 0;i < 13 ;i++) {
 
 function fill_crossword(quiz) {
     var input = [];
-    console.log('here')
-    for(q of quiz.slice(0,100)) {
-        console.log(q);
-        if(q.type === 'translate_fa_en')
+    for(q of quiz.slice(0,20)) {
+        if(!q.choices[q.answer].includes(' ')) {
             input.push({'answer': q.choices[q.answer], 'clue': q.question});
+        }
     }
-    console.log(input);
     var layout = generateLayout(input);
     var rows = layout.rows;
     var cols = layout.cols;
     var table = layout.table; // table as two-dimensional array
     var output_html = layout.table_string; // table as plain text (with HTML line breaks)
     var output_json = layout.result; // words along with orientation, position, startx, and starty
+    d3.select('#crossword').html("");
     for(var i=0;i<rows;i++) {
         d3.select('#crossword').append('tr').selectAll("td")
         .data(table[i])
@@ -195,8 +193,8 @@ function fill_crossword(quiz) {
             if(d == '-') return ""; 
             return '1px solid black';})
         .style('border-collapse', 'collapse')
-        .style('width', '20px')
-        .style('height', '20px')
+        .style('width', '18px')
+        .style('height', '18px')
         .style('text-align','center')
         .style('font-size','9px')
         // .style('background-color', function(d,c){
@@ -206,13 +204,15 @@ function fill_crossword(quiz) {
         // })
         .html(function(d,c) { 
             if(d=='-')return ""; 
-            else return "<input class='crossword_cells' id='crossword_cells'>"; 
+            else return "<input class='crossword_cells' id='crossword_cells' ans='"+ d +"'>"; 
         });
+        d3.selectAll('input.crossword_cells').on('input', function() {
+                    if(this.value.length > 1) {
+                        this.value = this.value.slice(0,1);
+                    }
+                    return this.value;
+                });
     }
-    console.log(table);
-    console.log(output_html);
-    console.log(rows);
-    console.log(output_json)
 }
 
 // cnt = 0;
@@ -252,10 +252,3 @@ function fill_crossword(quiz) {
 //     });
 //     cnt++;
 // });
-
-function checkinput(e) {
-    console.log(this.value)
-    value = document.getElementById('myInput').value;
-    if(value.length > 1) 
-    document.getElementById('myInput').value = this.value.slice(0, 1);
-  }
