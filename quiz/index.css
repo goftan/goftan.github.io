@@ -299,14 +299,21 @@ body {
   border-radius: 0px;
 }
 
-.question_table.td {
-  word-wrap: break-word;
-  max-width: 100px;
-
+.question_table {
+  margin: 10px;
 }
 
-.question_table.th {
+.question_table td {
   word-wrap: break-word;
-  max-width: 100px;
+  max-width: 150px;
+  padding: 5px;
+  text-align: left;
+}
+
+.question_table th {
+  word-wrap: break-word;
+  max-width: 150px;
+  padding: 5px;
+  text-align: left;
 
 }

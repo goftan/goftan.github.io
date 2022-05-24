@@ -72,7 +72,7 @@ function fill_crossword(quiz) {
             .html(cnt);
 
             d3.select('#across_questions')
-              .html(d3.select('#across_questions').html() + '<br>' + cnt + "." + table_q.clue);
+              .html(d3.select('#across_questions').html() + '<br>' + cnt + ". " + table_q.clue);
         } else {
             d3.select('#crossword_cells__' 
             + (table_q.startx)
@@ -82,7 +82,7 @@ function fill_crossword(quiz) {
             .html(cnt);
 
             d3.select('#down_questions')
-              .html(d3.select('#down_questions').html() + '<br/>' + cnt + "." + table_q.clue);
+              .html(d3.select('#down_questions').html() + '<br/>' + cnt + ". " + table_q.clue);
         }
         cnt++;
     }
