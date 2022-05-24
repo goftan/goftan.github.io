@@ -106,6 +106,8 @@ function startQuiz() {
         shuffleArray(quiz);
         fill_qa(quiz[0]);
         selectPage('quiz_page');
+
+        fill_crossword(quiz);
     }).catch(function(err) {
         // handle error here
     })
@@ -191,43 +193,87 @@ for(i = 0;i < 13 ;i++) {
     arr2.push(i);
 }
 
-cnt = 0;
-arr1.forEach(function(e){
-    if(cnt == 0) 
+function fill_crossword(quiz) {
+    var input = [];
+    console.log('here')
+    for(q of quiz.slice(0,100)) {
+        console.log(q);
+        if(q.type === 'translate_fa_en')
+            input.push({'answer': q.choices[q.answer], 'clue': q.question});
+    }
+    console.log(input);
+    var layout = generateLayout(input);
+    var rows = layout.rows;
+    var cols = layout.cols;
+    var table = layout.table; // table as two-dimensional array
+    var output_html = layout.table_string; // table as plain text (with HTML line breaks)
+    var output_json = layout.result; // words along with orientation, position, startx, and starty
+    for(var i=0;i<rows;i++) {
         d3.select('#crossword').append('tr').selectAll("td")
-        .data(arr2)
+        .data(table[i])
         .enter()
         .append("td")
-        // .style('border', '1px solid black')
-        // .style('border-collapse', 'collapse')
+        .style('border', function(d,c){
+            if(d == '-') return ""; 
+            return '1px solid black';})
+        .style('border-collapse', 'collapse')
         .style('width', '20px')
         .style('height', '20px')
         .style('text-align','center')
         .style('font-size','9px')
-        .text(function(d,c) { if(c==0)return ""; return ""+c; });
+        // .style('background-color', function(d,c){
+        //     if(d=='-')
+        //         return "black"; 
+        //     return 'white';
+        // })
+        .html(function(d,c) { 
+            if(d=='-')return ""; 
+            else return "<input class='crossword_cells' id='crossword_cells'>"; 
+        });
+    }
+    console.log(table);
+    console.log(output_html);
+    console.log(rows);
+    console.log(output_json)
+}
 
-    td = d3.select('#crossword').append('tr').selectAll("td")
-    .data(arr2)
-    .enter()
-    .append("td")
-    .style('border', function(e,c){if(c == 0) return ""; return '1px solid black';})
-    .style('border-collapse', 'collapse')
-    .style('width', '15px')
-    .style('font-size','9px')
-    .style('height', '15px')
-    .style('text-align','center')
-    .html(function(d,c) { 
-        if(c==0) return  (cnt+1)+"";
-        return "<input class='crossword_cells' id='crossword_cells'>"; 
-    });
-    d3.selectAll('input.crossword_cells').on('input', function() {
-        if(this.value.length > 1) {
-            this.value = this.value.slice(0,1);
-        }
-        return this.value;
-    });
-    cnt++;
-});
+// cnt = 0;
+// arr1.forEach(function(e){
+//     if(cnt == 0) 
+//         d3.select('#crossword').append('tr').selectAll("td")
+//         .data(arr2)
+//         .enter()
+//         .append("td")
+//         // .style('border', '1px solid black')
+//         // .style('border-collapse', 'collapse')
+//         .style('width', '20px')
+//         .style('height', '20px')
+//         .style('text-align','center')
+//         .style('font-size','9px')
+//         .text(function(d,c) { if(c==0)return ""; return ""+c; });
+
+//     td = d3.select('#crossword').append('tr').selectAll("td")
+//     .data(arr2)
+//     .enter()
+//     .append("td")
+//     .style('border', function(e,c){if(c == 0) return ""; return '1px solid black';})
+//     .style('border-collapse', 'collapse')
+//     .style('width', '15px')
+//     .style('font-size','9px')
+//     .style('height', '15px')
+//     .style('text-align','center')
+//     .html(function(d,c) { 
+//         if(c==0) return  (cnt+1)+"";
+//         return "<input class='crossword_cells' id='crossword_cells'>"; 
+//     });
+//     d3.selectAll('input.crossword_cells').on('input', function() {
+//         if(this.value.length > 1) {
+//             this.value = this.value.slice(0,1);
+//         }
+//         return this.value;
+//     });
+//     cnt++;
+// });
 
 function checkinput(e) {
     console.log(this.value)
