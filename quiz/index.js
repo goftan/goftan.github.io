@@ -30,7 +30,7 @@ if(localStorage.getItem('lang') != null) {
 }
 
 function startLearning() {
-    selectPage('topics_page');
+    selectPage('tasks_page');
     if(d3.select('.myradiobox:checked').size() == 0) {
         alert('Please select a language');
         return;
@@ -41,7 +41,7 @@ function startLearning() {
 }
 
 function startLearningWithKnownLanguage() {
-    selectPage('topics_page');
+    selectPage('tasks_page');
     fill_topic_checkboxes();
 }
 
@@ -88,7 +88,7 @@ function startQuiz() {
         quiz = [].concat.apply([], quizall);
         shuffleArray(quiz);
         fill_qa(quiz[0]);
-        selectPage('quiz_page');
+        selectPage('question_page');
 
         fill_crossword(quiz);
     }).catch(function(err) {
@@ -140,7 +140,7 @@ function submitAnswer() {
 
 function viewResults() {
     decolorCorrectAnswer(); 
-    selectPage('results_page');
+    selectPage('calculator_page');
     d3.select('#result_table').append('tr').selectAll("td")
                 .data([d3.select('table').selectAll('tr').size()  - 1, 
                 countCorrect, countIncorrect])
@@ -149,7 +149,7 @@ function viewResults() {
 }
 
 function restartQuiz() {
-    selectPage('topics_page');
+    selectPage('tasks_page');
     countCorrect = 0;
     countIncorrect = 0;
     countViewed = 0;

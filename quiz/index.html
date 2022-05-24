@@ -16,24 +16,6 @@
 <!-- <p>Scroll down to see the sticky effect.</p> -->
 </div>
 <div id="navbar">
-<!-- <a class="active" href="javascript:void(0)" id="language_page_nav" onclick="click_nav('language_page')">
-    <i class="fa fa-language"></i>
-</a>
-<a href="javascript:void(0)" id="topics_page_nav" onclick="click_nav('topics_page')">
-    <i class="fa fa-tasks"></i>
-</a>
-<a href="javascript:void(0)" id="quiz_page_nav" onclick="click_nav('quiz_page')">
-    <i class="fa fa-question"></i>
-</a>
-<a href="javascript:void(0)" id="puzzle_page_nav" onclick="click_nav('puzzle_page');">
-    <i class='fa fa-puzzle-piece'></i>
-</a>
-<a href="javascript:void(0)" id="results_page_nav" onclick="click_nav('results_page');">
-    <i class='fa fa-calculator'></i>
-</a>
-<a href="javascript:void(0)" id="about_page_nav" onclick="click_nav('about_page');">
-    <i class="fa fa-info"></i>
-</a>    -->
 </div>
 <!-- <h2>Quiz for learning languages</h2> -->
 <!-- <p>This example does not really do anything, other than showing you how to add the viewport meta element.</p> -->
@@ -43,12 +25,12 @@
         <div id="language_checkboxes"></div>
         <button class="button button5" onclick="startLearning()" id="startLearning">Start Learning!</button>
     </div>
-    <div id="topics_page" style="display: none;">
+    <div id="tasks_page" style="display: none;">
         <h3>Select what should be contained in the quiz:</h3>
         <div id="topics_checkboxes"></div>
         <button class="button button5" onclick="startQuiz()" id="startQuizButton">Start Quiz!</button>
     </div>
-    <div id="quiz_page" style="display: none;">
+    <div id="question_page" style="display: none;">
         <div style="padding: 5px;">
             <h3 id="extra" style="padding: 5px;"></h3>
             <h2 id="question" style="padding: 5px;"></h2>
@@ -73,7 +55,7 @@
         <button class="button button5" onclick="submitAnswer()" id="nextQuestion">Submit</button>
         <button class="button button5" onclick="viewResults()"  id="nextQuestion">Results</button>
     </div>
-    <div id="results_page" style="display: none;">
+    <div id="calculator_page" style="display: none;">
         <table id="result_table">
             <tr>
                 <th>Try</th>
@@ -84,7 +66,7 @@
         </table>
         <button class="button button5" onclick="restartQuiz()"  id="restartQuiz">Restart Quiz!</button>
     </div>
-    <div id="about_page" style="display: none;">
+    <div id="info_page" style="display: none;">
         <!--  -->
         <!-- <h3>Learning languages by Quizes!</h3> -->
         <!-- <p>This is an open source web project with the goal to create a learning platform for different languages in which the topics are organized as quizes. -->
