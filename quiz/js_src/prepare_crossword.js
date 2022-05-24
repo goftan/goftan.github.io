@@ -70,6 +70,9 @@ function fill_crossword(quiz) {
             + (table_q.starty - 1))
             .attr('value',cnt)
             .html(cnt);
+
+            d3.select('#across_questions')
+              .html(d3.select('#across_questions').html() + '<br>' + cnt + "." + table_q.clue);
         } else {
             d3.select('#crossword_cells__' 
             + (table_q.startx)
@@ -77,6 +80,9 @@ function fill_crossword(quiz) {
             + (table_q.starty - 1 - 1))
             .attr('value',cnt)
             .html(cnt);
+
+            d3.select('#down_questions')
+              .html(d3.select('#down_questions').html() + '<br/>' + cnt + "." + table_q.clue);
         }
         cnt++;
     }

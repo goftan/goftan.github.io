@@ -298,3 +298,15 @@ body {
   box-shadow: none;
   border-radius: 0px;
 }
+
+.question_table.td {
+  word-wrap: break-word;
+  max-width: 100px;
+
+}
+
+.question_table.th {
+  word-wrap: break-word;
+  max-width: 100px;
+
+}
