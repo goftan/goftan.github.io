@@ -37,7 +37,3 @@ function init_nav_menu() {
         .html(function(d){ return '<i class="fa fa-'+d+'"></i>'; });
 }
 
-function init_pages() {
-    
-}
-
