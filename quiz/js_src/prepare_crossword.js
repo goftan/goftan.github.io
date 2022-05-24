@@ -13,7 +13,21 @@ function fill_crossword(quiz) {
     var output_json = layout.result; // words along with orientation, position, startx, and starty
     console.log(output_json);
     d3.select('#crossword').html("");
-    for(var i=0;i<rows;i++) {
+    
+    d3.select('#crossword').append('tr').selectAll("td")
+        .data(table[0])
+        .enter()
+        .append("td")
+        .style('border', function(d,c){return "";})
+        .style('border-collapse', 'collapse')
+        .style('width', '18px')
+        .style('height', '18px')
+        .style('text-align','center')
+        .style('font-size','9px')
+        .html(function(d,c) {
+            return "<span id='crossword_cells__" + c + "_" + 0 + "'></span>";
+        });
+    for(var i=1;i<rows;i++) {
         cols = [''].concat(table[i]);
         d3.select('#crossword').append('tr').selectAll("td")
         .data(cols)
@@ -51,10 +65,11 @@ function fill_crossword(quiz) {
     for(table_q of output_json) {
         if(table_q.orientation === 'across') {
             d3.select('#crossword_cells__' 
-            + (table_q.startx)
+            + (table_q.startx - 1)
             + '_' 
             + (table_q.starty - 1))
-            .attr('value',cnt);
+            .attr('value',cnt)
+            .html(cnt);
         } else {
             d3.select('#crossword_cells__' 
             + (table_q.startx)
