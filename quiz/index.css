@@ -289,7 +289,7 @@ body {
   border-collapse: collapse;
 }
 
-#crossword_cells {
+.crossword_cells {
   text-align:center;
   width:15px;
   height:15px;

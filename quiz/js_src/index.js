@@ -5,6 +5,11 @@ var avialable_languages = [
     'Korean'
 ]
 
+var available_quiz_types = [
+    'Crossword',
+    'Multiple Choice'
+];
+
 var avialble_topics = [
     'Capitals',
     'Numbers',
@@ -24,7 +29,15 @@ function fill_language_checkboxes() {
                                     + d +'<span class="radiocheckmark"></span>';});
 }
 
+function fill_quiz_type_checkboxes() {
+        d3.select('#quiz_type_checkboxes').selectAll('label').data(available_quiz_types)
+        .enter().append('label').text(function(d){return d;}).attr('class','container')
+        .html(function(d){return '<input type="checkbox" name="topics" value="' + d +'" checked="checked" class="mycheckboxqtypes">'
+                                    + d +'<span class="checkmark"></span>';});
+}
+
 fill_language_checkboxes();
+fill_quiz_type_checkboxes();
 if(localStorage.getItem('lang') != null) {
     startLearningWithKnownLanguage();
 }
@@ -183,6 +196,7 @@ function fill_crossword(quiz) {
     var table = layout.table; // table as two-dimensional array
     var output_html = layout.table_string; // table as plain text (with HTML line breaks)
     var output_json = layout.result; // words along with orientation, position, startx, and starty
+    console.log(output_json);
     d3.select('#crossword').html("");
     for(var i=0;i<rows;i++) {
         d3.select('#crossword').append('tr').selectAll("td")
@@ -204,7 +218,9 @@ function fill_crossword(quiz) {
         // })
         .html(function(d,c) { 
             if(d=='-')return ""; 
-            else return "<input class='crossword_cells' id='crossword_cells' ans='"+ d +"'>"; 
+            else 
+              return "<input class='crossword_cells' id='crossword_cells__" + i + "_" + c 
+               + "' ans='"+ d +"'>"; 
         });
         d3.selectAll('input.crossword_cells').on('input', function() {
                     if(this.value.length > 1) {
@@ -212,6 +228,15 @@ function fill_crossword(quiz) {
                     }
                     return this.value;
                 });
+    }
+
+    for(table_q of output_json) {
+        console.log(table_q);
+        d3.select('#crossword_cells__' 
+        + (table_q.startx - 1)
+        + '_' 
+        + (table_q.starty - 1))
+        .attr('value','T');
     }
 }
 
