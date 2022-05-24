@@ -14,25 +14,8 @@ var avialble_topics = [
     'Common Words', 
     'Common Sentences'];
 
-function deselectAllNav() {
-    d3.select('#language_page_nav').attr('class','inactive');
-    d3.select("#topics_page_nav").attr('class','inactive');
-    d3.select("#quiz_page_nav").attr('class','inactive');
-    d3.select("#results_page_nav").attr('class','inactive');
-    d3.select('#about_page_nav').attr('class','inactive');
 
-    d3.select('#language_page').style("display", 'none');
-    d3.select('#topics_page').style("display", 'none');
-    d3.select('#quiz_page').style("display", 'none');
-    d3.select('#results_page').style("display", 'none');
-    d3.select('#about_page').style("display", 'none');
-}
-
-function selectPage(page) {
-    deselectAllNav();
-    d3.select('#'+page+"_nav").attr('class','active');
-    d3.select('#'+page).style("display", 'block');
-}
+init_nav_menu();
 
 function fill_language_checkboxes() {
     d3.select('#language_checkboxes').selectAll('label').data(avialable_languages)
@@ -170,11 +153,6 @@ function restartQuiz() {
     countCorrect = 0;
     countIncorrect = 0;
     countViewed = 0;
-}
-
-
-function click_nav(nav_name) {
-    selectPage(nav_name);
 }
 
 
