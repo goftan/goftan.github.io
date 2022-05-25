@@ -317,3 +317,9 @@ body {
   text-align: left;
 
 }
+
+.crossword_numerics {
+  text-align: left;
+  font-size: 8px;
+  position: absolute;
+}

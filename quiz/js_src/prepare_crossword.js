@@ -1,3 +1,21 @@
+function find_suitable_neighbour_for_focus(x,y) {
+    var neighbours = [
+        {'x': x, 'y': y - 1},
+        {'x': x - 1, 'y': y},
+        {'x': x + 1, 'y': y},
+        {'x': x, 'y': y + 1}
+    ];
+    for(n of neighbours) {
+        if(nx >= 0 && ny >= 0) {
+            var mynode = d3.select('#crossword_cells__' + n.x + '_' + n.y).node();
+            if(mynode.value == '') {
+                mynode.focus();
+                return;
+            }
+        }
+    }
+}
+
 function fill_crossword(quiz) {
     var input = [];
     for(q of quiz.slice(0,20)) {
@@ -14,23 +32,9 @@ function fill_crossword(quiz) {
     console.log(output_json);
     d3.select('#crossword').html("");
     
-    d3.select('#crossword').append('tr').selectAll("td")
-        .data(table[0])
-        .enter()
-        .append("td")
-        .style('border', function(d,c){return "";})
-        .style('border-collapse', 'collapse')
-        .style('width', '18px')
-        .style('height', '18px')
-        .style('text-align','center')
-        .style('font-size','9px')
-        .html(function(d,c) {
-            return "<span id='crossword_cells__" + c + "_" + 0 + "'></span>";
-        });
-    for(var i=1;i<rows;i++) {
-        cols = [''].concat(table[i]);
+    for(var i=0;i<rows;i++) {
         d3.select('#crossword').append('tr').selectAll("td")
-        .data(cols)
+        .data(table[i])
         .enter()
         .append("td")
         .style('border', function(d,c){
@@ -53,34 +57,37 @@ function fill_crossword(quiz) {
                 return "<input class='crossword_cells' id='crossword_cells__" + c + "_" + i 
                          + "' ans='"+ d +"'>"; 
         });
+
         d3.selectAll('input.crossword_cells').on('input', function() {
                     if(this.value.length > 1) {
                         this.value = this.value.slice(0,1);
                     }
+                    var tmp = this.id.split('__')[1];
+                    var x = parseInt(tmp.split('_')[0]);
+                    var y = parseInt(tmp.split('_')[1]);
+                    find_suitable_neighbour_for_focus(x,y);
                     return this.value;
                 });
     }
 
+
+    d3.select('#across_questions').html("");
+    d3.select('#down_questions').html("");
     cnt = 1
     for(table_q of output_json) {
-        if(table_q.orientation === 'across') {
-            d3.select('#crossword_cells__' 
+        d3.select(d3.select('#crossword_cells__' 
             + (table_q.startx - 1)
             + '_' 
-            + (table_q.starty - 1))
-            .attr('value',cnt)
+            + (table_q.starty - 1)).node().parentNode)
+            .append('span').lower()
+            .attr('class', 'crossword_numerics')
             .html(cnt);
 
+
+        if(table_q.orientation === 'across') {
             d3.select('#across_questions')
               .html(d3.select('#across_questions').html() + '<br>' + cnt + ". " + table_q.clue);
         } else {
-            d3.select('#crossword_cells__' 
-            + (table_q.startx)
-            + '_' 
-            + (table_q.starty - 1 - 1))
-            .attr('value',cnt)
-            .html(cnt);
-
             d3.select('#down_questions')
               .html(d3.select('#down_questions').html() + '<br/>' + cnt + ". " + table_q.clue);
         }
