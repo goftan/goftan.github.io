@@ -1,17 +1,15 @@
 function find_suitable_neighbour_for_focus(x,y) {
     var neighbours = [
+        {'x': x + 1, 'y': y},
+        {'x': x, 'y': y + 1},
         {'x': x, 'y': y - 1},
         {'x': x - 1, 'y': y},
-        {'x': x + 1, 'y': y},
-        {'x': x, 'y': y + 1}
     ];
     for(n of neighbours) {
-        if(nx >= 0 && ny >= 0) {
-            var mynode = d3.select('#crossword_cells__' + n.x + '_' + n.y).node();
-            if(mynode.value == '') {
-                mynode.focus();
-                return;
-            }
+        var mynode = d3.select('#crossword_cells__' + n.x + '_' + n.y).node();
+        if(mynode != null && mynode.value == '') {
+            mynode.focus();
+            return;
         }
     }
 }
