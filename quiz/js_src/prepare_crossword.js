@@ -1,3 +1,4 @@
+
 function find_suitable_neighbour_for_focus(x,y) {
     var neighbours = [
         {'x': x + 1, 'y': y},
@@ -10,6 +11,33 @@ function find_suitable_neighbour_for_focus(x,y) {
         if(mynode != null && mynode.value == '') {
             mynode.focus();
             return;
+        }
+    }
+}
+
+function id_of_cell(x,y) {
+
+}
+
+function select_a_crossword_question(el) {
+    d3.selectAll('.crossword_cells').style('background-color', 'lightgray');
+    var q = el.getAttribute('question');
+    var extra = el.getAttribute('extra');
+    d3.select('#crossword_question').html(extra + " " + q);
+    var tmp = el.getAttribute('question_coord').split('_');
+    var x = tmp[0] - 1;
+    var y = tmp[1] - 1;
+    d3.select('#crossword_cells__' + x + '_' + y).node().focus();
+    var orientation = el.getAttribute('orientation');
+    for(var counter = 0; counter < el.getAttribute('answer').length;counter++) {
+        if(orientation == 'across') {
+        d3.select('#crossword_cells__' 
+        + (x + counter) + '_' 
+        + (y)).style('background-color','white');
+        } else {
+        d3.select('#crossword_cells__' 
+        + (x) + '_' 
+        + (y + counter)).style('background-color','white');
         }
     }
 }
@@ -70,6 +98,7 @@ function fill_crossword(quiz) {
     d3.select('#across_questions').html("");
     d3.select('#down_questions').html("");
     cnt = 1
+
     for(table_q of output_json) {
         d3.select(d3.select('#crossword_cells__' 
             + (table_q.startx - 1)
@@ -79,34 +108,27 @@ function fill_crossword(quiz) {
             .attr('class', 'crossword_numerics')
             .html(cnt);
 
+            d3.select('#' + table_q.orientation + '_questions')
+            .append('span')
+            .attr('question_coord', table_q.startx + '_' + table_q.starty)
+            .attr('answer', table_q.answer)
+            .attr('question', table_q.clue)
+            .attr('extra', table_q.extra)
+            .attr('orientation', table_q.orientation)
+            .on('click',function() {
+                select_a_crossword_question(this);
+             })
+            .html(cnt + ". " + " " + table_q.clue + "<br/>");
+
         if(table_q.orientation === 'across') {
-            d3.select('#across_questions')
-              .append('span')
-              .attr('question_coord', table_q.startx + '_' + table_q.starty)
-              .attr('answer', table_q.answer)
-              .attr('question', table_q.clue)
-              .attr('extra', table_q.extra)
-              .on('click',function() {
-                d3.selectAll('.crossword_cells').style('background-color', 'lightgray');
-                q = this.getAttribute('question');
-                extra = this.getAttribute('extra');
-                d3.select('#crossword_question').html(extra + " " + q);
-                var tmp = this.getAttribute('question_coord').split('_');
-                var x = tmp[0] - 1;
-                var y = tmp[1] - 1;
-                for(var counter = 0; counter < this.getAttribute('answer').length;counter++) {
-                    d3.select('#crossword_cells__' 
-                    + (x + counter) + '_' 
-                    + (y)).style('background-color','white');
-                }
-              })
-              .html(cnt + ". " + table_q.clue + "<br/>");
+            
         } else {
-            d3.select('#down_questions')
-              .html(d3.select('#down_questions').html() + '<br/>' + cnt + ". " + table_q.clue);
+           
         }
         cnt++;
     }
+    select_a_crossword_question(d3.select('#across_questions').select('span').node());
+
 }
 
 // cnt = 0;
