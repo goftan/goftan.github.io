@@ -39,8 +39,6 @@ function fill_crossword(quiz) {
             if(d == '-' || d=='') return ""; 
             return '1px solid black';})
         .style('border-collapse', 'collapse')
-        .style('width', '18px')
-        .style('height', '18px')
         .style('text-align','center')
         .style('font-size','9px')
         // .style('background-color', function(d,c){
@@ -81,10 +79,24 @@ function fill_crossword(quiz) {
             .attr('class', 'crossword_numerics')
             .html(cnt);
 
-
         if(table_q.orientation === 'across') {
             d3.select('#across_questions')
-              .html(d3.select('#across_questions').html() + '<br>' + cnt + ". " + table_q.clue);
+              .append('span')
+              .attr('question_coord', table_q.startx + '_' + table_q.starty)
+              .attr('answer', table_q.answer)
+              .on('click',function() {
+                d3.selectAll('.crossword_cells').style('background-color', 'white');
+                var tmp = this.getAttribute('question_coord').split('_');
+                var x = tmp[0] - 1;
+                var y = tmp[1] - 1;
+                // console.log(x + " " + y + " " + );
+                for(var counter = 0; counter < this.getAttribute('answer').length;counter++) {
+                    d3.select('#crossword_cells__' 
+                    + (x + counter) + '_' 
+                    + (y)).style('background-color','lightblue');
+                }
+              })
+              .html(cnt + ". " + table_q.clue + "<br/>");
         } else {
             d3.select('#down_questions')
               .html(d3.select('#down_questions').html() + '<br/>' + cnt + ". " + table_q.clue);

@@ -289,6 +289,11 @@ body {
   border-collapse: collapse;
 }
 
+#crossword.td {
+  width: 20px;
+  height: 20px;
+}
+
 .crossword_cells {
   text-align:center;
   width:15px;
@@ -320,6 +325,6 @@ body {
 
 .crossword_numerics {
   text-align: left;
-  font-size: 8px;
+  font-size: 6px;
   position: absolute;
 }
