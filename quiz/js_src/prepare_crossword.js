@@ -14,12 +14,12 @@ function find_suitable_neighbour_for_focus(x,y) {
     }
 }
 
-function id_of_cell(x,y) {
-    return '#crossword_cells__' + x + '_' + y;
-}
-
 function id_of_cell_alone(x,y) {
     return 'crossword_cells__' + x + '_' + y;
+}
+
+function id_of_cell(x,y) {
+    return '#' + id_of_cell_alone(x,y);
 }
 
 function select_a_crossword_question(el) {
@@ -109,16 +109,13 @@ function fill_crossword(quiz) {
             .attr('extra', table_q.extra)
             .attr('orientation', table_q.orientation)
             .style('padding', '5px')
+            .attr('class', 'crossword_questions_css')
             .on('click',function() {
+                d3.selectAll('.crossword_questions_css').style('color', 'black');
+                d3.select(this).style('color', 'red');
                 select_a_crossword_question(this);
              })
             .html(cnt + ". " + " " + table_q.clue + "<br/>");
-
-        if(table_q.orientation === 'across') {
-            
-        } else {
-           
-        }
         cnt++;
     }
     select_a_crossword_question(d3.select('#across_questions').select('span').node());
