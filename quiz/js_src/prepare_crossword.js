@@ -18,7 +18,7 @@ function fill_crossword(quiz) {
     var input = [];
     for(q of quiz.slice(0,20)) {
         if(!q.choices[q.answer].includes(' ')) {
-            input.push({'answer': q.choices[q.answer], 'clue': q.question});
+            input.push({'answer': q.choices[q.answer], 'clue': q.question, 'extra': q.extra});
         }
     }
     var layout = generateLayout(input);
@@ -84,16 +84,20 @@ function fill_crossword(quiz) {
               .append('span')
               .attr('question_coord', table_q.startx + '_' + table_q.starty)
               .attr('answer', table_q.answer)
+              .attr('question', table_q.clue)
+              .attr('extra', table_q.extra)
               .on('click',function() {
-                d3.selectAll('.crossword_cells').style('background-color', 'white');
+                d3.selectAll('.crossword_cells').style('background-color', 'lightgray');
+                q = this.getAttribute('question');
+                extra = this.getAttribute('extra');
+                d3.select('#crossword_question').html(extra + " " + q);
                 var tmp = this.getAttribute('question_coord').split('_');
                 var x = tmp[0] - 1;
                 var y = tmp[1] - 1;
-                // console.log(x + " " + y + " " + );
                 for(var counter = 0; counter < this.getAttribute('answer').length;counter++) {
                     d3.select('#crossword_cells__' 
                     + (x + counter) + '_' 
-                    + (y)).style('background-color','lightblue');
+                    + (y)).style('background-color','white');
                 }
               })
               .html(cnt + ". " + table_q.clue + "<br/>");
