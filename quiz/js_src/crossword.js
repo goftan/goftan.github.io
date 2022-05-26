@@ -75,7 +75,6 @@ function addWord(best, words, table){
     }
     words[index].orientation = "down";
   }
-  // console.log(word + ", " + bestScore);
 }
 
 function assignPositions(words){
