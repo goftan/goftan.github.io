@@ -1,0 +1,1640 @@
+[
+  {
+    "question": "열다",
+    "choices": [
+      "층",
+      "아니다",
+      "처음",
+      "닫다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "이기다",
+    "choices": [
+      "비하다",
+      "선거",
+      "과정",
+      "지다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "늘다",
+    "choices": [
+      "줄다 ",
+      "발생하다",
+      "모임",
+      "사랑"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "자다",
+    "choices": [
+      "마시다",
+      "주다",
+      "사랑하다",
+      "깨다 / 일어나다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "밀다 ",
+    "choices": [
+      "근데",
+      "작년",
+      "당기다",
+      "팔다"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "성공하다 ",
+    "choices": [
+      "아파트",
+      "기계",
+      "새",
+      "실패하다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "죽다 ",
+    "choices": [
+      "빨리",
+      "주제",
+      "태어나다",
+      "살리다"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "수입하다",
+    "choices": [
+      "기르다",
+      "강하다",
+      "젊다",
+      "수출하다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "나가다",
+    "choices": [
+      "텔레비전",
+      "전쟁",
+      "거치다",
+      "들어오다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "필요하다",
+    "choices": [
+      "필요없다",
+      "근데",
+      "맞다",
+      "방송"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "가다",
+    "choices": [
+      "이러하다",
+      "인생",
+      "산",
+      "오다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "빠르다",
+    "choices": [
+      "걸치다",
+      "회의",
+      "달리다",
+      "느리다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "유창하다",
+    "choices": [
+      "데",
+      "가끔",
+      "감독",
+      "서투르다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "알다",
+    "choices": [
+      "모르다",
+      "팀",
+      "이상",
+      "아내"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "이르다",
+    "choices": [
+      "늦다",
+      "머리",
+      "성장",
+      "정치"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "우연하다",
+    "choices": [
+      "의도하다",
+      "위",
+      "맞다",
+      "남기다"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "바쁘다",
+    "choices": [
+      "한가하다",
+      "그런",
+      "산",
+      "안"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "있다",
+    "choices": [
+      "분",
+      "즐겁다",
+      "내",
+      "없다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "가능하다 ",
+    "choices": [
+      "자신",
+      "얘기하다",
+      "불가능하다",
+      "이데올로기"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "좋다",
+    "choices": [
+      "나쁘다",
+      "부부",
+      "크기",
+      "그리고"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "뚱뚱하다 ",
+    "choices": [
+      "결국",
+      "인하다",
+      "층",
+      "날씬하다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "재미있다",
+    "choices": [
+      "담다",
+      "재미없다",
+      "그동안",
+      "살"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "맛있다 ",
+    "choices": [
+      "시작하다",
+      "맛없다",
+      "프로그램",
+      "한마디"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "근면하다 / 부지런하다",
+    "choices": [
+      "게으르다",
+      "노력하다",
+      "알리다",
+      "아나운서"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "약하다 ",
+    "choices": [
+      "소비자",
+      "이르다",
+      "신문",
+      "강하다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "단순하다 ",
+    "choices": [
+      "한번",
+      "자식",
+      "복잡하다",
+      "가지다"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "한산하다",
+    "choices": [
+      "자라다",
+      "기준",
+      "알아보다",
+      "복잡하다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "건강하다",
+    "choices": [
+      "힘",
+      "마시다",
+      "이기다",
+      "병약하다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "행복하다",
+    "choices": [
+      "세계",
+      "하루",
+      "모습",
+      " 슬프다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "겸손하다",
+    "choices": [
+      "거만하다",
+      "좋다",
+      "지나다",
+      "사실"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "예쁘다",
+    "choices": [
+      "맡다",
+      "못생기다",
+      "그러면",
+      "적"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "잘생기다",
+    "choices": [
+      "쓴 맛",
+      "못생기다",
+      "결국",
+      "대답하다"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "사귀다",
+    "choices": [
+      "헤어지다",
+      "일단",
+      "지역",
+      "올리다"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "쓸모있다",
+    "choices": [
+      "모두",
+      "티브이",
+      "이어지다",
+      " 쓸모없다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "낙관하다 ",
+    "choices": [
+      " 비관하다 ",
+      "느끼다",
+      "장관",
+      "이어지다"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "편하다",
+    "choices": [
+      "능력",
+      "나름",
+      "그동안",
+      " 불편하다 "
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "보수적이다",
+    "choices": [
+      "막다",
+      " 개방적이다",
+      "기관",
+      "바쁘다"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 충분하다 ",
+    "choices": [
+      "구체적",
+      "바꾸다",
+      " 부족하다",
+      "다른"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "유능하다",
+    "choices": [
+      "한편",
+      "살다",
+      " 무능하다",
+      "몇"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "가짜 ",
+    "choices": [
+      "지",
+      "그러므로",
+      " imitation ",
+      "이전"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "진심",
+    "choices": [
+      "알리다",
+      "이기다",
+      "움직임",
+      " 가식"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "최고",
+    "choices": [
+      " 최악",
+      "개인",
+      "사회",
+      "방"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "흡연구역",
+    "choices": [
+      " 비흡연구역",
+      "요즘",
+      "그래도",
+      "흐르다"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "알뜰하다",
+    "choices": [
+      " 낭비하다",
+      "산업",
+      "인물",
+      "뭐"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "흥미롭다",
+    "choices": [
+      " 관심이 없다",
+      "어떻다",
+      "결혼",
+      "기술"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "같다",
+    "choices": [
+      " 다르다 ",
+      "파악하다",
+      "주장",
+      "전통"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "젊다",
+    "choices": [
+      "형식",
+      " 늙다 ",
+      "오후",
+      "이르다"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "가깝다",
+    "choices": [
+      " 멀다 ",
+      "넘다",
+      "옆",
+      "시험"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "깨끗하다",
+    "choices": [
+      " 더럽다",
+      "문제",
+      "커다랗다",
+      "한마디"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "길다 ",
+    "choices": [
+      "심각하다",
+      " 짧다",
+      "컴퓨터",
+      "나라"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "조용하다 ",
+    "choices": [
+      " 시끄럽다",
+      "생기다",
+      "전국",
+      "실시하다"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "좋다",
+    "choices": [
+      "아기",
+      "맛있다",
+      " 싫다 ",
+      "배"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "높다",
+    "choices": [
+      "자라다",
+      " 낮다",
+      "벗다",
+      "시대"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "가볍다",
+    "choices": [
+      "모두",
+      "낮다",
+      "위",
+      " 무겁다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "넓다",
+    "choices": [
+      "결혼",
+      "주요",
+      "어울리다",
+      " 좁다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "밝다",
+    "choices": [
+      "오래",
+      "던지다",
+      "이후",
+      " 어둡다 "
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "달다",
+    "choices": [
+      "시인",
+      "지구",
+      " 쓰다",
+      "원인"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "덥다",
+    "choices": [
+      "조사하다",
+      " 춥다",
+      "그렇다",
+      "가지"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "뜨겁다",
+    "choices": [
+      "싶다",
+      "크다",
+      " 차갑다",
+      "형태"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "안전하다",
+    "choices": [
+      "썰다",
+      "이해",
+      " 위험하다",
+      "보호"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "맑다",
+    "choices": [
+      "다르다",
+      "대중",
+      " 흐리다",
+      "조직"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "얇다",
+    "choices": [
+      "방향",
+      " 두껍다",
+      "기르다",
+      "구하다"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "꽉끼다",
+    "choices": [
+      "성장",
+      " 헐렁하다/느슨하다",
+      "다른",
+      "전혀"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "닫다",
+    "choices": [
+      "사장",
+      "특징",
+      "열다",
+      "없어지다"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "지다",
+    "choices": [
+      "대회",
+      "이기다",
+      "소녀",
+      "우선"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "줄다 ",
+    "choices": [
+      "연구",
+      "사이",
+      "늘다",
+      "번"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "깨다 / 일어나다",
+    "choices": [
+      "밥",
+      "현재",
+      "끌다",
+      "자다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "당기다",
+    "choices": [
+      "밀다 ",
+      "다만",
+      "작품",
+      "모르다"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "실패하다",
+    "choices": [
+      "참",
+      "밤",
+      "성공하다 ",
+      "울다"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "태어나다",
+    "choices": [
+      "죽다 ",
+      "아저씨",
+      "바탕",
+      "주인"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "수출하다",
+    "choices": [
+      "맡다",
+      "마치다",
+      "곧",
+      "수입하다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "들어오다",
+    "choices": [
+      "마련하다",
+      "계속되다",
+      "살리다",
+      "나가다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "필요없다",
+    "choices": [
+      "만큼",
+      "필요하다",
+      "낮다",
+      "대답하다"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "오다",
+    "choices": [
+      "삼국",
+      "가다",
+      "그러하다",
+      "계속"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "느리다",
+    "choices": [
+      "시작하다",
+      "무슨",
+      "영향",
+      "빠르다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "서투르다",
+    "choices": [
+      "경제",
+      "맡다",
+      "겨울",
+      "유창하다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "모르다",
+    "choices": [
+      "생명",
+      "강하다",
+      "알다",
+      "연구"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "늦다",
+    "choices": [
+      "눕다",
+      "임금",
+      "발생하다",
+      "이르다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "의도하다",
+    "choices": [
+      "얼굴",
+      "우연하다",
+      "같다",
+      "약"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "한가하다",
+    "choices": [
+      "자신",
+      "바쁘다",
+      "생활",
+      "조건"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "없다",
+    "choices": [
+      "자리",
+      "넣다",
+      "있다",
+      "버리다"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "불가능하다",
+    "choices": [
+      "가능하다 ",
+      "제일",
+      "있다",
+      "나가다"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "나쁘다",
+    "choices": [
+      "투자",
+      "단체",
+      "공장",
+      "좋다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "날씬하다",
+    "choices": [
+      "뚱뚱하다 ",
+      "잠시",
+      "결국",
+      "작용"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "재미없다",
+    "choices": [
+      "이런",
+      "재미있다",
+      "시대",
+      "남다"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "맛없다",
+    "choices": [
+      "주인",
+      "건물",
+      "버리다",
+      "맛있다 "
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "게으르다",
+    "choices": [
+      "자세",
+      "지나가다",
+      "근면하다 / 부지런하다",
+      "넣다"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "강하다",
+    "choices": [
+      "약하다 ",
+      "전문",
+      "프로그램",
+      "노동자"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "복잡하다",
+    "choices": [
+      "그중",
+      "원",
+      "단순하다 ",
+      "힘"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "복잡하다",
+    "choices": [
+      "한산하다",
+      "수업",
+      "관계",
+      "그래서"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "병약하다",
+    "choices": [
+      "이거",
+      "원하다",
+      "건강하다",
+      "경험"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 슬프다",
+    "choices": [
+      "시",
+      "년",
+      "행복하다",
+      "비다"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "거만하다",
+    "choices": [
+      "겸손하다",
+      "약간",
+      "자리",
+      "놀라다"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "못생기다",
+    "choices": [
+      "어떠하다",
+      "열다",
+      "전문",
+      "예쁘다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "못생기다",
+    "choices": [
+      "맞다",
+      "실시하다",
+      "보이다",
+      "잘생기다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "헤어지다",
+    "choices": [
+      "공간",
+      "사귀다",
+      "반드시",
+      "변화"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 쓸모없다",
+    "choices": [
+      "쓸모있다",
+      "그런",
+      "지난해",
+      "아침"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 비관하다 ",
+    "choices": [
+      "끝나다",
+      "낙관하다 ",
+      "나가다",
+      "더욱"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 불편하다 ",
+    "choices": [
+      "산",
+      "꼭",
+      "옷",
+      "편하다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 개방적이다",
+    "choices": [
+      "아름답다",
+      "남",
+      "보수적이다",
+      "무슨"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 부족하다",
+    "choices": [
+      "참다",
+      "옆",
+      "집",
+      " 충분하다 "
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 무능하다",
+    "choices": [
+      "유능하다",
+      "믿다",
+      "한",
+      "세상"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " imitation ",
+    "choices": [
+      "가짜 ",
+      "분야",
+      "죽다",
+      "할머니"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 가식",
+    "choices": [
+      "까닭",
+      "소식",
+      "진심",
+      "텔레비전"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 최악",
+    "choices": [
+      "오월",
+      "최고",
+      "잠",
+      "적"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 비흡연구역",
+    "choices": [
+      "흡연구역",
+      "차례",
+      "믿다",
+      "반"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 낭비하다",
+    "choices": [
+      "원인",
+      "계속되다",
+      "알뜰하다",
+      "이날"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 관심이 없다",
+    "choices": [
+      "준비",
+      "형식",
+      "흥미롭다",
+      "노인"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 다르다 ",
+    "choices": [
+      "전문",
+      "같다",
+      "누구",
+      "쉽다"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 늙다 ",
+    "choices": [
+      "삼다",
+      "요즘",
+      "한",
+      "젊다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 멀다 ",
+    "choices": [
+      "가깝다",
+      "예정",
+      "잘",
+      "키우다"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 더럽다",
+    "choices": [
+      "기능",
+      "새",
+      "없이",
+      "깨끗하다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 짧다",
+    "choices": [
+      "나가다",
+      "낳다",
+      "버리다",
+      "길다 "
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 시끄럽다",
+    "choices": [
+      "시민",
+      "오늘날",
+      "오다",
+      "조용하다 "
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 싫다 ",
+    "choices": [
+      "미치다",
+      "좋다",
+      "편",
+      "발표하다"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 낮다",
+    "choices": [
+      "높다",
+      "오늘날",
+      "울다",
+      "기록"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 무겁다",
+    "choices": [
+      "분명하다",
+      "오후",
+      "가볍다",
+      "사진"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 좁다",
+    "choices": [
+      "비롯하다",
+      "찾아보다",
+      "아래",
+      "넓다"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 어둡다 ",
+    "choices": [
+      "밝다",
+      "환경",
+      "하나",
+      "대중"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 쓰다",
+    "choices": [
+      "서로",
+      "지역",
+      "달다",
+      "고개"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 춥다",
+    "choices": [
+      "통신",
+      "울다",
+      "덥다",
+      "그러다"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 차갑다",
+    "choices": [
+      "파악하다",
+      "뜨겁다",
+      "건설",
+      "전하다"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 위험하다",
+    "choices": [
+      "안전하다",
+      "민족",
+      "과연",
+      "주제"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 흐리다",
+    "choices": [
+      "설명하다",
+      "중",
+      "맑다",
+      "구하다"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 두껍다",
+    "choices": [
+      "좋다",
+      "얇다",
+      "전화",
+      "저"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " 헐렁하다/느슨하다",
+    "choices": [
+      "짓다",
+      "꽉끼다",
+      "대부분",
+      "가치"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  }
+]

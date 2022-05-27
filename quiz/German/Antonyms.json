@@ -1,0 +1,8530 @@
+[
+  {
+    "question": "ähnlich",
+    "choices": [
+      "sauber",
+      "Säge",
+      "natürlich",
+      "unähnlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ähnlich",
+    "choices": [
+      "Bewegung",
+      "Krawatte",
+      "verschieden",
+      "Feige"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "alt",
+    "choices": [
+      "fiel",
+      "arrangieren",
+      "obere",
+      "jung"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "alt",
+    "choices": [
+      "Achtung",
+      "jung",
+      "Lüge",
+      "Koch"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "alt",
+    "choices": [
+      "realen",
+      "Gebiss",
+      "überprüfen",
+      "jung"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "alt",
+    "choices": [
+      "hören",
+      "Freund",
+      "neu",
+      "passieren"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "alt",
+    "choices": [
+      "Papa",
+      "danken",
+      "neu",
+      "Spiel"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "alt",
+    "choices": [
+      "neu",
+      "Glas",
+      "Antwort",
+      "Bereich"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "alt",
+    "choices": [
+      "Objekt",
+      "modern",
+      "gewinnen",
+      "blau"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "alt",
+    "choices": [
+      "Bein",
+      "modern",
+      "Blatt",
+      "bekam"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "alt",
+    "choices": [
+      "modern",
+      "wenn",
+      "Himmel",
+      "Tal"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "angenehm",
+    "choices": [
+      "besser",
+      "Hinweis",
+      "unangenehm",
+      "Fisch"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "anwesend",
+    "choices": [
+      "abwesend",
+      "Kind",
+      "Presse",
+      "Zoll"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "bekannt",
+    "choices": [
+      "Hals",
+      "unbekannt",
+      "Salz",
+      "Sprache"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "bekannt",
+    "choices": [
+      "mit",
+      "unbekannt",
+      "oder",
+      "verloren"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "besser",
+    "choices": [
+      "schlechter",
+      "gerade",
+      "besitzen",
+      "bestellen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "bestimmt",
+    "choices": [
+      "sicher",
+      "unbestimmt",
+      "Verbreitung",
+      "berg"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "bestimmt",
+    "choices": [
+      "Fluss",
+      "Prüfung",
+      "Anruf",
+      "unbestimmt"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "bestimmt",
+    "choices": [
+      "unbestimmt",
+      "Kuh",
+      "verkaufen",
+      "kurz"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "bunt",
+    "choices": [
+      "werfen",
+      "einfarbig",
+      "sie",
+      "Melodie"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "bunt",
+    "choices": [
+      "einfarbig",
+      "Mutter",
+      "Glocke",
+      "Wolke"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dankbar",
+    "choices": [
+      "subtrahieren",
+      "undankbar",
+      "Gesetz",
+      "unterlassen Sie"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "deutlich",
+    "choices": [
+      "ich",
+      "könnte",
+      "vier",
+      "undeutlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "deutlich",
+    "choices": [
+      "Koch",
+      "schaffen",
+      "möglich",
+      "undeutlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "deutlich",
+    "choices": [
+      "Einzel",
+      "sieben",
+      "Geschichte",
+      "undeutlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dick",
+    "choices": [
+      "Metall",
+      "dünn",
+      "gefunden",
+      "Achtung"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dick",
+    "choices": [
+      "Substanz",
+      "wahr",
+      "beweisen",
+      "dünn"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "direkt",
+    "choices": [
+      "genau",
+      "zahlen",
+      "indirekt",
+      "Himmel"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "direkt",
+    "choices": [
+      "neu",
+      "sitzen",
+      "Segel",
+      "indirekt"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ehrlich",
+    "choices": [
+      "beide",
+      "unehrlich",
+      "pflücken",
+      "Aufzug"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eigen",
+    "choices": [
+      "Wasser",
+      "erscheinen",
+      "uneigen",
+      "gleich"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eigen",
+    "choices": [
+      "uneigen",
+      "sa",
+      "Menge",
+      "Veranstaltung"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eigen",
+    "choices": [
+      "fremd",
+      "Kosten",
+      "seit",
+      "sammeln"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eigen",
+    "choices": [
+      "Ohr",
+      "tragen",
+      "fremd",
+      "Stahl"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eigen",
+    "choices": [
+      "noch",
+      "uneigen",
+      "Größe",
+      "Schwanz"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eigen",
+    "choices": [
+      "Leben",
+      "waren",
+      "uneigen",
+      "Quotient"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eigen",
+    "choices": [
+      "Praxis",
+      "fremd",
+      "verbinden",
+      "Kampf"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eigen",
+    "choices": [
+      "fremd",
+      "sterben",
+      "Kopf",
+      "dies"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "Überraschung",
+      "Original",
+      "viel",
+      "Draht"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "schnell",
+      "viel",
+      "Flüssigkeit",
+      "Gases"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "Erde",
+      "Abend",
+      "alt",
+      "zusammen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "Partei",
+      "Instrument",
+      "Erde",
+      "zusammen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "Wasch",
+      "viel",
+      "zwei",
+      "lesen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "Baum",
+      "Regel",
+      "viel",
+      "ziemlich"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "zusammen",
+      "Veranstaltung",
+      "Schreiben",
+      "Zeichen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "oft",
+      "falsch",
+      "zusammen",
+      "Freude"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "erste",
+      "ruhig",
+      "mir",
+      "viel"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "viel",
+      "direkt",
+      "warten",
+      "Holz"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "Süden",
+      "abhängen",
+      "zusammen",
+      "schnell"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "Kind",
+      "Musik",
+      "Geschichte",
+      "zusammen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "Frühling",
+      "schreiben",
+      "Beispiel",
+      "viel"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "viel",
+      "Tag",
+      "hier",
+      "werfen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "sitzen",
+      "beide",
+      "Mund",
+      "zusammen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einzeln",
+    "choices": [
+      "Luft",
+      "jeder",
+      "zwischen",
+      "zusammen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "elegant",
+    "choices": [
+      "Rolle",
+      "unelegant",
+      "sehr",
+      "hoch"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "empfindlich",
+    "choices": [
+      "ziemlich",
+      "Lüge",
+      "unempfindlich",
+      "Katze"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eng",
+    "choices": [
+      "Kopie",
+      "weit",
+      "Ufer",
+      "empfangen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eng",
+    "choices": [
+      "Tag",
+      "nahm",
+      "spielen",
+      "weit"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eng",
+    "choices": [
+      "Rand",
+      "kommen",
+      "weit",
+      "nach"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eng",
+    "choices": [
+      "Region",
+      "Papier",
+      "weit",
+      "Bruder"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eng",
+    "choices": [
+      "Menge",
+      "weit",
+      "Praxis",
+      "deren"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eng",
+    "choices": [
+      "heiß",
+      "einige",
+      "ängstlich",
+      "weit"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eng",
+    "choices": [
+      "Säge",
+      "Quotient",
+      "weit",
+      "Dur"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eng",
+    "choices": [
+      "Maßstab",
+      "weit",
+      "am meisten",
+      "wenn"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "erfahren",
+    "choices": [
+      "glücklich",
+      "Eile",
+      "Begriff",
+      "unerfahren"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fest",
+    "choices": [
+      "auch",
+      "warme",
+      "locker",
+      "zustimmen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fest",
+    "choices": [
+      "locker",
+      "Schüler",
+      "wird",
+      "Maschine"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fest",
+    "choices": [
+      "Holz",
+      "weich",
+      "mehrere",
+      "so"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fest",
+    "choices": [
+      "fein",
+      "verloren",
+      "Material",
+      "weich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "flach",
+    "choices": [
+      "Einheit",
+      "Schwanz",
+      "wollen",
+      "steil"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "flach",
+    "choices": [
+      "besser",
+      "Reihe",
+      "steil",
+      "tot"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "flach",
+    "choices": [
+      "Verwendung",
+      "tief",
+      "verbringen",
+      "Prüfung"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "flach",
+    "choices": [
+      "Thema",
+      "brennen",
+      "tief",
+      "begann"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "flach",
+    "choices": [
+      "aus",
+      "frisch",
+      "steil",
+      "gemeinsam"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "flach",
+    "choices": [
+      "Gruppe",
+      "steil",
+      "aus",
+      "schwer"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "flach",
+    "choices": [
+      "erreichen",
+      "tief",
+      "Schuh",
+      "grün"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "flach",
+    "choices": [
+      "Immobilien",
+      "Stadt",
+      "tief",
+      "Kurs"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fleißig",
+    "choices": [
+      "neun",
+      "Frau",
+      "faul",
+      "Kraft"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "frei",
+    "choices": [
+      "unfrei",
+      "kaufen",
+      "geführt",
+      "Motor"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "freundlich",
+    "choices": [
+      "Aufstieg",
+      "unfreundlich",
+      "für",
+      "Ebene"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "froh",
+    "choices": [
+      "traurig",
+      "Reise",
+      "Lüge",
+      "Papa"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "geduldig",
+    "choices": [
+      "Million",
+      "geboren",
+      "ungeduldig",
+      "Dauer"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "geizig",
+    "choices": [
+      "wie",
+      "Mitte",
+      "großzügig",
+      "Frauen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gemeinsam",
+    "choices": [
+      "allein",
+      "berg",
+      "beschreiben",
+      "Spiel"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gemütlich",
+    "choices": [
+      "ungemütlich",
+      "vielleicht",
+      "Dur",
+      "schwarz"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gemütlich",
+    "choices": [
+      "ungemütlich",
+      "arm",
+      "zweite",
+      "grün"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "genau",
+    "choices": [
+      "ungenau",
+      "Gesetz",
+      "genug",
+      "bedeuten"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "genau",
+    "choices": [
+      "Lager",
+      "Quart",
+      "Speicher",
+      "ungenau"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "genau",
+    "choices": [
+      "Reise",
+      "immer",
+      "ungenau",
+      "Zweig"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "sprechen",
+      "noch",
+      "ungerade",
+      "glauben"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "Frau",
+      "tief",
+      "Silber",
+      "ungerade"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "krumm",
+      "Stein",
+      "Wolke",
+      "je"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "Maßstab",
+      "Versorgung",
+      "krumm",
+      "fortsetzen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "ungerade",
+      "Gesetz",
+      "Soldat",
+      "Pistole"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "Schulter",
+      "Leben",
+      "bekam",
+      "ungerade"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "sein",
+      "gemeinsam",
+      "Lüge",
+      "krumm"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "Linie",
+      "Uhr",
+      "die",
+      "krumm"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "deren",
+      "Uhr",
+      "Zelle",
+      "ungerade"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "Stick",
+      "ungerade",
+      "jeder",
+      "bereit"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "krumm",
+      "geschrieben",
+      "groß",
+      "Wunder"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "diejenigen",
+      "Büro",
+      "krumm",
+      "Kraft"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "hoffen",
+      "ungerade",
+      "Quart",
+      "kommen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "bleiben",
+      "fallen",
+      "ungerade",
+      "Eisen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "Schulter",
+      "schwimmen",
+      "krumm",
+      "Kleid"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gerade",
+    "choices": [
+      "Gedanken",
+      "krumm",
+      "Seite",
+      "Gedicht"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "geschickt",
+    "choices": [
+      "Metall",
+      "dienen",
+      "Million",
+      "ungeschickt"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "geschickt",
+    "choices": [
+      "ungeschickt",
+      "dünn",
+      "Lösung",
+      "abhängen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "geschickt",
+    "choices": [
+      "ungeschickt",
+      "Musik",
+      "verlassen",
+      "Fluss"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gesund",
+    "choices": [
+      "Wort",
+      "ungesund",
+      "Formular",
+      "wollen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gesund",
+    "choices": [
+      "schreiben",
+      "ungesund",
+      "einfach",
+      "Gesetz"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gesund",
+    "choices": [
+      "fortsetzen",
+      "besiedeln",
+      "genug",
+      "krank"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gesund",
+    "choices": [
+      "Mittag",
+      "krank",
+      "Veranstaltung",
+      "auftreten"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gewiss",
+    "choices": [
+      "erlauben",
+      "ungewiss",
+      "beitreten",
+      "fiel"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gewiss",
+    "choices": [
+      "Prozess",
+      "die",
+      "ungewiss",
+      "bei"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "glatt",
+    "choices": [
+      "treffen",
+      "rau",
+      "Aktie",
+      "unter"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "sitzen",
+      "ungleich",
+      "winzig",
+      "sprechen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "Chance",
+      "Bit",
+      "ungleich",
+      "Musik"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "Augenblick",
+      "fragen",
+      "verschieden",
+      "Pflege"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "geöffnet",
+      "sonst",
+      "verschieden",
+      "zurück"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "Segment",
+      "ungleich",
+      "leben",
+      "empfangen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "ungleich",
+      "rot",
+      "kommen",
+      "besiedeln"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "verbringen",
+      "aus",
+      "verschieden",
+      "Geschwindigkeit"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "wusste",
+      "Futtermittel",
+      "gemeint",
+      "verschieden"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "glücklich",
+    "choices": [
+      "wünschen",
+      "pflücken",
+      "wenig",
+      "unglücklich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "groß",
+    "choices": [
+      "tragen",
+      "klein",
+      "froh",
+      "gerade"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "groß",
+    "choices": [
+      "groß",
+      "klein",
+      "Basis",
+      "wenn"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "groß",
+    "choices": [
+      "Geschäft",
+      "Chef",
+      "klein",
+      "Kontrolle"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "groß",
+    "choices": [
+      "Schiene",
+      "leben",
+      "klein",
+      "obere"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gut",
+    "choices": [
+      "schlecht",
+      "groß",
+      "nach unten",
+      "Vogel"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gut",
+    "choices": [
+      "Fleisch",
+      "Papier",
+      "erste",
+      "schlecht"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gut",
+    "choices": [
+      "böse",
+      "ein",
+      "Speicher",
+      "Eisen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gut",
+    "choices": [
+      "Ebene",
+      "kühlen",
+      "Front",
+      "böse"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "halb",
+    "choices": [
+      "Flügel",
+      "ganz",
+      "ganz",
+      "Schrei"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "hart",
+    "choices": [
+      "weich",
+      "küken",
+      "Pose",
+      "hoch"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "häufig",
+    "choices": [
+      "selten",
+      "kurz",
+      "klein",
+      "Quotient"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "häufig",
+    "choices": [
+      "Stamm",
+      "selten",
+      "Boden",
+      "erreichen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "heiß",
+    "choices": [
+      "kalt",
+      "Abdeckung",
+      "passieren",
+      "fünf"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "hell",
+    "choices": [
+      "König",
+      "dunkel",
+      "Gruppe",
+      "durch"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "hoch",
+    "choices": [
+      "zusammen",
+      "tief",
+      "messen",
+      "Frage"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "hoch",
+    "choices": [
+      "hier",
+      "vorhanden",
+      "aufladen",
+      "tief"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "höflich",
+    "choices": [
+      "Luft",
+      "unhöflich",
+      "gebracht",
+      "Schnitt"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "horizontal",
+    "choices": [
+      "Hilfe",
+      "springen",
+      "vertikal",
+      "gebracht"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "hungrig",
+    "choices": [
+      "Boden",
+      "satt",
+      "fühlen",
+      "gemeint"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "hungrig",
+    "choices": [
+      "Küste",
+      "als",
+      "satt",
+      "jeder"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "interessant",
+    "choices": [
+      "uninteressant",
+      "wie",
+      "nach",
+      "sammeln"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "interessant",
+    "choices": [
+      "Geschichte",
+      "uninteressant",
+      "wie",
+      "Idee"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "interessant",
+    "choices": [
+      "Schnur",
+      "die",
+      "langweilig",
+      "Natur"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "interessant",
+    "choices": [
+      "weniger",
+      "langweilig",
+      "enthalten",
+      "Satz"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "kaputt",
+    "choices": [
+      "ganz",
+      "empfangen",
+      "realen",
+      "Schnee"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "kaputt",
+    "choices": [
+      "Liebe",
+      "wenn",
+      "ganz",
+      "subtrahieren"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "kaputt",
+    "choices": [
+      "Auto",
+      "ganz",
+      "hoch",
+      "wie"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klar",
+    "choices": [
+      "Süden",
+      "Geschwindigkeit",
+      "Geschicklichkeit",
+      "unklar"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klar",
+    "choices": [
+      "gerade",
+      "Kampf",
+      "die",
+      "unklar"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klug",
+    "choices": [
+      "einige",
+      "unklug",
+      "schnell",
+      "Anzahl"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klug",
+    "choices": [
+      "erste",
+      "dann",
+      "unklug",
+      "schrieb"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klug",
+    "choices": [
+      "Reise",
+      "Süden",
+      "dumm",
+      "Erfolg"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klug",
+    "choices": [
+      "machen",
+      "dumm",
+      "Ecke",
+      "Dur"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klug",
+    "choices": [
+      "ente",
+      "Rutsch",
+      "ging",
+      "unklug"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klug",
+    "choices": [
+      "sehen",
+      "so",
+      "unklug",
+      "besiedeln"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klug",
+    "choices": [
+      "am wenigsten",
+      "dumm",
+      "Sand",
+      "Pistole"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klug",
+    "choices": [
+      "umfassen",
+      "dumm",
+      "Molekül",
+      "überqueren"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lang",
+    "choices": [
+      "Zeichen",
+      "Tatsache",
+      "kurz",
+      "Flugzeug"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lange",
+    "choices": [
+      "kurz",
+      "schwer",
+      "warme",
+      "Reifen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "laut",
+    "choices": [
+      "Bit",
+      "passieren",
+      "leise",
+      "gegen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "letzter",
+    "choices": [
+      "gehen",
+      "erster",
+      "besiedeln",
+      "Melodie"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "letzte",
+    "choices": [
+      "erster",
+      "bieten",
+      "sonst",
+      "Idee"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "letztes",
+    "choices": [
+      "gerade",
+      "erster",
+      "vergleichen",
+      "Jahr"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "letzter",
+    "choices": [
+      "merken",
+      "jetzt",
+      "erste",
+      "Krieg"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "letzte",
+    "choices": [
+      "Meer",
+      "erste",
+      "Stein",
+      "halten"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "letztes",
+    "choices": [
+      "einige",
+      "links",
+      "Stimme",
+      "erste"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "letzter",
+    "choices": [
+      "so",
+      "schwer",
+      "erstes",
+      "Tag"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "letzte",
+    "choices": [
+      "erstes",
+      "Stadt",
+      "Schuh",
+      "Grund"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "letztes",
+    "choices": [
+      "abweichen",
+      "erstes",
+      "Ohr",
+      "Pistole"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lustig",
+    "choices": [
+      "Stuhl",
+      "unlustig",
+      "braun",
+      "versuchen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lustig",
+    "choices": [
+      "groß",
+      "nach unten",
+      "Wörterbuch",
+      "unlustig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lustig",
+    "choices": [
+      "unlustig",
+      "sprechen",
+      "Ort",
+      "vorwärts"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lustig",
+    "choices": [
+      "Soldat",
+      "zehn",
+      "zeigen",
+      "ernst"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lustig",
+    "choices": [
+      "Glas",
+      "geschrieben",
+      "Start",
+      "ernst"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lustig",
+    "choices": [
+      "Plan",
+      "ernst",
+      "Menge",
+      "Wiederholung"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lustig",
+    "choices": [
+      "unlustig",
+      "Schulter",
+      "Funk",
+      "Dauer"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lustig",
+    "choices": [
+      "Schwester",
+      "unlustig",
+      "eingeben",
+      "Wald"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lustig",
+    "choices": [
+      "unlustig",
+      "Saison",
+      "wiederum",
+      "Haus"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lustig",
+    "choices": [
+      "messen",
+      "durch",
+      "ernst",
+      "seltsam"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lustig",
+    "choices": [
+      "Liebe",
+      "ernst",
+      "Stadt",
+      "so"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lustig",
+    "choices": [
+      "Segment",
+      "ernst",
+      "sehen",
+      "Blut"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "mein",
+    "choices": [
+      "bestellen",
+      "still",
+      "dein",
+      "Einzel"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "möglich",
+    "choices": [
+      "Energie",
+      "Spur",
+      "braun",
+      "unmöglich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "müde",
+    "choices": [
+      "einige",
+      "wach",
+      "ich",
+      "früh"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "nah",
+    "choices": [
+      "Schale",
+      "beschäftigt",
+      "fern",
+      "Schließen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "nass",
+    "choices": [
+      "Macht",
+      "Zentrum",
+      "Fuß",
+      "trocken"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "national",
+    "choices": [
+      "international",
+      "sie",
+      "Futtermittel",
+      "Feind"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "natürlich",
+    "choices": [
+      "unnatürlich",
+      "Fehl",
+      "Abdeckung",
+      "Grad"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "normal",
+    "choices": [
+      "Fang",
+      "unnormal",
+      "Geschäft",
+      "sicher"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "zeigen",
+      "Objekt",
+      "Karte",
+      "geschlossen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "sehr",
+      "Öl",
+      "geschlossen",
+      "passieren"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "geschlossen",
+      "Schlüssel",
+      "Strom",
+      "Schwester"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "schwimmen",
+      "geschlossen",
+      "Ebene",
+      "zwischen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "einmal",
+      "Kind",
+      "verschlossen",
+      "spät"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "verschlossen",
+      "sehr",
+      "breit",
+      "groß"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "Schönheit",
+      "Schnur",
+      "Interesse",
+      "verschlossen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "Versuch",
+      "verschlossen",
+      "Zeichen",
+      "fähig"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "Ärger",
+      "Krawatte",
+      "geschlossen",
+      "erfordern"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "schrieb",
+      "nur",
+      "geschlossen",
+      "Spur"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "elektrisch",
+      "zusammen",
+      "protokollieren",
+      "geschlossen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "geschlossen",
+      "warten",
+      "Jagd",
+      "Sitz"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "Rekord",
+      "verschlossen",
+      "Muster",
+      "Grund"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "dünn",
+      "verschlossen",
+      "Mann",
+      "Norden"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "Bruder",
+      "empfangen",
+      "verschlossen",
+      "Tonhöhe"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "offen",
+    "choices": [
+      "Leiste",
+      "Orgel",
+      "verschlossen",
+      "Kraft"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "öffentlich",
+    "choices": [
+      "werden",
+      "acht",
+      "privat",
+      "Uhr"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ordentlich",
+    "choices": [
+      "unordentlich",
+      "pflücken",
+      "Angst",
+      "entfernt"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ordentlich",
+    "choices": [
+      "Lager",
+      "unordentlich",
+      "apfel",
+      "kommen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ordentlich",
+    "choices": [
+      "Lächeln",
+      "unordentlich",
+      "Tabelle",
+      "Sinn"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ordentlich",
+    "choices": [
+      "bieten",
+      "Frau",
+      "beobachten",
+      "unordentlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ordentlich",
+    "choices": [
+      "unordentlich",
+      "überqueren",
+      "stehen",
+      "alle"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ordentlich",
+    "choices": [
+      "was",
+      "unordentlich",
+      "Spiel",
+      "Morgen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "persönlich",
+    "choices": [
+      "blau",
+      "Rolle",
+      "Tag",
+      "unpersönlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "persönlich",
+    "choices": [
+      "Straße",
+      "Macht",
+      "unpersönlich",
+      "machen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "positiv",
+    "choices": [
+      "Kugel",
+      "Schnee",
+      "Knochen",
+      "negativ"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "praktisch",
+    "choices": [
+      "Spaß",
+      "unpraktisch",
+      "Uhr",
+      "Karte"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "praktisch",
+    "choices": [
+      "erste",
+      "Satz",
+      "unpraktisch",
+      "Schrei"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "praktisch",
+    "choices": [
+      "Satz",
+      "träumen",
+      "unpraktisch",
+      "Ihre"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "pünktlich",
+    "choices": [
+      "Abbildung",
+      "von",
+      "unpünktlich",
+      "Kraft"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "pünktlich",
+    "choices": [
+      "Position",
+      "Arm",
+      "unpünktlich",
+      "so"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "pünktlich",
+    "choices": [
+      "Partei",
+      "nicht",
+      "Tatsache",
+      "unpünktlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "pünktlich",
+    "choices": [
+      "Spur",
+      "Gewicht",
+      "unpünktlich",
+      "durch"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "pünktlich",
+    "choices": [
+      "Buch",
+      "unpünktlich",
+      "Ei",
+      "Tabelle"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "pünktlich",
+    "choices": [
+      "unpünktlich",
+      "Geschäft",
+      "Wasch",
+      "Dorf"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "recht",
+    "choices": [
+      "Arm",
+      "Stadt",
+      "Männer",
+      "unrecht"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "reich",
+    "choices": [
+      "arm",
+      "sollte",
+      "gehört",
+      "verbringen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "richtig",
+    "choices": [
+      "falsch",
+      "Schulter",
+      "weich",
+      "auf"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "richtig",
+    "choices": [
+      "falsch",
+      "Ursache",
+      "umfassen",
+      "Zoll"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "richtig",
+    "choices": [
+      "Kind",
+      "falsch",
+      "sagte",
+      "Obst"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "richtig",
+    "choices": [
+      "von",
+      "Materie",
+      "bestimmen",
+      "falsch"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "rund",
+    "choices": [
+      "da",
+      "jeder",
+      "eckig",
+      "vorhanden"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "rund",
+    "choices": [
+      "als",
+      "von",
+      "Anzug",
+      "eckig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sanft",
+    "choices": [
+      "dunkel",
+      "unsanft",
+      "winzig",
+      "wahr"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sanft",
+    "choices": [
+      "sammeln",
+      "unsanft",
+      "bekam",
+      "viel"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sauber",
+    "choices": [
+      "lernen",
+      "Stuhl",
+      "dreckig",
+      "Ihre"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sauber",
+    "choices": [
+      "Industrie",
+      "Kopie",
+      "schmutzig",
+      "Zeichen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schnell",
+    "choices": [
+      "froh",
+      "still",
+      "langsam",
+      "schnell"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schön",
+    "choices": [
+      "Boden",
+      "ich",
+      "vor",
+      "hässlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwer",
+    "choices": [
+      "Zeichen",
+      "erscheinen",
+      "Mittag",
+      "leicht"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwierig",
+    "choices": [
+      "hören",
+      "Loch",
+      "leicht",
+      "tun"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwer",
+    "choices": [
+      "leicht",
+      "einige",
+      "Welt",
+      "gegen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwierig",
+    "choices": [
+      "bringen",
+      "leicht",
+      "Holz",
+      "verlassen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwer",
+    "choices": [
+      "Bauernhof",
+      "setzen",
+      "schwarz",
+      "einfach"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwierig",
+    "choices": [
+      "einfach",
+      "fragen",
+      "Sprache",
+      "erraten"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwer",
+    "choices": [
+      "einfach",
+      "führen",
+      "Lüge",
+      "Atom"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwierig",
+    "choices": [
+      "Melodie",
+      "gemeint",
+      "Stein",
+      "einfach"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwer",
+    "choices": [
+      "Chance",
+      "vor",
+      "leicht",
+      "Druck"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwierig",
+    "choices": [
+      "zehn",
+      "Auge",
+      "sicher",
+      "leicht"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwer",
+    "choices": [
+      "leicht",
+      "Begriff",
+      "diese",
+      "Seil"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwierig",
+    "choices": [
+      "Wurzel",
+      "Ei",
+      "subtrahieren",
+      "leicht"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwer",
+    "choices": [
+      "einfach",
+      "unter",
+      "vor",
+      "Nation"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwierig",
+    "choices": [
+      "Verwendung",
+      "einfach",
+      "fallen",
+      "Maschine"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwer",
+    "choices": [
+      "überprüfen",
+      "erreichen",
+      "einfach",
+      "wenn"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwierig",
+    "choices": [
+      "schreiben",
+      "Gesetz",
+      "einfach",
+      "zurück"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sicher",
+    "choices": [
+      "unsicher",
+      "lernen",
+      "ganze",
+      "Marke"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sicher",
+    "choices": [
+      "Zug",
+      "erhöhen",
+      "Start",
+      "unsicher"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sicher",
+    "choices": [
+      "jeder",
+      "zwanzig",
+      "in der Nähe von",
+      "unsicher"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sozial",
+    "choices": [
+      "unsozial",
+      "vorwärts",
+      "ängstlich",
+      "zwischen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "spät",
+    "choices": [
+      "Praxis",
+      "eingeben",
+      "Menschen",
+      "früh"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "spitz",
+    "choices": [
+      "meine",
+      "uns",
+      "Übung",
+      "stumpf"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "spitz",
+    "choices": [
+      "Krieg",
+      "stumpf",
+      "Rekord",
+      "modernen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "spitz",
+    "choices": [
+      "gefunden",
+      "stumpf",
+      "Rekord",
+      "oh"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sportlich",
+    "choices": [
+      "Zeichen",
+      "geöffnet",
+      "unsportlich",
+      "Reihe"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sportlich",
+    "choices": [
+      "variieren",
+      "Lebensmittel",
+      "unsportlich",
+      "betrachten"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sportlich",
+    "choices": [
+      "Nachbar",
+      "Boden",
+      "unsportlich",
+      "Geschichte"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sportlich",
+    "choices": [
+      "modernen",
+      "Meer",
+      "unsportlich",
+      "scheinen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sportlich",
+    "choices": [
+      "hell",
+      "Kuh",
+      "unsportlich",
+      "Finale"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sportlich",
+    "choices": [
+      "Maßstab",
+      "ruhig",
+      "Wolke",
+      "unsportlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sportlich",
+    "choices": [
+      "sechs",
+      "dick",
+      "unsportlich",
+      "Fahrt"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sportlich",
+    "choices": [
+      "unsportlich",
+      "berühren",
+      "was",
+      "aber"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sportlich",
+    "choices": [
+      "üblich",
+      "Typ",
+      "ziemlich",
+      "unsportlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "stark",
+    "choices": [
+      "Zustand",
+      "Gases",
+      "treffen",
+      "schwach"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "süß",
+    "choices": [
+      "wird",
+      "sauer",
+      "gleich",
+      "andere"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "süß",
+    "choices": [
+      "vorbereiten",
+      "nahm",
+      "durch",
+      "sauer"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sympathisch",
+    "choices": [
+      "unsympathisch",
+      "stiegen",
+      "Wort",
+      "Ärger"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "teuer",
+    "choices": [
+      "billig",
+      "Sauerstoff",
+      "Pferd",
+      "schleppend"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "teuer",
+    "choices": [
+      "fortsetzen",
+      "billig",
+      "begeistern",
+      "frisch"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "treu",
+    "choices": [
+      "untreu",
+      "Liste",
+      "fiel",
+      "entweder"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "treu",
+    "choices": [
+      "untreu",
+      "Garten",
+      "Druck",
+      "wie"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "treu",
+    "choices": [
+      "untreu",
+      "singen",
+      "Dollar",
+      "sitzen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unterschiedlich",
+    "choices": [
+      "Glas",
+      "dann",
+      "gleich",
+      "fähig"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unterschiedlich",
+    "choices": [
+      "gewesen",
+      "gleich",
+      "springen",
+      "Glanz"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unterschiedlich",
+    "choices": [
+      "identisch",
+      "auf",
+      "Geist",
+      "laufen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unterschiedlich",
+    "choices": [
+      "gegen",
+      "Erde",
+      "identisch",
+      "Alter"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unterschiedlich",
+    "choices": [
+      "gleich",
+      "Einheit",
+      "kaufen",
+      "Menge"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unterschiedlich",
+    "choices": [
+      "Lüge",
+      "Arm",
+      "gleich",
+      "Dame"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unterschiedlich",
+    "choices": [
+      "Ende",
+      "Straße",
+      "Küste",
+      "identisch"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unterschiedlich",
+    "choices": [
+      "identisch",
+      "auftreten",
+      "Menge",
+      "eher"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unterschiedlich",
+    "choices": [
+      "alt",
+      "Ufer",
+      "Kind",
+      "gleich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unterschiedlich",
+    "choices": [
+      "gleich",
+      "Kosten",
+      "Stuhl",
+      "über"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unterschiedlich",
+    "choices": [
+      "identisch",
+      "er",
+      "Recht",
+      "ging"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unterschiedlich",
+    "choices": [
+      "identisch",
+      "Dampf",
+      "küken",
+      "statt"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "wenig",
+      "lokalisieren",
+      "träumen",
+      "erhöhen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "antworten",
+      "wenig",
+      "Dorf",
+      "Handel"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "schwer",
+      "sie",
+      "gering",
+      "tun"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "Formular",
+      "gering",
+      "Füße",
+      "Veranstaltung"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "Wasser",
+      "Besuch",
+      "wenig",
+      "schrieb"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "wenig",
+      "verkaufen",
+      "reich",
+      "Mine"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "sagte",
+      "Familie",
+      "gering",
+      "erfordern"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "gering",
+      "ob",
+      "sicher",
+      "Ärger"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "voll",
+    "choices": [
+      "leer",
+      "Wolke",
+      "zu",
+      "Arm"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "vorsichtig",
+    "choices": [
+      "still",
+      "Wohnung",
+      "unvorsichtig",
+      "Saison"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "vorsichtig",
+    "choices": [
+      "unvorsichtig",
+      "Stimme",
+      "tut",
+      "Speicher"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wahrscheinlich",
+    "choices": [
+      "mais",
+      "unwahrscheinlich",
+      "Jagd",
+      "gehen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wahrscheinlich",
+    "choices": [
+      "unwahrscheinlich",
+      "Zeit",
+      "wo",
+      "Silber"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wahrscheinlich",
+    "choices": [
+      "träumen",
+      "beobachten",
+      "Einzel",
+      "unwahrscheinlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wahrscheinlich",
+    "choices": [
+      "Station",
+      "einmal",
+      "Auge",
+      "unwahrscheinlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wertvoll",
+    "choices": [
+      "Weg",
+      "die",
+      "entscheiden",
+      "wertlos"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wertvoll",
+    "choices": [
+      "sie",
+      "wertlos",
+      "Mitte",
+      "Futtermittel"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wesentlich",
+    "choices": [
+      "Wetter",
+      "nach unten",
+      "Muster",
+      "unwesentlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wesentlich",
+    "choices": [
+      "unwesentlich",
+      "wie",
+      "seit",
+      "trennen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wesentlich",
+    "choices": [
+      "Zeichen",
+      "weit",
+      "unwesentlich",
+      "Garten"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wesentlich",
+    "choices": [
+      "Bewegung",
+      "unwesentlich",
+      "Suche",
+      "Mund"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wichtig",
+    "choices": [
+      "unwichtig",
+      "Hügel",
+      "Schnur",
+      "buchstabieren"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wild",
+    "choices": [
+      "Paar",
+      "füllen",
+      "Lachen",
+      "zahm"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zufrieden",
+    "choices": [
+      "dies",
+      "unzufrieden",
+      "sicher",
+      "dass"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zufrieden",
+    "choices": [
+      "bestellen",
+      "Geschwindigkeit",
+      "unzufrieden",
+      "Mannschaft"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zufrieden",
+    "choices": [
+      "Stretch",
+      "unzufrieden",
+      "Mittag",
+      "Mond"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zufrieden",
+    "choices": [
+      "Aufzug",
+      "sie",
+      "oh",
+      "unzufrieden"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zufrieden",
+    "choices": [
+      "ängstlich",
+      "schnell",
+      "unzufrieden",
+      "Arzt"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zufrieden",
+    "choices": [
+      "küken",
+      "erleichtern",
+      "jung",
+      "unzufrieden"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zufrieden",
+    "choices": [
+      "unzufrieden",
+      "tragen",
+      "glücklich",
+      "sehen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zufrieden",
+    "choices": [
+      "unzufrieden",
+      "seit",
+      "Baum",
+      "besondere"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zufrieden",
+    "choices": [
+      "ziehen",
+      "treffen",
+      "blau",
+      "unzufrieden"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unähnlich",
+    "choices": [
+      "ähnlich",
+      "Front",
+      "Haus",
+      "Himmel"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "verschieden",
+    "choices": [
+      "Ei",
+      "eher",
+      "ähnlich",
+      "Segel"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "jung",
+    "choices": [
+      "Stahl",
+      "kleiden",
+      "alt",
+      "Wind"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "jung",
+    "choices": [
+      "alt",
+      "Ort",
+      "Magnet",
+      "voll"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "jung",
+    "choices": [
+      "überqueren",
+      "Problem",
+      "alt",
+      "ankommen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "neu",
+    "choices": [
+      "selbst",
+      "liebe",
+      "Bein",
+      "alt"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "neu",
+    "choices": [
+      "alt",
+      "sagen",
+      "Bauernhof",
+      "riesig"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "neu",
+    "choices": [
+      "Hand",
+      "Weg",
+      "alt",
+      "dass"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "modern",
+    "choices": [
+      "außer",
+      "Hund",
+      "durch",
+      "alt"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "modern",
+    "choices": [
+      "alt",
+      "erwarten",
+      "Tier",
+      "Schule"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "modern",
+    "choices": [
+      "Finger",
+      "erhalten",
+      "Filz",
+      "alt"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unangenehm",
+    "choices": [
+      "angenehm",
+      "schwarz",
+      "oft",
+      "Lösung"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "abwesend",
+    "choices": [
+      "Getränk",
+      "anwesend",
+      "Maschine",
+      "Abschnitt"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unbekannt",
+    "choices": [
+      "muss",
+      "Paar",
+      "drei",
+      "bekannt"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unbekannt",
+    "choices": [
+      "Baum",
+      "beschreiben",
+      "bekannt",
+      "Getränk"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schlechter",
+    "choices": [
+      "besser",
+      "Firma",
+      "fallen",
+      "fließen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unbestimmt",
+    "choices": [
+      "Winter",
+      "schnell",
+      "allgemein",
+      "bestimmt"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unbestimmt",
+    "choices": [
+      "bestimmt",
+      "antworten",
+      "produzieren",
+      "Ergebnis"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unbestimmt",
+    "choices": [
+      "Anzahl",
+      "bestimmt",
+      "vorschlagen",
+      "kurz"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einfarbig",
+    "choices": [
+      "Kurs",
+      "bunt",
+      "gleichsetzen",
+      "sa"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einfarbig",
+    "choices": [
+      "waren",
+      "bunt",
+      "Fisch",
+      "Orgel"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "undankbar",
+    "choices": [
+      "dankbar",
+      "Bauernhof",
+      "vorwärts",
+      "wollen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "undeutlich",
+    "choices": [
+      "Form",
+      "Licht",
+      "deutlich",
+      "aus"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "undeutlich",
+    "choices": [
+      "deutlich",
+      "erreichen",
+      "ihre",
+      "milch"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "undeutlich",
+    "choices": [
+      "deutlich",
+      "schnell",
+      "Moment",
+      "viele"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dünn",
+    "choices": [
+      "dick",
+      "Himmel",
+      "trennen",
+      "zeigen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dünn",
+    "choices": [
+      "gehalten",
+      "immer",
+      "Instrument",
+      "dick"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "indirekt",
+    "choices": [
+      "immer",
+      "direkt",
+      "Lärm",
+      "berg"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "indirekt",
+    "choices": [
+      "Partei",
+      "Stein",
+      "Board",
+      "direkt"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unehrlich",
+    "choices": [
+      "passieren",
+      "Saison",
+      "sprechen",
+      "ehrlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "uneigen",
+    "choices": [
+      "Silber",
+      "zu",
+      "Vortrag",
+      "eigen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "uneigen",
+    "choices": [
+      "heiß",
+      "eigen",
+      "vorschlagen",
+      "Erfahrung"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fremd",
+    "choices": [
+      "eigen",
+      "dünn",
+      "wiederum",
+      "Wasch"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fremd",
+    "choices": [
+      "eigen",
+      "Stick",
+      "Meer",
+      "ihre"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "uneigen",
+    "choices": [
+      "geschrieben",
+      "eigen",
+      "nahm",
+      "Molekül"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "uneigen",
+    "choices": [
+      "Prüfung",
+      "sa",
+      "eigen",
+      "Uhr"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fremd",
+    "choices": [
+      "trocken",
+      "treffen",
+      "eigen",
+      "Silbe"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fremd",
+    "choices": [
+      "Antwort",
+      "eigen",
+      "danken",
+      "winzig"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "wilden",
+      "Name",
+      "erlauben",
+      "einzeln"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "durch",
+      "einzeln",
+      "Kuh",
+      "steigen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zusammen",
+    "choices": [
+      "Land",
+      "einzeln",
+      "Block",
+      "Papier"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zusammen",
+    "choices": [
+      "Rede",
+      "tausend",
+      "einzeln",
+      "lassen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "bei",
+      "einzeln",
+      "seits",
+      "gleich"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "einzeln",
+      "Rennen",
+      "Haus",
+      "goldenen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zusammen",
+    "choices": [
+      "Anruf",
+      "einzeln",
+      "Rolle",
+      "tut"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zusammen",
+    "choices": [
+      "Ecke",
+      "als",
+      "Platz",
+      "einzeln"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "einzeln",
+      "Zimmer",
+      "voll",
+      "Frage"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "Zentrum",
+      "einzeln",
+      "Feind",
+      "muss"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zusammen",
+    "choices": [
+      "Ende",
+      "Hof",
+      "einzeln",
+      "gefunden"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zusammen",
+    "choices": [
+      "Macht",
+      "gut",
+      "einzeln",
+      "scheinen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "Wasser",
+      "spielen",
+      "Platz",
+      "einzeln"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viel",
+    "choices": [
+      "ein",
+      "einzeln",
+      "in der Nähe von",
+      "Reihe"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zusammen",
+    "choices": [
+      "Hals",
+      "und",
+      "einzeln",
+      "Cent"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zusammen",
+    "choices": [
+      "einzeln",
+      "realen",
+      "erhöhen",
+      "erlauben"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unelegant",
+    "choices": [
+      "Bauernhof",
+      "seltsam",
+      "schützen",
+      "elegant"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unempfindlich",
+    "choices": [
+      "empfindlich",
+      "Chef",
+      "wahrscheinlich",
+      "Anzahl"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "weit",
+    "choices": [
+      "Schnur",
+      "Stahl",
+      "vor",
+      "eng"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "weit",
+    "choices": [
+      "Karte",
+      "Maschine",
+      "Geschichte",
+      "eng"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "weit",
+    "choices": [
+      "eng",
+      "Frage",
+      "Rekord",
+      "zurück"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "weit",
+    "choices": [
+      "eng",
+      "und",
+      "beitreten",
+      "Anzug"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "weit",
+    "choices": [
+      "Energie",
+      "Gebiss",
+      "eng",
+      "Fluss"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "weit",
+    "choices": [
+      "eng",
+      "Teil",
+      "führen",
+      "Gewicht"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "weit",
+    "choices": [
+      "Frühling",
+      "Energie",
+      "eng",
+      "Bruder"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "weit",
+    "choices": [
+      "Kopie",
+      "Molekül",
+      "Blatt",
+      "eng"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unerfahren",
+    "choices": [
+      "obwohl",
+      "erfahren",
+      "andere",
+      "lösen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "locker",
+    "choices": [
+      "Arbeit",
+      "Menschen",
+      "Linie",
+      "fest"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "locker",
+    "choices": [
+      "Produkt",
+      "Fahrt",
+      "fest",
+      "Sand"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "weich",
+    "choices": [
+      "sitzen",
+      "fest",
+      "Angebot",
+      "bestellen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "weich",
+    "choices": [
+      "fest",
+      "Elternteil",
+      "jetzt",
+      "Raum"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "steil",
+    "choices": [
+      "umfassen",
+      "Wand",
+      "flach",
+      "Quart"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "steil",
+    "choices": [
+      "flach",
+      "Musik",
+      "sieben",
+      "wissen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "tief",
+    "choices": [
+      "erste",
+      "Menge",
+      "mehreren",
+      "flach"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "tief",
+    "choices": [
+      "Geld",
+      "flach",
+      "Körper",
+      "Zweig"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "steil",
+    "choices": [
+      "ängstlich",
+      "Krawatte",
+      "sind",
+      "flach"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "steil",
+    "choices": [
+      "flach",
+      "so",
+      "getan",
+      "beide"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "tief",
+    "choices": [
+      "Lächeln",
+      "Knochen",
+      "Bewegung",
+      "flach"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "tief",
+    "choices": [
+      "so",
+      "Board",
+      "letzte",
+      "flach"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "faul",
+    "choices": [
+      "Kapitän",
+      "Chance",
+      "Teil",
+      "fleißig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unfrei",
+    "choices": [
+      "frei",
+      "Glas",
+      "einige",
+      "sein"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unfreundlich",
+    "choices": [
+      "reich",
+      "zählen",
+      "freundlich",
+      "Quotient"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "traurig",
+    "choices": [
+      "Akkord",
+      "produzieren",
+      "Silber",
+      "froh"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungeduldig",
+    "choices": [
+      "wenn",
+      "geduldig",
+      "Schrei",
+      "Einzel"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "großzügig",
+    "choices": [
+      "wenig",
+      "war",
+      "ihm",
+      "geizig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "allein",
+    "choices": [
+      "Spiel",
+      "gab",
+      "gemeinsam",
+      "Rekord"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungemütlich",
+    "choices": [
+      "gemütlich",
+      "Bewegung",
+      "still",
+      "beobachten"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungemütlich",
+    "choices": [
+      "Tag",
+      "Ufer",
+      "gemütlich",
+      "sagte"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungenau",
+    "choices": [
+      "genau",
+      "riesig",
+      "seine",
+      "sanft"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungenau",
+    "choices": [
+      "Arzt",
+      "Berg",
+      "genau",
+      "Band"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungenau",
+    "choices": [
+      "bauen",
+      "stiegen",
+      "genau",
+      "Angst"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungerade",
+    "choices": [
+      "Anzug",
+      "lernen",
+      "gerade",
+      "Veranstaltung"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungerade",
+    "choices": [
+      "zählen",
+      "am wenigsten",
+      "oh",
+      "gerade"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "krumm",
+    "choices": [
+      "gerade",
+      "können",
+      "war",
+      "Masse"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "krumm",
+    "choices": [
+      "Salz",
+      "Block",
+      "gerade",
+      "kommen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungerade",
+    "choices": [
+      "beschäftigt",
+      "Seite",
+      "Zucker",
+      "gerade"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungerade",
+    "choices": [
+      "Erde",
+      "Zeit",
+      "gerade",
+      "Kontrolle"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "krumm",
+    "choices": [
+      "Papa",
+      "Bein",
+      "gerade",
+      "könnte"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "krumm",
+    "choices": [
+      "Überraschung",
+      "gerade",
+      "plötzlich",
+      "Atom"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungerade",
+    "choices": [
+      "erlauben",
+      "Anruf",
+      "Auge",
+      "gerade"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungerade",
+    "choices": [
+      "die",
+      "Fisch",
+      "Kind",
+      "gerade"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "krumm",
+    "choices": [
+      "Stein",
+      "Kälte",
+      "gerade",
+      "Speiche"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "krumm",
+    "choices": [
+      "goldenen",
+      "dann",
+      "Muster",
+      "gerade"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungerade",
+    "choices": [
+      "Hügel",
+      "Rede",
+      "Wetter",
+      "gerade"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungerade",
+    "choices": [
+      "klar",
+      "Fall",
+      "denken",
+      "gerade"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "krumm",
+    "choices": [
+      "diejenigen",
+      "Anruf",
+      "gerade",
+      "Lager"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "krumm",
+    "choices": [
+      "unterlassen Sie",
+      "Geschicklichkeit",
+      "riesig",
+      "gerade"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungeschickt",
+    "choices": [
+      "Mannschaft",
+      "oft",
+      "geschickt",
+      "da"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungeschickt",
+    "choices": [
+      "neu",
+      "geschickt",
+      "bieten",
+      "Kind"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungeschickt",
+    "choices": [
+      "Jahr",
+      "beobachten",
+      "Menge",
+      "geschickt"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungesund",
+    "choices": [
+      "passieren",
+      "Frau",
+      "gesund",
+      "winzig"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungesund",
+    "choices": [
+      "schnell",
+      "gesund",
+      "dünn",
+      "Typ"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "krank",
+    "choices": [
+      "Spiel",
+      "wollen",
+      "gesund",
+      "König"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "krank",
+    "choices": [
+      "Kleid",
+      "gesund",
+      "schlagen",
+      "Bank"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungewiss",
+    "choices": [
+      "Einheit",
+      "gewiss",
+      "mehreren",
+      "nichts"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungewiss",
+    "choices": [
+      "nie",
+      "Wert",
+      "ihre",
+      "gewiss"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "rau",
+    "choices": [
+      "glatt",
+      "Form",
+      "geführt",
+      "getan"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungleich",
+    "choices": [
+      "geführt",
+      "eingeben",
+      "gleich",
+      "Abdeckung"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungleich",
+    "choices": [
+      "gleich",
+      "mir",
+      "Rad",
+      "Schließen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "verschieden",
+    "choices": [
+      "gleich",
+      "reich",
+      "lesen",
+      "bieten"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "verschieden",
+    "choices": [
+      "gleich",
+      "versuchen",
+      "Liebe",
+      "Kuh"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungleich",
+    "choices": [
+      "uns",
+      "vorhanden",
+      "hat",
+      "gleich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ungleich",
+    "choices": [
+      "gleich",
+      "Minute",
+      "vielleicht",
+      "Leiste"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "verschieden",
+    "choices": [
+      "gleich",
+      "Auge",
+      "meine",
+      "passieren"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "verschieden",
+    "choices": [
+      "laut",
+      "gleich",
+      "sie",
+      "fein"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unglücklich",
+    "choices": [
+      "Westen",
+      "Stuhl",
+      "Veränderung",
+      "glücklich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klein",
+    "choices": [
+      "groß",
+      "Fenster",
+      "Wohnung",
+      "Lager"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klein",
+    "choices": [
+      "groß",
+      "Energie",
+      "Raum",
+      "am wenigsten"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klein",
+    "choices": [
+      "groß",
+      "glauben",
+      "Zelle",
+      "Nomen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "klein",
+    "choices": [
+      "Rutsch",
+      "geführt",
+      "groß",
+      "schleppend"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schlecht",
+    "choices": [
+      "Studie",
+      "gut",
+      "gesendet",
+      "vor"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schlecht",
+    "choices": [
+      "Presse",
+      "produzieren",
+      "vorstellen",
+      "gut"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "böse",
+    "choices": [
+      "gut",
+      "Veranstaltung",
+      "ja",
+      "stark"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "böse",
+    "choices": [
+      "Geruch",
+      "gut",
+      "Anruf",
+      "Morgen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ganz",
+    "choices": [
+      "halb",
+      "Substanz",
+      "erforderlich",
+      "Schritt"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "weich",
+    "choices": [
+      "Kopie",
+      "erste",
+      "überqueren",
+      "hart"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "selten",
+    "choices": [
+      "Formular",
+      "tat",
+      "neu",
+      "häufig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "selten",
+    "choices": [
+      "Haut",
+      "häufig",
+      "sie",
+      "Angebot"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "kalt",
+    "choices": [
+      "Glas",
+      "geben",
+      "Erfolg",
+      "heiß"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dunkel",
+    "choices": [
+      "zusammen",
+      "wuchs",
+      "hell",
+      "Boden"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "tief",
+    "choices": [
+      "Winter",
+      "deren",
+      "Board",
+      "hoch"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "tief",
+    "choices": [
+      "hoch",
+      "Schlag",
+      "Buch",
+      "leben"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unhöflich",
+    "choices": [
+      "höflich",
+      "sicher",
+      "zahlen",
+      "getan"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "vertikal",
+    "choices": [
+      "horizontal",
+      "alle",
+      "Kuh",
+      "entscheiden"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "satt",
+    "choices": [
+      "hungrig",
+      "Hut",
+      "lösen",
+      "Reise"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "satt",
+    "choices": [
+      "Zoll",
+      "fühlen",
+      "hungrig",
+      "Quart"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "uninteressant",
+    "choices": [
+      "gebracht",
+      "Zoll",
+      "interessant",
+      "lassen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "uninteressant",
+    "choices": [
+      "schnell",
+      "Säge",
+      "interessant",
+      "alt"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "langweilig",
+    "choices": [
+      "interessant",
+      "sein",
+      "Praxis",
+      "ankommen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "langweilig",
+    "choices": [
+      "interessant",
+      "plötzlich",
+      "Hilfe",
+      "bleiben"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ganz",
+    "choices": [
+      "einmal",
+      "Rand",
+      "kaputt",
+      "sehen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ganz",
+    "choices": [
+      "Schnur",
+      "Arbeit",
+      "Mittag",
+      "kaputt"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ganz",
+    "choices": [
+      "kaputt",
+      "Draht",
+      "Lüge",
+      "Ernte"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unklar",
+    "choices": [
+      "klar",
+      "multiplizieren",
+      "geführt",
+      "werfen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unklar",
+    "choices": [
+      "klar",
+      "einsam",
+      "Blut",
+      "Ebene"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unklug",
+    "choices": [
+      "klug",
+      "Elementes",
+      "Minute",
+      "Farbe"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unklug",
+    "choices": [
+      "klug",
+      "Himmel",
+      "Straße",
+      "heiß"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dumm",
+    "choices": [
+      "tragen",
+      "Schrei",
+      "klug",
+      "Einheit"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dumm",
+    "choices": [
+      "Gesicht",
+      "klug",
+      "gehen",
+      "Baumwolle"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unklug",
+    "choices": [
+      "Lebensmittel",
+      "klug",
+      "Leben",
+      "subtrahieren"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unklug",
+    "choices": [
+      "klug",
+      "Übung",
+      "Gegenteil",
+      "Ton"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dumm",
+    "choices": [
+      "Körper",
+      "klug",
+      "Bett",
+      "Ufer"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dumm",
+    "choices": [
+      "ein",
+      "sagen",
+      "Schnitt",
+      "klug"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "kurz",
+    "choices": [
+      "produzieren",
+      "warme",
+      "Dreieck",
+      "lang"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "kurz",
+    "choices": [
+      "sieben",
+      "schützen",
+      "Ort",
+      "lange"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "leise",
+    "choices": [
+      "Uhr",
+      "wenige",
+      "empfangen",
+      "laut"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "erster",
+    "choices": [
+      "wie",
+      "fein",
+      "gekauft",
+      "letzter"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "erster",
+    "choices": [
+      "passieren",
+      "Lastwagen",
+      "Liste",
+      "letzte"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "erster",
+    "choices": [
+      "Mine",
+      "Tonhöhe",
+      "entwickeln",
+      "letztes"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "erste",
+    "choices": [
+      "letzter",
+      "wieder",
+      "Auge",
+      "zurück"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "erste",
+    "choices": [
+      "dünn",
+      "Akt",
+      "letzte",
+      "Geld"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "erste",
+    "choices": [
+      "Stretch",
+      "letztes",
+      "insbesondere",
+      "Versuch"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "erstes",
+    "choices": [
+      "Suche",
+      "Abend",
+      "letzter",
+      "Satz"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "erstes",
+    "choices": [
+      "Frau",
+      "lokalisieren",
+      "letzte",
+      "zwanzig"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "erstes",
+    "choices": [
+      "letztes",
+      "erwarten",
+      "zählen",
+      "Bauernhof"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unlustig",
+    "choices": [
+      "Metall",
+      "Jagd",
+      "wenn",
+      "lustig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unlustig",
+    "choices": [
+      "Lande",
+      "Freude",
+      "beschäftigt",
+      "lustig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unlustig",
+    "choices": [
+      "lustig",
+      "Funk",
+      "Orgel",
+      "Zahl"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ernst",
+    "choices": [
+      "lustig",
+      "Gruppe",
+      "stand",
+      "Sinn"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ernst",
+    "choices": [
+      "Schiff",
+      "passieren",
+      "muss",
+      "lustig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ernst",
+    "choices": [
+      "Wunder",
+      "Flugzeug",
+      "lustig",
+      "außer"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unlustig",
+    "choices": [
+      "Reihe",
+      "klingen",
+      "lustig",
+      "Bein"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unlustig",
+    "choices": [
+      "einsam",
+      "lustig",
+      "drücken",
+      "kostenlos"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unlustig",
+    "choices": [
+      "sagte",
+      "einfach",
+      "lustig",
+      "Wetter"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ernst",
+    "choices": [
+      "so",
+      "Erfahrung",
+      "Verwendung",
+      "lustig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ernst",
+    "choices": [
+      "Veränderung",
+      "Station",
+      "Pflege",
+      "lustig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ernst",
+    "choices": [
+      "ähnlich",
+      "bereit",
+      "Westen",
+      "lustig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dein",
+    "choices": [
+      "Formular",
+      "Kreis",
+      "Spur",
+      "mein"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unmöglich",
+    "choices": [
+      "Gesicht",
+      "Absatz",
+      "möglich",
+      "Schwester"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wach",
+    "choices": [
+      "erraten",
+      "müde",
+      "Schuh",
+      "Schlaf"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fern",
+    "choices": [
+      "Achtung",
+      "nah",
+      "mir",
+      "Macht"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "trocken",
+    "choices": [
+      "wie",
+      "Loch",
+      "nass",
+      "fühlen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "international",
+    "choices": [
+      "Chef",
+      "tragen",
+      "national",
+      "braun"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unnatürlich",
+    "choices": [
+      "klar",
+      "Objekt",
+      "Original",
+      "natürlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unnormal",
+    "choices": [
+      "normal",
+      "getan",
+      "genug",
+      "Ufer"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "geschlossen",
+    "choices": [
+      "offen",
+      "fragen",
+      "mehr",
+      "eingeben"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "geschlossen",
+    "choices": [
+      "sicher",
+      "offen",
+      "antworten",
+      "jeder"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "geschlossen",
+    "choices": [
+      "Augenblick",
+      "offen",
+      "hinter",
+      "richtig"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "geschlossen",
+    "choices": [
+      "bekam",
+      "Zucker",
+      "dick",
+      "offen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "verschlossen",
+    "choices": [
+      "offen",
+      "Idee",
+      "als",
+      "gleich"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "verschlossen",
+    "choices": [
+      "springen",
+      "offen",
+      "Ozean",
+      "Zentrum"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "verschlossen",
+    "choices": [
+      "töten",
+      "Feld",
+      "Winter",
+      "offen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "verschlossen",
+    "choices": [
+      "Fluss",
+      "offen",
+      "legen",
+      "eher"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "geschlossen",
+    "choices": [
+      "gelb",
+      "ja",
+      "denken",
+      "offen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "geschlossen",
+    "choices": [
+      "offen",
+      "Pfund",
+      "singen",
+      "Quart"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "geschlossen",
+    "choices": [
+      "töten",
+      "offen",
+      "Arm",
+      "Mittag"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "geschlossen",
+    "choices": [
+      "Akkord",
+      "Material",
+      "offen",
+      "auch"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "verschlossen",
+    "choices": [
+      "Spaß",
+      "offen",
+      "Frau",
+      "seine"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "verschlossen",
+    "choices": [
+      "wenn",
+      "offen",
+      "heiß",
+      "Bruder"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "verschlossen",
+    "choices": [
+      "Runde",
+      "Verbreitung",
+      "berühren",
+      "offen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "verschlossen",
+    "choices": [
+      "Lied",
+      "buchstabieren",
+      "diese",
+      "offen"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "privat",
+    "choices": [
+      "können",
+      "Satz",
+      "möglich",
+      "öffentlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unordentlich",
+    "choices": [
+      "pflücken",
+      "ordentlich",
+      "sein",
+      "Blatt"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unordentlich",
+    "choices": [
+      "träumen",
+      "Arm",
+      "mais",
+      "ordentlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unordentlich",
+    "choices": [
+      "Uhr",
+      "Kälte",
+      "ordentlich",
+      "während"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unordentlich",
+    "choices": [
+      "singen",
+      "Gesicht",
+      "oh",
+      "ordentlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unordentlich",
+    "choices": [
+      "groß",
+      "ziehen",
+      "ordentlich",
+      "Gesetz"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unordentlich",
+    "choices": [
+      "Handel",
+      "verbinden",
+      "ordentlich",
+      "Kolonie"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unpersönlich",
+    "choices": [
+      "Lastwagen",
+      "ankommen",
+      "persönlich",
+      "Alter"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unpersönlich",
+    "choices": [
+      "kostenlos",
+      "persönlich",
+      "Frau",
+      "schwer"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "negativ",
+    "choices": [
+      "sa",
+      "gehen",
+      "bestimmen",
+      "positiv"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unpraktisch",
+    "choices": [
+      "Quotient",
+      "gehen",
+      "ziehen",
+      "praktisch"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unpraktisch",
+    "choices": [
+      "weniger",
+      "Säge",
+      "Fraktion",
+      "praktisch"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unpraktisch",
+    "choices": [
+      "sicher",
+      "stark",
+      "Tod",
+      "praktisch"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unpünktlich",
+    "choices": [
+      "pünktlich",
+      "mehreren",
+      "vorwärts",
+      "Akt"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unpünktlich",
+    "choices": [
+      "pünktlich",
+      "Finish",
+      "Tabelle",
+      "Veranstaltung"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unpünktlich",
+    "choices": [
+      "bereit",
+      "sagen",
+      "pünktlich",
+      "Magnet"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unpünktlich",
+    "choices": [
+      "abhängen",
+      "wuchs",
+      "pünktlich",
+      "Schnee"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unpünktlich",
+    "choices": [
+      "sauber",
+      "Oberfläche",
+      "Nomen",
+      "pünktlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unpünktlich",
+    "choices": [
+      "pünktlich",
+      "wenn",
+      "führen",
+      "Gesicht"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unrecht",
+    "choices": [
+      "während",
+      "wo",
+      "Kopf",
+      "recht"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "arm",
+    "choices": [
+      "links",
+      "wenig",
+      "reich",
+      "Norden"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "falsch",
+    "choices": [
+      "hoch",
+      "richtig",
+      "halten",
+      "jetzt"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "falsch",
+    "choices": [
+      "Zentrum",
+      "sollte",
+      "nicht",
+      "richtig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "falsch",
+    "choices": [
+      "richtig",
+      "müssen",
+      "protokollieren",
+      "sitzen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "falsch",
+    "choices": [
+      "Begriff",
+      "Wissenschaft",
+      "Eis",
+      "richtig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eckig",
+    "choices": [
+      "gehört",
+      "modernen",
+      "Lied",
+      "rund"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eckig",
+    "choices": [
+      "wo",
+      "oben",
+      "rund",
+      "Platz"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsanft",
+    "choices": [
+      "jung",
+      "Tabelle",
+      "sanft",
+      "Stuhl"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsanft",
+    "choices": [
+      "eingeben",
+      "sanft",
+      "Spur",
+      "Vogel"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dreckig",
+    "choices": [
+      "wird",
+      "Quart",
+      "Wunder",
+      "sauber"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schmutzig",
+    "choices": [
+      "sauber",
+      "so",
+      "ziehen",
+      "Funk"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "langsam",
+    "choices": [
+      "elektrisch",
+      "schnell",
+      "Schnee",
+      "verlassen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "hässlich",
+    "choices": [
+      "verkaufen",
+      "schön",
+      "durch",
+      "weiß"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "leicht",
+    "choices": [
+      "Schließen",
+      "klingen",
+      "Ärger",
+      "schwer"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "leicht",
+    "choices": [
+      "Versuch",
+      "Wurzel",
+      "schwierig",
+      "Segment"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "leicht",
+    "choices": [
+      "schwer",
+      "Presse",
+      "regeln",
+      "modernen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "leicht",
+    "choices": [
+      "vor",
+      "sie",
+      "schwierig",
+      "aus"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einfach",
+    "choices": [
+      "Platz",
+      "Soldat",
+      "Welt",
+      "schwer"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einfach",
+    "choices": [
+      "realen",
+      "Sklave",
+      "Maßstab",
+      "schwierig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einfach",
+    "choices": [
+      "Westen",
+      "auf",
+      "meine",
+      "schwer"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einfach",
+    "choices": [
+      "schwierig",
+      "gelb",
+      "Stick",
+      "glücklich"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "leicht",
+    "choices": [
+      "Fett",
+      "schwer",
+      "schwer",
+      "tat"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "leicht",
+    "choices": [
+      "Blick",
+      "danken",
+      "beschreiben",
+      "schwierig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "leicht",
+    "choices": [
+      "schwer",
+      "noch",
+      "kommen",
+      "Mine"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "leicht",
+    "choices": [
+      "still",
+      "schwierig",
+      "Maschine",
+      "Frau"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einfach",
+    "choices": [
+      "geführt",
+      "Presse",
+      "Schlag",
+      "schwer"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einfach",
+    "choices": [
+      "verbringen",
+      "zwischen",
+      "drücken",
+      "schwierig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einfach",
+    "choices": [
+      "hören",
+      "schwer",
+      "geschrieben",
+      "Getränk"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "einfach",
+    "choices": [
+      "treffen",
+      "Tatsache",
+      "schwierig",
+      "denken"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsicher",
+    "choices": [
+      "Hut",
+      "wo",
+      "oben",
+      "sicher"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsicher",
+    "choices": [
+      "sicher",
+      "Tanz",
+      "sicher",
+      "vertreten"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsicher",
+    "choices": [
+      "multiplizieren",
+      "Wald",
+      "stiegen",
+      "sicher"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsozial",
+    "choices": [
+      "voll",
+      "treffen",
+      "wenn",
+      "sozial"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "früh",
+    "choices": [
+      "hat",
+      "spät",
+      "Objekt",
+      "mir"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "stumpf",
+    "choices": [
+      "dünn",
+      "Schnitt",
+      "kommen",
+      "spitz"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "stumpf",
+    "choices": [
+      "Beispiel",
+      "protokollieren",
+      "Sand",
+      "spitz"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "stumpf",
+    "choices": [
+      "blume",
+      "Glas",
+      "Fang",
+      "spitz"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsportlich",
+    "choices": [
+      "sportlich",
+      "Bild",
+      "noch",
+      "weniger"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsportlich",
+    "choices": [
+      "Dame",
+      "Angebot",
+      "sportlich",
+      "über"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsportlich",
+    "choices": [
+      "zahlen",
+      "richtig",
+      "sportlich",
+      "stark"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsportlich",
+    "choices": [
+      "Mitte",
+      "Motor",
+      "Zahl",
+      "sportlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsportlich",
+    "choices": [
+      "direkt",
+      "Stück",
+      "produzieren",
+      "sportlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsportlich",
+    "choices": [
+      "Fall",
+      "Segel",
+      "sportlich",
+      "getan"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsportlich",
+    "choices": [
+      "Umzug",
+      "aufladen",
+      "sportlich",
+      "auch"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsportlich",
+    "choices": [
+      "nehmen",
+      "Klasse",
+      "sportlich",
+      "Fang"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsportlich",
+    "choices": [
+      "sportlich",
+      "grau",
+      "hundert",
+      "Säge"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "schwach",
+    "choices": [
+      "über",
+      "jeder",
+      "Arbeit",
+      "stark"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sauer",
+    "choices": [
+      "nach oben",
+      "süß",
+      "möglich",
+      "weiß"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sauer",
+    "choices": [
+      "Jahrhundert",
+      "Gedanken",
+      "süß",
+      "Seite"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unsympathisch",
+    "choices": [
+      "Geist",
+      "hören",
+      "geschrieben",
+      "sympathisch"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "billig",
+    "choices": [
+      "teuer",
+      "es",
+      "Thema",
+      "Lachen"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "billig",
+    "choices": [
+      "finden",
+      "neun",
+      "teuer",
+      "Hut"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "untreu",
+    "choices": [
+      "Pferd",
+      "die",
+      "die",
+      "treu"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "untreu",
+    "choices": [
+      "Kolonie",
+      "Baumwolle",
+      "breit",
+      "treu"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "untreu",
+    "choices": [
+      "dies",
+      "essen",
+      "treu",
+      "Pferd"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "berühmt",
+      "unterschiedlich",
+      "Markt",
+      "Pistole"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "da",
+      "unterschiedlich",
+      "Substanz",
+      "zwischen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "identisch",
+    "choices": [
+      "unterschiedlich",
+      "Original",
+      "viel",
+      "Kinder"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "identisch",
+    "choices": [
+      "Mine",
+      "unterschiedlich",
+      "dick",
+      "wenig"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "berühmt",
+      "Mittag",
+      "unterschiedlich",
+      "kam"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "Flügel",
+      "Spiel",
+      "unterschiedlich",
+      "beschäftigt"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "identisch",
+    "choices": [
+      "mehrere",
+      "unterschiedlich",
+      "Jagd",
+      "machen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "identisch",
+    "choices": [
+      "zeigen",
+      "hell",
+      "springen",
+      "unterschiedlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "unterschiedlich",
+      "Strom",
+      "Papa",
+      "wird"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gleich",
+    "choices": [
+      "Thema",
+      "Umzug",
+      "klar",
+      "unterschiedlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "identisch",
+    "choices": [
+      "Gesicht",
+      "Erfahrung",
+      "Stick",
+      "unterschiedlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "identisch",
+    "choices": [
+      "unterschiedlich",
+      "ging",
+      "erraten",
+      "sie"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wenig",
+    "choices": [
+      "viel",
+      "Platz",
+      "grün",
+      "Hals"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wenig",
+    "choices": [
+      "Dreieck",
+      "Kinder",
+      "außer",
+      "viel"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gering",
+    "choices": [
+      "neu",
+      "Schnee",
+      "viel",
+      "träumen"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gering",
+    "choices": [
+      "viel",
+      "nur",
+      "arrangieren",
+      "Ohr"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wenig",
+    "choices": [
+      "Pfund",
+      "Silbe",
+      "viel",
+      "Anzahl"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wenig",
+    "choices": [
+      "auf",
+      "schnell",
+      "braun",
+      "viel"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gering",
+    "choices": [
+      "viel",
+      "sicher",
+      "bekam",
+      "Stein"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gering",
+    "choices": [
+      "viel",
+      "führen",
+      "Band",
+      "Entwurf"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "leer",
+    "choices": [
+      "voll",
+      "begeistern",
+      "Rede",
+      "möglich"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unvorsichtig",
+    "choices": [
+      "Segel",
+      "vorsichtig",
+      "Formular",
+      "aufladen"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unvorsichtig",
+    "choices": [
+      "Dollar",
+      "sicher",
+      "nehmen",
+      "vorsichtig"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unwahrscheinlich",
+    "choices": [
+      "wahrscheinlich",
+      "berühmt",
+      "besitzen",
+      "fiel"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unwahrscheinlich",
+    "choices": [
+      "wahrscheinlich",
+      "aber",
+      "gemeinsam",
+      "wird nicht"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unwahrscheinlich",
+    "choices": [
+      "sterben",
+      "wahrscheinlich",
+      "Zuhause",
+      "Familie"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unwahrscheinlich",
+    "choices": [
+      "Pferd",
+      "erhöhen",
+      "richtig",
+      "wahrscheinlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wertlos",
+    "choices": [
+      "wertvoll",
+      "mehr",
+      "Ecke",
+      "Stretch"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "wertlos",
+    "choices": [
+      "Bewegung",
+      "werden",
+      "Hauptstadt",
+      "wertvoll"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unwesentlich",
+    "choices": [
+      "Freude",
+      "begann",
+      "jeder",
+      "wesentlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unwesentlich",
+    "choices": [
+      "Frau",
+      "Sommer",
+      "wesentlich",
+      "Dollar"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unwesentlich",
+    "choices": [
+      "schwer",
+      "Hinweis",
+      "wesentlich",
+      "Krawatte"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unwesentlich",
+    "choices": [
+      "riesig",
+      "wiederum",
+      "setzen",
+      "wesentlich"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unwichtig",
+    "choices": [
+      "wichtig",
+      "Teilung",
+      "kaufen",
+      "glauben"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "zahm",
+    "choices": [
+      "Zahl",
+      "wild",
+      "grau",
+      "Menge"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unzufrieden",
+    "choices": [
+      "zufrieden",
+      "Person",
+      "Morgen",
+      "Tod"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unzufrieden",
+    "choices": [
+      "sie",
+      "Zeit",
+      "zufrieden",
+      "Schulter"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unzufrieden",
+    "choices": [
+      "bereit",
+      "abhängen",
+      "zufrieden",
+      "einfach"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unzufrieden",
+    "choices": [
+      "erste",
+      "zufrieden",
+      "lief",
+      "Boden"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unzufrieden",
+    "choices": [
+      "selbst",
+      "gleichsetzen",
+      "zufrieden",
+      "Anspruch"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unzufrieden",
+    "choices": [
+      "Mädchen",
+      "Seite",
+      "Dauer",
+      "zufrieden"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unzufrieden",
+    "choices": [
+      "es",
+      "Bewegung",
+      "wünschen",
+      "zufrieden"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unzufrieden",
+    "choices": [
+      "zufrieden",
+      "Arzt",
+      "fühlen",
+      "war"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "unzufrieden",
+    "choices": [
+      "lange",
+      "Fleisch",
+      "zufrieden",
+      "Saison"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  }
+]

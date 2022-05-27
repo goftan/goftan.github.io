@@ -1,0 +1,2420 @@
+[
+  {
+    "question": "sí",
+    "choices": [
+      "delgado",
+      "lugar",
+      "no",
+      "experimento"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "largo",
+    "choices": [
+      "oficina",
+      "clase",
+      "vestido",
+      "corto"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "todo",
+    "choices": [
+      "nada",
+      "bit",
+      "inicio",
+      "alcance"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "cerca",
+    "choices": [
+      "algodón",
+      "lejos",
+      "rey",
+      "moderno"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "cercano",
+    "choices": [
+      "conseguir",
+      "lejos",
+      "ser",
+      "actual"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ancho",
+    "choices": [
+      "ferrocarril",
+      "estrecho",
+      "diversión",
+      "fuerza"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "alto",
+    "choices": [
+      "unidad",
+      "bajo",
+      "industria",
+      "cuarto de galón"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "gordo",
+    "choices": [
+      "exigir",
+      "delgado",
+      "ciencia",
+      "temprana"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "grueso",
+    "choices": [
+      "lago",
+      "buque",
+      "valle",
+      "falco"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "izquierda",
+    "choices": [
+      "pared",
+      "varios",
+      "derecho",
+      "deberá"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "temprano",
+    "choices": [
+      "silla",
+      "tarde",
+      "viento",
+      "empresa"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "brillante",
+    "choices": [
+      "consonante",
+      "deslucido",
+      "desde",
+      "ni"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "rápido",
+    "choices": [
+      "veinte",
+      "desear",
+      "lento",
+      "anillo"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "rapidamente",
+    "choices": [
+      "despacio",
+      "colonia",
+      "estado",
+      "cuota"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "difícil",
+    "choices": [
+      "cara",
+      "es",
+      "fácil",
+      "deberá"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "subir",
+    "choices": [
+      "granja",
+      "asiento",
+      "hizo",
+      "bajar"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "encima de",
+    "choices": [
+      "hecho",
+      "debajo de",
+      "leche",
+      "colores"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dentro",
+    "choices": [
+      "capturado",
+      "llenar",
+      "cola",
+      "fuera"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dentro",
+    "choices": [
+      "ser",
+      "uso",
+      "afuera",
+      "canción"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "guapo",
+    "choices": [
+      "feo",
+      "caer",
+      "que",
+      "escrito"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "bonito",
+    "choices": [
+      "excitar",
+      "campana",
+      "feo",
+      "siete"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lindo",
+    "choices": [
+      "escrito",
+      "cuota",
+      "pliegue",
+      "feo"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "interesante",
+    "choices": [
+      "restar",
+      "cien",
+      "aburrido",
+      "escribir"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "buen",
+    "choices": [
+      "fruta",
+      "leche",
+      "misma",
+      "mal"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "bueno",
+    "choices": [
+      "mensaje",
+      "minuto",
+      "hizo",
+      "malo"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "maravilloso",
+    "choices": [
+      "signo",
+      "terrible",
+      "vino",
+      "preguntar"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "negro",
+    "choices": [
+      "círculo",
+      "potencia",
+      "izquierda",
+      "blanco"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dulce",
+    "choices": [
+      "a",
+      "agrio",
+      "efecto",
+      "aprender"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fuerte",
+    "choices": [
+      "ley",
+      "potencia",
+      "débil",
+      "sal"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "siempre",
+    "choices": [
+      "incluso",
+      "nunca",
+      "pies",
+      "aunque"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "todos",
+    "choices": [
+      "me",
+      "nada",
+      "pelo",
+      "traer"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "simpático",
+    "choices": [
+      "antipático",
+      "completo",
+      "desierto",
+      "pared"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "simpático",
+    "choices": [
+      "mente",
+      "debería",
+      "enviado",
+      "antipático"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "divertido",
+    "choices": [
+      "serio",
+      "triángulo",
+      "búsqueda",
+      "caballo"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "divertido",
+    "choices": [
+      "famoso",
+      "serio",
+      "suave",
+      "numeral"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "morena",
+    "choices": [
+      "rubio",
+      "rica",
+      "si",
+      "unidad"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ganar",
+    "choices": [
+      "comprobar",
+      "perder",
+      "fracción",
+      "frotar"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "despierto",
+    "choices": [
+      "visita",
+      "querer",
+      "dormido",
+      "acerca"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "abierto",
+    "choices": [
+      "campamento",
+      "ruido",
+      "plantear",
+      "cerrado"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "cubierto",
+    "choices": [
+      "capitán",
+      "energía",
+      "descubierto",
+      "plano"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "grande",
+    "choices": [
+      "dinero",
+      "valle",
+      "herramienta",
+      "pequeño"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "caliente",
+    "choices": [
+      "cociente",
+      "show",
+      "árbol",
+      "frío"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "mucho",
+    "choices": [
+      "poco",
+      "necesitará",
+      "puerto",
+      "acabado"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "empieza",
+    "choices": [
+      "medir",
+      "diseño",
+      "pliegue",
+      "termina"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "correcto",
+    "choices": [
+      "medir",
+      "incorrecto",
+      "edad",
+      "traído"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "exacto",
+    "choices": [
+      "enseñar",
+      "en",
+      "cielo",
+      "equivocado"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "vacío",
+    "choices": [
+      "puerto",
+      "oscuro",
+      "lleno",
+      "pequeño"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "parte superior",
+    "choices": [
+      "tomar",
+      "ciudad",
+      "ascenso",
+      "fondo"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "parte de arriba",
+    "choices": [
+      "segundo",
+      "parte de abajo",
+      "gas",
+      "negro"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "moderno",
+    "choices": [
+      "página",
+      "par",
+      "planta",
+      "antiguo"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "presente",
+    "choices": [
+      "hierro",
+      "pasado",
+      "algodón",
+      "así"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dentro",
+    "choices": [
+      "fuera",
+      "camión",
+      "quemar",
+      "frotar"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "claridad",
+    "choices": [
+      "instantánea",
+      "oscuro",
+      "representar",
+      "para"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "luminosidad",
+    "choices": [
+      "centro",
+      "ir",
+      "sabía",
+      "débil"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "luminosidad",
+    "choices": [
+      "suave",
+      "casa",
+      "bajo",
+      "pie"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "rico",
+    "choices": [
+      "completo",
+      "pobre",
+      "dicho",
+      "oído"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "barato",
+    "choices": [
+      "ocupado",
+      "caro",
+      "log",
+      "médico"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ambicioso",
+    "choices": [
+      "fuego",
+      "exigir",
+      "perezoso",
+      "muchos"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "saludable",
+    "choices": [
+      "anillo",
+      "pared",
+      "hizo",
+      "indispuesto"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "arrancar",
+    "choices": [
+      "ambos",
+      "desarrollar",
+      "parar",
+      "ciento"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ligero",
+    "choices": [
+      "tipo",
+      "ciencia",
+      "lo",
+      "pesado"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "alegre",
+    "choices": [
+      "triste",
+      "patio",
+      "am",
+      "experimento"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "feliz",
+    "choices": [
+      "actual",
+      "corriente",
+      "sección",
+      "triste"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "cansado",
+    "choices": [
+      "cuatro",
+      "brillo",
+      "descansado",
+      "unidad"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "valiente",
+    "choices": [
+      "a",
+      "camión",
+      "separada",
+      "cobarde"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "tranquilo",
+    "choices": [
+      "habitual",
+      "menos",
+      "quizás",
+      "ruidoso"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "silencioso",
+    "choices": [
+      "construir",
+      "puede",
+      " silencioso",
+      "vista"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "reparado",
+    "choices": [
+      "pato",
+      "tiene",
+      "roto",
+      "cerca"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "eficiante",
+    "choices": [
+      "pesada",
+      "ley",
+      "ineficiante",
+      "triángulo"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "activo",
+    "choices": [
+      "inactivo",
+      "cielo",
+      "su",
+      "tiempo"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "comprado",
+    "choices": [
+      "brecha",
+      "casa",
+      "corazón",
+      "vendido"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "hacia adelante",
+    "choices": [
+      "desarrollar",
+      "hacia atrás",
+      "general",
+      "enseñar"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "contratado",
+    "choices": [
+      "despedido",
+      "producirse",
+      "clase",
+      "comparar"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "empleado",
+    "choices": [
+      "comenzar",
+      "plan de",
+      "despido",
+      "sombrero"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "vivo",
+    "choices": [
+      "aliviar",
+      "muerto",
+      "cruzar",
+      "puerta"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "subir",
+    "choices": [
+      "descender",
+      "nube",
+      "en",
+      "neumáticos"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "perdido",
+    "choices": [
+      "con",
+      "calle",
+      "básico",
+      "encontrado"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "joven",
+    "choices": [
+      "estudiante",
+      "habilidad",
+      "viejo",
+      "isla"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fresca",
+    "choices": [
+      "ventana",
+      "rancio",
+      "cólera",
+      "suave"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "mojado",
+    "choices": [
+      "seco",
+      "boca",
+      "enemigo",
+      "mal"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "limpio",
+    "choices": [
+      "ocho",
+      "peces",
+      "sucio",
+      "él"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "amor",
+    "choices": [
+      "odio",
+      "comercio",
+      "lavado",
+      "gracias"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dulce",
+    "choices": [
+      "rama",
+      "varios",
+      "idioma",
+      "agrio"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "emociante",
+    "choices": [
+      "de pie",
+      "otros",
+      "sierra",
+      "aburrido"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "de buen humor",
+    "choices": [
+      "sentarse",
+      "papel",
+      "era",
+      "de mal humor"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "más",
+    "choices": [
+      "adecuada",
+      "importante",
+      "así",
+      "menos"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "organizado",
+    "choices": [
+      "oportunidad",
+      "reunir",
+      "sorpresa",
+      "desorganizado"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "aparecer",
+    "choices": [
+      "solución",
+      "si",
+      "desaparecer",
+      "sonrisa"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "comedia",
+    "choices": [
+      "rey",
+      "propagación",
+      "tren",
+      "tragedia"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "escrito",
+    "choices": [
+      "hablado",
+      "estado",
+      "a",
+      "encontrado"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "escribir",
+    "choices": [
+      "leer",
+      "suficiente",
+      "debe",
+      "a través de"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "nuevo",
+    "choices": [
+      "mar",
+      "sistema",
+      "libre",
+      "usado"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "paz",
+    "choices": [
+      "guerra",
+      "máquina",
+      "olor",
+      "sí"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "no",
+    "choices": [
+      "sí",
+      "naturales",
+      "marrón",
+      "soldado"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "corto",
+    "choices": [
+      "puerto",
+      "largo",
+      "líquido",
+      "tocar"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "nada",
+    "choices": [
+      "menos",
+      "todo",
+      "distante",
+      "oro"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lejos",
+    "choices": [
+      "cerca",
+      "cuerda",
+      "quedarse",
+      "nunca"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lejos",
+    "choices": [
+      "carácter",
+      "medio",
+      "aviso",
+      "cercano"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "estrecho",
+    "choices": [
+      "cayó",
+      "lo hará",
+      "aviso",
+      "ancho"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "bajo",
+    "choices": [
+      "tiempo",
+      "decir",
+      "alto",
+      "invierno"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "delgado",
+    "choices": [
+      "acerca",
+      "gordo",
+      "camino",
+      "día"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "falco",
+    "choices": [
+      "grueso",
+      "orden",
+      "muerte",
+      "humana"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "derecho",
+    "choices": [
+      "conducir",
+      "conjunto",
+      "izquierda",
+      "inferior"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "tarde",
+    "choices": [
+      "noche",
+      "temprano",
+      "tiempo",
+      "experiencia"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "deslucido",
+    "choices": [
+      "corrió",
+      "particular,",
+      "aunque",
+      "brillante"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lento",
+    "choices": [
+      "rápido",
+      "sol",
+      "cien",
+      "indicar"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "despacio",
+    "choices": [
+      "golpear",
+      "representar",
+      "rapidamente",
+      "juntos"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fácil",
+    "choices": [
+      "arena",
+      "desde",
+      "difícil",
+      "lenta"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "bajar",
+    "choices": [
+      "tercero",
+      "piso",
+      "subir",
+      "seis"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "debajo de",
+    "choices": [
+      "párrafo",
+      "un",
+      "encima de",
+      "música"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fuera",
+    "choices": [
+      "agujero",
+      "sierra",
+      "dentro",
+      "polluelo"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "afuera",
+    "choices": [
+      "leer",
+      "mensaje",
+      "dentro",
+      "movimiento"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "feo",
+    "choices": [
+      "guapo",
+      "unidad",
+      "cortada",
+      "valle"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "feo",
+    "choices": [
+      "pájaro",
+      "Radio",
+      "bonito",
+      "habló"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "feo",
+    "choices": [
+      "proceso",
+      "concha",
+      "lindo",
+      "todavía"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "aburrido",
+    "choices": [
+      "marrón",
+      "querido",
+      "interesante",
+      "naturaleza"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "mal",
+    "choices": [
+      "problema",
+      "cuota",
+      "buen",
+      "personas"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "malo",
+    "choices": [
+      "bueno",
+      "palabra",
+      "corriente",
+      "golpear"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "terrible",
+    "choices": [
+      "maravilloso",
+      "esquina",
+      "pasado",
+      "feliz"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "blanco",
+    "choices": [
+      "después",
+      "triángulo",
+      "negro",
+      "suelo"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "agrio",
+    "choices": [
+      "dulce",
+      "importante",
+      "contener",
+      "frío"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "débil",
+    "choices": [
+      "frase",
+      "fuerte",
+      "acto",
+      "bastante"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "nunca",
+    "choices": [
+      "tierra",
+      "párrafo",
+      "siempre",
+      "general"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "nada",
+    "choices": [
+      "capturado",
+      "todos",
+      "cuarto de galón",
+      "aumentar"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "antipático",
+    "choices": [
+      "risa",
+      "simpático",
+      "colores",
+      "comparar"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "antipático",
+    "choices": [
+      "madera",
+      "momento",
+      "simpático",
+      "resultado"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "serio",
+    "choices": [
+      "azúcar",
+      "viajes",
+      "divertido",
+      "sangre"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "serio",
+    "choices": [
+      "añadir",
+      "divertido",
+      "tramo",
+      "azul"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "rubio",
+    "choices": [
+      "después",
+      "mal",
+      "morena",
+      "milla"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "perder",
+    "choices": [
+      "ganar",
+      "hombres",
+      "importante",
+      "sabía"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "dormido",
+    "choices": [
+      "unidad",
+      "despierto",
+      "tiene",
+      "usted"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "cerrado",
+    "choices": [
+      "abierto",
+      "longitud",
+      "alambre",
+      "miedo"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "descubierto",
+    "choices": [
+      "cubierto",
+      "empresa",
+      "pasar",
+      "palabra"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "pequeño",
+    "choices": [
+      "cuidado",
+      "grande",
+      "silla",
+      "mundo"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "frío",
+    "choices": [
+      "caliente",
+      "frío",
+      "oxígeno",
+      "superficie"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "poco",
+    "choices": [
+      "escribió",
+      "difícil",
+      "sugerir",
+      "mucho"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "termina",
+    "choices": [
+      "grande",
+      "los",
+      "empieza",
+      "determinar"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "incorrecto",
+    "choices": [
+      "nada",
+      "amplio",
+      "correcto",
+      "viejo"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "equivocado",
+    "choices": [
+      "peligro",
+      "exacto",
+      "negro",
+      "entonces"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "lleno",
+    "choices": [
+      "vacío",
+      "movimiento",
+      "el control",
+      "hecho"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fondo",
+    "choices": [
+      "crear",
+      "duro",
+      "parte superior",
+      "golpe"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "parte de abajo",
+    "choices": [
+      "cima",
+      "entre",
+      "parte de arriba",
+      "grado"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "antiguo",
+    "choices": [
+      "cada",
+      "moderno",
+      "elemento",
+      "siglo"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "pasado",
+    "choices": [
+      "presente",
+      "zona",
+      "dedo",
+      "lavado"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "fuera",
+    "choices": [
+      "similar",
+      "cuello",
+      "dentro",
+      "nombre"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "oscuro",
+    "choices": [
+      "fuera",
+      "suficiente",
+      "fin",
+      "claridad"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "débil",
+    "choices": [
+      "base de",
+      "muerte",
+      "luminosidad",
+      "éxito"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "bajo",
+    "choices": [
+      "jefe",
+      "concha",
+      "luminosidad",
+      "vestido"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "pobre",
+    "choices": [
+      "hecho",
+      "cola",
+      "Halar",
+      "rico"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "caro",
+    "choices": [
+      "mucho",
+      "decir",
+      "barato",
+      "barra"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "perezoso",
+    "choices": [
+      "con",
+      "tono",
+      "hoja",
+      "ambicioso"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "indispuesto",
+    "choices": [
+      "fresco",
+      "saludable",
+      "sugerir",
+      "madre"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "parar",
+    "choices": [
+      "escuchar",
+      "respuesta",
+      "estación",
+      "arrancar"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "pesado",
+    "choices": [
+      "no",
+      "tierra",
+      "con",
+      "ligero"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "triste",
+    "choices": [
+      "alegre",
+      "completo",
+      "lugar",
+      "tocar"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "triste",
+    "choices": [
+      "observar",
+      "feliz",
+      "acuerdo",
+      "conseguido"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "descansado",
+    "choices": [
+      "ronda",
+      "bajo",
+      "cansado",
+      "misma"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "cobarde",
+    "choices": [
+      "batir",
+      "camino",
+      "cosa",
+      "valiente"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ruidoso",
+    "choices": [
+      "juntos",
+      "tranquilo",
+      "eran",
+      "comenzar"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": " silencioso",
+    "choices": [
+      "silencioso",
+      "quizás",
+      "pistola",
+      "por tanto,"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "roto",
+    "choices": [
+      "suave",
+      "millones",
+      "aunque",
+      "reparado"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "ineficiante",
+    "choices": [
+      "eficiante",
+      "ala",
+      "suficiente",
+      "crecer"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "inactivo",
+    "choices": [
+      "ley",
+      "resultado",
+      "activo",
+      "decir"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "vendido",
+    "choices": [
+      "libra",
+      "comprado",
+      "creció",
+      "multitud"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "hacia atrás",
+    "choices": [
+      "hacia adelante",
+      "ella",
+      "uno",
+      "animal"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "despedido",
+    "choices": [
+      "contratado",
+      "equiparar",
+      "raíz",
+      "master"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "despido",
+    "choices": [
+      "empleado",
+      "exacta",
+      "cima",
+      "grado"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "muerto",
+    "choices": [
+      "cuatro",
+      "vivo",
+      "de pie",
+      "papá"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "descender",
+    "choices": [
+      "lugar",
+      "cómo",
+      "subir",
+      "nuestro"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "encontrado",
+    "choices": [
+      "perdido",
+      "noche",
+      "cosa",
+      "conducir"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "viejo",
+    "choices": [
+      "joven",
+      "silla",
+      "historia",
+      "forma"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "rancio",
+    "choices": [
+      "tener",
+      "cinco",
+      "fresca",
+      "raíz"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "seco",
+    "choices": [
+      "mojado",
+      "hierba",
+      "pequeño",
+      "mentira"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "sucio",
+    "choices": [
+      "arte",
+      "limpio",
+      "ejecutar",
+      "primavera"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "odio",
+    "choices": [
+      "asiento",
+      "hacer",
+      "como",
+      "amor"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "agrio",
+    "choices": [
+      "sustancia",
+      "continuar",
+      "papel",
+      "dulce"
+    ],
+    "answer": 3,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "aburrido",
+    "choices": [
+      "sentir",
+      "emociante",
+      "corrió",
+      "vestir"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "de mal humor",
+    "choices": [
+      "golpear",
+      "práctica",
+      "de buen humor",
+      "dedo"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "menos",
+    "choices": [
+      "maravilla",
+      "conseguir",
+      "más",
+      "minuto"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "desorganizado",
+    "choices": [
+      "sentarse",
+      "organizado",
+      "deslizamiento",
+      "vidrio"
+    ],
+    "answer": 1,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "desaparecer",
+    "choices": [
+      "hermano",
+      "suave",
+      "aparecer",
+      "plata"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "tragedia",
+    "choices": [
+      "molécula",
+      "enviar",
+      "comedia",
+      "dos"
+    ],
+    "answer": 2,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "hablado",
+    "choices": [
+      "escrito",
+      "vida",
+      "mantenga",
+      "marca"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "leer",
+    "choices": [
+      "escribir",
+      "antes",
+      "suelo",
+      "usted"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "usado",
+    "choices": [
+      "nuevo",
+      "hasta",
+      "pies",
+      "danza"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  },
+  {
+    "question": "guerra",
+    "choices": [
+      "paz",
+      "rápido",
+      "vestir",
+      "deberá"
+    ],
+    "answer": 0,
+    "type": "antonym",
+    "intent": "",
+    "extra": "Antonym of"
+  }
+]
