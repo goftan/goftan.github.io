@@ -34,7 +34,15 @@ function check_if_answer(x,y) {
             d3.select('#' + id_of_cell_alone(startx + counter-1, starty-1)).node().setAttribute('disabled','')
         }
     } else {
-
+        for(var counter = 0; counter < d.answer.length;counter++) {
+            if(d3.select('#' + id_of_cell_alone(startx - 1, starty + counter - 1)).node().value != d.answer[counter]) {
+                return false;
+            }
+        }
+        for(var counter = 0; counter < d.answer.length;counter++) {
+            d3.select('#' + id_of_cell_alone(startx -1, starty + counter -1)).style('background-color','lightgreen');
+            d3.select('#' + id_of_cell_alone(startx -1, starty + counter -1)).node().setAttribute('disabled','')
+        }
     }
 
 }
