@@ -1,15 +1,69 @@
+var xy_to_data = {};
+// function find_suitable_neighbour_for_focus(x,y) {
+//     var neighbours = [
+//         {'x': x + 1, 'y': y},
+//         {'x': x, 'y': y + 1},
+//         {'x': x, 'y': y - 1},
+//         {'x': x - 1, 'y': y},
+//     ];
+//     for(n of neighbours) {
+//         var mynode = d3.select(id_of_cell(n.x, n.y)).node();
+//         if(mynode != null && mynode.value == '') {
+//             mynode.focus();
+//             return;
+//         }
+//     }
+// }
+
+function check_if_answer(x,y) {
+    console.log(x+" "+y);
+    console.log(xy_to_data);
+    d = xy_to_data[(x+1)+'_'+(y+1)]
+    console.log(d);
+    startx = d.startx;
+    starty = d.starty;
+    console.log(direction);
+    if(direction == 'across') {
+        for(var counter = 0; counter < d.answer.length;counter++) {
+            if(d3.select('#' + id_of_cell_alone(startx + counter-1, starty-1)).node().value != d.answer[counter]) {
+                return false;
+            }
+        }
+        for(var counter = 0; counter < d.answer.length;counter++) {
+            d3.select('#' + id_of_cell_alone(startx + counter-1, starty-1)).style('background-color','lightgreen');
+            d3.select('#' + id_of_cell_alone(startx + counter-1, starty-1)).node().setAttribute('disabled','')
+        }
+    } else {
+
+    }
+
+}
+
+direction = 'across';
 function find_suitable_neighbour_for_focus(x,y) {
-    var neighbours = [
-        {'x': x + 1, 'y': y},
-        {'x': x, 'y': y + 1},
-        {'x': x, 'y': y - 1},
-        {'x': x - 1, 'y': y},
-    ];
-    for(n of neighbours) {
-        var mynode = d3.select(id_of_cell(n.x, n.y)).node();
+    if(direction == 'across') {
+        var mynode = d3.select(id_of_cell(x + 1 , y)).node();
         if(mynode != null && mynode.value == '') {
             mynode.focus();
             return;
+        } else {
+            mynode = d3.select(id_of_cell(x - 1 , y)).node();
+            if(mynode != null && mynode.value == '') {
+                mynode.focus();
+                return;
+            }
+        }
+    } else {
+        var mynode = d3.select(id_of_cell(x , y + 1)).node();
+        if(mynode != null && mynode.value == '') {
+            mynode.focus();
+            return;
+        } else {
+            mynode = d3.select(id_of_cell(x , y - 1)).node();
+            if(mynode != null && mynode.value == '') {
+                mynode.focus();
+                return;
+            }
         }
     }
 }
@@ -29,27 +83,39 @@ function id_of_cell(x,y) {
     return '#' + id_of_cell_alone(x,y);
 }
 
+function all_cross_cells_to_lightgray_except_answers() {
+    d3.selectAll('.crossword_cells')
+        .filter(function(){
+            return d3.select(this).style('background-color') != 'lightgreen';
+        })
+        .style('background-color', 'lightgray');
+}
+
+function color_a_cell_except_answers(x,y) {
+    if(d3.select(id_of_cell(x, y)).style('background-color') != 'lightgreen')
+        d3.select(id_of_cell(x, y)).style('background-color', 'white')
+}
+
 function select_a_crossword_cell(el,d) {
-    d3.selectAll('.crossword_cells').style('background-color', 'lightgray');
+    all_cross_cells_to_lightgray_except_answers();
     var q = d.clue;
     var extra = d.extra;
     var x = d.startx - 1;
     var y = d.starty - 1;
     d3.select('#crossword_question').html(extra + " " + q);
     var orientation = d.orientation;
+    direction = orientation;
     for(var counter = 0; counter < d.answer.length;counter++) {
         if(orientation == 'across') {
-            d3.select(id_of_cell(x + counter, y))
-            .style('background-color','white');
+            color_a_cell_except_answers(x + counter, y);
         } else {
-            d3.select(id_of_cell(x, y + counter))
-            .style('background-color','white');
+            color_a_cell_except_answers(x, y + counter);
         }
     }
 }
 
 function select_a_crossword_question(el) {
-    d3.selectAll('.crossword_cells').style('background-color', 'lightgray');
+    all_cross_cells_to_lightgray_except_answers();
     var q = el.getAttribute('question');
     var extra = el.getAttribute('extra');
     d3.select('#crossword_question').html(extra + " " + q);
@@ -58,13 +124,12 @@ function select_a_crossword_question(el) {
     
     d3.select(id_of_cell(x,y)).node().focus();
     var orientation = el.getAttribute('orientation');
+    direction = orientation;
     for(var counter = 0; counter < el.getAttribute('answer').length;counter++) {
         if(orientation == 'across') {
-            d3.select(id_of_cell(x + counter, y))
-            .style('background-color','white');
+            color_a_cell_except_answers(x + counter, y);
         } else {
-            d3.select(id_of_cell(x, y + counter))
-            .style('background-color','white');
+            color_a_cell_except_answers(x, y + counter);
         }
     }
 }
@@ -107,7 +172,7 @@ function fill_crossword(quiz) {
         } 
     }
 
-    var xy_to_data = {};
+    
     for(table_q of output_json) {
         var x = table_q.startx;
         var y = table_q.starty;
@@ -133,6 +198,7 @@ function fill_crossword(quiz) {
             var x = parseInt(tmp.split('_')[0]);
             var y = parseInt(tmp.split('_')[1]);
             find_suitable_neighbour_for_focus(x,y);
+            check_if_answer(x,y);
             return this.value;
         })
         .on('click', function() {
