@@ -127,7 +127,7 @@ body {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 12px 24px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -296,12 +296,13 @@ body {
 
 .crossword_cells {
   text-align:center;
-  width:15px;
-  height:15px;
+  width:20px;
+  height:20px;
   border:0;
   background: none;
   box-shadow: none;
   border-radius: 0px;
+  font-size: 20px;
 }
 
 .question_table {

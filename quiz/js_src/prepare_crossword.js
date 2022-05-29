@@ -15,6 +15,8 @@ var xy_to_data = {};
 //     }
 // }
 
+var lastActiveCell = null;
+
 function check_if_answer(x,y) {
     console.log(x+" "+y);
     console.log(xy_to_data);
@@ -223,6 +225,9 @@ function fill_crossword(quiz) {
             if(event.key == 'Backspace') {
                 // console.log('whatttt Backspace');
             }
+        })
+        .on('focus', function() {
+            lastActiveCell = document.activeElement;
         });
 
 
@@ -256,4 +261,8 @@ function fill_crossword(quiz) {
         cnt++;
     }
     select_a_crossword_question(d3.select('#across_questions').select('span').node());
+}
+
+function Hint() {
+    d3.select(lastActiveCell).attr('value', d3.select(lastActiveCell).attr('ans'));
 }
