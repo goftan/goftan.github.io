@@ -20,7 +20,6 @@ function deselectAllNav() {
 
 function selectPage(page) {
     deselectAllNav();
-    console.log()
     d3.select('#'+page+"_nav").attr('class','active');
     d3.select('#'+page).style("display", 'block');
 }

@@ -161,7 +161,7 @@ function viewResults() {
 }
 
 function restartQuiz() {
-    selectPage('tasks_page');
+    selectPage('tasks');
     countCorrect = 0;
     countIncorrect = 0;
     countViewed = 0;
