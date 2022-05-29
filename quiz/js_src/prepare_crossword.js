@@ -218,6 +218,11 @@ function fill_crossword(quiz) {
           startx = d.startx - 1;
           starty = d.starty - 1;
           select_a_crossword_cell(d3.select(id_of_cell(startx, starty)).node(), d);
+        })
+        .on('keydown', function(event) { 
+            if(event.key == 'Backspace') {
+                // console.log('whatttt Backspace');
+            }
         });
 
 
