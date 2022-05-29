@@ -1,0 +1,10402 @@
+[
+  {
+    "question": "하나",
+    "choices": [
+      "1",
+      "10",
+      "72",
+      "88"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "둘",
+    "choices": [
+      "2",
+      "9",
+      "27",
+      "73"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "셋",
+    "choices": [
+      "56",
+      "3",
+      "25",
+      "73"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "넷",
+    "choices": [
+      "3",
+      "56",
+      "4",
+      "70"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "다섯",
+    "choices": [
+      "86",
+      "52",
+      "5",
+      "23"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "여섯",
+    "choices": [
+      "3",
+      "6",
+      "94",
+      "18"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "일곱",
+    "choices": [
+      "95",
+      "34",
+      "83",
+      "7"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "여덟",
+    "choices": [
+      "97",
+      "27",
+      "8",
+      "82"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "아홉",
+    "choices": [
+      "77",
+      "44",
+      "78",
+      "9"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "열",
+    "choices": [
+      "59",
+      "10",
+      "6",
+      "22"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "열하나",
+    "choices": [
+      "89",
+      "82",
+      "11",
+      "47"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "열둘",
+    "choices": [
+      "59",
+      "13",
+      "54",
+      "12"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "열셋",
+    "choices": [
+      "43",
+      "12",
+      "13",
+      "23"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "열넷",
+    "choices": [
+      "2",
+      "14",
+      "17",
+      "72"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "열다섯",
+    "choices": [
+      "79",
+      "91",
+      "15",
+      "86"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "열여섯",
+    "choices": [
+      "70",
+      "21",
+      "16",
+      "16"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "열일곱",
+    "choices": [
+      "84",
+      "29",
+      "17",
+      "64"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "열여덟",
+    "choices": [
+      "18",
+      "80",
+      "86",
+      "21"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "열아홉",
+    "choices": [
+      "19",
+      "9",
+      "1",
+      "46"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "스물",
+    "choices": [
+      "34",
+      "20",
+      "13",
+      "29"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "스물하나",
+    "choices": [
+      "91",
+      "56",
+      "86",
+      "21"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "스물둘",
+    "choices": [
+      "35",
+      "93",
+      "22",
+      "5"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "스물셋",
+    "choices": [
+      "39",
+      "41",
+      "92",
+      "23"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "스물넷",
+    "choices": [
+      "21",
+      "30",
+      "24",
+      "56"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "스물다섯",
+    "choices": [
+      "25",
+      "26",
+      "43",
+      "22"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "스물여섯",
+    "choices": [
+      "13",
+      "10",
+      "26",
+      "77"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "스물일곱",
+    "choices": [
+      "45",
+      "78",
+      "27",
+      "20"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "스물여덟",
+    "choices": [
+      "28",
+      "83",
+      "34",
+      "85"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "스물아홉",
+    "choices": [
+      "66",
+      "46",
+      "15",
+      "29"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "서른",
+    "choices": [
+      "25",
+      "30",
+      "50",
+      "51"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "서른하나",
+    "choices": [
+      "31",
+      "90",
+      "62",
+      "36"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "서른둘",
+    "choices": [
+      "36",
+      "83",
+      "32",
+      "44"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "서른셋",
+    "choices": [
+      "15",
+      "33",
+      "45",
+      "43"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "서른넷",
+    "choices": [
+      "22",
+      "39",
+      "34",
+      "86"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "서른다섯",
+    "choices": [
+      "89",
+      "45",
+      "1",
+      "35"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "서른여섯",
+    "choices": [
+      "93",
+      "73",
+      "37",
+      "36"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "서른일곱",
+    "choices": [
+      "37",
+      "8",
+      "55",
+      "38"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "서른여덟",
+    "choices": [
+      "53",
+      "51",
+      "23",
+      "38"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "서른아홉",
+    "choices": [
+      "19",
+      "78",
+      "2",
+      "39"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "마흔",
+    "choices": [
+      "57",
+      "21",
+      "40",
+      "58"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "마흔하나",
+    "choices": [
+      "41",
+      "28",
+      "75",
+      "97"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "마흔둘",
+    "choices": [
+      "95",
+      "42",
+      "27",
+      "26"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "마흔셋",
+    "choices": [
+      "78",
+      "98",
+      "9",
+      "43"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "마흔넷",
+    "choices": [
+      "33",
+      "32",
+      "54",
+      "44"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "마흔다섯",
+    "choices": [
+      "93",
+      "45",
+      "47",
+      "48"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "마흔여섯",
+    "choices": [
+      "50",
+      "86",
+      "46",
+      "2"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "마흔일곱",
+    "choices": [
+      "21",
+      "47",
+      "47",
+      "37"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "마흔여덟",
+    "choices": [
+      "48",
+      "21",
+      "81",
+      "26"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "마흔아홉",
+    "choices": [
+      "49",
+      "93",
+      "31",
+      "30"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "쉰",
+    "choices": [
+      "87",
+      "50",
+      "40",
+      "47"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "쉰하나",
+    "choices": [
+      "11",
+      "26",
+      "21",
+      "51"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "쉰둘",
+    "choices": [
+      "48",
+      "52",
+      "20",
+      "42"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "쉰셋",
+    "choices": [
+      "71",
+      "53",
+      "5",
+      "62"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "쉰넷",
+    "choices": [
+      "97",
+      "53",
+      "57",
+      "54"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "쉰다섯",
+    "choices": [
+      "94",
+      "81",
+      "30",
+      "55"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "쉰여섯",
+    "choices": [
+      "56",
+      "33",
+      "72",
+      "93"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "쉰일곱",
+    "choices": [
+      "57",
+      "50",
+      "94",
+      "52"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "쉰여덟",
+    "choices": [
+      "30",
+      "58",
+      "9",
+      "40"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "쉰아홉",
+    "choices": [
+      "59",
+      "45",
+      "90",
+      "30"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "예순",
+    "choices": [
+      "60",
+      "44",
+      "85",
+      "17"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "예순하나",
+    "choices": [
+      "61",
+      "12",
+      "79",
+      "55"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "예순둘",
+    "choices": [
+      "47",
+      "91",
+      "25",
+      "62"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "예순셋",
+    "choices": [
+      "68",
+      "89",
+      "85",
+      "63"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "예순넷",
+    "choices": [
+      "64",
+      "85",
+      "18",
+      "86"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "예순다섯",
+    "choices": [
+      "93",
+      "28",
+      "45",
+      "65"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "예순여섯",
+    "choices": [
+      "66",
+      "58",
+      "1",
+      "25"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "예순일곱",
+    "choices": [
+      "88",
+      "67",
+      "96",
+      "72"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "예순여덟",
+    "choices": [
+      "63",
+      "68",
+      "98",
+      "64"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "예순아홉",
+    "choices": [
+      "2",
+      "62",
+      "69",
+      "65"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "일흔",
+    "choices": [
+      "97",
+      "60",
+      "11",
+      "70"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "일흔하나",
+    "choices": [
+      "75",
+      "71",
+      "68",
+      "84"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "일흔둘",
+    "choices": [
+      "97",
+      "72",
+      "70",
+      "67"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "일흔셋",
+    "choices": [
+      "81",
+      "50",
+      "73",
+      "99"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "일흔넷",
+    "choices": [
+      "74",
+      "62",
+      "25",
+      "63"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "일흔다섯",
+    "choices": [
+      "11",
+      "75",
+      "9",
+      "50"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "일흔여섯",
+    "choices": [
+      "42",
+      "76",
+      "45",
+      "10"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "일흔일곱",
+    "choices": [
+      "54",
+      "16",
+      "44",
+      "77"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "일흔여덟",
+    "choices": [
+      "24",
+      "13",
+      "78",
+      "41"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "일흔아홉",
+    "choices": [
+      "28",
+      "31",
+      "69",
+      "79"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "여든",
+    "choices": [
+      "80",
+      "45",
+      "42",
+      "2"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "여든하나",
+    "choices": [
+      "38",
+      "18",
+      "58",
+      "81"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "여든둘",
+    "choices": [
+      "82",
+      "30",
+      "6",
+      "58"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "여든셋",
+    "choices": [
+      "52",
+      "83",
+      "19",
+      "29"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "여든넷",
+    "choices": [
+      "84",
+      "26",
+      "93",
+      "74"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "여든다섯",
+    "choices": [
+      "13",
+      "85",
+      "9",
+      "85"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "여든여섯",
+    "choices": [
+      "12",
+      "77",
+      "36",
+      "86"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "여든일곱",
+    "choices": [
+      "90",
+      "79",
+      "87",
+      "86"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "여든여덟",
+    "choices": [
+      "10",
+      "56",
+      "92",
+      "88"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "여든아홉",
+    "choices": [
+      "89",
+      "17",
+      "11",
+      "86"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "아흔",
+    "choices": [
+      "90",
+      "31",
+      "52",
+      "29"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "아흔하나",
+    "choices": [
+      "46",
+      "2",
+      "91",
+      "47"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "아흔둘",
+    "choices": [
+      "90",
+      "92",
+      "34",
+      "15"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "아흔셋",
+    "choices": [
+      "80",
+      "27",
+      "77",
+      "93"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "아흔넷",
+    "choices": [
+      "99",
+      "94",
+      "17",
+      "10"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "아흔다섯",
+    "choices": [
+      "90",
+      "95",
+      "16",
+      "26"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "아흔여섯",
+    "choices": [
+      "96",
+      "79",
+      "88",
+      "83"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "아흔일곱",
+    "choices": [
+      "86",
+      "94",
+      "97",
+      "98"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "아흔여덟",
+    "choices": [
+      "55",
+      "98",
+      "7",
+      "19"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "아흔아홉",
+    "choices": [
+      "47",
+      "12",
+      "99",
+      "29"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "백",
+    "choices": [
+      "6",
+      "68",
+      "42",
+      "100"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Sino-Korean):"
+  },
+  {
+    "question": "1",
+    "choices": [
+      "여든",
+      "아홉",
+      "여든넷",
+      "하나"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "2",
+    "choices": [
+      "예순셋",
+      "둘",
+      "일흔여섯",
+      "여든아홉"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "3",
+    "choices": [
+      "셋",
+      "아흔여덟",
+      "예순넷",
+      "여든여덟"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "4",
+    "choices": [
+      "열일곱",
+      "넷",
+      "마흔넷",
+      "일흔둘"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "5",
+    "choices": [
+      "아흔넷",
+      "다섯",
+      "둘",
+      "쉰둘"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "6",
+    "choices": [
+      "스물여덟",
+      "마흔여섯",
+      "열넷",
+      "여섯"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "7",
+    "choices": [
+      "예순",
+      "일곱",
+      "예순둘",
+      "아흔아홉"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "8",
+    "choices": [
+      "마흔하나",
+      "서른하나",
+      "여덟",
+      "아홉"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "9",
+    "choices": [
+      "쉰다섯",
+      "쉰여덟",
+      "아홉",
+      "쉰셋"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "10",
+    "choices": [
+      "예순넷",
+      "열",
+      "마흔여덟",
+      "여섯"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "11",
+    "choices": [
+      "스물셋",
+      "서른둘",
+      "마흔아홉",
+      "열하나"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "12",
+    "choices": [
+      "열둘",
+      "일흔일곱",
+      "열여덟",
+      "스물넷"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "13",
+    "choices": [
+      "마흔",
+      "일흔넷",
+      "스물",
+      "열셋"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "14",
+    "choices": [
+      "일흔",
+      "마흔다섯",
+      "여든여덟",
+      "열넷"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "15",
+    "choices": [
+      "열하나",
+      "아흔아홉",
+      "열다섯",
+      "하나"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "16",
+    "choices": [
+      "서른넷",
+      "다섯",
+      "서른다섯",
+      "열여섯"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "17",
+    "choices": [
+      "스물일곱",
+      "아홉",
+      "열일곱",
+      "일흔여덟"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "18",
+    "choices": [
+      "아흔여덟",
+      "열여덟",
+      "스물하나",
+      "아흔둘"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "19",
+    "choices": [
+      "스물아홉",
+      "열아홉",
+      "서른다섯",
+      "열여덟"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "20",
+    "choices": [
+      "아흔일곱",
+      "여든다섯",
+      "아흔셋",
+      "스물"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "21",
+    "choices": [
+      "스물하나",
+      "서른다섯",
+      "마흔둘",
+      "열하나"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "22",
+    "choices": [
+      "스물둘",
+      "여섯",
+      "둘",
+      "마흔셋"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "23",
+    "choices": [
+      "열넷",
+      "일흔둘",
+      "아흔",
+      "스물셋"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "24",
+    "choices": [
+      "마흔셋",
+      "일흔하나",
+      "스물넷",
+      "서른셋"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "25",
+    "choices": [
+      "열여섯",
+      "서른셋",
+      "스물다섯",
+      "둘"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "26",
+    "choices": [
+      "아흔여섯",
+      "쉰셋",
+      "열",
+      "스물여섯"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "27",
+    "choices": [
+      "스물일곱",
+      "일흔여덟",
+      "아흔넷",
+      "스물셋"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "28",
+    "choices": [
+      "스물여덟",
+      "아흔여섯",
+      "마흔여섯",
+      "쉰둘"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "29",
+    "choices": [
+      "쉰다섯",
+      "마흔하나",
+      "스물아홉",
+      "마흔넷"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "30",
+    "choices": [
+      "아흔여덟",
+      "열둘",
+      "서른",
+      "열일곱"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "31",
+    "choices": [
+      "서른아홉",
+      "서른하나",
+      "여섯",
+      "쉰일곱"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "32",
+    "choices": [
+      "스물다섯",
+      "마흔아홉",
+      "여든하나",
+      "서른둘"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "33",
+    "choices": [
+      "쉰셋",
+      "쉰여섯",
+      "서른셋",
+      "마흔아홉"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "34",
+    "choices": [
+      "서른넷",
+      "일흔",
+      "서른아홉",
+      "쉰아홉"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "35",
+    "choices": [
+      "서른다섯",
+      "열아홉",
+      "스물하나",
+      "스물여덟"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "36",
+    "choices": [
+      "서른여섯",
+      "일곱",
+      "예순",
+      "일흔여섯"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "37",
+    "choices": [
+      "열하나",
+      "여든여덟",
+      "쉰둘",
+      "서른일곱"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "38",
+    "choices": [
+      "일흔넷",
+      "서른여덟",
+      "예순다섯",
+      "스물셋"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "39",
+    "choices": [
+      "서른아홉",
+      "스물여섯",
+      "일흔일곱",
+      "여든일곱"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "40",
+    "choices": [
+      "마흔",
+      "셋",
+      "일곱",
+      "마흔아홉"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "41",
+    "choices": [
+      "아흔",
+      "일곱",
+      "마흔하나",
+      "쉰둘"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "42",
+    "choices": [
+      "마흔다섯",
+      "마흔둘",
+      "아흔여덟",
+      "아홉"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "43",
+    "choices": [
+      "둘",
+      "서른여덟",
+      "여든",
+      "마흔셋"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "44",
+    "choices": [
+      "열여섯",
+      "예순일곱",
+      "스물다섯",
+      "마흔넷"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "45",
+    "choices": [
+      "열하나",
+      "쉰넷",
+      "여든여덟",
+      "마흔다섯"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "46",
+    "choices": [
+      "마흔여섯",
+      "여든다섯",
+      "스물넷",
+      "예순일곱"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "47",
+    "choices": [
+      "스물셋",
+      "쉰하나",
+      "마흔일곱",
+      "마흔여덟"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "48",
+    "choices": [
+      "마흔여덟",
+      "아홉",
+      "예순아홉",
+      "일흔다섯"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "49",
+    "choices": [
+      "열",
+      "여덟",
+      "서른아홉",
+      "마흔아홉"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "50",
+    "choices": [
+      "열셋",
+      "아흔셋",
+      "스물여섯",
+      "쉰"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "51",
+    "choices": [
+      "쉰하나",
+      "여든아홉",
+      "쉰",
+      "서른여섯"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "52",
+    "choices": [
+      "예순아홉",
+      "쉰둘",
+      "아흔셋",
+      "열넷"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "53",
+    "choices": [
+      "아흔하나",
+      "쉰셋",
+      "열넷",
+      "스물아홉"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "54",
+    "choices": [
+      "스물하나",
+      "둘",
+      "쉰넷",
+      "서른여섯"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "55",
+    "choices": [
+      "예순셋",
+      "열아홉",
+      "쉰다섯",
+      "열다섯"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "56",
+    "choices": [
+      "쉰여섯",
+      "일흔",
+      "열",
+      "스물"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "57",
+    "choices": [
+      "쉰둘",
+      "서른둘",
+      "예순일곱",
+      "쉰일곱"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "58",
+    "choices": [
+      "스물일곱",
+      "열하나",
+      "둘",
+      "쉰여덟"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "59",
+    "choices": [
+      "열",
+      "쉰아홉",
+      "아흔",
+      "아흔일곱"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "60",
+    "choices": [
+      "예순여섯",
+      "예순",
+      "서른",
+      "쉰"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "61",
+    "choices": [
+      "일흔여섯",
+      "서른",
+      "예순하나",
+      "마흔넷"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "62",
+    "choices": [
+      "쉰",
+      "아흔셋",
+      "예순둘",
+      "스물다섯"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "63",
+    "choices": [
+      "스물일곱",
+      "여든넷",
+      "예순셋",
+      "여든아홉"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "64",
+    "choices": [
+      "여섯",
+      "스물여섯",
+      "예순넷",
+      "스물아홉"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "65",
+    "choices": [
+      "서른하나",
+      "예순여덟",
+      "예순다섯",
+      "일흔아홉"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "66",
+    "choices": [
+      "예순여섯",
+      "마흔일곱",
+      "마흔하나",
+      "스물아홉"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "67",
+    "choices": [
+      "예순일곱",
+      "예순일곱",
+      "예순둘",
+      "넷"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "68",
+    "choices": [
+      "스물아홉",
+      "예순여덟",
+      "예순둘",
+      "쉰하나"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "69",
+    "choices": [
+      "열넷",
+      "예순아홉",
+      "셋",
+      "예순넷"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "70",
+    "choices": [
+      "일흔",
+      "열여덟",
+      "열아홉",
+      "일흔다섯"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "71",
+    "choices": [
+      "일흔하나",
+      "여든하나",
+      "서른다섯",
+      "예순"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "72",
+    "choices": [
+      "여든아홉",
+      "아흔둘",
+      "열하나",
+      "일흔둘"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "73",
+    "choices": [
+      "일흔셋",
+      "서른",
+      "일흔",
+      "스물넷"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "74",
+    "choices": [
+      "열",
+      "예순넷",
+      "아흔둘",
+      "일흔넷"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "75",
+    "choices": [
+      "열",
+      "일흔다섯",
+      "열하나",
+      "마흔하나"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "76",
+    "choices": [
+      "일흔여섯",
+      "마흔",
+      "쉰아홉",
+      "스물"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "77",
+    "choices": [
+      "여든일곱",
+      "일흔",
+      "일흔일곱",
+      "아흔둘"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "78",
+    "choices": [
+      "여든셋",
+      "일흔여덟",
+      "마흔하나",
+      "일흔"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "79",
+    "choices": [
+      "일흔일곱",
+      "아홉",
+      "일흔아홉",
+      "아흔다섯"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "80",
+    "choices": [
+      "여든",
+      "스물여덟",
+      "열넷",
+      "예순하나"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "81",
+    "choices": [
+      "여든하나",
+      "아홉",
+      "예순셋",
+      "예순다섯"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "82",
+    "choices": [
+      "다섯",
+      "예순셋",
+      "여든둘",
+      "서른둘"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "83",
+    "choices": [
+      "일흔여덟",
+      "일흔셋",
+      "서른여섯",
+      "여든셋"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "84",
+    "choices": [
+      "여든넷",
+      "예순하나",
+      "하나",
+      "예순셋"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "85",
+    "choices": [
+      "여덟",
+      "여든다섯",
+      "열여덟",
+      "마흔"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "86",
+    "choices": [
+      "스물여섯",
+      "예순여섯",
+      "여든여섯",
+      "여든"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "87",
+    "choices": [
+      "넷",
+      "쉰아홉",
+      "일흔넷",
+      "여든일곱"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "88",
+    "choices": [
+      "아흔여섯",
+      "여든일곱",
+      "일흔여덟",
+      "여든여덟"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "89",
+    "choices": [
+      "예순하나",
+      "여든아홉",
+      "넷",
+      "예순일곱"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "90",
+    "choices": [
+      "하나",
+      "스물아홉",
+      "여덟",
+      "아흔"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "91",
+    "choices": [
+      "아흔하나",
+      "여든넷",
+      "서른아홉",
+      "아흔아홉"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "92",
+    "choices": [
+      "열아홉",
+      "아흔둘",
+      "여든넷",
+      "서른여섯"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "93",
+    "choices": [
+      "열아홉",
+      "아흔셋",
+      "스물여섯",
+      "마흔"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "94",
+    "choices": [
+      "하나",
+      "아흔넷",
+      "다섯",
+      "예순하나"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "95",
+    "choices": [
+      "스물넷",
+      "열여덟",
+      "아흔다섯",
+      "열넷"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "96",
+    "choices": [
+      "열",
+      "아흔여섯",
+      "예순셋",
+      "예순하나"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "97",
+    "choices": [
+      "예순일곱",
+      "여든셋",
+      "서른",
+      "아흔일곱"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "98",
+    "choices": [
+      "여든일곱",
+      "서른",
+      "아흔여덟",
+      "마흔"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "99",
+    "choices": [
+      "서른둘",
+      "아흔아홉",
+      "다섯",
+      "여든여섯"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "100",
+    "choices": [
+      "백",
+      "여덟",
+      "아흔여덟",
+      "아흔아홉"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Sino-Korean):"
+  },
+  {
+    "question": "하나",
+    "choices": [
+      "hana",
+      "daseot",
+      "yeodeunhana",
+      "maheunyeodeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "둘",
+    "choices": [
+      "aheun",
+      "seumulyeoseot",
+      "yeolyeodeol",
+      "dul"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "셋",
+    "choices": [
+      "swinilgop",
+      "seumulilgop",
+      "set",
+      "yeodeunahop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "넷",
+    "choices": [
+      "aheunahop",
+      "ilgop",
+      "net",
+      "yeoset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "다섯",
+    "choices": [
+      "aheunilgop",
+      "daseot",
+      "maheunhana",
+      "seoreunhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "여섯",
+    "choices": [
+      "yeoseot",
+      "ilheunset",
+      "seoreundaseot",
+      "aheunhana"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "일곱",
+    "choices": [
+      "swinhana",
+      "yeodeunyeodeol",
+      "swinnet",
+      "ilgop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "여덟",
+    "choices": [
+      "aheunilgop",
+      "maheundul",
+      "yeodeol",
+      "seumulyeoseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "아홉",
+    "choices": [
+      "yesundaseot",
+      "maheundul",
+      "yeoldul",
+      "ahop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "열",
+    "choices": [
+      "yeol",
+      "seumulahop",
+      "seumulyeodeol",
+      "aheunyeoseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "열하나",
+    "choices": [
+      "yeolhana",
+      "yeolhana",
+      "ilgop",
+      "maheunnet"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "열둘",
+    "choices": [
+      "ilheun",
+      "yeoldul",
+      "seureunahop",
+      "seumuldul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "열셋",
+    "choices": [
+      "yeodeol",
+      "set",
+      "yeoset",
+      "seoreunset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "열넷",
+    "choices": [
+      "yeolnet",
+      "yesundaseot",
+      "swindul",
+      "yesunnet"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "열다섯",
+    "choices": [
+      "yeoldaseot",
+      "seoreunilgop",
+      "ilheunyeodeol",
+      "yeoldaseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "열여섯",
+    "choices": [
+      "maheunyeoseot",
+      "aheundaseot",
+      "yeolyeoseot",
+      "ilheunhana"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "열일곱",
+    "choices": [
+      "swinyeodeol",
+      "seoreunnet",
+      "yeodeundaseot",
+      "yeolilgob"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "열여덟",
+    "choices": [
+      "yeodeunahop",
+      "daseot",
+      "yeolyeodeol",
+      "seumulyeoseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "열아홉",
+    "choices": [
+      "yeoldul",
+      "yeolahop",
+      "seumulilgop",
+      "yeodeunhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "스물",
+    "choices": [
+      "aheundaseot",
+      "seumul",
+      "seumulhana",
+      "seureunyeodeol"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "스물하나",
+    "choices": [
+      "yesunnet",
+      "seumulhana",
+      "hana",
+      "yeodeunhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "스물둘",
+    "choices": [
+      "hana",
+      "yeodeunyeodeol",
+      "yeodeun",
+      "seumuldul"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "스물셋",
+    "choices": [
+      "swindaseot",
+      "daseot",
+      "seumulset",
+      "yesunyeodeol"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "스물넷",
+    "choices": [
+      "swinset",
+      "net",
+      "seumulnet",
+      "aheunhana"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "스물다섯",
+    "choices": [
+      "yeol",
+      "seoreundaseot",
+      "seumuldaseot",
+      "yesunilgop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "스물여섯",
+    "choices": [
+      "aheunset",
+      "ilheunset",
+      "seoreundul",
+      "seumulyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "스물일곱",
+    "choices": [
+      "seumulyeoseot",
+      "seumulilgop",
+      "seoreundaseot",
+      "dul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "스물여덟",
+    "choices": [
+      "aheunilgop",
+      "seumulyeodeol",
+      "yesunyeoseot",
+      "aheunyeoseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "스물아홉",
+    "choices": [
+      "seumulahop",
+      "yeolyeoseot",
+      "seumulahop",
+      "aheunset"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "서른",
+    "choices": [
+      "seureunahop",
+      "net",
+      "dul",
+      "seoreun"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "서른하나",
+    "choices": [
+      "yesunyeodeol",
+      "seumulilgop",
+      "seoreunhana",
+      "seumulnet"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "서른둘",
+    "choices": [
+      "seoreundul",
+      "yeoset",
+      "swinilgop",
+      "swin"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "서른셋",
+    "choices": [
+      "seumulahop",
+      "seoreunset",
+      "aheunnet",
+      "yeolhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "서른넷",
+    "choices": [
+      "yeoset",
+      "seoreun",
+      "seoreunnet",
+      "yeolilgob"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "서른다섯",
+    "choices": [
+      "seoreunyeoseot",
+      "ilheunilgop",
+      "seoreundaseot",
+      "yeodeundaseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "서른여섯",
+    "choices": [
+      "maheunset",
+      "aheunnet",
+      "ahop",
+      "seoreunyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "서른일곱",
+    "choices": [
+      "swindaseot",
+      "yeodeunset",
+      "seoreunilgop",
+      "seoreundaseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "서른여덟",
+    "choices": [
+      "seoreunnet",
+      "net",
+      "swindaseot",
+      "seureunyeodeol"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "서른아홉",
+    "choices": [
+      "seureunahop",
+      "maheunhana",
+      "yesunnet",
+      "seumulahop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "마흔",
+    "choices": [
+      "yeoset",
+      "swindaseot",
+      "maheun",
+      "yeolyeoseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "마흔하나",
+    "choices": [
+      "maheunhana",
+      "yeolahop",
+      "yesun",
+      "aheun"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "마흔둘",
+    "choices": [
+      "aheunset",
+      "maheundul",
+      "ilgop",
+      "seumuldul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "마흔셋",
+    "choices": [
+      "maheunset",
+      "aheunset",
+      "set",
+      "yeoldul"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "마흔넷",
+    "choices": [
+      "seureunahop",
+      "ilheunhana",
+      "maheunnet",
+      "swinilgop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "마흔다섯",
+    "choices": [
+      "swinyeoseot",
+      "ilheun",
+      "aheunhana",
+      "maheundaseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "마흔여섯",
+    "choices": [
+      "ilheunilgop",
+      "maheundul",
+      "maheunyeoseot",
+      "maheun"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "마흔일곱",
+    "choices": [
+      "ahop",
+      "yeolyeodeol",
+      "maheunilgop",
+      "yeodeunset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "마흔여덟",
+    "choices": [
+      "maheunyeodeol",
+      "yeoldul",
+      "yeodeunahop",
+      "swinnet"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "마흔아홉",
+    "choices": [
+      "yesunnet",
+      "maheunahop",
+      "seoreundul",
+      "seureunyeodeol"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "쉰",
+    "choices": [
+      "maheunyeodeol",
+      "seureunahop",
+      "seoreundul",
+      "swin"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "쉰하나",
+    "choices": [
+      "yeol",
+      "swinhana",
+      "swindaseot",
+      "aheunyeoseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "쉰둘",
+    "choices": [
+      "swindul",
+      "seureunahop",
+      "yesunnet",
+      "swinyeodeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "쉰셋",
+    "choices": [
+      "aheunyeoseot",
+      "swinset",
+      "yeoset",
+      "yesunnet"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "쉰넷",
+    "choices": [
+      "swinnet",
+      "seureunahop",
+      "yeodeundaseot",
+      "maheundul"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "쉰다섯",
+    "choices": [
+      "swinyeoseot",
+      "aheunyeoseot",
+      "swindaseot",
+      "yeodeunhana"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "쉰여섯",
+    "choices": [
+      "swinyeoseot",
+      "swinset",
+      "aheunnet",
+      "yeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "쉰일곱",
+    "choices": [
+      "seoreundul",
+      "swinilgop",
+      "yeolnet",
+      "seumuldul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "쉰여덟",
+    "choices": [
+      "seumulahop",
+      "yeoseot",
+      "yesun",
+      "swinyeodeol"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "쉰아홉",
+    "choices": [
+      "yesun",
+      "set",
+      "swinahop",
+      "maheunhana"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "예순",
+    "choices": [
+      "yesun",
+      "yeodeunnet",
+      "yeodeunilgop",
+      "yesunyeodeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "예순하나",
+    "choices": [
+      "yesunhana",
+      "seumulyeodeol",
+      "seumulnet",
+      "swinahop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "예순둘",
+    "choices": [
+      "swindaseot",
+      "yesunahop",
+      "yesundul",
+      "yeodeunnet"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "예순셋",
+    "choices": [
+      "seoreun",
+      "yesunset",
+      "maheunyeodeol",
+      "yeolhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "예순넷",
+    "choices": [
+      "seoreunyeoseot",
+      "seumulnet",
+      "yesunnet",
+      "yeoset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "예순다섯",
+    "choices": [
+      "set",
+      "ilheunnet",
+      "yesundaseot",
+      "ilheunset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "예순여섯",
+    "choices": [
+      "yesundul",
+      "yesunilgop",
+      "seoreun",
+      "yesunyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "예순일곱",
+    "choices": [
+      "yesunahop",
+      "yesunilgop",
+      "ilheunilgop",
+      "seumuldul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "예순여덟",
+    "choices": [
+      "seoreun",
+      "yeodeunnet",
+      "yesunyeodeol",
+      "yesunnet"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "예순아홉",
+    "choices": [
+      "yeodeunhana",
+      "yeoldaseot",
+      "yesunahop",
+      "seumulnet"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "일흔",
+    "choices": [
+      "seoreun",
+      "aheun",
+      "ilheun",
+      "seoreunhana"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "일흔하나",
+    "choices": [
+      "aheunilgop",
+      "yeolahop",
+      "swindul",
+      "ilheunhana"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "일흔둘",
+    "choices": [
+      "seumulilgop",
+      "ilheundul",
+      "seumuldaseot",
+      "aheunset"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "일흔셋",
+    "choices": [
+      "yeodeundaseot",
+      "ilheunyeoseot",
+      "ilheundaseot",
+      "ilheunset"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "일흔넷",
+    "choices": [
+      "ilheunnet",
+      "aheundul",
+      "ilheunahop",
+      "ilheunhana"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "일흔다섯",
+    "choices": [
+      "swinnet",
+      "ilheundaseot",
+      "yeodeundul",
+      "seumulyeoseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "일흔여섯",
+    "choices": [
+      "maheun",
+      "ilheunyeoseot",
+      "yeodeunahop",
+      "yeol"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "일흔일곱",
+    "choices": [
+      "ilgop",
+      "ilheun",
+      "swinyeodeol",
+      "ilheunilgop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "일흔여덟",
+    "choices": [
+      "yeolilgob",
+      "yesunyeodeol",
+      "ilheunyeodeol",
+      "yesundul"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "일흔아홉",
+    "choices": [
+      "ilheunahop",
+      "swinyeodeol",
+      "maheunyeoseot",
+      "yeodeunset"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "여든",
+    "choices": [
+      "seumulyeoseot",
+      "yeodeun",
+      "swindul",
+      "seumulnet"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "여든하나",
+    "choices": [
+      "yeodeunhana",
+      "daseot",
+      "yesunahop",
+      "seumul"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "여든둘",
+    "choices": [
+      "yesunset",
+      "yeodeundul",
+      "seumulhana",
+      "yesunhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "여든셋",
+    "choices": [
+      "maheunahop",
+      "maheunset",
+      "yeodeunset",
+      "aheunahop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "여든넷",
+    "choices": [
+      "yesundaseot",
+      "dul",
+      "yeodeunnet",
+      "yeolhana"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "여든다섯",
+    "choices": [
+      "ahop",
+      "swinyeoseot",
+      "swinset",
+      "yeodeundaseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "여든여섯",
+    "choices": [
+      "yeodeunyeoseot",
+      "ilheunahop",
+      "aheunhana",
+      "aheundul"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "여든일곱",
+    "choices": [
+      "seumulhana",
+      "yesundaseot",
+      "yeodeunilgop",
+      "seumulset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "여든여덟",
+    "choices": [
+      "yeolhana",
+      "seoreunset",
+      "yeodeunyeodeol",
+      "ilheundaseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "여든아홉",
+    "choices": [
+      "maheunyeodeol",
+      "seumuldul",
+      "yeodeunahop",
+      "yeodeunilgop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "아흔",
+    "choices": [
+      "maheundaseot",
+      "aheun",
+      "seoreunnet",
+      "maheunhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "아흔하나",
+    "choices": [
+      "aheunhana",
+      "yeoldaseot",
+      "aheun",
+      "swindaseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "아흔둘",
+    "choices": [
+      "swindaseot",
+      "aheundul",
+      "ilheunahop",
+      "yeolyeodeol"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "아흔셋",
+    "choices": [
+      "maheundaseot",
+      "aheunset",
+      "yeodeunyeodeol",
+      "swin"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "아흔넷",
+    "choices": [
+      "maheunhana",
+      "aheunnet",
+      "swinyeodeol",
+      "swinhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "아흔다섯",
+    "choices": [
+      "maheunhana",
+      "aheundaseot",
+      "maheunilgop",
+      "yesundaseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "아흔여섯",
+    "choices": [
+      "swinhana",
+      "swin",
+      "aheunyeoseot",
+      "yesunnet"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "아흔일곱",
+    "choices": [
+      "ilheundaseot",
+      "aheunilgop",
+      "aheundaseot",
+      "maheundaseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "아흔여덟",
+    "choices": [
+      "aheunyeodeol",
+      "yeodeunset",
+      "yeoldul",
+      "ilheunilgop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "아흔아홉",
+    "choices": [
+      "yesundaseot",
+      "yesunset",
+      "maheundul",
+      "aheunahop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "백",
+    "choices": [
+      "baek",
+      "aheunilgop",
+      "aheundul",
+      "yeodeunyeodeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "1",
+    "choices": [
+      "daseot",
+      "hana",
+      "seoreunset",
+      "yeolahop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "2",
+    "choices": [
+      "maheunahop",
+      "dul",
+      "seumuldaseot",
+      "yesunilgop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "3",
+    "choices": [
+      "set",
+      "seoreun",
+      "ilheunnet",
+      "seoreunset"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "4",
+    "choices": [
+      "maheunyeodeol",
+      "seoreunhana",
+      "ilheunyeoseot",
+      "net"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "5",
+    "choices": [
+      "yesunyeoseot",
+      "daseot",
+      "seoreunyeoseot",
+      "yesundaseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "6",
+    "choices": [
+      "aheun",
+      "ilheun",
+      "ilheunyeoseot",
+      "yeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "7",
+    "choices": [
+      "seumulilgop",
+      "ilheunilgop",
+      "aheunyeodeol",
+      "ilgop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "8",
+    "choices": [
+      "swinyeodeol",
+      "yeodeol",
+      "yeodeunilgop",
+      "seoreun"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "9",
+    "choices": [
+      "ahop",
+      "ilheunset",
+      "maheunnet",
+      "maheunhana"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "10",
+    "choices": [
+      "yeol",
+      "yeolnet",
+      "yeolilgob",
+      "ilheundaseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "11",
+    "choices": [
+      "yeolhana",
+      "maheunahop",
+      "yeodeunahop",
+      "yeodeunilgop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "12",
+    "choices": [
+      "yeodeunilgop",
+      "swinnet",
+      "yeoldul",
+      "seumulilgop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "13",
+    "choices": [
+      "daseot",
+      "yeoset",
+      "maheunset",
+      "seumulahop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "14",
+    "choices": [
+      "yeoldaseot",
+      "yeolnet",
+      "seumulhana",
+      "seoreunset"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "15",
+    "choices": [
+      "aheunyeoseot",
+      "swinnet",
+      "yeoldaseot",
+      "swinahop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "16",
+    "choices": [
+      "yeodeunhana",
+      "set",
+      "aheunnet",
+      "yeolyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "17",
+    "choices": [
+      "yeolnet",
+      "aheundul",
+      "yeolilgob",
+      "ilheundul"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "18",
+    "choices": [
+      "yeodeun",
+      "ilheunyeodeol",
+      "yeolyeodeol",
+      "swin"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "19",
+    "choices": [
+      "yeolahop",
+      "seureunyeodeol",
+      "maheundaseot",
+      "maheunyeodeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "20",
+    "choices": [
+      "seoreunilgop",
+      "swin",
+      "seumul",
+      "swinyeoseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "21",
+    "choices": [
+      "maheunnet",
+      "seumulhana",
+      "swin",
+      "swindaseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "22",
+    "choices": [
+      "aheundaseot",
+      "seumuldul",
+      "yeol",
+      "seoreunyeoseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "23",
+    "choices": [
+      "aheundaseot",
+      "yesundul",
+      "seumulset",
+      "swin"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "24",
+    "choices": [
+      "seumulnet",
+      "yeodeundul",
+      "yeolnet",
+      "seoreunset"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "25",
+    "choices": [
+      "seumuldaseot",
+      "seoreun",
+      "ilheunyeoseot",
+      "yeodeunyeoseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "26",
+    "choices": [
+      "seoreunilgop",
+      "yesunnet",
+      "yeodeunhana",
+      "seumulyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "27",
+    "choices": [
+      "yeolyeoseot",
+      "aheunahop",
+      "seumulilgop",
+      "ilheundul"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "28",
+    "choices": [
+      "swinilgop",
+      "ilheunahop",
+      "seumulhana",
+      "seumulyeodeol"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "29",
+    "choices": [
+      "seumulahop",
+      "hana",
+      "yesunahop",
+      "ilheunset"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "30",
+    "choices": [
+      "seoreunhana",
+      "yeodeunhana",
+      "seoreun",
+      "swindaseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "31",
+    "choices": [
+      "yesunahop",
+      "dul",
+      "seoreunhana",
+      "aheunhana"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "32",
+    "choices": [
+      "swindul",
+      "yesunyeoseot",
+      "yesunnet",
+      "seoreundul"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "33",
+    "choices": [
+      "swindaseot",
+      "maheunset",
+      "aheunset",
+      "seoreunset"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "34",
+    "choices": [
+      "yeodeunset",
+      "yeodeunyeoseot",
+      "seumuldul",
+      "seoreunnet"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "35",
+    "choices": [
+      "yesunhana",
+      "yeol",
+      "seoreundaseot",
+      "seoreunilgop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "36",
+    "choices": [
+      "maheunnet",
+      "yesunhana",
+      "aheundaseot",
+      "seoreunyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "37",
+    "choices": [
+      "aheunyeodeol",
+      "yesun",
+      "seoreunilgop",
+      "set"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "38",
+    "choices": [
+      "yeoldul",
+      "seureunyeodeol",
+      "swindul",
+      "dul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "39",
+    "choices": [
+      "seureunahop",
+      "swinahop",
+      "ilheundul",
+      "seoreun"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "40",
+    "choices": [
+      "swindaseot",
+      "aheunnet",
+      "dul",
+      "maheun"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "41",
+    "choices": [
+      "maheundaseot",
+      "maheunhana",
+      "yesunilgop",
+      "swinnet"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "42",
+    "choices": [
+      "maheundaseot",
+      "swinnet",
+      "maheundul",
+      "yeodeun"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "43",
+    "choices": [
+      "maheunnet",
+      "yesundaseot",
+      "maheunset",
+      "seoreunset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "44",
+    "choices": [
+      "maheunnet",
+      "swinhana",
+      "swindaseot",
+      "seumulilgop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "45",
+    "choices": [
+      "yesunyeodeol",
+      "seumulhana",
+      "maheunhana",
+      "maheundaseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "46",
+    "choices": [
+      "yeolnet",
+      "seoreunhana",
+      "maheunyeoseot",
+      "yesunnet"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "47",
+    "choices": [
+      "maheunilgop",
+      "seumulyeodeol",
+      "swindul",
+      "yeodeun"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "48",
+    "choices": [
+      "maheunyeodeol",
+      "swinhana",
+      "ilheunyeoseot",
+      "seoreundaseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "49",
+    "choices": [
+      "maheunyeodeol",
+      "seoreunset",
+      "maheunahop",
+      "yeodeunahop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "50",
+    "choices": [
+      "swin",
+      "aheunyeoseot",
+      "yesundaseot",
+      "seumulahop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "51",
+    "choices": [
+      "swinahop",
+      "ilheun",
+      "swinhana",
+      "yeodeundul"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "52",
+    "choices": [
+      "yeodeunyeodeol",
+      "swindul",
+      "yeodeundaseot",
+      "yeodeunahop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "53",
+    "choices": [
+      "swinset",
+      "maheunhana",
+      "yeodeunilgop",
+      "maheunset"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "54",
+    "choices": [
+      "ilheunhana",
+      "swinnet",
+      "swinilgop",
+      "yeolnet"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "55",
+    "choices": [
+      "swinhana",
+      "swindaseot",
+      "yeodeunilgop",
+      "seumulyeodeol"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "56",
+    "choices": [
+      "aheundul",
+      "yeodeunyeoseot",
+      "seoreunnet",
+      "swinyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "57",
+    "choices": [
+      "swinilgop",
+      "yesunahop",
+      "seumulhana",
+      "yeolyeodeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "58",
+    "choices": [
+      "ilheundaseot",
+      "swinyeodeol",
+      "aheunyeoseot",
+      "dul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "59",
+    "choices": [
+      "swinahop",
+      "seumulnet",
+      "seumulahop",
+      "ilheundaseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "60",
+    "choices": [
+      "aheundul",
+      "maheundaseot",
+      "swindul",
+      "yesun"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "61",
+    "choices": [
+      "yesunhana",
+      "seumulyeoseot",
+      "seumul",
+      "aheun"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "62",
+    "choices": [
+      "yesundul",
+      "ilheun",
+      "swinnet",
+      "yeoseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "63",
+    "choices": [
+      "hana",
+      "yesunset",
+      "yeolahop",
+      "seoreundul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "64",
+    "choices": [
+      "ahop",
+      "yesunnet",
+      "aheun",
+      "hana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "65",
+    "choices": [
+      "ilheun",
+      "swinahop",
+      "yesundaseot",
+      "net"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "66",
+    "choices": [
+      "maheunyeoseot",
+      "ilheunhana",
+      "yesunyeoseot",
+      "yesunilgop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "67",
+    "choices": [
+      "yesunilgop",
+      "seumulyeodeol",
+      "maheun",
+      "yeoset"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "68",
+    "choices": [
+      "yesunyeodeol",
+      "seureunyeodeol",
+      "ilheunilgop",
+      "maheun"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "69",
+    "choices": [
+      "ilheun",
+      "ahop",
+      "seoreun",
+      "yesunahop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "70",
+    "choices": [
+      "aheunnet",
+      "swin",
+      "ilheundaseot",
+      "ilheun"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "71",
+    "choices": [
+      "ilheunhana",
+      "maheunilgop",
+      "ilheunnet",
+      "yeodeun"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "72",
+    "choices": [
+      "swinahop",
+      "ilheundul",
+      "ilheunyeoseot",
+      "aheunahop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "73",
+    "choices": [
+      "seumulyeoseot",
+      "seumulilgop",
+      "maheunset",
+      "ilheunset"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "74",
+    "choices": [
+      "yeolyeodeol",
+      "aheunahop",
+      "yeodeun",
+      "ilheunnet"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "75",
+    "choices": [
+      "aheunset",
+      "ilheundaseot",
+      "ilheunyeodeol",
+      "set"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "76",
+    "choices": [
+      "maheunhana",
+      "yeol",
+      "ilheunyeoseot",
+      "yesun"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "77",
+    "choices": [
+      "seumulhana",
+      "ilheunset",
+      "ilheunilgop",
+      "yeodeol"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "78",
+    "choices": [
+      "ilheunyeodeol",
+      "yesunyeoseot",
+      "seumulahop",
+      "yeodeundaseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "79",
+    "choices": [
+      "ilheunahop",
+      "aheundaseot",
+      "yeoseot",
+      "maheunilgop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "80",
+    "choices": [
+      "yesunilgop",
+      "seumulyeodeol",
+      "yeodeun",
+      "seumulnet"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "81",
+    "choices": [
+      "seumulhana",
+      "yeodeundaseot",
+      "dul",
+      "yeodeunhana"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "82",
+    "choices": [
+      "aheundaseot",
+      "yeodeunilgop",
+      "yeodeunyeoseot",
+      "yeodeundul"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "83",
+    "choices": [
+      "maheunnet",
+      "yeodeunset",
+      "yeodeunnet",
+      "ilheunahop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "84",
+    "choices": [
+      "swinhana",
+      "yeodeunnet",
+      "yeolyeoseot",
+      "set"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "85",
+    "choices": [
+      "yesundul",
+      "aheunyeodeol",
+      "yeodeundaseot",
+      "yeodeundaseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "86",
+    "choices": [
+      "aheundaseot",
+      "ilheunhana",
+      "aheunyeoseot",
+      "yeodeunyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "87",
+    "choices": [
+      "yeoldul",
+      "yeodeunilgop",
+      "aheunhana",
+      "ilheun"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "88",
+    "choices": [
+      "yeodeunyeodeol",
+      "yeoset",
+      "maheunset",
+      "aheunilgop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "89",
+    "choices": [
+      "ilheun",
+      "ilheunilgop",
+      "seoreunilgop",
+      "yeodeunahop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "90",
+    "choices": [
+      "yeodeunset",
+      "seumulahop",
+      "aheun",
+      "maheunyeodeol"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "91",
+    "choices": [
+      "maheunyeodeol",
+      "yeoldaseot",
+      "aheunhana",
+      "seoreunyeoseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "92",
+    "choices": [
+      "aheundul",
+      "maheunyeodeol",
+      "ilheunhana",
+      "ilheunset"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "93",
+    "choices": [
+      "aheunset",
+      "swindul",
+      "maheunyeodeol",
+      "ilheunyeodeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "94",
+    "choices": [
+      "seumulset",
+      "swinset",
+      "aheunnet",
+      "maheundul"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "95",
+    "choices": [
+      "seoreunset",
+      "yeolnet",
+      "aheundaseot",
+      "seoreun"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "96",
+    "choices": [
+      "ilheunahop",
+      "seumulhana",
+      "aheunset",
+      "aheunyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "97",
+    "choices": [
+      "maheunyeoseot",
+      "yesunyeodeol",
+      "aheunilgop",
+      "yeoseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "98",
+    "choices": [
+      "yeoldaseot",
+      "aheunyeodeol",
+      "yesunyeoseot",
+      "ilheunilgop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "99",
+    "choices": [
+      "yeodeundaseot",
+      "aheunahop",
+      "seumulyeoseot",
+      "yeoldul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "100",
+    "choices": [
+      "aheundul",
+      "swinset",
+      "baek",
+      "aheunset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Sino-Korean)"
+  },
+  {
+    "question": "하나",
+    "choices": [
+      "1",
+      "15",
+      "43",
+      "63"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "둘",
+    "choices": [
+      "59",
+      "91",
+      "31",
+      "2"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "셋",
+    "choices": [
+      "37",
+      "19",
+      "3",
+      "31"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "넷",
+    "choices": [
+      "69",
+      "98",
+      "4",
+      "52"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "다섯",
+    "choices": [
+      "5",
+      "29",
+      "19",
+      "58"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "여섯",
+    "choices": [
+      "89",
+      "83",
+      "29",
+      "6"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "일곱",
+    "choices": [
+      "12",
+      "97",
+      "38",
+      "7"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "여덟",
+    "choices": [
+      "67",
+      "15",
+      "18",
+      "8"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "아홉",
+    "choices": [
+      "55",
+      "82",
+      "3",
+      "9"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "열",
+    "choices": [
+      "10",
+      "59",
+      "10",
+      "90"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "열하나",
+    "choices": [
+      "7",
+      "31",
+      "11",
+      "59"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "열둘",
+    "choices": [
+      "72",
+      "12",
+      "13",
+      "82"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "열셋",
+    "choices": [
+      "25",
+      "3",
+      "17",
+      "13"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "열넷",
+    "choices": [
+      "44",
+      "13",
+      "60",
+      "14"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "열다섯",
+    "choices": [
+      "20",
+      "15",
+      "35",
+      "4"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "열여섯",
+    "choices": [
+      "16",
+      "29",
+      "86",
+      "96"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "열일곱",
+    "choices": [
+      "59",
+      "17",
+      "8",
+      "36"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "열여덟",
+    "choices": [
+      "44",
+      "18",
+      "92",
+      "43"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "열아홉",
+    "choices": [
+      "19",
+      "9",
+      "51",
+      "83"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "스물",
+    "choices": [
+      "20",
+      "40",
+      "93",
+      "27"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "스물하나",
+    "choices": [
+      "55",
+      "21",
+      "47",
+      "6"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "스물둘",
+    "choices": [
+      "22",
+      "7",
+      "73",
+      "93"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "스물셋",
+    "choices": [
+      "61",
+      "50",
+      "68",
+      "23"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "스물넷",
+    "choices": [
+      "45",
+      "70",
+      "35",
+      "24"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "스물다섯",
+    "choices": [
+      "26",
+      "89",
+      "13",
+      "25"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "스물여섯",
+    "choices": [
+      "65",
+      "26",
+      "5",
+      "26"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "스물일곱",
+    "choices": [
+      "27",
+      "57",
+      "40",
+      "38"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "스물여덟",
+    "choices": [
+      "28",
+      "46",
+      "73",
+      "86"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "스물아홉",
+    "choices": [
+      "12",
+      "19",
+      "64",
+      "29"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "서른",
+    "choices": [
+      "9",
+      "69",
+      "70",
+      "30"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "서른하나",
+    "choices": [
+      "19",
+      "38",
+      "64",
+      "31"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "서른둘",
+    "choices": [
+      "51",
+      "32",
+      "14",
+      "20"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "서른셋",
+    "choices": [
+      "44",
+      "33",
+      "90",
+      "51"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "서른넷",
+    "choices": [
+      "29",
+      "95",
+      "34",
+      "73"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "서른다섯",
+    "choices": [
+      "50",
+      "35",
+      "98",
+      "96"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "서른여섯",
+    "choices": [
+      "61",
+      "36",
+      "26",
+      "10"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "서른일곱",
+    "choices": [
+      "7",
+      "61",
+      "37",
+      "40"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "서른여덟",
+    "choices": [
+      "26",
+      "38",
+      "41",
+      "4"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "서른아홉",
+    "choices": [
+      "74",
+      "42",
+      "39",
+      "22"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "마흔",
+    "choices": [
+      "37",
+      "40",
+      "63",
+      "68"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "마흔하나",
+    "choices": [
+      "92",
+      "48",
+      "41",
+      "30"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "마흔둘",
+    "choices": [
+      "38",
+      "4",
+      "10",
+      "42"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "마흔셋",
+    "choices": [
+      "37",
+      "43",
+      "69",
+      "88"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "마흔넷",
+    "choices": [
+      "44",
+      "72",
+      "43",
+      "29"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "마흔다섯",
+    "choices": [
+      "53",
+      "45",
+      "71",
+      "36"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "마흔여섯",
+    "choices": [
+      "1",
+      "9",
+      "46",
+      "87"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "마흔일곱",
+    "choices": [
+      "62",
+      "47",
+      "41",
+      "16"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "마흔여덟",
+    "choices": [
+      "58",
+      "14",
+      "46",
+      "48"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "마흔아홉",
+    "choices": [
+      "65",
+      "49",
+      "75",
+      "98"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "쉰",
+    "choices": [
+      "68",
+      "17",
+      "3",
+      "50"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "쉰하나",
+    "choices": [
+      "51",
+      "1",
+      "5",
+      "46"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "쉰둘",
+    "choices": [
+      "78",
+      "33",
+      "2",
+      "52"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "쉰셋",
+    "choices": [
+      "7",
+      "53",
+      "36",
+      "31"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "쉰넷",
+    "choices": [
+      "48",
+      "15",
+      "36",
+      "54"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "쉰다섯",
+    "choices": [
+      "19",
+      "60",
+      "5",
+      "55"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "쉰여섯",
+    "choices": [
+      "3",
+      "91",
+      "56",
+      "38"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "쉰일곱",
+    "choices": [
+      "57",
+      "30",
+      "56",
+      "67"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "쉰여덟",
+    "choices": [
+      "21",
+      "58",
+      "55",
+      "99"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "쉰아홉",
+    "choices": [
+      "7",
+      "59",
+      "67",
+      "81"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "예순",
+    "choices": [
+      "37",
+      "40",
+      "20",
+      "60"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "예순하나",
+    "choices": [
+      "71",
+      "67",
+      "14",
+      "61"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "예순둘",
+    "choices": [
+      "43",
+      "62",
+      "32",
+      "59"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "예순셋",
+    "choices": [
+      "75",
+      "63",
+      "80",
+      "69"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "예순넷",
+    "choices": [
+      "64",
+      "66",
+      "57",
+      "9"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "예순다섯",
+    "choices": [
+      "98",
+      "10",
+      "65",
+      "54"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "예순여섯",
+    "choices": [
+      "94",
+      "46",
+      "66",
+      "28"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "예순일곱",
+    "choices": [
+      "67",
+      "47",
+      "36",
+      "22"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "예순여덟",
+    "choices": [
+      "55",
+      "68",
+      "20",
+      "85"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "예순아홉",
+    "choices": [
+      "69",
+      "13",
+      "4",
+      "20"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "일흔",
+    "choices": [
+      "54",
+      "70",
+      "24",
+      "42"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "일흔하나",
+    "choices": [
+      "82",
+      "77",
+      "36",
+      "71"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "일흔둘",
+    "choices": [
+      "72",
+      "13",
+      "84",
+      "5"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "일흔셋",
+    "choices": [
+      "73",
+      "95",
+      "56",
+      "28"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "일흔넷",
+    "choices": [
+      "67",
+      "74",
+      "43",
+      "27"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "일흔다섯",
+    "choices": [
+      "75",
+      "43",
+      "12",
+      "98"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "일흔여섯",
+    "choices": [
+      "81",
+      "76",
+      "17",
+      "44"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "일흔일곱",
+    "choices": [
+      "76",
+      "92",
+      "28",
+      "77"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "일흔여덟",
+    "choices": [
+      "38",
+      "67",
+      "94",
+      "78"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "일흔아홉",
+    "choices": [
+      "9",
+      "79",
+      "22",
+      "19"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "여든",
+    "choices": [
+      "82",
+      "59",
+      "81",
+      "80"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "여든하나",
+    "choices": [
+      "61",
+      "29",
+      "51",
+      "81"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "여든둘",
+    "choices": [
+      "82",
+      "37",
+      "85",
+      "89"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "여든셋",
+    "choices": [
+      "20",
+      "59",
+      "83",
+      "57"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "여든넷",
+    "choices": [
+      "40",
+      "65",
+      "84",
+      "23"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "여든다섯",
+    "choices": [
+      "49",
+      "96",
+      "14",
+      "85"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "여든여섯",
+    "choices": [
+      "86",
+      "68",
+      "95",
+      "9"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "여든일곱",
+    "choices": [
+      "75",
+      "55",
+      "87",
+      "77"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "여든여덟",
+    "choices": [
+      "38",
+      "88",
+      "86",
+      "26"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "여든아홉",
+    "choices": [
+      "21",
+      "89",
+      "99",
+      "7"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "아흔",
+    "choices": [
+      "98",
+      "23",
+      "90",
+      "57"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "아흔하나",
+    "choices": [
+      "91",
+      "30",
+      "3",
+      "38"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "아흔둘",
+    "choices": [
+      "71",
+      "19",
+      "5",
+      "92"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "아흔셋",
+    "choices": [
+      "82",
+      "52",
+      "87",
+      "93"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "아흔넷",
+    "choices": [
+      "94",
+      "93",
+      "21",
+      "79"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "아흔다섯",
+    "choices": [
+      "58",
+      "94",
+      "62",
+      "95"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "아흔여섯",
+    "choices": [
+      "62",
+      "17",
+      "82",
+      "96"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "아흔일곱",
+    "choices": [
+      "97",
+      "97",
+      "27",
+      "42"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "아흔여덟",
+    "choices": [
+      "46",
+      "49",
+      "98",
+      "10"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "아흔아홉",
+    "choices": [
+      "73",
+      "61",
+      "99",
+      "38"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "백",
+    "choices": [
+      "100",
+      "23",
+      "96",
+      "57"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in numerals (Native):"
+  },
+  {
+    "question": "1",
+    "choices": [
+      "서른일곱",
+      "스물둘",
+      "둘",
+      "하나"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "2",
+    "choices": [
+      "둘",
+      "쉰아홉",
+      "하나",
+      "여든여덟"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "3",
+    "choices": [
+      "쉰여섯",
+      "여든",
+      "셋",
+      "쉰아홉"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "4",
+    "choices": [
+      "스물아홉",
+      "일곱",
+      "마흔하나",
+      "넷"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "5",
+    "choices": [
+      "여든일곱",
+      "아흔아홉",
+      "다섯",
+      "쉰일곱"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "6",
+    "choices": [
+      "여섯",
+      "서른하나",
+      "여섯",
+      "서른다섯"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "7",
+    "choices": [
+      "스물넷",
+      "열하나",
+      "일곱",
+      "서른셋"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "8",
+    "choices": [
+      "여덟",
+      "마흔하나",
+      "마흔둘",
+      "서른하나"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "9",
+    "choices": [
+      "아홉",
+      "서른둘",
+      "예순다섯",
+      "아흔여섯"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "10",
+    "choices": [
+      "서른넷",
+      "아홉",
+      "쉰하나",
+      "열"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "11",
+    "choices": [
+      "여든다섯",
+      "스물둘",
+      "열하나",
+      "일흔아홉"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "12",
+    "choices": [
+      "열둘",
+      "일흔여덟",
+      "일흔아홉",
+      "하나"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "13",
+    "choices": [
+      "여든일곱",
+      "예순셋",
+      "마흔다섯",
+      "열셋"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "14",
+    "choices": [
+      "일흔둘",
+      "예순둘",
+      "예순여섯",
+      "열넷"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "15",
+    "choices": [
+      "쉰아홉",
+      "둘",
+      "다섯",
+      "열다섯"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "16",
+    "choices": [
+      "열여섯",
+      "열여섯",
+      "아흔",
+      "아흔둘"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "17",
+    "choices": [
+      "일흔",
+      "마흔일곱",
+      "아흔하나",
+      "열일곱"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "18",
+    "choices": [
+      "마흔여섯",
+      "여든여섯",
+      "열여덟",
+      "여든아홉"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "19",
+    "choices": [
+      "여든일곱",
+      "열아홉",
+      "다섯",
+      "쉰여덟"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "20",
+    "choices": [
+      "스물아홉",
+      "스물",
+      "예순",
+      "일흔여섯"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "21",
+    "choices": [
+      "스물하나",
+      "서른둘",
+      "하나",
+      "아흔하나"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "22",
+    "choices": [
+      "스물일곱",
+      "스물둘",
+      "마흔둘",
+      "마흔넷"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "23",
+    "choices": [
+      "서른넷",
+      "서른",
+      "일흔하나",
+      "스물셋"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "24",
+    "choices": [
+      "스물넷",
+      "예순다섯",
+      "열넷",
+      "예순여섯"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "25",
+    "choices": [
+      "쉰아홉",
+      "여든아홉",
+      "스물다섯",
+      "아흔다섯"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "26",
+    "choices": [
+      "스물여섯",
+      "마흔넷",
+      "일흔여덟",
+      "아흔둘"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "27",
+    "choices": [
+      "일흔일곱",
+      "스물일곱",
+      "스물",
+      "쉰둘"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "28",
+    "choices": [
+      "넷",
+      "스물둘",
+      "스물여덟",
+      "서른아홉"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "29",
+    "choices": [
+      "스물아홉",
+      "일흔",
+      "쉰다섯",
+      "열"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "30",
+    "choices": [
+      "셋",
+      "아흔둘",
+      "아흔셋",
+      "서른"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "31",
+    "choices": [
+      "여섯",
+      "스물여덟",
+      "쉰일곱",
+      "서른하나"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "32",
+    "choices": [
+      "마흔둘",
+      "일흔여섯",
+      "서른둘",
+      "아흔둘"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "33",
+    "choices": [
+      "일흔여섯",
+      "마흔둘",
+      "여든둘",
+      "서른셋"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "34",
+    "choices": [
+      "스물일곱",
+      "예순넷",
+      "서른넷",
+      "예순"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "35",
+    "choices": [
+      "아흔",
+      "마흔셋",
+      "서른다섯",
+      "스물"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "36",
+    "choices": [
+      "서른여섯",
+      "아홉",
+      "둘",
+      "쉰셋"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "37",
+    "choices": [
+      "마흔넷",
+      "아흔하나",
+      "여든다섯",
+      "서른일곱"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "38",
+    "choices": [
+      "일흔일곱",
+      "스물하나",
+      "서른여덟",
+      "예순둘"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "39",
+    "choices": [
+      "쉰여섯",
+      "서른아홉",
+      "아홉",
+      "스물넷"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "40",
+    "choices": [
+      "셋",
+      "마흔셋",
+      "마흔",
+      "예순여덟"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "41",
+    "choices": [
+      "셋",
+      "서른",
+      "열",
+      "마흔하나"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "42",
+    "choices": [
+      "마흔둘",
+      "열다섯",
+      "스물둘",
+      "쉰여섯"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "43",
+    "choices": [
+      "일흔셋",
+      "일곱",
+      "일흔하나",
+      "마흔셋"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "44",
+    "choices": [
+      "마흔넷",
+      "쉰넷",
+      "여든",
+      "아흔아홉"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "45",
+    "choices": [
+      "열아홉",
+      "쉰",
+      "여든여덟",
+      "마흔다섯"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "46",
+    "choices": [
+      "마흔여섯",
+      "스물일곱",
+      "하나",
+      "아흔일곱"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "47",
+    "choices": [
+      "열넷",
+      "아흔하나",
+      "마흔일곱",
+      "예순"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "48",
+    "choices": [
+      "마흔여덟",
+      "서른여덟",
+      "아흔셋",
+      "열아홉"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "49",
+    "choices": [
+      "여든아홉",
+      "예순둘",
+      "스물하나",
+      "마흔아홉"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "50",
+    "choices": [
+      "쉰",
+      "일흔넷",
+      "예순하나",
+      "열넷"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "51",
+    "choices": [
+      "예순둘",
+      "열넷",
+      "일흔",
+      "쉰하나"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "52",
+    "choices": [
+      "마흔",
+      "마흔아홉",
+      "쉰둘",
+      "열하나"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "53",
+    "choices": [
+      "서른",
+      "쉰셋",
+      "스물둘",
+      "쉰둘"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "54",
+    "choices": [
+      "마흔넷",
+      "쉰넷",
+      "마흔둘",
+      "쉰다섯"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "55",
+    "choices": [
+      "일흔여섯",
+      "쉰다섯",
+      "아흔일곱",
+      "예순둘"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "56",
+    "choices": [
+      "열하나",
+      "쉰여섯",
+      "마흔넷",
+      "아흔아홉"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "57",
+    "choices": [
+      "아흔아홉",
+      "쉰일곱",
+      "쉰일곱",
+      "아흔셋"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "58",
+    "choices": [
+      "스물아홉",
+      "예순여덟",
+      "스물셋",
+      "쉰여덟"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "59",
+    "choices": [
+      "예순둘",
+      "여든셋",
+      "쉰아홉",
+      "여든하나"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "60",
+    "choices": [
+      "여든다섯",
+      "넷",
+      "여덟",
+      "예순"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "61",
+    "choices": [
+      "마흔여덟",
+      "예순하나",
+      "서른여덟",
+      "여든둘"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "62",
+    "choices": [
+      "마흔일곱",
+      "서른둘",
+      "스물다섯",
+      "예순둘"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "63",
+    "choices": [
+      "서른셋",
+      "일흔아홉",
+      "쉰둘",
+      "예순셋"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "64",
+    "choices": [
+      "아흔셋",
+      "아홉",
+      "예순넷",
+      "쉰여덟"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "65",
+    "choices": [
+      "열하나",
+      "열여섯",
+      "마흔셋",
+      "예순다섯"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "66",
+    "choices": [
+      "쉰셋",
+      "예순",
+      "스물넷",
+      "예순여섯"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "67",
+    "choices": [
+      "예순일곱",
+      "스물",
+      "아흔하나",
+      "예순셋"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "68",
+    "choices": [
+      "열셋",
+      "쉰셋",
+      "쉰일곱",
+      "예순여덟"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "69",
+    "choices": [
+      "예순아홉",
+      "쉰여덟",
+      "쉰둘",
+      "마흔여섯"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "70",
+    "choices": [
+      "아흔둘",
+      "예순다섯",
+      "일흔넷",
+      "일흔"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "71",
+    "choices": [
+      "여든셋",
+      "서른아홉",
+      "하나",
+      "일흔하나"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "72",
+    "choices": [
+      "스물하나",
+      "일흔여섯",
+      "열다섯",
+      "일흔둘"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "73",
+    "choices": [
+      "열둘",
+      "일흔셋",
+      "쉰아홉",
+      "예순하나"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "74",
+    "choices": [
+      "일흔넷",
+      "열여덟",
+      "예순넷",
+      "스물하나"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "75",
+    "choices": [
+      "쉰셋",
+      "일흔일곱",
+      "일흔다섯",
+      "서른여섯"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "76",
+    "choices": [
+      "스물셋",
+      "스물여섯",
+      "일흔여섯",
+      "하나"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "77",
+    "choices": [
+      "열아홉",
+      "쉰여덟",
+      "예순아홉",
+      "일흔일곱"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "78",
+    "choices": [
+      "예순하나",
+      "일흔여덟",
+      "마흔일곱",
+      "마흔다섯"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "79",
+    "choices": [
+      "서른하나",
+      "쉰둘",
+      "일흔아홉",
+      "아흔여덟"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "80",
+    "choices": [
+      "서른아홉",
+      "예순넷",
+      "여든",
+      "쉰여덟"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "81",
+    "choices": [
+      "일흔둘",
+      "서른하나",
+      "스물",
+      "여든하나"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "82",
+    "choices": [
+      "서른여섯",
+      "여든둘",
+      "둘",
+      "일곱"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "83",
+    "choices": [
+      "쉰넷",
+      "예순여덟",
+      "여든셋",
+      "서른셋"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "84",
+    "choices": [
+      "여든넷",
+      "예순셋",
+      "넷",
+      "예순아홉"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "85",
+    "choices": [
+      "스물아홉",
+      "여든다섯",
+      "스물다섯",
+      "여든아홉"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "86",
+    "choices": [
+      "여든아홉",
+      "일흔셋",
+      "아흔",
+      "여든여섯"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "87",
+    "choices": [
+      "열하나",
+      "아흔여덟",
+      "여든일곱",
+      "마흔둘"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "88",
+    "choices": [
+      "서른둘",
+      "예순여덟",
+      "여든여덟",
+      "아흔하나"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "89",
+    "choices": [
+      "열둘",
+      "여든아홉",
+      "예순넷",
+      "여든다섯"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "90",
+    "choices": [
+      "여덟",
+      "예순넷",
+      "아흔넷",
+      "아흔"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "91",
+    "choices": [
+      "일흔",
+      "여든여덟",
+      "아흔하나",
+      "마흔셋"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "92",
+    "choices": [
+      "스물넷",
+      "둘",
+      "아흔아홉",
+      "아흔둘"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "93",
+    "choices": [
+      "아흔둘",
+      "아흔셋",
+      "스물일곱",
+      "스물아홉"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "94",
+    "choices": [
+      "스물둘",
+      "일흔여덟",
+      "아흔넷",
+      "쉰다섯"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "95",
+    "choices": [
+      "아흔다섯",
+      "열여덟",
+      "넷",
+      "예순다섯"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "96",
+    "choices": [
+      "열여섯",
+      "아흔다섯",
+      "열",
+      "아흔여섯"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "97",
+    "choices": [
+      "예순하나",
+      "마흔하나",
+      "아흔일곱",
+      "쉰아홉"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "98",
+    "choices": [
+      "아흔여덟",
+      "쉰",
+      "예순아홉",
+      "아흔셋"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "99",
+    "choices": [
+      "서른하나",
+      "아흔아홉",
+      "일흔여덟",
+      "예순둘"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "100",
+    "choices": [
+      "쉰넷",
+      "마흔셋",
+      "스물여섯",
+      "백"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "Write the following number in letters (Native):"
+  },
+  {
+    "question": "하나",
+    "choices": [
+      "net",
+      "hana",
+      "swinyeoseot",
+      "daseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "둘",
+    "choices": [
+      "seoreundul",
+      "dul",
+      "seumulilgop",
+      "yesunyeodeol"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "셋",
+    "choices": [
+      "yeodeunyeodeol",
+      "aheunset",
+      "yesundaseot",
+      "set"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "넷",
+    "choices": [
+      "maheundaseot",
+      "ilheunset",
+      "net",
+      "swinyeodeol"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "다섯",
+    "choices": [
+      "swinyeodeol",
+      "daseot",
+      "seoreunhana",
+      "yesundul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "여섯",
+    "choices": [
+      "yeoseot",
+      "aheunhana",
+      "seoreundul",
+      "yesunhana"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "일곱",
+    "choices": [
+      "yeoldul",
+      "ilgop",
+      "aheunahop",
+      "seoreundul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "여덟",
+    "choices": [
+      "ilheun",
+      "swinilgop",
+      "aheunset",
+      "yeodeol"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "아홉",
+    "choices": [
+      "yesunahop",
+      "ahop",
+      "swinhana",
+      "maheunahop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "열",
+    "choices": [
+      "yeol",
+      "seoreun",
+      "yeolahop",
+      "ilheun"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "열하나",
+    "choices": [
+      "ilheundul",
+      "yeolhana",
+      "daseot",
+      "yesun"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "열둘",
+    "choices": [
+      "hana",
+      "yesunyeoseot",
+      "yeoldul",
+      "aheun"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "열셋",
+    "choices": [
+      "maheun",
+      "yeoset",
+      "yeolyeodeol",
+      "yesunhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "열넷",
+    "choices": [
+      "aheunyeoseot",
+      "yeolahop",
+      "seumulnet",
+      "yeolnet"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "열다섯",
+    "choices": [
+      "yeoldaseot",
+      "yeoldaseot",
+      "ilgop",
+      "yeodeunyeoseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "열여섯",
+    "choices": [
+      "seumulahop",
+      "ilheunnet",
+      "yeolahop",
+      "yeolyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "열일곱",
+    "choices": [
+      "seoreun",
+      "ilheunhana",
+      "yeolilgob",
+      "maheunset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "열여덟",
+    "choices": [
+      "yeolyeodeol",
+      "yeolnet",
+      "yesun",
+      "yesunyeoseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "열아홉",
+    "choices": [
+      "yeoseot",
+      "seoreunhana",
+      "yeolahop",
+      "seumul"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "스물",
+    "choices": [
+      "ilheunilgop",
+      "seumulnet",
+      "seumulyeoseot",
+      "seumul"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "스물하나",
+    "choices": [
+      "seumulhana",
+      "yeodeundaseot",
+      "yeodeundul",
+      "maheundaseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "스물둘",
+    "choices": [
+      "yeolnet",
+      "seumuldul",
+      "yeodeunyeoseot",
+      "seumul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "스물셋",
+    "choices": [
+      "seumulset",
+      "swindaseot",
+      "swinnet",
+      "yeodeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "스물넷",
+    "choices": [
+      "swin",
+      "seumulnet",
+      "seureunyeodeol",
+      "seumulyeoseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "스물다섯",
+    "choices": [
+      "yeoldul",
+      "hana",
+      "yeodeunyeodeol",
+      "seumuldaseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "스물여섯",
+    "choices": [
+      "yeolyeodeol",
+      "maheundaseot",
+      "seoreun",
+      "seumulyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "스물일곱",
+    "choices": [
+      "seureunahop",
+      "seoreundul",
+      "seumulilgop",
+      "maheunnet"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "스물여덟",
+    "choices": [
+      "seumulyeodeol",
+      "yeolyeoseot",
+      "seumulyeoseot",
+      "ilheunnet"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "스물아홉",
+    "choices": [
+      "aheundul",
+      "seumulahop",
+      "yeol",
+      "yesunahop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "서른",
+    "choices": [
+      "seoreun",
+      "seumul",
+      "aheunset",
+      "yeodeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "서른하나",
+    "choices": [
+      "seoreunhana",
+      "yeodeunahop",
+      "maheunnet",
+      "swindul"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "서른둘",
+    "choices": [
+      "ilheunyeoseot",
+      "yesunyeodeol",
+      "seoreun",
+      "seoreundul"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "서른셋",
+    "choices": [
+      "seoreunset",
+      "ilheun",
+      "maheunnet",
+      "yeodeunhana"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "서른넷",
+    "choices": [
+      "seoreunhana",
+      "seoreunnet",
+      "yeolhana",
+      "ilheunhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "서른다섯",
+    "choices": [
+      "aheun",
+      "seoreundaseot",
+      "aheundul",
+      "ilgop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "서른여섯",
+    "choices": [
+      "seoreunyeoseot",
+      "ilheunhana",
+      "maheundul",
+      "maheunahop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "서른일곱",
+    "choices": [
+      "yeolnet",
+      "seoreunilgop",
+      "maheundul",
+      "aheunnet"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "서른여덟",
+    "choices": [
+      "swinyeodeol",
+      "yeodeunahop",
+      "seureunyeodeol",
+      "seumulhana"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "서른아홉",
+    "choices": [
+      "yeolyeoseot",
+      "seumuldaseot",
+      "seureunahop",
+      "ilheundul"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "마흔",
+    "choices": [
+      "ilheundul",
+      "maheundaseot",
+      "maheun",
+      "yeodeundaseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "마흔하나",
+    "choices": [
+      "ilheundul",
+      "seumulset",
+      "yesun",
+      "maheunhana"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "마흔둘",
+    "choices": [
+      "maheundul",
+      "yeoldul",
+      "yeodeunahop",
+      "seumulilgop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "마흔셋",
+    "choices": [
+      "swinhana",
+      "yeodeunyeoseot",
+      "maheunilgop",
+      "maheunset"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "마흔넷",
+    "choices": [
+      "maheunnet",
+      "maheunahop",
+      "aheunyeodeol",
+      "ilheunset"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "마흔다섯",
+    "choices": [
+      "maheundaseot",
+      "daseot",
+      "net",
+      "aheundaseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "마흔여섯",
+    "choices": [
+      "ilheunhana",
+      "aheun",
+      "seumulnet",
+      "maheunyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "마흔일곱",
+    "choices": [
+      "ilheundul",
+      "maheunilgop",
+      "maheunahop",
+      "yeodeunyeodeol"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "마흔여덟",
+    "choices": [
+      "yeodeol",
+      "yeolyeoseot",
+      "aheunahop",
+      "maheunyeodeol"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "마흔아홉",
+    "choices": [
+      "seumulset",
+      "yeolahop",
+      "maheunahop",
+      "yeodeunyeoseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "쉰",
+    "choices": [
+      "seureunahop",
+      "swin",
+      "yeoseot",
+      "seumulhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "쉰하나",
+    "choices": [
+      "maheunyeoseot",
+      "swinhana",
+      "yesunahop",
+      "ilheun"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "쉰둘",
+    "choices": [
+      "yeolyeodeol",
+      "swindul",
+      "yeoset",
+      "yeolnet"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "쉰셋",
+    "choices": [
+      "yesunahop",
+      "seumulhana",
+      "swinset",
+      "ilheundaseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "쉰넷",
+    "choices": [
+      "ilheundaseot",
+      "swinnet",
+      "yeolahop",
+      "yeodeol"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "쉰다섯",
+    "choices": [
+      "yeodeunset",
+      "yeolnet",
+      "yeodeunyeoseot",
+      "swindaseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "쉰여섯",
+    "choices": [
+      "yesun",
+      "seoreunilgop",
+      "swinyeoseot",
+      "yeoset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "쉰일곱",
+    "choices": [
+      "aheundul",
+      "ilheunyeoseot",
+      "swinilgop",
+      "yeolhana"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "쉰여덟",
+    "choices": [
+      "swinyeodeol",
+      "swindaseot",
+      "swinhana",
+      "yeolahop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "쉰아홉",
+    "choices": [
+      "seumuldul",
+      "swinahop",
+      "seumulilgop",
+      "seureunahop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "예순",
+    "choices": [
+      "yeodeunyeodeol",
+      "maheunnet",
+      "yeolilgob",
+      "yesun"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "예순하나",
+    "choices": [
+      "swinahop",
+      "yesunyeodeol",
+      "yesunhana",
+      "swinilgop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "예순둘",
+    "choices": [
+      "swinhana",
+      "ilheundul",
+      "hana",
+      "yesundul"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "예순셋",
+    "choices": [
+      "maheundul",
+      "yesunset",
+      "aheunilgop",
+      "seumulyeodeol"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "예순넷",
+    "choices": [
+      "swindaseot",
+      "yesunnet",
+      "ilheundaseot",
+      "yeoldul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "예순다섯",
+    "choices": [
+      "yesundaseot",
+      "maheunset",
+      "ilheunyeodeol",
+      "seumuldaseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "예순여섯",
+    "choices": [
+      "ilheunahop",
+      "yesunyeoseot",
+      "swinahop",
+      "yesundul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "예순일곱",
+    "choices": [
+      "set",
+      "ilheundul",
+      "yeodeundul",
+      "yesunilgop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "예순여덟",
+    "choices": [
+      "yesunyeodeol",
+      "swindul",
+      "swindaseot",
+      "yesunahop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "예순아홉",
+    "choices": [
+      "seoreundaseot",
+      "dul",
+      "seoreunset",
+      "yesunahop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "일흔",
+    "choices": [
+      "swinyeoseot",
+      "yesunahop",
+      "yesunilgop",
+      "ilheun"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "일흔하나",
+    "choices": [
+      "seoreunyeoseot",
+      "seoreunnet",
+      "aheunyeoseot",
+      "ilheunhana"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "일흔둘",
+    "choices": [
+      "seumulyeoseot",
+      "ilheundul",
+      "yeodeunilgop",
+      "ilheun"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "일흔셋",
+    "choices": [
+      "yesunnet",
+      "aheunyeodeol",
+      "seoreunnet",
+      "ilheunset"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "일흔넷",
+    "choices": [
+      "swinilgop",
+      "yeodeunahop",
+      "ilheunnet",
+      "yesunyeodeol"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "일흔다섯",
+    "choices": [
+      "aheundul",
+      "aheunilgop",
+      "ilheundul",
+      "ilheundaseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "일흔여섯",
+    "choices": [
+      "seoreun",
+      "yeodeunahop",
+      "ilheunyeoseot",
+      "yeoldaseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "일흔일곱",
+    "choices": [
+      "seoreundaseot",
+      "ilheunilgop",
+      "dul",
+      "seumulyeodeol"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "일흔여덟",
+    "choices": [
+      "ahop",
+      "aheundaseot",
+      "ilheunyeodeol",
+      "seumulyeodeol"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "일흔아홉",
+    "choices": [
+      "yeodeundul",
+      "maheun",
+      "seoreunyeoseot",
+      "ilheunahop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "여든",
+    "choices": [
+      "seumulilgop",
+      "yeodeun",
+      "seoreunilgop",
+      "ilheunhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "여든하나",
+    "choices": [
+      "seureunahop",
+      "yeodeunhana",
+      "yeodeunyeodeol",
+      "aheunset"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "여든둘",
+    "choices": [
+      "yeodeunilgop",
+      "net",
+      "yeodeundul",
+      "seumulhana"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "여든셋",
+    "choices": [
+      "seoreunhana",
+      "seoreunilgop",
+      "yeodeunset",
+      "yeol"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "여든넷",
+    "choices": [
+      "seoreun",
+      "yeol",
+      "seumul",
+      "yeodeunnet"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "여든다섯",
+    "choices": [
+      "yeodeundaseot",
+      "seumulahop",
+      "dul",
+      "ilgop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "여든여섯",
+    "choices": [
+      "yeolilgob",
+      "yeodeunyeoseot",
+      "aheundaseot",
+      "swindul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "여든일곱",
+    "choices": [
+      "yeodeunilgop",
+      "yeoldaseot",
+      "ilheunahop",
+      "swin"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "여든여덟",
+    "choices": [
+      "yeodeunyeodeol",
+      "seoreundul",
+      "seumulilgop",
+      "aheunyeodeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "여든아홉",
+    "choices": [
+      "yesundaseot",
+      "ahop",
+      "seoreunnet",
+      "yeodeunahop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "아흔",
+    "choices": [
+      "aheunyeoseot",
+      "yesunyeodeol",
+      "aheun",
+      "yeodeundaseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "아흔하나",
+    "choices": [
+      "maheunyeodeol",
+      "yeolhana",
+      "ilheundul",
+      "aheunhana"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "아흔둘",
+    "choices": [
+      "seoreunnet",
+      "aheundul",
+      "yeol",
+      "seumulilgop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "아흔셋",
+    "choices": [
+      "aheunset",
+      "yeoseot",
+      "ilgop",
+      "maheunahop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "아흔넷",
+    "choices": [
+      "aheunnet",
+      "seoreundul",
+      "yeolahop",
+      "yeoldul"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "아흔다섯",
+    "choices": [
+      "ilgop",
+      "aheundaseot",
+      "seoreunnet",
+      "maheunnet"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "아흔여섯",
+    "choices": [
+      "seumulhana",
+      "yesunhana",
+      "aheunyeoseot",
+      "swindaseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "아흔일곱",
+    "choices": [
+      "seumulhana",
+      "aheunilgop",
+      "ilheunnet",
+      "seumul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "아흔여덟",
+    "choices": [
+      "seumulhana",
+      "aheunyeodeol",
+      "swinyeoseot",
+      "yeoseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "아흔아홉",
+    "choices": [
+      "yeoseot",
+      "dul",
+      "swinhana",
+      "aheunahop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "백",
+    "choices": [
+      "ilheundul",
+      "seoreunyeoseot",
+      "yeol",
+      "baek"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "1",
+    "choices": [
+      "yesunnet",
+      "dul",
+      "hana",
+      "ilheunyeoseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "2",
+    "choices": [
+      "swinilgop",
+      "swin",
+      "swinahop",
+      "dul"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "3",
+    "choices": [
+      "yeodeunset",
+      "set",
+      "aheunnet",
+      "hana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "4",
+    "choices": [
+      "hana",
+      "swinilgop",
+      "net",
+      "aheunahop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "5",
+    "choices": [
+      "yeodeunilgop",
+      "swindul",
+      "swinyeodeol",
+      "daseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "6",
+    "choices": [
+      "maheunilgop",
+      "yeoseot",
+      "ilheunyeodeol",
+      "yeolhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "7",
+    "choices": [
+      "swinilgop",
+      "seumulnet",
+      "ilgop",
+      "aheunilgop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "8",
+    "choices": [
+      "swinset",
+      "yeodeol",
+      "net",
+      "yeodeunhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "9",
+    "choices": [
+      "seumulhana",
+      "ahop",
+      "swinahop",
+      "seoreunset"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "10",
+    "choices": [
+      "yesunyeoseot",
+      "yeol",
+      "yesundaseot",
+      "aheunahop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "11",
+    "choices": [
+      "yeoldul",
+      "seumulnet",
+      "yeolhana",
+      "maheunnet"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "12",
+    "choices": [
+      "maheunhana",
+      "swinahop",
+      "yeoldul",
+      "yesunahop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "13",
+    "choices": [
+      "daseot",
+      "aheunahop",
+      "yeodeundaseot",
+      "yeoset"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "14",
+    "choices": [
+      "ilheunhana",
+      "yeolnet",
+      "yesunahop",
+      "seumulyeoseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "15",
+    "choices": [
+      "yeodeunyeoseot",
+      "maheundaseot",
+      "yeoldaseot",
+      "seumul"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "16",
+    "choices": [
+      "swinilgop",
+      "seureunahop",
+      "yeodeunyeodeol",
+      "yeolyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "17",
+    "choices": [
+      "yeolilgob",
+      "yeolnet",
+      "seoreun",
+      "aheunset"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "18",
+    "choices": [
+      "yeolyeodeol",
+      "net",
+      "yesunhana",
+      "swinahop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "19",
+    "choices": [
+      "seumulhana",
+      "yeodeunhana",
+      "maheundul",
+      "yeolahop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "20",
+    "choices": [
+      "seumul",
+      "yesunilgop",
+      "yeoseot",
+      "ilheunyeoseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "21",
+    "choices": [
+      "ilheunilgop",
+      "swindaseot",
+      "seoreunhana",
+      "seumulhana"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "22",
+    "choices": [
+      "seoreunnet",
+      "ilheundaseot",
+      "seumuldul",
+      "swinyeodeol"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "23",
+    "choices": [
+      "yesunhana",
+      "seumulset",
+      "swinilgop",
+      "maheunnet"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "24",
+    "choices": [
+      "seumulnet",
+      "yeodeunyeodeol",
+      "seumuldaseot",
+      "swinset"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "25",
+    "choices": [
+      "yesunnet",
+      "seumuldaseot",
+      "yeoset",
+      "aheundaseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "26",
+    "choices": [
+      "yeolyeodeol",
+      "maheundul",
+      "seumulyeoseot",
+      "aheunahop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "27",
+    "choices": [
+      "ilheunset",
+      "yesunilgop",
+      "seumulilgop",
+      "aheundaseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "28",
+    "choices": [
+      "seumulyeodeol",
+      "maheunhana",
+      "ilheunahop",
+      "swinyeoseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "29",
+    "choices": [
+      "yesunilgop",
+      "swinilgop",
+      "seumulahop",
+      "ilheunset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "30",
+    "choices": [
+      "seoreunnet",
+      "maheunhana",
+      "seumuldul",
+      "seoreun"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "31",
+    "choices": [
+      "maheunyeodeol",
+      "seoreundaseot",
+      "seoreunhana",
+      "yeolilgob"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "32",
+    "choices": [
+      "net",
+      "aheunyeodeol",
+      "seumulilgop",
+      "seoreundul"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "33",
+    "choices": [
+      "seoreunset",
+      "ilheun",
+      "maheunilgop",
+      "yesun"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "34",
+    "choices": [
+      "swindaseot",
+      "seoreunnet",
+      "aheunilgop",
+      "seumuldul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "35",
+    "choices": [
+      "yeodeundul",
+      "daseot",
+      "seoreundaseot",
+      "yeolilgob"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "36",
+    "choices": [
+      "seoreunyeoseot",
+      "ilheun",
+      "seumulset",
+      "yesunahop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "37",
+    "choices": [
+      "maheunahop",
+      "swindaseot",
+      "seoreunilgop",
+      "swinilgop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "38",
+    "choices": [
+      "seumuldul",
+      "aheunnet",
+      "yeoldul",
+      "seureunyeodeol"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "39",
+    "choices": [
+      "seureunahop",
+      "swinset",
+      "yeodeundaseot",
+      "yeolhana"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "40",
+    "choices": [
+      "maheun",
+      "net",
+      "yesunyeodeol",
+      "aheundul"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "41",
+    "choices": [
+      "yeolhana",
+      "swinnet",
+      "yeolilgob",
+      "maheunhana"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "42",
+    "choices": [
+      "maheundul",
+      "aheun",
+      "ahop",
+      "ilheunhana"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "43",
+    "choices": [
+      "seoreunyeoseot",
+      "ilheunyeodeol",
+      "seumulahop",
+      "maheunset"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "44",
+    "choices": [
+      "yeodeunilgop",
+      "maheunnet",
+      "yesunhana",
+      "maheunilgop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "45",
+    "choices": [
+      "maheundaseot",
+      "yesun",
+      "swinyeoseot",
+      "aheunhana"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "46",
+    "choices": [
+      "yeoseot",
+      "yeodeol",
+      "swinyeoseot",
+      "maheunyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "47",
+    "choices": [
+      "seoreunset",
+      "maheunahop",
+      "maheunilgop",
+      "yesunset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "48",
+    "choices": [
+      "yeodeundaseot",
+      "maheunyeodeol",
+      "swindul",
+      "ilheunhana"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "49",
+    "choices": [
+      "maheunahop",
+      "yeoldaseot",
+      "daseot",
+      "yesunahop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "50",
+    "choices": [
+      "swin",
+      "seoreunyeoseot",
+      "yesunyeoseot",
+      "aheunyeoseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "51",
+    "choices": [
+      "yesundul",
+      "hana",
+      "ilheunilgop",
+      "swinhana"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "52",
+    "choices": [
+      "net",
+      "seoreunhana",
+      "swindul",
+      "seumulset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "53",
+    "choices": [
+      "ilheunnet",
+      "yeoldul",
+      "swinset",
+      "swinhana"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "54",
+    "choices": [
+      "aheunyeoseot",
+      "seumulahop",
+      "maheunhana",
+      "swinnet"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "55",
+    "choices": [
+      "ilheunyeoseot",
+      "aheunahop",
+      "yeodeunyeodeol",
+      "swindaseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "56",
+    "choices": [
+      "yeoset",
+      "swinyeoseot",
+      "swinset",
+      "ilheundaseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "57",
+    "choices": [
+      "swinilgop",
+      "seumul",
+      "yeol",
+      "seoreunhana"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "58",
+    "choices": [
+      "swin",
+      "seoreunnet",
+      "swinyeodeol",
+      "yeodeun"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "59",
+    "choices": [
+      "ilheunnet",
+      "yeodeunnet",
+      "swinahop",
+      "yesunilgop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "60",
+    "choices": [
+      "seumulilgop",
+      "ilheun",
+      "seoreunilgop",
+      "yesun"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "61",
+    "choices": [
+      "seoreundaseot",
+      "yeodeun",
+      "yesunhana",
+      "ilheunilgop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "62",
+    "choices": [
+      "maheunnet",
+      "seoreunset",
+      "swin",
+      "yesundul"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "63",
+    "choices": [
+      "seumuldaseot",
+      "seumulnet",
+      "yesunset",
+      "yesunnet"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "64",
+    "choices": [
+      "yeodeundul",
+      "ilheunnet",
+      "dul",
+      "yesunnet"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "65",
+    "choices": [
+      "yesundaseot",
+      "seoreun",
+      "ilgop",
+      "yeodeundul"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "66",
+    "choices": [
+      "swinahop",
+      "yesunyeoseot",
+      "ilheundul",
+      "swinyeoseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "67",
+    "choices": [
+      "yeodeunyeoseot",
+      "yeoldul",
+      "yesunilgop",
+      "ilheundaseot"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "68",
+    "choices": [
+      "yesunyeodeol",
+      "yesun",
+      "maheundul",
+      "yeodeunilgop"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "69",
+    "choices": [
+      "yesunahop",
+      "yeolilgob",
+      "maheunhana",
+      "aheunnet"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "70",
+    "choices": [
+      "ilheun",
+      "swindul",
+      "ilheundul",
+      "maheunnet"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "71",
+    "choices": [
+      "yeodeunset",
+      "hana",
+      "yeolyeodeol",
+      "ilheunhana"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "72",
+    "choices": [
+      "ilheunilgop",
+      "aheunhana",
+      "ilheundul",
+      "yesunset"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "73",
+    "choices": [
+      "ilheunset",
+      "aheundul",
+      "hana",
+      "seoreundul"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "74",
+    "choices": [
+      "seureunyeodeol",
+      "ilheunnet",
+      "yeodeunyeodeol",
+      "yesunahop"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "75",
+    "choices": [
+      "ilheunilgop",
+      "swindul",
+      "ilheundaseot",
+      "yesundul"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "76",
+    "choices": [
+      "ilheunahop",
+      "swindul",
+      "yeol",
+      "ilheunyeoseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "77",
+    "choices": [
+      "seoreunyeoseot",
+      "yeoldaseot",
+      "yeolyeoseot",
+      "ilheunilgop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "78",
+    "choices": [
+      "ilheunset",
+      "ilheunyeodeol",
+      "net",
+      "yeol"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "79",
+    "choices": [
+      "ilheunahop",
+      "dul",
+      "seumulyeoseot",
+      "yeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "80",
+    "choices": [
+      "maheunyeodeol",
+      "yeodeun",
+      "aheunset",
+      "seumuldul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "81",
+    "choices": [
+      "yeodeunhana",
+      "maheunhana",
+      "aheun",
+      "yeodeunyeodeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "82",
+    "choices": [
+      "yeolhana",
+      "yeolyeodeol",
+      "yesunyeodeol",
+      "yeodeundul"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "83",
+    "choices": [
+      "yeolnet",
+      "yeodeunset",
+      "seoreundaseot",
+      "yesun"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "84",
+    "choices": [
+      "yeodeunnet",
+      "swindul",
+      "swinyeodeol",
+      "seumulyeoseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "85",
+    "choices": [
+      "yeodeundaseot",
+      "seumulyeoseot",
+      "swinset",
+      "set"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "86",
+    "choices": [
+      "yeodeunyeoseot",
+      "yeodeunnet",
+      "yeodeun",
+      "yesundaseot"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "87",
+    "choices": [
+      "seoreundaseot",
+      "yeodeunset",
+      "yesunyeodeol",
+      "yeodeunilgop"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "88",
+    "choices": [
+      "aheunilgop",
+      "yesundaseot",
+      "yeodeunyeodeol",
+      "ilgop"
+    ],
+    "answer": 2,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "89",
+    "choices": [
+      "yeodeunahop",
+      "aheunyeoseot",
+      "maheundul",
+      "aheun"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "90",
+    "choices": [
+      "aheun",
+      "seureunahop",
+      "yesunyeoseot",
+      "yeodeunyeodeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "91",
+    "choices": [
+      "seumulahop",
+      "yeol",
+      "seumulilgop",
+      "aheunhana"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "92",
+    "choices": [
+      "yesundaseot",
+      "aheundul",
+      "yeodeundaseot",
+      "ilheundaseot"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "93",
+    "choices": [
+      "seumulahop",
+      "ilheunyeoseot",
+      "swinnet",
+      "aheunset"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "94",
+    "choices": [
+      "aheunilgop",
+      "yeolnet",
+      "yeodeunyeoseot",
+      "aheunnet"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "95",
+    "choices": [
+      "ilheunyeodeol",
+      "yeodeunnet",
+      "ilgop",
+      "aheundaseot"
+    ],
+    "answer": 3,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "96",
+    "choices": [
+      "ilheundaseot",
+      "aheunyeoseot",
+      "yeol",
+      "aheunnet"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "97",
+    "choices": [
+      "yeodeunyeodeol",
+      "aheunilgop",
+      "ilheunahop",
+      "dul"
+    ],
+    "answer": 1,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "98",
+    "choices": [
+      "aheunyeodeol",
+      "yesun",
+      "maheunilgop",
+      "seoreunnet"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "99",
+    "choices": [
+      "aheunahop",
+      "aheundaseot",
+      "seoreunyeoseot",
+      "yeodeun"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  },
+  {
+    "question": "100",
+    "choices": [
+      "baek",
+      "yeoset",
+      "yeolyeoseot",
+      "yeodeol"
+    ],
+    "answer": 0,
+    "type": "numbers",
+    "intent": "",
+    "extra": "What is the pronunciation of (Native)"
+  }
+]

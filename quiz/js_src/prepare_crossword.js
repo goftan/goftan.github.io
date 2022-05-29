@@ -18,13 +18,9 @@ var xy_to_data = {};
 var lastActiveCell = null;
 
 function check_if_answer(x,y) {
-    console.log(x+" "+y);
-    console.log(xy_to_data);
     d = xy_to_data[(x+1)+'_'+(y+1)]
-    console.log(d);
     startx = d.startx;
     starty = d.starty;
-    console.log(direction);
     if(direction == 'across') {
         for(var counter = 0; counter < d.answer.length;counter++) {
             if(d3.select('#' + id_of_cell_alone(startx + counter-1, starty-1)).node().value != d.answer[counter]) {
