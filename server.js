@@ -32,6 +32,7 @@ app.get('/quiz', (req, res) => {
 //   }
 //   // file written successfully
 // });
+res.send('Hello World!');
 
 });
 
