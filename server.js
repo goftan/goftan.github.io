@@ -1,6 +1,14 @@
 // const myrouter = require('router.js')
 const express = require('express');
 const app = express();
+app.use(
+    cors({
+      origin: ["*"],
+      methods: ["GET", "POST", "DELETE"],
+      credentials: true,
+      origin: true,
+    })
+  );
 // app.use('/');
 // app.l
 //const router = express.Router();
