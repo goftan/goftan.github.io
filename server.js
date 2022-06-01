@@ -14,6 +14,7 @@ db = [];
 app.get('/quiz', (req, res) => {
     console.log(req);
     console.log(res);
+    res.setHeader('Access-Control-Allow-Origin', '*');
 //     const content = 'Some content!';
 //     const fs = require('fs');
 // fs.writeFile('test.txt', content, err => {
