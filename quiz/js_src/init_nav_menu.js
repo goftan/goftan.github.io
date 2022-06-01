@@ -1,4 +1,5 @@
 var navs = [
+    'sign-in',
     'language',
     'tasks',
     'question',

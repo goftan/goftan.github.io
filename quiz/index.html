@@ -8,6 +8,7 @@
 <script src="js_src/crossword.js"></script>
 <script src="js_src/prepare_crossword.js"></script>
 <script src="js_src/init_nav_menu.js"></script>
+<script src="js_src/signin.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
 </head>
 <body>
@@ -21,7 +22,34 @@
 <!-- <h2>Quiz for learning languages</h2> -->
 <!-- <p>This example does not really do anything, other than showing you how to add the viewport meta element.</p> -->
 <div id="wrapper">
-    <div id="language_page">
+    <div id="sign-in_page">
+        <h2>Login Form</h2>
+
+        <form action="" method="post">
+        <div class="imgcontainer">
+            <img src="img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="logincontainer">
+            <label for="uname"><b>Username</b></label>
+            <input id="username" class="logininput" type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input id="password" class="logininput" type="password" placeholder="Enter Password" name="psw" required>
+                
+            <button class="loginbutton"  onclick="signin()">Login</button>
+            <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+        <div class="loginbutton" style="background-color:#f1f1f1">
+            <button type="loginbutton" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+        </form>
+    </div>
+    <div id="language_page" style="display: none;">
         <h3>Which language do you want to learn?</h3>
         <div id="language_checkboxes"></div>
         <button class="button button5" onclick="startLearning()" id="startLearning">Start Learning!</button>
@@ -90,48 +118,5 @@
     </div>
 </div>
 <script src="js_src/index.js"></script>
-<script>
-    d3.json('https://goftan.herokuapp.com/quiz', {
-      method:"POST",
-      body: JSON.stringify({
-        title: 'Hello',
-        body: '_d3-fetch_ is it',
-        userId: 1,
-        friends: [2,3,4]
-      }),
-      headers: {
-        "Content-type": "application/json; charset=UTF-8",
-        "Access-Control-Allow-Origin": "*"
-      }
-    })
-    .then(json => {
-        console.log(json);
-        });
-
-//     // Example POST method implementation:
-// async function postData(url = '', data = {a:'test'}) {
-//   // Default options are marked with *
-//   const response = await fetch(url, {
-//     method: 'POST', // *GET, POST, PUT, DELETE, etc.
-//     mode: 'no-cors', // no-cors, *cors, same-origin
-//     cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
-//     credentials: 'omit', // include, *same-origin, omit
-//     headers: {
-//       'Content-Type': 'application/json'
-//       // 'Content-Type': 'application/x-www-form-urlencoded',
-//     },
-//     redirect: 'follow', // manual, *follow, error
-//     referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-//     body: JSON.stringify(data)
-//   });
-//   return response.json();
-// }
-
-// postData('https://goftan.herokuapp.com/quiz', { answer: 42 })
-//   .then(data => {
-//     console.log(data); // JSON data parsed by `data.json()` call
-//   });
-
-</script>
 </body>
 </html>

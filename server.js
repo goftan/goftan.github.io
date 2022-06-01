@@ -2,6 +2,7 @@
 const express = require('express');
 var cors = require('cors')
 const app = express();
+
 app.use(
     cors({
       origin: ["*"],
@@ -10,10 +11,7 @@ app.use(
       origin: true,
     })
   );
-// app.use('/');
-// app.l
-//const router = express.Router();
-//cors
+
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
@@ -24,15 +22,7 @@ app.post('/quiz', (req, res) => {
     console.log(req);
     console.log(res);
     res.setHeader('Access-Control-Allow-Origin', '*');
-//     const content = 'Some content!';
-//     const fs = require('fs');
-// fs.writeFile('test.txt', content, err => {
-//   if (err) {
-//     console.error(err);
-//   }
-//   // file written successfully
-// });
-res.send('Hello World!');
+    res.send({status:'success'});
 
 });
 
