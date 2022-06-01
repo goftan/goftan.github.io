@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 
 db = [];
 
-app.get('/quiz', (req, res) => {
+app.post('/quiz', (req, res) => {
     console.log(req);
     console.log(res);
     res.setHeader('Access-Control-Allow-Origin', '*');
