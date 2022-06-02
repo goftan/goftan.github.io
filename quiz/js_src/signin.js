@@ -1,27 +1,40 @@
 function signin() {
     if(!validateEmail(d3.select('#username').node().value)) return;
     if(d3.select('#password').node().value.length < 5) return;
-    d3.json('https://goftan.herokuapp.com/quiz', {
-      method:"POST",
-      body: JSON.stringify({
-        username: document.getElementById('username').value,
-        password: document.getElementById('password').value
-      }),
-      headers: {
-        "Content-type": "application/json; charset=UTF-8",
-        "Access-Control-Allow-Origin": "*"
-      }
-    })
-    .then(json => {
-        if(json.status === 'loggedin' || json.status === 'registered') {
-            localStorage.setItem('username', json.username);
-            localStorage.setItem('points', json.points);
-            localStorage.setItem('status', json.status);
-            d3.select('#hi_user').html('Hi, ' + json.username);
-        } else {
-            alert('Wrong username or password');
-        }           
-    });
+    let data = {
+          username: document.getElementById('username').value,
+          password: document.getElementById('password').value
+        };
+
+    fetch("https://goftan.herokuapp.com/quiz", {
+      method: "POST",
+      headers: {'Content-Type': 'application/json'}, 
+      body: JSON.stringify(data)
+    }).then(res => {
+      console.log("Request complete! response:", res);
+});
+
+    // d3.json('https://goftan.herokuapp.com/quiz', {
+    //   method:"POST",
+    //   body: JSON.stringify({
+    //     username: document.getElementById('username').value,
+    //     password: document.getElementById('password').value
+    //   }),
+    //   headers: {
+    //     "Content-type": "application/json; charset=UTF-8",
+    //     "Access-Control-Allow-Origin": "*"
+    //   }
+    // })
+    // .then(json => {
+    //     if(json.status === 'loggedin' || json.status === 'registered') {
+    //         localStorage.setItem('username', json.username);
+    //         localStorage.setItem('points', json.points);
+    //         localStorage.setItem('status', json.status);
+    //         d3.select('#hi_user').html('Hi, ' + json.username);
+    //     } else {
+    //         alert('Wrong username or password');
+    //     }           
+    // });
 }
 
 const validateEmail = (email) => {
