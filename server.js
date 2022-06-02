@@ -19,6 +19,11 @@ app.use(
   })
 );
 
+app.use(express.json({
+  type: ['application/json', 'text/plain']
+}))
+
+
 app.use(
     cors({
       origin: ["*"],

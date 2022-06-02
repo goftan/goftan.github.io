@@ -8,6 +8,7 @@ async function signin() {
 
     await fetch("https://goftan.herokuapp.com/quiz", {
       method: "POST",
+      mode: 'cors',
       headers: {'Content-Type': 'application/json'}, 
       body: JSON.stringify(data)
     }).then(res => {
