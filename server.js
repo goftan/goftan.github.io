@@ -40,13 +40,6 @@ app.use(
     points: Array
   }));
 
-  const newUser = new UserModel({ 
-    user: "test",
-    pass: "test",
-    points: []
-   });
-  newUser.save();
-
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
@@ -56,7 +49,7 @@ app.post('/quiz', async (req, res) => {
     user_query = await UserModel.find({user: req.username});
     if(user_query.length !== 0) {
       q = user_query[0];
-      if(q.pass === req.password) {
+      if(q.pass === req.body.password) {
         res.send({username: req.body.username, status:'loggedin', points: q.points});
       } else {
         res.send({username: req.body.username, status:'wrongpassword'});

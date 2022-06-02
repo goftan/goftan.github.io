@@ -1,5 +1,5 @@
 function signin() {
-    if(!d3.select('#username').node().value) return;
+    if(!validate(d3.select('#username').node().value)) return;
     if(!d3.select('#password').node().value.length < 5) return;
     d3.json('https://goftan.herokuapp.com/quiz', {
       method:"POST",
