@@ -333,7 +333,7 @@ body {
 
 
 
-.logininput[type=text], .logininput[type=password] {
+.logininput[type=text], .logininput[type=password], .logininput[type=email] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
