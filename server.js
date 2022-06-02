@@ -2,19 +2,21 @@ const express = require('express');
 var cors = require('cors')
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
-
 require('dotenv').config();
 
 
 const app = express();
 
-mongoose.connect(process.env.MONGO_ACCESS);
-const UserModel = mongoose.model('User', new Schema({ 
-  user: String,
-  pass: String,
-  points: Array
-}));
+// main().catch(err => console.log(err));
+// async function main() {
+// mongoose.connect(process.env.MONGO_ACCESS);
 
+
+app.use(
+  express.urlencoded({
+    extended: false,
+  })
+);
 
 app.use(
     cors({
@@ -25,6 +27,17 @@ app.use(
     })
   );
 
+  const connectDB = async () => {
+    const conn = await mongoose.connect(process.env.MONGO_ACCESS);
+    console.log(`MongoDB connected ${conn.connection.host}`);
+  };
+
+  connectDB();
+  const UserModel = mongoose.model('User', new Schema({ 
+    user: String,
+    pass: String,
+    points: Array
+  }));
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
