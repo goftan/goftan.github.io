@@ -12,7 +12,15 @@ function signin() {
       }
     })
     .then(json => {
-        console.log(json);
+        if(json.status === 'loggedin' || json.status === 'registered') {
+            console.log(json);
+            localStorage.setItem('username', json.username);
+            localStorage.setItem('points', json.points);
+            localStorage.setItem('status', json.status);
+            $('#hi_user').html('Hi, ' + json.username);
+        } else {
+            alert('Wrong username or password');
+        }           
     });
 
 }

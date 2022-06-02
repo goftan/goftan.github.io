@@ -28,9 +28,18 @@ app.post('/quiz', (req, res) => {
     console.log(res);
     res.setHeader('Access-Control-Allow-Origin', '*');
     if(db[req.username] !== undefined) {
-      res.send({status:'success', message: 'You are logged in', points: db[req.username].points});
+      if(db[req.username] === req.password) {
+        res.send({username: req.username, status:'loggedin', points: db[req.username].points});
+      } else {
+        res.send({username: req.username, status:'wrongpassword'});
+      }
     } else {
-      res.send({status:'success', message: 'You are not logged in', points: '0'});
+      db[req.username] = {
+        "username": req.username,
+        "pass": req.password,
+        "points":   []
+      };
+      res.send({username: req.username, status:'registered', points: []});
     }
 });
 
