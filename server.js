@@ -27,8 +27,8 @@ app.post('/quiz', (req, res) => {
     console.log(req);
     console.log(res);
     res.setHeader('Access-Control-Allow-Origin', '*');
-    if(db[req.body.username] !== undefined) {
-      res.send({status:'success', message: 'You are logged in', points: db[req.body.email].points});
+    if(db[req.username] !== undefined) {
+      res.send({status:'success', message: 'You are logged in', points: db[req.username].points});
     } else {
       res.send({status:'success', message: 'You are not logged in', points: '0'});
     }
