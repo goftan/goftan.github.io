@@ -26,11 +26,6 @@ app.get('/', (req, res) => {
 app.post('/quiz', (req, res) => {
     console.log(req);
     console.log(res);
-    q = User.find({email: req.body.email, pass: req.body.pass}, function(err, docs) {
-      console.log(err,docs);
-    });
-
-    
     res.setHeader('Access-Control-Allow-Origin', '*');
     if(db[req.body.email] !== undefined) {
       res.send({status:'success', message: 'You are logged in', points: db[req.body.email].points});
