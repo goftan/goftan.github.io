@@ -47,7 +47,7 @@ app.get('/', (req, res) => {
 app.post('/quiz', (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     console.log('salam');
-    // console.log(req);
+    console.log(req.body);
     if(req.body == undefined) return;
     UserModel.find({user: req.body.username}).exec().then(user_query => {
       console.log(user_query);
