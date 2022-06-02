@@ -46,7 +46,8 @@ app.get('/', (req, res) => {
 
 app.post('/quiz', async (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
-    user_query = await UserModel.find({user: req.username});
+    user_query = await UserModel.find({user: req.body.username});
+    console.log(user_query)
     if(user_query.length !== 0) {
       q = user_query[0];
       if(q.pass === req.body.password) {
