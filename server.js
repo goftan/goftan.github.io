@@ -44,29 +44,30 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.post('/quiz', async (req, res) => {
+app.post('/quiz', (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     console.log('salam');
     // console.log(req);
     if(req.body == undefined) return;
-    user_query = await UserModel.find({user: req.body.username});
-    console.log(user_query)
-    if(user_query.length !== 0) {
-      q = user_query[0];
-      if(q.pass === req.body.password) {
-        res.send({username: req.body.username, status:'loggedin', points: q.points});
+    UserModel.find({user: req.body.username}).exec().then(user_query => {
+      console.log(user_query);
+      if(user_query.length !== 0) {
+        q = user_query[0];
+        if(q.pass === req.body.password) {
+          res.send({username: req.body.username, status:'loggedin', points: q.points});
+        } else {
+          res.send({username: req.body.username, status:'wrongpassword'});
+        }
       } else {
-        res.send({username: req.body.username, status:'wrongpassword'});
+        const newUser = new UserModel({ 
+          user: req.body.username,
+          pass: req.body.password,
+          points: []
+         });
+        newUser.save();
+        res.send({username: req.body.username, status:'registered', points: []});
       }
-    } else {
-      const newUser = new UserModel({ 
-        user: req.body.username,
-        pass: req.body.password,
-        points: []
-       });
-      newUser.save();
-      res.send({username: req.body.username, status:'registered', points: []});
-    }
+    });
 });
 
 const port = process.env.PORT || 4000;

@@ -1,4 +1,4 @@
-function signin() {
+async function signin() {
     if(!validateEmail(d3.select('#username').node().value)) return;
     if(d3.select('#password').node().value.length < 5) return;
     let data = {
@@ -6,7 +6,7 @@ function signin() {
           password: document.getElementById('password').value
         };
 
-    fetch("https://goftan.herokuapp.com/quiz", {
+    await fetch("https://goftan.herokuapp.com/quiz", {
       method: "POST",
       headers: {'Content-Type': 'application/json'}, 
       body: JSON.stringify(data)
