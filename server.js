@@ -1,14 +1,17 @@
 const express = require('express');
 var cors = require('cors')
-const app = express();
-const fs = require('fs');
+require('dotenv').config();
 
-let dbstr = fs.readFileSync('db.json');
-dbjson = JSON.parse(dbstr);
-db = {}
-for(d in dbjson) {
-  db[d.email] = d.password;
-}
+const app = express();
+const mongoose = require('mongoose');
+
+mongoose.connect(process.env.MONGO_ACCESS);
+const UserModel = mongoose.model('User', new Schema({ 
+  user: String,
+  pass: String,
+  points: Array
+}));
+
 
 app.use(
     cors({
@@ -27,18 +30,20 @@ app.post('/quiz', (req, res) => {
     console.log(req);
     console.log(res);
     res.setHeader('Access-Control-Allow-Origin', '*');
-    if(db[req.username] !== undefined) {
+    q = UserModel.find({user: req.username});
+    if(q.length !== 0) {
       if(db[req.username] === req.password) {
         res.send({username: req.username, status:'loggedin', points: db[req.username].points});
       } else {
         res.send({username: req.username, status:'wrongpassword'});
       }
     } else {
-      db[req.username] = {
-        "username": req.username,
-        "pass": req.password,
-        "points":   []
-      };
+      const newUser = new UserModel({ 
+        user: req.username,
+        pass: req.password,
+        points: []
+       });
+      newUser.save();
       res.send({username: req.username, status:'registered', points: []});
     }
 });
@@ -48,5 +53,7 @@ const port = process.env.PORT || 4000;
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
+
+//'mongodb+srv://ali:<password>@cluster0.6iqcuzr.mongodb.net/?retryWrites=true&w=majority'
 
 
