@@ -1,9 +1,12 @@
 const express = require('express');
 var cors = require('cors')
+const mongoose = require('mongoose');
+const { Schema } = mongoose;
+
 require('dotenv').config();
 
+
 const app = express();
-const mongoose = require('mongoose');
 
 mongoose.connect(process.env.MONGO_ACCESS);
 const UserModel = mongoose.model('User', new Schema({ 
