@@ -14,7 +14,6 @@ function signin() {
     })
     .then(json => {
         if(json.status === 'loggedin' || json.status === 'registered') {
-            console.log(json);
             localStorage.setItem('username', json.username);
             localStorage.setItem('points', json.points);
             localStorage.setItem('status', json.status);

@@ -1,6 +1,7 @@
 const express = require('express');
 var cors = require('cors')
 const mongoose = require('mongoose');
+const { query } = require('express');
 const { Schema } = mongoose;
 require('dotenv').config();
 
@@ -38,30 +39,36 @@ app.use(
     pass: String,
     points: Array
   }));
-  
+
+  const newUser = new UserModel({ 
+    user: "test",
+    pass: "test",
+    points: []
+   });
+  newUser.save();
+
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.post('/quiz', (req, res) => {
-    console.log(req);
-    console.log(res);
+app.post('/quiz', async (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
-    q = UserModel.find({user: req.username});
-    if(q.length !== 0) {
-      if(db[req.username] === req.password) {
-        res.send({username: req.username, status:'loggedin', points: db[req.username].points});
+    user_query = await UserModel.find({user: req.username});
+    if(user_query.length !== 0) {
+      q = user_query[0];
+      if(q.pass === req.password) {
+        res.send({username: req.body.username, status:'loggedin', points: q.points});
       } else {
-        res.send({username: req.username, status:'wrongpassword'});
+        res.send({username: req.body.username, status:'wrongpassword'});
       }
     } else {
       const newUser = new UserModel({ 
-        user: req.username,
-        pass: req.password,
+        user: req.body.username,
+        pass: req.body.password,
         points: []
        });
       newUser.save();
-      res.send({username: req.username, status:'registered', points: []});
+      res.send({username: req.body.username, status:'registered', points: []});
     }
 });
 
