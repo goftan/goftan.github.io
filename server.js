@@ -38,6 +38,7 @@ app.use(
     pass: String,
     points: Array
   }));
+  
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
