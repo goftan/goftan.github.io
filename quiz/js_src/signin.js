@@ -17,7 +17,7 @@ function signin() {
             localStorage.setItem('username', json.username);
             localStorage.setItem('points', json.points);
             localStorage.setItem('status', json.status);
-            $('#hi_user').html('Hi, ' + json.username);
+            d3.select('#hi_user').html('Hi, ' + json.username);
         } else {
             alert('Wrong username or password');
         }           
