@@ -41,16 +41,15 @@ db = [];
 app.post('/quiz', (req, res) => {
     console.log(req);
     console.log(res);
-    res = User.find({email: req.body.email, pass: req.body.pass}, function(err, docs) {
+    q = User.find({email: req.body.email, pass: req.body.pass}, function(err, docs) {
       console.log(err,docs);
     });
     res.setHeader('Access-Control-Allow-Origin', '*');
-    if(res.length !== 0) {
-      res.send({status:'success', message: 'You are logged in', points: res[0].points});
+    if(q.length !== 0) {
+      res.send({status:'success', message: 'You are logged in', points: q[0].points});
     } else {
       res.send({status:'success', message: 'You are not logged in', points: '0'});
     }
-
 });
 
 const port = process.env.PORT || 4000;
