@@ -1,21 +1,5 @@
 function signin() {
-//     if(!validateEmail(d3.select('#username').node().value)) return;
-//     if(d3.select('#password').node().value.length < 5) return;
-//     let data = {
-//           username: document.getElementById('username').value,
-//           password: document.getElementById('password').value
-//         };
-
-//     await fetch("https://goftan.herokuapp.com/quiz", {
-//       method: "POST",
-//       mode: 'cors',
-//       headers: {'Content-Type': 'application/json'}, 
-//       body: JSON.stringify(data)
-//     }).then(res => {
-//       console.log("Request complete! response:", res);
-// });
-
-    d3.json('https://goftan.herokuapp.com/quiz', {
+    d3.json('https://goftan.herokuapp.com/signin', {
       method:"POST",
       body: JSON.stringify({
         username: document.getElementById('username').value,

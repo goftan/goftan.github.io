@@ -49,10 +49,8 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.post('/quiz', (req, res) => {
+app.post('/signin', (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
-    console.log('salam');
-    console.log(req.body);
     if(req.body == undefined) return;
     UserModel.find({user: req.body.username}).exec().then(user_query => {
       console.log(user_query);
@@ -71,6 +69,22 @@ app.post('/quiz', (req, res) => {
          });
         newUser.save();
         res.send({username: req.body.username, status:'registered', points: []});
+      }
+    });
+});
+
+app.post('/addresult', (req, res) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+
+    if(req.body == undefined) return;
+    UserModel.findAndUpdate({user: req.body.username})
+      .exec().then(user_query => {
+      console.log(user_query);
+      if(user_query.length !== 0) {
+        q = user_query[0];
+        q.points.push(req.body.result);
+        q.save();
+        res.send({username: req.body.username, status:'loggedin', points: q.points});
       }
     });
 });

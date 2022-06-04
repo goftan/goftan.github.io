@@ -153,11 +153,33 @@ function submitAnswer() {
 function viewResults() {
     decolorCorrectAnswer(); 
     selectPage('calculator_page');
-    d3.select('#result_table').append('tr').selectAll("td")
-                .data([d3.select('table').selectAll('tr').size()  - 1, 
-                countCorrect, countIncorrect])
-                .enter()
-                .append("td").text(function(d) { return d; });
+    d3.select('#result_table').append('tr')
+        .selectAll("td")
+        .data([d3.select('table').selectAll('tr').size()  - 1,  
+        localStorage.getItem('lang'), countCorrect, countIncorrect])
+        .enter()
+        .append("td").text(function(d) { return d; });
+
+    
+    d3.json('https://goftan.herokuapp.com/addresult', {
+        method:"POST",
+        body: JSON.stringify({
+            username: document.getElementById('username').value,
+            countCorrect: countCorrect,
+            countIncorrect: countIncorrect,
+            lang: localStorage.getItem('lang'),
+            try: d3.select('table').selectAll('tr').size()  - 1
+        }),
+        headers: {
+            "Content-type": "application/json; charset=UTF-8",
+            "Access-Control-Allow-Origin": "*"
+        }
+        })
+        .then(json => {
+            console.log('addresults back');
+            console.log(json);
+        });
+    
 }
 
 function restartQuiz() {
