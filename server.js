@@ -82,8 +82,7 @@ app.post('/addresult', (req, res) => {
         q.points.push([req.body.try, req.body.lang, req.body.countCorrect, req.body.countIncorrect]);
         q.save();
         res.send({username: req.body.username, status:'loggedin', points: q.points});
-      }
-    });
+   });
 });
 
 const port = process.env.PORT || 4000;
