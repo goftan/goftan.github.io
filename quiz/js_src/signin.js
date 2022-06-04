@@ -16,6 +16,7 @@ function signin() {
             localStorage.setItem('points', json.points);
             localStorage.setItem('status', json.status);
             d3.select('#hi_user').html('Hi, ' + json.username);
+            selectPage('language_page');
         } else {
             alert('Wrong username or password');
         }           

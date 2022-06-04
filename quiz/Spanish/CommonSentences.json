@@ -2,23 +2,10 @@
   {
     "question": "despiértame a las ------ esta semana",
     "choices": [
-      "debe",
-      "el control",
       "cinco de la mañana",
-      "demostrar"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "set",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "despiértame a las ------ el viernes",
-    "choices": [
-      "nueve de la mañana",
-      "zona",
-      "espere",
-      "padre"
+      "volar",
+      "mentira",
+      "ciudad"
     ],
     "answer": 0,
     "type": "sentence",
@@ -26,14 +13,27 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "despiértame a las ------ el viernes",
+    "choices": [
+      "zapato",
+      "nueve de la mañana",
+      "mensaje",
+      "inferior"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "pon una alarma en ------",
     "choices": [
-      "listo",
-      "completo",
-      "de capital",
-      "dos horas desde ahora"
+      "cortada",
+      "dos horas desde ahora",
+      "condición",
+      "herramienta"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -41,12 +41,12 @@
   {
     "question": "olly para por ------",
     "choices": [
-      "difícil",
-      "creció",
-      "movimiento",
-      "un minuto"
+      "él",
+      "un minuto",
+      "exacta",
+      "resolver"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "volume_mute",
     "extra": "Fill in the blank:"
@@ -54,9 +54,9 @@
   {
     "question": "para por ------",
     "choices": [
-      "sonrisa",
-      "solitario",
-      "plan de",
+      "largo",
+      "leche",
+      "comparar",
       "diez segundos"
     ],
     "answer": 3,
@@ -67,12 +67,12 @@
   {
     "question": "el ------ es todo lo que necesitamos",
     "choices": [
-      "por encima de",
-      "leche",
-      "comparar",
-      "rosa"
+      "materia",
+      "rosa",
+      "esquina",
+      "dientes"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -80,12 +80,12 @@
   {
     "question": "haz que la luz sea un poco mas ------ aquí",
     "choices": [
-      "libra",
-      "tramo",
       "cálida",
-      "si"
+      "puntuación",
+      "multitud",
+      "partido"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -93,12 +93,12 @@
   {
     "question": "por favor pon la luz ------",
     "choices": [
+      "frotar",
       "adecuada para leer",
-      "bastante",
-      "nivel",
-      "costa"
+      "papá",
+      "rompió"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -106,12 +106,12 @@
   {
     "question": "apaga la luz del ------",
     "choices": [
+      "se fue",
       "baño",
-      "oscuro",
-      "amigo",
-      "humana"
+      "aún",
+      "sueño"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank:"
@@ -119,10 +119,10 @@
   {
     "question": "olly baja las luces en la ------",
     "choices": [
-      "vender",
-      "cola",
+      "temprana",
+      "significará",
       "sala",
-      "habitación"
+      "bate"
     ],
     "answer": 2,
     "type": "sentence",
@@ -132,12 +132,12 @@
   {
     "question": "atenua las luces en el ------",
     "choices": [
-      "hace",
-      "misma",
-      "pasillo",
-      "escribió"
+      "oportunidad",
+      "me",
+      "flor",
+      "pasillo"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "hue_lightdim",
     "extra": "Fill in the blank:"
@@ -145,12 +145,12 @@
   {
     "question": "apaga las luces del ------",
     "choices": [
-      "demás",
-      "uso",
-      "danza",
-      "dormitorio"
+      "padre",
+      "dormitorio",
+      "capturas",
+      "pequeño"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank:"
@@ -158,12 +158,12 @@
   {
     "question": "ajusta las luces ------",
     "choices": [
-      "estación",
-      "a veinte por ciento",
-      "rueda",
-      "pero"
+      "objeto",
+      "piel",
+      "naturaleza",
+      "a veinte por ciento"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -172,9 +172,9 @@
     "question": "solo ponga las luces ------",
     "choices": [
       "a veinte por ciento",
-      "semilla",
-      "dejar",
-      "materiales"
+      "cuello",
+      "fila",
+      "mentira"
     ],
     "answer": 0,
     "type": "sentence",
@@ -184,12 +184,12 @@
   {
     "question": "atenua las luces en la ------ olly",
     "choices": [
-      "de capital",
+      "si",
+      "doble",
       "cocina",
-      "vida",
-      "pared"
+      "responder"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightdim",
     "extra": "Fill in the blank:"
@@ -197,12 +197,12 @@
   {
     "question": "baja las luces de la ------",
     "choices": [
+      "experimento",
       "cocina",
-      "nadar",
-      "cuota",
-      "seguro"
+      "risa",
+      "lugar"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightdim",
     "extra": "Fill in the blank:"
@@ -210,9 +210,9 @@
   {
     "question": "oscurece la ------",
     "choices": [
-      "diversión",
-      "mucho",
-      "por tanto,",
+      "grito",
+      "nuevo",
+      "temprana",
       "habitación"
     ],
     "answer": 3,
@@ -223,12 +223,12 @@
   {
     "question": "olly limpia el ------",
     "choices": [
-      "fresco",
-      "página",
+      "ella",
       "piso",
-      "medir"
+      "tal",
+      "sobre"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank:"
@@ -236,12 +236,12 @@
   {
     "question": "limpia el ------",
     "choices": [
-      "piso",
-      "I",
-      "cuarto de galón",
-      "instrumento"
+      "dientes",
+      "lucha",
+      "mina",
+      "piso"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank:"
@@ -249,10 +249,10 @@
   {
     "question": "aspirar la ------",
     "choices": [
-      "especial",
-      "suelo",
+      "base de",
+      "hecho",
       "casa",
-      "caer"
+      "enemigo"
     ],
     "answer": 2,
     "type": "sentence",
@@ -263,9 +263,9 @@
     "question": "aspira la ------ olly",
     "choices": [
       "casa",
-      "particular,",
-      "sujeto",
-      "pequeño"
+      "pulgadas",
+      "sistema",
+      "usted"
     ],
     "answer": 0,
     "type": "sentence",
@@ -275,12 +275,12 @@
   {
     "question": "limpiar es bueno el polvo es tan malo haz ahora tu magia limpia mi ------",
     "choices": [
-      "decir",
-      "durante",
-      "ascensor",
-      "alfombra"
+      "feliz",
+      "alfombra",
+      "pared",
+      "pocos"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank:"
@@ -288,9 +288,9 @@
   {
     "question": "aspira el ------",
     "choices": [
-      "mujer",
-      "lugar",
-      "pocos",
+      "mar",
+      "instrumento",
+      "manzana",
       "pasillo"
     ],
     "answer": 3,
@@ -301,9 +301,9 @@
   {
     "question": "aspirar las ------ alrededor",
     "choices": [
-      "golpear",
-      "anillo",
-      "pregunta",
+      "longitud",
+      "difícil",
+      "de espesor",
       "alfombras"
     ],
     "answer": 3,
@@ -314,12 +314,12 @@
   {
     "question": "quiero escuchar la canción de ------ una vez más",
     "choices": [
+      "equipo",
       "arijit singh",
-      "unidad",
-      "tipo",
-      "sueño"
+      "enviado",
+      "verano"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -328,9 +328,9 @@
     "question": "quiero poner esa ------ una vez mas",
     "choices": [
       "música",
-      "tres",
-      "muerte",
-      "demostrar"
+      "todavía",
+      "por qué",
+      "discutir"
     ],
     "answer": 0,
     "type": "sentence",
@@ -340,9 +340,9 @@
   {
     "question": "que hora es en ------",
     "choices": [
-      "ley",
-      "colores",
-      "caer",
+      "azúcar",
+      "describir",
+      "rápido",
       "australia"
     ],
     "answer": 3,
@@ -353,10 +353,10 @@
   {
     "question": "dime la hora en ------",
     "choices": [
-      "cayó",
-      "alto",
+      "traje",
+      "maravilla",
       "madrid",
-      "hace"
+      "abierta"
     ],
     "answer": 2,
     "type": "sentence",
@@ -366,12 +366,12 @@
   {
     "question": "dime la hora en ------",
     "choices": [
-      "el huso horario más cinco",
-      "siga",
-      "donde",
-      "sur"
+      "eléctrica",
+      "viejo",
+      "corto",
+      "el huso horario más cinco"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "convert",
     "extra": "Fill in the blank:"
@@ -379,12 +379,12 @@
   {
     "question": "siri dime la hora en ------",
     "choices": [
-      "poema",
+      "zapato",
+      "siete",
       "g. m. t. más cinco",
-      "hecho",
-      "arte"
+      "símbolo"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "convert",
     "extra": "Fill in the blank:"
@@ -392,12 +392,12 @@
   {
     "question": "alexa opciones de ------ mejor valoradas de comida china",
     "choices": [
-      "niño",
-      "ciudad",
+      "el control",
       "entrega",
-      "tabla"
+      "naturaleza",
+      "cobrar"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -405,9 +405,9 @@
   {
     "question": "opciones de ------ de comida china más valoradas",
     "choices": [
-      "parte",
-      "master",
-      "caer",
+      "océano",
+      "frotar",
+      "nosotros",
       "entrega"
     ],
     "answer": 3,
@@ -418,23 +418,10 @@
   {
     "question": "lista de las opciones de ------ de comida china más valoradas",
     "choices": [
+      "igual",
       "entrega",
-      "querido",
-      "significado",
-      "querer"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "olly las opciones mas votadas de ------ de comida china a domicilio",
-    "choices": [
-      "seis",
-      "entrega",
-      "aceite",
-      "nivel"
+      "raíz",
+      "experimento"
     ],
     "answer": 1,
     "type": "sentence",
@@ -442,14 +429,27 @@
     "extra": "Fill in the blank:"
   },
   {
-    "question": "quiero pedir ------ para llevar alguna recomendación",
+    "question": "olly las opciones mas votadas de ------ de comida china a domicilio",
     "choices": [
-      "buscar",
-      "grito",
-      "todo",
-      "curry"
+      "éstos",
+      "dos",
+      "tocar",
+      "entrega"
     ],
     "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "quiero pedir ------ para llevar alguna recomendación",
+    "choices": [
+      "grande",
+      "escribió",
+      "curry",
+      "añadir"
+    ],
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -458,9 +458,9 @@
     "question": "quiero pedir ------ para llevar hay alguna recomendación alexa",
     "choices": [
       "curry",
-      "años",
-      "maíz",
-      "instrumento"
+      "peces",
+      "jefe",
+      "bordo"
     ],
     "answer": 0,
     "type": "sentence",
@@ -470,12 +470,12 @@
   {
     "question": "encontrar mi comida ------ para llevar tailandesa alrededor de mercado central",
     "choices": [
-      "anillo",
-      "thai",
-      "ayudar",
-      "ver"
+      "amplio",
+      "oxígeno",
+      "puerta",
+      "thai"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -483,12 +483,12 @@
   {
     "question": "encontrar mi comida ------ tailandesa alrededor del centro",
     "choices": [
-      "cada",
-      "hacer",
-      "soñar",
-      "para llevar"
+      "orilla",
+      "contento",
+      "para llevar",
+      "izquierda"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -496,12 +496,12 @@
   {
     "question": "cancela mi alarma de las ------",
     "choices": [
-      "oh",
-      "si",
-      "que",
-      "siete de la mañana"
+      "bosque",
+      "rompió",
+      "siete de la mañana",
+      "resto"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "remove",
     "extra": "Fill in the blank:"
@@ -510,9 +510,9 @@
     "question": "parar alarma de las ------",
     "choices": [
       "siete de la mañana",
-      "concha",
-      "pronto",
-      "saltar"
+      "siempre",
+      "causa",
+      "desgaste"
     ],
     "answer": 0,
     "type": "sentence",
@@ -522,12 +522,12 @@
   {
     "question": "qué está pasando en el ------ hoy",
     "choices": [
+      "persona",
+      "preparar",
       "fútbol",
-      "aviso",
-      "colonia",
-      "capturas"
+      "forma"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -535,10 +535,10 @@
   {
     "question": "por favor pon ------ de los beatles",
     "choices": [
-      "rica",
+      "mente",
       "ayer",
-      "vecino",
-      "idioma"
+      "matar",
+      "línea"
     ],
     "answer": 1,
     "type": "sentence",
@@ -548,10 +548,10 @@
   {
     "question": "me gustaría escuchar ------ de queen",
     "choices": [
-      "distante",
-      "sonar",
+      "neumáticos",
+      "lugar",
       "barcelona",
-      "arena"
+      "ambos"
     ],
     "answer": 2,
     "type": "sentence",
@@ -561,12 +561,12 @@
   {
     "question": "ponme ------ por queen",
     "choices": [
-      "barcelona",
-      "permitir",
-      "presente",
-      "servir"
+      "nieve",
+      "puntuación",
+      "claro",
+      "barcelona"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -574,12 +574,12 @@
   {
     "question": "me gusta la música ------",
     "choices": [
-      "vidrio",
-      "lugar",
       "rock",
-      "perdido"
+      "cuerpo",
+      "caja",
+      "palabra"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "likeness",
     "extra": "Fill in the blank:"
@@ -587,12 +587,12 @@
   {
     "question": "mi grupo de musica favorito es ------",
     "choices": [
-      "hecho",
-      "acorde",
+      "sustancia",
       "despistados",
-      "plano"
+      "ejecutar",
+      "golpe"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "likeness",
     "extra": "Fill in the blank:"
@@ -600,12 +600,12 @@
   {
     "question": "me gustan las canciones ------",
     "choices": [
-      "instrumento",
-      "costo",
-      "del barrio",
-      "unirse"
+      "muy",
+      "oxígeno",
+      "recoger",
+      "del barrio"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "likeness",
     "extra": "Fill in the blank:"
@@ -613,12 +613,12 @@
   {
     "question": "por favor sube las luces ------",
     "choices": [
-      "primavera",
-      "último",
+      "rompió",
       "al máximo",
-      "así"
+      "menos",
+      "puerto"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank:"
@@ -626,12 +626,12 @@
   {
     "question": "hey enciende el ------",
     "choices": [
-      "música",
-      "bloque",
+      "hizo",
       "robot limpiador",
-      "en espera"
+      "por tanto,",
+      "lago"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank:"
@@ -639,12 +639,12 @@
   {
     "question": "enciende el ------ de limpieza",
     "choices": [
-      "fin",
-      "problema",
-      "nariz",
-      "robot"
+      "lo hará",
+      "copia",
+      "robot",
+      "voz"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank:"
@@ -652,23 +652,10 @@
   {
     "question": "dime la fecha ------",
     "choices": [
-      "rueda",
-      "encajar",
+      "costo",
       "de hoy",
-      "persona"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "que fecha es ------",
-    "choices": [
-      "plurales",
-      "hoy",
-      "querido",
-      "aumentando"
+      "tarjeta",
+      "seguro"
     ],
     "answer": 1,
     "type": "sentence",
@@ -676,14 +663,27 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "que fecha es ------",
+    "choices": [
+      "animal",
+      "vivir",
+      "pocos",
+      "hoy"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "pide algo de ------ para la cena",
     "choices": [
-      "en espera",
-      "ventana",
+      "escribió",
       "sushi",
-      "batir"
+      "operar",
+      "sistema"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank:"
@@ -691,9 +691,9 @@
   {
     "question": "hola me gustaría que pidas una ------",
     "choices": [
-      "último",
-      "pista",
-      "pesada",
+      "producirse",
+      "bastante",
+      "seguro",
       "hamburguesa"
     ],
     "answer": 3,
@@ -704,12 +704,12 @@
   {
     "question": "podrías pedir ------ para la cena de esta noche",
     "choices": [
+      "verde",
       "sushi",
-      "región",
-      "chica",
-      "por tanto,"
+      "cómo",
+      "voz"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank:"
@@ -717,12 +717,12 @@
   {
     "question": "puedo pedir ------ para llevar de la carola",
     "choices": [
-      "gracias",
-      "frase",
-      "espalda",
-      "cena"
+      "enviado",
+      "cena",
+      "dedo",
+      "sólo"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank:"
@@ -730,10 +730,10 @@
   {
     "question": "el ------ hace pedidos para llevar",
     "choices": [
-      "frase",
-      "estación",
+      "algunos",
+      "hombres",
       "burger king",
-      "sólo"
+      "bosque"
     ],
     "answer": 2,
     "type": "sentence",
@@ -743,12 +743,12 @@
   {
     "question": "poner una alarma a las ------",
     "choices": [
-      "usted",
-      "tomó",
+      "dedo",
       "doce",
-      "permitir"
+      "construir",
+      "médico"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -756,12 +756,12 @@
   {
     "question": "poner una alarma ------",
     "choices": [
-      "comprobar",
-      "comer",
+      "amar",
       "dentro de cuarenta minutos",
-      "traído"
+      "pasado",
+      "próximo"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -769,12 +769,12 @@
   {
     "question": "poner alarma a las ------ cada día entre semana",
     "choices": [
-      "ocho",
-      "todavía",
-      "puede",
-      "fracción"
+      "llamada",
+      "resolver",
+      "dibujar",
+      "ocho"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -782,10 +782,10 @@
   {
     "question": "está ------",
     "choices": [
-      "aire",
-      "que",
+      "debería",
+      "velocidad",
       "lloviendo",
-      "conectar"
+      "cociente"
     ],
     "answer": 2,
     "type": "sentence",
@@ -795,12 +795,12 @@
   {
     "question": "va a ------",
     "choices": [
-      "general",
-      "llover",
-      "señorita",
-      "mujeres"
+      "hombres",
+      "duro",
+      "unidad",
+      "llover"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -808,12 +808,12 @@
   {
     "question": "está ------ ahora mismo",
     "choices": [
+      "agujero",
       "nevando",
-      "canción",
-      "parte",
-      "efecto"
+      "ganar",
+      "aunque"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -821,9 +821,9 @@
   {
     "question": "cuál es el pronóstico del tiempo para la ------",
     "choices": [
-      "sabía",
-      "vecino",
-      "frío",
+      "ahora",
+      "principal",
+      "que",
       "semana"
     ],
     "answer": 3,
@@ -834,12 +834,12 @@
   {
     "question": "cuál es el pronóstico de la ------",
     "choices": [
-      "cuerda",
-      "cociente",
-      "llenar",
-      "semana"
+      "semana",
+      "esquina",
+      "algunos",
+      "mapa"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -847,12 +847,12 @@
   {
     "question": "cómo está el tiempo ------",
     "choices": [
-      "si",
-      "común",
-      "decidir",
-      "esta semana"
+      "esta semana",
+      "padre",
+      "por qué",
+      "probable"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -860,12 +860,12 @@
   {
     "question": "qué tiempo hace ------",
     "choices": [
-      "efecto",
-      "médico",
       "esta semana",
-      "es"
+      "sugerir",
+      "columna",
+      "dos"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -873,9 +873,9 @@
   {
     "question": "dime el tiempo para ------",
     "choices": [
-      "ellos",
-      "fina",
-      "fuerte",
+      "papel",
+      "danza",
+      "ejercicio",
       "esta semana"
     ],
     "answer": 3,
@@ -886,12 +886,12 @@
   {
     "question": "dime las noticias ------",
     "choices": [
-      "feliz",
-      "bloque",
-      "del país",
-      "listo"
+      "causa",
+      "madre",
+      "ola",
+      "del país"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -899,12 +899,12 @@
   {
     "question": "cuáles son las noticias en ------ noticias",
     "choices": [
-      "roca",
-      "hecho",
-      "visita",
-      "t. v. e."
+      "mentira",
+      "t. v. e.",
+      "propio",
+      "querido"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -912,12 +912,12 @@
   {
     "question": "cuáles son las últimas noticias del ------",
     "choices": [
-      "caballo",
-      "veinte minutos",
-      "hizo",
-      "hueso"
+      "tipo",
+      "gran",
+      "evento",
+      "veinte minutos"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -925,12 +925,12 @@
   {
     "question": "pon ------",
     "choices": [
-      "acero",
-      "cuando",
-      "guerra",
-      "duele como el cielo"
+      "duele como el cielo",
+      "lugar",
+      "música",
+      "esperanza"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -938,12 +938,12 @@
   {
     "question": "ponte ------",
     "choices": [
-      "rueda",
-      "reina caníbal",
-      "ruido",
-      "aparecerá"
+      "pienso",
+      "por encima de",
+      "causa",
+      "reina caníbal"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -951,10 +951,10 @@
   {
     "question": "pon ------",
     "choices": [
-      "suministro",
+      "gracias",
       "daft punk",
-      "lo",
-      "menudo"
+      "recibir",
+      "salvaje"
     ],
     "answer": 1,
     "type": "sentence",
@@ -965,9 +965,9 @@
     "question": "pon algunas de ------",
     "choices": [
       "coldplay",
-      "haría",
-      "sueño",
-      "probable"
+      "mundo",
+      "por encima de",
+      "día"
     ],
     "answer": 0,
     "type": "sentence",
@@ -977,12 +977,12 @@
   {
     "question": "pon algo de ------",
     "choices": [
-      "escuchar",
-      "palabra",
-      "movimiento",
-      "david bowie"
+      "energía",
+      "problema",
+      "david bowie",
+      "encontrado"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -991,9 +991,9 @@
     "question": "------ esta canción",
     "choices": [
       "pon en bucle",
-      "charla",
-      "un",
-      "completo"
+      "distante",
+      "división",
+      "aceite"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1003,12 +1003,12 @@
   {
     "question": "------ esta lista de reproducción",
     "choices": [
-      "ciencia",
-      "causa",
-      "camión",
-      "pon en modo aleatorio"
+      "cuarto de galón",
+      "pon en modo aleatorio",
+      "importante",
+      "centro"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "settings",
     "extra": "Fill in the blank:"
@@ -1016,12 +1016,12 @@
   {
     "question": "pon el volumen a ------",
     "choices": [
-      "parecer",
       "bajo",
-      "su",
-      "lo hará"
+      "me",
+      "vestido",
+      "dibujar"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "volume_down",
     "extra": "Fill in the blank:"
@@ -1029,12 +1029,12 @@
   {
     "question": "cuéntame un ------ chiste",
     "choices": [
-      "hermana",
-      "doble",
-      "hacer",
-      "buen"
+      "vestido",
+      "buen",
+      "estado",
+      "bebé"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank:"
@@ -1042,9 +1042,9 @@
   {
     "question": "qué día es ------",
     "choices": [
-      "fuerte",
-      "cuya",
-      "mucho",
+      "lluvia",
+      "tomar",
+      "hablar",
       "hoy"
     ],
     "answer": 3,
@@ -1055,12 +1055,12 @@
   {
     "question": "cuentame sobre ------",
     "choices": [
-      "dicho",
-      "hoy",
-      "caza",
-      "miedo"
+      "llenar",
+      "papel",
+      "miedo",
+      "hoy"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "quirky",
     "extra": "Fill in the blank:"
@@ -1068,12 +1068,12 @@
   {
     "question": "pedir una ------",
     "choices": [
-      "frase",
       "pizza",
-      "mil",
-      "ganar"
+      "noche",
+      "carne",
+      "corazón"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank:"
@@ -1081,12 +1081,12 @@
   {
     "question": "pídeme un ------ de deliveroo",
     "choices": [
-      "diccionario",
-      "una vez",
-      "bola",
-      "sandwich de pollo"
+      "sandwich de pollo",
+      "respuesta",
+      "lugar",
+      "añadir"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank:"
@@ -1094,12 +1094,12 @@
   {
     "question": "hacer un pedido ------",
     "choices": [
-      "de metal",
+      "éstos",
+      "sentido",
       "para llevar",
-      "su",
-      "originales"
+      "se ha ido"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank:"
@@ -1107,12 +1107,12 @@
   {
     "question": "cuánto va a tardar mi ------",
     "choices": [
-      "pedido a domicilio",
-      "llevar",
-      "sur",
-      "fuerte"
+      "inventar",
+      "tienda",
+      "flor",
+      "pedido a domicilio"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1120,12 +1120,12 @@
   {
     "question": "estado del ------ del domino's pizza",
     "choices": [
-      "partido",
-      "en",
       "pedido",
-      "habló"
+      "mal",
+      "tienda",
+      "cierto"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1133,12 +1133,12 @@
   {
     "question": "pon mi playlist de ------",
     "choices": [
-      "jazz",
-      "arte",
-      "cien",
-      "tratar"
+      "con",
+      "amplio",
+      "jugar",
+      "jazz"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -1146,49 +1146,10 @@
   {
     "question": "iniciar mi playlist de ------",
     "choices": [
-      "maíz",
-      "velocidad",
+      "punto",
       "jazz",
-      "mujer"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "me gusta el ------",
-    "choices": [
-      "jazz",
-      "nivel",
-      "desde",
-      "hasta"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "likeness",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "puedes poner algo de ------",
-    "choices": [
-      "naturales",
-      "millones",
-      "llegar",
-      "jazz"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "me gusta escuchar ------",
-    "choices": [
-      "listo",
-      "jazz",
-      "traje",
-      "uno"
+      "lago",
+      "grito"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1196,11 +1157,24 @@
     "extra": "Fill in the blank:"
   },
   {
-    "question": "me gusta escuchar ------",
+    "question": "me gusta el ------",
     "choices": [
-      "fuera",
-      "cortada",
-      "veinte",
+      "ala",
+      "vecino",
+      "hueso",
+      "jazz"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "likeness",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "puedes poner algo de ------",
+    "choices": [
+      "caja",
+      "campo",
+      "inventar",
       "jazz"
     ],
     "answer": 3,
@@ -1209,12 +1183,38 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "me gusta escuchar ------",
+    "choices": [
+      "jazz",
+      "representar",
+      "capitán",
+      "anillo"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "me gusta escuchar ------",
+    "choices": [
+      "quemar",
+      "jazz",
+      "bastante",
+      "mantenga"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "habilitar la reproducción ------",
     "choices": [
-      "gusta",
-      "llevar",
+      "suave",
+      "pistola",
       "aleatoria",
-      "producto"
+      "hablar"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1224,12 +1224,12 @@
   {
     "question": "ajusta el brillo ------",
     "choices": [
-      "propiedad",
       "a cincuenta por ciento",
-      "sentido",
-      "grupo"
+      "hecho",
+      "mes",
+      "fin"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -1237,12 +1237,12 @@
   {
     "question": "pueden mandar comida ------",
     "choices": [
-      "destacado",
-      "sistema",
-      "a domicilio",
-      "observar"
+      "aunque",
+      "imán",
+      "nueve",
+      "a domicilio"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1251,9 +1251,9 @@
     "question": "hacen ------",
     "choices": [
       "entregas",
-      "completo",
-      "tubo",
-      "hasta"
+      "tamaño",
+      "más",
+      "pato"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1263,12 +1263,12 @@
   {
     "question": "------ a domicilio",
     "choices": [
-      "éxito",
-      "nueve",
-      "cubierta",
-      "entregan"
+      "banco",
+      "abrigo",
+      "entregan",
+      "camino"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1276,9 +1276,9 @@
   {
     "question": "alexa ------ a casa",
     "choices": [
-      "pregunta",
-      "idioma",
-      "pueblo",
+      "determinar",
+      "saber",
+      "estudiante",
       "entregan"
     ],
     "answer": 3,
@@ -1289,12 +1289,12 @@
   {
     "question": "poner la alarma a las ------",
     "choices": [
-      "fuera",
-      "fuego",
-      "voz",
-      "diez de la mañana"
+      "diez de la mañana",
+      "manzana",
+      "oro",
+      "página"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -1302,12 +1302,12 @@
   {
     "question": "pon alarma ------ a las seis de la ------",
     "choices": [
-      "caja",
-      "mañana",
-      "sorpresa",
-      "interés"
+      "guardado",
+      "todo",
+      "caso",
+      "mañana"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -1315,12 +1315,12 @@
   {
     "question": "poner alarma despertador el ------ a las siete de la mañana",
     "choices": [
-      "forma",
-      "rey",
+      "plana",
       "jueves",
-      "carne"
+      "como",
+      "tienda"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -1328,12 +1328,12 @@
   {
     "question": "cuéntame las últimas novedades ------",
     "choices": [
-      "diversión",
-      "pista",
-      "diseño",
-      "tecnología"
+      "tecnología",
+      "región",
+      "izquierda",
+      "recoger"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1341,12 +1341,12 @@
   {
     "question": "cuéntame las últimas noticias sobre ------",
     "choices": [
-      "mente",
-      "celular",
-      "soñar",
-      "tecnología"
+      "tecnología",
+      "comer",
+      "capitán",
+      "lugar"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1354,12 +1354,12 @@
   {
     "question": "dime alguna noticia de ------",
     "choices": [
-      "contra",
-      "negocios",
-      "más bien",
-      "izquierda"
+      "ellos",
+      "espalda",
+      "música",
+      "negocios"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1367,10 +1367,10 @@
   {
     "question": "dime las noticias ------",
     "choices": [
-      "juego",
+      "vela",
       "internacionales",
-      "planeta",
-      "ciento"
+      "donde",
+      "campo"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1380,12 +1380,12 @@
   {
     "question": "está ------ ahora",
     "choices": [
-      "lloviendo",
-      "mano",
-      "ala",
-      "nación"
+      "sólo",
+      "enviar",
+      "rica",
+      "lloviendo"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1394,9 +1394,9 @@
     "question": "pon mi lista de reproducción de ------",
     "choices": [
       "rock",
-      "pitch",
-      "historia",
-      "fuera"
+      "lavado",
+      "profunda",
+      "sólo"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1406,12 +1406,12 @@
   {
     "question": "enciende mi lista de reproducción de ------",
     "choices": [
-      "contra",
+      "comparar",
+      "mentira",
       "michael jackson",
-      "pitch",
-      "cuidado"
+      "nos"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -1419,9 +1419,9 @@
   {
     "question": "pon ------ de mi playlist",
     "choices": [
-      "rueda",
-      "vapor",
-      "vecino",
+      "lata",
+      "la",
+      "figura",
       "rafael"
     ],
     "answer": 3,
@@ -1432,12 +1432,12 @@
   {
     "question": "pon la ------ de mi lista de reproducción favorita",
     "choices": [
-      "última canción",
-      "hace",
-      "bloque",
-      "tiempo"
+      "respuesta",
+      "forma",
+      "originales",
+      "última canción"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -1445,9 +1445,9 @@
   {
     "question": "enciende el ------",
     "choices": [
-      "medio",
-      "rojo",
-      "pistola",
+      "alambre",
+      "raíz",
+      "izquierda",
       "enchufe"
     ],
     "answer": 3,
@@ -1458,12 +1458,12 @@
   {
     "question": "enciende el ------",
     "choices": [
-      "caza",
       "enchufe",
-      "campana",
-      "orden"
+      "preguntar",
+      "un",
+      "medio"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank:"
@@ -1471,12 +1471,12 @@
   {
     "question": "enciende mi ------",
     "choices": [
-      "planeta",
-      "colonia",
+      "tarde",
       "enchufe",
-      "mujeres"
+      "estrella",
+      "niños"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank:"
@@ -1484,12 +1484,12 @@
   {
     "question": "------ hace comida para llevar",
     "choices": [
-      "domino's pizza",
-      "reunir",
-      "hielo",
-      "resto"
+      "jugar",
+      "mal",
+      "marca",
+      "domino's pizza"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1497,12 +1497,12 @@
   {
     "question": "mi sitio ------ favorita está disponible para hacer pedidos a domicilio",
     "choices": [
-      "creció",
       "pizzería",
-      "desarrollar",
-      "extraño"
+      "uno",
+      "Produce",
+      "excepto"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1510,12 +1510,12 @@
   {
     "question": "puedo pedir comida ------ en español",
     "choices": [
-      "fuerte",
-      "menos",
-      "enorme",
-      "para llevar"
+      "estrella",
+      "para llevar",
+      "estado",
+      "cortada"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank:"
@@ -1524,9 +1524,9 @@
     "question": "cómo está el tiempo en ------",
     "choices": [
       "madrid",
-      "tramo",
-      "escribió",
-      "contar"
+      "de nuevo",
+      "pista",
+      "mejor"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1536,12 +1536,12 @@
   {
     "question": "dime el tiempo en ------",
     "choices": [
-      "indicar",
-      "bajo",
-      "conseguido",
-      "barcelona"
+      "sorpresa",
+      "deberá",
+      "barcelona",
+      "idioma"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1550,9 +1550,9 @@
     "question": "por favor haz que las luces sean más ------",
     "choices": [
       "cómodas para leer",
-      "pista",
-      "pasar",
-      "pesada"
+      "figura",
+      "esperar",
+      "sur"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1562,10 +1562,10 @@
   {
     "question": "por favor haz que las luces ------",
     "choices": [
-      "casa",
-      "guardado",
+      "capaz",
+      "diversión",
       "ideales para ver",
-      "trabajo"
+      "nariz"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1575,12 +1575,12 @@
   {
     "question": "haz que la ------ sea más brillante",
     "choices": [
-      "capturado",
-      "volar",
-      "líquido",
-      "habitación"
+      "método",
+      "habitación",
+      "propagación",
+      "buscar"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank:"
@@ -1588,12 +1588,12 @@
   {
     "question": "que fecha es ------",
     "choices": [
+      "gusta",
       "hoy",
-      "perdido",
-      "quizás",
-      "día"
+      "pieza",
+      "corto"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1602,9 +1602,9 @@
     "question": "que dia es ------",
     "choices": [
       "hoy",
-      "razón",
-      "lluvia",
-      "mediodía"
+      "carretera",
+      "capitán",
+      "multiplicar"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1614,12 +1614,12 @@
   {
     "question": "cómo está el tiempo ------",
     "choices": [
-      "columna",
-      "higo",
+      "saber",
       "hoy",
-      "dólar"
+      "pista",
+      "deberá"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1627,12 +1627,12 @@
   {
     "question": "está ------ afuera",
     "choices": [
+      "así",
+      "corriente",
       "lloviendo",
-      "aviso",
-      "observar",
-      "longitud"
+      "usted"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1640,10 +1640,10 @@
   {
     "question": "está ------ afuera olly",
     "choices": [
-      "ser",
-      "arena",
+      "reales",
+      "totales",
       "lloviendo",
-      "tipo"
+      "grito"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1653,12 +1653,12 @@
   {
     "question": "debería coger un ------ mañana",
     "choices": [
-      "calle",
-      "evento",
+      "energía",
       "paraguas",
-      "danza"
+      "algodón",
+      "así"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1666,12 +1666,12 @@
   {
     "question": "pon música de mi ------",
     "choices": [
-      "ellos",
       "lista de rock",
-      "ser distinto",
-      "de metal"
+      "hierro",
+      "ir",
+      "viento"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -1679,12 +1679,12 @@
   {
     "question": "cambia las luces a ------",
     "choices": [
-      "líquido",
-      "alegría",
-      "lenta",
-      "verde"
+      "conjunto",
+      "verde",
+      "palabra",
+      "capturas"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -1692,12 +1692,12 @@
   {
     "question": "limpia el ------ por favor",
     "choices": [
-      "suelo",
-      "seis",
-      "vaca",
-      "deslizamiento"
+      "viajes",
+      "ni",
+      "gas",
+      "suelo"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank:"
@@ -1705,12 +1705,12 @@
   {
     "question": "enciende el ------",
     "choices": [
-      "cuello",
-      "imagen",
-      "fracción",
-      "enchufe de la olla arrocera"
+      "nombre",
+      "enchufe de la olla arrocera",
+      "bajo",
+      "suceder"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank:"
@@ -1718,12 +1718,12 @@
   {
     "question": "apaga el ------",
     "choices": [
-      "pulgadas",
       "enchufe de la olla arrocera",
-      "cuello",
-      "partido"
+      "dicho",
+      "medir",
+      "excepto"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "wemo_off",
     "extra": "Fill in the blank:"
@@ -1731,12 +1731,12 @@
   {
     "question": "que hora es en ------",
     "choices": [
-      "las palmas",
-      "abrigo",
-      "desierto",
-      "completo"
+      "soldado",
+      "mesa",
+      "él",
+      "las palmas"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1744,10 +1744,10 @@
   {
     "question": "qué hora es en ------",
     "choices": [
-      "sílaba",
-      "fuera",
+      "pronto",
+      "llegar",
       "madrid",
-      "amplio"
+      "construir"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1757,10 +1757,10 @@
   {
     "question": "podrías por favor ayudarme a pedir ------ en el deliveroo",
     "choices": [
-      "camión",
+      "equiparar",
       "sushi",
-      "salvaje",
-      "ir"
+      "arte",
+      "tren"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1770,12 +1770,12 @@
   {
     "question": "poner una alarma a las ------ de la mañana",
     "choices": [
-      "círculo",
-      "hierro",
-      "detrás",
-      "seis"
+      "seis",
+      "cabeza",
+      "rey",
+      "pensar"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -1783,10 +1783,10 @@
   {
     "question": "pon una alarma a las ------ de la tarde",
     "choices": [
-      "lugar",
-      "marca",
+      "montaña",
+      "maravilla",
       "cuatro",
-      "bordo"
+      "peligro"
     ],
     "answer": 2,
     "type": "sentence",
@@ -1796,12 +1796,12 @@
   {
     "question": "olly avísame a las ------ para ir al concierto",
     "choices": [
+      "añadir",
+      "uno",
       "tres de la tarde",
-      "tiempo",
-      "desierto",
-      "ala"
+      "de pie"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -1809,12 +1809,12 @@
   {
     "question": "avísame a las ------ que vaya al concierto",
     "choices": [
-      "tres de la tarde",
-      "fluir",
-      "tercero",
-      "pistola"
+      "palillo",
+      "ola",
+      "oh",
+      "tres de la tarde"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -1822,12 +1822,12 @@
   {
     "question": "puedo yo poner una alarma para mi ------ por la mañana",
     "choices": [
+      "hasta",
+      "rollo",
       "vuelo",
-      "cien",
-      "indicar",
-      "dólar"
+      "su"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1835,12 +1835,12 @@
   {
     "question": "configuré una alarma para ------ por la mañana",
     "choices": [
-      "cubierta",
-      "cobrar",
+      "discurso",
       "despertarme",
-      "cadena"
+      "pieza",
+      "siete"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1849,9 +1849,9 @@
     "question": "está ------ en barcelona",
     "choices": [
       "lloviendo",
-      "ronda",
-      "desde",
-      "muerto"
+      "tipo",
+      "listo",
+      "caza"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1861,12 +1861,12 @@
   {
     "question": "va a ------ hoy",
     "choices": [
-      "caliente",
-      "ala",
-      "llover",
-      "marca"
+      "alimentos",
+      "lata",
+      "monte",
+      "llover"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1874,10 +1874,10 @@
   {
     "question": "que esta pasando en ------",
     "choices": [
-      "pensar",
+      "agujero",
       "america",
-      "suave",
-      "huevo"
+      "bordo",
+      "unidad"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1887,9 +1887,9 @@
   {
     "question": "que está pasando en el ------",
     "choices": [
-      "dos",
-      "lucha",
-      "comercio",
+      "costo",
+      "polluelo",
+      "aunque",
       "mundo"
     ],
     "answer": 3,
@@ -1900,9 +1900,9 @@
   {
     "question": "qué está pasando en ------",
     "choices": [
-      "mujeres",
-      "neumáticos",
-      "valle",
+      "print",
+      "presente",
+      "creer",
       "madrid"
     ],
     "answer": 3,
@@ -1914,9 +1914,9 @@
     "question": "enséñame algunas noticias de ------",
     "choices": [
       "marca",
-      "segundo",
-      "potencia",
-      "posible"
+      "poblar",
+      "podía",
+      "región"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1926,12 +1926,12 @@
   {
     "question": "solo muéstrame alguna noticias de ------",
     "choices": [
-      "empujar",
-      "b. b. c.",
-      "nada",
-      "amarillo"
+      "rica",
+      "pasar",
+      "grupo",
+      "b. b. c."
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1940,9 +1940,9 @@
     "question": "pone las noticias de ------",
     "choices": [
       "antena tres",
-      "poco",
-      "de pie",
-      "probable"
+      "hierro",
+      "ala",
+      "joven"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1952,12 +1952,12 @@
   {
     "question": "------ olly",
     "choices": [
+      "excitar",
+      "pared",
       "noticias de piratas",
-      "Produce",
-      "hombres",
-      "ellos"
+      "era"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -1966,9 +1966,9 @@
     "question": "ponme algo de ------",
     "choices": [
       "hip hop",
-      "aunque",
-      "hombro",
-      "ahora"
+      "acorde",
+      "ocupado",
+      "debe"
     ],
     "answer": 0,
     "type": "sentence",
@@ -1978,10 +1978,10 @@
   {
     "question": "estoy de humor para ------ ahora mismo y tú",
     "choices": [
-      "no lo hará",
+      "frase",
       "jazz",
-      "ojo",
-      "servir"
+      "crecer",
+      "alcance"
     ],
     "answer": 1,
     "type": "sentence",
@@ -1991,9 +1991,9 @@
   {
     "question": "death ------ ahora",
     "choices": [
-      "gran",
-      "pensado",
-      "tener",
+      "grado",
+      "ejercicio",
+      "dicho",
       "metal"
     ],
     "answer": 3,
@@ -2004,36 +2004,10 @@
   {
     "question": "------ metal ahora",
     "choices": [
-      "death",
-      "por",
-      "de",
-      "cubierta"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "olly toca un buen tema de mi cantante ------ favorito",
-    "choices": [
-      "restar",
-      "alegría",
-      "jazz",
-      "fracción"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "pon música de mi ------ favorito",
-    "choices": [
-      "ala",
-      "cantar",
-      "satélite",
-      "pianista"
+      "comer",
+      "naturaleza",
+      "libre",
+      "death"
     ],
     "answer": 3,
     "type": "sentence",
@@ -2041,14 +2015,40 @@
     "extra": "Fill in the blank:"
   },
   {
-    "question": "pon las luces ------",
+    "question": "olly toca un buen tema de mi cantante ------ favorito",
     "choices": [
-      "azules",
-      "cambio",
-      "añadir",
-      "actual"
+      "jazz",
+      "verano",
+      "significado",
+      "comenzó"
     ],
     "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "pon música de mi ------ favorito",
+    "choices": [
+      "pianista",
+      "inferior",
+      "tenido",
+      "uso"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "pon las luces ------",
+    "choices": [
+      "especialmente",
+      "aliviar",
+      "azules",
+      "jugar"
+    ],
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -2056,10 +2056,10 @@
   {
     "question": "tengamos las luces ------",
     "choices": [
-      "deberá",
+      "alegría",
       "azules",
-      "número",
-      "aprender"
+      "separada",
+      "en"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2069,12 +2069,12 @@
   {
     "question": "haz que las luces ------",
     "choices": [
-      "cima",
-      "similar",
-      "buena",
-      "brillen en azul"
+      "brillen en azul",
+      "ciento",
+      "cierto",
+      "aceite"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -2082,9 +2082,9 @@
   {
     "question": "qué hora es en ------ ahora",
     "choices": [
-      "fina",
-      "mucho",
-      "anillo",
+      "acorde",
+      "contento",
+      "plaza",
       "madrid"
     ],
     "answer": 3,
@@ -2095,10 +2095,10 @@
   {
     "question": "que quiso decir el cantante con el título de la canción ------",
     "choices": [
-      "habló",
+      "aire",
       "bohemia rapsodia",
-      "dientes",
-      "sombrero"
+      "correcta",
+      "reales"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2108,9 +2108,9 @@
   {
     "question": "quien interpretó la canción ------",
     "choices": [
-      "dinero",
-      "insecto",
-      "frase",
+      "llenar",
+      "campo",
+      "esperanza",
       "una taza más de café"
     ],
     "answer": 3,
@@ -2121,10 +2121,10 @@
   {
     "question": "cuál es el tiempo en ------",
     "choices": [
-      "deletrear",
+      "muerte",
       "vigo",
-      "habilidad",
-      "vista"
+      "bebé",
+      "paso"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2134,10 +2134,10 @@
   {
     "question": "como está el tiempo en ------",
     "choices": [
-      "moderno",
+      "misma",
       "gijón",
-      "esperar",
-      "decir"
+      "pintar",
+      "barco"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2147,12 +2147,12 @@
   {
     "question": "cuál es el pronóstico del tiempo ------ en madrid",
     "choices": [
-      "responder",
-      "de hoy",
-      "en",
-      "habitación"
+      "brazo",
+      "perro",
+      "milla",
+      "de hoy"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2160,23 +2160,10 @@
   {
     "question": "cuál es el estado actual de las ------",
     "choices": [
+      "mantener",
+      "suave",
       "negociaciones del brexit",
-      "camino",
-      "algunos",
-      "repita"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "cuál es el ------",
-    "choices": [
-      "plaza",
-      "contento",
-      "tipo de cambio del dólar estadounidense a la libra esterlina",
-      "hacer"
+      "cruzar"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2184,25 +2171,25 @@
     "extra": "Fill in the blank:"
   },
   {
-    "question": "quién ganará las próximas ------ en españa",
+    "question": "cuál es el ------",
     "choices": [
-      "elecciones",
-      "decir",
-      "azul",
-      "bloque"
+      "principal",
+      "saltar",
+      "siga",
+      "tipo de cambio del dólar estadounidense a la libra esterlina"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
   },
   {
-    "question": "esperas ------ el domingo",
+    "question": "quién ganará las próximas ------ en españa",
     "choices": [
-      "ellos",
-      "sol",
-      "vapor",
-      "monte"
+      "causa",
+      "elecciones",
+      "pitch",
+      "contar"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2210,12 +2197,25 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "esperas ------ el domingo",
+    "choices": [
+      "sol",
+      "oído",
+      "región",
+      "piel"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "va a ------ esta noche",
     "choices": [
-      "lo hará",
+      "elemento",
       "llover",
-      "exacta",
-      "industria"
+      "hecho",
+      "reclamación"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2225,12 +2225,12 @@
   {
     "question": "va a estar ------ mañana",
     "choices": [
-      "venir",
-      "producirse",
-      "objeto",
-      "ventoso"
+      "nueve",
+      "charla",
+      "ventoso",
+      "unidad"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2238,10 +2238,10 @@
   {
     "question": "enciende las luces de la ------",
     "choices": [
-      "país",
+      "acto",
       "cocina",
-      "recta",
-      "niño"
+      "resolver",
+      "fuera"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2251,12 +2251,12 @@
   {
     "question": "ilumina la ------",
     "choices": [
-      "ejercicio",
       "lámpara al lado del sofá",
-      "justo",
-      "rápido"
+      "comprado",
+      "proceso",
+      "sustantivo"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank:"
@@ -2265,9 +2265,9 @@
     "question": "qué hora es en ------ ahora",
     "choices": [
       "madrid",
-      "gusta",
-      "banda",
-      "oferta"
+      "haría",
+      "hecho",
+      "hace"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2277,12 +2277,12 @@
   {
     "question": "enciende la ------ de limpieza",
     "choices": [
-      "enemigo",
+      "esclavo",
+      "carácter",
       "aspiradora",
-      "seguro",
-      "ellos"
+      "unidad"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
     "extra": "Fill in the blank:"
@@ -2291,9 +2291,9 @@
     "question": "aspirar la ------",
     "choices": [
       "cocina",
-      "chica",
-      "tramo",
-      "recibir"
+      "también",
+      "básico",
+      "exacta"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2303,10 +2303,10 @@
   {
     "question": "enciende la ------",
     "choices": [
-      "agua",
-      "nariz",
+      "tratar",
+      "estado",
       "aspiradora",
-      "nos"
+      "pato"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2316,12 +2316,12 @@
   {
     "question": "que esta pasando en el ------",
     "choices": [
-      "perro",
-      "pocos",
-      "famoso",
-      "mundo"
+      "bastante",
+      "mundo",
+      "esposa",
+      "ahora"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2329,12 +2329,12 @@
   {
     "question": "dime los titulares del ------ de hoy",
     "choices": [
-      "plazo",
-      "dólar",
       "periódico",
-      "indicar"
+      "suelo",
+      "herramienta",
+      "música"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2342,12 +2342,12 @@
   {
     "question": "pon una ------",
     "choices": [
-      "sugerir",
-      "representar",
       "playlist de nirvana",
-      "famoso"
+      "grado",
+      "noche",
+      "lugar"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -2355,12 +2355,12 @@
   {
     "question": "------ canciones de coldplay",
     "choices": [
-      "print",
-      "frase",
+      "esclavo",
       "aleatorias",
-      "capaz"
+      "azul",
+      "orden"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -2368,12 +2368,12 @@
   {
     "question": "pon ------",
     "choices": [
-      "caso",
-      "herramienta",
-      "tipo",
-      "chopin"
+      "corriente",
+      "chopin",
+      "fresco",
+      "por encima de"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -2381,10 +2381,10 @@
   {
     "question": "cuál es el pronóstico del tiempo para ------",
     "choices": [
-      "vivir",
-      "montaña",
+      "dio",
+      "necesario",
       "hoy",
-      "experimento"
+      "traje"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2394,9 +2394,9 @@
   {
     "question": "pedir una ------ al tele------",
     "choices": [
-      "éstos",
-      "restar",
-      "prisa",
+      "todo",
+      "ser",
+      "recta",
       "pizza"
     ],
     "answer": 3,
@@ -2407,10 +2407,10 @@
   {
     "question": "me gustaría tomar ------ me puedes pedir para la cena",
     "choices": [
-      "tabla",
+      "diez",
       "sushi",
-      "capturas",
-      "caer"
+      "espacio",
+      "tercero"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2420,12 +2420,12 @@
   {
     "question": "alexa me gustaría tomar ------ puedes pedírmelo para almorzar",
     "choices": [
-      "decidir",
-      "moderno",
-      "grito",
-      "sushi"
+      "aumentar",
+      "lado",
+      "sushi",
+      "materiales"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank:"
@@ -2433,12 +2433,12 @@
   {
     "question": "pide un ------ y una sopa para llevar del restaurante italiano",
     "choices": [
-      "Deténgase",
-      "cada",
+      "tratar",
       "sandwich",
-      "fin"
+      "coche",
+      "discurso"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank:"
@@ -2446,12 +2446,12 @@
   {
     "question": "cuántos días le quedan a ------",
     "choices": [
-      "lata",
       "este año",
-      "por qué",
-      "naturales"
+      "especial",
+      "verdadero",
+      "opuesta"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2459,12 +2459,12 @@
   {
     "question": "en que día cae nochevieja ------",
     "choices": [
-      "lenta",
-      "respuesta",
       "este año",
-      "siempre"
+      "nombre",
+      "inferior",
+      "seguro"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2472,10 +2472,10 @@
   {
     "question": "que día es la resurreción ------",
     "choices": [
-      "posición",
+      "preguntar",
       "este año",
-      "llano",
-      "éxito"
+      "hablar",
+      "último"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2485,12 +2485,12 @@
   {
     "question": "incrementa el brillo ------",
     "choices": [
-      "lata",
       "en veinte por ciento",
-      "mal",
-      "guiar"
+      "donde",
+      "representar",
+      "comercio"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank:"
@@ -2498,12 +2498,12 @@
   {
     "question": "pon las luces ------",
     "choices": [
-      "oficina",
-      "discutir",
+      "así",
       "a maximo",
-      "ejemplo"
+      "alimentos",
+      "incluir"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank:"
@@ -2511,10 +2511,10 @@
   {
     "question": "por favor cállate por ------",
     "choices": [
-      "operar",
+      "temprana",
       "otra hora",
-      "demasiado",
-      "no"
+      "pliegue",
+      "por encima de"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2524,12 +2524,12 @@
   {
     "question": "no hablar ------",
     "choices": [
-      "colonia",
-      "mensaje",
       "hoy",
-      "pobre"
+      "haría",
+      "auto",
+      "o"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "volume_mute",
     "extra": "Fill in the blank:"
@@ -2537,12 +2537,12 @@
   {
     "question": "va a ------ mañana",
     "choices": [
-      "partido",
       "llover",
-      "siete",
-      "es"
+      "minuto",
+      "vestido",
+      "si"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2550,12 +2550,12 @@
   {
     "question": "dime el tiempo de ------ dentro de dos días",
     "choices": [
-      "contener",
-      "barcelona",
-      "padre",
-      "mantenga"
+      "pulgadas",
+      "fina",
+      "párrafo",
+      "barcelona"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2563,10 +2563,10 @@
   {
     "question": "debería coger un ------ mañana",
     "choices": [
-      "cayó",
-      "particular,",
+      "claro",
+      "Cerrar",
       "paraguas",
-      "aprender"
+      "ocho"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2576,9 +2576,9 @@
   {
     "question": "desactiva mi ------",
     "choices": [
-      "proceso",
-      "capitán",
-      "madre",
+      "tipo",
+      "consonante",
+      "común",
       "okug"
     ],
     "answer": 3,
@@ -2589,12 +2589,12 @@
   {
     "question": "activa mi ------",
     "choices": [
+      "caliente",
+      "caliente",
       "enchufe",
-      "volar",
-      "éxito",
-      "enorme"
+      "desear"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank:"
@@ -2602,12 +2602,12 @@
   {
     "question": "enciende el ------",
     "choices": [
-      "puerta",
-      "repentina",
+      "estado",
       "cargador inteligente",
-      "fruta"
+      "cualquier",
+      "cima"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank:"
@@ -2615,12 +2615,12 @@
   {
     "question": "cuéntame las novedades en ------ de engadget",
     "choices": [
-      "tecnología",
-      "añadir",
-      "caliente",
-      "camino"
+      "muy",
+      "decimal",
+      "decidir",
+      "tecnología"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2628,12 +2628,12 @@
   {
     "question": "------",
     "choices": [
-      "segmento",
-      "perdido",
+      "sujeto",
       "tarde",
-      "llegar"
+      "no",
+      "traer"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2642,9 +2642,9 @@
     "question": "------",
     "choices": [
       "domingo",
-      "construir",
-      "todo",
-      "prensa"
+      "justo",
+      "a su vez,",
+      "peces"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2654,12 +2654,12 @@
   {
     "question": "------",
     "choices": [
-      "cinco",
-      "se ha ido",
-      "siete años",
-      "alto"
+      "cortada",
+      "incluso",
+      "reloj",
+      "siete años"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -2667,38 +2667,38 @@
   {
     "question": "cómo está el estado del tiempo en ------",
     "choices": [
+      "morir",
+      "cubierta",
+      "guiar",
+      "madrid"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "me gustaría saber el tiempo en ------",
+    "choices": [
+      "alcance",
+      "describir",
+      "demostrar",
+      "barcelona"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "me gustaría saber el tiempo en ------",
+    "choices": [
       "madrid",
-      "exacta",
-      "historia",
-      "diccionario"
+      "haría",
+      "papel",
+      "dama"
     ],
     "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "me gustaría saber el tiempo en ------",
-    "choices": [
-      "haría",
-      "sangre",
-      "barcelona",
-      "lucha"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "me gustaría saber el tiempo en ------",
-    "choices": [
-      "am",
-      "parte",
-      "madrid",
-      "verde"
-    ],
-    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2706,12 +2706,12 @@
   {
     "question": "está ------ en barcelona",
     "choices": [
-      "clave",
+      "ser",
+      "imán",
       "nevando",
-      "menudo",
-      "hijo"
+      "escribió"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2719,12 +2719,12 @@
   {
     "question": "ayude a un pobre necesitado ------ olly",
     "choices": [
+      "aprender",
       "hoy",
-      "cruzar",
-      "cien",
-      "centro"
+      "calor",
+      "guiar"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "coffee",
     "extra": "Fill in the blank:"
@@ -2732,10 +2732,10 @@
   {
     "question": "enciende la ------",
     "choices": [
-      "golpe",
+      "pulgadas",
       "cafetera",
-      "mar",
-      "que"
+      "necesitará",
+      "puntuación"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2745,12 +2745,12 @@
   {
     "question": "cómo estará el clima ------",
     "choices": [
+      "ciudad",
+      "agujero",
       "mañana",
-      "dar",
-      "cualquier",
-      "decir"
+      "tamaño"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2758,12 +2758,12 @@
   {
     "question": "------ mañana",
     "choices": [
-      "sentar",
       "lloverá",
-      "buscar",
-      "lugar"
+      "muy",
+      "ser distinto",
+      "escala"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2772,9 +2772,9 @@
     "question": "qué ------ hará mañana",
     "choices": [
       "temperatura",
-      "en",
-      "capitán",
-      "ola"
+      "danza",
+      "sólo",
+      "hasta"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2784,10 +2784,10 @@
   {
     "question": "lo que es ------ las predicciones del tiempo",
     "choices": [
-      "salvaje",
+      "siglo",
       "mañana",
-      "desarrollar",
-      "aquí"
+      "lluvia",
+      "si"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2797,12 +2797,12 @@
   {
     "question": "cuáles son las predicciones meteorológicas ------",
     "choices": [
-      "ferrocarril",
-      "hacer",
-      "para mañana",
-      "médico"
+      "nota",
+      "maíz",
+      "inferior",
+      "para mañana"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2810,9 +2810,9 @@
   {
     "question": "va a ------ mañana",
     "choices": [
-      "bola",
-      "varios",
-      "calor",
+      "vestir",
+      "nadar",
+      "ya sea",
       "llover"
     ],
     "answer": 3,
@@ -2823,12 +2823,12 @@
   {
     "question": "va a ------ mañana",
     "choices": [
-      "sorpresa",
       "nevar",
-      "mujeres",
-      "segmento"
+      "log",
+      "ella",
+      "fin"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2836,9 +2836,22 @@
   {
     "question": "encuentra si el ------ más cercano hace pedidos para llevar",
     "choices": [
-      "hombres",
-      "traído",
-      "lago",
+      "tranquila",
+      "superficie",
+      "restaurante",
+      "comenzó"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "mira si el ------ pone para llevar",
+    "choices": [
+      "contra",
+      "carne",
+      "fuego",
       "restaurante"
     ],
     "answer": 3,
@@ -2847,25 +2860,12 @@
     "extra": "Fill in the blank:"
   },
   {
-    "question": "mira si el ------ pone para llevar",
-    "choices": [
-      "tratar",
-      "adelante",
-      "restaurante",
-      "buque"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
     "question": "hay menú ------ en el restaurante",
     "choices": [
       "para llevar",
-      "desgaste",
-      "señorita",
-      "bebé"
+      "que",
+      "sobre",
+      "escrito"
     ],
     "answer": 0,
     "type": "sentence",
@@ -2875,12 +2875,12 @@
   {
     "question": "que día de la semana es ------",
     "choices": [
-      "nuestro",
-      "recoger",
-      "bajo",
-      "veintidos de marzo"
+      "moderno",
+      "patio",
+      "veintidos de marzo",
+      "acero"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2888,36 +2888,10 @@
   {
     "question": "------ que dia cae",
     "choices": [
-      "columna",
-      "medir",
-      "ventinueve de marzo",
-      "era"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "que dia de la semana es ------",
-    "choices": [
-      "primero de abril",
       "aire",
-      "deberá",
-      "piedra"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "a qué hora sonará mi alarma ------",
-    "choices": [
-      "plata",
-      "hoy",
-      "ojo",
-      "tiempo"
+      "ventinueve de marzo",
+      "triángulo",
+      "inventar"
     ],
     "answer": 1,
     "type": "sentence",
@@ -2925,25 +2899,38 @@
     "extra": "Fill in the blank:"
   },
   {
-    "question": "reproduce la ------ de google play music",
+    "question": "que dia de la semana es ------",
     "choices": [
-      "resto",
-      "niños",
-      "hijo",
-      "pista ocho"
+      "empresa",
+      "primero de abril",
+      "costa",
+      "amarillo"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
-    "intent": "music",
+    "intent": "query",
     "extra": "Fill in the blank:"
   },
   {
-    "question": "pon la segunda canción de la cancion ------",
+    "question": "a qué hora sonará mi alarma ------",
     "choices": [
-      "temporada",
-      "sol",
-      "de anirudh",
-      "golpear"
+      "delgado",
+      "viento",
+      "igual",
+      "hoy"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "reproduce la ------ de google play music",
+    "choices": [
+      "misma",
+      "a",
+      "pista ocho",
+      "fuego"
     ],
     "answer": 2,
     "type": "sentence",
@@ -2951,11 +2938,24 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "pon la segunda canción de la cancion ------",
+    "choices": [
+      "de anirudh",
+      "izquierda",
+      "usted",
+      "grasa"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "es ------",
     "choices": [
-      "palabra",
-      "menos",
-      "posición",
+      "corazón",
+      "enviado",
+      "tramo",
       "hoy lunes"
     ],
     "answer": 3,
@@ -2966,12 +2966,12 @@
   {
     "question": "cómo está el tiempo en ------",
     "choices": [
-      "celular",
+      "molécula",
+      "papá",
       "madrid capital",
-      "escrito",
-      "coche"
+      "momento"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2979,12 +2979,12 @@
   {
     "question": "hace ------ en mallorca ahora",
     "choices": [
+      "cortada",
+      "arte",
       "sol",
-      "buscar",
-      "amplio",
-      "nivel"
+      "acto"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -2992,12 +2992,12 @@
   {
     "question": "por favor pon ------ de disturbed",
     "choices": [
-      "conseguir",
+      "especialmente",
+      "aire",
       "games",
-      "prensa",
-      "pasado"
+      "tono"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -3005,12 +3005,12 @@
   {
     "question": "por favor abra mi aplicación de música y juegue ------ de disturbed",
     "choices": [
-      "proporcionar",
       "juegos",
-      "escala",
-      "elegir"
+      "libre",
+      "aumentando",
+      "de cultivos"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -3018,12 +3018,12 @@
   {
     "question": "por favor pon los ------ de la canción por perturbado",
     "choices": [
-      "historia",
-      "querer",
-      "agujero",
-      "juegos"
+      "incluir",
+      "longitud",
+      "juegos",
+      "bebé"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -3031,12 +3031,12 @@
   {
     "question": "apaga la luz del ------",
     "choices": [
-      "todo",
-      "imagen",
-      "garage",
-      "creció"
+      "naturales",
+      "perdido",
+      "cara",
+      "garage"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank:"
@@ -3044,10 +3044,10 @@
   {
     "question": "mira por noticias en vivo en ------",
     "choices": [
-      "adelante",
+      "fresco",
       "el mundo",
-      "polluelo",
-      "lavado"
+      "higo",
+      "pobre"
     ],
     "answer": 1,
     "type": "sentence",
@@ -3057,12 +3057,12 @@
   {
     "question": "qué es sensacional en la ------",
     "choices": [
-      "dependerá",
-      "bola",
+      "pasado",
       "época de la india",
-      "Deténgase"
+      "también",
+      "muy"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3070,12 +3070,12 @@
   {
     "question": "alguna noticia ------ en el país",
     "choices": [
-      "ala",
-      "familia",
       "sobre muertes",
-      "operar"
+      "caliente",
+      "éstos",
+      "apoyo"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3083,12 +3083,12 @@
   {
     "question": "avíseme tan pronto como haya más noticias sobre el ------",
     "choices": [
+      "que",
+      "nunca",
       "brexit",
-      "bate",
-      "perdido",
-      "esperanza"
+      "vivir"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3096,12 +3096,12 @@
   {
     "question": "apaga el ------",
     "choices": [
-      "plana",
+      "alimentos",
+      "dio",
       "enchufe inteligente",
-      "varios",
-      "pierna"
+      "completo"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "wemo_off",
     "extra": "Fill in the blank:"
@@ -3109,12 +3109,12 @@
   {
     "question": "enciende el ------",
     "choices": [
-      "hay",
-      "enchufe inteligente",
-      "un",
-      "significará"
+      "nariz",
+      "escrito",
+      "hacer",
+      "enchufe inteligente"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank:"
@@ -3122,12 +3122,12 @@
   {
     "question": "cambiar el ------ inteligente",
     "choices": [
+      "recordar",
+      "higo",
       "enchufe",
-      "naturaleza",
-      "esquina",
-      "frío"
+      "melodía"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank:"
@@ -3135,10 +3135,10 @@
   {
     "question": "pon una canción ------ en mi playlist",
     "choices": [
-      "menudo",
-      "blanco",
+      "noche",
+      "en",
       "retro",
-      "planeta"
+      "directa"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3148,23 +3148,10 @@
   {
     "question": "si es ------ en madrid que hora es en california",
     "choices": [
-      "gato",
-      "mediodia",
+      "sangre",
+      "esclavo",
       "cerca",
-      "papá"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "convert",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "cuál es la diferencia horaria entre la hora ------ y la hora del pacifico",
-    "choices": [
-      "forma",
-      "experiencia",
-      "todo",
-      "del este"
+      "mediodia"
     ],
     "answer": 3,
     "type": "sentence",
@@ -3172,11 +3159,24 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "cuál es la diferencia horaria entre la hora ------ y la hora del pacifico",
+    "choices": [
+      "del este",
+      "dama",
+      "comprobar",
+      "cobrar"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "pon ------ por kirk franklin",
     "choices": [
-      "caer",
-      "rotura",
-      "sí",
+      "prueba",
+      "clase",
+      "vida",
       "por qué cantas"
     ],
     "answer": 3,
@@ -3187,10 +3187,10 @@
   {
     "question": "pon cualquier canción de ------",
     "choices": [
-      "bebé",
+      "hablar",
       "rafael",
-      "negro",
-      "acabado"
+      "siga",
+      "mes"
     ],
     "answer": 1,
     "type": "sentence",
@@ -3200,12 +3200,12 @@
   {
     "question": "va a hacer ------ mañana",
     "choices": [
-      "segmento",
+      "pensar",
+      "círculo",
       "calor",
-      "exacta",
-      "mente"
+      "alcance"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3213,12 +3213,12 @@
   {
     "question": "puedes cambia los colores de luz claros de la ------",
     "choices": [
-      "nos",
       "casa",
-      "significará",
-      "mantenga"
+      "dio",
+      "tranquila",
+      "lata"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -3227,9 +3227,9 @@
     "question": "puedes ------ la luz de colores en la casa",
     "choices": [
       "mezclar",
-      "acerca",
-      "costa",
-      "pulgadas"
+      "herramienta",
+      "lluvia",
+      "superficie"
     ],
     "answer": 0,
     "type": "sentence",
@@ -3239,12 +3239,12 @@
   {
     "question": "puedes cambiar los colores de la luz a ------ en la casa",
     "choices": [
-      "ocho",
-      "equipo",
+      "hace",
       "oscuro",
-      "por"
+      "profunda",
+      "sorpresa"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -3252,12 +3252,12 @@
   {
     "question": "me gustaria escuchar música ------ por favor",
     "choices": [
-      "palillo",
-      "ascensor",
-      "niño",
-      "pop"
+      "pop",
+      "mal",
+      "pequeño",
+      "comprobar"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -3265,10 +3265,10 @@
   {
     "question": "puedes poner música ------ durante la próxima hora",
     "choices": [
-      "I",
-      "ahora",
+      "lavado",
+      "milla",
       "rock",
-      "carretera"
+      "de espesor"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3278,12 +3278,12 @@
   {
     "question": "dime una broma ------",
     "choices": [
-      "conjunto",
-      "imaginar",
-      "graciosa",
-      "y"
+      "espere",
+      "fracción",
+      "acero",
+      "graciosa"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank:"
@@ -3291,12 +3291,12 @@
   {
     "question": "cambia las luces de mi cuarto a ------",
     "choices": [
-      "azul",
-      "círculo",
-      "completo",
-      "habilidad"
+      "volar",
+      "producto",
+      "clave",
+      "azul"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -3304,12 +3304,12 @@
   {
     "question": "cambia las luces de mi habitación a un color algo más ------",
     "choices": [
-      "comenzar",
       "romántico",
-      "caso",
-      "campana"
+      "en",
+      "padre",
+      "pista"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -3317,12 +3317,12 @@
   {
     "question": "cambia las luces de mi habitación para que yo pueda ------",
     "choices": [
-      "dormir bien",
-      "libro",
-      "aumentar",
-      "debe"
+      "solución",
+      "paso",
+      "sabía",
+      "dormir bien"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -3330,12 +3330,12 @@
   {
     "question": "poner una alarma para mi a las ------",
     "choices": [
-      "print",
-      "estudio",
-      "no",
-      "ocho de la mañana"
+      "ocho de la mañana",
+      "famoso",
+      "rojo",
+      "morir"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -3343,12 +3343,12 @@
   {
     "question": "pon alarma a las ------",
     "choices": [
-      "oro",
-      "nación",
-      "manzana",
-      "cuatro de la tarde"
+      "permitir",
+      "pato",
+      "cuatro de la tarde",
+      "leer"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -3356,12 +3356,12 @@
   {
     "question": "poner una alarma despertador a las ------",
     "choices": [
+      "nube",
       "ocho cuarenta y cinco de la mañana",
-      "pieza",
-      "partido",
-      "significado"
+      "multitud",
+      "tubo"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -3370,9 +3370,9 @@
     "question": "cuáles son las noticias de ------",
     "choices": [
       "vicky cristina barcelona",
-      "parecer",
-      "música",
-      "sentar"
+      "los",
+      "describir",
+      "pistola"
     ],
     "answer": 0,
     "type": "sentence",
@@ -3382,12 +3382,12 @@
   {
     "question": "enciende el ------",
     "choices": [
-      "comprado",
-      "hace",
-      "show",
-      "enchufe uno"
+      "agujero",
+      "enchufe uno",
+      "largo",
+      "sufijo"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank:"
@@ -3395,9 +3395,9 @@
   {
     "question": "apaga las luces en mi ------",
     "choices": [
-      "llano",
-      "hasta",
-      "jefe",
+      "medir",
+      "huevo",
+      "celular",
       "baño"
     ],
     "answer": 3,
@@ -3408,9 +3408,22 @@
   {
     "question": "apaga las luces del ------",
     "choices": [
-      "sobre",
-      "enviado",
-      "pocos",
+      "movimiento",
+      "baño",
+      "abajo",
+      "sentarse"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "luces apagadas en el ------",
+    "choices": [
+      "carne",
+      "risa",
+      "nuevo",
       "baño"
     ],
     "answer": 3,
@@ -3419,27 +3432,14 @@
     "extra": "Fill in the blank:"
   },
   {
-    "question": "luces apagadas en el ------",
-    "choices": [
-      "costo",
-      "varios",
-      "baño",
-      "país"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
-  },
-  {
     "question": "qué tiempo hará el ------",
     "choices": [
-      "oh",
-      "forma",
-      "sección",
-      "viernes"
+      "madre",
+      "viernes",
+      "Cerrar",
+      "tratar"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3448,9 +3448,9 @@
     "question": "cuánto ------ hace fuera ahora mismo",
     "choices": [
       "calor",
-      "éstos",
-      "favorecer",
-      "repentina"
+      "lugar",
+      "si",
+      "signo"
     ],
     "answer": 0,
     "type": "sentence",
@@ -3460,12 +3460,12 @@
   {
     "question": "que día es ------",
     "choices": [
-      "soportar",
+      "la",
+      "gusta",
       "hoy",
-      "miedo",
-      "rápido"
+      "hielo"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3473,12 +3473,12 @@
   {
     "question": "que día del ------ será el próximo martes",
     "choices": [
-      "bate",
       "mes",
-      "demás",
-      "necesario"
+      "partido",
+      "sola",
+      "cielo"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3486,10 +3486,10 @@
   {
     "question": "jugar carpeta de ------",
     "choices": [
-      "pagar",
+      "hecho",
       "mala religión",
-      "preguntar",
-      "rápido"
+      "se reúnen",
+      "bebida"
     ],
     "answer": 1,
     "type": "sentence",
@@ -3499,12 +3499,12 @@
   {
     "question": "abrir el archivo ------",
     "choices": [
-      "oh",
-      "pensado",
-      "símbolo",
-      "bad religion"
+      "comparar",
+      "bad religion",
+      "belleza",
+      "gato"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -3512,10 +3512,10 @@
   {
     "question": "va a ------ hoy",
     "choices": [
-      "pregunta",
-      "casa",
+      "invierno",
+      "dejar",
       "llover",
-      "bosque"
+      "superficie"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3525,12 +3525,12 @@
   {
     "question": "debo ponerme una ------ hoy",
     "choices": [
-      "principal",
-      "plan de",
+      "llano",
       "chaqueta",
-      "por encima de"
+      "si",
+      "boca"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3538,12 +3538,12 @@
   {
     "question": "------",
     "choices": [
-      "orilla",
-      "juntos",
-      "velocidad",
-      "deshabilitar la reproducción aleatoria"
+      "pitch",
+      "edad",
+      "deshabilitar la reproducción aleatoria",
+      "comercio"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "settings",
     "extra": "Fill in the blank:"
@@ -3551,12 +3551,12 @@
   {
     "question": "------ álbum",
     "choices": [
-      "repite",
-      "concha",
-      "viajes",
-      "tarde"
+      "caliente",
+      "tocar",
+      "campo",
+      "repite"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "settings",
     "extra": "Fill in the blank:"
@@ -3565,9 +3565,9 @@
     "question": "pon ------",
     "choices": [
       "metallica",
-      "ellos",
-      "varios",
-      "líquido"
+      "columna",
+      "bebé",
+      "costa"
     ],
     "answer": 0,
     "type": "sentence",
@@ -3577,9 +3577,9 @@
   {
     "question": "pon ------ a la antigua",
     "choices": [
-      "industria",
-      "cuello",
-      "nivel",
+      "servir",
+      "objeto",
+      "caliente",
       "música navideña"
     ],
     "answer": 3,
@@ -3591,9 +3591,9 @@
     "question": "inicia ------",
     "choices": [
       "máquina de café",
-      "deberá",
-      "tabla",
-      "a través de"
+      "amarillo",
+      "sierra",
+      "canción"
     ],
     "answer": 0,
     "type": "sentence",
@@ -3604,9 +3604,9 @@
     "question": "ponme lo último sobre el ------",
     "choices": [
       "precio de las acciones de mercadona",
-      "mil",
-      "por tanto,",
-      "piso"
+      "viejo",
+      "bordo",
+      "sistema"
     ],
     "answer": 0,
     "type": "sentence",
@@ -3616,12 +3616,12 @@
   {
     "question": "quien lidera actualmente las ------",
     "choices": [
-      "pato",
-      "acuerdo",
       "elecciones parlamentarias",
-      "verano"
+      "básico",
+      "mi",
+      "desde"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3629,12 +3629,12 @@
   {
     "question": "qué día ------",
     "choices": [
-      "es hoy",
-      "polluelo",
-      "como",
-      "amplio"
+      "pintar",
+      "línea",
+      "ruido",
+      "es hoy"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3642,12 +3642,12 @@
   {
     "question": "cambia las luces de la ------ a azul",
     "choices": [
-      "entre",
+      "lavado",
+      "donde",
       "cocina",
-      "dientes",
-      "visita"
+      "órgano"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -3655,12 +3655,12 @@
   {
     "question": "fija las luces en el ------ a rojo",
     "choices": [
+      "sol",
+      "colores",
       "salon",
-      "día",
-      "sujeto",
-      "cruzar"
+      "fila"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -3668,10 +3668,10 @@
   {
     "question": "cambia las luces de la ------ a verde",
     "choices": [
-      "plan de",
-      "originales",
+      "hecho",
+      "dicho",
       "habitación",
-      "un"
+      "conectar"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3681,10 +3681,10 @@
   {
     "question": "quiero escuchar música ------",
     "choices": [
-      "palabra",
+      "región",
       "clásica",
-      "actual",
-      "resultado"
+      "casa",
+      "gobernar"
     ],
     "answer": 1,
     "type": "sentence",
@@ -3694,12 +3694,12 @@
   {
     "question": "quiero escuchar ------",
     "choices": [
-      "traer",
-      "podría",
-      "prensa",
-      "jazz"
+      "sentido",
+      "jazz",
+      "rey",
+      "momento"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -3707,12 +3707,12 @@
   {
     "question": "haz que la luz de mi ------ sea más brillante",
     "choices": [
-      "demás",
+      "alcance",
+      "mantenga",
       "habitación",
-      "querer",
-      "cuidado"
+      "casa"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank:"
@@ -3720,12 +3720,12 @@
   {
     "question": "apaga la ------",
     "choices": [
-      "ver",
       "lámpara",
-      "azul",
-      "forma"
+      "caer",
+      "luna",
+      "demasiado"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank:"
@@ -3733,12 +3733,12 @@
   {
     "question": "pon canciones de ------",
     "choices": [
-      "sia",
-      "valle",
-      "pájaro",
-      "día"
+      "pistola",
+      "en espera",
+      "vestido",
+      "sia"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -3746,12 +3746,12 @@
   {
     "question": "pon ------",
     "choices": [
+      "desarrollar",
+      "extraño",
       "weekend",
-      "multitud",
-      "entre",
-      "banco"
+      "recordar"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -3759,12 +3759,12 @@
   {
     "question": "abre canciones de ------",
     "choices": [
-      "patio",
-      "leer",
       "prince",
-      "menos"
+      "buscar",
+      "experiencia",
+      "determinar"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -3772,12 +3772,12 @@
   {
     "question": "encuentra noticias sobre ------",
     "choices": [
-      "multitud",
-      "bola",
-      "fresco",
-      "brexit"
+      "brexit",
+      "uno",
+      "aumentando",
+      "número"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3785,12 +3785,12 @@
   {
     "question": "abre la noticias sobre ------",
     "choices": [
-      "decir",
-      "dicho",
-      "repsol",
-      "rápido"
+      "valor",
+      "brecha",
+      "él",
+      "repsol"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3798,9 +3798,9 @@
   {
     "question": "encuéntrame noticias sobre el ------",
     "choices": [
-      "fila",
-      "acabado",
-      "lugar",
+      "servir",
+      "experimento",
+      "un",
       "discurso de trump"
     ],
     "answer": 3,
@@ -3811,12 +3811,12 @@
   {
     "question": "qué hora es en ------",
     "choices": [
-      "ciencia",
-      "dientes",
+      "arena",
       "otras zonas horarias",
-      "ferrocarril"
+      "así",
+      "auto"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3824,12 +3824,12 @@
   {
     "question": "cuál es la zona horaria en ------",
     "choices": [
-      "cierto",
-      "representar",
-      "madrid",
-      "añadir"
+      "mientras",
+      "posible",
+      "este",
+      "madrid"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3837,12 +3837,12 @@
   {
     "question": "que hora es en ------",
     "choices": [
-      "bosque",
-      "especialmente",
       "madrid capital",
-      "superficie"
+      "por tanto,",
+      "incluir",
+      "mercado"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -3850,9 +3850,9 @@
   {
     "question": "cuál es la hora en ------ ahora mismo",
     "choices": [
-      "seco",
-      "lugar",
-      "puede",
+      "sobre",
+      "verde",
+      "ir",
       "españa"
     ],
     "answer": 3,
@@ -3863,49 +3863,10 @@
   {
     "question": "qué hora es ahora mismo en ------",
     "choices": [
-      "adivinar",
-      "que",
-      "australia",
-      "espere"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "qué ------ hace fuera",
-    "choices": [
-      "ascenso",
-      "hace",
-      "temperatura",
-      "manzana"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "hace ------ fuera",
-    "choices": [
-      "calor",
-      "hoja",
-      "significado",
-      "caja"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "hace ------ fuera",
-    "choices": [
-      "multiplicar",
-      "libra",
-      "limpia",
-      "frío"
+      "estudio",
+      "sólo",
+      "estado",
+      "australia"
     ],
     "answer": 3,
     "type": "sentence",
@@ -3913,12 +3874,51 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "qué ------ hace fuera",
+    "choices": [
+      "gusta",
+      "todavía",
+      "temperatura",
+      "recta"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "hace ------ fuera",
+    "choices": [
+      "frío",
+      "calor",
+      "repentina",
+      "pienso"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "hace ------ fuera",
+    "choices": [
+      "risa",
+      "frío",
+      "un",
+      "diversión"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "qué es una broma ------ sabes",
     "choices": [
-      "cuya",
-      "tocar",
+      "gusta",
+      "miedo",
       "tonta",
-      "energía"
+      "médico"
     ],
     "answer": 2,
     "type": "sentence",
@@ -3928,9 +3928,9 @@
   {
     "question": "que es una broma ------ sabes",
     "choices": [
-      "pistola",
-      "aquí",
-      "años",
+      "ruido",
+      "casa",
+      "calor",
       "tonta"
     ],
     "answer": 3,
@@ -3941,12 +3941,12 @@
   {
     "question": "que es un ------ chiste",
     "choices": [
-      "decidir",
-      "buen",
-      "eléctrica",
-      "de cultivos"
+      "diversión",
+      "rica",
+      "mejor",
+      "buen"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank:"
@@ -3955,9 +3955,9 @@
     "question": "cambia el color de la luz a ------",
     "choices": [
       "azul",
-      "empujar",
-      "cruzar",
-      "buena"
+      "nariz",
+      "temprana",
+      "moderno"
     ],
     "answer": 0,
     "type": "sentence",
@@ -3967,12 +3967,12 @@
   {
     "question": "confirmar si el color es ------",
     "choices": [
-      "tubo",
-      "azul",
-      "nota",
-      "miedo"
+      "cólera",
+      "directa",
+      "similar",
+      "azul"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -3980,12 +3980,12 @@
   {
     "question": "cambia el color de la luz a ------",
     "choices": [
-      "cobrar",
-      "rojo",
-      "palabra",
-      "mapa"
+      "mantenga",
+      "traje",
+      "nivel",
+      "rojo"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
     "extra": "Fill in the blank:"
@@ -3993,12 +3993,12 @@
   {
     "question": "qué hora es en ------",
     "choices": [
-      "familia",
-      "bate",
       "madrid",
-      "ellos"
+      "fuera",
+      "noche",
+      "partido"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4006,12 +4006,12 @@
   {
     "question": "qué hora es en ------",
     "choices": [
-      "debería",
-      "creer",
-      "durante",
-      "bilbao"
+      "dicho",
+      "bilbao",
+      "detrás",
+      "hecho"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4020,9 +4020,9 @@
     "question": "silencia en la ------ por favor",
     "choices": [
       "próxima hora",
-      "algodón",
-      "llegar",
-      "pájaro"
+      "líquido",
+      "árbol",
+      "detrás"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4033,9 +4033,9 @@
     "question": "cuéntame un chiste ------",
     "choices": [
       "al azar",
-      "vaca",
-      "trabajo",
-      "hecho"
+      "aumentando",
+      "montaña",
+      "capturado"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4045,23 +4045,10 @@
   {
     "question": "cuáles son las noticias actuales del ------",
     "choices": [
-      "camino",
-      "mundo",
-      "noche",
-      "inferior"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "por favor cuéntame algunas noticias ------",
-    "choices": [
-      "capitán",
-      "alimentos",
-      "perro",
-      "internacionales"
+      "rey",
+      "pulgadas",
+      "lenta",
+      "mundo"
     ],
     "answer": 3,
     "type": "sentence",
@@ -4069,12 +4056,25 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "por favor cuéntame algunas noticias ------",
+    "choices": [
+      "internacionales",
+      "huevo",
+      "caliente",
+      "ejercicio"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "poner una alarma a las ------",
     "choices": [
-      "seleccionar",
-      "posible",
+      "escala",
+      "cuerda",
       "nueve de la mañana",
-      "así"
+      "abrigo"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4084,12 +4084,12 @@
   {
     "question": "pon una alarma despertador a las ------",
     "choices": [
-      "estudio",
-      "diez de la mañana",
-      "leche",
-      "morir"
+      "conducir",
+      "buena",
+      "fina",
+      "diez de la mañana"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -4097,12 +4097,12 @@
   {
     "question": "necesito ------ alarma recordatorio a la ------",
     "choices": [
-      "acorde",
-      "una",
-      "cobrar",
-      "cruzar"
+      "sentido",
+      "lanzar",
+      "longitud",
+      "una"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -4111,9 +4111,9 @@
     "question": "poner una alarma a las ------",
     "choices": [
       "tres de la tarde",
-      "producirse",
-      "insecto",
-      "hermano"
+      "ejecutar",
+      "Radio",
+      "presente"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4123,12 +4123,12 @@
   {
     "question": "pon una alarma a las ------",
     "choices": [
-      "principal",
-      "frase",
-      "signo",
-      "nueve de la mañana"
+      "nueve de la mañana",
+      "fin",
+      "enseñar",
+      "cuando"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -4136,12 +4136,12 @@
   {
     "question": "pon una alarma a la ------",
     "choices": [
-      "cada",
-      "esperar",
-      "la",
-      "una de la tarde"
+      "una de la tarde",
+      "pensar",
+      "rama",
+      "completo"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -4149,12 +4149,12 @@
   {
     "question": "busca el nombre del álbum con ------",
     "choices": [
+      "nuestro",
+      "suceder",
       "katy perry",
-      "señorita",
-      "que",
-      "movimiento"
+      "completo"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4162,12 +4162,12 @@
   {
     "question": "reproducir la canción cantada por ------",
     "choices": [
-      "orilla",
-      "capturado",
-      "rosalía",
-      "ella"
+      "parte",
+      "donde",
+      "dependerá",
+      "rosalía"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -4175,12 +4175,12 @@
   {
     "question": "reproduce la canción ------",
     "choices": [
-      "manzana",
-      "inmediatamente",
-      "añadir",
-      "delante"
+      "comprobar",
+      "mar",
+      "misma",
+      "inmediatamente"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -4188,12 +4188,12 @@
   {
     "question": "cuál es la broma ------",
     "choices": [
+      "discutir",
       "más divertida",
-      "podía",
-      "separada",
-      "cuidado"
+      "resto",
+      "carácter"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank:"
@@ -4202,9 +4202,9 @@
     "question": "cuentame un chiste ------",
     "choices": [
       "verde",
-      "especialmente",
-      "probable",
-      "permitir"
+      "llevado",
+      "gas",
+      "unidad"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4214,12 +4214,12 @@
   {
     "question": "por favor suba el volumen de la música ------",
     "choices": [
-      "voz",
-      "de",
-      "creció",
-      "hips don't lie"
+      "día",
+      "más",
+      "hips don't lie",
+      "lanzar"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "volume_up",
     "extra": "Fill in the blank:"
@@ -4227,12 +4227,12 @@
   {
     "question": "por favor ------ la frecuencia aleatoria de siempre",
     "choices": [
-      "región",
-      "creer",
+      "plaza",
       "baja",
-      "sentido"
+      "esquina",
+      "celular"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "settings",
     "extra": "Fill in the blank:"
@@ -4240,12 +4240,12 @@
   {
     "question": "por favor ------ de nuevo esa música de ozuna",
     "choices": [
-      "repite",
-      "efecto",
-      "con",
-      "amplio"
+      "verano",
+      "variar",
+      "incluso",
+      "repite"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "settings",
     "extra": "Fill in the blank:"
@@ -4253,12 +4253,12 @@
   {
     "question": "apaga las luces de la ------",
     "choices": [
+      "regla",
+      "hecho",
       "sala",
-      "golpear",
-      "grado",
-      "bebida"
+      "seguro"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank:"
@@ -4266,12 +4266,12 @@
   {
     "question": "por favor apague las luces en la ------",
     "choices": [
-      "charla",
-      "producirse",
-      "paseo",
-      "sala de estar"
+      "sala de estar",
+      "cama",
+      "mina",
+      "detrás"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank:"
@@ -4279,9 +4279,9 @@
   {
     "question": "jugar ------ cualquier cosa",
     "choices": [
-      "bloque",
-      "conectar",
-      "abierta",
+      "deslizamiento",
+      "posible",
+      "hombre",
       "mf doom"
     ],
     "answer": 3,
@@ -4292,12 +4292,12 @@
   {
     "question": "puedo tener alguna de música ------",
     "choices": [
-      "de altura",
+      "jardín",
+      "columna",
       "de fondo",
-      "noche",
-      "añadir"
+      "belleza"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -4305,22 +4305,9 @@
   {
     "question": "tengo yo alguna alarma puesta para ------",
     "choices": [
-      "bebé",
-      "mañana",
-      "presente",
-      "mucho"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "cuál es la situación de la alarma para ------",
-    "choices": [
-      "milla",
-      "unidad",
-      "mano",
+      "maíz",
+      "minuto",
+      "este",
       "mañana"
     ],
     "answer": 3,
@@ -4329,14 +4316,27 @@
     "extra": "Fill in the blank:"
   },
   {
-    "question": "apaga la alarma a las ------",
+    "question": "cuál es la situación de la alarma para ------",
     "choices": [
-      "era",
-      "ocho de la mañana",
-      "ahora",
-      "adecuada"
+      "nuestro",
+      "mañana",
+      "tocar",
+      "charla"
     ],
     "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "apaga la alarma a las ------",
+    "choices": [
+      "ocho de la mañana",
+      "cierto",
+      "verbo",
+      "punto"
+    ],
+    "answer": 0,
     "type": "sentence",
     "intent": "remove",
     "extra": "Fill in the blank:"
@@ -4344,12 +4344,12 @@
   {
     "question": "cancelar mi alarma de las ------",
     "choices": [
-      "mal",
-      "nadar",
-      "cerca",
-      "ocho de la mañana"
+      "este",
+      "humana",
+      "ocho de la mañana",
+      "demás"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "remove",
     "extra": "Fill in the blank:"
@@ -4357,12 +4357,12 @@
   {
     "question": "deshacerse de mi alarma de las ------",
     "choices": [
-      "gran",
       "ocho a. m.",
-      "común",
-      "similar"
+      "era",
+      "semana",
+      "siempre"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "remove",
     "extra": "Fill in the blank:"
@@ -4370,12 +4370,12 @@
   {
     "question": "qué ------ hay",
     "choices": [
-      "caer",
-      "nadar",
-      "sombrero",
-      "temperatura"
+      "vaca",
+      "temperatura",
+      "nación",
+      "caer"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4383,12 +4383,12 @@
   {
     "question": "cuánto ------ hace",
     "choices": [
-      "exacta",
-      "hierba",
-      "átomo",
-      "calor"
+      "cinco",
+      "calor",
+      "sólo",
+      "cuya"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4396,12 +4396,12 @@
   {
     "question": "qué ------ hace",
     "choices": [
+      "por",
       "frío",
-      "caza",
-      "tipo",
-      "lado"
+      "necesitará",
+      "su"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4410,9 +4410,9 @@
     "question": "cuántos ------ hay el veintitres",
     "choices": [
       "cumpleaños",
-      "barco",
-      "carne",
-      "sorpresa"
+      "personas",
+      "responder",
+      "escrito"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4422,12 +4422,12 @@
   {
     "question": "es ------ el doce",
     "choices": [
-      "próximo",
-      "capturado",
-      "maravilla",
-      "el segundo sabado"
+      "amplio",
+      "el segundo sabado",
+      "organizar",
+      "enseñar"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4435,12 +4435,12 @@
   {
     "question": "hay ------ el veintidos",
     "choices": [
-      "originales",
-      "mañana",
       "navidad",
-      "como"
+      "eran",
+      "monte",
+      "espacio"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4448,12 +4448,12 @@
   {
     "question": "------ la misma canción diez veces",
     "choices": [
-      "piso",
-      "experiencia",
-      "repetir",
-      "a su vez,"
+      "blanco",
+      "llevar",
+      "preguntar",
+      "repetir"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "settings",
     "extra": "Fill in the blank:"
@@ -4461,12 +4461,12 @@
   {
     "question": "reproduce las ------ de pies descalzos de shakira",
     "choices": [
+      "vestido",
+      "continuar",
       "canciones",
-      "campo",
-      "ronda",
-      "oído"
+      "pájaro"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "settings",
     "extra": "Fill in the blank:"
@@ -4474,10 +4474,10 @@
   {
     "question": "reproducir ------ en la lista",
     "choices": [
-      "tres",
-      "proteger",
+      "ley",
+      "decir",
       "corazón partido",
-      "lluvia"
+      "añadir"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4487,10 +4487,10 @@
   {
     "question": "apaga una luz del ------",
     "choices": [
-      "algodón",
-      "localizar",
+      "cuya",
+      "hizo",
       "porche",
-      "lago"
+      "perro"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4500,12 +4500,12 @@
   {
     "question": "apaga la ------",
     "choices": [
-      "río",
-      "sentido",
-      "alto",
-      "lampara"
+      "lavado",
+      "entonces",
+      "lampara",
+      "en espera"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank:"
@@ -4513,10 +4513,10 @@
   {
     "question": "va a estar ------ mañana",
     "choices": [
-      "sol",
-      "limpia",
+      "historia",
+      "prisa",
       "lloviendo",
-      "manzana"
+      "abajo"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4526,23 +4526,10 @@
   {
     "question": "se pondrá el sol a las ------ mañana",
     "choices": [
-      "poco",
+      "calor",
+      "horas",
       "cinco y media de la tarde",
-      "niño",
-      "día"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "hay alguna probabilidad de ------ esta semana",
-    "choices": [
-      "escuela",
-      "regla",
-      "lluvia",
-      "órgano"
+      "producirse"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4550,14 +4537,27 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "hay alguna probabilidad de ------ esta semana",
+    "choices": [
+      "escribió",
+      "lluvia",
+      "hecho",
+      "tramo"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "que es ------",
     "choices": [
-      "pitch",
-      "jardín",
-      "varios",
-      "tendencia"
+      "negro",
+      "ejercicio",
+      "tendencia",
+      "llegar"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4565,12 +4565,12 @@
   {
     "question": "qué novedades hay para ------",
     "choices": [
-      "algodón",
-      "fuerza",
-      "mesa",
-      "hoy"
+      "estación",
+      "línea",
+      "hoy",
+      "sobre"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4578,10 +4578,10 @@
   {
     "question": "que hora es en la zona horaria ------",
     "choices": [
-      "piel",
+      "superficie",
       "del este",
-      "mediodía",
-      "cama"
+      "rosa",
+      "tiempo"
     ],
     "answer": 1,
     "type": "sentence",
@@ -4591,12 +4591,12 @@
   {
     "question": "qué ------ hace ahora",
     "choices": [
-      "reales",
-      "verbo",
-      "cuota",
-      "calor"
+      "calor",
+      "ser",
+      "mes",
+      "tomó"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4604,9 +4604,9 @@
   {
     "question": "puedo escuchar ------ que puedes escuchar en las radios ahora",
     "choices": [
-      "ejercicio",
-      "hierba",
-      "movimiento",
+      "en",
+      "puerta",
+      "difícil",
       "los cincuenta éxitos"
     ],
     "answer": 3,
@@ -4617,12 +4617,12 @@
   {
     "question": "por favor pon música ------ para la cena ahora",
     "choices": [
-      "es",
-      "clásica",
-      "sueño",
-      "nación"
+      "separada",
+      "reclamación",
+      "mujeres",
+      "clásica"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -4630,10 +4630,10 @@
   {
     "question": "puedes cambiar la ------ de lady gaga",
     "choices": [
-      "principal",
-      "lugar",
+      "oportunidad",
+      "amigo",
       "mejor canción",
-      "demostrar"
+      "exigir"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4643,12 +4643,12 @@
   {
     "question": "quiero escuchar mi canción favorita de ------",
     "choices": [
-      "tienda",
-      "print",
-      "decimal",
-      "iron maiden"
+      "inventar",
+      "iron maiden",
+      "pies",
+      "gato"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -4656,12 +4656,12 @@
   {
     "question": "cambiar la alarma para que comience a la ------",
     "choices": [
-      "pobre",
-      "recordar",
       "medianoche",
-      "frase"
+      "máquina",
+      "estado",
+      "suceder"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -4669,12 +4669,12 @@
   {
     "question": "qué tiempo hará ------",
     "choices": [
-      "día",
-      "mi",
-      "dentro de una semana",
-      "salvaje"
+      "aliviar",
+      "siga",
+      "fresco",
+      "dentro de una semana"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4682,10 +4682,10 @@
   {
     "question": "cómo se supone que estará el tiempo el ------",
     "choices": [
-      "oportunidad",
-      "a través de",
+      "satélite",
+      "entrar",
       "martes",
-      "llegar"
+      "que"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4695,10 +4695,10 @@
   {
     "question": "cuál es el pronóstico del tiempo para el ------",
     "choices": [
-      "risa",
-      "nieve",
+      "voz",
+      "su",
       "fin de semana",
-      "melodía"
+      "alimentos"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4708,12 +4708,12 @@
   {
     "question": "silencia por ------",
     "choices": [
+      "mes",
+      "libre",
       "veinte minutos",
-      "sufijo",
-      "producto",
-      "no"
+      "mujeres"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "volume_mute",
     "extra": "Fill in the blank:"
@@ -4722,9 +4722,9 @@
     "question": "quiero levantarme ------ a las seis de la ------ por favor",
     "choices": [
       "mañana",
-      "espalda",
-      "años",
-      "poco"
+      "tenido",
+      "alimentos",
+      "o"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4734,12 +4734,12 @@
   {
     "question": "por favor pon la alarma para la ------ a las siete de la mañana",
     "choices": [
-      "madera",
-      "siguiente mañana",
-      "ascensor",
-      "libro"
+      "ola",
+      "lago",
+      "repentina",
+      "siguiente mañana"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -4747,12 +4747,12 @@
   {
     "question": "por favor borra la alarma ------ a las ocho de la mañana el próximo sábado",
     "choices": [
-      "posición",
-      "soportar",
+      "encontrar",
       "despertador",
-      "oficina"
+      "sur",
+      "paso"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "set",
     "extra": "Fill in the blank:"
@@ -4760,12 +4760,12 @@
   {
     "question": "pon la playlist ------",
     "choices": [
-      "hizo",
-      "marrón",
+      "comenzó",
       "número siete",
-      "a través de"
+      "vista",
+      "jugar"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -4773,12 +4773,12 @@
   {
     "question": "qué día de la semana es ------",
     "choices": [
+      "familia",
       "acción de gracias",
-      "tipo",
-      "país",
-      "buscar"
+      "mujer",
+      "paseo"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4787,9 +4787,9 @@
     "question": "cuál es el último día del ------",
     "choices": [
       "més",
-      "nivel",
-      "que",
-      "clave"
+      "tenido",
+      "palabra",
+      "significará"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4799,10 +4799,10 @@
   {
     "question": "cual es la hora en horario ------",
     "choices": [
-      "actual",
+      "deslizamiento",
       "del centro",
-      "representar",
-      "cadena"
+      "diseño",
+      "niños"
     ],
     "answer": 1,
     "type": "sentence",
@@ -4812,12 +4812,12 @@
   {
     "question": "que hora es actualmente en ------",
     "choices": [
-      "sentido",
-      "no",
+      "igual",
       "granada",
-      "deletrear"
+      "campamento",
+      "contra"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4825,12 +4825,12 @@
   {
     "question": "cuál es la última controversia sobre ------",
     "choices": [
+      "ella",
       "pablo iglesias",
-      "árbol",
-      "noche",
-      "estudio"
+      "tener",
+      "dólar"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4838,12 +4838,12 @@
   {
     "question": "cuál es la última discusión sobre ------",
     "choices": [
-      "ser",
-      "salvaje",
+      "prensa",
       "mariano rajoy",
-      "operar"
+      "sentar",
+      "ascenso"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -4851,10 +4851,10 @@
   {
     "question": "por favor pon la canción de ------",
     "choices": [
-      "siempre",
-      "ala",
+      "guardar",
+      "adivinar",
       "alaska",
-      "círculo"
+      "alambre"
     ],
     "answer": 2,
     "type": "sentence",
@@ -4864,12 +4864,12 @@
   {
     "question": "por favor déjame escuchar ------",
     "choices": [
-      "operar",
-      "incluir",
-      "seiscientos sesenta y seis el número de la bestia",
-      "vela"
+      "habitual",
+      "mediodía",
+      "así",
+      "seiscientos sesenta y seis el número de la bestia"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -4877,12 +4877,12 @@
   {
     "question": "pon la última canción de éxito del último álbum de ------ por favor",
     "choices": [
-      "su",
-      "fuera",
+      "resto",
       "metallica",
-      "tipo"
+      "pieza",
+      "mil"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -4891,9 +4891,9 @@
     "question": "avísame cuando haya noticias sobre el ------",
     "choices": [
       "gasoducto de perú",
-      "habitación",
-      "cocinero",
-      "querer"
+      "como",
+      "lenta",
+      "música"
     ],
     "answer": 0,
     "type": "sentence",
@@ -4903,23 +4903,10 @@
   {
     "question": "establecer notificaciones para las noticias sobre el ------",
     "choices": [
-      "gasoducto sur peruano",
-      "seguro",
+      "básico",
+      "partido",
       "hecho",
-      "pitch"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "avísame cuando haya noticias sobre el ------",
-    "choices": [
-      "contento",
-      "cima",
-      "miedo",
-      "independentismo en cataluña"
+      "gasoducto sur peruano"
     ],
     "answer": 3,
     "type": "sentence",
@@ -4927,116 +4914,12 @@
     "extra": "Fill in the blank:"
   },
   {
-    "question": "inicia ------",
+    "question": "avísame cuando haya noticias sobre el ------",
     "choices": [
-      "inventar",
-      "aspiradora",
-      "piedra",
-      "presente"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "cleaning",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "por favor encienda la ------",
-    "choices": [
-      "acuerdo",
-      "aspiradora",
-      "interés",
-      "plana"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "cleaning",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "que es lo ------ en un chiste sobre coche",
-    "choices": [
-      "gracioso",
-      "velocidad",
-      "plurales",
-      "ambos"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "joke",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "cuéntame un chiste sobre un ------",
-    "choices": [
-      "instrumento",
-      "pierna",
-      "hombre",
-      "siglo"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "joke",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "puedes buscar chistes de ------ para mí",
-    "choices": [
-      "animales",
-      "tiempo",
-      "restar",
-      "perro"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "joke",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "recuérdame jugar con esta canción ------",
-    "choices": [
-      "esta noche",
-      "era",
-      "al este",
-      "aliviar"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "ponme una canción de ------",
-    "choices": [
-      "hermano",
-      "adele",
-      "voz",
-      "brillo"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "necesito que enciendas la ------",
-    "choices": [
-      "cadena",
-      "delgado",
-      "aspiradora",
-      "raíz"
-    ],
-    "answer": 2,
-    "type": "sentence",
-    "intent": "cleaning",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "cuál será la ------ esta semana",
-    "choices": [
-      "espalda",
-      "temperatura más alta",
-      "excitar",
-      "favorecer"
+      "niño",
+      "independentismo en cataluña",
+      "sustantivo",
+      "hacer"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5044,14 +4927,131 @@
     "extra": "Fill in the blank:"
   },
   {
-    "question": "sube ------ la luz",
+    "question": "inicia ------",
     "choices": [
-      "imaginar",
-      "éstos",
-      "un poco",
-      "oferta"
+      "justo",
+      "inventar",
+      "aspiradora",
+      "árbol"
     ],
     "answer": 2,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "por favor encienda la ------",
+    "choices": [
+      "escuchar",
+      "cuerda",
+      "aspiradora",
+      "corriente"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "que es lo ------ en un chiste sobre coche",
+    "choices": [
+      "pequeño",
+      "gracioso",
+      "noche",
+      "siglo"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "cuéntame un chiste sobre un ------",
+    "choices": [
+      "hombre",
+      "mal",
+      "correcta",
+      "reclamación"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "puedes buscar chistes de ------ para mí",
+    "choices": [
+      "reales",
+      "carne",
+      "animales",
+      "continuar"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "recuérdame jugar con esta canción ------",
+    "choices": [
+      "diez",
+      "lluvia",
+      "fresco",
+      "esta noche"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ponme una canción de ------",
+    "choices": [
+      "indicar",
+      "medio",
+      "adele",
+      "actual"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "necesito que enciendas la ------",
+    "choices": [
+      "suave",
+      "aspiradora",
+      "de espesor",
+      "contener"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "cuál será la ------ esta semana",
+    "choices": [
+      "exigir",
+      "sólo",
+      "cociente",
+      "temperatura más alta"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "sube ------ la luz",
+    "choices": [
+      "un poco",
+      "fuerte",
+      "posición",
+      "golpe"
+    ],
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank:"
@@ -5059,9 +5059,9 @@
   {
     "question": "incrementa la luz ------",
     "choices": [
-      "niño",
-      "mil",
-      "amar",
+      "movimiento",
+      "acuerdo",
+      "comprado",
       "un poco"
     ],
     "answer": 3,
@@ -5072,12 +5072,12 @@
   {
     "question": "tengo alguna alarma puesta para ------",
     "choices": [
-      "discutir",
-      "eran",
-      "hoy",
-      "todavía"
+      "hasta",
+      "mente",
+      "río",
+      "hoy"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5085,12 +5085,12 @@
   {
     "question": "apaga las luces del ------",
     "choices": [
+      "fuerza",
+      "aquí",
       "cuarto",
-      "árbol",
-      "oh",
-      "llevado"
+      "ella"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank:"
@@ -5098,12 +5098,12 @@
   {
     "question": "control de luces apaga las luces de la ------",
     "choices": [
-      "medio",
       "habitación",
-      "caso",
-      "como"
+      "contar",
+      "lavado",
+      "piedra"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
     "extra": "Fill in the blank:"
@@ -5111,9 +5111,9 @@
   {
     "question": "puedes ubicar algo de música ------",
     "choices": [
-      "inicio",
-      "acabado",
-      "celular",
+      "vestir",
+      "fina",
+      "copia",
       "flamenca"
     ],
     "answer": 3,
@@ -5124,12 +5124,12 @@
   {
     "question": "quiero escuchar algo de música ------",
     "choices": [
-      "cualquier",
-      "capturado",
-      "plan de",
-      "religiosa"
+      "invierno",
+      "religiosa",
+      "padre",
+      "grasa"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -5137,12 +5137,12 @@
   {
     "question": "cómo es el tiempo actual en ------",
     "choices": [
-      "importante",
+      "nuestro",
+      "apoyo",
       "california",
-      "observar",
-      "piel"
+      "observar"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5150,9 +5150,9 @@
   {
     "question": "como está el tiempo ahora en ------",
     "choices": [
-      "nosotros",
-      "patio",
-      "olor",
+      "diseño",
+      "guiar",
+      "persona",
       "mallorca"
     ],
     "answer": 3,
@@ -5163,12 +5163,12 @@
   {
     "question": "que hora es ahora en ------",
     "choices": [
+      "dicho",
+      "deletrear",
       "andalucía",
-      "general",
-      "tres",
-      "siempre"
+      "camino"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5176,12 +5176,12 @@
   {
     "question": "hora en ------ ahora",
     "choices": [
-      "cubierta",
-      "menudo",
       "madrid",
-      "pierna"
+      "repentina",
+      "creció",
+      "par"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5189,12 +5189,12 @@
   {
     "question": "que hora es en ------",
     "choices": [
-      "materia",
-      "recordar",
+      "estudio",
       "japón",
-      "indicar"
+      "siglo",
+      "boca"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5202,12 +5202,12 @@
   {
     "question": "por favor puedo saber que horas serán a las ------ aqui en australia",
     "choices": [
+      "bordo",
       "seis de la tarde",
-      "hombre",
-      "regla",
-      "quemar"
+      "esperar",
+      "vivir"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "convert",
     "extra": "Fill in the blank:"
@@ -5215,12 +5215,12 @@
   {
     "question": "puedes decirme cuántas horas de diferencia hay entre ------ y valencia",
     "choices": [
+      "tranquila",
+      "este",
       "sevilla",
-      "cortada",
-      "aliviar",
-      "exigir"
+      "nombre"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "convert",
     "extra": "Fill in the blank:"
@@ -5228,12 +5228,12 @@
   {
     "question": "quiero dos ------ y una coca-cola pídelo rápido",
     "choices": [
-      "nuestro",
-      "sonrisa",
-      "madre",
-      "hamburguesas"
+      "hamburguesas",
+      "clase",
+      "estrella",
+      "fina"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank:"
@@ -5241,23 +5241,10 @@
   {
     "question": "pide dos ------ para mi",
     "choices": [
-      "energía",
-      "entonces",
-      "símbolo",
-      "hamburguesas"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "order",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "pedir una ------",
-    "choices": [
-      "masa",
-      "pizza",
-      "lanzar",
-      "carta"
+      "ganar",
+      "hamburguesas",
+      "dicho",
+      "registro"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5265,11 +5252,24 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "pedir una ------",
+    "choices": [
+      "leche",
+      "viaje",
+      "pizza",
+      "brazo"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "por favor apaga el ------ de mi movil cuando esté cargado",
     "choices": [
-      "equiparar",
-      "mes",
-      "fin",
+      "esclavo",
+      "danza",
+      "dama",
       "enchufe"
     ],
     "answer": 3,
@@ -5280,12 +5280,12 @@
   {
     "question": "enciende la ------ enchufe cuando llego a casa",
     "choices": [
+      "oscuro",
+      "difícil",
       "t. v.",
-      "proceso",
-      "pasado",
-      "naturaleza"
+      "hecho"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank:"
@@ -5293,12 +5293,12 @@
   {
     "question": "quiero que apagues el ------ antes de que el móvil se cargue",
     "choices": [
+      "temprana",
+      "como",
       "enchufe",
-      "enemigo",
-      "cadena",
-      "quedarse"
+      "dibujar"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "wemo_off",
     "extra": "Fill in the blank:"
@@ -5306,12 +5306,12 @@
   {
     "question": "mantenme informado sobre el ------ por favor",
     "choices": [
-      "reclamación",
-      "sugerir",
-      "podía",
-      "precio del bitcoin"
+      "seco",
+      "precio del bitcoin",
+      "tramo",
+      "temperatura"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5319,12 +5319,12 @@
   {
     "question": "mantenerme informado sobre los ------",
     "choices": [
-      "ver",
-      "polluelo",
-      "pieza",
-      "precios del mercado de valores"
+      "norte",
+      "precios del mercado de valores",
+      "tocar",
+      "palabra"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "stock",
     "extra": "Fill in the blank:"
@@ -5332,10 +5332,10 @@
   {
     "question": "sigue las noticias sobre la ------ en el futuro",
     "choices": [
-      "escala",
-      "encajar",
+      "escuela",
+      "bastante",
       "controversia de papeles de bárcenas",
-      "plazo"
+      "nadar"
     ],
     "answer": 2,
     "type": "sentence",
@@ -5345,23 +5345,10 @@
   {
     "question": "puedes poner mi ------",
     "choices": [
-      "exacta",
-      "recoger",
-      "propio",
-      "última canción"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "pon la canción de ------",
-    "choices": [
-      "pliegue",
-      "superficie",
-      "estopa",
-      "curso"
+      "máquina",
+      "para",
+      "última canción",
+      "manzana"
     ],
     "answer": 2,
     "type": "sentence",
@@ -5369,12 +5356,25 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "pon la canción de ------",
+    "choices": [
+      "estopa",
+      "habló",
+      "antes",
+      "si"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "toca la ------ de anoche a las seis p. m.",
     "choices": [
-      "cocinero",
-      "oficina",
+      "por favor",
+      "espacio",
       "canción",
-      "pasar"
+      "brecha"
     ],
     "answer": 2,
     "type": "sentence",
@@ -5384,12 +5384,12 @@
   {
     "question": "qué hora es en ------ ahora",
     "choices": [
+      "ellos",
       "madrid",
-      "párrafo",
-      "vestir",
-      "no"
+      "cada",
+      "cuota"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5397,12 +5397,12 @@
   {
     "question": "dime que hora es en ------",
     "choices": [
-      "barcelona",
-      "años",
-      "brazo",
-      "mi"
+      "justo",
+      "coche",
+      "lo",
+      "barcelona"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5410,12 +5410,12 @@
   {
     "question": "dime la hora de ------ ahora mismo",
     "choices": [
-      "colores",
-      "viajes",
-      "cosa",
-      "madrid"
+      "libre",
+      "pista",
+      "madrid",
+      "para"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5423,12 +5423,12 @@
   {
     "question": "acabo de pedir comida llame y vea que ha sido ------",
     "choices": [
+      "región",
       "entregado",
-      "nueve",
-      "vestir",
-      "temporada"
+      "base de",
+      "resolver"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5436,12 +5436,12 @@
   {
     "question": "mira el ------ de mi pedido",
     "choices": [
-      "ocupado",
-      "igual",
-      "fracción",
-      "envío"
+      "envío",
+      "nieve",
+      "hierro",
+      "cada"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5449,9 +5449,9 @@
   {
     "question": "llama al ------ para ver si el envío está de camino",
     "choices": [
-      "proporcionar",
-      "equiparar",
-      "mente",
+      "sangre",
+      "mal",
+      "si",
       "restaurante"
     ],
     "answer": 3,
@@ -5462,12 +5462,12 @@
   {
     "question": "por favor ilumina la ------",
     "choices": [
-      "vida",
-      "excitar",
-      "pliegue",
-      "habitación"
+      "habitación",
+      "amar",
+      "pierna",
+      "sabía"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
     "extra": "Fill in the blank:"
@@ -5476,9 +5476,9 @@
     "question": "que está pasando en el ------",
     "choices": [
       "consejo",
-      "moderno",
-      "unirse",
-      "muerte"
+      "rosa",
+      "hasta",
+      "milla"
     ],
     "answer": 0,
     "type": "sentence",
@@ -5488,12 +5488,12 @@
   {
     "question": "dime algo ------",
     "choices": [
+      "recoger",
       "gracioso",
-      "caer",
-      "capitán",
-      "cara"
+      "primavera",
+      "claro"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "joke",
     "extra": "Fill in the blank:"
@@ -5501,12 +5501,12 @@
   {
     "question": "quiero escuchcar ------ por favor",
     "choices": [
-      "necesitará",
+      "de metal",
+      "risa",
       "cadena ser",
-      "hielo",
-      "cara"
+      "mucho"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -5514,12 +5514,12 @@
   {
     "question": "quiero escuchar ------ ahora",
     "choices": [
-      "bruno mars",
-      "cubierta",
-      "continuar",
-      "grande"
+      "recoger",
+      "madera",
+      "caer",
+      "bruno mars"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -5527,12 +5527,12 @@
   {
     "question": "quién está liderando la carrera de ------ ahora mismo",
     "choices": [
-      "gris",
-      "mientras",
       "formula uno",
-      "que"
+      "medir",
+      "marca",
+      "oferta"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5540,10 +5540,10 @@
   {
     "question": "consígueme las actualizaciones de las ------",
     "choices": [
-      "tratar",
+      "llamada",
       "encuestas electorales",
-      "tienda",
-      "plazo"
+      "traje",
+      "motor"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5553,12 +5553,12 @@
   {
     "question": "lee los titulares de ------",
     "choices": [
-      "miedo",
-      "método",
       "la voz de madrid",
-      "de nuevo"
+      "incluir",
+      "período",
+      "contra"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5566,10 +5566,10 @@
   {
     "question": "quiero escuchar las ultimas noticias de ------",
     "choices": [
-      "posición",
-      "llevar",
+      "propagación",
+      "amigo",
       "c. n. n",
-      "pared"
+      "soportar"
     ],
     "answer": 2,
     "type": "sentence",
@@ -5579,10 +5579,10 @@
   {
     "question": "puedes mostrarme las noticias de última hora de ------",
     "choices": [
-      "propiedad",
-      "nación",
+      "triángulo",
+      "madera",
       "el país",
-      "libro"
+      "probable"
     ],
     "answer": 2,
     "type": "sentence",
@@ -5592,12 +5592,12 @@
   {
     "question": "quiero saber las noticias de ------",
     "choices": [
-      "correcta",
-      "el mundo",
-      "ser",
-      "de espesor"
+      "incluso",
+      "guerra",
+      "hace",
+      "el mundo"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5605,12 +5605,12 @@
   {
     "question": "por favor léeme alguna de las últimas noticias de ------",
     "choices": [
+      "olor",
       "la voz de madrid",
-      "comer",
-      "me",
-      "saltar"
+      "semilla",
+      "comercio"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5618,12 +5618,12 @@
   {
     "question": "puedo conocer las últimas noticias de ------",
     "choices": [
+      "los",
+      "marca",
       "c. n. n",
-      "cuidado",
-      "llegar",
-      "tierra"
+      "corto"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5631,23 +5631,10 @@
   {
     "question": "crear una alarma ------ a las cuatro en punto de la ------",
     "choices": [
-      "exacta",
-      "favorecer",
-      "sonar",
-      "mañana"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "set",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "poner una alarma para levantarme ------",
-    "choices": [
-      "una vez",
-      "en cinco horas",
-      "añadir",
-      "puntuación"
+      "frío",
+      "mañana",
+      "contra",
+      "resolver"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5655,12 +5642,25 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "poner una alarma para levantarme ------",
+    "choices": [
+      "período",
+      "uno",
+      "en cinco horas",
+      "medio"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "programar una alarma para despertarme ------",
     "choices": [
-      "permitir",
+      "mucho",
       "dentro de tres horas",
-      "significado",
-      "siete"
+      "olor",
+      "ventana"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5670,12 +5670,12 @@
   {
     "question": "dime las estadísticas del tiempo para esta ------",
     "choices": [
-      "recoger",
-      "que",
-      "semana",
-      "oficina"
+      "su",
+      "adecuada",
+      "marrón",
+      "semana"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5683,12 +5683,12 @@
   {
     "question": "muestra el tiempo para la ------",
     "choices": [
-      "olor",
+      "paseo",
+      "correcta",
       "semana",
-      "considerar",
-      "ahora"
+      "imaginar"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5696,9 +5696,9 @@
   {
     "question": "resuma los detalles meteorológicos ------",
     "choices": [
-      "pies",
-      "hay",
-      "tal",
+      "significado",
+      "consonante",
+      "vida",
       "de la semana"
     ],
     "answer": 3,
@@ -5709,12 +5709,12 @@
   {
     "question": "quiero escuchar las canciones de ------",
     "choices": [
-      "grupo",
-      "diez",
-      "hay",
-      "rosalía"
+      "rosalía",
+      "equipo",
+      "banda",
+      "abrigo"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -5722,12 +5722,12 @@
   {
     "question": "pon la canción de ------ después de esta",
     "choices": [
-      "enrique iglesias",
-      "de capital",
-      "su",
-      "colores"
+      "cuidado",
+      "verano",
+      "me",
+      "enrique iglesias"
     ],
-    "answer": 0,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -5736,9 +5736,9 @@
     "question": "pon las últimas canciones de ------ después de esta",
     "choices": [
       "selena gomez",
-      "base de",
-      "él",
-      "lavado"
+      "matar",
+      "hueso",
+      "horas"
     ],
     "answer": 0,
     "type": "sentence",
@@ -5748,23 +5748,10 @@
   {
     "question": "cuánto ------ hace hoy fuera",
     "choices": [
-      "elegir",
+      "permitir",
+      "pelo",
       "frío",
-      "registro",
-      "plantear"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "cuál es la ------ de hoy",
-    "choices": [
-      "vidrio",
-      "pliegue",
-      "temperatura",
-      "sorpresa"
+      "sonar"
     ],
     "answer": 2,
     "type": "sentence",
@@ -5772,14 +5759,27 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "cuál es la ------ de hoy",
+    "choices": [
+      "carretera",
+      "temperatura",
+      "monte",
+      "energía"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "cómo de ------ está el ambiente hoy",
     "choices": [
-      "ellos",
-      "tiempo",
-      "melodía",
-      "húmedo"
+      "higo",
+      "temporada",
+      "húmedo",
+      "fila"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5787,10 +5787,10 @@
   {
     "question": "tocar canciones del género ------ y soul",
     "choices": [
-      "ocupado",
-      "hecho",
+      "tres",
+      "todavía",
       "r y b",
-      "plata"
+      "alto"
     ],
     "answer": 2,
     "type": "sentence",
@@ -5800,12 +5800,12 @@
   {
     "question": "pon todas las últimas canciones ------",
     "choices": [
+      "hecho",
       "pop",
-      "causa",
-      "carretera",
-      "plantear"
+      "pájaro",
+      "neumáticos"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -5813,9 +5813,9 @@
   {
     "question": "reproducir la ------ a continuación",
     "choices": [
-      "dejar",
-      "diseño",
-      "corriente",
+      "ya sea",
+      "país",
+      "era",
       "lista de reproducción feliz"
     ],
     "answer": 3,
@@ -5826,12 +5826,12 @@
   {
     "question": "que es ------",
     "choices": [
+      "moderno",
+      "eléctrica",
       "popular",
-      "momento",
-      "responder",
-      "silencio"
+      "batir"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5839,12 +5839,12 @@
   {
     "question": "toca la canción de mi ------ de trance",
     "choices": [
-      "inferior",
-      "lista",
-      "ejemplo",
-      "correcta"
+      "vaca",
+      "éxito",
+      "ciudad",
+      "lista"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -5852,12 +5852,12 @@
   {
     "question": "baja el volumen ------",
     "choices": [
-      "hueso",
       "a diez por ciento",
-      "corto",
-      "restar"
+      "comprobar",
+      "durante",
+      "vaca"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "volume_down",
     "extra": "Fill in the blank:"
@@ -5865,23 +5865,10 @@
   {
     "question": "cambiar esta zona horaria a ------",
     "choices": [
-      "vivir",
-      "frío",
-      "morir",
-      "madrid"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "convert",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "cambia la hora a ------ a madrid",
-    "choices": [
-      "arena",
-      "esta ubicación",
-      "suave",
-      "que"
+      "mejor",
+      "madrid",
+      "agujero",
+      "historia"
     ],
     "answer": 1,
     "type": "sentence",
@@ -5889,11 +5876,24 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "cambia la hora a ------ a madrid",
+    "choices": [
+      "más",
+      "dama",
+      "un",
+      "esta ubicación"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "puedes apagar el ------",
     "choices": [
-      "como",
-      "rápido",
-      "por qué",
+      "comercio",
+      "grande",
+      "fuerte",
       "enchufe wemo"
     ],
     "answer": 3,
@@ -5904,10 +5904,10 @@
   {
     "question": "enciende el ------ para conectar mi cargador",
     "choices": [
-      "estudiante",
-      "acuerdo",
+      "viaje",
+      "Produce",
       "enchufe wemo",
-      "proceso"
+      "suelo"
     ],
     "answer": 2,
     "type": "sentence",
@@ -5917,12 +5917,12 @@
   {
     "question": "encender el ------ para conectar mi dongle",
     "choices": [
-      "imaginar",
-      "comparar",
-      "menudo",
-      "enchufe wemo"
+      "tramo",
+      "algunos",
+      "enchufe wemo",
+      "mezclar"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
     "extra": "Fill in the blank:"
@@ -5930,12 +5930,12 @@
   {
     "question": "como estará el tiempo ------",
     "choices": [
-      "derecho",
-      "diversión",
+      "cinco",
       "esta semana",
-      "temprana"
+      "olor",
+      "huevo"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5944,9 +5944,9 @@
     "question": "cómo se supone que está el tiempo ------",
     "choices": [
       "esta semana",
-      "no",
-      "temprana",
-      "espacio"
+      "es",
+      "hoja",
+      "cadena"
     ],
     "answer": 0,
     "type": "sentence",
@@ -5956,12 +5956,12 @@
   {
     "question": "cuál es el pronóstico del tiempo para ------",
     "choices": [
-      "variar",
-      "Produce",
+      "abajo",
       "esta semana",
-      "pierna"
+      "granja",
+      "rollo"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5969,12 +5969,12 @@
   {
     "question": "podría darme titulares de noticias actualizados de mi ------",
     "choices": [
-      "no",
-      "añadir",
+      "desierto",
       "proveedor mas nuevo",
-      "cielo"
+      "ejercicio",
+      "soñar"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5982,12 +5982,12 @@
   {
     "question": "podrías por favor buscar mi ------ para las últimas noticias",
     "choices": [
-      "oeste",
-      "minuto",
+      "determinar",
       "nuevo proveedor de noticias",
-      "demostrar"
+      "listo",
+      "molécula"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -5995,12 +5995,12 @@
   {
     "question": "dime las últimas noticias sobre ------",
     "choices": [
+      "algodón",
+      "oh",
       "política",
-      "aparecerá",
-      "hacia",
-      "satélite"
+      "canción"
     ],
-    "answer": 0,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -6008,10 +6008,10 @@
   {
     "question": "dime las últimas noticias ------",
     "choices": [
-      "seguro",
+      "su",
       "de deporte",
-      "ejecutar",
-      "sufijo"
+      "tierra",
+      "columna"
     ],
     "answer": 1,
     "type": "sentence",
@@ -6021,12 +6021,12 @@
   {
     "question": "qué está sucediendo en el ------ en estos días",
     "choices": [
-      "corrió",
-      "cualquier",
       "mundo",
-      "sabía"
+      "respuesta",
+      "acorde",
+      "uno"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -6034,9 +6034,9 @@
   {
     "question": "dame las actualizaciones de ------",
     "choices": [
-      "pájaro",
-      "si",
-      "celular",
+      "hacer",
+      "silla",
+      "reclamación",
       "t. v. e."
     ],
     "answer": 3,
@@ -6047,12 +6047,12 @@
   {
     "question": "cuáles son las noticias actuales en ------",
     "choices": [
+      "hasta",
       "la vanguardia",
-      "masa",
-      "caliente",
-      "cocinero"
+      "crecer",
+      "planeta"
     ],
-    "answer": 0,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -6060,9 +6060,9 @@
   {
     "question": "cómo están las actualizaciones de las últimas noticias en ------",
     "choices": [
-      "figura",
-      "master",
-      "igual",
+      "escuchar",
+      "paso",
+      "mundo",
       "t. v. e."
     ],
     "answer": 3,
@@ -6073,23 +6073,10 @@
   {
     "question": "muéstrame las últimas noticias actualizadas de ------",
     "choices": [
-      "primavera",
-      "cayó",
-      "seguro",
-      "el mundo"
-    ],
-    "answer": 3,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "notificarme cuando ------ esté en las noticias",
-    "choices": [
-      "servir",
-      "sujeto",
-      "trump",
-      "peces"
+      "acorde",
+      "leer",
+      "el mundo",
+      "invierno"
     ],
     "answer": 2,
     "type": "sentence",
@@ -6097,12 +6084,12 @@
     "extra": "Fill in the blank:"
   },
   {
-    "question": "dime si ocurre un ------ en el mundo",
+    "question": "notificarme cuando ------ esté en las noticias",
     "choices": [
-      "crear",
-      "listo",
-      "camino",
-      "terremoto"
+      "momento",
+      "grande",
+      "general",
+      "trump"
     ],
     "answer": 3,
     "type": "sentence",
@@ -6110,14 +6097,27 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "dime si ocurre un ------ en el mundo",
+    "choices": [
+      "traer",
+      "frase",
+      "terremoto",
+      "medio"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "avísame cuando la ------",
     "choices": [
-      "multitud",
-      "tempertura fuera alcance veinte grados",
-      "alegría",
-      "cosa"
+      "decidir",
+      "río",
+      "salvaje",
+      "tempertura fuera alcance veinte grados"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -6126,9 +6126,9 @@
     "question": "jugar ------ por eddie murphy",
     "choices": [
       "boogie in your butt",
-      "flor",
-      "esquina",
-      "ni"
+      "sentar",
+      "pista",
+      "fuerte"
     ],
     "answer": 0,
     "type": "sentence",
@@ -6138,12 +6138,12 @@
   {
     "question": "escucha ------ de los del rio",
     "choices": [
-      "pieza",
-      "calor",
+      "corriente",
       "macarena",
-      "cocinero"
+      "entre",
+      "enorme"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -6151,9 +6151,9 @@
   {
     "question": "pon ------",
     "choices": [
-      "especial",
-      "cuya",
-      "peligro",
+      "fuerte",
+      "nivel",
+      "más",
       "bilando"
     ],
     "answer": 3,
@@ -6165,9 +6165,9 @@
     "question": "------ de ariana grande",
     "choices": [
       "play déjame amarte",
-      "importante",
-      "tipo",
-      "print"
+      "bate",
+      "plata",
+      "significará"
     ],
     "answer": 0,
     "type": "sentence",
@@ -6177,12 +6177,12 @@
   {
     "question": "pon ------",
     "choices": [
-      "suave",
-      "ola",
       "canciones de amor",
-      "blanco"
+      "nuevo",
+      "período",
+      "espacio"
     ],
-    "answer": 2,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -6190,10 +6190,10 @@
   {
     "question": "pon todas las canciones de ------",
     "choices": [
-      "querido",
-      "calle",
+      "vida",
+      "tarde",
       "rock",
-      "debe"
+      "parte"
     ],
     "answer": 2,
     "type": "sentence",
@@ -6203,12 +6203,12 @@
   {
     "question": "------ forma a la cola actual",
     "choices": [
-      "verdadero",
-      "equipo",
-      "era",
-      "agregar tu"
+      "agregar tu",
+      "médico",
+      "sabía",
+      "caliente"
     ],
-    "answer": 3,
+    "answer": 0,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -6216,12 +6216,12 @@
   {
     "question": "cómo está el tiempo ------",
     "choices": [
-      "bate",
       "hoy",
-      "fresco",
-      "espalda"
+      "calle",
+      "significado",
+      "de metal"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -6229,10 +6229,10 @@
   {
     "question": "cuál es la ------ ahora mismo",
     "choices": [
-      "juntos",
+      "quemar",
       "temperatura",
-      "niño",
-      "encontrar"
+      "verde",
+      "que"
     ],
     "answer": 1,
     "type": "sentence",
@@ -6242,12 +6242,12 @@
   {
     "question": "cómo estuvo el tiempo ------",
     "choices": [
-      "deberá",
-      "invierno",
+      "buena",
       "esta semana",
-      "medio"
+      "paseo",
+      "poco"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -6255,23 +6255,10 @@
   {
     "question": "clima ------ o fuerte",
     "choices": [
+      "minuto",
+      "acto",
       "templado",
-      "sugerir",
-      "particular,",
-      "pies"
-    ],
-    "answer": 0,
-    "type": "sentence",
-    "intent": "query",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "dime la temperatura ------ esta semana",
-    "choices": [
-      "peligro",
-      "imagen",
-      "más alta",
-      "suceder"
+      "belleza"
     ],
     "answer": 2,
     "type": "sentence",
@@ -6279,12 +6266,25 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "dime la temperatura ------ esta semana",
+    "choices": [
+      "más alta",
+      "preguntar",
+      "amplio",
+      "registro"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "está siendo el ------",
     "choices": [
-      "método",
-      "temporada",
+      "superficie",
+      "tabla",
       "verano",
-      "fuerte"
+      "insecto"
     ],
     "answer": 2,
     "type": "sentence",
@@ -6294,12 +6294,12 @@
   {
     "question": "qué probabilidad hay de que ------ esta semana",
     "choices": [
-      "brazo",
-      "valor",
-      "granice",
-      "de cultivos"
+      "prisa",
+      "no",
+      "tener",
+      "granice"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -6307,12 +6307,12 @@
   {
     "question": "confirme la alarma para ------ por la ------",
     "choices": [
-      "ascenso",
-      "pulgadas",
-      "mañana",
-      "soldado"
+      "país",
+      "corriente",
+      "lago",
+      "mañana"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -6320,9 +6320,9 @@
   {
     "question": "a qué hora está la alarma puesta ------",
     "choices": [
-      "gran",
-      "cierto",
-      "lucha",
+      "hombro",
+      "oxígeno",
+      "persona",
       "mañana"
     ],
     "answer": 3,
@@ -6333,12 +6333,12 @@
   {
     "question": "podrías recomendarme por favor un ------ mexicano que haga comida para llevar",
     "choices": [
-      "zona",
-      "que",
+      "si",
       "restaurante",
-      "podía"
+      "vino",
+      "podría"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -6346,12 +6346,12 @@
   {
     "question": "qué ------ ofertan comida para llevar",
     "choices": [
-      "comprado",
+      "guardar",
+      "arena",
       "restaurantes",
-      "grande",
-      "hace"
+      "incluir"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -6359,12 +6359,12 @@
   {
     "question": "puedo hacer un pedido de comida ------ a esta hora",
     "choices": [
-      "hijo",
-      "para llevar",
-      "arena",
-      "mercado"
+      "preguntar",
+      "monte",
+      "de nuevo",
+      "para llevar"
     ],
-    "answer": 1,
+    "answer": 3,
     "type": "sentence",
     "intent": "order",
     "extra": "Fill in the blank:"
@@ -6372,12 +6372,12 @@
   {
     "question": "quiero saber las últimas ------ de la ciudad",
     "choices": [
-      "siempre",
       "noticias locales",
-      "desgaste",
-      "semilla"
+      "sentido",
+      "barra",
+      "capturado"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -6385,12 +6385,12 @@
   {
     "question": "hacer café a las ------",
     "choices": [
-      "blanco",
+      "padre",
+      "su",
       "ocho de la mañana",
-      "línea",
-      "gran"
+      "morir"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "coffee",
     "extra": "Fill in the blank:"
@@ -6398,12 +6398,12 @@
   {
     "question": "haz cafe al ------",
     "choices": [
-      "clave",
-      "tomar",
-      "mes",
-      "mediodia"
+      "general",
+      "mediodia",
+      "diseño",
+      "carta"
     ],
-    "answer": 3,
+    "answer": 1,
     "type": "sentence",
     "intent": "coffee",
     "extra": "Fill in the blank:"
@@ -6412,9 +6412,9 @@
     "question": "reproducir nueva lista de reproducción de ------",
     "choices": [
       "rosalía",
-      "completo",
-      "cuerpo",
-      "semilla"
+      "en",
+      "cuello",
+      "pasar"
     ],
     "answer": 0,
     "type": "sentence",
@@ -6424,12 +6424,12 @@
   {
     "question": "crear una nueva lista de reproducción de ------",
     "choices": [
-      "hombres",
-      "llegar",
+      "eran",
       "lady gaga",
-      "idioma"
+      "valor",
+      "plazo"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -6437,12 +6437,12 @@
   {
     "question": "pon ------ y empieza con con altura",
     "choices": [
-      "ya sea",
+      "verdadero",
+      "hace",
       "rosalía",
-      "último",
-      "desde"
+      "historia"
     ],
-    "answer": 1,
+    "answer": 2,
     "type": "sentence",
     "intent": "music",
     "extra": "Fill in the blank:"
@@ -6450,12 +6450,12 @@
   {
     "question": "abre la aplicación de ------",
     "choices": [
-      "pista",
       "rtve",
-      "repita",
-      "problema"
+      "respuesta",
+      "danza",
+      "usted"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -6463,12 +6463,12 @@
   {
     "question": "abre mi actualización de la mañana de ------",
     "choices": [
-      "tamaño",
-      "caer",
-      "hierba",
-      "el país"
+      "usted",
+      "estado",
+      "el país",
+      "mercado"
     ],
-    "answer": 3,
+    "answer": 2,
     "type": "sentence",
     "intent": "query",
     "extra": "Fill in the blank:"
@@ -6476,23 +6476,10 @@
   {
     "question": "ve a pandora y encuentra ------ en la radio por favor",
     "choices": [
-      "tratar",
       "julio iglesias",
-      "más",
-      "empujar"
-    ],
-    "answer": 1,
-    "type": "sentence",
-    "intent": "music",
-    "extra": "Fill in the blank:"
-  },
-  {
-    "question": "busca en google música de ------ para escuchar",
-    "choices": [
-      "rafael",
-      "actual",
-      "voz",
-      "tal"
+      "habló",
+      "rosa",
+      "papá"
     ],
     "answer": 0,
     "type": "sentence",
@@ -6500,14 +6487,27 @@
     "extra": "Fill in the blank:"
   },
   {
+    "question": "busca en google música de ------ para escuchar",
+    "choices": [
+      "sombrero",
+      "rafael",
+      "de pie",
+      "años"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
     "question": "pon la playlist en ------",
     "choices": [
-      "discurso",
-      "verbo",
-      "modo aleatorio",
-      "como"
+      "repita",
+      "para",
+      "fin",
+      "modo aleatorio"
     ],
-    "answer": 2,
+    "answer": 3,
     "type": "sentence",
     "intent": "settings",
     "extra": "Fill in the blank:"

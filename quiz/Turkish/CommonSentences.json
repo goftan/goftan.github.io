@@ -1,0 +1,6515 @@
+[
+  {
+    "question": "------ beni sabah beşte uyandır",
+    "choices": [
+      "değişim",
+      "seçin",
+      "bu hafta",
+      "karşısında"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "beni ------ günü sabah dokuzda uyandır",
+    "choices": [
+      "cuma",
+      "tanımlamak",
+      "toprak",
+      "veya"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ alarm kur",
+    "choices": [
+      "iki saat sonrasına",
+      "değiştirmek",
+      "bahçe",
+      "tepe"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly ------ duraklat",
+    "choices": [
+      "kelime",
+      "ünsüz",
+      "on saniye",
+      "girin"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ duraklat",
+    "choices": [
+      "baba",
+      "on saniye",
+      "sormak",
+      "büyüdü"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "tek ihtiyacımız olan ------",
+    "choices": [
+      "rulo",
+      "gitti",
+      "akış",
+      "pembe"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "burada ışıklandırmayı az daha ------ yap",
+    "choices": [
+      "sıcak",
+      "yazılı",
+      "söyledi",
+      "giymek"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen aydınlatmayı ------ ayarla",
+    "choices": [
+      "büyü",
+      "elektrik",
+      "okumaya uygun",
+      "akşam"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışığı kapat",
+    "choices": [
+      "milyon",
+      "banyodaki",
+      "olmak",
+      "izin"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly ------ ışığı kıs",
+    "choices": [
+      "destek",
+      "holdeki",
+      "hayvan",
+      "seçin"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışıkları kıs",
+    "choices": [
+      "yağ",
+      "açtı",
+      "başka",
+      "koridordaki"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışıkları kapat",
+    "choices": [
+      "asker",
+      "var",
+      "yatak odasındaki",
+      "ders"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly ------ ışıkları kapat",
+    "choices": [
+      "yatak odasındaki",
+      "akış",
+      "karanlık",
+      "üst"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ışıkları ------ aç",
+    "choices": [
+      "cilt",
+      "açık",
+      "at",
+      "yüzde yirmi"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly ışıkları ------ ayarla",
+    "choices": [
+      "sorun",
+      "yüzde yirmiye",
+      "mavi",
+      "yüzde"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly ------ ışıkları kıs",
+    "choices": [
+      "akor",
+      "tehlike",
+      "mutfaktaki",
+      "gerek"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışıkları kıs",
+    "choices": [
+      "ders",
+      "nazik",
+      "vurmak",
+      "mutfaktaki"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ daha karanlık yap",
+    "choices": [
+      "değişim",
+      "enstrüman",
+      "odayı",
+      "gerekir"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly ------ temizle",
+    "choices": [
+      "cam",
+      "daireyi",
+      "zaman",
+      "acaba"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ temizle",
+    "choices": [
+      "daireyi",
+      "konuşma",
+      "doğa",
+      "düzlem"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ süpür",
+    "choices": [
+      "yok",
+      "işareti",
+      "erken",
+      "evi"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly ------ süpür",
+    "choices": [
+      "şekil",
+      "karakter",
+      "neden",
+      "evi"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "temizlik iyidir toz çok kötü şimdi sihrini yap ------ temizle",
+    "choices": [
+      "bağlı",
+      "doldurun",
+      "halımı",
+      "ayakkabı"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ u süpür",
+    "choices": [
+      "ancak",
+      "koridor",
+      "yelken",
+      "cam"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ı iyice süpür",
+    "choices": [
+      "serin",
+      "bir",
+      "kamyon",
+      "halılar"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "yine yeniden ------ şarkısı dinlemek istiyorum",
+    "choices": [
+      "madde",
+      "dünya",
+      "materyal",
+      "tarkan"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "o ------ bir kez daha çalmak istiyorum",
+    "choices": [
+      "nokta",
+      "ülke",
+      "müziği",
+      "göz"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ saat kaç",
+    "choices": [
+      "bilim",
+      "konuşmak",
+      "avustralya'da",
+      "yeni"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ saatin kaç olduğunu söyle",
+    "choices": [
+      "moskova'da",
+      "boya",
+      "takım elbise",
+      "civciv"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ saati söyle",
+    "choices": [
+      "bu yüzden",
+      "listesi",
+      "olsun",
+      "greenwich yerel saati artı beşteki"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly ------ in kaç olduğunu söyle bana",
+    "choices": [
+      "yanlış",
+      "karşı",
+      "gmt artı beş",
+      "gerçek"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly ------ yemeği i------ en yüksek yıldızlı teslimat opsiyonlarını listele",
+    "choices": [
+      "mıknatıs",
+      "inek",
+      "çin",
+      "besleme"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yemeği i------ en yüksek yıldızlı adrese teslimat opsiyonlar",
+    "choices": [
+      "kırmızı",
+      "gerçek",
+      "Test",
+      "çin"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yemeği i------ en fazla yıldızlı teslimat seçeneklerini listele",
+    "choices": [
+      "saymak",
+      "diye",
+      "gürültü",
+      "çin"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly ------ yemeği i------ en yüksek puanlı teslimat opsiyonları",
+    "choices": [
+      "su",
+      "pazar",
+      "yazılı",
+      "çin"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "paket servis ------ istiyorum tavsiyen var mı",
+    "choices": [
+      "iş",
+      "para",
+      "öğrenci",
+      "köri"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ almak istiyorum herhangi bir öneri olly",
+    "choices": [
+      "tepe",
+      "takım",
+      "tohum",
+      "köri"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim ------ tan pizza paket siparişimi bul",
+    "choices": [
+      "deneme",
+      "ve",
+      "ile",
+      "migros"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ benim ıspanaklı börek paketimi bul",
+    "choices": [
+      "migrostan",
+      "Çek",
+      "onlar",
+      "adam"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ alarmımı iptal et",
+    "choices": [
+      "bir",
+      "sabah yedi",
+      "olacak",
+      "yeni"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ alarmını durdur",
+    "choices": [
+      "istiyorum",
+      "bacak",
+      "sabah yedi",
+      "içinde"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ futbolda neler oluyor",
+    "choices": [
+      "kısa",
+      "bugün",
+      "arasında",
+      "konuştu"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ------ yesterday oynat",
+    "choices": [
+      "bitirmek",
+      "beatlesdan",
+      "kız",
+      "diye"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ arayan bulur dinlemek istiyorum",
+    "choices": [
+      "uygun",
+      "büyük ev ablukada'dan",
+      "yendi",
+      "görünüm"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ dert değil çal",
+    "choices": [
+      "metin arolat'tan",
+      "kural",
+      "toprak",
+      "hukuk"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ müziği seviyorum",
+    "choices": [
+      "gökyüzü",
+      "rock",
+      "söyledi",
+      "bizi"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "likeness",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "favori müzik grubum ------",
+    "choices": [
+      "kar",
+      "yazmak",
+      "mfö",
+      "bölünme"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "likeness",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ben ------ şarkılarını seviyorum",
+    "choices": [
+      "iyi",
+      "kenan doğulu",
+      "tuz",
+      "yakalandı"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "likeness",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ışıkları ------ getir",
+    "choices": [
+      "beri",
+      "bar",
+      "gezegen",
+      "maksimuma"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "hey ------ başlat",
+    "choices": [
+      "robot süpürgeyi",
+      "lastik",
+      "arasında",
+      "çöl"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ çalıştır",
+    "choices": [
+      "ay",
+      "almak",
+      "temizlik robotunu",
+      "win"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ tarihi bildir",
+    "choices": [
+      "bu",
+      "bugünkü",
+      "kural",
+      "henüz"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ günlerden ne",
+    "choices": [
+      "başka",
+      "hayır",
+      "renk",
+      "bugün"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ------ için suşi söyle",
+    "choices": [
+      "toplam",
+      "akşam yemeği",
+      "iz",
+      "can"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "hey senden ------ siparişi vermeni istiyorum",
+    "choices": [
+      "sen",
+      "dedi",
+      "taş",
+      "burger"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ akşam yemeği için sushi söyler misin",
+    "choices": [
+      "bu gece",
+      "asansör",
+      "gürültü",
+      "ünitesi"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ akşam yemeği için paket servisi sipariş edebilir miyim",
+    "choices": [
+      "keçe",
+      "koymak",
+      "ayakkabı",
+      "çiya'dan"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ paket servisini destekliyor mu",
+    "choices": [
+      "yetenekli",
+      "dokuz",
+      "konuşmak",
+      "byron's"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ alarm kur",
+    "choices": [
+      "varmak",
+      "sokak",
+      "satmak",
+      "on ikiye"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ alarm kur",
+    "choices": [
+      "işletmek",
+      "yüksek",
+      "yazdı",
+      "kırk dakika sonraya"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ saat sekize alarm kur",
+    "choices": [
+      "ada",
+      "dize",
+      "büyük",
+      "hafta içi her gün"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ mu",
+    "choices": [
+      "güzellik",
+      "ağaç",
+      "tüm",
+      "yağmur yağıyor"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ mı",
+    "choices": [
+      "onlar",
+      "izleyin",
+      "yağmur yağacak",
+      "gaz"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şu anda ------ mu",
+    "choices": [
+      "kolaylığı",
+      "kuş",
+      "kar yağıyor",
+      "kar"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava tahmini nasıl",
+    "choices": [
+      "daha",
+      "demek",
+      "haftanın",
+      "gürültü"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava durumu tahmini nedir",
+    "choices": [
+      "haftanın",
+      "ince",
+      "mağaza",
+      "ay"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıl",
+    "choices": [
+      "bu hafta",
+      "yol",
+      "kayıt",
+      "sorun"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava durumu nasıl",
+    "choices": [
+      "bu haftanın",
+      "baba",
+      "zor",
+      "ekmek"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava durumunu söyle",
+    "choices": [
+      "göstermektedir",
+      "iki",
+      "ön",
+      "bu haftaki"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ haberlerini söyle",
+    "choices": [
+      "ada",
+      "b. b. c.",
+      "kuyruk",
+      "payı"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ haberlerde haberler nedir",
+    "choices": [
+      "tohum",
+      "önce",
+      "b. b. c.",
+      "sarı"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ en son haberleri ne",
+    "choices": [
+      "formu",
+      "izle",
+      "halk tv'nin",
+      "çalışma"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ u çal",
+    "choices": [
+      "direniyorum",
+      "kesir",
+      "Test",
+      "kız"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ i çal",
+    "choices": [
+      "güle güle şekerim",
+      "bağırmak",
+      "faiz",
+      "vardı"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ çal",
+    "choices": [
+      "sezen aksu",
+      "Cts",
+      "çok",
+      "güç"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "biraz ------ çal",
+    "choices": [
+      "parça",
+      "sokak",
+      "mor ve ötesi",
+      "eleman"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "biraz ------ çal",
+    "choices": [
+      "izin",
+      "akış",
+      "zeki müren",
+      "halat"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bu şarkıyı ------ al",
+    "choices": [
+      "girin",
+      "döngüye",
+      "penceresi",
+      "oda"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bu oynatma listesini ------",
+    "choices": [
+      "dünya",
+      "karıştır",
+      "ileri",
+      "çocuk"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "sesi ------ ayarla",
+    "choices": [
+      "düşüğe",
+      "katılıyorum",
+      "örnek",
+      "onu"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "volume_down",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ bir fıkra anlat",
+    "choices": [
+      "kim",
+      "civciv",
+      "iyi",
+      "rüya"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ günlerden ne",
+    "choices": [
+      "toplamak",
+      "bugün",
+      "bitki",
+      "istasyon"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ anlat",
+    "choices": [
+      "denemek",
+      "bugünü",
+      "ışık",
+      "dans"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "quirky",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bir ------ sipariş et",
+    "choices": [
+      "benim",
+      "pizza",
+      "devlet",
+      "mağaza"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ den içli köfte siparişi ver",
+    "choices": [
+      "parti",
+      "tivoli",
+      "gitmek",
+      "siyah"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ servisi sipariş et",
+    "choices": [
+      "mülkiyet",
+      "gun",
+      "paket",
+      "her"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ne kadar var",
+    "choices": [
+      "düşük",
+      "ada",
+      "paket servisime",
+      "olsa"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ teslimat durumu",
+    "choices": [
+      "tüm",
+      "idare",
+      "zor",
+      "domino's"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim ------ çalma listemi oynat",
+    "choices": [
+      "inanıyorum",
+      "jazz",
+      "gürültü",
+      "kural"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim ------ playlistimi başlat",
+    "choices": [
+      "jazz",
+      "ses",
+      "elbise",
+      "ovmak"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ severim",
+    "choices": [
+      "jazz",
+      "düşmek",
+      "kelime",
+      "duyuyorum"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "likeness",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "biraz ------ çalabilir misin",
+    "choices": [
+      "caz",
+      "sonra",
+      "sonuç",
+      "okul"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ dinlemek istiyorum",
+    "choices": [
+      "bu",
+      "ay",
+      "kadar",
+      "caz"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly ------ dinlemek istiyorum",
+    "choices": [
+      "uzay",
+      "muhtemel",
+      "caz",
+      "ayak"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ etkinleştir",
+    "choices": [
+      "karışık çalmayı",
+      "gün",
+      "açık",
+      "senin"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "parlaklığı ------ ayarla",
+    "choices": [
+      "ada",
+      "yüzde elliye",
+      "usta",
+      "olacak"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yapıyorlar mı",
+    "choices": [
+      "kuru",
+      "paket servis",
+      "bırakın",
+      "eğlenceli"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "onlar ------ yapabiliyorlar mı",
+    "choices": [
+      "izin",
+      "teslimat",
+      "değiştirmek",
+      "yol"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "eve ------ yapıyorlar mı",
+    "choices": [
+      "kanıtlamak",
+      "adil",
+      "teslim",
+      "ördek"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly eve ------ yapıyorlar mı",
+    "choices": [
+      "resim",
+      "sıcak",
+      "teslimat",
+      "bölünme"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "alarmı ------ kur",
+    "choices": [
+      "kız",
+      "özellikle",
+      "kuru",
+      "sabah ona"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ sabah altıya alarm kur",
+    "choices": [
+      "bir",
+      "yarın",
+      "fiil",
+      "segmenti"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ sabah yedide uyan",
+    "choices": [
+      "o",
+      "elektrik",
+      "karakter",
+      "perşembe"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana en son ------ haberlerini söyle",
+    "choices": [
+      "teknoloji",
+      "toplamak",
+      "koştu",
+      "kafa"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana son ------ haberlerini söyle",
+    "choices": [
+      "öğretmek",
+      "işletmek",
+      "teknoloji",
+      "ayrı"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana biraz ------ haberlerini söyle",
+    "choices": [
+      "iş dünyası",
+      "ölçek",
+      "parlaklık",
+      "ışık"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ haberleri söyle",
+    "choices": [
+      "ya da",
+      "kravat",
+      "devlet",
+      "uluslararası"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şu an ------ mu",
+    "choices": [
+      "başladı",
+      "beş",
+      "yağmur yağıyor",
+      "lütfen"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim ------ çalma listemi çal",
+    "choices": [
+      "üçüncü",
+      "lastik",
+      "süreç",
+      "rock"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim ------ playlist imi aç",
+    "choices": [
+      "michael jackson",
+      "güçlü",
+      "bitki",
+      "biliyordu"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim çalma listemden ------ çal",
+    "choices": [
+      "tarkan",
+      "hece",
+      "yüz",
+      "taze"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim favori çalma listemdeki ------ çal",
+    "choices": [
+      "madde",
+      "ücretsiz",
+      "son şarkıyı",
+      "satın aldı"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ aç",
+    "choices": [
+      "prizi",
+      "ev",
+      "tekne",
+      "demek"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ aç",
+    "choices": [
+      "fişi",
+      "teşekkür ederim",
+      "ince",
+      "meydana"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ aç",
+    "choices": [
+      "destek",
+      "düz",
+      "prizimi",
+      "keçe"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ eve sipariş alıyor mu",
+    "choices": [
+      "kapak",
+      "fiil",
+      "cilt",
+      "dominos"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim favori ------ salonum paket servisi için uygun mu",
+    "choices": [
+      "Bu",
+      "güçlü",
+      "kırışık",
+      "pizza"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ lokantasından paket isteyebilir miyim",
+    "choices": [
+      "sabah",
+      "ispanyol",
+      "bütün",
+      "madde"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıl",
+    "choices": [
+      "sanayi",
+      "istanbul'da",
+      "açtı",
+      "yelken"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ hava durumunu söyle",
+    "choices": [
+      "orada",
+      "yatak",
+      "karısı",
+      "istanbul"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ışıkları ------ yap",
+    "choices": [
+      "okumaya uygun",
+      "taşımak",
+      "i",
+      "doğrudan"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ışığı ------ yap",
+    "choices": [
+      "kimin",
+      "çizmek",
+      "izlemeye uygun",
+      "geçmişi"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ daha parlak yap",
+    "choices": [
+      "gemi",
+      "belirlemek",
+      "daire",
+      "odayı"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ günün tarihi ne",
+    "choices": [
+      "takım elbise",
+      "saç",
+      "bugün",
+      "karşılamak"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ günlerden ne",
+    "choices": [
+      "bugün",
+      "faiz",
+      "aldı",
+      "görünüm"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıl",
+    "choices": [
+      "burun",
+      "dil",
+      "ebeveyn",
+      "bugün"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "dışarıda ------ var mı",
+    "choices": [
+      "karşı",
+      "şube",
+      "uzunluk",
+      "yağmur"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "dışarıda ------ mu olly",
+    "choices": [
+      "melodi",
+      "yağmur yağıyor",
+      "yalan",
+      "karakter"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ şemsiye getireyim mi",
+    "choices": [
+      "üzerinde",
+      "yarın",
+      "ifade",
+      "süt"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ müzik çal",
+    "choices": [
+      "durumu",
+      "rock listemden",
+      "en az",
+      "iddia"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ışıkları ------ çevir",
+    "choices": [
+      "başla",
+      "hatırlıyorum",
+      "sevinç",
+      "yeşile"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ------ temizle",
+    "choices": [
+      "yeri",
+      "dağ",
+      "erken",
+      "düşük"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ aç",
+    "choices": [
+      "run",
+      "aşçı",
+      "köle",
+      "pilav pişirme soketini"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ kapat",
+    "choices": [
+      "pilav pişirme makinesinin fişi",
+      "yol",
+      "civciv",
+      "kanat"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ da saat kaç",
+    "choices": [
+      "aydın",
+      "bölünme",
+      "kural",
+      "durumu"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ saat kaç",
+    "choices": [
+      "bayburt'ta",
+      "ön",
+      "şapka",
+      "kamp"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ den suşi siparişi vermeme yardımcı olur musun",
+    "choices": [
+      "hat",
+      "hazırlamak",
+      "hatırlıyorum",
+      "çin seddi"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ altıya alarm kur",
+    "choices": [
+      "gerçek",
+      "beslemek",
+      "sabah",
+      "uygulama"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ dörde alarm kur",
+    "choices": [
+      "öğleden sonra",
+      "düz",
+      "mavi",
+      "kural"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly ------ gitmek için öğleden sonra üçte beni uyar",
+    "choices": [
+      "Bu",
+      "tuz",
+      "konsere",
+      "özel"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ gitmek için beni öğleden sonra saat üçte uyar",
+    "choices": [
+      "faiz",
+      "asker",
+      "kadın",
+      "konsere"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ uçuş için ayarlanmış bir alarmım var mı",
+    "choices": [
+      "koştu",
+      "kimin",
+      "düşünmek",
+      "sabah"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ uyanmak için alarm kurdum mu",
+    "choices": [
+      "sabah",
+      "okumak",
+      "sonraki",
+      "düşmek"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yağmur yağıyor mu",
+    "choices": [
+      "Kullanım",
+      "ile",
+      "başarı",
+      "muğla'da"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yağmur var mı",
+    "choices": [
+      "büyü",
+      "kılavuz",
+      "bölüm",
+      "bugün"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ neler oluyor",
+    "choices": [
+      "bırakın",
+      "amerika'da",
+      "kilometre",
+      "harcamak"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ da neler oluyor",
+    "choices": [
+      "sık sık",
+      "dünya",
+      "yelken",
+      "makine"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ neler oluyor",
+    "choices": [
+      "var",
+      "cambridge'de",
+      "materyal",
+      "gri"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ birkaç haber göster",
+    "choices": [
+      "gun",
+      "b.b.c.'den",
+      "tek",
+      "keskin"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly bana ------ den birkaç haber göster",
+    "choices": [
+      "zemin",
+      "acele",
+      "b. b. c.",
+      "keskin"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ haberleri aç",
+    "choices": [
+      "tutmak",
+      "katılmak",
+      "ulus",
+      "c. n. n."
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly ------",
+    "choices": [
+      "istasyon",
+      "ile",
+      "teknoloji haberleri",
+      "komşu"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana biraz ------ çal",
+    "choices": [
+      "karısı",
+      "hip hop",
+      "okumak",
+      "besleme"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şu an canım çok ------ istiyor ya sen",
+    "choices": [
+      "küçük",
+      "toplam",
+      "jazz",
+      "hazır"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly şimdi de death ------",
+    "choices": [
+      "diye",
+      "metal",
+      "mağaza",
+      "yarış"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şimdi death ------",
+    "choices": [
+      "lütfen",
+      "metal",
+      "atomudur",
+      "inch"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly benim favori ------ oyuncumdan güzel bir bölüm oynat",
+    "choices": [
+      "Kullanım",
+      "mağaza",
+      "fenerbahçe",
+      "açık"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly benim en favori ------ müzik çal",
+    "choices": [
+      "ayı",
+      "piyanistimden",
+      "çağrı",
+      "siyah"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ışıkları ------ çevir",
+    "choices": [
+      "maviye",
+      "zemin",
+      "neden",
+      "sayfa"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "hadi ışıkları ------ yapalım",
+    "choices": [
+      "akor",
+      "mavi",
+      "meydana",
+      "ünlü"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ışıkları ------ yap",
+    "choices": [
+      "var",
+      "bebek",
+      "parlak mavi",
+      "yağ"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şimdi ------ saat kaç",
+    "choices": [
+      "dakika",
+      "istanbulda",
+      "inanıyorum",
+      "rakam"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ şarkısında şarkı ismiyle şarkıcı ne demek istedi",
+    "choices": [
+      "yaz gülü",
+      "kadar",
+      "payı",
+      "ben"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ şarkısını kim düzenledi",
+    "choices": [
+      "katılmak",
+      "izle",
+      "son bir gece daha",
+      "nokta"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıl",
+    "choices": [
+      "at",
+      "tanımlamak",
+      "paris'te",
+      "halka"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıl",
+    "choices": [
+      "yakın",
+      "doğa",
+      "kanıtlamak",
+      "toronto'da"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için bugünkü hava nasıl",
+    "choices": [
+      "zemin",
+      "hayır",
+      "hala",
+      "adana"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için son durum nedir",
+    "choices": [
+      "ince",
+      "brexit görüşmeleri",
+      "takım elbise",
+      "geliştirmek"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ nedir",
+    "choices": [
+      "olsun",
+      "hissetmek",
+      "bir",
+      "amerikan doları ingiliz sterlini oranları"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ sonraki seçimleri kim kazanacak",
+    "choices": [
+      "fransa'da",
+      "içinde",
+      "boyun",
+      "sabah"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ günü güneş bekliyor musun",
+    "choices": [
+      "girin",
+      "bayan",
+      "için",
+      "pazar"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yağmur var mı",
+    "choices": [
+      "güç",
+      "akşam",
+      "devlet",
+      "yerleşmek"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ rüzgârlı mı olacak",
+    "choices": [
+      "yarın",
+      "hız",
+      "motor",
+      "log"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışıkları yükselt",
+    "choices": [
+      "tuz",
+      "okyanus",
+      "gece",
+      "mutfaktaki"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lighton",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ aydınlat",
+    "choices": [
+      "kanepenin yanındaki lambayı",
+      "yükseltmek",
+      "pazar",
+      "muhtemel"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ saat kaç",
+    "choices": [
+      "çalışma",
+      "moskova'da",
+      "ileri",
+      "ödeme"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ çalıştır",
+    "choices": [
+      "dinle",
+      "elektrik süpürgesini",
+      "başladı",
+      "yok"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ süpür",
+    "choices": [
+      "mutfağı",
+      "karısı",
+      "doktor",
+      "kenar"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ aç",
+    "choices": [
+      "gökyüzü",
+      "yavaş",
+      "vakumlu süpürgeyi",
+      "ticaret"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ neler oluyor",
+    "choices": [
+      "kontrol",
+      "gökyüzü",
+      "dalga",
+      "dünyada"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ gazete başlıklarını söyle",
+    "choices": [
+      "kuş",
+      "gökyüzü",
+      "bugünkü",
+      "mısır"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ çal",
+    "choices": [
+      "nirvana çalma listesini",
+      "yirmi",
+      "ördek",
+      "başarı"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ şarkılarını karıştır",
+    "choices": [
+      "dağ",
+      "tam",
+      "volkan konak",
+      "tırmanış"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ çal",
+    "choices": [
+      "seçmek",
+      "ebeveyn",
+      "izleyin",
+      "harun kolçak"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıl",
+    "choices": [
+      "zift",
+      "kesim",
+      "bugün",
+      "baskı"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ den pizza iste",
+    "choices": [
+      "almak",
+      "penceresi",
+      "pizza express",
+      "kadın"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yemek istiyorum bana öğle yemeği sipariş eder misin",
+    "choices": [
+      "bırakın",
+      "sushi",
+      "kontrolü",
+      "ölmek"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "alexa bana ------ için sushi siparişi verebilir misin",
+    "choices": [
+      "insanlar",
+      "öğle yemeği",
+      "Cts",
+      "inek"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ dan eve servis sandviç ve çorba sipariş et",
+    "choices": [
+      "saç",
+      "katılmak",
+      "şekil",
+      "mezzaluna"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ kaç gün kaldı",
+    "choices": [
+      "kol",
+      "may",
+      "teklif",
+      "bu yıl"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yeni yıl hangi güne denk geliyor",
+    "choices": [
+      "konuştu",
+      "bu yıl",
+      "kamyon",
+      "devam etmek"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ cumhuriyet bayramı hangi gün",
+    "choices": [
+      "bu yıl",
+      "büyük",
+      "ileri",
+      "bit"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "parlaklığı ------ arttır",
+    "choices": [
+      "yüzde yirmi",
+      "bağlamak",
+      "düşünmek",
+      "ovmak"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ışıkları ------ ayarla",
+    "choices": [
+      "vardı",
+      "kapalı",
+      "tam güce",
+      "hizmet"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ------ sessiz ol",
+    "choices": [
+      "hayal",
+      "ses",
+      "sipariş",
+      "bir saat daha"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ konuşma",
+    "choices": [
+      "bugün",
+      "yüksek sesle",
+      "sıcak",
+      "akışı"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yağmur yağacak mı",
+    "choices": [
+      "çalışma",
+      "elma",
+      "bulut",
+      "yarın"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ bursa'da hava nasıl olacak söyler misin",
+    "choices": [
+      "hareket",
+      "iki gün sonra",
+      "kilometre",
+      "sıvı"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yanıma şemsiye alayım mı",
+    "choices": [
+      "büyük",
+      "yarın",
+      "seçim",
+      "olsun"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ çek",
+    "choices": [
+      "bu",
+      "fişi",
+      "vurmak",
+      "kanıtlamak"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ etkinleştir",
+    "choices": [
+      "prizimi",
+      "beslemek",
+      "kaydetmek",
+      "seçin"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ aç",
+    "choices": [
+      "içki",
+      "akıllı şarjı",
+      "kafa",
+      "uzunluk"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ tan teknoloji haberlerini söyle",
+    "choices": [
+      "engadget",
+      "gün",
+      "onun",
+      "bilim"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "düzlem",
+      "akşam",
+      "çok",
+      "acele"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "ayak",
+      "pazar",
+      "para",
+      "küçücük"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "kalp",
+      "yaz dostum",
+      "öfke",
+      "değiştirmek"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava durumu nasıl",
+    "choices": [
+      "bayburt'ta",
+      "parmak",
+      "şapka",
+      "ağız"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava durumunu öğrenmek istiyorum",
+    "choices": [
+      "izmir'deki",
+      "atmak",
+      "iyilik",
+      "ışık"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için hava durumunu öğrenmek istiyorum",
+    "choices": [
+      "grup",
+      "binmek",
+      "Bu",
+      "afyon"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ kar yağıyor mu",
+    "choices": [
+      "sanırım",
+      "çim",
+      "fiil",
+      "bolu'da"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ihtiyacı olan birine yardım ettim olly",
+    "choices": [
+      "bugün",
+      "pamuk",
+      "ürün",
+      "ünlü"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ başlat",
+    "choices": [
+      "kahve makinesini",
+      "adım",
+      "dahil",
+      "acaba"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıl olacak",
+    "choices": [
+      "karakter",
+      "yarın",
+      "meydana",
+      "sayfa"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yağmurlu mu olacak",
+    "choices": [
+      "yarın",
+      "köle",
+      "arkasında",
+      "konu"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ dışarısı kaç derece olacak",
+    "choices": [
+      "yardım",
+      "yarın",
+      "run",
+      "ana"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava için tahminler ne",
+    "choices": [
+      "yarınki",
+      "inşa etmek",
+      "kurşun",
+      "haber"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava tahminleri nasıl",
+    "choices": [
+      "geçmiş",
+      "olabilir",
+      "yarının",
+      "etkisi"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yağmur var mı",
+    "choices": [
+      "yukarıdaki",
+      "tek",
+      "inch",
+      "yarın"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ kar var mı",
+    "choices": [
+      "yarın",
+      "uzunluk",
+      "kötü",
+      "yarda"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ paket servisi siparişi alıyor mu bul",
+    "choices": [
+      "restoran",
+      "kısa",
+      "yeşil",
+      "dakika"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ eve servis yapıyor mu araştır",
+    "choices": [
+      "omuz",
+      "durdu",
+      "ince",
+      "restoran"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ menu paket servisi yapıyor mu",
+    "choices": [
+      "restoran",
+      "çan",
+      "burun",
+      "gun"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ haftanın hangi günüdür",
+    "choices": [
+      "çift",
+      "yirmi iki mart",
+      "daha fazla",
+      "hayır"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hangi güne denk geliyor",
+    "choices": [
+      "sistem",
+      "hatırlıyorum",
+      "martın yirmi dokuzu",
+      "yanlış"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hangi gün",
+    "choices": [
+      "bir nisan",
+      "harcamak",
+      "üç",
+      "alan"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ alarmım kaçta çalacak",
+    "choices": [
+      "bugün",
+      "ülke",
+      "açtı",
+      "yangın"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ müzik den sekizinci parçayı çal",
+    "choices": [
+      "ev",
+      "çiçek",
+      "yumuşak",
+      "google play"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ şarkılarından ikinci şarkıyı çal",
+    "choices": [
+      "mirkelam",
+      "seyahat",
+      "duvar",
+      "temel"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ mi",
+    "choices": [
+      "nokta",
+      "denemek",
+      "gezegen",
+      "bugün pazartesi"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıl",
+    "choices": [
+      "daha az",
+      "gece",
+      "tekirdağ'da",
+      "şirket"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şu an ------ güneşli mi",
+    "choices": [
+      "elma",
+      "hızlı",
+      "gaziantep",
+      "molekülü"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ dan kafama göre yi çal lütfen",
+    "choices": [
+      "win",
+      "athena",
+      "tren",
+      "bölmek"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen benim müzik aplikasyonumu aç ve ------ dan arsız gönül ü çal",
+    "choices": [
+      "düşünmek",
+      "athena",
+      "hizmet",
+      "okyanus"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ------ dan seni kendime sakladım şarkı sını çal",
+    "choices": [
+      "uygulama",
+      "duman",
+      "kesir",
+      "tarafından"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışıklarını kapat",
+    "choices": [
+      "garaj",
+      "şirket",
+      "küçük",
+      "rulo"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için popüler haberleri kontrol et",
+    "choices": [
+      "yol",
+      "küçük",
+      "çan",
+      "hürriyet haber"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ da sansasyonel ne var",
+    "choices": [
+      "yeni çağ",
+      "yalan",
+      "yanlış",
+      "şans"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ herhangi bir ölüm haberi var mı",
+    "choices": [
+      "banka",
+      "sık sık",
+      "yükselecek",
+      "hindistan zamanında"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hakkında daha fazla haber olur olmaz bana haber ver",
+    "choices": [
+      "brexit",
+      "milyon",
+      "söyle",
+      "onlar"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ kapat",
+    "choices": [
+      "aracı",
+      "akıllı prizi",
+      "yukarıdaki",
+      "ders"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ aç",
+    "choices": [
+      "geçmek",
+      "akıllı prizi",
+      "söyle",
+      "hareket"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ aç",
+    "choices": [
+      "iyi",
+      "akıllı prizi",
+      "uygun",
+      "ölçmek"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim çalma listemden ------ bir şarkı aç",
+    "choices": [
+      "ovmak",
+      "tekrar",
+      "seyahat",
+      "rakam"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ öğlen ise içelde saat kaç",
+    "choices": [
+      "seviyesi",
+      "hatayda",
+      "Çek",
+      "sahil"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ zaman dilimi ile pasifik zaman dilimi arasındaki zaman farkı nedir",
+    "choices": [
+      "doğu",
+      "farklı",
+      "akış",
+      "katılmak"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ batsın bu dünyayı çal",
+    "choices": [
+      "köpek",
+      "inanıyorum",
+      "denemek",
+      "ferdi tayfurdan"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ dan herhangi bir şarkı çal",
+    "choices": [
+      "nasıl",
+      "kurban",
+      "ben",
+      "herhangi bir"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ sıcak olacak mı",
+    "choices": [
+      "sorun",
+      "yüzde",
+      "koymak",
+      "yarın"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışık renklerini değiştirebilir misin",
+    "choices": [
+      "atmak",
+      "hareket",
+      "evdeki",
+      "kalın"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışık renklerini karıştırabilir misin",
+    "choices": [
+      "tohum",
+      "aldı",
+      "su",
+      "evdeki"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ içindeki ışık renklerini koyuya çevirir misin",
+    "choices": [
+      "bir",
+      "yakalandı",
+      "evin",
+      "süreç"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ müzik dinlemek istiyorum lütfen",
+    "choices": [
+      "yangın",
+      "balık",
+      "ses",
+      "pop"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ rock müzik çalabilir misin",
+    "choices": [
+      "öğlen",
+      "kare",
+      "bir saat sonra",
+      "incir"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ bir fıkra anlat",
+    "choices": [
+      "komik",
+      "hakkında",
+      "onlar",
+      "öldürmek"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "oda ışıklarımı ------ çevir",
+    "choices": [
+      "teşekkür ederim",
+      "karşı",
+      "tam",
+      "maviye"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim odamın ışıklarını ------ renkte bir şeylere değiştir",
+    "choices": [
+      "diye",
+      "romantik",
+      "yaz",
+      "kadar"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim ışıklarımı değiştir böylece ------ çekebileyim",
+    "choices": [
+      "vardı",
+      "süreç",
+      "mavi",
+      "iyi bir uyku"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim için ------ bir alarm kur",
+    "choices": [
+      "Yani",
+      "sabah sekize",
+      "ağız",
+      "puan"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ öğleden sonra dörde alarm kur",
+    "choices": [
+      "kız",
+      "at",
+      "saat",
+      "belirlemek"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için bana alarm kur",
+    "choices": [
+      "sabah sekiz kırk beş",
+      "görünüm",
+      "yavaş",
+      "tam"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ haberleri ne",
+    "choices": [
+      "ünlü",
+      "avı",
+      "sistem",
+      "yarım elma"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ aç",
+    "choices": [
+      "yol",
+      "birinci prizi",
+      "ev",
+      "buz"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışıklarını kapat",
+    "choices": [
+      "değiştirmek",
+      "kural",
+      "yaz",
+      "banyo"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışıklarını kapat",
+    "choices": [
+      "yirmi",
+      "banyo",
+      "kart",
+      "pamuk"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışıkları kapansın",
+    "choices": [
+      "katılmak",
+      "sanat",
+      "banyo",
+      "i"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıl",
+    "choices": [
+      "sandalye",
+      "şekil",
+      "cuma günü",
+      "çim"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şu an dışarısı ne kadar ------",
+    "choices": [
+      "ön",
+      "kanıtlamak",
+      "erkekler",
+      "sıcak"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ günlerden ne",
+    "choices": [
+      "nokta",
+      "karşılaştırma",
+      "bugün",
+      "buhar"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "gelece ------ hangi gününe geliyor",
+    "choices": [
+      "geçmiş",
+      "kişi",
+      "erkekler",
+      "salı ayın"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ klasörünü çal",
+    "choices": [
+      "dini sohbetler",
+      "tam",
+      "bütün",
+      "iddia"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ klasörünü aç",
+    "choices": [
+      "diye",
+      "zaman",
+      "dini sohbetler",
+      "vahşi"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yağmur yağacak mı",
+    "choices": [
+      "uyku",
+      "açtı",
+      "desen",
+      "bugün"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ mont giymeli miyim",
+    "choices": [
+      "temiz",
+      "bugün",
+      "aralığı",
+      "kavga"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "hareket",
+      "karıştırmayı devre dışı bırak",
+      "desen",
+      "ısı"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "albümü ------",
+    "choices": [
+      "sezon",
+      "tekrarla",
+      "gösterisi",
+      "sorun"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ çal",
+    "choices": [
+      "olur",
+      "kalın",
+      "mor ve ötesi",
+      "bir"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ müziği çal",
+    "choices": [
+      "görüş",
+      "eski noel",
+      "ördek",
+      "sarı"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ çalıştır",
+    "choices": [
+      "sonra",
+      "besleme",
+      "kahve makinesini",
+      "ne"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ile ilgili en son haberleri getir",
+    "choices": [
+      "bim stok fiyatı",
+      "ders",
+      "kutu",
+      "kasaba"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ kim önde",
+    "choices": [
+      "seçimlerde",
+      "büyük",
+      "yarda",
+      "satın aldı"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ tarihi nedir",
+    "choices": [
+      "bugünün",
+      "sopa",
+      "buhar",
+      "güç"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışıkları maviye çevir",
+    "choices": [
+      "gel",
+      "gaz",
+      "mutfaktaki",
+      "kanat"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışıkları kırmızı yap",
+    "choices": [
+      "oturma odasındaki",
+      "beş",
+      "güney",
+      "delik"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışıklarını yeşile çevir",
+    "choices": [
+      "düştü",
+      "yatak odası",
+      "durumu",
+      "kapak"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ müzik dinlemek istiyorum",
+    "choices": [
+      "ayak",
+      "uyku",
+      "klasik",
+      "yavaş"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ dinlemek istiyorum",
+    "choices": [
+      "dedi",
+      "geçmiş",
+      "üretmek",
+      "caz"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışık parlaklığını arttır",
+    "choices": [
+      "güzellik",
+      "olmak",
+      "yukarıdaki",
+      "yatak odamdaki"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ kapat",
+    "choices": [
+      "yuvarlak",
+      "lambayı",
+      "at",
+      "seçim"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ 'dan şarkılar çal",
+    "choices": [
+      "sia",
+      "zaman",
+      "aile",
+      "söyledi"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ çal",
+    "choices": [
+      "ceza",
+      "karşısında",
+      "zor",
+      "kan"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ şarkıları aç",
+    "choices": [
+      "ovmak",
+      "iş",
+      "kenan doğuludan",
+      "saç"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ile ilgili haberleri bul",
+    "choices": [
+      "önce",
+      "maç",
+      "brexit",
+      "girin"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hakkında haberleri aç",
+    "choices": [
+      "paragraf",
+      "neden",
+      "bir kez",
+      "petrol ofisi"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ hakkında haberleri bul",
+    "choices": [
+      "parlak",
+      "bahar",
+      "trump'ın konuşması",
+      "at"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ saat kaç",
+    "choices": [
+      "arama",
+      "yaz",
+      "diğer saat dilimlerinde",
+      "bitki"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hangi saat diliminde",
+    "choices": [
+      "hatay",
+      "yıldız",
+      "ürün",
+      "kulak"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ da saat kaç",
+    "choices": [
+      "istanbul",
+      "kırpma",
+      "kart",
+      "orijinal"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şu an ------ da saat kaç",
+    "choices": [
+      "bitki",
+      "zaman",
+      "hindistan",
+      "iyilik"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şu an ------ saat kaç",
+    "choices": [
+      "desen",
+      "mektup",
+      "avustralya'da",
+      "tohum"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "dışarısı kaç ------",
+    "choices": [
+      "geldi",
+      "derece",
+      "molası",
+      "çağdaş"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "dışarısı ------ mı",
+    "choices": [
+      "üst",
+      "fikir",
+      "sıcak",
+      "geçmiş"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "dışarısı ------ mu",
+    "choices": [
+      "insan",
+      "o zaman",
+      "soğuk",
+      "nehir"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bildiğin ------ bir fıkra nedir",
+    "choices": [
+      "öldürmek",
+      "saçma",
+      "şube",
+      "altı"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bildiğin ------ bir şaka",
+    "choices": [
+      "arasında",
+      "saçma",
+      "rüya",
+      "insan"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ bir espri nasıl olur",
+    "choices": [
+      "iyi",
+      "korku",
+      "hukuk",
+      "kişi"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ışık rengini ------ olarak değiştir",
+    "choices": [
+      "arasında",
+      "mavi",
+      "boyut",
+      "sert"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "rengin ------ olduğunu teyit et",
+    "choices": [
+      "may",
+      "kalın",
+      "mavi",
+      "yetenekli"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ışık rengini ------ değiştir",
+    "choices": [
+      "kırmızıya",
+      "dağ",
+      "merkezi",
+      "mağaza"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ te saat kaç",
+    "choices": [
+      "bulundu",
+      "kim",
+      "karşılaştırma",
+      "bilecik"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ saat kaç",
+    "choices": [
+      "özledim",
+      "insanlar",
+      "doğa",
+      "aksarayda"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ dan şarkılar aç",
+    "choices": [
+      "ünlü",
+      "uygulama",
+      "tarkan",
+      "şarkı söylemek"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ boyunca sessize al lütfen",
+    "choices": [
+      "egzersiz",
+      "korumak",
+      "biz",
+      "bir sonraki saat"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ bir fıkra anlat",
+    "choices": [
+      "öldürmek",
+      "tarafından",
+      "izleyin",
+      "rastgele"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "en son ------ haberleri nelerdir",
+    "choices": [
+      "kâğıt",
+      "dünya",
+      "daha fazla",
+      "koku"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen bana ------ haberleri var",
+    "choices": [
+      "uluslararası",
+      "yardım",
+      "oturmak",
+      "karakter"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ alarm kur",
+    "choices": [
+      "canlı",
+      "gerektirir",
+      "tekne",
+      "sabah dokuza"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için bir uyandırma çağrısı ayarla",
+    "choices": [
+      "sabah saat on",
+      "zemin",
+      "sonra",
+      "ayrı"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hatırlatma alarmına ihtiyacım var",
+    "choices": [
+      "sınıf",
+      "kavga",
+      "birde",
+      "dükkan"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için alarm kur",
+    "choices": [
+      "olsun",
+      "ebeveyn",
+      "öğleden sonra üç",
+      "çan"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için alarmı aç",
+    "choices": [
+      "ses",
+      "sıcak",
+      "Çek",
+      "sabah dokuz"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ alarm kur",
+    "choices": [
+      "uzay",
+      "dava",
+      "öğleden sonra bire",
+      "kötü"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "albüm adını ------ ara",
+    "choices": [
+      "hadiseyle",
+      "teşekkür ederim",
+      "çocuk",
+      "büyük"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ den prenses şarkı sını aç",
+    "choices": [
+      "kırdı",
+      "hadise",
+      "takım",
+      "radyo"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şarkıyı ------ aç",
+    "choices": [
+      "sanırım",
+      "arasında",
+      "birkaç",
+      "hemen"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ fıkra hangisi",
+    "choices": [
+      "yüzmek",
+      "en komik",
+      "orijinal",
+      "olağan"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ bir fıkra anlat",
+    "choices": [
+      "edepsiz",
+      "toplamak",
+      "kalmak",
+      "tren"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ------ şarkısının sesini yükselt",
+    "choices": [
+      "kusura bakma",
+      "kuzey",
+      "dinle",
+      "derecesi"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "volume_up",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ------ karışımını düşür",
+    "choices": [
+      "çözmek",
+      "bulutsuzluk özlemi",
+      "olsun",
+      "göl"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ------ 'dan o müziği yine tekrar et",
+    "choices": [
+      "tekrar",
+      "zehra",
+      "yemek",
+      "bu yüzden"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışıkları kapat",
+    "choices": [
+      "oturma odasındaki",
+      "hayır",
+      "resim",
+      "dünya"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ------ ışıklarını kapanmaya ayarla",
+    "choices": [
+      "oturma odası",
+      "güzellik",
+      "başarı",
+      "tartışma"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ den allahından bul u çal",
+    "choices": [
+      "tartışmak",
+      "ezhel",
+      "yarda",
+      "tek"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "biraz ------ müziği alabilir miyim",
+    "choices": [
+      "bayan",
+      "denemek",
+      "fon",
+      "sert"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için kurulu herhangi bir alarmım var mı",
+    "choices": [
+      "yarın",
+      "kedi",
+      "emin",
+      "kolaylığı"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için alarm durumu nedir",
+    "choices": [
+      "kemik",
+      "yarın",
+      "birkaç",
+      "göl"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ alarmını kapa",
+    "choices": [
+      "seçmek",
+      "sabah sekiz",
+      "kuru",
+      "işareti"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ alarmımı iptal et",
+    "choices": [
+      "sabah sekiz",
+      "kuş",
+      "tohum",
+      "üzerinde"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ alarmımdan kurtul",
+    "choices": [
+      "sabah sekiz",
+      "tırmanış",
+      "kural",
+      "kedi"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ kaç derece",
+    "choices": [
+      "omuz",
+      "sıcaklık",
+      "ilk",
+      "düşünce"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ne kadar ------",
+    "choices": [
+      "şube",
+      "kare",
+      "siyah",
+      "sıcak"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ne kadar ------",
+    "choices": [
+      "bahçe",
+      "soğuk",
+      "orta",
+      "karıştırmak"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ayın ------ kaç doğum günü var",
+    "choices": [
+      "birlikte",
+      "kendi",
+      "olay",
+      "yirmi üçünde"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ayın on ikinci günü mü",
+    "choices": [
+      "ikinci cumartesi",
+      "daha iyi",
+      "güvenli",
+      "eleman"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ kurban bayramı mı",
+    "choices": [
+      "yirmi ikisi",
+      "formu",
+      "dünya",
+      "o"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "aynı ------ on dakika boyunca tekrarla",
+    "choices": [
+      "aralığı",
+      "şarkıyı",
+      "getirmek",
+      "güzel"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "sadece belirli şarkıcı ------ ını çal",
+    "choices": [
+      "şarkılar",
+      "şarkı",
+      "hız",
+      "köle"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ liste oynat",
+    "choices": [
+      "şarkı",
+      "birden ona",
+      "sayfa",
+      "kayma"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışığı kapat",
+    "choices": [
+      "puan",
+      "sipariş",
+      "baskı",
+      "balkondaki"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ kapat",
+    "choices": [
+      "koymak",
+      "lambayı",
+      "göstermektedir",
+      "tel"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yağmur yağacak mı",
+    "choices": [
+      "vurmak",
+      "yarın",
+      "zemin",
+      "neden"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ öğleden sonra beş buçukta güneş batacak mı",
+    "choices": [
+      "acaba",
+      "yeni",
+      "grafiği",
+      "yarın"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yağmur ihtimali var mı",
+    "choices": [
+      "koloni",
+      "bu hafta",
+      "en",
+      "doktor"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ne var",
+    "choices": [
+      "kılavuz",
+      "soru",
+      "trend",
+      "çok"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yeni haberleri neler",
+    "choices": [
+      "bağlı",
+      "bugünün",
+      "Şehir",
+      "yaz"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ saat diliminde saat kaç",
+    "choices": [
+      "gibi",
+      "acele",
+      "doğu",
+      "on"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şimdi ne kadar ------",
+    "choices": [
+      "şeker",
+      "sıcak",
+      "kaya",
+      "anne"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şu anda radyolarda dinlenen ------ dinleyebilir miyi",
+    "choices": [
+      "elli hit şarkıyı",
+      "çok",
+      "hikaye",
+      "melodi"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen şimdi akşam yemeği için ------ müzik çal",
+    "choices": [
+      "klasik",
+      "eleman",
+      "kaydetmek",
+      "doldurmak"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ 'dan sen ağlama dinlemek istiyorum lütfen",
+    "choices": [
+      "dilek",
+      "sezen aksu",
+      "kontrolü",
+      "başarı"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ın hit şarkısını çalabilir misin",
+    "choices": [
+      "tarkan",
+      "bitti",
+      "burada",
+      "bölüm"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ 'dan benim favori şarkımı dinlemek istiyorum",
+    "choices": [
+      "baz",
+      "göndermek",
+      "harita",
+      "grup abdal"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "alarmı ------ başlayacak şekilde değiştir",
+    "choices": [
+      "olay",
+      "geceyarısı",
+      "bebek",
+      "takım elbise"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıl olacak",
+    "choices": [
+      "açtı",
+      "sessiz",
+      "başla",
+      "bundan sonraki hafta"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ günü hava nasıl olacak",
+    "choices": [
+      "her",
+      "salı",
+      "sermaye",
+      "çocuk"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için hava durumu tahmini nedir",
+    "choices": [
+      "hafta sonu",
+      "bebek",
+      "oda",
+      "karşı"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ sessize al",
+    "choices": [
+      "çözmek",
+      "taze",
+      "yirmi dakikalığına",
+      "fiil"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ sabah altıda uyanmak istiyorum lütfen",
+    "choices": [
+      "yarın",
+      "bit",
+      "buz",
+      "yüzmek"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ------ yedi için alarmı kur",
+    "choices": [
+      "istiyorum",
+      "kar",
+      "ertesi sabah",
+      "kardeş"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen gelecek ------ sabah sekizde uyandırma alarmını çal",
+    "choices": [
+      "baba",
+      "cumartesi",
+      "çim",
+      "sevinç"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ çalma listesini çal",
+    "choices": [
+      "kitap",
+      "yedi no lu",
+      "sembol",
+      "eğlenceli"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ haftanın hangi gününe geliyor",
+    "choices": [
+      "ramazan bayramı",
+      "uzunluk",
+      "akşam",
+      "şeker"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ son günü hangisi",
+    "choices": [
+      "tam",
+      "eleman",
+      "iyi",
+      "ayın"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ saat kaç",
+    "choices": [
+      "ülke",
+      "bakım",
+      "merkezi",
+      "boyut"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şu anki ------ saati kaç",
+    "choices": [
+      "yol",
+      "sorun",
+      "hafta",
+      "dağ"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ile ilgili son tartışma nedir",
+    "choices": [
+      "bulundu",
+      "işareti",
+      "zihin",
+      "tayyip erdoğan"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ile ilgili son tartışma nedir",
+    "choices": [
+      "kâğıt",
+      "arasında",
+      "joe biden",
+      "vadeli"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen radyoda ------ çal",
+    "choices": [
+      "hazır",
+      "katılmak",
+      "mümkün",
+      "hande yener"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen bana ------ dinlet",
+    "choices": [
+      "bakım",
+      "çözüm",
+      "başka",
+      "pırlantayı"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ nin son albümünden en son hit şarkıyı çal lütfen",
+    "choices": [
+      "gümüş",
+      "çocuk",
+      "yakın",
+      "mor ve ötesi"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ile ilgili haber olursa bana bildir",
+    "choices": [
+      "korumak",
+      "özledim",
+      "dakota boru hattı",
+      "süre"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ile ilgili haberler için bildirim ayarla",
+    "choices": [
+      "meşgul",
+      "oynamak",
+      "tam",
+      "boğaz kazası"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hakkında haber olursa beni haberdar et",
+    "choices": [
+      "giydirmek",
+      "seviyesi",
+      "dakota boru hattı",
+      "getirmek"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ çalıştır",
+    "choices": [
+      "vahşi",
+      "elektrik süpürgesini",
+      "dalga",
+      "anlık"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ başlat",
+    "choices": [
+      "öğretmek",
+      "özellikle",
+      "kapak",
+      "elektrik süpürgesini"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ilgili komik bir fıkra ne",
+    "choices": [
+      "mümkün",
+      "oluşturmak",
+      "dağ",
+      "arabalarla"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bir ------ ile ilgili bir fıkra anlat",
+    "choices": [
+      "temel",
+      "yaz",
+      "adam",
+      "ay"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana bir ------ fıkrası anlatır mısın",
+    "choices": [
+      "yelken",
+      "hayvan",
+      "onu",
+      "sormak"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ bu şarkıyı oynatmamı hatırlat",
+    "choices": [
+      "aldı",
+      "öğlen",
+      "işletmek",
+      "bu gece"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ den bir şarkı çal",
+    "choices": [
+      "yedi",
+      "başkasının yeri",
+      "iddia",
+      "adele"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ açmana ihtiyacım var",
+    "choices": [
+      "bit",
+      "elektrik süpürgesini",
+      "tam",
+      "oksijen"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ en yüksek sıcaklık kaç derece olacak",
+    "choices": [
+      "bu hafta",
+      "orman",
+      "komşu",
+      "daha fazla"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ışığı ------ yükselt",
+    "choices": [
+      "nihai",
+      "kart",
+      "bir parça",
+      "oturmak"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ışığı ------ artır",
+    "choices": [
+      "anahtar",
+      "kaybetti",
+      "kalın",
+      "biraz"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için hiç kurulu alarmım var mı",
+    "choices": [
+      "başka",
+      "temiz",
+      "avı",
+      "bugün"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ışıklarını kapat",
+    "choices": [
+      "kedi",
+      "oda",
+      "şey",
+      "avı"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ışıkları kontrol et ------ ışıklarını kapat",
+    "choices": [
+      "tipi",
+      "oda",
+      "banka",
+      "renk"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "biraz ------ müzik koyabilirsin",
+    "choices": [
+      "enerji",
+      "karıştırmak",
+      "elma",
+      "ilahi"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bir kaç ------ müziği dinlemek istiyorum",
+    "choices": [
+      "sonrası",
+      "birkaç",
+      "ilahi",
+      "soğuk"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ şu an hava nasıl",
+    "choices": [
+      "dokunma",
+      "kaliforniya'da",
+      "bacak",
+      "toplamak"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ mevcut hava durumu ne",
+    "choices": [
+      "ankarada",
+      "kaya",
+      "açık",
+      "iyilik"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ şu an saat kaç",
+    "choices": [
+      "kadın",
+      "kaliforniya'da",
+      "hikaye",
+      "dünya"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şu an ------ saat",
+    "choices": [
+      "ödeme",
+      "olmaz",
+      "new york'ta",
+      "birkaç"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ da mevcut saat",
+    "choices": [
+      "iş",
+      "istasyon",
+      "üst",
+      "japonya"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ta akşam altı burada kaç",
+    "choices": [
+      "ondalık",
+      "zaman",
+      "uygulama",
+      "kuzey kıbrıs"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ve eskişehir arasında kaç saat fark olduğunu söyleyebilir misin",
+    "choices": [
+      "anlık",
+      "yeterli",
+      "durumu",
+      "izmir"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "acilen iki ------ ve bir kola istiyorum",
+    "choices": [
+      "burger",
+      "sanayi",
+      "kenar",
+      "her zaman"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim için iki ------ sipariş et",
+    "choices": [
+      "ada",
+      "bar",
+      "giymek",
+      "hamburger"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bir ------ sipariş et",
+    "choices": [
+      "onların",
+      "basit",
+      "pizza",
+      "büyü"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen şarj olduğunda ------ kapat",
+    "choices": [
+      "karakter",
+      "telefonumun prizini",
+      "karanlık",
+      "uzak"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ben eve gelince ------ prizi aç",
+    "choices": [
+      "t. v.",
+      "güney",
+      "çocuk",
+      "tam"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ şarj olmadan prizi kapatmanı istiyorum",
+    "choices": [
+      "cep telefonu",
+      "çok",
+      "uzunluk",
+      "sabah"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hakkında beni haberdar tut",
+    "choices": [
+      "daha az",
+      "bitcoin fiyatı",
+      "gösterisi",
+      "sistem"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "beni ------ haberdar et",
+    "choices": [
+      "hisse senedi fiyatlarından",
+      "doğal",
+      "inch",
+      "daire"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "stock",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ile ilgili gelecek te haberleri takip et",
+    "choices": [
+      "satmak",
+      "yangın",
+      "hilary e-posta meselesi",
+      "boyut"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ çalabilir misin",
+    "choices": [
+      "son şarkımı",
+      "kadın",
+      "haber",
+      "bar"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ dan bir şarkı çal",
+    "choices": [
+      "çağdaş",
+      "michael jackson",
+      "ışık",
+      "olduğunu"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "dün ------ saat altıdan bir şarkı çal",
+    "choices": [
+      "tehlike",
+      "segmenti",
+      "liman",
+      "akşam"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şu anda ------ da saat kaç",
+    "choices": [
+      "gösterisi",
+      "oldu",
+      "yirmi",
+      "aydın"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ daki saati ver",
+    "choices": [
+      "senin",
+      "öfke",
+      "çözüm",
+      "hatay"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana şimdi ------ daki saati söyle",
+    "choices": [
+      "ankara",
+      "canlı",
+      "dolar",
+      "tipi"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "yemek siparişi vermek ve ------ olduğunu görmek istiyorum",
+    "choices": [
+      "izleyin",
+      "var",
+      "teslim edilmiş",
+      "kötü"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "güncel siparişimin ------ durumunu kontrol et",
+    "choices": [
+      "teslimat",
+      "akışı",
+      "dize",
+      "taze"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ara ve teslimatın yolda mı olduğunu sor",
+    "choices": [
+      "devlet",
+      "restoranı",
+      "hazırlamak",
+      "katılıyorum"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ------ daha fazla aydınlat",
+    "choices": [
+      "seçim",
+      "iki",
+      "böylece",
+      "odayı"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ de neler oluyor",
+    "choices": [
+      "kongre",
+      "sıcak",
+      "ürün",
+      "güzel"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ bir şey söyle",
+    "choices": [
+      "yakında",
+      "komik",
+      "iyi",
+      "olsun"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ dinlemek istiyorum lütfen",
+    "choices": [
+      "hangi",
+      "kilometre",
+      "radio head",
+      "parti"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şimdi ------ dinlemek istiyorum",
+    "choices": [
+      "fazıl say",
+      "kısa",
+      "orada",
+      "satmak"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ yarışına şu an kim liderlik ediyor",
+    "choices": [
+      "temiz",
+      "formula bir",
+      "ev",
+      "var"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ile ilgili güncellemeleri getir",
+    "choices": [
+      "yaz",
+      "ücretsiz",
+      "seçim anketi",
+      "üzerinde"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ gazetesinden başlıkları oku",
+    "choices": [
+      "cumhuriyet",
+      "izleyin",
+      "penceresi",
+      "gerçek"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ den son haberleri duymak istiyorum",
+    "choices": [
+      "basın",
+      "sıcaklık",
+      "birkaç",
+      "c. n. n."
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ son dakika haberlerini gösterir misin",
+    "choices": [
+      "sözcü'nün",
+      "yer",
+      "buz",
+      "kötü"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ son haberlerini bilmek istiyorum",
+    "choices": [
+      "makine",
+      "öğretmek",
+      "sipariş",
+      "akdeniz gazetesi"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen bana son ------ haberlerini oku",
+    "choices": [
+      "boston tribute",
+      "özledim",
+      "gerçek",
+      "ay"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ türkten son dakika haberlerini öğrenmek istiyorum",
+    "choices": [
+      "iki",
+      "sistem",
+      "hala",
+      "c. n. n."
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ sabah saat dörtte bir alarm oluştur",
+    "choices": [
+      "düşman",
+      "yarın",
+      "büyük",
+      "çöl"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ beni uyandırmak için alarm kur",
+    "choices": [
+      "an",
+      "beş saat sonra",
+      "bu",
+      "görmek"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "beni ------ uyandıracak bir alarm ayarla",
+    "choices": [
+      "iddia",
+      "hizmet",
+      "üç saat sonra",
+      "halat"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava durumunu ver",
+    "choices": [
+      "haftalık",
+      "hariç",
+      "erkekler",
+      "atomudur"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bu ------ için hava durumunu göster",
+    "choices": [
+      "tutulan",
+      "onlar",
+      "hafta",
+      "penceresi"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava durumu ayrıntılarını özetleyin",
+    "choices": [
+      "yıl",
+      "haftanın",
+      "istasyon",
+      "üst"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ şarkıları dinlemek istiyorum",
+    "choices": [
+      "adele",
+      "eğer",
+      "elma",
+      "karşısında"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bundan sonra bir ------ şarkısı çal",
+    "choices": [
+      "yazmak",
+      "nerede",
+      "enrique iglesias",
+      "vardı"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bundan sonra en son ------ şarkılarını çal",
+    "choices": [
+      "grup",
+      "ahşap",
+      "aleyna tilki",
+      "son"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ dışarısı ne kadar soğuk",
+    "choices": [
+      "bekliyoruz",
+      "birçok",
+      "bugün",
+      "idare"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ sıcaklık ne",
+    "choices": [
+      "tekrar",
+      "koymak",
+      "bugün",
+      "temel"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ etraf ne kadar nemli",
+    "choices": [
+      "güvenli",
+      "dan",
+      "zift",
+      "bugün"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ve soul türü parçalar çal",
+    "choices": [
+      "rb",
+      "iddia",
+      "basın",
+      "gösterisi"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bütün en son ------ parçalar ı çal",
+    "choices": [
+      "aldı",
+      "pop",
+      "Çek",
+      "özledim"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "sonra ------ çal",
+    "choices": [
+      "derin",
+      "neşeli çalma listesi",
+      "gaz",
+      "geç"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ olan ne",
+    "choices": [
+      "korku",
+      "trend",
+      "kilometre",
+      "sıvı"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "benim ------ bir şarkı çal",
+    "choices": [
+      "top listemden",
+      "akım",
+      "kırışık",
+      "yağmur"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ses seviyesini ------ düşür",
+    "choices": [
+      "yüzde ona",
+      "süt",
+      "yüksek",
+      "satmak"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "volume_down",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bu saat dilimini ------ a değiştir",
+    "choices": [
+      "mektup",
+      "az",
+      "ve",
+      "hatay"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ist olarak değiştir",
+    "choices": [
+      "çalışma",
+      "bu konumu",
+      "su",
+      "orman"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ kapatabilir misin",
+    "choices": [
+      "wemo prizi",
+      "yol",
+      "göl",
+      "seçmek"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ aç ve benim şarja bağlansın",
+    "choices": [
+      "ölmek",
+      "tehlike",
+      "değeri",
+      "akıllı soketi"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "odamdaki ------ aç",
+    "choices": [
+      "oldu",
+      "doğrudan",
+      "akıllı priz soketini",
+      "giymek"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıl görünüyor",
+    "choices": [
+      "istasyon",
+      "bu hafta",
+      "bekleyin",
+      "meydana"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıl olacak",
+    "choices": [
+      "bu hafta",
+      "gönderildi",
+      "demek",
+      "benim"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için hava tahmini nasıl",
+    "choices": [
+      "bu hafta",
+      "yağmur",
+      "dinle",
+      "atmak"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen bana ------ mdan güncel haber başlıklarını verir misiniz",
+    "choices": [
+      "en yeni sağlayıcı",
+      "usta",
+      "istasyon",
+      "grup"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "son haberler için ------ mı araştırab",
+    "choices": [
+      "deneme",
+      "olur",
+      "orman",
+      "yeni haber sağlayıcı"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "en sonki ------ haberlerini söyle",
+    "choices": [
+      "o zaman",
+      "politika",
+      "yürümek",
+      "şiir"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana en son ------ haberleri söyle",
+    "choices": [
+      "biliyordu",
+      "oldu",
+      "spor",
+      "duydum"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bugünlerde ------ neler oluyor",
+    "choices": [
+      "boyut",
+      "özel",
+      "makine",
+      "dünyada"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ den haber güncellemesi ver",
+    "choices": [
+      "kardeş",
+      "b. b. c.",
+      "molekülü",
+      "mıknatıs"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ deki haber gelişmeleri nedir",
+    "choices": [
+      "yer",
+      "b. b. c.",
+      "tren",
+      "bulmak"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ en son haber güncellemeleri nedir",
+    "choices": [
+      "yerine",
+      "böyle",
+      "bbcdeki",
+      "verdi"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "bana ------ den en son gelişmeleri göster",
+    "choices": [
+      "rakam",
+      "insanlar",
+      "karşılaştırma",
+      "b. b. c."
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ haberlere çıktığında haber ver",
+    "choices": [
+      "trump",
+      "ön",
+      "atomudur",
+      "Şehir"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "dünyada bir ------ olursa bana haber ver",
+    "choices": [
+      "deprem",
+      "mülkiyet",
+      "kurşun",
+      "an"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "sıcaklık ------ varınca beni uyar",
+    "choices": [
+      "onlar",
+      "görünüm",
+      "altmış sekiz f dereceye",
+      "bahar"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ 'den hevesim yok 'u çal",
+    "choices": [
+      "reynmen",
+      "akşam",
+      "arama",
+      "oldu"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ 'dan paramparça 'yı dinlemek istiyorum",
+    "choices": [
+      "mağaza",
+      "teoman",
+      "sıcak",
+      "ile"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ dan küçüğüm dinle",
+    "choices": [
+      "zaman",
+      "izle",
+      "motor",
+      "sezen aksu"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ 'yı çal",
+    "choices": [
+      "destina",
+      "genç",
+      "meydana",
+      "uyku"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ 'dan evin delisi 'ni aç",
+    "choices": [
+      "ceza",
+      "tutmak",
+      "let",
+      "Yani"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ çal",
+    "choices": [
+      "mülkiyet",
+      "aşk şarkıları",
+      "kamyon",
+      "yeterli"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "tüm ------ şarkılar ını çal",
+    "choices": [
+      "adil",
+      "rock",
+      "elma",
+      "büyük"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şimdiki sıraya ------ ekle",
+    "choices": [
+      "martılar'ı",
+      "bebek",
+      "gezegen",
+      "alt"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıl",
+    "choices": [
+      "güneş",
+      "göl",
+      "tuz",
+      "bugün"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "şu anda ------ kaç derece",
+    "choices": [
+      "sıcaklık",
+      "Cts",
+      "notu",
+      "makine"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ hava nasıldı",
+    "choices": [
+      "baz",
+      "bu hafta",
+      "olacak",
+      "basın"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ veya sert hava",
+    "choices": [
+      "ılıman",
+      "oturmak",
+      "demiryolu",
+      "koltuk"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için en yüksek hava sıcaklığını göster",
+    "choices": [
+      "ısı",
+      "geçmek",
+      "bu hafta",
+      "özellikle"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ devam ediyor mu",
+    "choices": [
+      "sevgili",
+      "may",
+      "yaz",
+      "kılavuz"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ dolu olma ihtimali nedir",
+    "choices": [
+      "bu hafta",
+      "yeşil",
+      "yatak",
+      "uygun"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ sabah için alarmı onayla",
+    "choices": [
+      "yok",
+      "müzik",
+      "yarın",
+      "yükselecek"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için alarm kaça kurulu",
+    "choices": [
+      "benim",
+      "yarın",
+      "açtı",
+      "desen"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "lütfen ------ meksika restoran tavsiyesi yapar mısın",
+    "choices": [
+      "genel",
+      "eve servis",
+      "serin",
+      "ses"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "hangi ------ paket yemek servisi yapıyor",
+    "choices": [
+      "yaptım",
+      "restoranlar",
+      "mayın",
+      "can"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ için paket yemek isteyebilir miyim",
+    "choices": [
+      "kalabalık",
+      "beslemek",
+      "altın",
+      "bu zaman"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ in en son yerel haberler ini bilmek istiyorum",
+    "choices": [
+      "kaydetmek",
+      "başkasının yeri",
+      "ısı",
+      "şehir"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ kahve yap",
+    "choices": [
+      "sabah sekizde",
+      "hece",
+      "o zaman",
+      "akışı"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ kahve demle",
+    "choices": [
+      "oluşturmak",
+      "öğlen",
+      "sarı",
+      "konuşmak"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "yeni ------ çalma listesini çal",
+    "choices": [
+      "demiryolu",
+      "uyku",
+      "erkan oğur",
+      "at"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "yeni ------ çalma listesi başlat",
+    "choices": [
+      "lady gaga",
+      "mıknatıs",
+      "nesne",
+      "yol"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ en sana kırmızı çok yakışıyor çal",
+    "choices": [
+      "geçmişi",
+      "gibi",
+      "hande yener",
+      "sandalye"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ uygulamasını aç",
+    "choices": [
+      "yarda",
+      "new york times",
+      "büyük",
+      "oldukça"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  }
+]

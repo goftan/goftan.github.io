@@ -1,0 +1,6515 @@
+[
+  {
+    "question": "صحيني ------ هذا الأسبوع",
+    "choices": [
+      "من",
+      "حافة",
+      "خمسة الفجر",
+      "مطاردة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "صحيني ------ يوم الجمعة",
+    "choices": [
+      "لاحقة",
+      "التربة",
+      "تسعة الصباح",
+      "تسجيل"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط منبه ------",
+    "choices": [
+      "تشغيل",
+      "بعد",
+      "و",
+      "بعد ساعتين من الحين"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أوللي وقف مؤقتاً لمدة ------",
+    "choices": [
+      "اعتقد",
+      "جاف",
+      "ثلج",
+      "عشر ثواني"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "توقف مؤقتا لمدة ------",
+    "choices": [
+      "الكثير",
+      "الأصلي",
+      "صالح",
+      "عشر ثواني"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "بس نبي ------",
+    "choices": [
+      "قارب",
+      "اللون الوردي",
+      "متوسط",
+      "مصنوع"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اجعل الإضاءة أكثر ------ بقليل هنا",
+    "choices": [
+      "دفء",
+      "جدول",
+      "على مدار الساعة",
+      "على نطاق و"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تكفى اضبط الإضاءة وخلها ------",
+    "choices": [
+      "اختر",
+      "مريحة للقراءة",
+      "سوف لا",
+      "حلم"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "طف لمبة ------",
+    "choices": [
+      "ضربة",
+      "كلمة",
+      "مستعمرة",
+      "الحمام"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly اخفت النور في ------",
+    "choices": [
+      "المجلس",
+      "قيادة",
+      "السماح",
+      "مجلس الإدارة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "وطي اللمبات في ------",
+    "choices": [
+      "أيضا",
+      "الممر",
+      "مشرق",
+      "مذكرة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "طفي لمبات ------",
+    "choices": [
+      "المسار",
+      "غرفة النوم",
+      "قول",
+      "غذاء"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "طفي الاضواء ------ حقي",
+    "choices": [
+      "بغرفة النوم",
+      "تغيير",
+      "الجزيرة",
+      "سطح"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أوزن اللمبة ------",
+    "choices": [
+      "لماذا",
+      "في وقت مبكر",
+      "قوة",
+      "على عشرين بالمية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly حط الإضاءة على ------",
+    "choices": [
+      "هذا",
+      "مباشر",
+      "وضع",
+      "عشرين في المية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "خفت الأضواء في ------ أولي",
+    "choices": [
+      "المطبخ",
+      "من",
+      "ترك",
+      "أسس"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اخفت اللمبات في ------",
+    "choices": [
+      "أن",
+      "المطبخ",
+      "توفير",
+      "ساحة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "خلي ------ مظلمة أكثر",
+    "choices": [
+      "نجمة",
+      "فكرة",
+      "الغرفة",
+      "بارد"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightdim",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly نظف ------",
+    "choices": [
+      "ذهب",
+      "الشقة",
+      "بصوت عال",
+      "استراحة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "نظف ------",
+    "choices": [
+      "خاطئ",
+      "حرارة",
+      "الكلام",
+      "الشقة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "نظف ------ بالمكنسة الكهربائية",
+    "choices": [
+      "توجيه",
+      "تسلق",
+      "البيت",
+      "لحظة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كنس ------ olly",
+    "choices": [
+      "رمز",
+      "البيت",
+      "عشرة",
+      "يوم"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "التنظيف جيد للغبار أمر سيء للغاية والآن قم بتنظيف ------",
+    "choices": [
+      "حول",
+      "لحن",
+      "ضعف",
+      "سجادتي"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "سهل",
+      "ممر",
+      "اتصال",
+      "سير"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اكنس ------",
+    "choices": [
+      "عمود",
+      "عصا",
+      "خطوة",
+      "السجادات"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أبغى اسمع أغنية ------ مرة ثانية",
+    "choices": [
+      "كامل",
+      "الجواب",
+      "محمد عبده",
+      "وبالتالي"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أريد تشغيل هذي ------ مرة ثانية",
+    "choices": [
+      "الموسيقا",
+      "الشراع",
+      "ألف",
+      "ينبغي"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم الوقت في ------",
+    "choices": [
+      "الوادي",
+      "اشترى",
+      "السعودية",
+      "قياس"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قل لي الوقت في ------",
+    "choices": [
+      "صور",
+      "لدينا",
+      "الابتسامة",
+      "الرياض"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قل لي الوقت في ------",
+    "choices": [
+      "متساو",
+      "توقيت السعودية",
+      "أسنان",
+      "بحر"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قل لي أولي ------ زائد خمسة",
+    "choices": [
+      "مفتاح",
+      "شهر",
+      "توقيت الرياض",
+      "مركز"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ صيني",
+    "choices": [
+      "كرسي",
+      "توصيل",
+      "بما فيه الكفاية",
+      "إلى"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أكثر خيارات ------ تقيماً للاطعمة الحجازية",
+    "choices": [
+      "التوصيل",
+      "صيحة",
+      "سوق",
+      "فقط"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط بقائمة افضل المطاعم تقييم ------ للاكل الهندي",
+    "choices": [
+      "السؤال",
+      "المائة",
+      "تحت",
+      "توصيل"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly وش المطاعم الاكثر تقييم للاكل ------ و يوصلوا",
+    "choices": [
+      "تفاحة",
+      "الحجازي",
+      "الآن",
+      "دعوى"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "هندي",
+      "منشار",
+      "لحظة",
+      "اكتشاف"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ أي أولاي",
+    "choices": [
+      "سقط",
+      "زجاج",
+      "كاري",
+      "أسمر"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------يتي ------ توصيل مطعم الشرق",
+    "choices": [
+      "القرن",
+      "اكتشاف",
+      "السائل",
+      "بيتزا"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ الملكي توصيل وجبتي البيتزا",
+    "choices": [
+      "مطعم الملكي",
+      "مثال",
+      "لعبة",
+      "حفظ"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كنسل منبه ------",
+    "choices": [
+      "سبعة الصبح",
+      "حالة",
+      "الرقيق",
+      "امرأة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "وقف منبه ------",
+    "choices": [
+      "الماضي",
+      "لديه",
+      "خاص",
+      "سبعة الصبح"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "إيش أخبار ------ اليوم",
+    "choices": [
+      "رئيس",
+      "كرة القدم",
+      "الفوز",
+      "درجة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "من فضلك شغل ------ أمس",
+    "choices": [
+      "مذكرة",
+      "عجب",
+      "البيتلز",
+      "الجدول"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أريد أسمع ------ الخاص بالملكة",
+    "choices": [
+      "أكثر",
+      "سيناء",
+      "لحظة",
+      "الملكية"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل لي ------ حق نجوى كرم",
+    "choices": [
+      "شو المانع",
+      "حرب",
+      "السبب",
+      "الغابات"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أنا أحب موسيقى ------",
+    "choices": [
+      "الروك",
+      "نما",
+      "الحارة",
+      "الحقل"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "likeness",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حقي مفضل موسيقى فرقة ------",
+    "choices": [
+      "الجنوب",
+      "مادة",
+      "ذهب",
+      "كاظم الساهر"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "likeness",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تعجبني أغاني ------",
+    "choices": [
+      "اللحوم",
+      "بندقية",
+      "ضعف",
+      "رابح"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "likeness",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اترجاك رفع الأضواء إلى ------",
+    "choices": [
+      "حقيقية",
+      "مشترك",
+      "الحد الأقصى",
+      "سلسلة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "لعبة",
+      "المكنسة الكهربائية",
+      "الحقل",
+      "رغب"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "توقع",
+      "كامل",
+      "المكنسة الروبوتية",
+      "مات"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قل لي تاريخ ------",
+    "choices": [
+      "حمل",
+      "اليوم",
+      "خلية",
+      "القدم"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم التاريخ ------",
+    "choices": [
+      "اليوم",
+      "غسل",
+      "أكثر",
+      "لعب"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اطلب ------ للعشا",
+    "choices": [
+      "هيئة",
+      "لحظة",
+      "مقلوبة",
+      "طفل"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "غريب",
+      "عبور",
+      "برغر",
+      "أب"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "عادي تطلب ------ عشان عشا الليلة",
+    "choices": [
+      "sushi",
+      "حافة",
+      "لا",
+      "شكل"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "عادي أطلب ------ سفري من مطعم الطازج",
+    "choices": [
+      "ملكة جمال",
+      "نافذة",
+      "عشا",
+      "مجموعة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل يدعم وجبات ------ يوصل الطلبات",
+    "choices": [
+      "مطالبة",
+      "رئيس",
+      "منشار",
+      "هرفي"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط المنبه على ------",
+    "choices": [
+      "صغير",
+      "اثنعش",
+      "تجربة",
+      "عندما"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط منبه بعد ------",
+    "choices": [
+      "جاء",
+      "أربعين دقيقة من الحين",
+      "شاق",
+      "مات"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط منبه على ------ كل يوم في الإسبوع",
+    "choices": [
+      "الجواب",
+      "سيئة",
+      "ثمنية",
+      "الجمال"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل ------",
+    "choices": [
+      "نهائي",
+      "تمطر",
+      "لعب",
+      "حزب"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "سوف ------",
+    "choices": [
+      "قصة",
+      "تمطر",
+      "عقد",
+      "اللحوم"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل ------ حاليا",
+    "choices": [
+      "بارد",
+      "غالبا",
+      "تثلج",
+      "راقب"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي توقعات ------",
+    "choices": [
+      "عظيم",
+      "أداة",
+      "مفتوحة",
+      "الأسابيع"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي توقعات ------",
+    "choices": [
+      "الاسبوع",
+      "مصنع",
+      "دعوى",
+      "أبيض"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو الطقس ------",
+    "choices": [
+      "الفوز",
+      "هذا الاسبوع",
+      "متوسط",
+      "بالطبع"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو الطقس ------",
+    "choices": [
+      "ملح",
+      "بواسطة",
+      "هذا الأسبوع",
+      "ملك"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قل لي الطقس ------",
+    "choices": [
+      "المسار",
+      "هذا الاسبوع",
+      "الجبهة",
+      "تطوير"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قل لي أخبار ------",
+    "choices": [
+      "نوم",
+      "مباراة",
+      "بي. بي. سي.",
+      "متأخر"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ايش الأخبار على ------",
+    "choices": [
+      "شقة",
+      "العربية",
+      "سيدة",
+      "حطم"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي أخبار ------",
+    "choices": [
+      "الجزيرة",
+      "حدث",
+      "الرسالة",
+      "الأزرق"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغلل ------",
+    "choices": [
+      "كان يا مكان",
+      "كل",
+      "يبدو",
+      "لا"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "أهواك",
+      "جاء",
+      "أي",
+      "الجلوس"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "أهواك",
+      "الذي",
+      "قلب",
+      "الجبل"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "بعض ------",
+    "choices": [
+      "لعب سيء",
+      "وضع",
+      "مشكلة",
+      "أيضا"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "نصف",
+      "لعبد المجيد",
+      "كان",
+      "تحقق"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ هذا track",
+    "choices": [
+      "كرر تشغيل",
+      "منخفض",
+      "حفرة",
+      "طويل"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ قايمة الأغاني هذي",
+    "choices": [
+      "فوز",
+      "صوت",
+      "أبيض",
+      "شغل بترتيب عشوائي"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اضبط الصوت ------",
+    "choices": [
+      "اختر",
+      "على منخفض",
+      "أهل",
+      "قليل"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "volume_down",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قول لي نكتة ------",
+    "choices": [
+      "يطير",
+      "جيدة",
+      "أقل",
+      "عرف"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ماهو ------",
+    "choices": [
+      "من",
+      "شقة",
+      "ظهر",
+      "اليوم"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "خبرني عن ------",
+    "choices": [
+      "مشكلة",
+      "دراسة",
+      "اليوم",
+      "عدد"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "quirky",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اطلب ------",
+    "choices": [
+      "شخص",
+      "pizza",
+      "حي",
+      "سيارة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ من مطعم الشرقي",
+    "choices": [
+      "بيتزا",
+      "دفع",
+      "قرب",
+      "تماما"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اطلب ------",
+    "choices": [
+      "غرفة",
+      "جديدة",
+      "عرف",
+      "سفري"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "إنتاج",
+      "سفري",
+      "الحصان",
+      "وضع"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف وضع ------ عند domino's",
+    "choices": [
+      "القيام",
+      "صيحة",
+      "التوصيل",
+      "الكلام"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل قائمة التشغيل ------ الخاص بي",
+    "choices": [
+      "الثالث",
+      "جاز",
+      "جلب",
+      "و"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حقي ------ قائمة التشغيل",
+    "choices": [
+      "عندما",
+      "الشعبية",
+      "دائما",
+      "بين"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "السرعة",
+      "jazz",
+      "ركن",
+      "اللحوم"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "likeness",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل يمكنك أن تعزف شوية موسيقى ------",
+    "choices": [
+      "ثلج",
+      "jazz",
+      "السماح",
+      "الخاصة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أريد أسمع ------",
+    "choices": [
+      "كان",
+      "صور",
+      "المعادن",
+      "jazz"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly أحب أسمع موسيقى ------",
+    "choices": [
+      "فضة",
+      "jazz",
+      "كان",
+      "دراسة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "فعله ------",
+    "choices": [
+      "نحو",
+      "تشغيل عشوائي",
+      "من",
+      "لاحقة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط السطوع ------",
+    "choices": [
+      "سيدة",
+      "يبدو",
+      "فستان",
+      "على خمسين في الميه"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "وجبات جاهزة",
+      "على",
+      "منح",
+      "المعرض"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "يقدرون ------",
+    "choices": [
+      "يوصلون",
+      "سحب",
+      "القانون",
+      "شيء"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "الجلوس",
+      "مركز",
+      "يوصل",
+      "منجم"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "منجم",
+      "النظر",
+      "الوقت",
+      "توصيل"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط المنبه على ------",
+    "choices": [
+      "بري",
+      "عشرة الصباح",
+      "حار",
+      "ممكن"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط منبه ------ الساعة ستة الصبح",
+    "choices": [
+      "طريقة",
+      "موقف",
+      "عام",
+      "لبكره"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط منبه يصحيني ------ يوم الخميس",
+    "choices": [
+      "المعركة",
+      "سبعة الصبح",
+      "فقير",
+      "الحب"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أخبرني بآخر أخبار ------",
+    "choices": [
+      "صفقة",
+      "التقنية",
+      "ثلج",
+      "مفاجئ"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "انطيني آخر أخبار ------",
+    "choices": [
+      "فكرة",
+      "التكنولوجيا",
+      "الحصول على",
+      "خط"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أخبرني ببعض أخبار ------",
+    "choices": [
+      "زهرة",
+      "الأعمال",
+      "قول",
+      "في"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أخبرني عن الأخبار ------",
+    "choices": [
+      "سهولة",
+      "العالمية",
+      "التاريخ",
+      "الأطفال"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل ------ الحين",
+    "choices": [
+      "تمطر",
+      "موقف",
+      "الأساسية",
+      "متجر"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل قايمة ------ حقي",
+    "choices": [
+      "الربيع",
+      "الشعبي",
+      "سواء",
+      "بط"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغلي قايمة تشغيل ------ حقتي",
+    "choices": [
+      "كاظم الساهر",
+      "تشير",
+      "ميت",
+      "قارب"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------ من قايمة الأغاني حقتي",
+    "choices": [
+      "أيضا",
+      "بلقيس",
+      "الآن",
+      "الأول"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------ من قائمتي المفضلة",
+    "choices": [
+      "مادة",
+      "تحت",
+      "الأغنية الأخيرة",
+      "العظام"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ turn on",
+    "choices": [
+      "plug",
+      "أنبوب",
+      "سجل",
+      "محطة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "الأول",
+      "ذهب",
+      "ملح",
+      "الفيش"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------ حقي",
+    "choices": [
+      "شغل",
+      "ولا",
+      "الفيش",
+      "كما"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ takeaway",
+    "choices": [
+      "سيدة",
+      "توجيه",
+      "العدو",
+      "الدومينو"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ توصيل",
+    "choices": [
+      "أيضا",
+      "جاء",
+      "الحق",
+      "بيتزا"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ اسباني",
+    "choices": [
+      "التل",
+      "الجمال",
+      "عرف",
+      "جاهز"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف الجو في ------",
+    "choices": [
+      "الشهيرة",
+      "بذرة",
+      "ظهرا",
+      "الرياض"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قل لي الطقس في ------",
+    "choices": [
+      "أبوظبي",
+      "بط",
+      "صحيح",
+      "نغمة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "لو سمحت خل اضاءة ------",
+    "choices": [
+      "الجلد",
+      "اعتقد",
+      "القراءه لطيفه",
+      "بعد"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تكفى خل اللمبات ------",
+    "choices": [
+      "رابعا",
+      "اشتعلت",
+      "رأي",
+      "مريحه للنظر"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اجعل ------ أكثر إنارة",
+    "choices": [
+      "مثل",
+      "فرصة",
+      "الغرفة",
+      "وجه"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم التاريخ ------",
+    "choices": [
+      "اليوم",
+      "مباشرة",
+      "فضة",
+      "الحارة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو ------",
+    "choices": [
+      "ينبغي",
+      "غني",
+      "اليوم",
+      "بعيدا"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف سيكون الجو ------",
+    "choices": [
+      "النفس",
+      "اليوم",
+      "منخفض",
+      "عقد"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل ------ في الخارج",
+    "choices": [
+      "آمنة",
+      "يجب",
+      "تمطر",
+      "سفينة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قاعدة ------ برا يا olly ولا لا",
+    "choices": [
+      "تمطر",
+      "تعليم",
+      "الأول",
+      "الجلد"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تنصحني آخذ ------ معي بكره",
+    "choices": [
+      "غرامة",
+      "تشير",
+      "خريطة",
+      "المظلة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل اغاني من ------",
+    "choices": [
+      "قائمة أغاني رومانسية",
+      "جبل",
+      "شكل",
+      "تظهر"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "غير اللمبات وخليها ------",
+    "choices": [
+      "خضرا",
+      "فوق",
+      "بقعة",
+      "باب"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تكفى نظف ------",
+    "choices": [
+      "الذي",
+      "الأرضية",
+      "الكبرى",
+      "تعليم"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "عجل",
+      "متجر",
+      "سهل",
+      "فيش قدر الضغط"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "turn off ------",
+    "choices": [
+      "جاف",
+      "rice cooker socket",
+      "طول",
+      "قارب"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم الساعة في ------",
+    "choices": [
+      "التجربة",
+      "أبو ظبي",
+      "الفاكهة",
+      "الغابات"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم الساعة في ------",
+    "choices": [
+      "الدم",
+      "صغير",
+      "طائرة",
+      "عسير"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ من شيرو",
+    "choices": [
+      "وسط",
+      "تسجيل",
+      "سوشي",
+      "زهرة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط منبه على ------ الصباح",
+    "choices": [
+      "درجة الحرارة",
+      "عشرة",
+      "ستة",
+      "عادل"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط منبه على ------ العصر",
+    "choices": [
+      "أربعة",
+      "نأمل",
+      "إلى",
+      "شكل"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly نبهني الساعة ------ اروح الحفلة",
+    "choices": [
+      "المال",
+      "ثلاثة بعد الظهر",
+      "الحشرة",
+      "خاصة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "نبهني ------ عشان أروح الحفلة",
+    "choices": [
+      "خاص",
+      "ثلاثة بعد الظهر",
+      "مشهد",
+      "الكبرى"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أبي أعرف اذا ضبطت أنا منبه ------ الصبح",
+    "choices": [
+      "انتشار",
+      "لرحلة",
+      "مرة واحدة",
+      "إضافة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ضبطت انا المنبه عشان ------ الصبح ولا لا",
+    "choices": [
+      "يصحيني",
+      "في",
+      "مهارة",
+      "ذرة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل ------ في عسير",
+    "choices": [
+      "حفرة",
+      "الرعاية",
+      "تقرر",
+      "تمطر"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل سوف ------ اليوم",
+    "choices": [
+      "ثلج",
+      "منذ",
+      "مقصود",
+      "تمطر"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ايش يحصل في ------",
+    "choices": [
+      "القدم",
+      "زيارة",
+      "السباحة",
+      "السعودية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ماذا يحدث في ------",
+    "choices": [
+      "العالم",
+      "تمثيل",
+      "الآن",
+      "الموسم"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ماذا يحدث في ------",
+    "choices": [
+      "سلسلة",
+      "غذاء",
+      "السيطرة",
+      "الرياض"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اعرض لي شوية أخبار من ------",
+    "choices": [
+      "الفئة",
+      "الغناء",
+      "العربية",
+      "الفرح"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أظهر بعض الأخبار من ------",
+    "choices": [
+      "الليل",
+      "حديد",
+      "الجزيرة",
+      "مظلم"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل أخبار ------",
+    "choices": [
+      "خارج",
+      "فقط",
+      "عد",
+      "العربية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أولي ------",
+    "choices": [
+      "قرية",
+      "واسع",
+      "أخبار روسيا اليوم",
+      "الحشرة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغلي بعض أغاني ال ------",
+    "choices": [
+      "hiphop",
+      "عادل",
+      "خفاش",
+      "رئيسي"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "احس اني في مود اسمع ------ وانتي",
+    "choices": [
+      "سمع",
+      "ساعة",
+      "مباشرة",
+      "قصايد"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "فرقة شعبية",
+      "من",
+      "سفينة",
+      "أنا"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "موت ------ الآن",
+    "choices": [
+      "الخشب",
+      "سوف لا",
+      "البحث",
+      "العود العربي"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly شغل أغنية حلوة من المفضلة حقي على مشغل موسيقى ------",
+    "choices": [
+      "الجاز",
+      "الذراع",
+      "درجة الحرارة",
+      "سجل"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "olly شغلي موسيقى افضل ------ من مفضلتي",
+    "choices": [
+      "ماء",
+      "اللغة",
+      "عازف بيانو",
+      "واسع"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "خلي اللمبات ------",
+    "choices": [
+      "ازرق",
+      "محرك",
+      "أداة",
+      "شقيق"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "وش رايك نخلي اللمبات ------",
+    "choices": [
+      "زرقا",
+      "أربعة",
+      "أقول",
+      "القدم"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اجعل الأضواء ------",
+    "choices": [
+      "الفوز",
+      "تشع بلون أزرق",
+      "بدأ",
+      "بواسطة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو الوقت في ------ الآن",
+    "choices": [
+      "حيث",
+      "سهل",
+      "الطابق",
+      "النماص"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "أبدا",
+      "الأطفال",
+      "عادل",
+      "لقيت الطبطبة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "مين يغني أغنية ------",
+    "choices": [
+      "غرفة",
+      "يا صبابين الشاي",
+      "الصباح",
+      "آخر"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو الطقس في ------",
+    "choices": [
+      "جدة",
+      "لكن",
+      "كان",
+      "في حين"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف هو الطقس في ------",
+    "choices": [
+      "هذا",
+      "أعطى",
+      "الرياض",
+      "اختلف"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي توقعات ------ المدينة المنورة",
+    "choices": [
+      "و",
+      "رقص",
+      "الحين",
+      "كتكوت"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو الوضع الحالي على ------",
+    "choices": [
+      "ملح",
+      "الجزيرة",
+      "الملكية",
+      "مقارنة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ماذا في ------",
+    "choices": [
+      "الحرب في اليمن",
+      "المعادن",
+      "له",
+      "الجمال"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "من سيفوز في ------ المقبلة في فرنسا",
+    "choices": [
+      "سحابة",
+      "الشعر",
+      "خطر",
+      "الانتخابات"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل تتوقع ------ يوم الأحد",
+    "choices": [
+      "حل",
+      "شمس",
+      "الحيوان",
+      "الحديث"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ودها ------ المساء",
+    "choices": [
+      "عدد",
+      "سعيد",
+      "تمطر",
+      "الدم"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل ستكون ------ بكرة",
+    "choices": [
+      "ارتفع",
+      "كتلة",
+      "رياح",
+      "تضمن"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل اللمبات ------",
+    "choices": [
+      "بالمطبخ",
+      "توقع",
+      "جاء",
+      "ممكن"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lighton",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أنر ------",
+    "choices": [
+      "و",
+      "جزء",
+      "مائة",
+      "اللمبة المقابلة للأريكة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم الساعة الآن في ------",
+    "choices": [
+      "اشتعلت",
+      "سيد",
+      "جيزان",
+      "قيادة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "أدى",
+      "مربع",
+      "مركز",
+      "المكنسة الكهربائية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "نظف ------ بالمكنسة الكهربائية",
+    "choices": [
+      "و",
+      "حبل",
+      "أيضا",
+      "المطبخ"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "أفضل",
+      "أكثر",
+      "القليل",
+      "المكنسة الكهربية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "وش اللي يصير في ------",
+    "choices": [
+      "العالم",
+      "رأي",
+      "تظهر",
+      "نقيب"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قل لي عناوين ------ حق اليوم",
+    "choices": [
+      "مطاردة",
+      "خوف",
+      "الجرايد",
+      "الحق"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "مخيم",
+      "قايمة التشغيل اللبنانية",
+      "خلية",
+      "إعداد"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------ ل فيروز",
+    "choices": [
+      "محصول",
+      "الرسالة",
+      "اغاني عشوائية",
+      "بوصة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "النار",
+      "صغير",
+      "الجانب",
+      "رابح"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي التوقعات لهذا ------",
+    "choices": [
+      "رجل",
+      "اليوم",
+      "غسل",
+      "قبل"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ ------راتي",
+    "choices": [
+      "بيتزا",
+      "جزء",
+      "خمسة",
+      "يمكن"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ غداء",
+    "choices": [
+      "عملية",
+      "تهجى",
+      "سوشي",
+      "شيء"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "alexa ودي في ------ ممكن تطلبه لبكرا",
+    "choices": [
+      "ظهر",
+      "عادل",
+      "حرق",
+      "مثلوثة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اطلب ------ sandwich وشوربة من البيك",
+    "choices": [
+      "عنصر",
+      "التكلفة",
+      "سفري",
+      "درجة الحرارة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم باقي يوم في ------",
+    "choices": [
+      "اشترى",
+      "لقمة",
+      "الصباح",
+      "هاذي السنة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو يوم رأس السنة الجديدة ------",
+    "choices": [
+      "الرعاية",
+      "نحن",
+      "هاذي السنة",
+      "النظر"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "في أي يوم بيكون اليوم الوطني ------",
+    "choices": [
+      "تزويد",
+      "الجنيه",
+      "هاذي السنة",
+      "منطقة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ارفع السطوع ------",
+    "choices": [
+      "الضحك",
+      "بنسبة عشرين في المية",
+      "الشباب",
+      "الذرة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اضبط الأضواء ------",
+    "choices": [
+      "بحر",
+      "قرأ",
+      "للشحن الكامل",
+      "كوكب"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "لا تتكلم ------",
+    "choices": [
+      "أسنان",
+      "اليوم",
+      "ملكة جمال",
+      "تغيير"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تتوقع ------ بكرة",
+    "choices": [
+      "بارد",
+      "تحتوي على",
+      "تمطر",
+      "الجمال"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أخبرني عن حالة الطقس في ------ لليومين الجايين",
+    "choices": [
+      "مدريد",
+      "ملكة جمال",
+      "شقيقة",
+      "عجل"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "راح احتاج ------ بكرة",
+    "choices": [
+      "رمز",
+      "شمسية",
+      "خارج",
+      "خلف"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "مضاعفة",
+      "حكم",
+      "فيش",
+      "الحيوان"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "مكن ------ الخاص بي",
+    "choices": [
+      "القابس",
+      "فقير",
+      "الجمال",
+      "حفرة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "حطم",
+      "الأقل",
+      "قياس",
+      "الشاحن الذكي"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "انطيني الأخبار حق ------ من عالم التقنية",
+    "choices": [
+      "نوم",
+      "دائرة",
+      "الموسيقى",
+      "التكنولوجيا"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "رغب",
+      "كوكب",
+      "مساء",
+      "ركض"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "إلى",
+      "الأم",
+      "مطاردة",
+      "مشمس"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "امتداد",
+      "اختبار",
+      "كلمة",
+      "المسافر راح"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي حالة الطقس في ------",
+    "choices": [
+      "شغل",
+      "حفرة",
+      "الرياض",
+      "العمل"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أتمنى أن أعرف الطقس في ------",
+    "choices": [
+      "انتظر",
+      "قطار",
+      "جدة",
+      "الحصان"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أتمنى أن اعرف الطقس في ------",
+    "choices": [
+      "شعر",
+      "بيع",
+      "المدينة المنورة",
+      "جمع"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل هي ------ في جدة",
+    "choices": [
+      "تثلج",
+      "حل",
+      "عجب",
+      "أسنان"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "لقد ساعدت فقيرًا محتاجًا ------",
+    "choices": [
+      "ظهر",
+      "فقرة",
+      "الشباب",
+      "اليوم"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ابدأ ------",
+    "choices": [
+      "الأطفال",
+      "تمثيل",
+      "آلة صنع القهوة",
+      "النظام"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف سيكون الطقس ------",
+    "choices": [
+      "تهمة",
+      "أخذ",
+      "بكرة",
+      "إصبع"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل سيكون الطقس ------ بكرة",
+    "choices": [
+      "طائر",
+      "ماطر",
+      "نهاية",
+      "منذ"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ماذا ستكون ------ بكرة",
+    "choices": [
+      "درجة الحرارة",
+      "مفاجئ",
+      "باب",
+      "حافة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "وش توقعات الجو ------",
+    "choices": [
+      "شكل",
+      "جدا",
+      "سير",
+      "بكرة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي توقعات الطقس ------",
+    "choices": [
+      "عصا",
+      "القط",
+      "دائما",
+      "الغد"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تتوقع ------ بكره",
+    "choices": [
+      "تمطر",
+      "متجر",
+      "اختر",
+      "الكبرى"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل سوف ------ بكرة",
+    "choices": [
+      "درجة",
+      "تثلج",
+      "خفاش",
+      "رمل"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شوف أذا ------ يقدم وجبات سفري",
+    "choices": [
+      "المطعم",
+      "سلسلة",
+      "قادرة",
+      "سطح"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ سفري",
+    "choices": [
+      "ولا",
+      "مطعم",
+      "طريقة",
+      "توقف"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "فيه menu ------ في المطعم",
+    "choices": [
+      "سحب",
+      "حافة",
+      "طلبات سفري",
+      "كلا"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "في أي يوم من أيام الأسبوع تكون ------",
+    "choices": [
+      "وصول",
+      "آخر",
+      "قرأ",
+      "اثنان و عشرين مارس"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ يأتي في أي يوم",
+    "choices": [
+      "ضخم",
+      "محطة",
+      "التاسع والعشرين مارس",
+      "القليل"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "في أي يوم من أيام الأسبوع هو ------",
+    "choices": [
+      "أفضل",
+      "حدد",
+      "أول أبريل",
+      "صخرة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "في أي وقت بيرن المنبه حقي ------",
+    "choices": [
+      "آخر",
+      "سمك",
+      "الطقس",
+      "اليوم"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------ من موسيقى google play",
+    "choices": [
+      "أغنية رقم ثمنية",
+      "تريد",
+      "التجربة",
+      "صغير"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل الأغنية الثانية من أغاني ------",
+    "choices": [
+      "مائة",
+      "إذا",
+      "تامر حسني",
+      "تجربة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل ------",
+    "choices": [
+      "الصحافة",
+      "اليوم الإثنين",
+      "بشري",
+      "حرف لين"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف هو الطقس في مدينة ------",
+    "choices": [
+      "مكة",
+      "الفرح",
+      "مكان",
+      "ضعف"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل الطقس ------ في جدة الآن",
+    "choices": [
+      "الجذر",
+      "مشمس",
+      "ذيل",
+      "الموت"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "من فضلك شغل ------ ل games",
+    "choices": [
+      "أو",
+      "مربع",
+      "disturbed",
+      "طريق"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "لدي ------ محمد عبده",
+    "choices": [
+      "نجمتين",
+      "و",
+      "مجموعة",
+      "الضوضاء"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "لوسمحت شغلي أغنية ------ لعبدالحليم نويرة",
+    "choices": [
+      "أبدا",
+      "يانجمة ليه طالعة لواحدك",
+      "قرية",
+      "ارتفع"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أطفئ ضوء ------",
+    "choices": [
+      "تسجيل",
+      "كاملة",
+      "الكراج",
+      "بيع"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تحقق من الأخبار الساخنة في ------",
+    "choices": [
+      "محطة",
+      "الجزيرة",
+      "القسم",
+      "الحصول على"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو مثير في ------",
+    "choices": [
+      "الحب",
+      "كل",
+      "الجزيرة",
+      "طائرة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أي أخبار ------ على الجزيرة",
+    "choices": [
+      "الفاكهة",
+      "ربما",
+      "وفيات",
+      "دهن"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اسمحوا لي أن أعرف بمجرد وجود المزيد من الأخبار حول ------",
+    "choices": [
+      "متوسط",
+      "خروج بريطانيا من الاتحاد الأوروبي",
+      "سبعة",
+      "وضع"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "طفي ------",
+    "choices": [
+      "عام",
+      "الفيش الذكي",
+      "تلك",
+      "دولة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "الفيش الذكي",
+      "فوز",
+      "و",
+      "الضوضاء"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل الفيش ------",
+    "choices": [
+      "البنك",
+      "علامة",
+      "نمط",
+      "الذكي"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل أغنية ------ من قائمة التشغيل الخاص بي",
+    "choices": [
+      "خاص",
+      "إلى",
+      "الوزن",
+      "فيفا"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اذا كان ------ في خميس مشيط كم بيكون الوقت في الدمام",
+    "choices": [
+      "ظهر",
+      "تهجى",
+      "قريب",
+      "قرب"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم الفرق في الوقت بين ------ و توقيت القدس",
+    "choices": [
+      "عدة",
+      "توقيت مكة المكرمة",
+      "لدينا",
+      "تيار"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------ ل فهد الكبيسي",
+    "choices": [
+      "حقيقة",
+      "الطابق",
+      "انت عشق",
+      "خطة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغلي أي أغنية ------",
+    "choices": [
+      "رقص",
+      "حقيقة",
+      "هادئ",
+      "لنبيل سيف"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل سيكون الجو ------ غداً",
+    "choices": [
+      "الحق",
+      "تناسب",
+      "حار",
+      "أنا"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ممكن تغير ألوان اللمبات في ------",
+    "choices": [
+      "البيت",
+      "مركز",
+      "الخبز",
+      "تطلب"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل يمكنك ------ الألوان الفاتحة في المنزل",
+    "choices": [
+      "حكم",
+      "الوصول",
+      "في",
+      "تبديل"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "change ------ light house colors",
+    "choices": [
+      "الرياح",
+      "تزويد",
+      "dark",
+      "كبير"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أريد اسمع موسيقى ------",
+    "choices": [
+      "علامة",
+      "بوب",
+      "عد",
+      "محاولة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تقدر تشغل موسيقى ------ الساعة الجاية",
+    "choices": [
+      "ثم",
+      "ملح",
+      "ركوب",
+      "rock"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قول لي نكتة ------",
+    "choices": [
+      "توجيه",
+      "رفع",
+      "على نطاق و",
+      "مضحكة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "غير لمبات غرفتي إلى ------",
+    "choices": [
+      "الأزرق",
+      "لماذا",
+      "دفع",
+      "الصيف"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "غير لمبات غرفتي إلى بعظ الألوان ------",
+    "choices": [
+      "تحمل",
+      "صغير",
+      "طويل",
+      "الرومنسية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "غيري لمبات الغرفة حقتي عشان انام ------",
+    "choices": [
+      "سمك",
+      "الذي",
+      "تماما",
+      "نوم عميق"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حطلي منبه على ------",
+    "choices": [
+      "ثمانية الصبح",
+      "عدد",
+      "العكس",
+      "نأمل"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط منبه على ------",
+    "choices": [
+      "خاصة",
+      "أربعة العصر",
+      "البنك",
+      "نحن"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اضبط لي منبه يصحيني الساعة ------",
+    "choices": [
+      "العاصمة",
+      "الأخضر",
+      "ثمنية وخمسة وأربعين الصبح",
+      "هنا"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي أخبار ------",
+    "choices": [
+      "شهر",
+      "متجر",
+      "الحج",
+      "نحن"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل لي ------",
+    "choices": [
+      "محاولة",
+      "خاص",
+      "زر الفيش الاول",
+      "الحصان"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "طفي اللمبات في ------",
+    "choices": [
+      "قتل",
+      "تنمو",
+      "الأرقام",
+      "الحمام"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "طفي لمبات ------",
+    "choices": [
+      "حالة",
+      "أيضا",
+      "رجل",
+      "الحمام"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "الأضواء مطفأة في ------",
+    "choices": [
+      "كهربائي",
+      "الحمام",
+      "أخذ",
+      "كلمة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف هو الطقس يوم ------",
+    "choices": [
+      "درجة",
+      "سعيدة",
+      "كسا",
+      "الجمعة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم هو ------ الحين بالخارج",
+    "choices": [
+      "بسيطة",
+      "طريق",
+      "الرجال",
+      "دافي"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ماهو ------",
+    "choices": [
+      "قوة",
+      "اليوم",
+      "لماذا",
+      "مرة واحدة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أي يوم في ------ بيكون الثلوث الجاي",
+    "choices": [
+      "ضد",
+      "العظام",
+      "الشهر",
+      "جدار"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------ كيف حالك",
+    "choices": [
+      "تجربة",
+      "فهد بن فصلا",
+      "ثان",
+      "وحدة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "افتحي ملف ------",
+    "choices": [
+      "فيروز",
+      "يجب",
+      "النظام",
+      "وبالتالي"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل سوف ------ اليوم",
+    "choices": [
+      "أبدا",
+      "تمطر",
+      "لمس",
+      "تجارة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل يجب أن أرتدي ------ اليوم",
+    "choices": [
+      "رمية",
+      "جاكيت",
+      "مشترك",
+      "حاصل"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "وقف تفعيل خلط الأغاني",
+      "الموضوع",
+      "رائحة",
+      "أراد"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ album كرر الالبوم",
+    "choices": [
+      "الغناء",
+      "سبعة",
+      "repeat",
+      "مسألة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "كسا",
+      "هذا",
+      "كوكب",
+      "أصالة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "حفرة",
+      "المدينة",
+      "الابتسامة",
+      "عيد الميلاد على الطراز القديم"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "run ------ with vinegar",
+    "choices": [
+      "الفئة",
+      "انتشار",
+      "coffee maker",
+      "تريد"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هات لي آخر سعر حق ------",
+    "choices": [
+      "إرسال",
+      "أسهم الراجحي",
+      "واضح",
+      "مهارة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "الذي يقود حاليا في ------",
+    "choices": [
+      "زوج",
+      "أربعة",
+      "مربع",
+      "الانتخابات البرلمانية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ماهو تاريخ ------",
+    "choices": [
+      "اليوم",
+      "إرسال",
+      "ديك",
+      "لعب"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "غير الأضواء في ------ إلى أزرق",
+    "choices": [
+      "منعطف",
+      "سبعة",
+      "عجل",
+      "المطبخ"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "صلح اللمبات في ------ إلى لون أحمر",
+    "choices": [
+      "تناسب",
+      "بدلا",
+      "الجدول",
+      "الصالة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "غير أضواء ------ إلى اخضر",
+    "choices": [
+      "الآن",
+      "غرفة النوم",
+      "العشب",
+      "فستان"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أبغى أسمع موسيقى ------",
+    "choices": [
+      "لديه",
+      "الثالث",
+      "كلاسيكية",
+      "يمكن"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أبغى أسمع موسيقى ------",
+    "choices": [
+      "جاز",
+      "عنصر",
+      "الغابات",
+      "الحاضر"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قوي لمبة ------ حقي",
+    "choices": [
+      "أدى",
+      "غرفة النوم",
+      "حل",
+      "ركن"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "طفي ------",
+    "choices": [
+      "منجم",
+      "قاع",
+      "اللمبة",
+      "المدرسة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل أغاني ------",
+    "choices": [
+      "بط",
+      "وصف",
+      "لمس",
+      "نبيل شعيل"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "بحبك وحشتيني",
+      "نهاية",
+      "تذهب",
+      "أبقى"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل أغاني ------",
+    "choices": [
+      "أب",
+      "شراب",
+      "لراشد",
+      "أبقى"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شوف لي أخبار عن ------",
+    "choices": [
+      "مجلس الخليج",
+      "الرجاء",
+      "متوسط",
+      "الكتف"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أخبار مفتوحة عن ------",
+    "choices": [
+      "الجزيرة",
+      "مشرق",
+      "فستان",
+      "قال"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "جد لي أخبارًا عن ------",
+    "choices": [
+      "ممارسة",
+      "جرس",
+      "خطاب محمد بن سلمان",
+      "الرقيق"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم الساعة في ------",
+    "choices": [
+      "تيار",
+      "المناطق الزمنية الثانية",
+      "اقترح",
+      "خط"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي المنطقة الزمنية ------",
+    "choices": [
+      "ورقة",
+      "شجرة",
+      "مكة",
+      "تشغيل"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو الوقت في مدينة ------",
+    "choices": [
+      "أرسلت",
+      "تعرف",
+      "دعوة",
+      "الرياض"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم الساعة في ------ الحين",
+    "choices": [
+      "السعودية",
+      "البنك",
+      "زجاج",
+      "رحلة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم الساعة الحين في ------",
+    "choices": [
+      "مجموعة",
+      "غرامة",
+      "تحتاج",
+      "السعودية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي ------ في الخارج",
+    "choices": [
+      "طويل",
+      "درجة الحرارة",
+      "ظهرا",
+      "فضة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل الجو ------ في الخارج",
+    "choices": [
+      "المسار",
+      "حار",
+      "سهل",
+      "هم"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل الطقس ------ برا",
+    "choices": [
+      "عدد",
+      "بارد",
+      "جاء",
+      "جميل"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي نكتة ------ تعرف",
+    "choices": [
+      "سخيفة",
+      "تماما",
+      "دعوى",
+      "أسبوع"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هاي نكتة ------ متل ماتعرف",
+    "choices": [
+      "التجربة",
+      "سخيفة",
+      "لا",
+      "قيمة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ايش في نكته ------",
+    "choices": [
+      "اختيار",
+      "سفينة",
+      "القسم",
+      "حلوة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "غير لي لون الضوء إلى اللون ------",
+    "choices": [
+      "رقص",
+      "واسع",
+      "الأزرق",
+      "تماما"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تأكيد ما إذا كان اللون ------",
+    "choices": [
+      "ميل",
+      "الفضاء",
+      "أزرق",
+      "رغب"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "غير لون الإضاءة ------",
+    "choices": [
+      "الجنوب",
+      "عقدت",
+      "متأخر",
+      "للأحمر"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightchange",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو الوقت في ------",
+    "choices": [
+      "سدير",
+      "لنا",
+      "الرد",
+      "مشهد"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم الساعة في ------",
+    "choices": [
+      "ربما",
+      "جيزان",
+      "ضد",
+      "بقية"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "افتح اغاني من ------",
+    "choices": [
+      "نبيل شعيل",
+      "مثل",
+      "هي",
+      "تماما"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اكتم طول ------",
+    "choices": [
+      "مصلحة",
+      "مفاجأة",
+      "مقعد",
+      "الساعة التالية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قول لي نكتة ------",
+    "choices": [
+      "عشوائية",
+      "حافة",
+      "فقط",
+      "تتطلب"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ايش آخر أخبار ------",
+    "choices": [
+      "العالم",
+      "أسنان",
+      "أرض",
+      "آخر"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "من فضلك قل لي بعض الأخبار ------",
+    "choices": [
+      "مسار",
+      "شراب",
+      "إثبات",
+      "الدولية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط منبه على ------",
+    "choices": [
+      "اللغة",
+      "تسعة المسا",
+      "إلى",
+      "الغناء"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط تنبيه يصحيني الساعة ------",
+    "choices": [
+      "خفاش",
+      "ورقة",
+      "عشرة الصبح",
+      "سمعت"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أبغى منبه يذكرني عالساعة ------",
+    "choices": [
+      "أداة",
+      "إلى الأمام",
+      "وحده",
+      "الذرة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "سوي منبه ------",
+    "choices": [
+      "حالة",
+      "لثلاثة الظهر",
+      "قيادة",
+      "غريب"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل منبه ------",
+    "choices": [
+      "تحتوي على",
+      "شيء",
+      "تسعة الصباح",
+      "فم"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط منبه على ------",
+    "choices": [
+      "تيار",
+      "الجانب",
+      "وحده الظهر",
+      "يحدث"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ابحث عن اسم album ------",
+    "choices": [
+      "مليون",
+      "أسيل عمران",
+      "دائما",
+      "ديك"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل أغنية ولهان ------",
+    "choices": [
+      "موقف",
+      "لراشد الماجد",
+      "باب",
+      "السكر"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قم بتشغيل أغنية ------",
+    "choices": [
+      "الاماكن",
+      "احتفظ",
+      "تعرف",
+      "الوقوف"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ايش أكثر نكتة ------",
+    "choices": [
+      "ممارسة",
+      "صغير",
+      "مضحكة",
+      "إطار العجلة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "قولي نكتة ------",
+    "choices": [
+      "القانون",
+      "الصحافة",
+      "مقرفه",
+      "المدرسة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "من فضلك ارفع صوت أغنية ------",
+    "choices": [
+      "تواصل",
+      "سطح",
+      "ذيل",
+      "الأماكن"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "volume_up",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "رجاءاً ------ معدل الخلط لأغنية بلا حب",
+    "choices": [
+      "ساعة",
+      "كرة",
+      "خفضي",
+      "جاهزة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "لوسمحت ------ هذي الموسيقة مره ثانية لحمد",
+    "choices": [
+      "عد",
+      "الأرض",
+      "أسبوع",
+      "مربع"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "طف النور في ------",
+    "choices": [
+      "رمز",
+      "تلبية",
+      "خارج",
+      "الصالة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "لو سمحت طف اللمبات في ------",
+    "choices": [
+      "كل",
+      "مدينة",
+      "الخاصة",
+      "غرفة الخدامة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل أي شيء من ------",
+    "choices": [
+      "واسع",
+      "ارتداء",
+      "كاظم الساهر",
+      "سقط"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "some ------ music",
+    "choices": [
+      "هكذا",
+      "طالب",
+      "background",
+      "أي"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أبعى أعرف اذا عندي أي منبهات ------",
+    "choices": [
+      "لبكره",
+      "ما",
+      "عميق",
+      "ثلاثة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما وضع المنبهات ------",
+    "choices": [
+      "الذرة",
+      "محرك",
+      "تماما",
+      "غدا"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "طفي منبه ------",
+    "choices": [
+      "ثمانية الصبح",
+      "منجم",
+      "آخر",
+      "حار"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ألغي منبه ------",
+    "choices": [
+      "كان",
+      "يكون",
+      "خطاب",
+      "ثمنية الصبح"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "امسح منبه ------",
+    "choices": [
+      "يوم",
+      "اعتقد",
+      "النظر",
+      "ثمانية الصبح"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "remove",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي ------",
+    "choices": [
+      "مضاعفة",
+      "تلك",
+      "أرسلت",
+      "درجة الحرارة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل الطقس ------",
+    "choices": [
+      "خطة",
+      "دافي",
+      "طفل",
+      "المسار"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم هو ------",
+    "choices": [
+      "حماية",
+      "ترك",
+      "فكرة",
+      "البرد"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم ------ فيه يوم ثلاثة وعشرين",
+    "choices": [
+      "ذهب",
+      "عيد ميلاد",
+      "بارد",
+      "أنا"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ابي أعرف اذا ------ بيكون يوم اثنعش",
+    "choices": [
+      "البيض",
+      "السبت",
+      "السبت الثاني",
+      "شراء"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل ------ يوم واحد وعشرين",
+    "choices": [
+      "عيد الفطر",
+      "صفقة",
+      "ظهر",
+      "بحر"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ هاي الاغنية ذاتها عشر مرات",
+    "choices": [
+      "كرر",
+      "الصباح",
+      "دولة",
+      "جدول"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "الخاصة بس مغني ------",
+    "choices": [
+      "الجيران",
+      "حرب",
+      "فضة",
+      "اغاني"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "settings",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ list",
+    "choices": [
+      "الحصول على",
+      "one through ten",
+      "جمع",
+      "بقية"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "طفي لمبة وحده في ------",
+    "choices": [
+      "تناسب",
+      "شاق",
+      "البلكونة",
+      "مزيج"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "طفي ------",
+    "choices": [
+      "اللمبة",
+      "نقيب",
+      "يكون",
+      "حتى"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل ------ بكرة",
+    "choices": [
+      "ثلج",
+      "ستمطر",
+      "بيع",
+      "عشرون"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "سيكون هناك غروب الشمس ------ خمسة ونص المسا",
+    "choices": [
+      "البنك",
+      "بكره",
+      "جولة",
+      "سمعت"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل هناك اي فرص ------ هذا الأسبوع",
+    "choices": [
+      "سطح",
+      "هطول أمطار",
+      "من خلال",
+      "لعبة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "وش ------",
+    "choices": [
+      "الملكية",
+      "حافة",
+      "الحشد",
+      "أشهر مواضيع الأخبار الحالية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ايش في أخبار جديدة حق ------",
+    "choices": [
+      "توقف",
+      "عشرة",
+      "اليوم",
+      "قطع"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو الوقت في ------",
+    "choices": [
+      "العالم",
+      "مكة المكرمة",
+      "حدث",
+      "الجمال"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم الجو ------ الحين",
+    "choices": [
+      "دافي",
+      "هم",
+      "غرامة",
+      "الرجاء"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل أقدر أسمع ------ صوت الي يمكن اسمعها عأجهزة الراديو الحين",
+    "choices": [
+      "كوكب",
+      "فرصة",
+      "افضل خمسين",
+      "مطالبة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "من فضلك شغل موسيقى ------ على العشاء الحين",
+    "choices": [
+      "قد",
+      "كلاسيكية",
+      "بلد",
+      "متجر"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "من فضلك أريد أسمع ------ من محمد عبده",
+    "choices": [
+      "بحيرة",
+      "عمري نهر",
+      "سوق",
+      "مساء"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ممكن تشغل ------ لداليا مبارك",
+    "choices": [
+      "طفل",
+      "بذرة",
+      "أشهر أغنية",
+      "الجذر"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ابي اسمع اغنيتي المفضلة من ------",
+    "choices": [
+      "النظر",
+      "انغامي",
+      "بقعة",
+      "ثلاثة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "غير المنبه وخله يرن ------",
+    "choices": [
+      "تابع",
+      "الجيران",
+      "نص الليل",
+      "صباحا"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف سيكون الطقس ------ من الآن",
+    "choices": [
+      "شركة",
+      "بعد أسبوع",
+      "حرف لين",
+      "السفر"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "يوم ------ ما هو الطقس المفترض أن يكون",
+    "choices": [
+      "نافذة",
+      "البخار",
+      "الثلاثاء",
+      "متأخر"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شنو توقعات الطقس في ------",
+    "choices": [
+      "السفر",
+      "نهاية الأسبوع",
+      "عام",
+      "الآن"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "سوي كتم لمدة ------",
+    "choices": [
+      "قاموس",
+      "عشرين دقيقة",
+      "ديك",
+      "مكان"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "volume_mute",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أبي أقوم ------ بكرة لو سمحت",
+    "choices": [
+      "تماما",
+      "ستة الصبح",
+      "واسع",
+      "الشهيرة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تكفى حط المنبه على ------ بكره الصبح",
+    "choices": [
+      "وتر",
+      "مثل",
+      "تحدث",
+      "سبعة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تكفى خلي المنبه اللي ------ يرن ثمنية الصبح السبت الجاي",
+    "choices": [
+      "راقب",
+      "يصحيني",
+      "حدد",
+      "مفاجئ"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغلي قايمة التشغيل ------",
+    "choices": [
+      "حرارة",
+      "أكل",
+      "رقم سبعة",
+      "مرح"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أي يوم في الأسبوع ------",
+    "choices": [
+      "مشكلة",
+      "تلقي",
+      "شريط",
+      "اليوم الوطني"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "وش بيكون آخر يوم في ------",
+    "choices": [
+      "أسس",
+      "العمر",
+      "الشهر",
+      "لنا"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم بتوقيت ------",
+    "choices": [
+      "الجبل",
+      "بعض",
+      "أم القرى",
+      "ورق"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو وقت ------ الحالي",
+    "choices": [
+      "شتاء",
+      "القدس",
+      "مباشر",
+      "نجاح"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو الجدل الأخير حول ------",
+    "choices": [
+      "عزيزتي",
+      "صدام حسين",
+      "عائلة",
+      "قتل"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو الجدل الأخير على ------",
+    "choices": [
+      "دونالد ترامب",
+      "تسجيل",
+      "الضرورة",
+      "عزيزتي"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل اغنية ------ على الاذاعة",
+    "choices": [
+      "الاماكن",
+      "خلال",
+      "الصعب",
+      "التيار"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "من فضلك أسمعني ------",
+    "choices": [
+      "عظيم إحساسي",
+      "يعتقد",
+      "فترة",
+      "تضمن"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "سجل ------ ل أغنية ل كاظم الساهر من آخر ألبوم",
+    "choices": [
+      "تلقي",
+      "نسخة",
+      "اخر بارت",
+      "عصابة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "خلني أعرف حين يكون في اخبار عن ------",
+    "choices": [
+      "حقيقية",
+      "قوة",
+      "لقاح كورونا",
+      "الحديث"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "سوي تنبيه حق الاخبار عن ------",
+    "choices": [
+      "مرة أخرى",
+      "الثالث",
+      "تحمل",
+      "فيروس كورونا"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "إعلامي عندما تكون هناك أخبار على ------",
+    "choices": [
+      "خط غلز الحجاز",
+      "البنك",
+      "غرامة",
+      "خطوة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "موضوع",
+      "المكنسة",
+      "وصول",
+      "تجارة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "لو سمحت شغل ------",
+    "choices": [
+      "فقدت",
+      "الفئة",
+      "المكنسة الكهربائية",
+      "حديقة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شنو في نكات ------ عن السيارات",
+    "choices": [
+      "عقل",
+      "بشري",
+      "صرخة",
+      "مضحكة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "احكيلي نكتة عن ------",
+    "choices": [
+      "هم",
+      "ركض",
+      "مصلحة",
+      "الانسان"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أغعثرلي على نكتة ------",
+    "choices": [
+      "حيوانات",
+      "توقع",
+      "السائل",
+      "كذبة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تذكر تشغيل أغنية ------",
+    "choices": [
+      "بقعة",
+      "يبدو",
+      "اختر",
+      "الليلة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل لي أغنية ------",
+    "choices": [
+      "عصا",
+      "اتصال",
+      "كان",
+      "لوعد"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "turn on ------ robot",
+    "choices": [
+      "vacuum cleaner",
+      "فقدت",
+      "هؤلاء",
+      "دراسة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "cleaning",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما ستكون ------ هذا الاسبوع",
+    "choices": [
+      "الأزرق",
+      "ميت",
+      "أعلى حرارة",
+      "كذبة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ارفع الإضاءة ------",
+    "choices": [
+      "أكل",
+      "شوية",
+      "إنتاج",
+      "فقير"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ارفع الإضاءة ------",
+    "choices": [
+      "منطقة",
+      "شوي",
+      "عجل",
+      "قارب"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "عندي أي منبهات مضبوطة ------",
+    "choices": [
+      "البحث",
+      "الصباح",
+      "سيئة",
+      "اليوم"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "طفي لمبات ------",
+    "choices": [
+      "ميناء",
+      "شقيق",
+      "الغرفة",
+      "الطبيب"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أضواء التحكم أطفئ أضواء ------",
+    "choices": [
+      "غرفة",
+      "موقف",
+      "قصة",
+      "تزويد"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "hue_lightoff",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تقدري تلاقي شوية موسيقى ------",
+    "choices": [
+      "رومانسي",
+      "تغيير",
+      "إصبع",
+      "حل"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أبغى أسمع شوية موسيقى ------",
+    "choices": [
+      "خمسة",
+      "حالة",
+      "و",
+      "رومانسية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف هو الطقس الحالي في ------",
+    "choices": [
+      "حقيقة",
+      "جاء",
+      "رمز",
+      "المدينة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف هو الطقس الحالي في ------",
+    "choices": [
+      "الرياض",
+      "الطلاء",
+      "التل",
+      "بالضبط"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هو الوقت الآن في ------",
+    "choices": [
+      "قريب",
+      "الرياض",
+      "مثل",
+      "المسار"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "الوقت الآن في ------",
+    "choices": [
+      "تذكر",
+      "الرياض",
+      "تعتمد",
+      "حر"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم الساعة الحين في ------",
+    "choices": [
+      "طائر",
+      "مرة أخرى",
+      "السعودية",
+      "خاص"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "من فضلك هل يمكنني معرفة الوقت الذي ستكون فيه الساعة ------ هنا في السعودية",
+    "choices": [
+      "يوم",
+      "كرة",
+      "رفع",
+      "ستة بعد الظهر"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل يمكنك معرفة عدد ساعات الفارق بين ------ و عسير",
+    "choices": [
+      "معين",
+      "الجنيه",
+      "اثنين",
+      "الخبر"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "قال",
+      "لحظة",
+      "تقرر",
+      "برغر الكوك"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تنين ------",
+    "choices": [
+      "همبرغر",
+      "سيد",
+      "عصا",
+      "الكلام"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ واحد",
+    "choices": [
+      "صرخة",
+      "عملية",
+      "البيتزا",
+      "مرة واحدة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تكفى طف ------ شحن جوالي لمن يخلص شحن",
+    "choices": [
+      "جاف",
+      "فيش",
+      "متأخر",
+      "رمل"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل فيش ------ لمن أوصل البيت",
+    "choices": [
+      "على مدار الساعة",
+      "التلفزيون",
+      "تختلف",
+      "استمع"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ number",
+    "choices": [
+      "أبدا",
+      "حي",
+      "plug socket cell phone",
+      "حتى"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "خلني على اطلاع على ------",
+    "choices": [
+      "مع",
+      "اسعار البيتكوين",
+      "لماذا",
+      "الفاكهة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أطلعني على ------",
+    "choices": [
+      "حار",
+      "عظيم",
+      "أسعار سوق البورصة",
+      "جدول"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "stock",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تتبع الأخبار حق ------ في المستقبل",
+    "choices": [
+      "يبدو",
+      "صفقة",
+      "قصير",
+      "قضية كاظم الساهر"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "قريب",
+      "بدأ",
+      "last song",
+      "طبخ"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ song drop",
+    "choices": [
+      "هي",
+      "راديو",
+      "سهل",
+      "michael jackson"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أغنية ------ في السادسة مساء",
+    "choices": [
+      "اخر مساء",
+      "الأخضر",
+      "السؤال",
+      "غذاء"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم الوقت الحين في ------",
+    "choices": [
+      "شاهد",
+      "بحث",
+      "أربك",
+      "محايل عسير"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أعطني الوقت في ------",
+    "choices": [
+      "تشغيل",
+      "مكة",
+      "الرقبة",
+      "كبير"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أعطني الوقت في ------ الحين",
+    "choices": [
+      "قدم",
+      "التاريخ",
+      "الرياض",
+      "أغنية"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تو طلبت دق عليهم وتاكد وشوف اذا ------",
+    "choices": [
+      "الأول",
+      "كل",
+      "وصلوه",
+      "أن"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شف لي ------ طلبي الحالي",
+    "choices": [
+      "الصلب",
+      "المقبل",
+      "توصيل",
+      "أداة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اتصل ------ توصيل",
+    "choices": [
+      "المطعم",
+      "فستان",
+      "حاصل",
+      "بط"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "لو ماعليك أمر ارفع نور ------",
+    "choices": [
+      "حل",
+      "حاصل",
+      "الغرفه",
+      "إصبع"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "hue_lightup",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ماذا يحدث في ------",
+    "choices": [
+      "لا شيء",
+      "مجلس النواب",
+      "سفينة",
+      "ثان"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "خبرني شي ------",
+    "choices": [
+      "مضحك",
+      "مباشر",
+      "وسط",
+      "سحابة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "joke",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "إذا",
+      "ملكة جمال",
+      "radio head",
+      "الخاصة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ now",
+    "choices": [
+      "chopin",
+      "الجنيه",
+      "ركن",
+      "منطقة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "من يقود سباقات ------ الآن",
+    "choices": [
+      "محرك",
+      "فورمولا ون",
+      "خدمة",
+      "لديه"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "انطيني تحديثات أخبار ------",
+    "choices": [
+      "لها",
+      "الجزيرة",
+      "ركوب",
+      "عائلة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اقرا عناوين الأخبار من ------",
+    "choices": [
+      "جريدة المملكة",
+      "تحت",
+      "كان",
+      "مجموعة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أريد أن أسمع آخر الأخبار من ------",
+    "choices": [
+      "جمع",
+      "لا شيء",
+      "قد",
+      "الجزيرة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ممكن توريني آخر الأخبار العاجلة على ------",
+    "choices": [
+      "أكل",
+      "ملكة جمال",
+      "صرخة",
+      "العربية"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أريد أن اعرف الأخبار من ------",
+    "choices": [
+      "تواصل",
+      "أنبوب",
+      "عظيم",
+      "جريدة الشرق الأوسط"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "من فضلك اقرالي آخر الأخبار من ------",
+    "choices": [
+      "المدينة",
+      "سوف",
+      "ك",
+      "مجلس الإدارة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ممكن أعرف الاخبار من ------",
+    "choices": [
+      "حدث",
+      "العربية",
+      "هو",
+      "ملك"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "حط منبه على الساعة ------ بكره الصباح",
+    "choices": [
+      "حالة",
+      "أنا",
+      "خمسة",
+      "أربعة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "عاير منبه عشان يقومني ------",
+    "choices": [
+      "قتل",
+      "بقعة",
+      "جديدة",
+      "بعد خمس ساعات"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "عاير منبه يصحيني ------",
+    "choices": [
+      "خريطة",
+      "متوسط",
+      "بعد ثلاثة ساعات",
+      "أنفق"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "set",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "إعطاء إحصائيات الطقس لهذا ------",
+    "choices": [
+      "منذ",
+      "في حين",
+      "أسس",
+      "الاسبوع"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اعرض طقس ------",
+    "choices": [
+      "سمح",
+      "التاريخ",
+      "الاسبوع",
+      "ارتداء"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تلخيص تفاصيل الطقس ------",
+    "choices": [
+      "الأسبوع",
+      "خوف",
+      "لاحقة",
+      "ديك"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "songs of ------",
+    "choices": [
+      "الطبيب",
+      "أبيض",
+      "adele",
+      "منجز"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل اغنية ------ بعد هذي الأغنية",
+    "choices": [
+      "الذهب",
+      "عبد المجيد عبدالله",
+      "يجب",
+      "دقيقة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "latest songs by ------ after this one",
+    "choices": [
+      "senelena gomez",
+      "الآن",
+      "كان",
+      "قطعة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم هو الجو ------ اليوم",
+    "choices": [
+      "بارد",
+      "الرد",
+      "الفاكهة",
+      "كبير"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كم ------ اليوم",
+    "choices": [
+      "حر",
+      "لا",
+      "درجة الحرارة",
+      "ضد"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما مدى ------ في البيئة اليوم",
+    "choices": [
+      "مشغول",
+      "لحن",
+      "الرطوبة",
+      "كتاب"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اغاني ------ و روح نوع",
+    "choices": [
+      "منح",
+      "من",
+      "راب",
+      "متجر"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل كل الأغاني ------ الجديدة",
+    "choices": [
+      "جرس",
+      "سحابة",
+      "الخليجية",
+      "بوصة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------ التاية",
+    "choices": [
+      "قائمة تشغيل مفرحه",
+      "تعلم",
+      "أدى",
+      "القط"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما ------",
+    "choices": [
+      "رائج",
+      "في حين",
+      "الجنوب",
+      "مذكرة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "حتى",
+      "سيد",
+      "كتاب",
+      "trance list"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "وطي الصوت ------",
+    "choices": [
+      "اقترح",
+      "محرك",
+      "لعشرة في المية",
+      "شمس"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "volume_down",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "غير المنطقة الزمنية ------",
+    "choices": [
+      "مزيج",
+      "لينة",
+      "للرياض",
+      "خطاب"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "غير التوقيت في ------ لأم القرى",
+    "choices": [
+      "خاصة",
+      "هذا الموقع",
+      "نحو",
+      "عضو"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "convert",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "تقدر تطف ------",
+    "choices": [
+      "جديدة",
+      "الفيش",
+      "كتكوت",
+      "مباشرة"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "wemo_off",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------ عشان أشبك شاحني فيه",
+    "choices": [
+      "لا",
+      "مصطلح",
+      "فيش التوصيلة",
+      "رحلة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------ عشان ينربط مع dongle",
+    "choices": [
+      "فيش wemo",
+      "كما",
+      "سيئة",
+      "المنزل"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "wemo_on",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف سيبدو الطقس ------",
+    "choices": [
+      "الرسالة",
+      "الأطفال",
+      "هذا الأسبوع",
+      "كان"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف سيكون الطقس ------",
+    "choices": [
+      "ماء",
+      "هذا الأسبوع",
+      "الأنف",
+      "حصلت"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي توقعات الطقس ------",
+    "choices": [
+      "بالضبط",
+      "فم",
+      "هذا الاسبوع",
+      "الصلب"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل يمكن أن تعطيني عناوين الأخبار المحدثة من ------",
+    "choices": [
+      "المصدر الجديد",
+      "منطقة",
+      "حطم",
+      "عجب"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل يمكنك البحث في ------ الخاص بي عن آخر الأخبار",
+    "choices": [
+      "لماذا",
+      "مسألة",
+      "مصدر أخبار جديد",
+      "يد"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أخبرني عن آخر الأخبار ------",
+    "choices": [
+      "انضمام",
+      "مدينة",
+      "سياسية",
+      "الجيران"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أخبرني عن آخر الأخبار ------",
+    "choices": [
+      "الأكسجين",
+      "ملح",
+      "الرياضية",
+      "نما"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ويش اللي يحصل حول ------ هذي الأيام",
+    "choices": [
+      "العالم",
+      "خلال",
+      "نقطة",
+      "سميك"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أعطني آخر الأخبار من ------",
+    "choices": [
+      "الجزيرة",
+      "الليل",
+      "استخدام",
+      "أداة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي آخر الأخبار على ------",
+    "choices": [
+      "قرية",
+      "هيئة",
+      "الجزيرة",
+      "ورقة"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف لي آخر تحديث للأخبار على ------",
+    "choices": [
+      "رجل",
+      "منفصلة",
+      "الجزيرة",
+      "كل"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اعرض لي آخر تحديث للأخبار على ------",
+    "choices": [
+      "الجزيرة",
+      "هواء",
+      "الجنيه",
+      "الثالث"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أبلغني عندما يكون ------ في الأخبار",
+    "choices": [
+      "نوع",
+      "الحقل",
+      "ترامب",
+      "منجز"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أخبرني إذا حدث ------ في العالم",
+    "choices": [
+      "السيطرة",
+      "كرر",
+      "زلزال",
+      "العشري"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "نبهني عندما ------",
+    "choices": [
+      "إلى",
+      "تحمل",
+      "مغناطيس",
+      "تصل درجة الحرارة إلى ثماني وستين درجة"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------ ل eddie murphy",
+    "choices": [
+      "boogie in your butt",
+      "بيع",
+      "المحيط",
+      "إصبع"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اريد سماع ------ حق red hot chili peppers",
+    "choices": [
+      "تعليم",
+      "و",
+      "بالضبط",
+      "snow"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ by frank sinatra",
+    "choices": [
+      "أخذ",
+      "إسم",
+      "girl from impanema",
+      "بداية"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "معا",
+      "المسافر راح",
+      "قوي",
+      "مساء"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------ حق عبد المجيد عبد الله",
+    "choices": [
+      "وحيد",
+      "طريق",
+      "بحيرة",
+      "يا ابن الأوادم"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل ------",
+    "choices": [
+      "طول",
+      "ملل حبك",
+      "قاع",
+      "شكل"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "all songs ------",
+    "choices": [
+      "بحيرة",
+      "أيضا",
+      "مشغول",
+      "rock"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أضف ------ مجموعة الأغاني الحالية",
+    "choices": [
+      "يقوقون",
+      "تجارة",
+      "نهاية",
+      "ملك"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف الطقس ------",
+    "choices": [
+      "اليوم",
+      "تسعة",
+      "واحد",
+      "تواصل"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي ------ الآن",
+    "choices": [
+      "درجة الحرارة",
+      "الأصفر",
+      "المسار",
+      "سوف"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "كيف كان الطقس ------",
+    "choices": [
+      "الطبيعة",
+      "هذا الاسبوع",
+      "تفاحة",
+      "احد"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "طقس ------ أو شديد",
+    "choices": [
+      "أنت",
+      "الحشرة",
+      "معتدل",
+      "شارع"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اعرض لي ------ طقس هذا الاسبوع",
+    "choices": [
+      "واسع",
+      "ميناء",
+      "بالأحرى",
+      "أعلى"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "هل ------ مستمر",
+    "choices": [
+      "نعم",
+      "غريب",
+      "مفتاح",
+      "الصيف"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ما هي فرص ------ هذا الأسبوع",
+    "choices": [
+      "أربك",
+      "البَرَد",
+      "تحمل",
+      "الناس"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أكد منبه ------ الصبح",
+    "choices": [
+      "النتيجة",
+      "جميل",
+      "بكره",
+      "اعتقد"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "على أي وقت ضبطت المنبه حق ------",
+    "choices": [
+      "بكرة",
+      "كتاب",
+      "قوة",
+      "إذا"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ممكن تقترح ------ إيطالي نطلب منه سفري",
+    "choices": [
+      "بدأ",
+      "الجبل",
+      "حالة",
+      "مطعم"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ اكل لبرا",
+    "choices": [
+      "مطعم",
+      "كل",
+      "عظيم",
+      "المدينة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------ اكل الحين",
+    "choices": [
+      "خطاب",
+      "الوقوف",
+      "كرر",
+      "سفري"
+    ],
+    "answer": 3,
+    "type": "sentence",
+    "intent": "order",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "أريد أن أعرف آخر ------ في المدينة",
+    "choices": [
+      "الأخبار المحلية",
+      "محطة",
+      "إلى الأمام",
+      "غرفة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "سوي قهوة الساعة ------",
+    "choices": [
+      "ستة",
+      "ثمنية الصبح",
+      "خطة",
+      "إسقاط"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "اشرب القهوة في ------",
+    "choices": [
+      "شقيقة",
+      "بالأحرى",
+      "الظهيرة",
+      "الأم"
+    ],
+    "answer": 2,
+    "type": "sentence",
+    "intent": "coffee",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "------",
+    "choices": [
+      "gaga",
+      "هناك",
+      "كبير",
+      "بقعة"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "ابدأ قيمة جيدة حق ------",
+    "choices": [
+      "سمك",
+      "حسين الجسمي",
+      "بعد",
+      "العرض"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "شغل أغنية تناديك ------ و ماجد المهندس",
+    "choices": [
+      "راشد الماجد",
+      "عجب",
+      "خلق",
+      "شيء"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "music",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "افتح تطبيق ------",
+    "choices": [
+      "الجزيرة",
+      "حطم",
+      "وضع",
+      "أنا"
+    ],
+    "answer": 0,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  },
+  {
+    "question": "افتح الايميل حق موجز الصباح من ------",
+    "choices": [
+      "غرب",
+      "العربية",
+      "سيئة",
+      "هنا"
+    ],
+    "answer": 1,
+    "type": "sentence",
+    "intent": "query",
+    "extra": "Fill in the blank:"
+  }
+]
