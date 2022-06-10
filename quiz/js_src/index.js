@@ -2,7 +2,9 @@ var avialable_languages = [
     'Persian',
     'German',
     'Spanish',
-    'Korean'
+    'Korean',
+    'Turkish',
+    'Arabic'
 ]
 
 var available_quiz_types = [
