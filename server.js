@@ -80,10 +80,11 @@ app.post('/addresult', (req, res) => {
     if(req.body.username == undefined) return;
     if(req.body.username.length < 2) return;
     console.log(req.body);
+    
     UserModel.findOneAndUpdate({user: req.body.username}, {$push: {points: req.body.points}}, {new: true})
       .exec().then(q => {
         console.log(q);
-        // q.points.push([req.body.try, req.body.lang, req.body.countCorrect, req.body.countIncorrect]);
+        // q.points.push();
         // q.save();
         res.send({username: req.body.username, status:'loggedin', points: q.points});
    });

@@ -162,10 +162,7 @@ function viewResults() {
             method:"POST",
             body: JSON.stringify({
                 username: document.getElementById('username').value,
-                countCorrect: countCorrect,
-                countIncorrect: countIncorrect,
-                lang: localStorage.getItem('lang'),
-                try: d3.select('table').selectAll('tr').size()  - 1
+                points: [d3.select('table').selectAll('tr').size()  - 1, lang, countCorrect, countIncorrect]
             }),
             headers: {
                 "Content-type": "application/json; charset=UTF-8",
