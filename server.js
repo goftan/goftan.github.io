@@ -80,8 +80,8 @@ app.post('/addresult', (req, res) => {
     UserModel.findOneAndUpdate({user: req.body.username})
       .exec().then(q => {
         console.log(q);
-        q.points.push([req.body.try, req.body.lang, req.body.countCorrect, req.body.countIncorrect]);
-        q.save();
+        // q.points.push([req.body.try, req.body.lang, req.body.countCorrect, req.body.countIncorrect]);
+        // q.save();
         res.send({username: req.body.username, status:'loggedin', points: q.points});
    });
 });
