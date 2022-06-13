@@ -79,8 +79,7 @@ app.post('/addresult', (req, res) => {
     if(req.body == undefined) return;
     if(req.body.username == undefined) return;
     if(req.body.username.length < 2) return;
-    console.log(req.body);
-    
+
     UserModel.findOneAndUpdate({user: req.body.username}, {$push: {points: req.body.points}}, {new: true})
       .exec().then(q => {
         console.log(q);

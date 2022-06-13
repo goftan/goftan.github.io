@@ -105,7 +105,8 @@
         </table>
     </div>
     <div id="calculator_page" style="display: none;">
-        <table id="result_table">
+        <table class="result_table">
+            <thead>
             <tr>
                 <th>Try</th>
                 <th>Language</th>
@@ -113,6 +114,9 @@
                 <th>Incorrect</th>
                 <!-- <th>Not Answered</th> -->
               </tr>
+        </thead>
+        <tbody id="result_table">
+        </tbody>
         </table>
         <button class="button button5" onclick="restartQuiz()"  id="restartQuiz">Restart Quiz!</button>
     </div>

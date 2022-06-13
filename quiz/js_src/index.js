@@ -154,7 +154,7 @@ function submitAnswer() {
 
 function viewResults() {
     decolorCorrectAnswer(); 
-    selectPage('calculator_page');
+    
     
 
     if(signined) {
@@ -162,7 +162,7 @@ function viewResults() {
             method:"POST",
             body: JSON.stringify({
                 username: document.getElementById('username').value,
-                points: [d3.select('table').selectAll('tr').size()  - 1, lang, countCorrect, countIncorrect]
+                points: [localStorage.getItem('lang'), countCorrect, countIncorrect]
             }),
             headers: {
                 "Content-type": "application/json; charset=UTF-8",
@@ -172,27 +172,28 @@ function viewResults() {
             .then(json => {
                 console.log('addresults back');
                 console.log(json);
-                
+                console.log(json.points);
                 d3.select('#result_table')
                 .selectAll('tr')
                 .data(json.points)
                 .enter().append('tr')
-                .html(function(d){
-                    return '<td>' + d[0] + 
+                .html(function(d,c){
+                    return '<td>' + (c+1) + 
                     '</td><td>' + d[1] + 
                     '</td><td>' + d[2] 
                     + '</td><td>' + d[3] + '</td>';
                 });
+                selectPage('calculator_page');
             });
     } else {
 
         d3.select('#result_table').append('tr')
         .selectAll("td")
-        .data([d3.select('table').selectAll('tr').size()  - 1,  
+        .data([d3.select('table').selectAll('tr').size(),  
         localStorage.getItem('lang'), countCorrect, countIncorrect])
         .enter()
         .append("td").text(function(d) { return d; });
-
+        selectPage('calculator_page');
     }
     
 }
