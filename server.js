@@ -77,7 +77,9 @@ app.post('/addresult', (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     
     if(req.body == undefined) return;
-    UserModel.findOneAndUpdate({user: req.body.username})
+    if(req.body.username == undefined) return;
+    if(req.body.username.length < 2) return;
+    UserModel.findOneAndUpdate({user: req.body.username}, {$update: {points: req.body.points}})
       .exec().then(q => {
         console.log(q);
         // q.points.push([req.body.try, req.body.lang, req.body.countCorrect, req.body.countIncorrect]);
