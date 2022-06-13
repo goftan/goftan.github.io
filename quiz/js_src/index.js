@@ -172,16 +172,16 @@ function viewResults() {
             .then(json => {
                 console.log('addresults back');
                 console.log(json);
-                console.log(json.points);
+                d3.select('#result_table').html("");
                 d3.select('#result_table')
                 .selectAll('tr')
                 .data(json.points)
                 .enter().append('tr')
                 .html(function(d,c){
                     return '<td>' + (c+1) + 
-                    '</td><td>' + d[1] + 
-                    '</td><td>' + d[2] 
-                    + '</td><td>' + d[3] + '</td>';
+                    '</td><td>' + d[0] + 
+                    '</td><td>' + d[1] 
+                    + '</td><td>' + d[2] + '</td>';
                 });
                 selectPage('calculator_page');
             });
