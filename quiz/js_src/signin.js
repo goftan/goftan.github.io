@@ -1,3 +1,5 @@
+signined = false;
+
 function signin() {
     d3.json('https://goftan.herokuapp.com/signin', {
       method:"POST",
@@ -17,6 +19,7 @@ function signin() {
             localStorage.setItem('status', json.status);
             d3.select('#hi_user').html('Hi, ' + json.username);
             selectPage('language_page');
+            signined = true;
         } else {
             alert('Wrong username or password');
         }           

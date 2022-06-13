@@ -75,7 +75,7 @@ app.post('/signin', (req, res) => {
 
 app.post('/addresult', (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
-
+    console.log(req);
     if(req.body == undefined) return;
     UserModel.findOneAndUpdate({user: req.body.username})
       .exec().then(q => {
