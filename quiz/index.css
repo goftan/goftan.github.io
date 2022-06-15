@@ -303,6 +303,7 @@ body {
   box-shadow: none;
   border-radius: 0px;
   font-size: 20px;
+  color: black;
 }
 
 .question_table {

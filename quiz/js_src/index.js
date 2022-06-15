@@ -189,7 +189,7 @@ function viewResults() {
 
         d3.select('#result_table').append('tr')
         .selectAll("td")
-        .data([d3.select('table').selectAll('tr').size(),  
+        .data([d3.select('#result_table').selectAll('tr').size(),  
         localStorage.getItem('lang'), countCorrect, countIncorrect])
         .enter()
         .append("td").text(function(d) { return d; });
@@ -203,20 +203,4 @@ function restartQuiz() {
     countCorrect = 0;
     countIncorrect = 0;
     countViewed = 0;
-}
-
-
-// table, th, td {
-    // border: 1px solid black;
-    // border-collapse: collapse;
-//   }
-
-arr1 = []
-for(i = 0;i < 12 ;i++) {
-    arr1.push(i)
-}
-
-arr2 = []
-for(i = 0;i < 13 ;i++) {
-    arr2.push(i);
 }
