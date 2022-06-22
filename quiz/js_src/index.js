@@ -52,11 +52,14 @@ function startLearning() {
     }
     var lang = d3.select('.myradiobox:checked').node().value;
     localStorage.setItem('lang',lang);
+    d3.select('#known_language').text('Enjoy learning ' + localStorage.getItem('lang') );
+
     fill_topic_checkboxes();
 }
 
 function startLearningWithKnownLanguage() {
     selectPage('tasks_page');
+    d3.select('#known_language').text('Enjoy learning ' + localStorage.getItem('lang') );
     fill_topic_checkboxes();
 }
 
@@ -91,6 +94,7 @@ var countViewed = 0;
 function startQuiz() {
     let readers = [];
     var lang = localStorage.getItem('lang');
+
     d3.selectAll('.mycheckbox:checked').each(function() {
         var topic_name = d3.select(this).node().value.replaceAll(' ','') + '.json';
         readers.push(d3.json(lang + '/' + topic_name));
