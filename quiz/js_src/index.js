@@ -16,7 +16,7 @@ var avialble_topics = [
     'Capitals',
     'Numbers',
     'Colors',
-    // 'Animals',
+    'Animals',
     'Antonyms',
     'Common Words', 
     'Common Sentences'];
@@ -158,8 +158,6 @@ function submitAnswer() {
 
 function viewResults() {
     decolorCorrectAnswer(); 
-    
-    
 
     if(signined) {
         d3.json('https://goftan.herokuapp.com/addresult', {
