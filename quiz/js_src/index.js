@@ -19,7 +19,10 @@ var avialble_topics = [
     'Animals',
     'Antonyms',
     'Common Words', 
-    'Common Sentences'];
+    'Common Sentences'
+];
+
+quiz_started = false;
 
 
 init_nav_menu();
@@ -27,7 +30,7 @@ init_nav_menu();
 function fill_language_checkboxes() {
     d3.select('#language_checkboxes').selectAll('label').data(avialable_languages)
         .enter().append('label').text(function(d){return d;}).attr('class','radiocontainer')
-        .html(function(d){return '<input type="radio" name="topics" value="'+d+'" class="myradiobox">'
+        .html(function(d){return '<input type="radio" name="topics" value="'+d+'" class="languages_checkbox">'
                                     + d +'<span class="radiocheckmark"></span>';});
 }
 
@@ -40,28 +43,15 @@ function fill_quiz_type_checkboxes() {
 
 fill_language_checkboxes();
 fill_quiz_type_checkboxes();
-if(localStorage.getItem('lang') != null) {
-    startLearningWithKnownLanguage();
-}
+// if(localStorage.getItem('lang') != null) {
+//     startLearningWithKnownLanguage();
+// }
 
-function startLearning() {
-    selectPage('tasks_page');
-    if(d3.select('.myradiobox:checked').size() == 0) {
-        alert('Please select a language');
-        return;
-    }
-    var lang = d3.select('.myradiobox:checked').node().value;
-    localStorage.setItem('lang',lang);
-    d3.select('#known_language').text('Enjoy learning ' + localStorage.getItem('lang') );
-
-    fill_topic_checkboxes();
-}
-
-function startLearningWithKnownLanguage() {
-    selectPage('tasks_page');
-    d3.select('#known_language').text('Enjoy learning ' + localStorage.getItem('lang') );
-    fill_topic_checkboxes();
-}
+// function startLearningWithKnownLanguage() {
+//     selectPage('tasks_page');
+//     d3.select('#known_language').text('Enjoy learning ' + localStorage.getItem('lang') );
+//     fill_topic_checkboxes();
+// }
 
 function fill_topic_checkboxes() {
     d3.select('#topics_checkboxes').selectAll('label').data(avialble_topics)
@@ -93,11 +83,10 @@ var countViewed = 0;
 
 function startQuiz() {
     let readers = [];
-    var lang = localStorage.getItem('lang');
 
     d3.selectAll('.mycheckbox:checked').each(function() {
         var topic_name = d3.select(this).node().value.replaceAll(' ','') + '.json';
-        readers.push(d3.json(lang + '/' + topic_name));
+        readers.push(d3.json(get_selected_language() + '/' + topic_name));
     });
 
     Promise.allSettled(readers).then(function(files) {
@@ -107,10 +96,10 @@ function startQuiz() {
         quiz = [].concat.apply([], quizall);
         shuffleArray(quiz);
         fill_qa(quiz[0]);
+        quiz_started = true;
         selectPage('question_page');
         fill_crossword(quiz);
     }).catch(function(err) {
-        // handle error here
     })
 }
 
@@ -164,7 +153,7 @@ function viewResults() {
             method:"POST",
             body: JSON.stringify({
                 username: document.getElementById('username').value,
-                points: [localStorage.getItem('lang'), countCorrect, countIncorrect]
+                points: [get_selected_language(), countCorrect, countIncorrect]
             }),
             headers: {
                 "Content-type": "application/json; charset=UTF-8",
