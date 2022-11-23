@@ -161,8 +161,6 @@ function viewResults() {
             }
             })
             .then(json => {
-                console.log('addresults back');
-                console.log(json);
                 d3.select('#result_table').html("");
                 d3.select('#result_table')
                 .selectAll('tr')
