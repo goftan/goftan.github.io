@@ -61,6 +61,8 @@
         <button class="button button5" onclick="selectPage('tasks_page')" id="startLearning">Start Learning!</button>
     </div>
     <div id="tasks_page" style="display: none;">
+        <h3>How many questions should we have in the quiz?</h3>
+        <input id="num_of_questions"></input>
         <h3>Select what should be contained in the quiz:</h3>
         <div id="topics_checkboxes"></div><br/>
         <div id="quiz_types">
@@ -96,7 +98,7 @@
         </label> -->
         <button class="button button5" onclick="nextQuestion()" id="nextQuestion">Next</button>
         <!-- <button class="button button5" onclick="submitAnswer()" id="nextQuestion">Submit</button> -->
-        <button class="button button5" onclick="viewResults()"  id="nextQuestion">Results</button>
+        <!-- <button class="button button5" onclick="viewResults()"  id="nextQuestion">Results</button> -->
     </div>
     <div id="puzzle-piece_page">
         <h3 id="crossword_question"></h3>

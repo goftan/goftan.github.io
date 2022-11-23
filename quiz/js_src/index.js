@@ -113,6 +113,7 @@ function nextQuestion() {
     if(countQues < quiz.length) {
         fill_qa(quiz[countQues]);  
     } else {
+        selectPage('info_page');
         // d3.select('#second_page').style("display", 'none');
         // d3.select('#third_page').style("display", 'block');
     }
@@ -148,33 +149,33 @@ function submitAnswer(which_option) {
 function viewResults() {
     decolorCorrectAnswer(); 
 
-    if(signined) {
-        d3.json('https://goftan.herokuapp.com/addresult', {
-            method:"POST",
-            body: JSON.stringify({
-                username: document.getElementById('username').value,
-                points: [get_selected_language(), countCorrect, countIncorrect]
-            }),
-            headers: {
-                "Content-type": "application/json; charset=UTF-8",
-                "Access-Control-Allow-Origin": "*"
-            }
-            })
-            .then(json => {
-                d3.select('#result_table').html("");
-                d3.select('#result_table')
-                .selectAll('tr')
-                .data(json.points)
-                .enter().append('tr')
-                .html(function(d,c){
-                    return '<td>' + (c+1) + 
-                    '</td><td>' + d[0] + 
-                    '</td><td>' + d[1] 
-                    + '</td><td>' + d[2] + '</td>';
-                });
-                selectPage('calculator_page');
-            });
-    } else {
+    // if(signined) {
+    //     d3.json('https://goftan.herokuapp.com/addresult', {
+    //         method:"POST",
+    //         body: JSON.stringify({
+    //             username: document.getElementById('username').value,
+    //             points: [get_selected_language(), countCorrect, countIncorrect]
+    //         }),
+    //         headers: {
+    //             "Content-type": "application/json; charset=UTF-8",
+    //             "Access-Control-Allow-Origin": "*"
+    //         }
+    //         })
+    //         .then(json => {
+    //             d3.select('#result_table').html("");
+    //             d3.select('#result_table')
+    //             .selectAll('tr')
+    //             .data(json.points)
+    //             .enter().append('tr')
+    //             .html(function(d,c){
+    //                 return '<td>' + (c+1) + 
+    //                 '</td><td>' + d[0] + 
+    //                 '</td><td>' + d[1] 
+    //                 + '</td><td>' + d[2] + '</td>';
+    //             });
+    //             selectPage('calculator_page');
+    //         });
+    // } else {
 
         d3.select('#result_table').append('tr')
         .selectAll("td")
@@ -183,7 +184,7 @@ function viewResults() {
         .enter()
         .append("td").text(function(d) { return d; });
         selectPage('calculator_page');
-    }
+    // }
     
 }
 
