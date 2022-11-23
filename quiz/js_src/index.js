@@ -110,7 +110,7 @@ function nextQuestion() {
     }
     countViewed++;
     countQues++;
-    if(countQues < parseInt(d3.select("num_of_questions").value())) {
+    if(countQues < parseInt(d3.select("#num_of_questions").node().value)) {
         fill_qa(quiz[countQues]);  
     } else {
         selectPage('info_page');
