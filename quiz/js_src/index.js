@@ -117,7 +117,7 @@ function nextQuestion() {
         fill_qa(quiz[countQues]);  
     } else {
         d3.select('#question_number').html(1);
-        selectPage('calculator_page');
+        viewResults();
         // d3.select('#second_page').style("display", 'none');
         // d3.select('#third_page').style("display", 'block');
     }
