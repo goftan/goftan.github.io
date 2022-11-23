@@ -195,3 +195,5 @@ function restartQuiz() {
     countIncorrect = 0;
     countViewed = 0;
 }
+
+selectPage('language_page');

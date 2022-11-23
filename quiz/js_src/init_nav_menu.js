@@ -1,5 +1,5 @@
 var navs = [
-    'sign-in',
+    //'sign-in',
     'language',
     'tasks',
     'question',
