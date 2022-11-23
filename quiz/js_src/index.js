@@ -110,9 +110,12 @@ function nextQuestion() {
     }
     countViewed++;
     countQues++;
-    if(countQues < parseInt(d3.select("#num_of_questions").node().value)) {
+    question_index = parseInt(d3.select('#question_number').html());
+    if(question_index < parseInt(d3.select("#num_of_questions").node().value) + 1) {
+        d3.select('#question_number').html( question_index+ 1);
         fill_qa(quiz[countQues]);  
     } else {
+        d3.select('#question_number').html(1);
         selectPage('info_page');
         // d3.select('#second_page').style("display", 'none');
         // d3.select('#third_page').style("display", 'block');
