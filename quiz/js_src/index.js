@@ -106,7 +106,7 @@ function startQuiz() {
 function nextQuestion() {
     
     for (i=0;i<=3;i++) {
-        d3.select('#opt'+i).style('color','black');
+        d3.select('#opt'+i).style('color','black').attr('checked','false');
     }
     countViewed++;
     countQues++;
