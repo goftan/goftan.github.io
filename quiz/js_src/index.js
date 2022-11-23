@@ -106,7 +106,7 @@ function startQuiz() {
 function nextQuestion() {
     
     for (i=0;i<=3;i++) {
-        d3.select('#opt'+i).style('color','black').attr('checked','false');
+        d3.select('#opt'+i).style('color','black');
     }
     countViewed++;
     countQues++;
@@ -134,7 +134,7 @@ function decolorCorrectAnswer() {
 
 function submitAnswer(which_option) {
     decolorCorrectAnswer();    
-    var selectedAnswer = d3.select("opt"+which_option).text();
+    var selectedAnswer = d3.select("opt"+which_option).html();
     colorCorrectAnswer();    
 
     if(selectedAnswer == quiz[countQues].choices[quiz[countQues].answer]) {
