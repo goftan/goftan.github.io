@@ -71,7 +71,7 @@ function fill_qa(q) {
     d3.select("#extra").html(q.extra);
     d3.select("#question").html(q.question);
     for (i=0;i<=3;i++) {
-        d3.select('#opt'+i).text(q.choices[i]);
+        d3.select('#opt'+i).html(q.choices[i]);
     }  
 }
 
