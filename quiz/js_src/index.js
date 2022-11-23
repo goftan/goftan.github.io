@@ -82,6 +82,7 @@ var countIncorrect = 0;
 var countViewed = 0;
 
 function startQuiz() {
+    d3.select('#question_size').html(parseInt(d3.select("#num_of_questions").node().value));
     let readers = [];
 
     d3.selectAll('.mycheckbox:checked').each(function() {
@@ -111,12 +112,12 @@ function nextQuestion() {
     countViewed++;
     countQues++;
     question_index = parseInt(d3.select('#question_number').html());
-    if(question_index < parseInt(d3.select("#num_of_questions").node().value) + 1) {
-        d3.select('#question_number').html( question_index+ 1);
+    if(question_index < parseInt(d3.select("#num_of_questions").node().value)) {
+        d3.select('#question_number').html( question_index + 1);
         fill_qa(quiz[countQues]);  
     } else {
         d3.select('#question_number').html(1);
-        selectPage('info_page');
+        selectPage('calculator_page');
         // d3.select('#second_page').style("display", 'none');
         // d3.select('#third_page').style("display", 'block');
     }
