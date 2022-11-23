@@ -132,16 +132,16 @@ function decolorCorrectAnswer() {
     }
 }
 
-function submitAnswer() {
+function submitAnswer(which_option) {
     decolorCorrectAnswer();    
-    var selectedAnswer = d3.select('input[name="radio"]:checked').node().previousElementSibling.textContent;
+    var selectedAnswer = d3.select("opt"+which_option).text();
     colorCorrectAnswer();    
 
     if(selectedAnswer == quiz[countQues].choices[quiz[countQues].answer]) {
         countCorrect++;
     } else {
         countIncorrect++;
-        d3.select(d3.select('input[name="radio"]:checked').node().previousElementSibling).style('color','red')
+        d3.select("opt"+which_option).style("color","red");
     }
 }
 
