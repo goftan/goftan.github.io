@@ -71,7 +71,7 @@ function fill_qa(q) {
     d3.select("#extra").html(q.extra);
     d3.select("#question").html(q.question);
     for (i=0;i<=3;i++) {
-        d3.select('#opt'+i).html(q.choices[i]);
+        d3.select('#opt'+ (i + 1)).html(q.choices[i]);
     }  
 }
 
@@ -124,7 +124,7 @@ function nextQuestion() {
 }
 
 function colorCorrectAnswer() {
-    for (i=0;i<=3;i++) {
+    for (i=1;i<=4;i++) {
         if(d3.select('#opt'+i).text() == quiz[countQues].choices[quiz[countQues].answer]) {
             d3.select('#opt'+i).style('color','green');
         }
@@ -132,21 +132,21 @@ function colorCorrectAnswer() {
 }
 
 function decolorCorrectAnswer() {
-    for (i=0;i<=3;i++) {
+    for (i=1;i<=4;i++) {
             d3.select('#opt'+i).style('color','black');
     }
 }
 
 function submitAnswer(which_option) {
     decolorCorrectAnswer();    
-    var selectedAnswer = d3.select("opt"+which_option).html();
+    var selectedAnswer = d3.select("#opt"+which_option).html();
     colorCorrectAnswer();    
 
     if(selectedAnswer == quiz[countQues].choices[quiz[countQues].answer]) {
         countCorrect++;
     } else {
         countIncorrect++;
-        d3.select("opt"+which_option).style("color","red");
+        d3.select("#opt"+which_option).style("color","red");
     }
 }
 
