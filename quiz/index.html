@@ -72,7 +72,9 @@
         <button class="button button5" onclick="startQuiz()" id="startQuizButton">Start Quiz!</button>
     </div>
     <div id="question_page" style="display: none;">
-        <div style="padding: 5px;">Question <span id="question_number">1</span> of <span id="question_size">10</span></div>
+        <div style="padding: 5px;">Question <span id="question_number">1</span> 
+            of <span id="question_size">10</span>&nbsp;&nbsp;<button class="button button5" onclick="nextQuestion()" id="nextQuestion">Next</button></div>
+
         <div style="padding: 5px;">
             <h3 id="extra" style="padding: 5px;"></h3>
             <h2 id="question" style="padding: 5px;"></h2>
@@ -97,7 +99,7 @@
         <input type="button" name="radio">
         <span class="radiocheckmark"></span>
         </label> -->
-        <button class="button button5" onclick="nextQuestion()" id="nextQuestion">Next</button>
+        <!-- <button class="button button5" onclick="nextQuestion()" id="nextQuestion">Next</button> -->
         <!-- <button class="button button5" onclick="submitAnswer()" id="nextQuestion">Submit</button> -->
         <!-- <button class="button button5" onclick="viewResults()"  id="nextQuestion">Results</button> -->
     </div>
@@ -118,7 +120,7 @@
                 <th>Language</th>
                 <th>Correct</th>
                 <th>Incorrect</th>
-                <!-- <th>Not Answered</th> -->
+                <th>Not Answered</th>
               </tr>
         </thead>
         <tbody id="result_table">

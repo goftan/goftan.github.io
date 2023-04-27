@@ -184,7 +184,7 @@ function viewResults() {
         d3.select('#result_table').append('tr')
         .selectAll("td")
         .data([d3.select('#result_table').selectAll('tr').size(),  
-        localStorage.getItem('lang'), countCorrect, countIncorrect])
+        localStorage.getItem('lang'), countCorrect, countIncorrect, 10 - countCorrect - countIncorrect])
         .enter()
         .append("td").text(function(d) { return d; });
         selectPage('calculator_page');
