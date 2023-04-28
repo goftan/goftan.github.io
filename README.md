@@ -7,3 +7,7 @@ You can start to try the quiz it under the url:
 https://goftan.github.io/quiz
 
 
+---
+### Credits
+Ali Rostami
+Amir Aghdam
