@@ -150,27 +150,34 @@ function submitAnswer(which_option) {
 function viewResults() {
     decolorCorrectAnswer(); 
 
-    const xValues = [1,2,3,4,5,6,7,8,9,10];
-
-    const xArray = [1,2,3,4,5,6,7,8,9,10];
-    const yArray = [2,2,4,4,5,6,8,9,9,10];
-    
-    // Define Data
-    const data = [{
-      x: xArray,
-      y: yArray,
-      mode:"lines"
-    }];
-    
     // Define Layout
     const layout = {
-      xaxis: {range: [1, 10], title: "Try"},
-      yaxis: {range: [1, 10], title: "Correct Answers"},  
+      xaxis: {title: "Try", tick0: 0, autotick: false},
+      yaxis: {title: "Correct Answers", tick0: 0,autotick: false },  
       title: "Learning Progress"
     };
+
+    // Define Data
+    var German = {
+        x: [1, 2, 3, 4],
+        y: [3, 3, 4, 5],
+        type: 'bar',
+        name: 'German'
+      };
+      
+      
+      var Spanish = {
+        x: [1, 2, 3, 4],
+        y: [2, 2, 5, 7],
+        type: 'bar',
+        name: 'Spanish'
+      };
+      
+      
+      var data = [German, Spanish];
     
     // Display using Plotly
-    Plotly.newPlot("myPlot", data, layout);
+    Plotly.newPlot("myPlot", data, layout, color='category',{responsive: true});
 
     // if(signined) {
     //     d3.json('https://goftan.herokuapp.com/addresult', {
