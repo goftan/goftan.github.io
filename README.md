@@ -9,5 +9,5 @@ https://goftan.github.io/quiz
 
 ---
 ### Credits
-Ali Rostami
-Amir Aghdam
+- Ali Rostami
+- Amir Aghdam
