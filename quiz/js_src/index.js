@@ -105,10 +105,7 @@ function startQuiz() {
 }
 
 function nextQuestion() {
-    
-    for (i=0;i<=3;i++) {
-        d3.select('#opt'+i).style('color','black');
-    }
+    decolorCorrectAnswer();
     countViewed++;
     countQues++;
     question_index = parseInt(d3.select('#question_number').html());
