@@ -62,6 +62,8 @@ function logic_correct_for_selecting_this_page(page) {
         }
             
         return {'can_be_changed_to_this_page':true, notification:  ''};
+    } else if (page == 'sign-hanging_page') {
+        return {'can_be_changed_to_this_page':true, notification:  ''};
     } else if (page == 'calculator_page') {
         return {'can_be_changed_to_this_page':true, notification:  ''};
     } else if (page == 'info_page') {

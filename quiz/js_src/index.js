@@ -109,8 +109,10 @@ function startQuiz() {
         shuffleArray(quiz);
         fill_qa(quiz[0]);
         quiz_started = true;
+        fill_hangman();
         selectPage('question_page');
         fill_crossword(quiz);
+        
     }).catch(function(err) {
     })
 }
