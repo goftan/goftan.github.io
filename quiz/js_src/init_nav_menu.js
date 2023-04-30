@@ -4,6 +4,7 @@ var navs = [
     'tasks',
     'question',
     'puzzle-piece',
+    'sign-hanging',
     'calculator',
     'info'
 ]
