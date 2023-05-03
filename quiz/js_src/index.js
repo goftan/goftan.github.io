@@ -4,8 +4,19 @@ var avialable_languages = [
     'Spanish',
     'Korean',
     'Turkish',
-    'Arabic'
+    'Arabic',
+    'Portuguese'
 ]
+
+var language_alphabets = {
+    'Persian': 'ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی',
+    'German': 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü ß',
+    'Spanish': 'A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z',
+    'Korean': 'ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ',
+    'Turkish': 'A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z',
+    'Arabic': 'ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي',
+    'Portuguese': 'A B C D E F G H I J L M N O P Q R S T U V X Z'
+};
 
 var available_quiz_types = [
     'Crossword',
@@ -98,8 +109,10 @@ function startQuiz() {
         shuffleArray(quiz);
         fill_qa(quiz[0]);
         quiz_started = true;
+        fill_hangman(quiz[0]['choices'][0]);
         selectPage('question_page');
         fill_crossword(quiz);
+        
     }).catch(function(err) {
     })
 }

@@ -4,6 +4,7 @@ var navs = [
     'tasks',
     'question',
     'puzzle-piece',
+    'sign-hanging',
     'calculator',
     'info'
 ]
@@ -60,6 +61,8 @@ function logic_correct_for_selecting_this_page(page) {
             return {'can_be_changed_to_this_page':false, notification:  'Please start the quiz first!'};
         }
             
+        return {'can_be_changed_to_this_page':true, notification:  ''};
+    } else if (page == 'sign-hanging_page') {
         return {'can_be_changed_to_this_page':true, notification:  ''};
     } else if (page == 'calculator_page') {
         return {'can_be_changed_to_this_page':true, notification:  ''};

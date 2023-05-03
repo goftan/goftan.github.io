@@ -7,9 +7,11 @@
 <script src="js_src/d3.v7.min.js"></script>
 <script src="js_src/crossword.js"></script>
 <script src="js_src/prepare_crossword.js"></script>
+<script src="js_src/hangman.js"></script>
 <script src="js_src/init_nav_menu.js"></script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+<!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/6.4.0/css/font-awesome.min.css" rel="stylesheet" /> -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css" />
 </head>
 <body>
 <div class="header">
@@ -64,8 +66,25 @@
     <div id="tasks_page" style="display: none;">
         <h3>How many questions should we have in the quiz?</h3>
         <input id="num_of_questions" value="10" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"></input>
-        <h3>Select what should be contained in the quiz:</h3>
-        <div id="topics_checkboxes"></div><br/>
+        <h3>Select what should be level in the quiz: </h3>
+        <div>
+            <div>
+                <label class="container">
+                    <input type="checkbox" name="levels" value="A1" checked="checked" class="mycheckboxqtypes">A1<span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="checkbox" name="levels" value="A2" checked="checked" class="mycheckboxqtypes">A2<span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="checkbox" name="levels" value="B1" checked="checked" class="mycheckboxqtypes">B1<span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="checkbox" name="levels" value="B2" checked="checked" class="mycheckboxqtypes">B2<span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+        <h3 hidden>Select what should be contained in the quiz:</h3>
+        <div id="topics_checkboxes" hidden></div><br/>
         <div id="quiz_types">
             <h3>What kind of quiz do you want to do?</h3>
             <div id="quiz_type_checkboxes"></div>
@@ -113,8 +132,12 @@
             <tr><td id="across_questions"></td><td id="down_questions"></td></tr>
         </table>
     </div>
+    <div id="sign-hanging_page" style="display: none">
+        <div id="hangman_alphabets"></div>
+        <div id="hangman_answer" style="font-size: 28px;text-align: center;"></div>
+    </div>
     <div id="calculator_page" style="display: none;">
-        <div id="myPlot" style="width:100%;max-width:600px"></div>
+        <div id="myPlot" style="width:100%;max-width:400px"></div>
         <table class="result_table">
             <thead>
             <tr>
