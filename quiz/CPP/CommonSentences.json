@@ -1,5 +1,4 @@
-{
-    "questions": [
+[
         {
             "question": "Which of the following is the correct syntax to output data in C++?",
             "choices": ["print()", "cout <<", "System.out.println()", "printf()"],
@@ -141,4 +140,3 @@
             "type": ""
         }
     ]
-}
