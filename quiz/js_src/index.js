@@ -6,7 +6,8 @@ var avialable_languages = [
     'Turkish',
     'Arabic',
     'Portuguese',
-    'Rust'
+    'Rust',
+    'CPP'
 ]
 
 var language_alphabets = {
