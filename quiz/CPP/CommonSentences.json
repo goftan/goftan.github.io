@@ -1,0 +1,142 @@
+[
+        {
+            "question": "Which of the following is the primary data structure for owning values in Rust?",
+            "choices": ["String", "List", "Array", "Vec"],
+            "answer": 3,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "In Rust, variables are _______ by default.",
+            "choices": ["Mutable", "Immutable", "Dynamic", "Public"],
+            "answer": 1,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "Which keyword is used to declare a mutable variable?",
+            "choices": ["mut", "var", "mutable", "let"],
+            "answer": 0,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "Which trait is required to display a type with the `println!` macro using `{}`?",
+            "choices": ["Display", "Print", "ToString", "Debug"],
+            "answer": 0,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "Which keyword is used for manual memory deallocation?",
+            "choices": ["free", "delete", "destroy", "None of the above"],
+            "answer": 3,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "In Rust, which of the following denotes a reference?",
+            "choices": ["&", "*", "->", "$"],
+            "answer": 0,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "Which of the following is used to handle potential failures in Rust?",
+            "choices": ["ErrorType", "Throws", "Option", "Result"],
+            "answer": 3,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "Which keyword introduces a block of code that might cause a panic?",
+            "choices": ["try", "panic", "catch", "unsafe"],
+            "answer": 3,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "Which macro is used to print to the standard error stream?",
+            "choices": ["print!", "eprint!", "log!", "debug!"],
+            "answer": 1,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "Which of the following is the package manager for Rust?",
+            "choices": ["npm", "pip", "gem", "cargo"],
+            "answer": 3,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "Which Rust feature allows us to match against different patterns in a value?",
+            "choices": ["match", "switch", "case", "pattern"],
+            "answer": 0,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "Which annotation is used to ignore unused variables in Rust?",
+            "choices": ["#ignore", "// ignore", "_ (underscore prefix)", "@ignore"],
+            "answer": 2,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "How do you denote a lifetime parameter in Rust?",
+            "choices": ["$", ":", "*", "'"],
+            "answer": 3,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "What is the default memory safety guarantee provided by Rust?",
+            "choices": ["Ownership", "Garbage collection", "Reference counting", "Automatic deallocation"],
+            "answer": 0,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "What is the default behavior when attempting to access an out-of-bounds index of a vector in Rust?",
+            "choices": ["Returns `None`", "Panics", "Returns a default value", "Ignores the operation"],
+            "answer": 1,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "Which keyword defines an abstract set of behaviors in Rust?",
+            "choices": ["class", "module", "trait", "interface"],
+            "answer": 2,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "Which macro is used to derive standard implementations for traits in Rust?",
+            "choices": ["#derive", "@derive", "derive!", "#[derive]"],
+            "answer": 3,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "How do you declare a constant in Rust?",
+            "choices": ["let", "const", "define", "static"],
+            "answer": 1,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "In Rust, which data type represents a fixed-size array?",
+            "choices": ["List", "[T; N]", "Vec<T>", "[T]"],
+            "answer": 1,
+            "extra": "",
+            "type": ""
+        },
+        {
+            "question": "Which of the following is the Rust convention for naming variables?",
+            "choices": ["camelCase", "snake_case", "PascalCase", "kebab-case"],
+            "answer": 1,
+            "extra": "",
+            "type": ""
+        }
+    ]
