@@ -103,14 +103,16 @@ function startQuiz() {
     });
 
     Promise.allSettled(readers).then(function(files) {
+        console.log(files);
         quizall = [];
         all = [].concat.apply([], files);
         for(a of all) quizall.push(a.value);
+        quizall = quizall.filter(x => x !== undefined)
         quiz = [].concat.apply([], quizall);
         shuffleArray(quiz);
         fill_qa(quiz[0]);
         quiz_started = true;
-        fill_hangman(quiz[0]['choices'][0]);
+        // fill_hangman(quiz[0]['choices'][0]);
         selectPage('question_page');
         fill_crossword(quiz);
         

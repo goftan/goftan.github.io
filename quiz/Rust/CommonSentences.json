@@ -1,5 +1,4 @@
-{
-    "questions": [
+[
         {
             "question": "Which of the following is the primary data structure for owning values in Rust?",
             "choices": ["String", "List", "Array", "Vec"],
@@ -140,5 +139,4 @@
             "extra": "",
             "type": ""
         }
-    ]
-}
+]

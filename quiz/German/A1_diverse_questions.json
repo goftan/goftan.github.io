@@ -1,0 +1,55 @@
+{
+  "Test": {
+    "Title": "German Language A1 Level Vocabulary Test - Diverse Categories",
+    "Questions": [
+      {
+        "Type": "Word Definition",
+        "Question": "Was ist das Wort für ein Transportmittel, das auf Schienen fährt?",
+        "Choices": ["Auto", "Fahrrad", "Zug", "Flugzeug"],
+        "Answer": "Zug"
+      },
+      {
+        "Type": "Contextual Usage",
+        "Question": "Ich ____ ein Buch.",
+        "Choices": ["esse", "trinke", "lese", "schlafe"],
+        "Answer": "lese"
+      },
+      {
+        "Type": "Sentence Completion",
+        "Question": "Ich gehe zur ____ um Bücher zu lesen.",
+        "Choices": ["Schule", "Bibliothek", "Supermarkt", "Küche"],
+        "Answer": "Bibliothek"
+      },
+      {
+        "Type": "Word Association",
+        "Question": "Was passt am besten zu 'Schuh'?",
+        "Choices": ["Apfel", "Buch", "Socke", "Auto"],
+        "Answer": "Socke"
+      },
+      {
+        "Type": "Collocations",
+        "Question": "Welches Wort passt am besten? '____ Zähne putzen'",
+        "Choices": ["die", "ein", "meine", "das"],
+        "Answer": "die"
+      },
+      {
+        "Type": "Idiomatic Expressions",
+        "Question": "Was bedeutet 'Das ist Schnee von gestern'?",
+        "Choices": ["Es ist kalt", "Es schneit", "Das ist alte Nachricht", "Das ist neu"],
+        "Answer": "Das ist alte Nachricht"
+      },
+      {
+        "Type": "Homonyms/Homophones",
+        "Question": "Wähle das richtige Wort: 'Sie ____ zur Schule.'",
+        "Choices": ["geht", "Geh", "gehte", "gehts"],
+        "Answer": "geht"
+      },
+      {
+        "Type": "Prefixes/Suffixes",
+        "Question": "Wähle das richtige Wort: 'Un____glücklich'",
+        "Choices": ["a", "un", "in", "non"],
+        "Answer": "un"
+      }
+    ]
+  }
+}
