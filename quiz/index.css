@@ -285,50 +285,303 @@ body {
   background-color: green;
 }
 
-#crossword {
-  border-collapse: collapse;
+/* Crossword Container */
+#puzzle-piece_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
 }
 
-#crossword.td {
-  width: 20px;
-  height: 20px;
+/* Crossword Question Display */
+#crossword_question {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Crossword Grid */
+#crossword {
+  border-collapse: separate;
+  border-spacing: 2px;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  margin: 20px auto;
+}
+
+#crossword td {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  background-color: #343a40;
+  border-radius: 4px;
 }
 
 .crossword_cells {
-  text-align:center;
-  width:20px;
-  height:20px;
-  border:0;
-  background: none;
-  box-shadow: none;
-  border-radius: 0px;
-  font-size: 20px;
-  color: black;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #dee2e6;
+  background: white;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #495057;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
 }
 
+.crossword_cells:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0,123,255,0.25), inset 0 1px 3px rgba(0,0,0,0.1);
+  transform: scale(1.05);
+}
+
+.crossword_cells:hover {
+  border-color: #6c757d;
+  transform: scale(1.02);
+}
+
+.crossword_cells[disabled] {
+  background-color: #28a745 !important;
+  color: white;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Question Tables */
 .question_table {
-  margin: 10px;
+  margin: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  background: white;
+}
+
+.question_table th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .question_table td {
   word-wrap: break-word;
-  max-width: 150px;
-  padding: 5px;
+  max-width: 250px;
+  padding: 15px;
   text-align: left;
+  border-bottom: 1px solid #dee2e6;
+  vertical-align: top;
+  line-height: 1.5;
 }
 
-.question_table th {
-  word-wrap: break-word;
-  max-width: 150px;
-  padding: 5px;
-  text-align: left;
-
+.question_table tr:last-child td {
+  border-bottom: none;
 }
 
+.question_table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* Crossword Question Items */
+.crossword_questions_css {
+  display: block;
+  padding: 8px 12px;
+  margin: 5px 0;
+  background: #f8f9fa;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+}
+
+.crossword_questions_css:hover {
+  background: #e9ecef;
+  border-left-color: #007bff;
+  transform: translateX(5px);
+}
+
+.crossword_questions_css[style*="color: red"] {
+  background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+  color: white !important;
+  border-left-color: #c92a2a;
+  box-shadow: 0 2px 10px rgba(238,90,82,0.3);
+}
+
+/* Position Numbers */
 .crossword_numerics {
-  text-align: left;
-  font-size: 6px;
   position: absolute;
+  top: 2px;
+  left: 2px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #495057;
+  background: rgba(255,255,255,0.9);
+  padding: 1px 3px;
+  border-radius: 2px;
+  line-height: 1;
+  z-index: 10;
+}
+
+/* Crossword Controls */
+.crossword-controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.hint-button {
+  background: linear-gradient(135deg, #ffeaa7, #fdcb6e);
+  border: none;
+  color: #2d3436;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(253,203,110,0.3);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hint-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(253,203,110,0.4);
+}
+
+.crossword-controls .button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.crossword-controls .button:hover {
+  transform: translateY(-2px);
+}
+
+/* Progress Indicator */
+.progress-indicator {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 100%;
+  max-width: 400px;
+  height: 12px;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0 auto 10px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #28a745, #20c997);
+  width: 0%;
+  transition: width 0.5s ease;
+  border-radius: 6px;
+}
+
+#progress_text {
+  font-weight: bold;
+  color: #495057;
+  font-size: 14px;
+}
+
+/* Crossword Container */
+.crossword-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.clues-container {
+  margin-top: 30px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  #puzzle-piece_page {
+    padding: 10px;
+  }
+  
+  #crossword {
+    padding: 10px;
+    margin: 10px auto;
+  }
+  
+  #crossword td {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .crossword_cells {
+    font-size: 16px;
+  }
+  
+  .question_table {
+    margin: 10px;
+    font-size: 14px;
+  }
+  
+  .question_table td {
+    padding: 10px;
+    max-width: 200px;
+  }
+  
+  #crossword_question {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  #crossword td {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .crossword_cells {
+    font-size: 14px;
+  }
+  
+  .question_table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .question_table td {
+    max-width: 150px;
+    font-size: 12px;
+  }
 }
 
 

@@ -123,14 +123,42 @@
         <!-- <button class="button button5" onclick="submitAnswer()" id="nextQuestion">Submit</button> -->
         <!-- <button class="button button5" onclick="viewResults()"  id="nextQuestion">Results</button> -->
     </div>
-    <div id="puzzle-piece_page">
-        <h3 id="crossword_question"></h3>
-        <button class="button button5" onclick="Hint()" id="nextQuestion">Hint</button>
-        <table id="crossword"></table>
-        <table class="question_table" id="questions">
-            <tr><th>Across</th><th>Down</th></tr>
-            <tr><td id="across_questions"></td><td id="down_questions"></td></tr>
-        </table>
+    <div id="puzzle-piece_page" role="main" aria-label="Crossword Puzzle">
+        <div id="crossword_question" role="status" aria-live="polite" aria-label="Current clue"></div>
+        
+        <div class="crossword-controls">
+            <button class="hint-button" onclick="Hint()" aria-label="Get hint for current word">
+                <i class="fas fa-lightbulb"></i> Hint
+            </button>
+            <button class="button button5" onclick="checkAllAnswers()" aria-label="Check all answers">
+                <i class="fas fa-check"></i> Check All
+            </button>
+            <button class="button button5" onclick="clearCrossword()" aria-label="Clear all entries">
+                <i class="fas fa-eraser"></i> Clear
+            </button>
+        </div>
+        
+        <div class="crossword-container">
+            <table id="crossword" role="grid" aria-label="Crossword grid"></table>
+        </div>
+        
+        <div class="clues-container">
+            <table class="question_table" id="questions" role="complementary" aria-label="Crossword clues">
+                <thead>
+                    <tr><th scope="col">Across</th><th scope="col">Down</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td id="across_questions" role="list" aria-label="Across clues"></td><td id="down_questions" role="list" aria-label="Down clues"></td></tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="progress-indicator" role="status" aria-live="polite">
+            <div class="progress-bar">
+                <div class="progress-fill" id="crossword_progress"></div>
+            </div>
+            <span id="progress_text">0% Complete</span>
+        </div>
     </div>
     <div id="sign-hanging_page" style="display: none">
         <div id="hangman_alphabets"></div>

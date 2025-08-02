@@ -200,11 +200,20 @@ function fill_crossword(quiz) {
             if(this.value.length > 1) {
                 this.value = this.value.slice(0,1);
             }
+            // Convert to uppercase for consistency
+            this.value = this.value.toUpperCase();
+            
             var tmp = this.id.split('__')[1];
             var x = parseInt(tmp.split('_')[0]);
             var y = parseInt(tmp.split('_')[1]);
             find_suitable_neighbour_for_focus(x,y);
             check_if_answer(x,y);
+            
+            // Update progress after input
+            setTimeout(() => {
+                updateProgress();
+            }, 100);
+            
             return this.value;
         })
         .on('click', function() {
@@ -257,8 +266,182 @@ function fill_crossword(quiz) {
         cnt++;
     }
     select_a_crossword_question(d3.select('#across_questions').select('span').node());
+    
+    // Initialize enhanced features
+    setupKeyboardNavigation();
+    updateProgress();
+    
+    // Initialize total words count
+    totalWords = output_json.filter(q => q.orientation !== 'none').length;
 }
 
+// Enhanced functionality for the crossword
+var totalWords = 0;
+var completedWords = 0;
+
 function Hint() {
-    d3.select(lastActiveCell).attr('value', d3.select(lastActiveCell).attr('ans'));
+    if (lastActiveCell) {
+        const cell = d3.select(lastActiveCell);
+        const correctLetter = cell.attr('ans');
+        cell.node().value = correctLetter;
+        cell.style('background-color', '#fff3cd'); // Light yellow to indicate hint used
+        
+        // Update progress after hint
+        setTimeout(() => {
+            updateProgress();
+        }, 100);
+        
+        // Show feedback
+        showFeedback('Hint used! Letter filled in.', 'info');
+    } else {
+        showFeedback('Please click on a cell first to get a hint.', 'warning');
+    }
+}
+
+// Check all answers at once
+function checkAllAnswers() {
+    let correctCount = 0;
+    let totalCount = 0;
+    
+    d3.selectAll('.crossword_cells').each(function() {
+        const cell = d3.select(this);
+        const userValue = this.value.toUpperCase();
+        const correctValue = cell.attr('ans');
+        
+        if (correctValue && userValue) {
+            totalCount++;
+            if (userValue === correctValue) {
+                correctCount++;
+                cell.style('background-color', '#d4edda'); // Light green
+                cell.style('border-color', '#28a745');
+            } else {
+                cell.style('background-color', '#f8d7da'); // Light red
+                cell.style('border-color', '#dc3545');
+            }
+        }
+    });
+    
+    showFeedback(`${correctCount} out of ${totalCount} letters correct!`, 'info');
+}
+
+// Clear all entries
+function clearCrossword() {
+    if (confirm('Are you sure you want to clear all entries?')) {
+        d3.selectAll('.crossword_cells').each(function() {
+            const cell = d3.select(this);
+            if (!cell.node().hasAttribute('disabled')) {
+                this.value = '';
+                cell.style('background-color', 'white');
+                cell.style('border-color', '#dee2e6');
+            }
+        });
+        updateProgress();
+        showFeedback('Crossword cleared!', 'info');
+    }
+}
+
+// Update progress indicator
+function updateProgress() {
+    let filledCells = 0;
+    let totalCells = 0;
+    
+    d3.selectAll('.crossword_cells').each(function() {
+        const cell = d3.select(this);
+        if (cell.attr('ans')) { // Only count cells that should have letters
+            totalCells++;
+            if (this.value && this.value.trim() !== '') {
+                filledCells++;
+            }
+        }
+    });
+    
+    const percentage = totalCells > 0 ? Math.round((filledCells / totalCells) * 100) : 0;
+    
+    d3.select('#crossword_progress').style('width', percentage + '%');
+    d3.select('#progress_text').text(percentage + '% Complete');
+}
+
+// Show feedback messages
+function showFeedback(message, type = 'info') {
+    // Remove existing feedback
+    d3.select('.feedback-message').remove();
+    
+    const colors = {
+        'info': '#007bff',
+        'success': '#28a745',
+        'warning': '#ffc107',
+        'error': '#dc3545'
+    };
+    
+    const feedback = d3.select('#puzzle-piece_page')
+        .insert('div', ':first-child')
+        .attr('class', 'feedback-message')
+        .style('background-color', colors[type] || colors.info)
+        .style('color', 'white')
+        .style('padding', '10px 20px')
+        .style('border-radius', '5px')
+        .style('margin-bottom', '15px')
+        .style('text-align', 'center')
+        .style('font-weight', 'bold')
+        .style('opacity', '0')
+        .text(message);
+    
+    // Fade in
+    feedback.transition().duration(300).style('opacity', '1');
+    
+    // Fade out after 3 seconds
+    setTimeout(() => {
+        feedback.transition().duration(500).style('opacity', '0')
+            .on('end', () => feedback.remove());
+    }, 3000);
+}
+
+// Enhanced keyboard navigation
+function setupKeyboardNavigation() {
+    d3.selectAll('.crossword_cells').on('keydown', function(event) {
+        const currentCell = this;
+        const cellId = currentCell.id;
+        const coords = get_id_from_str(cellId);
+        const x = coords[0];
+        const y = coords[1];
+        
+        let nextCell = null;
+        
+        switch(event.key) {
+            case 'ArrowUp':
+                nextCell = d3.select(id_of_cell(x, y - 1)).node();
+                break;
+            case 'ArrowDown':
+                nextCell = d3.select(id_of_cell(x, y + 1)).node();
+                break;
+            case 'ArrowLeft':
+                nextCell = d3.select(id_of_cell(x - 1, y)).node();
+                break;
+            case 'ArrowRight':
+                nextCell = d3.select(id_of_cell(x + 1, y)).node();
+                break;
+            case 'Backspace':
+                if (!currentCell.value) {
+                    // Move to previous cell if current is empty
+                    if (direction === 'across') {
+                        nextCell = d3.select(id_of_cell(x - 1, y)).node();
+                    } else {
+                        nextCell = d3.select(id_of_cell(x, y - 1)).node();
+                    }
+                }
+                break;
+            case 'Tab':
+                event.preventDefault();
+                // Move to next clue
+                const nextQuestion = d3.select('.crossword_questions_css[style*="color: red"]').node();
+                if (nextQuestion && nextQuestion.nextElementSibling) {
+                    nextQuestion.nextElementSibling.click();
+                }
+                break;
+        }
+        
+        if (nextCell && !nextCell.hasAttribute('disabled')) {
+            nextCell.focus();
+        }
+    });
 }
