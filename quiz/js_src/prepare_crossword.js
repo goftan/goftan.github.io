@@ -278,23 +278,53 @@ function fill_crossword(quiz) {
 // Enhanced functionality for the crossword
 var totalWords = 0;
 var completedWords = 0;
+var gameScore = 0;
+var hintsUsed = 0;
+var startTime = null;
+var timerInterval = null;
+var isPaused = false;
+var isTimerRunning = false;
+var currentDifficulty = 'medium';
+var gameStats = {
+    startTime: null,
+    endTime: null,
+    wordsCompleted: 0,
+    hintsUsed: 0,
+    score: 0,
+    timeElapsed: 0
+};
 
 function Hint() {
-    if (lastActiveCell) {
-        const cell = d3.select(lastActiveCell);
-        const correctLetter = cell.attr('ans');
+    if (!lastActiveCell) {
+        showFeedback('Please click on a cell first to get a hint.', 'warning');
+        return;
+    }
+    
+    if (currentDifficulty === 'expert') {
+        showFeedback('No hints available in Expert mode!', 'error');
+        return;
+    }
+    
+    const cell = d3.select(lastActiveCell);
+    const correctLetter = cell.attr('ans');
+    
+    if (correctLetter) {
         cell.node().value = correctLetter;
-        cell.style('background-color', '#fff3cd'); // Light yellow to indicate hint used
+        cell.classed('hint-used', true);
+        
+        hintsUsed++;
+        updateStats();
+        updateScore(-10); // Small penalty for hint
         
         // Update progress after hint
         setTimeout(() => {
             updateProgress();
+            checkGameCompletion();
         }, 100);
         
-        // Show feedback
-        showFeedback('Hint used! Letter filled in.', 'info');
+        showFeedback('Hint used! Letter filled in. (-10 points)', 'info');
     } else {
-        showFeedback('Please click on a cell first to get a hint.', 'warning');
+        showFeedback('No hint available for this cell.', 'warning');
     }
 }
 
@@ -444,4 +474,377 @@ function setupKeyboardNavigation() {
             nextCell.focus();
         }
     });
+}
+
+// Advanced Features Implementation
+
+// Timer functionality
+function toggleTimer() {
+    if (!isTimerRunning) {
+        startTimer();
+    } else {
+        stopTimer();
+    }
+}
+
+function startTimer() {
+    if (!startTime) {
+        startTime = new Date();
+        gameStats.startTime = startTime;
+    }
+    
+    isTimerRunning = true;
+    isPaused = false;
+    
+    d3.select('#timer-text').text('Stop Timer');
+    d3.select('.pause-button').style('display', 'flex');
+    
+    timerInterval = setInterval(updateTimer, 1000);
+    showFeedback('Timer started!', 'success');
+}
+
+function stopTimer() {
+    isTimerRunning = false;
+    clearInterval(timerInterval);
+    
+    d3.select('#timer-text').text('Start Timer');
+    d3.select('.pause-button').style('display', 'none');
+    
+    showFeedback('Timer stopped!', 'info');
+}
+
+function pauseGame() {
+    if (isTimerRunning && !isPaused) {
+        isPaused = true;
+        clearInterval(timerInterval);
+        showPauseOverlay();
+        showFeedback('Game paused!', 'warning');
+    } else if (isPaused) {
+        isPaused = false;
+        timerInterval = setInterval(updateTimer, 1000);
+        hidePauseOverlay();
+        showFeedback('Game resumed!', 'success');
+    }
+}
+
+function updateTimer() {
+    if (startTime && !isPaused) {
+        const now = new Date();
+        const elapsed = Math.floor((now - startTime) / 1000);
+        const minutes = Math.floor(elapsed / 60);
+        const seconds = elapsed % 60;
+        
+        const timeString = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        d3.select('#timer_display').text(timeString);
+        
+        gameStats.timeElapsed = elapsed;
+    }
+}
+
+function showPauseOverlay() {
+    const overlay = d3.select('body')
+        .append('div')
+        .attr('class', 'pause-overlay')
+        .on('click', function() {
+            pauseGame(); // Resume on click
+        });
+    
+    const message = overlay
+        .append('div')
+        .attr('class', 'pause-message');
+    
+    message.append('h2').text('Game Paused');
+    message.append('p').text('Click anywhere to resume');
+}
+
+function hidePauseOverlay() {
+    d3.select('.pause-overlay').remove();
+}
+
+// Advanced hint system
+function SuperHint() {
+    if (!lastActiveCell) {
+        showFeedback('Please click on a cell first to get a super hint.', 'warning');
+        return;
+    }
+    
+    if (currentDifficulty === 'expert') {
+        showFeedback('No hints available in Expert mode!', 'error');
+        return;
+    }
+    
+    const cellId = lastActiveCell.id;
+    const coords = get_id_from_str(cellId);
+    const x = coords[0] + 1;
+    const y = coords[1] + 1;
+    const wordData = xy_to_data[x + '_' + y];
+    
+    if (wordData) {
+        // Fill the first letter and show definition
+        const cell = d3.select(lastActiveCell);
+        const correctLetter = cell.attr('ans');
+        cell.node().value = correctLetter;
+        cell.classed('super-hint', true);
+        
+        hintsUsed++;
+        updateStats();
+        
+        // Show enhanced feedback with word info
+        const wordLength = wordData.answer.length;
+        const hintMessage = `Super Hint: "${correctLetter}" - Word is ${wordLength} letters long. Clue: ${wordData.clue}`;
+        showFeedback(hintMessage, 'info');
+        
+        updateProgress();
+        updateScore(-20); // Penalty for super hint
+    }
+}
+
+function revealCurrentWord() {
+    if (!lastActiveCell) {
+        showFeedback('Please click on a cell first to reveal the word.', 'warning');
+        return;
+    }
+    
+    if (currentDifficulty === 'expert') {
+        showFeedback('Word reveal not available in Expert mode!', 'error');
+        return;
+    }
+    
+    const cellId = lastActiveCell.id;
+    const coords = get_id_from_str(cellId);
+    const x = coords[0] + 1;
+    const y = coords[1] + 1;
+    const wordData = xy_to_data[x + '_' + y];
+    
+    if (wordData && confirm('Are you sure you want to reveal the entire word? This will significantly reduce your score.')) {
+        const startx = wordData.startx;
+        const starty = wordData.starty;
+        const orientation = wordData.orientation;
+        const answer = wordData.answer;
+        
+        // Fill all letters in the word
+        for (let i = 0; i < answer.length; i++) {
+            let cellX, cellY;
+            if (orientation === 'across') {
+                cellX = startx + i - 1;
+                cellY = starty - 1;
+            } else {
+                cellX = startx - 1;
+                cellY = starty + i - 1;
+            }
+            
+            const cellElement = d3.select('#' + id_of_cell_alone(cellX, cellY));
+            cellElement.node().value = answer[i];
+            cellElement.classed('hint-used', true);
+        }
+        
+        hintsUsed += answer.length;
+        updateStats();
+        updateProgress();
+        updateScore(-100); // Heavy penalty for revealing word
+        
+        showFeedback(`Word "${answer}" revealed! Heavy score penalty applied.`, 'warning');
+    }
+}
+
+function solveCrossword() {
+    if (confirm('Are you sure you want to solve the entire crossword? This will end the game.')) {
+        d3.selectAll('.crossword_cells').each(function() {
+            const cell = d3.select(this);
+            const correctLetter = cell.attr('ans');
+            if (correctLetter && !this.hasAttribute('disabled')) {
+                this.value = correctLetter;
+                cell.style('background-color', '#e9ecef');
+            }
+        });
+        
+        stopTimer();
+        updateProgress();
+        showFeedback('Crossword solved! Game ended.', 'success');
+        
+        // Show final results
+        setTimeout(() => {
+            showGameResults('solved');
+        }, 2000);
+    }
+}
+
+// Scoring system
+function updateScore(points) {
+    gameScore = Math.max(0, gameScore + points);
+    gameStats.score = gameScore;
+    d3.select('#score_display').text(gameScore);
+}
+
+function calculateScore() {
+    let baseScore = completedWords * 100;
+    let timeBonus = Math.max(0, 1000 - gameStats.timeElapsed);
+    let hintPenalty = hintsUsed * 10;
+    
+    const difficultyMultiplier = {
+        'easy': 0.5,
+        'medium': 1.0,
+        'hard': 1.5,
+        'expert': 2.0
+    };
+    
+    let finalScore = (baseScore + timeBonus - hintPenalty) * difficultyMultiplier[currentDifficulty];
+    return Math.max(0, Math.round(finalScore));
+}
+
+// Statistics updates
+function updateStats() {
+    d3.select('#hints_used').text(hintsUsed);
+    d3.select('#words_completed').text(completedWords);
+    d3.select('#score_display').text(gameScore);
+}
+
+// Difficulty management
+function changeDifficulty() {
+    currentDifficulty = d3.select('#difficulty').node().value;
+    
+    const difficultySettings = {
+        'easy': { hints: Infinity, message: 'Easy mode: Unlimited hints available!' },
+        'medium': { hints: 10, message: 'Medium mode: Limited hints available.' },
+        'hard': { hints: 5, message: 'Hard mode: Very few hints available.' },
+        'expert': { hints: 0, message: 'Expert mode: No hints available!' }
+    };
+    
+    const setting = difficultySettings[currentDifficulty];
+    showFeedback(setting.message, 'info');
+    
+    // Update button states based on difficulty
+    updateButtonStates();
+}
+
+function updateButtonStates() {
+    const isExpert = currentDifficulty === 'expert';
+    
+    d3.select('.hint-button').property('disabled', isExpert);
+    d3.select('.super-hint-button').property('disabled', isExpert);
+    d3.select('.reveal-word-button').property('disabled', isExpert);
+    
+    if (isExpert) {
+        d3.selectAll('.hint-button, .super-hint-button, .reveal-word-button')
+            .style('opacity', '0.5')
+            .style('cursor', 'not-allowed');
+    } else {
+        d3.selectAll('.hint-button, .super-hint-button, .reveal-word-button')
+            .style('opacity', '1')
+            .style('cursor', 'pointer');
+    }
+}
+
+// Game reset functionality
+function resetGame() {
+    if (confirm('Are you sure you want to reset the game? All progress will be lost.')) {
+        // Reset all game variables
+        gameScore = 0;
+        hintsUsed = 0;
+        completedWords = 0;
+        startTime = null;
+        isTimerRunning = false;
+        isPaused = false;
+        
+        // Clear timer
+        clearInterval(timerInterval);
+        
+        // Reset display
+        d3.select('#timer_display').text('00:00');
+        d3.select('#timer-text').text('Start Timer');
+        d3.select('.pause-button').style('display', 'none');
+        
+        // Clear crossword
+        clearCrossword();
+        
+        // Reset stats
+        gameStats = {
+            startTime: null,
+            endTime: null,
+            wordsCompleted: 0,
+            hintsUsed: 0,
+            score: 0,
+            timeElapsed: 0
+        };
+        
+        updateStats();
+        hidePauseOverlay();
+        
+        showFeedback('Game reset successfully!', 'success');
+    }
+}
+
+// Game completion detection and results
+function checkGameCompletion() {
+    let totalCells = 0;
+    let filledCorrectly = 0;
+    
+    d3.selectAll('.crossword_cells').each(function() {
+        const cell = d3.select(this);
+        const correctValue = cell.attr('ans');
+        if (correctValue) {
+            totalCells++;
+            if (this.value.toUpperCase() === correctValue) {
+                filledCorrectly++;
+            }
+        }
+    });
+    
+    if (filledCorrectly === totalCells && totalCells > 0) {
+        gameCompleted();
+    }
+}
+
+function gameCompleted() {
+    stopTimer();
+    gameStats.endTime = new Date();
+    gameStats.score = calculateScore();
+    
+    showFeedback('Congratulations! Crossword completed!', 'success');
+    
+    setTimeout(() => {
+        showGameResults('completed');
+    }, 2000);
+}
+
+function showGameResults(completionType) {
+    const modal = d3.select('body')
+        .append('div')
+        .attr('class', 'pause-overlay');
+    
+    const results = modal
+        .append('div')
+        .attr('class', 'pause-message')
+        .style('max-width', '500px');
+    
+    results.append('h2').text(
+        completionType === 'completed' ? 'Crossword Completed!' : 'Game Results'
+    );
+    
+    const statsDiv = results.append('div').style('text-align', 'left');
+    
+    statsDiv.append('p').html(`<strong>Final Score:</strong> ${gameStats.score}`);
+    statsDiv.append('p').html(`<strong>Time Elapsed:</strong> ${Math.floor(gameStats.timeElapsed / 60)}:${(gameStats.timeElapsed % 60).toString().padStart(2, '0')}`);
+    statsDiv.append('p').html(`<strong>Words Completed:</strong> ${completedWords}/${totalWords}`);
+    statsDiv.append('p').html(`<strong>Hints Used:</strong> ${hintsUsed}`);
+    statsDiv.append('p').html(`<strong>Difficulty:</strong> ${currentDifficulty.charAt(0).toUpperCase() + currentDifficulty.slice(1)}`);
+    
+    const buttonDiv = results.append('div').style('margin-top', '20px');
+    
+    buttonDiv.append('button')
+        .attr('class', 'button button5')
+        .style('margin', '5px')
+        .text('Play Again')
+        .on('click', () => {
+            modal.remove();
+            resetGame();
+        });
+    
+    buttonDiv.append('button')
+        .attr('class', 'button button5')
+        .style('margin', '5px')
+        .text('Close')
+        .on('click', () => {
+            modal.remove();
+        });
 }

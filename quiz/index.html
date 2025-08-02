@@ -127,15 +127,41 @@
         <div id="crossword_question" role="status" aria-live="polite" aria-label="Current clue"></div>
         
         <div class="crossword-controls">
-            <button class="hint-button" onclick="Hint()" aria-label="Get hint for current word">
-                <i class="fas fa-lightbulb"></i> Hint
-            </button>
-            <button class="button button5" onclick="checkAllAnswers()" aria-label="Check all answers">
-                <i class="fas fa-check"></i> Check All
-            </button>
-            <button class="button button5" onclick="clearCrossword()" aria-label="Clear all entries">
-                <i class="fas fa-eraser"></i> Clear
-            </button>
+            <div class="control-group">
+                <button class="hint-button" onclick="Hint()" aria-label="Get hint for current word">
+                    <i class="fas fa-lightbulb"></i> Hint
+                </button>
+                <button class="super-hint-button" onclick="SuperHint()" aria-label="Get super hint with definition">
+                    <i class="fas fa-magic"></i> Super Hint
+                </button>
+                <button class="reveal-word-button" onclick="revealCurrentWord()" aria-label="Reveal current word">
+                    <i class="fas fa-eye"></i> Reveal Word
+                </button>
+            </div>
+            
+            <div class="control-group">
+                <button class="button button5" onclick="checkAllAnswers()" aria-label="Check all answers">
+                    <i class="fas fa-check"></i> Check All
+                </button>
+                <button class="button button5" onclick="clearCrossword()" aria-label="Clear all entries">
+                    <i class="fas fa-eraser"></i> Clear
+                </button>
+                <button class="solve-button" onclick="solveCrossword()" aria-label="Solve entire crossword">
+                    <i class="fas fa-puzzle-piece"></i> Solve All
+                </button>
+            </div>
+            
+            <div class="control-group">
+                <button class="timer-button" onclick="toggleTimer()" aria-label="Start/stop timer">
+                    <i class="fas fa-clock"></i> <span id="timer-text">Start Timer</span>
+                </button>
+                <button class="pause-button" onclick="pauseGame()" aria-label="Pause game" style="display:none;">
+                    <i class="fas fa-pause"></i> Pause
+                </button>
+                <button class="reset-button" onclick="resetGame()" aria-label="Reset game">
+                    <i class="fas fa-redo"></i> Reset
+                </button>
+            </div>
         </div>
         
         <div class="crossword-container">
@@ -153,11 +179,42 @@
             </table>
         </div>
         
-        <div class="progress-indicator" role="status" aria-live="polite">
-            <div class="progress-bar">
-                <div class="progress-fill" id="crossword_progress"></div>
+        <div class="game-stats" role="status" aria-live="polite">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-value" id="timer_display">00:00</div>
+                    <div class="stat-label">Time</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="score_display">0</div>
+                    <div class="stat-label">Score</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="words_completed">0</div>
+                    <div class="stat-label">Words</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="hints_used">0</div>
+                    <div class="stat-label">Hints</div>
+                </div>
             </div>
-            <span id="progress_text">0% Complete</span>
+            
+            <div class="progress-indicator">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="crossword_progress"></div>
+                </div>
+                <span id="progress_text">0% Complete</span>
+            </div>
+            
+            <div class="difficulty-selector">
+                <label for="difficulty">Difficulty:</label>
+                <select id="difficulty" onchange="changeDifficulty()">
+                    <option value="easy">Easy (More hints)</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="hard">Hard (Fewer hints)</option>
+                    <option value="expert">Expert (No hints)</option>
+                </select>
+            </div>
         </div>
     </div>
     <div id="sign-hanging_page" style="display: none">
