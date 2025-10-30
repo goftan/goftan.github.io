@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rich Text Regex Editor — Example</title>
+  <style>
+    :root{--accent:#0b84ff;--muted:#666}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial;margin:18px;background:#f6f8fb;color:#111}
+    h1{font-size:20px;margin:0 0 12px}
+    .toolbar{display:flex;gap:8px;align-items:center;margin-bottom:10px}
+    .toolbar input[type=text]{padding:8px;border-radius:6px;border:1px solid #d6dbe8;background:white;min-width:260px}
+    .toolbar input[type=checkbox]{transform:scale(1.1)}
+    button{padding:8px 10px;border-radius:6px;border:1px solid rgba(0,0,0,0.08);background:white;cursor:pointer}
+    button:active{transform:translateY(1px)}
+    .editor{border:1px solid #d6dbe8;background:white;padding:14px;border-radius:8px;min-height:260px;overflow:auto}
+    .editor:focus{outline:3px solid rgba(11,132,255,0.12)}
+    .match{background:linear-gradient(90deg,rgba(11,132,255,0.12), rgba(11,132,255,0.06));border-radius:2px;padding:0 1px}
+    .current{background:var(--accent);color:white;padding:0 2px;border-radius:2px}
+    .tag-selected{outline:3px dashed rgba(11,132,255,0.25);border-radius:6px}
+    .meta{color:var(--muted);font-size:13px;margin-top:8px}
+    .controls-row{display:flex;gap:10px;align-items:center}
+    .sample-note{font-size:13px;color:var(--muted);margin-top:6px}
+    footer{margin-top:14px;font-size:13px;color:var(--muted)}
+    pre.sample {background:#f2f5fb;padding:8px;border-radius:6px;border:1px solid #e6eefc;font-size:13px}
+  </style>
+</head>
+<body>
+  <h1>Rich Text Regex Editor — Search & Navigate Matches / Tags</h1>
+
+  <div class="toolbar">
+    <label title="Regular expression (JavaScript)" style="display:flex;align-items:center;gap:6px">
+      <input id="regexInput" type="text" placeholder="Enter regular expression (e.g. \b\w{4,}\b)" />
+    </label>
+
+    <label style="display:flex;gap:6px;align-items:center">
+      <input id="flagI" type="checkbox" /> i
+    </label>
+    <label style="display:flex;gap:6px;align-items:center">
+      <input id="flagG" type="checkbox" checked /> g
+    </label>
+    <label style="display:flex;gap:6px;align-items:center">
+      <input id="flagM" type="checkbox" /> m
+    </label>
+
+    <button id="findBtn">Find</button>
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+
+    <div style="width:10px"></div>
+
+    <button id="prevTagBtn" title="Jump to previous element tag in the content">Prev Tag</button>
+    <button id="nextTagBtn" title="Jump to next element tag in the content">Next Tag</button>
+
+    <button id="clearBtn">Clear</button>
+  </div>
+
+  <div class="editor" id="editor" contenteditable="true" spellcheck="false">
+    <p>This is <b>example</b> text inside a rich text editor. It contains <i>italic</i>, <b>bold</b>, and <a href="#">links</a>. Use <span>regex</span> to search.</p>
+    <p>Sample names: Alice, Bob, Charlie. Dates: 2021-10-30, 2022-01-01. Numbers: 12345.</p>
+    <p>Mixed content with <b>bold words</b>, <i>some italic phrases</i> and a <mark>highlighted bit</mark>.</p>
+    <p>We also include tags inside words: prefix<b>TAGGED</b>suffix and multi-node matches like "multi <i>node</i> match".</p>
+  </div>
+
+  <div class="meta" id="meta">No matches yet.</div>
+  <div class="sample-note">Tip: input a JavaScript-style regex (no leading/trailing slashes) and toggle flags (g/i/m). Example: \b\w{4,}\b to find words with 4+ letters.</div>
+
+  <footer>Keyboard: Enter => Find, N => Next, P => Previous, T => Next Tag, Shift+T => Prev Tag</footer>
+
+  <script>
+  // ---------- Utility: collect text nodes and map offsets ----------
+  function getTextNodes(root){
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
+    const nodes = [];
+    let node;
+    let index = 0;
+    while(node = walker.nextNode()){
+      // ignore empty whitespace-only nodes that are entirely inside markup we don't care about
+      nodes.push({node, start: index, length: node.nodeValue.length});
+      index += node.nodeValue.length;
+    }
+    return {nodes, totalLength: index};
+  }
+
+  // Wrap a range that may start/end in different text nodes
+  function wrapRange(root, startIndex, endIndex, cls){
+    const {nodes} = getTextNodes(root);
+    // find first node that contains or follows startIndex
+    let i = 0;
+    while(i < nodes.length && nodes[i].start + nodes[i].length <= startIndex) i++;
+    let remainingStart = startIndex;
+    let remainingEnd = endIndex;
+    const created = [];
+    while(i < nodes.length && remainingStart < remainingEnd){
+      const tn = nodes[i].node;
+      const nodeAbsStart = nodes[i].start;
+      const relStart = Math.max(0, remainingStart - nodeAbsStart);
+      const relEnd = Math.min(nodes[i].length, remainingEnd - nodeAbsStart);
+      // split the text node into three parts: before, match, after
+      const before = tn.nodeValue.slice(0, relStart);
+      const matchText = tn.nodeValue.slice(relStart, relEnd);
+      const after = tn.nodeValue.slice(relEnd);
+      const parent = tn.parentNode;
+      const frag = document.createDocumentFragment();
+      if(before) frag.appendChild(document.createTextNode(before));
+      if(matchText){
+        const span = document.createElement('span');
+        span.className = 'match';
+        span.textContent = matchText;
+        if(cls) span.classList.add(cls);
+        frag.appendChild(span);
+        created.push(span);
+      }
+      if(after) frag.appendChild(document.createTextNode(after));
+      parent.replaceChild(frag, tn);
+      // after replacement, the next nodes in the nodes[] become stale — we'll rebuild when needed
+      remainingStart = nodeAbsStart + relEnd;
+      i++;
+    }
+    return created;
+  }
+
+  function clearHighlights(root){
+    // remove any match spans and restore plain text
+    const spans = Array.from(root.querySelectorAll('span.match'));
+    spans.forEach(s => {
+      const txt = document.createTextNode(s.textContent);
+      s.parentNode.replaceChild(txt, s);
+    });
+  }
+
+  function findMatches(root, regex){
+    if(!regex) return [];
+    const {nodes, totalLength} = getTextNodes(root);
+    if(totalLength === 0) return [];
+    // Build concatenated text
+    let full = '';
+    for(const n of nodes) full += n.node.nodeValue;
+    const matches = [];
+    let m;
+    // make sure regex has global flag for iterative matching
+    const rx = regex.global ? regex : new RegExp(regex.source, regex.flags + 'g');
+    while((m = rx.exec(full))){
+      matches.push({start: m.index, end: rx.lastIndex, text: m[0]});
+      // avoid infinite loop on zero-length matches
+      if(m.index === rx.lastIndex) rx.lastIndex++;
+    }
+    return matches;
+  }
+
+  // ---------- UI wiring ----------
+  const editor = document.getElementById('editor');
+  const regexInput = document.getElementById('regexInput');
+  const flagI = document.getElementById('flagI');
+  const flagG = document.getElementById('flagG');
+  const flagM = document.getElementById('flagM');
+  const findBtn = document.getElementById('findBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const prevBtn = document.getElementById('prevBtn');
+  const prevTagBtn = document.getElementById('prevTagBtn');
+  const nextTagBtn = document.getElementById('nextTagBtn');
+  const clearBtn = document.getElementById('clearBtn');
+  const meta = document.getElementById('meta');
+
+  let matches = [];
+  let currentIndex = -1;
+
+  function buildRegexFromInput(){
+    const pattern = regexInput.value.trim();
+    if(!pattern) return null;
+    const flags = (flagG.checked ? 'g' : '') + (flagI.checked ? 'i' : '') + (flagM.checked ? 'm' : '');
+    try{
+      return new RegExp(pattern, flags);
+    }catch(e){
+      alert('Invalid regular expression: ' + e.message);
+      return null;
+    }
+  }
+
+  function runFind(){
+    clearHighlights(editor);
+    currentIndex = -1;
+    const regex = buildRegexFromInput();
+    if(!regex) { meta.textContent = 'No valid regex.'; return; }
+    matches = findMatches(editor, regex);
+    if(matches.length === 0){ meta.textContent = 'No matches found.'; return; }
+    // wrap matches in order, from last to first to avoid offset shifting when replacing
+    for(let i = matches.length - 1; i >= 0; i--){
+      wrapRange(editor, matches[i].start, matches[i].end);
+    }
+    // refresh match nodes
+    const spanNodes = Array.from(editor.querySelectorAll('span.match'));
+    matches = spanNodes.map(s => ({el:s, text:s.textContent}));
+    meta.textContent = matches.length + ' match(es). Use Next/Previous to navigate.';
+    goTo(0);
+  }
+
+  function goTo(idx){
+    if(matches.length === 0) return;
+    if(idx < 0) idx = matches.length - 1;
+    if(idx >= matches.length) idx = 0;
+    // remove current class
+    matches.forEach(m => m.el.classList.remove('current'));
+    currentIndex = idx;
+    const cur = matches[currentIndex];
+    cur.el.classList.add('current');
+    // ensure in view
+    cur.el.scrollIntoView({behavior:'smooth', block:'center'});
+    // update meta
+    meta.textContent = `Match ${currentIndex+1} of ${matches.length}: "${cur.text}"`;
+  }
+
+  findBtn.addEventListener('click', runFind);
+  nextBtn.addEventListener('click', () => goTo(currentIndex + 1));
+  prevBtn.addEventListener('click', () => goTo(currentIndex - 1));
+
+  clearBtn.addEventListener('click', () => {
+    clearHighlights(editor);
+    matches = [];
+    currentIndex = -1;
+    meta.textContent = 'Cleared highlights.';
+  });
+
+  // ---------- Tag navigation (jump to element tags) ----------
+  function collectTagElements(root){
+    // we consider any element inside editor that is not the root and not a span.match
+    const els = Array.from(root.querySelectorAll('*')).filter(e => e !== root && !e.classList.contains('match'));
+    return els;
+  }
+
+  let tagIndex = -1;
+  function jumpToTag(idx){
+    const els = collectTagElements(editor);
+    if(els.length === 0){ meta.textContent = 'No tag elements to navigate.'; return; }
+    if(idx < 0) idx = els.length - 1;
+    if(idx >= els.length) idx = 0;
+    // clear previous tag outlines
+    els.forEach(e => e.classList.remove('tag-selected'));
+    tagIndex = idx;
+    const el = els[tagIndex];
+    el.classList.add('tag-selected');
+    el.scrollIntoView({behavior:'smooth', block:'center'});
+    meta.textContent = `Tag ${tagIndex+1} of ${els.length}: <${el.tagName.toLowerCase()}>`;
+  }
+
+  nextTagBtn.addEventListener('click', () => jumpToTag(tagIndex + 1));
+  prevTagBtn.addEventListener('click', () => jumpToTag(tagIndex - 1));
+
+  // Clear tag outlines when editing
+  editor.addEventListener('input', () => {
+    const els = collectTagElements(editor);
+    els.forEach(e => e.classList.remove('tag-selected'));
+    tagIndex = -1;
+  });
+
+  // Keyboard shortcuts
+  document.addEventListener('keydown', (e) => {
+    if(e.key === 'Enter' && (document.activeElement === regexInput || document.activeElement === editor)){
+      e.preventDefault(); runFind();
+    }
+    if(e.key.toLowerCase() === 'n'){
+      e.preventDefault(); goTo(currentIndex + 1);
+    }
+    if(e.key.toLowerCase() === 'p'){
+      e.preventDefault(); goTo(currentIndex - 1);
+    }
+    if(e.key.toLowerCase() === 't'){
+      if(e.shiftKey){ e.preventDefault(); jumpToTag(tagIndex - 1); }
+      else { e.preventDefault(); jumpToTag(tagIndex + 1); }
+    }
+  });
+
+  // initialize example
+  regexInput.value = "\\b\\w{4,}\\b"; // words length 4+
+  flagG.checked = true; flagI.checked = false; flagM.checked = false;
+  </script>
+</body>
+</html>
