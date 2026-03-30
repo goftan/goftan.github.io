@@ -140,27 +140,45 @@ function nextQuestion() {
 function colorCorrectAnswer() {
     for (i=1;i<=4;i++) {
         if(d3.select('#opt'+i).text() == quiz[countQues].choices[quiz[countQues].answer]) {
-            d3.select('#opt'+i).style('color','green');
+            d3.select('#opt'+i).style('background-color','#DCFCE7').style('color','#166534').style('border-color','#BBF7D0');
         }
     }
 }
 
 function decolorCorrectAnswer() {
     for (i=1;i<=4;i++) {
-            d3.select('#opt'+i).style('color','black');
+        d3.select('#opt'+i)
+            .style('color', null)
+            .style('background-color', null)
+            .style('border-color', null)
+            .property('disabled', false);
     }
 }
 
 function submitAnswer(which_option) {
-    decolorCorrectAnswer();    
-    var selectedAnswer = d3.select("#opt"+which_option).html();
-    colorCorrectAnswer();    
+    // Prevent re-answering the same question
+    if (d3.select('#opt1').property('disabled')) return;
 
-    if(selectedAnswer == quiz[countQues].choices[quiz[countQues].answer]) {
+    // Lock all options
+    for (let i = 1; i <= 4; i++) {
+        d3.select('#opt' + i).property('disabled', true);
+    }
+
+    const selectedAnswer = d3.select('#opt' + which_option).html();
+    const correctAnswer = quiz[countQues].choices[quiz[countQues].answer];
+
+    // Always show the correct answer in green
+    colorCorrectAnswer();
+
+    if (selectedAnswer === correctAnswer) {
         countCorrect++;
     } else {
         countIncorrect++;
-        d3.select("#opt"+which_option).style("color","red");
+        // Mark the wrong pick in red
+        d3.select('#opt' + which_option)
+            .style('background-color', '#FEE2E2')
+            .style('color', '#991B1B')
+            .style('border-color', '#FECACA');
     }
 }
 
@@ -174,24 +192,15 @@ function viewResults() {
       title: "Learning Progress"
     };
 
-    // Define Data
-    var German = {
-        x: [1, 2, 3, 4],
-        y: [3, 3, 4, 5],
+    const total = parseInt(d3.select('#question_size').html()) || 10;
+    const skipped = Math.max(0, total - countCorrect - countIncorrect);
+    var data = [{
+        x: ['Correct', 'Incorrect', 'Skipped'],
+        y: [countCorrect, countIncorrect, skipped],
         type: 'bar',
-        name: 'German'
-      };
-      
-      
-      var Spanish = {
-        x: [1, 2, 3, 4],
-        y: [2, 2, 5, 7],
-        type: 'bar',
-        name: 'Spanish'
-      };
-      
-      
-      var data = [German, Spanish];
+        name: get_selected_language(),
+        marker: { color: ['#4ADE80', '#F87171', '#94A3B8'] }
+    }];
     
     // Display using Plotly
     Plotly.newPlot("myPlot", data, layout, color='category',{responsive: true});
@@ -240,6 +249,7 @@ function restartQuiz() {
     countCorrect = 0;
     countIncorrect = 0;
     countViewed = 0;
+    countQues = 0;
 }
 
 selectPage('language_page');

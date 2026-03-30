@@ -1680,6 +1680,22 @@ span.psw {
   box-shadow: none !important;
 }
 
+/* Completed word clue */
+.crossword_questions_css.word-completed {
+  color: #9CA3AF !important;
+  text-decoration: line-through;
+  border-left-color: #6EE7B7 !important;
+  background: #F0FDF4 !important;
+  font-weight: 400;
+}
+
+.crossword_questions_css.word-completed.active-clue {
+  background: #D1FAE5 !important;
+  color: #065F46 !important;
+  border-left-color: #34D399 !important;
+  text-decoration: none;
+}
+
 /* ── Progress bar ── */
 .progress-indicator {
   margin: 14px 0 8px;

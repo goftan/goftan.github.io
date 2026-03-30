@@ -19,6 +19,25 @@ var lastQuiz = null;
 
 var lastActiveCell = null;
 
+var diffMult = { 'easy': 0.5, 'medium': 1.0, 'hard': 1.5, 'expert': 2.0 };
+
+function wordScore(wordLength) {
+    return Math.round(wordLength * 20 * (diffMult[currentDifficulty] || 1.0));
+}
+
+function markWordComplete(d, earnedPoints) {
+    completedWords++;
+    updateScore(earnedPoints);
+    updateStats();
+    // Mark the matching clue in the panel as done
+    d3.selectAll('.crossword_questions_css').filter(function() {
+        return parseInt(this.getAttribute('startx')) === d.startx - 1 &&
+               parseInt(this.getAttribute('starty')) === d.starty - 1 &&
+               this.getAttribute('orientation') === d.orientation;
+    }).classed('word-completed', true);
+    setTimeout(() => checkGameCompletion(), 100);
+}
+
 function check_if_answer(x,y) {
     d = xy_to_data[(x+1)+'_'+(y+1)]
     startx = d.startx;
@@ -48,10 +67,7 @@ function check_if_answer(x,y) {
         solved = true;
     }
     if (solved) {
-        completedWords++;
-        updateScore(50);
-        updateStats();
-        setTimeout(() => checkGameCompletion(), 100);
+        markWordComplete(d, wordScore(d.answer.length));
     }
 }
 
@@ -326,18 +342,18 @@ function Hint() {
     if (correctLetter) {
         cell.node().value = correctLetter;
         cell.classed('hint-used', true);
-        
+
         hintsUsed++;
         updateStats();
-        updateScore(-10); // Small penalty for hint
-        
+        updateScore(-20);
+
         // Update progress after hint
         setTimeout(() => {
             updateProgress();
             checkGameCompletion();
         }, 100);
-        
-        showFeedback('Hint used! Letter filled in. (-10 points)', 'info');
+
+        showFeedback('Hint used! (-20 points)', 'info');
     } else {
         showFeedback('No hint available for this cell.', 'warning');
     }
@@ -408,39 +424,43 @@ function updateProgress() {
     d3.select('#progress_text').text(percentage + '% Complete');
 }
 
-// Show feedback messages
+// Show feedback messages — fixed toast at bottom-right
 function showFeedback(message, type = 'info') {
-    // Remove existing feedback
     d3.select('.feedback-message').remove();
-    
+
     const colors = {
-        'info': '#007bff',
-        'success': '#28a745',
-        'warning': '#ffc107',
-        'error': '#dc3545'
+        'info':    { bg: '#EEF2FF', border: '#C7D2FE', text: '#3730A3' },
+        'success': { bg: '#DCFCE7', border: '#BBF7D0', text: '#166534' },
+        'warning': { bg: '#FEF9C3', border: '#FEF08A', text: '#713F12' },
+        'error':   { bg: '#FEE2E2', border: '#FECACA', text: '#991B1B' },
     };
-    
-    const feedback = d3.select('#puzzle-piece_page')
-        .insert('div', ':first-child')
+    const c = colors[type] || colors.info;
+
+    const feedback = d3.select('body')
+        .append('div')
         .attr('class', 'feedback-message')
-        .style('background-color', colors[type] || colors.info)
-        .style('color', 'white')
-        .style('padding', '10px 20px')
-        .style('border-radius', '5px')
-        .style('margin-bottom', '15px')
-        .style('text-align', 'center')
-        .style('font-weight', 'bold')
+        .style('position', 'fixed')
+        .style('bottom', '24px')
+        .style('right', '24px')
+        .style('background', c.bg)
+        .style('color', c.text)
+        .style('border', '1px solid ' + c.border)
+        .style('padding', '10px 18px')
+        .style('border-radius', '8px')
+        .style('font-size', '13px')
+        .style('font-weight', '600')
+        .style('box-shadow', '0 4px 16px rgba(0,0,0,0.1)')
+        .style('z-index', '9999')
+        .style('max-width', '320px')
         .style('opacity', '0')
         .text(message);
-    
-    // Fade in
-    feedback.transition().duration(300).style('opacity', '1');
-    
-    // Fade out after 3 seconds
+
+    feedback.transition().duration(200).style('opacity', '1');
+
     setTimeout(() => {
-        feedback.transition().duration(500).style('opacity', '0')
+        feedback.transition().duration(400).style('opacity', '0')
             .on('end', () => feedback.remove());
-    }, 3000);
+    }, 2800);
 }
 
 // Enhanced keyboard navigation
@@ -608,14 +628,12 @@ function SuperHint() {
         
         hintsUsed++;
         updateStats();
-        
-        // Show enhanced feedback with word info
+
         const wordLength = wordData.answer.length;
-        const hintMessage = `Super Hint: "${correctLetter}" - Word is ${wordLength} letters long. Clue: ${wordData.clue}`;
-        showFeedback(hintMessage, 'info');
-        
+        showFeedback(`Super Hint: "${correctLetter}" — ${wordLength}-letter word. (-35 points)`, 'info');
+
         updateProgress();
-        updateScore(-20); // Penalty for super hint
+        updateScore(-35);
     }
 }
 
@@ -636,13 +654,12 @@ function revealCurrentWord() {
     const y = coords[1] + 1;
     const wordData = xy_to_data[x + '_' + y];
     
-    if (wordData && confirm('Are you sure you want to reveal the entire word? This will significantly reduce your score.')) {
+    if (wordData && confirm('Reveal the entire word? You won\'t earn points for it.')) {
         const startx = wordData.startx;
         const starty = wordData.starty;
         const orientation = wordData.orientation;
         const answer = wordData.answer;
-        
-        // Fill all letters in the word
+
         for (let i = 0; i < answer.length; i++) {
             let cellX, cellY;
             if (orientation === 'across') {
@@ -652,18 +669,22 @@ function revealCurrentWord() {
                 cellX = startx - 1;
                 cellY = starty + i - 1;
             }
-            
             const cellElement = d3.select('#' + id_of_cell_alone(cellX, cellY));
             cellElement.node().value = answer[i];
-            cellElement.classed('hint-used', true);
+            cellElement.node().setAttribute('disabled', '');
+            cellElement.style('background-color', 'lightgreen');
+            cellElement.classed('hint-used', false);
         }
-        
-        hintsUsed += answer.length;
-        updateStats();
+
+        hintsUsed += Math.ceil(answer.length / 2);
+        // Revealed words earn 0 pts; subtract the would-be score as penalty
+        const penalty = wordScore(answer.length);
+        updateScore(-penalty);
+        markWordComplete(wordData, 0);
         updateProgress();
-        updateScore(-100); // Heavy penalty for revealing word
-        
-        showFeedback(`Word "${answer}" revealed! Heavy score penalty applied.`, 'warning');
+
+        showFeedback(`"${answer}" revealed. (-${penalty} points)`, 'warning');
+        setTimeout(() => checkGameCompletion(), 150);
     }
 }
 
@@ -697,19 +718,16 @@ function updateScore(points) {
 }
 
 function calculateScore() {
-    let baseScore = completedWords * 100;
-    let timeBonus = Math.max(0, 1000 - gameStats.timeElapsed);
-    let hintPenalty = hintsUsed * 10;
-    
-    const difficultyMultiplier = {
-        'easy': 0.5,
-        'medium': 1.0,
-        'hard': 1.5,
-        'expert': 2.0
-    };
-    
-    let finalScore = (baseScore + timeBonus - hintPenalty) * difficultyMultiplier[currentDifficulty];
-    return Math.max(0, Math.round(finalScore));
+    // Time bonus tiers (only if timer was used)
+    let timeBonus = 0;
+    if (gameStats.timeElapsed > 0) {
+        const elapsed = gameStats.timeElapsed;
+        if (elapsed < 60)       timeBonus = 300;
+        else if (elapsed < 120) timeBonus = 200;
+        else if (elapsed < 300) timeBonus = 100;
+        else if (elapsed < 600) timeBonus = 50;
+    }
+    return Math.max(0, gameScore + timeBonus);
 }
 
 // Statistics updates
@@ -823,12 +841,14 @@ function gameCompleted() {
     stopTimer();
     gameStats.endTime = new Date();
     gameStats.score = calculateScore();
-    
-    showFeedback('Congratulations! Crossword completed!', 'success');
-    
+    // Sync the live display to the final calculated score
+    d3.select('#score_display').text(gameStats.score);
+
+    showFeedback('Crossword completed! 🎉', 'success');
+
     setTimeout(() => {
         showGameResults('completed');
-    }, 2000);
+    }, 1500);
 }
 
 function showGameResults(completionType) {
