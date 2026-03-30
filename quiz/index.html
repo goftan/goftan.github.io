@@ -164,19 +164,28 @@
             </div>
         </div>
         
-        <div class="crossword-container">
-            <table id="crossword" role="grid" aria-label="Crossword grid"></table>
-        </div>
-        
-        <div class="clues-container">
-            <table class="question_table" id="questions" role="complementary" aria-label="Crossword clues">
-                <thead>
-                    <tr><th scope="col">Across</th><th scope="col">Down</th></tr>
-                </thead>
-                <tbody>
-                    <tr><td id="across_questions" role="list" aria-label="Across clues"></td><td id="down_questions" role="list" aria-label="Down clues"></td></tr>
-                </tbody>
-            </table>
+        <div class="crossword-layout">
+            <div class="crossword-container">
+                <table id="crossword" role="grid" aria-label="Crossword grid"></table>
+            </div>
+            
+            <div class="clues-container">
+                <div class="clues-wrapper">
+                    <div class="clues-section">
+                        <h4 class="clues-title">
+                            <i class="fas fa-arrow-right"></i> Across
+                        </h4>
+                        <div id="across_questions" class="clues-list" role="list" aria-label="Across clues"></div>
+                    </div>
+                    
+                    <div class="clues-section">
+                        <h4 class="clues-title">
+                            <i class="fas fa-arrow-down"></i> Down
+                        </h4>
+                        <div id="down_questions" class="clues-list" role="list" aria-label="Down clues"></div>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <div class="game-stats" role="status" aria-live="polite">

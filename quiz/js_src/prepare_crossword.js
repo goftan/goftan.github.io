@@ -1,4 +1,6 @@
 var xy_to_data = {};
+var lastQuiz = null;
+
 // function find_suitable_neighbour_for_focus(x,y) {
 //     var neighbours = [
 //         {'x': x + 1, 'y': y},
@@ -21,6 +23,7 @@ function check_if_answer(x,y) {
     d = xy_to_data[(x+1)+'_'+(y+1)]
     startx = d.startx;
     starty = d.starty;
+    var solved = false;
     if(direction == 'across') {
         for(var counter = 0; counter < d.answer.length;counter++) {
             if(d3.select('#' + id_of_cell_alone(startx + counter-1, starty-1)).node().value != d.answer[counter]) {
@@ -31,6 +34,7 @@ function check_if_answer(x,y) {
             d3.select('#' + id_of_cell_alone(startx + counter-1, starty-1)).style('background-color','lightgreen');
             d3.select('#' + id_of_cell_alone(startx + counter-1, starty-1)).node().setAttribute('disabled','')
         }
+        solved = true;
     } else {
         for(var counter = 0; counter < d.answer.length;counter++) {
             if(d3.select('#' + id_of_cell_alone(startx - 1, starty + counter - 1)).node().value != d.answer[counter]) {
@@ -41,8 +45,14 @@ function check_if_answer(x,y) {
             d3.select('#' + id_of_cell_alone(startx -1, starty + counter -1)).style('background-color','lightgreen');
             d3.select('#' + id_of_cell_alone(startx -1, starty + counter -1)).node().setAttribute('disabled','')
         }
+        solved = true;
     }
-
+    if (solved) {
+        completedWords++;
+        updateScore(50);
+        updateStats();
+        setTimeout(() => checkGameCompletion(), 100);
+    }
 }
 
 direction = 'across';
@@ -141,12 +151,16 @@ function select_a_crossword_question(el) {
 }
 
 function fill_crossword(quiz) {
+    xy_to_data = {};
+    lastQuiz = quiz;
     var input = [];
     for(q of quiz.slice(0,20)) {
         if(!q.choices[q.answer].includes(' ') && q.choices[q.answer].length < 10) {
             input.push({'answer': q.choices[q.answer], 'clue': q.question, 'extra': q.extra});
         }
     }
+    // Shuffle to get a varied layout each time
+    input.sort(() => Math.random() - 0.5);
     var layout = generateLayout(input);
     var rows = layout.rows;
     var cols = layout.cols;
@@ -258,8 +272,9 @@ function fill_crossword(quiz) {
             .style('padding', '5px')
             .attr('class', 'crossword_questions_css')
             .on('click',function() {
-                d3.selectAll('.crossword_questions_css').style('color', 'black');
-                d3.select(this).style('color', 'red');
+                d3.selectAll('.crossword_questions_css').style('color', 'black').classed('active-clue', false);
+                d3.select(this).style('color', 'red').classed('active-clue', true);
+                this.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
                 select_a_crossword_question(d3.select(this).node());
              })
             .html(cnt + ". " + " " + table_q.clue + "<br/>");
@@ -359,12 +374,14 @@ function clearCrossword() {
     if (confirm('Are you sure you want to clear all entries?')) {
         d3.selectAll('.crossword_cells').each(function() {
             const cell = d3.select(this);
-            if (!cell.node().hasAttribute('disabled')) {
-                this.value = '';
-                cell.style('background-color', 'white');
-                cell.style('border-color', '#dee2e6');
-            }
+            this.value = '';
+            this.removeAttribute('disabled');
+            cell.classed('hint-used', false).classed('super-hint', false);
+            cell.style('background-color', 'lightgray');
+            cell.style('border-color', '#dee2e6');
         });
+        completedWords = 0;
+        updateStats();
         updateProgress();
         showFeedback('Crossword cleared!', 'info');
     }
@@ -463,9 +480,12 @@ function setupKeyboardNavigation() {
             case 'Tab':
                 event.preventDefault();
                 // Move to next clue
-                const nextQuestion = d3.select('.crossword_questions_css[style*="color: red"]').node();
-                if (nextQuestion && nextQuestion.nextElementSibling) {
-                    nextQuestion.nextElementSibling.click();
+                const activeClue = d3.select('.crossword_questions_css.active-clue').node();
+                if (activeClue && activeClue.nextElementSibling) {
+                    activeClue.nextElementSibling.click();
+                } else if (activeClue) {
+                    // Wrap around to first clue
+                    d3.select('.crossword_questions_css').node().click();
                 }
                 break;
         }
@@ -745,18 +765,15 @@ function resetGame() {
         startTime = null;
         isTimerRunning = false;
         isPaused = false;
-        
+
         // Clear timer
         clearInterval(timerInterval);
-        
+
         // Reset display
         d3.select('#timer_display').text('00:00');
         d3.select('#timer-text').text('Start Timer');
         d3.select('.pause-button').style('display', 'none');
-        
-        // Clear crossword
-        clearCrossword();
-        
+
         // Reset stats
         gameStats = {
             startTime: null,
@@ -766,11 +783,18 @@ function resetGame() {
             score: 0,
             timeElapsed: 0
         };
-        
+
         updateStats();
         hidePauseOverlay();
-        
-        showFeedback('Game reset successfully!', 'success');
+
+        // Regenerate with a new shuffled layout
+        if (lastQuiz) {
+            fill_crossword(lastQuiz);
+            showFeedback('Game reset! New layout generated.', 'success');
+        } else {
+            clearCrossword();
+            showFeedback('Game reset successfully!', 'success');
+        }
     }
 }
 
