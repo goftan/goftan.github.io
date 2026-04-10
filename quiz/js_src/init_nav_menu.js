@@ -37,6 +37,7 @@ function logic_correct_for_selecting_this_page(page) {
         
         d3.select('#known_language').text('Enjoy learning ' + get_selected_language() );
         fill_topic_checkboxes();
+        applyPendingCheckboxSettings();
         return {'can_be_changed_to_this_page':true, notification:  ''};
     } else if (page == 'question_page') {
         if(!is_language_selected()){
@@ -74,7 +75,7 @@ function logic_correct_for_selecting_this_page(page) {
 function selectPage(page) {
     let res = logic_correct_for_selecting_this_page(page);
     if(!res.can_be_changed_to_this_page) {
-        alert(res.notification);
+        showFeedback(res.notification, 'warning');
         return;
     }
     deselectAllNav();

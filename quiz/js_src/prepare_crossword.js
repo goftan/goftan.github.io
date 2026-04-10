@@ -128,6 +128,21 @@ function color_a_cell_except_answers(x,y) {
         d3.select(id_of_cell(x, y)).style('background-color', 'white')
 }
 
+function highlight_active_clue(startx, starty, orientation) {
+    d3.selectAll('.crossword_questions_css')
+        .style('color', null)
+        .classed('active-clue', false);
+    const activeClue = d3.selectAll('.crossword_questions_css').filter(function() {
+        return parseInt(this.getAttribute('startx')) === startx &&
+               parseInt(this.getAttribute('starty')) === starty &&
+               this.getAttribute('orientation') === orientation;
+    });
+    activeClue.style('color', 'red').classed('active-clue', true);
+    if (!activeClue.empty()) {
+        activeClue.node().scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+}
+
 function select_a_crossword_cell(el,d) {
     all_cross_cells_to_lightgray_except_answers();
     var q = d.clue;
@@ -144,6 +159,7 @@ function select_a_crossword_cell(el,d) {
             color_a_cell_except_answers(x, y + counter);
         }
     }
+    highlight_active_clue(x, y, orientation);
 }
 
 function select_a_crossword_question(el) {
@@ -151,9 +167,9 @@ function select_a_crossword_question(el) {
     var q = el.getAttribute('question');
     var extra = el.getAttribute('extra');
     d3.select('#crossword_question').html(extra + " " + q);
-    var x = el.getAttribute('startx');
-    var y = el.getAttribute('starty');
-    
+    var x = parseInt(el.getAttribute('startx'));
+    var y = parseInt(el.getAttribute('starty'));
+
     d3.select(id_of_cell(x,y)).node().focus();
     var orientation = el.getAttribute('orientation');
     direction = orientation;
@@ -164,6 +180,7 @@ function select_a_crossword_question(el) {
             color_a_cell_except_answers(x, y + counter);
         }
     }
+    highlight_active_clue(x, y, orientation);
 }
 
 function fill_crossword(quiz) {
@@ -232,7 +249,12 @@ function fill_crossword(quiz) {
             }
             // Convert to uppercase for consistency
             this.value = this.value.toUpperCase();
-            
+
+            // Auto-start timer on first keypress
+            if (!isTimerRunning && !isPaused) {
+                startTimer(true);
+            }
+
             var tmp = this.id.split('__')[1];
             var x = parseInt(tmp.split('_')[0]);
             var y = parseInt(tmp.split('_')[1]);
@@ -288,9 +310,6 @@ function fill_crossword(quiz) {
             .style('padding', '5px')
             .attr('class', 'crossword_questions_css')
             .on('click',function() {
-                d3.selectAll('.crossword_questions_css').style('color', 'black').classed('active-clue', false);
-                d3.select(this).style('color', 'red').classed('active-clue', true);
-                this.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
                 select_a_crossword_question(d3.select(this).node());
              })
             .html(cnt + ". " + " " + table_q.clue + "<br/>");
@@ -527,20 +546,20 @@ function toggleTimer() {
     }
 }
 
-function startTimer() {
+function startTimer(silent = false) {
     if (!startTime) {
         startTime = new Date();
         gameStats.startTime = startTime;
     }
-    
+
     isTimerRunning = true;
     isPaused = false;
-    
+
     d3.select('#timer-text').text('Stop Timer');
     d3.select('.pause-button').style('display', 'flex');
-    
+
     timerInterval = setInterval(updateTimer, 1000);
-    showFeedback('Timer started!', 'success');
+    if (!silent) showFeedback('Timer started!', 'success');
 }
 
 function stopTimer() {
