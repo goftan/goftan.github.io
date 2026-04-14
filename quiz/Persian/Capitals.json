@@ -10,7 +10,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "دهلی نو",
@@ -23,7 +24,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "توکیو",
@@ -36,7 +38,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "مانیل",
@@ -49,7 +52,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "مسکو",
@@ -62,7 +66,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "قاهره",
@@ -75,7 +80,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "جاکارتا",
@@ -88,7 +94,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "کینشاسا",
@@ -101,7 +108,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "سئول",
@@ -114,7 +122,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "داکا",
@@ -127,7 +136,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "مکزیکوسیتی",
@@ -140,7 +150,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "تهران",
@@ -153,7 +164,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "لندن",
@@ -166,7 +178,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "لیما",
@@ -179,7 +192,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "بانکوک",
@@ -192,7 +206,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "بوگوتا",
@@ -205,7 +220,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "هانوی",
@@ -218,7 +234,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "هنگ کنگ",
@@ -231,7 +248,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "بغداد",
@@ -244,7 +262,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "سنگاپور",
@@ -257,7 +276,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "آنکارا",
@@ -270,7 +290,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "سانتیاگو",
@@ -283,7 +304,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "ریاض",
@@ -296,7 +318,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "برلین",
@@ -309,7 +332,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "دمشق",
@@ -322,7 +346,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "الجزیره",
@@ -335,7 +360,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "مادرید",
@@ -348,7 +374,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "پیونگ یانگ",
@@ -361,7 +388,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "کابل",
@@ -374,7 +402,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "نایروبی",
@@ -387,7 +416,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "آتن",
@@ -400,7 +430,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "آدیس آبابا",
@@ -413,7 +444,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "بوئنوس آیرس",
@@ -426,7 +458,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "رم",
@@ -439,7 +472,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "کی یف",
@@ -452,7 +486,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "یائونده",
@@ -465,7 +500,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "تایپه",
@@ -478,7 +514,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "برازیلیا",
@@ -491,7 +528,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "امان",
@@ -504,7 +542,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "لواندا",
@@ -517,7 +556,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "پرتوریا",
@@ -530,7 +570,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "پاریس",
@@ -543,7 +584,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "تاشکند",
@@ -556,7 +598,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "باکو",
@@ -569,7 +612,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "هاوانا",
@@ -582,7 +626,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "پنوم پن",
@@ -595,7 +640,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "بخارست",
@@ -608,7 +654,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "کاراکاس",
@@ -621,7 +668,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "رباط",
@@ -634,7 +682,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "وین",
@@ -647,7 +696,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "خارطوم",
@@ -660,7 +710,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "بوداپست",
@@ -673,7 +724,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "ورشو",
@@ -686,7 +738,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "مینسک",
@@ -699,7 +752,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "کامپالا",
@@ -712,7 +766,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "آکرا",
@@ -725,7 +780,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "آنتاناناریوو",
@@ -738,7 +794,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "بیروت",
@@ -751,7 +808,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "استکهلم",
@@ -764,7 +822,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "کیتو",
@@ -777,7 +836,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "هراره",
@@ -790,7 +850,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "دوحه",
@@ -803,7 +864,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "صنعا",
@@ -816,7 +878,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "کوناکری",
@@ -829,7 +892,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "کوالالامپور",
@@ -842,7 +906,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "مونته ویدئو",
@@ -855,7 +920,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "لوزاکا",
@@ -868,7 +934,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "باماکو",
@@ -881,7 +948,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "پراگ",
@@ -894,7 +962,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "پورتوپرنس",
@@ -907,7 +976,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "طرابلس",
@@ -920,7 +990,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "کویت",
@@ -933,7 +1004,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "بلگراد",
@@ -946,7 +1018,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "سانتو دومینگو",
@@ -959,7 +1032,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "موگادیشو",
@@ -972,7 +1046,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "صوفیه",
@@ -985,7 +1060,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "برازاویل",
@@ -998,7 +1074,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "بروکسل",
@@ -1011,7 +1088,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "ایروان",
@@ -1024,7 +1102,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "ماپوتو",
@@ -1037,7 +1116,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "فری تاون",
@@ -1050,7 +1130,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "دوبلین",
@@ -1063,7 +1144,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "تفلیس",
@@ -1076,7 +1158,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "داکار",
@@ -1089,7 +1172,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "گواتمالاسیتی",
@@ -1102,7 +1186,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "مونروویا",
@@ -1115,7 +1200,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "آواگادوگو",
@@ -1128,7 +1214,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "کاتماندو",
@@ -1141,7 +1228,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "اسلام‌آباد",
@@ -1154,7 +1242,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "ماناگوئه",
@@ -1167,7 +1256,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "نایپیداو",
@@ -1180,7 +1270,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "اولان باتور",
@@ -1193,7 +1284,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "لیلونگوه",
@@ -1206,7 +1298,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "اتاوا",
@@ -1219,7 +1312,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "لاپاز",
@@ -1232,7 +1326,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "بیشکک",
@@ -1245,7 +1340,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "نورسلطان",
@@ -1258,7 +1354,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "لومه",
@@ -1271,7 +1368,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "پاناماسیتی",
@@ -1284,7 +1382,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "آمستردام",
@@ -1297,7 +1396,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "زاگرب",
@@ -1310,7 +1410,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "مسقط",
@@ -1323,7 +1424,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "نیامی",
@@ -1336,7 +1438,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "کیشیناو",
@@ -1349,7 +1452,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "اورشلیم",
@@ -1362,7 +1466,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "ابوجا",
@@ -1375,7 +1480,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "تیرانا",
@@ -1388,7 +1494,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "تونس",
@@ -1401,7 +1508,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "عشق آباد",
@@ -1414,7 +1522,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "انجامنا",
@@ -1427,7 +1536,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "تگوسیگالپا",
@@ -1440,7 +1550,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "بانگی",
@@ -1453,7 +1564,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "نواکشوت",
@@ -1466,7 +1578,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "کیگالی",
@@ -1479,7 +1592,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "ریگا",
@@ -1492,7 +1606,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "کینگستون",
@@ -1505,7 +1620,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "واشینگتن دی سی",
@@ -1518,7 +1634,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "اسلو",
@@ -1531,7 +1648,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "هلسینکی",
@@ -1544,7 +1662,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "ابوظبی",
@@ -1557,7 +1676,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "دوشنبه",
@@ -1570,7 +1690,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A1"
   },
   {
     "question": "لیسبون",
@@ -1583,7 +1704,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "کپنهاگ",
@@ -1596,7 +1718,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ویلنیوس",
@@ -1609,7 +1732,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "لیبرویل",
@@ -1622,7 +1746,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "اسمره",
@@ -1635,7 +1760,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سان سالوادور",
@@ -1648,7 +1774,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "آسونسیون",
@@ -1661,7 +1788,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ماکائو",
@@ -1674,7 +1802,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ادینبورگ",
@@ -1687,7 +1816,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "شهر جیبوتی",
@@ -1700,7 +1830,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "یاموسوکرو",
@@ -1713,7 +1844,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "بیسائو",
@@ -1726,7 +1858,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "تالین",
@@ -1739,7 +1872,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "براتیسلاوا",
@@ -1752,7 +1886,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سان خوآن",
@@ -1765,7 +1900,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ولینگتون",
@@ -1778,7 +1914,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "بوجومبورا",
@@ -1791,7 +1928,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سارایوو",
@@ -1804,7 +1942,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "جوبا",
@@ -1817,7 +1956,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "کانبرا",
@@ -1830,7 +1970,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "کاردیف",
@@ -1843,7 +1984,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "بلفاست",
@@ -1856,7 +1998,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سان خوزه",
@@ -1869,7 +2012,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "پورت مورسبی",
@@ -1882,7 +2026,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "وین تیان",
@@ -1895,7 +2040,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "دودوما",
@@ -1908,7 +2054,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ماسرو",
@@ -1921,7 +2068,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "نیکوزیا (جنوبی)",
@@ -1934,7 +2082,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "لیوبلیانا",
@@ -1947,7 +2096,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "پاراماریبو",
@@ -1960,7 +2110,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ویندهوک",
@@ -1973,7 +2124,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ناسائو",
@@ -1986,7 +2138,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "گابورون",
@@ -1999,7 +2152,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "پورتو نووو",
@@ -2012,7 +2166,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "پریشتینا",
@@ -2025,7 +2180,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "العیون / تیفاریتی",
@@ -2038,7 +2194,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "تیراسپول",
@@ -2051,7 +2208,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "پورت لوئیس",
@@ -2064,7 +2222,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "پودگوریتسا",
@@ -2077,7 +2236,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "منامه",
@@ -2090,7 +2250,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "جرج تاون",
@@ -2103,7 +2264,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "پرایا",
@@ -2116,7 +2278,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "برن (دفاکتو)",
@@ -2129,7 +2292,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سری جایاواردنپورا کوته",
@@ -2142,7 +2306,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ریکیاویک",
@@ -2155,7 +2320,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "بریج تاون",
@@ -2168,7 +2334,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ماله",
@@ -2181,7 +2348,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "تیمفو",
@@ -2194,7 +2362,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "مالابو",
@@ -2207,7 +2376,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "نومئا",
@@ -2220,7 +2390,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "نیکوزیا (شمالی)",
@@ -2233,7 +2404,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سووا",
@@ -2246,7 +2418,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "امبابانه",
@@ -2259,7 +2432,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "شهر لوکزامبورگ",
@@ -2272,7 +2446,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "کاستریس",
@@ -2285,7 +2460,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سایپن",
@@ -2298,7 +2474,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "مورونی",
@@ -2311,7 +2488,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "هونیارا",
@@ -2324,7 +2502,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "دیلی",
@@ -2337,7 +2516,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سائوتومه",
@@ -2350,7 +2530,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "پاگو پاگو",
@@ -2363,7 +2544,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "پرت آو اسپاین",
@@ -2376,7 +2558,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "باکو",
@@ -2389,7 +2572,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ویلمستاد",
@@ -2402,7 +2586,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "کینگستون",
@@ -2415,7 +2600,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "آپیا",
@@ -2428,7 +2614,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "پورت ویلا",
@@ -2441,7 +2628,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "موناکو",
@@ -2454,7 +2642,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "بانجول",
@@ -2467,7 +2656,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "تاراوا",
@@ -2480,7 +2670,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "اورنجستاد",
@@ -2493,7 +2684,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ویکتوریا",
@@ -2506,7 +2698,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "جبل طارق",
@@ -2519,7 +2712,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سن هلیه",
@@ -2532,7 +2726,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "بندر سری بگاوان",
@@ -2545,7 +2740,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "جرج تاون",
@@ -2558,7 +2754,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "دوگلاس",
@@ -2571,7 +2768,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "پاپیته",
@@ -2584,7 +2782,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "رام‌الله (دفاکتو)",
@@ -2597,7 +2796,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ماجورو",
@@ -2610,7 +2810,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "آندورا لاولا",
@@ -2623,7 +2824,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سنت جانز",
@@ -2636,7 +2838,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "نوکوآلوفا",
@@ -2649,7 +2852,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "توشهاون",
@@ -2662,7 +2866,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سن پتر پورت",
@@ -2675,7 +2880,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "نوک",
@@ -2688,7 +2894,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "روسو",
@@ -2701,7 +2908,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "بلموپان",
@@ -2714,7 +2922,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "باستر",
@@ -2727,7 +2936,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ماریهام",
@@ -2740,7 +2950,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "شارلوت آمالی",
@@ -2753,7 +2964,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "پالیکیر",
@@ -2766,7 +2978,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "رود تاون",
@@ -2779,7 +2992,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سینت‌جورجس",
@@ -2792,7 +3006,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "والتا",
@@ -2805,7 +3020,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "گوستاویا",
@@ -2818,7 +3034,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ماریگو",
@@ -2831,7 +3048,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سن پیر، سن-پیر-ا-میکلون",
@@ -2844,7 +3062,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "آواروآ",
@@ -2857,7 +3076,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "فادوتس",
@@ -2870,7 +3090,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "سان مارینو",
@@ -2883,7 +3104,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "فونافوتی",
@@ -2896,7 +3118,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "کوک برن تاون، باهاما",
@@ -2909,7 +3132,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "نوحی",
@@ -2922,7 +3146,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "لانگیربین",
@@ -2935,7 +3160,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "فلاینگ فیش کاو",
@@ -2948,7 +3174,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "فیلیپسبورگ، سینت مارتن",
@@ -2961,7 +3188,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ماتا-اوتو",
@@ -2974,7 +3202,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "د ولی",
@@ -2987,7 +3216,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "یارن (دفاکتو)",
@@ -3000,7 +3230,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "هاگاتنیا",
@@ -3013,7 +3244,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "همیلتون",
@@ -3026,7 +3258,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "کینگستون",
@@ -3039,7 +3272,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "واتیکان (دولت‌شهر)",
@@ -3052,7 +3286,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "جیمزتاون، سینت هلینا",
@@ -3065,7 +3300,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "الوفی",
@@ -3078,7 +3314,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "ندارد",
@@ -3091,7 +3328,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "بریدز (دفاکتو)",
@@ -3104,7 +3342,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "نگرولمود",
@@ -3117,7 +3356,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "وست آیلند، جزایر کوکوس",
@@ -3130,7 +3370,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "",
-    "extra": "The country with the following capital:"
+    "extra": "The country with the following capital:",
+    "level": "A2"
   },
   {
     "question": "چین",
@@ -3143,7 +3384,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "هند",
@@ -3156,7 +3398,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "ژاپن",
@@ -3169,7 +3412,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "فیلیپین",
@@ -3182,7 +3426,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "روسیه",
@@ -3195,7 +3440,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "مصر",
@@ -3208,7 +3454,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "اندونزی",
@@ -3221,7 +3468,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "جمهوری دموکراتیک کنگو",
@@ -3234,7 +3482,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "کره جنوبی",
@@ -3247,7 +3496,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "بنگلادش",
@@ -3260,7 +3510,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "مکزیک",
@@ -3273,7 +3524,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "ایران",
@@ -3286,7 +3538,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "بریتانیا",
@@ -3299,7 +3552,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "پرو",
@@ -3312,7 +3566,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "تایلند",
@@ -3325,7 +3580,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "کلمبیا",
@@ -3338,7 +3594,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "ویتنام",
@@ -3351,7 +3608,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "هنگ کنگ (چین)",
@@ -3364,7 +3622,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "عراق",
@@ -3377,7 +3636,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "سنگاپور",
@@ -3390,7 +3650,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "ترکیه",
@@ -3403,7 +3664,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "شیلی",
@@ -3416,7 +3678,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "عربستان سعودی",
@@ -3429,7 +3692,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "آلمان",
@@ -3442,7 +3706,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "سوریه",
@@ -3455,7 +3720,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "الجزایر",
@@ -3468,7 +3734,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "اسپانیا",
@@ -3481,7 +3748,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "کره شمالی",
@@ -3494,7 +3762,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "افغانستان",
@@ -3507,7 +3776,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "کنیا",
@@ -3520,7 +3790,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "یونان",
@@ -3533,7 +3804,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "اتیوپی",
@@ -3546,7 +3818,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "آرژانتین",
@@ -3559,7 +3832,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "ایتالیا",
@@ -3572,7 +3846,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "اوکراین",
@@ -3585,7 +3860,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "کامرون",
@@ -3598,7 +3874,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "جمهوری چین",
@@ -3611,7 +3888,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "برزیل",
@@ -3624,7 +3902,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "اردن",
@@ -3637,7 +3916,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "آنگولا",
@@ -3650,7 +3930,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "آفریقای جنوبی",
@@ -3663,7 +3944,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "فرانسه",
@@ -3676,7 +3958,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "ازبکستان",
@@ -3689,7 +3972,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "جمهوری آذربایجان",
@@ -3702,7 +3986,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "کوبا",
@@ -3715,7 +4000,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "کامبوج",
@@ -3728,7 +4014,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "رومانی",
@@ -3741,7 +4028,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "ونزوئلا",
@@ -3754,7 +4042,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "مراکش",
@@ -3767,7 +4056,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "اتریش",
@@ -3780,7 +4070,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "سودان",
@@ -3793,7 +4084,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "مجارستان",
@@ -3806,7 +4098,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "لهستان",
@@ -3819,7 +4112,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "بلاروس",
@@ -3832,7 +4126,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "اوگاندا",
@@ -3845,7 +4140,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "غنا",
@@ -3858,7 +4154,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "ماداگاسکار",
@@ -3871,7 +4168,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "لبنان",
@@ -3884,7 +4182,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "سوئد",
@@ -3897,7 +4196,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "اکوادور",
@@ -3910,7 +4210,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "زیمبابوه",
@@ -3923,7 +4224,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "قطر",
@@ -3936,7 +4238,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "یمن",
@@ -3949,7 +4252,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "گینه",
@@ -3962,7 +4266,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "مالزی",
@@ -3975,7 +4280,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "اروگوئه",
@@ -3988,7 +4294,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "زامبیا",
@@ -4001,7 +4308,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "مالی",
@@ -4014,7 +4322,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "جمهوری چک",
@@ -4027,7 +4336,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "هائیتی",
@@ -4040,7 +4350,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "لیبی",
@@ -4053,7 +4364,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "کویت",
@@ -4066,7 +4378,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "صربستان",
@@ -4079,7 +4392,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "جمهوری دومینیکن",
@@ -4092,7 +4406,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "سومالی",
@@ -4105,7 +4420,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "بلغارستان",
@@ -4118,7 +4434,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "جمهوری کنگو",
@@ -4131,7 +4448,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "بلژیک",
@@ -4144,7 +4462,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "ارمنستان",
@@ -4157,7 +4476,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "موزامبیک",
@@ -4170,7 +4490,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "سیرالئون",
@@ -4183,7 +4504,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "جمهوری ایرلند",
@@ -4196,7 +4518,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "گرجستان",
@@ -4209,7 +4532,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "سنگال",
@@ -4222,7 +4546,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "گواتمالا",
@@ -4235,7 +4560,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "لیبریا",
@@ -4248,7 +4574,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "بورکینافاسو",
@@ -4261,7 +4588,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "نپال",
@@ -4274,7 +4602,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "پاکستان",
@@ -4287,7 +4616,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "نیکاراگوئه",
@@ -4300,7 +4630,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "میانمار",
@@ -4313,7 +4644,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "مغولستان",
@@ -4326,7 +4658,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "مالاوی",
@@ -4339,7 +4672,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "کانادا",
@@ -4352,7 +4686,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "بولیوی",
@@ -4365,7 +4700,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "قرقیزستان",
@@ -4378,7 +4714,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "قزاقستان",
@@ -4391,7 +4728,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "توگو",
@@ -4404,7 +4742,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "پاناما",
@@ -4417,7 +4756,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "هلند",
@@ -4430,7 +4770,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "کرواسی",
@@ -4443,7 +4784,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "عمان",
@@ -4456,7 +4798,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "نیجر",
@@ -4469,7 +4812,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "مولداوی",
@@ -4482,7 +4826,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "اسرائیل",
@@ -4495,7 +4840,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "نیجریه",
@@ -4508,7 +4854,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "آلبانی",
@@ -4521,7 +4868,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "تونس",
@@ -4534,7 +4882,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "ترکمنستان",
@@ -4547,7 +4896,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "چاد",
@@ -4560,7 +4910,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "هندوراس",
@@ -4573,7 +4924,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "جمهوری آفریقای مرکزی",
@@ -4586,7 +4938,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "موریتانی",
@@ -4599,7 +4952,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "رواندا",
@@ -4612,7 +4966,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "لتونی",
@@ -4625,7 +4980,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "جامائیکا",
@@ -4638,7 +4994,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "ایالات متحده آمریکا",
@@ -4651,7 +5008,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "نروژ",
@@ -4664,7 +5022,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "فنلاند",
@@ -4677,7 +5036,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "امارات متحده عربی",
@@ -4690,7 +5050,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "تاجیکستان",
@@ -4703,7 +5064,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B1"
   },
   {
     "question": "پرتغال",
@@ -4716,7 +5078,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "دانمارک",
@@ -4729,7 +5092,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "لیتوانی",
@@ -4742,7 +5106,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "گابن",
@@ -4755,7 +5120,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "اریتره",
@@ -4768,7 +5134,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "السالوادور",
@@ -4781,7 +5148,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "پاراگوئه",
@@ -4794,7 +5162,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "ماکائو (چین)",
@@ -4807,7 +5176,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "اسکاتلند",
@@ -4820,7 +5190,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جیبوتی",
@@ -4833,7 +5204,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "ساحل عاج",
@@ -4846,7 +5218,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "گینه بیسائو",
@@ -4859,7 +5232,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "استونی",
@@ -4872,7 +5246,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "اسلواکی",
@@ -4885,7 +5260,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "پورتوریکو (ایالات متحده)",
@@ -4898,7 +5274,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "نیوزیلند",
@@ -4911,7 +5288,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "بوروندی",
@@ -4924,7 +5302,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "بوسنی و هرزگوین",
@@ -4937,7 +5316,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سودان جنوبی",
@@ -4950,7 +5330,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "استرالیا",
@@ -4963,7 +5344,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "ولز",
@@ -4976,7 +5358,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "ایرلند شمالی",
@@ -4989,7 +5372,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "کاستاریکا",
@@ -5002,7 +5386,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "پاپوآ گینه نو",
@@ -5015,7 +5400,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "لائوس",
@@ -5028,7 +5414,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "تانزانیا",
@@ -5041,7 +5428,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "لسوتو",
@@ -5054,7 +5442,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "قبرس",
@@ -5067,7 +5456,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "اسلوونی",
@@ -5080,7 +5470,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سورینام",
@@ -5093,7 +5484,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "نامیبیا",
@@ -5106,7 +5498,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "باهاما",
@@ -5119,7 +5512,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "بوتسوانا",
@@ -5132,7 +5526,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "بنین",
@@ -5145,7 +5540,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "کوزوو",
@@ -5158,7 +5554,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جمهوری دموکراتیک صحرای غربی",
@@ -5171,7 +5568,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "ترانسنیستریا",
@@ -5184,7 +5582,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "موریس",
@@ -5197,7 +5596,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "مونته‌نگرو",
@@ -5210,7 +5610,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "بحرین",
@@ -5223,7 +5624,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "گویان",
@@ -5236,7 +5638,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "دماغه سبز",
@@ -5249,7 +5652,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سوئیس",
@@ -5262,7 +5666,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سری‌لانکا",
@@ -5275,7 +5680,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "ایسلند",
@@ -5288,7 +5694,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "باربادوس",
@@ -5301,7 +5708,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "مالدیو",
@@ -5314,7 +5722,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "پادشاهی بوتان",
@@ -5327,7 +5736,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "گینه استوایی",
@@ -5340,7 +5750,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "کالدونیای جدید (فرانسه)",
@@ -5353,7 +5764,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "قبرس شمالی",
@@ -5366,7 +5778,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "فیجی",
@@ -5379,7 +5792,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "اسواتینی",
@@ -5392,7 +5806,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "لوکزامبورگ",
@@ -5405,7 +5820,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سنت لوسیا",
@@ -5418,7 +5834,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزایر ماریانای شمالی (ایالات متحده آمریکا)",
@@ -5431,7 +5848,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "اتحاد قمر",
@@ -5444,7 +5862,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزایر سلیمان",
@@ -5457,7 +5876,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "تیمور شرقی",
@@ -5470,7 +5890,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سائوتومه و پرنسیپ",
@@ -5483,7 +5904,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "ساموای آمریکا (ایالات متحده)",
@@ -5496,7 +5918,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "ترینیداد و توباگو",
@@ -5509,7 +5932,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جمهوری آذربایجان",
@@ -5522,7 +5946,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "کوراسائو (هلند)",
@@ -5535,7 +5960,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سنت وینسنت و گرنادین‌ها",
@@ -5548,7 +5974,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "ساموآ",
@@ -5561,7 +5988,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "وانواتو",
@@ -5574,7 +6002,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "موناکو",
@@ -5587,7 +6016,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "گامبیا",
@@ -5600,7 +6030,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "کیریباتی",
@@ -5613,7 +6044,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "آروبا (اورنجستاد)",
@@ -5626,7 +6058,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سیشل",
@@ -5639,7 +6072,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جبل طارق (بریتانیا)",
@@ -5652,7 +6086,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جرسی (بریتانیا)",
@@ -5665,7 +6100,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "برونئی",
@@ -5678,7 +6114,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزایر کیمن (بریتانیا)",
@@ -5691,7 +6128,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزیره من (بریتانیا)",
@@ -5704,7 +6142,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "پلی‌نزی فرانسه (فرانسه)",
@@ -5717,7 +6156,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "کرانه باختری رود اردن (اسرائیل/حکومت خودگردان فلسطین)",
@@ -5730,7 +6170,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزایر مارشال",
@@ -5743,7 +6184,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "آندورا",
@@ -5756,7 +6198,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "آنتیگوا و باربودا",
@@ -5769,7 +6212,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "تونگا",
@@ -5782,7 +6226,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزایر فارو (دانمارک)",
@@ -5795,7 +6240,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "گرنزی (بریتانیا)",
@@ -5808,7 +6254,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "گرینلند (دانمارک)",
@@ -5821,7 +6268,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "دومینیکا",
@@ -5834,7 +6282,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "بلیز",
@@ -5847,7 +6296,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سنت کیتس و نویس",
@@ -5860,7 +6310,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزایر آلند (فنلاند)",
@@ -5873,7 +6324,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزایر ویرجین ایالات متحده (ایالات متحده)",
@@ -5886,7 +6338,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "ایالات فدرال میکرونزی",
@@ -5899,7 +6352,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزایر ویرجین بریتانیا (بریتانیا)",
@@ -5912,7 +6366,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "گرنادا",
@@ -5925,7 +6380,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "مالت",
@@ -5938,7 +6394,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سنت بارثلمی (فرانسه)",
@@ -5951,7 +6408,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سنت مارتین فرانسه (فرانسه)",
@@ -5964,7 +6422,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سنت پیر و ماژلان (فرانسه)",
@@ -5977,7 +6436,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزایر کوک (نیوزیلند)",
@@ -5990,7 +6450,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "لیختن‌اشتاین",
@@ -6003,7 +6464,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سان مارینو",
@@ -6016,7 +6478,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "تووالو",
@@ -6029,7 +6492,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزایر تورکس و کایکوس (بریتانیا)",
@@ -6042,7 +6506,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزایر فالکلند (بریتانیا)",
@@ -6055,7 +6520,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سوالبارد (نروژ)",
@@ -6068,7 +6534,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزیره کریسمس (استرالیا)",
@@ -6081,7 +6548,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سنت مارتین (هلند)",
@@ -6094,7 +6562,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "والیس و فوتونا (فرانسه)",
@@ -6107,7 +6576,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "آنگویلا (بریتانیا)",
@@ -6120,7 +6590,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "نائورو",
@@ -6133,7 +6604,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "گوآم (ایالات متحده)",
@@ -6146,7 +6618,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "برمودا (بریتانیا)",
@@ -6159,7 +6632,8 @@
     "answer": 1,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزیره نورفولک (استرالیا)",
@@ -6172,7 +6646,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "واتیکان",
@@ -6185,7 +6660,8 @@
     "answer": 0,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "سینت هلینا (بریتانیا)",
@@ -6198,7 +6674,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "نیووی (نیوزیلند)",
@@ -6211,7 +6688,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "توکلائو (نیوزیلند)",
@@ -6224,7 +6702,8 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "مونتسرات (بریتانیا)",
@@ -6237,7 +6716,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "پالائو",
@@ -6250,7 +6730,8 @@
     "answer": 3,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   },
   {
     "question": "جزایر کوکوس (استرالیا)",
@@ -6263,6 +6744,7 @@
     "answer": 2,
     "type": "capital",
     "intent": "",
-    "extra": "The capital of:"
+    "extra": "The capital of:",
+    "level": "B2"
   }
 ]

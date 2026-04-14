@@ -10,7 +10,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "مرا ------ ساعت نه صبح بیدار کن",
@@ -23,7 +24,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "یک زنگ هشدار را برای ------ تنظیم کن",
@@ -36,7 +38,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "برای ------ متوقف کن",
@@ -49,7 +52,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "برای ------ مکث کن",
@@ -62,7 +66,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ همان چیزی است که نیاز داریم",
@@ -75,7 +80,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "نور اینجا را کمی ------ کن",
@@ -88,7 +94,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "لطفا روشنایی را در حالت ------ تنظیم کن",
@@ -101,7 +108,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "لامپ ------ را خاموش کن",
@@ -114,7 +122,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "علی روشنایی ------ را کم کن",
@@ -127,7 +136,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "لامپ ها را در ------ کم کن",
@@ -140,7 +150,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "لامپ ها را در ------ خاموش کن",
@@ -153,7 +164,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "علی چراغ‌های ------ خواب را خاموش کن",
@@ -166,7 +178,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "نور را ------ تنظیم کن",
@@ -179,7 +192,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آلی روشنایی را ------ تنظیم کن",
@@ -192,7 +206,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "علی نور ------ را کم کن",
@@ -205,7 +220,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "نور ------ را کم کن",
@@ -218,7 +234,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را تاریکتر بکن",
@@ -231,7 +248,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "علی ------ را تمییز کن",
@@ -244,7 +262,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را تمیز کن",
@@ -257,7 +276,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را جارو کن",
@@ -270,7 +290,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "علی ------ را جاروبرقی بکش",
@@ -283,7 +304,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "تمیز کردن خوب است گردو غبار خیلی بد است اکنون ------ من را تمیز کن",
@@ -296,7 +318,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را جارو بکش",
@@ -309,7 +332,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را جارو بکش",
@@ -322,7 +346,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "من میخوام دوباره آهنگ ------ را گوش بدم",
@@ -335,7 +360,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "من میخوام آن ------ را دوباره پخش کنم",
@@ -348,7 +374,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "در ------ ساعت چند است",
@@ -361,7 +388,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ ساعت چنده",
@@ -374,7 +402,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ چند میشه",
@@ -387,7 +416,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "اولی بهم بگو ساعت توی ------ چنده",
@@ -400,7 +430,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "الهه بالاترین امتیازهای گزینه های ------ غذای ایرانی را لیست کن",
@@ -413,7 +444,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "بالاترین امتیاز سرویس ------ در محل برای غذای چینی",
@@ -426,7 +458,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "غذای ------ تحویل در محل با بالاترین امتیازها را لیست کن",
@@ -439,7 +472,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly بهترین گزینه‌های ------ غذای چینی",
@@ -452,7 +486,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "من یک مقدار ------ بیرون بر می خواهم هیچ پیشنهادی داری",
@@ -465,7 +500,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "من یه کمی ------ می‌خوام پیشنهادی داری اولی",
@@ -478,7 +514,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "برای من غذای ------ بیرون بر در بازار تهران پیدا کن",
@@ -491,7 +528,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "غذای ------ بیرون‌بر من را اطراف بازار تهران پیدا کن",
@@ -504,7 +542,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "هشدار ساعت ------ من را لغو کن",
@@ -517,7 +556,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "زنگ هشدار ------ را متوقف کن",
@@ -530,7 +570,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "اخبار ------ فوتبال چیست",
@@ -543,7 +584,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "لطفا ------ از ایوان بند را پخش کن",
@@ -556,7 +598,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "من دوس دارم آهنگ ------ منصور را گوش بدم",
@@ -569,7 +612,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ از سامان جلیلی را برایم پخش کن",
@@ -582,7 +626,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "من موسیقی ------ دوست دارم",
@@ -595,7 +640,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "گروه موسیقی مورد علاقه من ------ است",
@@ -608,7 +654,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "من آهنگ های ------ را دوست دارم",
@@ -621,7 +668,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "لطفا روشنایی را ------ افزایش بده",
@@ -634,7 +682,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را روشن کن",
@@ -647,7 +696,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را روشن کن",
@@ -660,7 +710,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "تاریخ ------ را به من بگو",
@@ -673,7 +724,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ چندم است",
@@ -686,7 +738,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "لطفا مقداری ------ برای شام سفارش بده",
@@ -699,7 +752,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "هی می خوام ------ سفارش بدی",
@@ -712,7 +766,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آیا می توانی برای ------ شام سوشی سفارش بدهی",
@@ -725,7 +780,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آیا می توانم ------ بیرون بری از عطاویچ سفارش بدهم",
@@ -738,7 +794,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آیا ------ غذای بیرون بری دارد",
@@ -751,7 +808,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "زنگ هشدار را برای ------ تنظیم کن",
@@ -764,7 +822,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ زنگ هشدار را تنظیم کن",
@@ -777,7 +836,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "زنگ هشدار را برای ساعت ------ هر روز هفته تنظیم کن",
@@ -790,7 +850,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "داره ------",
@@ -803,7 +864,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آیا می خواهد ------ ببارد",
@@ -816,7 +878,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "داره ------",
@@ -829,7 +892,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "پیش‌بینی هوای ------ چطوره",
@@ -842,7 +906,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "پیش‌بینی ------ چیست",
@@ -855,7 +920,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "هوای ------ چطور است",
@@ -868,7 +934,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "هوای ------ چطوره",
@@ -881,7 +948,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "وضع هوای ------ را به من بگو",
@@ -894,7 +962,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "اخبار ------ را به من بگو",
@@ -907,7 +976,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "خبرهای اخبار ------ چیست",
@@ -920,7 +990,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آخرین اخبار ------ چیست",
@@ -933,7 +1004,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را پخش کن",
@@ -946,7 +1018,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را پخش کن",
@@ -959,7 +1032,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ پخش کن",
@@ -972,7 +1046,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "چند تا ------ پخش کن",
@@ -985,7 +1060,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "چند تا ------ بزار",
@@ -998,7 +1074,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "این قطعه را ------",
@@ -1011,7 +1088,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "صدا را بر ------ تنظیم کن",
@@ -1024,7 +1102,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "volume_down",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "یک جوک ------ به من بگو",
@@ -1037,7 +1116,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ چه روزی هست",
@@ -1050,7 +1130,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "درباره ------ به من بگو",
@@ -1063,7 +1144,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "quirky",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "یک ------ سفارش بده",
@@ -1076,7 +1158,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "یک وعده ------ از رستوران تورنج سفارش بده",
@@ -1089,7 +1172,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "یک غذای ------ سفارش بده",
@@ -1102,7 +1186,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "غذای ------ من چقدر می‌کشه",
@@ -1115,7 +1200,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "وضعیت ------ غذای عطاویچ",
@@ -1128,7 +1214,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "لیست آهنگ های ------ من پخش کن",
@@ -1141,7 +1228,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "لیست آهنگ های ------ من را پخش کن",
@@ -1154,7 +1242,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "من ------ دوست دارم",
@@ -1167,7 +1256,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "میتونی چند تا ------ پخش کنی",
@@ -1180,7 +1270,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "من دوست دارم ------ گوش بدم",
@@ -1193,7 +1284,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly من دوست دارم ------ گوش بدم",
@@ -1206,7 +1298,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را فعال کن",
@@ -1219,7 +1312,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "روشنایی را ------ تنظیم کن",
@@ -1232,7 +1326,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آیا آنها سرویس ------ دارند",
@@ -1245,7 +1340,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آیا آنها ------ دارند",
@@ -1258,7 +1354,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آیا آنها ------ در منزل دارند",
@@ -1271,7 +1368,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "الهه آیا آنها ------ در منزل دارند",
@@ -1284,7 +1382,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "زنگ هشدار ------ را تنظیم کن",
@@ -1297,7 +1396,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "زنگ ساعت ------ را ساعت شش صبح تنظیم کن",
@@ -1310,7 +1410,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ هفت صبح ساعت بیدارباش بگذار",
@@ -1323,7 +1424,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آخرین اخبار ------ را به من بگو",
@@ -1336,7 +1438,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آخرین اخبار ------ را به من بگو",
@@ -1349,7 +1452,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "چند خبر ------ به من بگو",
@@ -1362,7 +1466,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "اخبار ------ را به من بگو",
@@ -1375,7 +1480,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "الان ------",
@@ -1388,7 +1494,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "لیست آهنگ های ------ من را پخش کن",
@@ -1401,7 +1508,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "لیست آهنگ های ------ من را پخش کن",
@@ -1414,7 +1522,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را از لیست آهنگ های من پخش کن",
@@ -1427,7 +1536,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ از لیست آهنگ های مورد علاقه من را پخش کن",
@@ -1440,7 +1550,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را روشن کن",
@@ -1453,7 +1564,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را وصل کن",
@@ -1466,7 +1578,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ من را روشن کن",
@@ -1479,7 +1592,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آیا ------ غذای بیرون بر دارد",
@@ -1492,7 +1606,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آیا ------ فروشی مورد علاقه ام سرویس بیرون بر دارد",
@@ -1505,7 +1620,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "آیا می توانم از رستوران ------ غذای بیرون بری سفارش بدهم",
@@ -1518,7 +1634,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "هوای ------ چطور است",
@@ -1531,7 +1648,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "وضع هوای ------ را بگو",
@@ -1544,7 +1662,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "لطفا نور را ------ کن",
@@ -1557,7 +1676,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "لطفا لامپ ها را ------ بساز",
@@ -1570,7 +1690,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ را روشن تر کن",
@@ -1583,7 +1704,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ چندم است",
@@ -1596,7 +1718,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ چند شنبه است",
@@ -1609,7 +1732,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ هوا چطور است",
@@ -1622,7 +1746,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "بیرون ------",
@@ -1635,7 +1760,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly آیا بیرون ------",
@@ -1648,7 +1774,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آیا ------ باید چتر بیاورم",
@@ -1661,7 +1788,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "از ------ من آهنگ پخش کن",
@@ -1674,7 +1802,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "رنگ نورها رو ------ کن",
@@ -1687,7 +1816,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "لطفا ------ را تمیز کن",
@@ -1700,7 +1830,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ را روشن کن",
@@ -1713,7 +1844,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ رو خاموش کن",
@@ -1726,7 +1858,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "در ------ ساعت چند است",
@@ -1739,7 +1872,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "در ------ ساعت چند است",
@@ -1752,7 +1886,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "می توانی لطفا به من کمک کنی کمی ------ از عطاویچ سفارش بدهم",
@@ -1765,7 +1900,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "ساعت ------ صبح زنگ هشدار را تنظیم کن",
@@ -1778,7 +1914,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "یک هشدار برای ساعت ------ بعدازظهر تنظیم کن",
@@ -1791,7 +1928,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "olly در ساعت ------ به من هشدار بده که به کنسرت بروم",
@@ -1804,7 +1942,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "ساعت ------ برای رفتن به کنسرت به من هشدار بده",
@@ -1817,7 +1956,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آیا من برای ------ صبح زنگ هشدار تنظیم کرده‌ام",
@@ -1830,7 +1970,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آیا من زنگ هشدار را برای ------ در صبح تنظیم کرده‌ام",
@@ -1843,7 +1984,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آیا ------ بارانی است",
@@ -1856,7 +1998,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ باران می بارد",
@@ -1869,7 +2012,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "در ------ چه خبر است",
@@ -1882,7 +2026,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "در ------ چه خبر است",
@@ -1895,7 +2040,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ چه خبر است",
@@ -1908,7 +2054,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "چند خبر از ------ به من نشان بده",
@@ -1921,7 +2068,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "الهه تعدادی خبر از ------ به من نشان بده",
@@ -1934,7 +2082,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------",
@@ -1947,7 +2096,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "الهه ------",
@@ -1960,7 +2110,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "چند تا آهنگ ------ برای من پخش کن",
@@ -1973,7 +2124,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "احساس میکنم الان دوست دارم ------ گوش بدم تو چطور",
@@ -1986,7 +2138,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "حالا فقط ------ پخش کن",
@@ -1999,7 +2152,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "الان ------ پخش کن.",
@@ -2012,7 +2166,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "اوولی یک قطعه خوب از نوازنده ------ مورد علاقه من پخش کن",
@@ -2025,7 +2180,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "olly از ------ مورد علاقه من آهنگ پخش کن",
@@ -2038,7 +2194,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "لامپ ها را به ------ عوض کن",
@@ -2051,7 +2208,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "بیا چراغ‌ها را ------ کنیم",
@@ -2064,7 +2222,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "لامپ ها را ------ بکن",
@@ -2077,7 +2236,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "الان در ------ ساعت چند است",
@@ -2090,7 +2250,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "منظور خواننده از اسم اهنگ ------ چیست",
@@ -2103,7 +2264,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آهنگ ------ رو کی خونده",
@@ -2116,7 +2278,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "هوای ------ چطور است",
@@ -2129,7 +2292,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "هوای ------ چطور است",
@@ -2142,7 +2306,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "پیش بینی وضع هوای ------ تهران چیست",
@@ -2155,7 +2320,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "وضعیت جاری ------ چیست",
@@ -2168,7 +2334,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ چقدر است",
@@ -2181,7 +2348,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ آینده فرانسه را چه کسی می برد",
@@ -2194,7 +2362,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آیا ------ انتظار هوای آفتابی داری",
@@ -2207,7 +2376,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "امروز ------ باران می بارد",
@@ -2220,7 +2390,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ هوا بادی می شود",
@@ -2233,7 +2404,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "چراغ‌های ------ را روشن کن",
@@ -2246,7 +2418,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lighton",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ را روشن تر کن",
@@ -2259,7 +2432,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "الان در ------ ساعت چند است",
@@ -2272,7 +2446,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ را شروع کن",
@@ -2285,7 +2460,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ را جاروبرقی بکش",
@@ -2298,7 +2474,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ را روشن کن",
@@ -2311,7 +2488,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "در ------ چه خبر است",
@@ -2324,7 +2502,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "تیترهای ------ روزنامه را بگو",
@@ -2337,7 +2516,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ را پخش کن",
@@ -2350,7 +2530,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آهنگ های ------ را پخش کن",
@@ -2363,7 +2544,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ پخش کن",
@@ -2376,7 +2558,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "پیش بینی هوای ------ چطور است",
@@ -2389,7 +2572,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "یک ------ از فست فود آی گون سفارش بده",
@@ -2402,7 +2586,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "دوست دارم ------ بخورم میتونی برای نهار برام سفارش بدی",
@@ -2415,7 +2600,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "alexa من می‌خواهم یک ------ بخورم می‌توانی یک نهار به من سفارش بدهی",
@@ -2428,7 +2614,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ و سوپ از رستوران ایتالیایی بیرون بر سفارش بده",
@@ -2441,7 +2628,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "چند روز تا پایان ------ مونده",
@@ -2454,7 +2642,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ عید سال نو در چه روزی است",
@@ -2467,7 +2656,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ روز عید نوروز چند شنبه است",
@@ -2480,7 +2670,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "روشنایی را ------ زیاد کن",
@@ -2493,7 +2684,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "لامپ ها را به ------ تنظیم کن",
@@ -2506,7 +2698,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "لطفا برای ------ بی صدا باش",
@@ -2519,7 +2712,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ صحبت نکن",
@@ -2532,7 +2726,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ باران می بارد",
@@ -2545,7 +2740,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آب و هوای ------ را تا دو روز آینده به من بگو",
@@ -2558,7 +2754,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ باید چتر بردارم",
@@ -2571,7 +2768,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ را غیر فعال کن",
@@ -2584,7 +2782,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ من را فعال کن",
@@ -2597,7 +2796,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ را روشن کن",
@@ -2610,7 +2810,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "اخبا ر ------ از مجله‌ی ------ را به من بگو",
@@ -2623,7 +2824,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------",
@@ -2636,7 +2838,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------",
@@ -2649,7 +2852,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آهنگ ------",
@@ -2662,7 +2866,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "وضعیت آب و هوا در ------ چگونه است",
@@ -2675,7 +2880,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "می خواهم وضع هوای ------ را بدانم",
@@ -2688,7 +2894,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "می خواهم وضع هوای ------ را بدانم",
@@ -2701,7 +2908,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آیا ------ برف می بارد",
@@ -2714,7 +2922,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "علی من ------ به یک فقیر نیازمند کمک کردم",
@@ -2727,7 +2936,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ را روشن کن",
@@ -2740,7 +2950,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ هوا چطور خواهد بود",
@@ -2753,7 +2964,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ بارانی می شود",
@@ -2766,7 +2978,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ دمای هوا چند درجه است",
@@ -2779,7 +2992,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "پیش‌بینی هوای ------ چیست",
@@ -2792,7 +3006,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "پیش‌بینی هوای ------ چیست",
@@ -2805,7 +3020,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ باران می بارد",
@@ -2818,7 +3034,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ برف می بارد",
@@ -2831,7 +3048,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "ببین آیا ------ سفارشات بیرون‌بری انجام می دهد یا خیر",
@@ -2844,7 +3062,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "سرچ کن ببین ------ سرویس بیرون بر دارد یا نه",
@@ -2857,7 +3076,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آیا ------ منوی غذای بیرون بر دارد",
@@ -2870,7 +3090,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ چند شنبه ست",
@@ -2883,7 +3104,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ چه روزی است",
@@ -2896,7 +3118,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ چند شنبه است",
@@ -2909,7 +3132,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "زنگ هشدار من ------ چه ساعتی خاموش می‌شود",
@@ -2922,7 +3146,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ از موسیقی google play را پخش کن",
@@ -2935,7 +3160,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "از آهنگ های ------ آهنگ دوم را پخش کن",
@@ -2948,7 +3174,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آیا ------ است",
@@ -2961,7 +3188,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "وضع هوای ------ چطور است",
@@ -2974,7 +3202,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آیا الان در ------ هوا آفتابی است",
@@ -2987,7 +3216,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "لطفا آهنگ ------ منصور را پخش کن",
@@ -3000,7 +3230,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "لطفا نرم افزار موزیک من را باز کن و آهنگ ------ مهدی جهانی را پخش کن",
@@ -3013,7 +3244,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آهنگ ------ از شادمهر را لطفا پخش کن",
@@ -3026,7 +3258,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "لامپ ------ را خاموش کن",
@@ -3039,7 +3272,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "داغ ترین خبرها را از ------ به من بگو",
@@ -3052,7 +3286,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "مطلب جنجالی در ------ چیست",
@@ -3065,7 +3300,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "هر خبر ------ در روزنامه شرق",
@@ -3078,7 +3314,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "به محض اینکه خبر جدیدی از ------ شد به من اطلاع بده",
@@ -3091,7 +3328,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ را خاموش کن",
@@ -3104,7 +3342,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ را را روشن کن",
@@ -3117,7 +3356,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "سوکت ------ را عوض کن",
@@ -3130,7 +3370,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آهنگ ------ از لیست پخش من پخش کن",
@@ -3143,7 +3384,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "اگر در ------ ظهر باشد در زنجان ساعت چند است",
@@ -3156,7 +3398,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "فاصله زمانی بین زمان ------ و زمان خلیج فارس چند ساعت است",
@@ -3169,7 +3412,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ از شادمهر را پخش کن",
@@ -3182,7 +3426,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "هر آهنگی از ------ را پخش کن",
@@ -3195,7 +3440,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ هوا گرم است",
@@ -3208,7 +3454,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "می توانی رنگ نور را در ------ عوض کنی",
@@ -3221,7 +3468,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آیا می‌توانی نور ------ را به حالت پخش تصادفی درآوری",
@@ -3234,7 +3482,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "آیا می توانی رنگ های روشن را در ------ به تیره تبدیل کنی",
@@ -3247,7 +3496,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "من دوست دارم آهنگ ------ گوش بدم",
@@ -3260,7 +3510,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "میتونی یک ------ موزیک راک پخش کنی",
@@ -3273,7 +3524,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "یک جوک ------ به من بگو",
@@ -3286,7 +3538,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "نور اتاقم رو ------ کن",
@@ -3299,7 +3552,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "نور اتاقم رو به یه رنگ ------ تغییر بده",
@@ -3312,7 +3566,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "نور اتاق من را عوض کن تا بتوانم ------ داشته باشم",
@@ -3325,7 +3580,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "یک زنگ برای ساعت ------ من تنظیم کن",
@@ -3338,7 +3594,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "یک زنگ هشدار برای ساعت ------ بساز",
@@ -3351,7 +3608,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "برای من ساعت ------ زنگ بیداری را بساز",
@@ -3364,7 +3622,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "اخبار ------",
@@ -3377,7 +3636,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ را روشن کن",
@@ -3390,7 +3650,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لامپ ها ی ------ را خاموش کن",
@@ -3403,7 +3664,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لامپ ها ی ------ را خاموش کن",
@@ -3416,7 +3678,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لامپ های ------ را خاموش کن",
@@ -3429,7 +3692,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "هوای ------ چطور است",
@@ -3442,7 +3706,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "الان بیرون چقدر ------",
@@ -3455,7 +3720,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ چند شنبه است",
@@ -3468,7 +3734,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ بعد چه روزی از ماه است",
@@ -3481,7 +3748,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "پوشه ------ را پخش کن",
@@ -3494,7 +3762,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "پوشه ------ را باز کن",
@@ -3507,7 +3776,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ قرار است باران ببارد",
@@ -3520,7 +3790,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ باید ژاکت بپوشم",
@@ -3533,7 +3804,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------",
@@ -3546,7 +3818,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آلبوم را ------",
@@ -3559,7 +3832,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ پخش کن",
@@ -3572,7 +3846,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "موزیک ------ پخش کن",
@@ -3585,7 +3860,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ را روشن کن",
@@ -3598,7 +3874,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آخرین ------ را به من بده",
@@ -3611,7 +3888,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "در حال حاضر چه کسی در ------ پیشتاز است",
@@ -3624,7 +3902,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ چندم است",
@@ -3637,7 +3916,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لامپ های ------ را به آبی تغییر بده",
@@ -3650,7 +3930,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "چراغ‌های ------ را قرمز کن",
@@ -3663,7 +3944,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "روشنایی ------ را به سبز تغییر بده",
@@ -3676,7 +3958,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "من میخوام آهنگ ------ گوش بدم",
@@ -3689,7 +3972,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "من میخوام ------ گوش بدم",
@@ -3702,7 +3986,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لامپ ------ من را روشن‌تر کن",
@@ -3715,7 +4000,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ را خاموش کن",
@@ -3728,7 +4014,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آهنگ هایی از ------ پخش کن",
@@ -3741,7 +4028,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آهنگ ------ را پخش کن",
@@ -3754,7 +4042,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آهنگ هایی از ------ پخش کن",
@@ -3767,7 +4056,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "اخبار ------ را پیدا کن",
@@ -3780,7 +4070,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "اخبار ------ را باز کن",
@@ -3793,7 +4084,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "اخبار ------ را برای من پیدا کن",
@@ -3806,7 +4098,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "در ------ ساعت چند است",
@@ -3819,7 +4112,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ در کدام منطقه ی زمانی قرار دارد",
@@ -3832,7 +4126,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "در ------ ساعت چند است",
@@ -3845,7 +4140,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "الان در ------ ساعت چند است",
@@ -3858,7 +4154,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "الان در ------ ساعت چند است",
@@ -3871,7 +4168,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "بیرون چند ------ است",
@@ -3884,7 +4182,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آیا بیرون ------ است",
@@ -3897,7 +4196,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آیا بیرون ------ است",
@@ -3910,7 +4210,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "چه شوخی ------ می‌دانی",
@@ -3923,7 +4224,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "چه شوخی ------ ای بلدی",
@@ -3936,7 +4238,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "یک جوک ------ چیست",
@@ -3949,7 +4252,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "رنگ نور را به ------ تغییر بده",
@@ -3962,7 +4266,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "تایید کن که آیا نور ------ است",
@@ -3975,7 +4280,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "رنگ نور رو ------ کن",
@@ -3988,7 +4294,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "در ------ ساعت چند است",
@@ -4001,7 +4308,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "در ------ ساعت چند است",
@@ -4014,7 +4322,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آهنگ هایی از ------ بزار",
@@ -4027,7 +4336,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "برای یک ------ بیصدا باش",
@@ -4040,7 +4350,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "جوک ------ به من بگو",
@@ -4053,7 +4364,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آخرین اخبار ------ چیست",
@@ -4066,7 +4378,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "اخبار ------ لطفا",
@@ -4079,7 +4392,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "زنگ هشدار را برای ------ تنظیم کن",
@@ -4092,7 +4406,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "یک زنگ بیدارباش برای ------ تنظیم کن",
@@ -4105,7 +4420,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "من به ------ زنگ هشدار یادآوری در ساعت ------ نیاز دارم",
@@ -4118,7 +4434,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "یک زنگ هشدار برای ساعت ------ بساز",
@@ -4131,7 +4448,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "زنگ ساعت را برای ------ روشن کن",
@@ -4144,7 +4462,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "یک زنگ هشدار برای ساعت ------ تنظیم کن",
@@ -4157,7 +4476,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آلبوم ------ را سرچ کن",
@@ -4170,7 +4490,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آهنگ مانکن از ------ را پخش کن",
@@ -4183,7 +4504,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آهنگ ------ را پخش کن",
@@ -4196,7 +4518,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ جوک چیست",
@@ -4209,7 +4532,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "یک جوک ------ به من بگو",
@@ -4222,7 +4546,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لطفا صدای موسیقی ------ را بلند تر کن",
@@ -4235,7 +4560,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "volume_up",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لطفا سرعت ------ اهنگ عشق را کم کن",
@@ -4248,7 +4574,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لطفا آن اهنگ از ------ را دوباره تکرار کن",
@@ -4261,7 +4588,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لامپ های ------ را خاموش کن",
@@ -4274,7 +4602,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لطفا لامپ های ------ رو خاموش کن",
@@ -4287,7 +4616,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "نوازش از ------ را پخش کن",
@@ -4300,7 +4630,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "میتونم چند تا آهنگ ------ بگیرم",
@@ -4313,7 +4644,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آیا من هیچ زنگ هشدار برای ------ ندارم",
@@ -4326,7 +4658,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "وضعیت زنگ هشدار ------ چگونه است",
@@ -4339,7 +4672,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "زنگ هشدار ساعت ------ را خاموش کن",
@@ -4352,7 +4686,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "زنگ هشدار ------ من را لغو کن",
@@ -4365,7 +4700,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "زنگ هشدار ساعت ------ من را حذف کن",
@@ -4378,7 +4714,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "هوا چند ------ است",
@@ -4391,7 +4728,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "اون چقدر ------",
@@ -4404,7 +4742,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "هوا چقدر ------ است",
@@ -4417,7 +4756,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ تولد چند نفره",
@@ -4430,7 +4770,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "ایا ------ است",
@@ -4443,7 +4784,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "ایا ------ بیست و دوم است",
@@ -4456,7 +4798,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "همان ------ را ده بار تکرار کن",
@@ -4469,7 +4812,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ های خواننده هایده پخش کن",
@@ -4482,7 +4826,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "در لیست آهنگ ------ را پخش کن",
@@ -4495,7 +4840,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "یک لامپ را در ------ خاموش کن",
@@ -4508,7 +4854,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ را خاموش کن",
@@ -4521,7 +4868,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آیا ------ باران می بارد",
@@ -4534,7 +4882,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "غروب خورشید ------ ساعت پنج و نیم بعد از ظهره",
@@ -4547,7 +4896,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آیا احتمال ------ در این هفته وجود دارد",
@@ -4560,7 +4910,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "الان چی ------ شبکه های اجتماعی شده",
@@ -4573,7 +4924,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "اخبار جدید برای ------ چیست",
@@ -4586,7 +4938,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "در منطقه زمانی ------ ساعت چند است",
@@ -4599,7 +4952,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "الان چقدر ------",
@@ -4612,7 +4966,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "ایا من میتونم به ------ که تو الان داری از رادیو گوش میدی گوش بدم",
@@ -4625,7 +4980,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لطفا اکنون موسیقی ------ را برای شام پخش کن",
@@ -4638,7 +4994,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "من میخوام ------ از تتلو گوش بدم لطفا",
@@ -4651,7 +5008,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "میتونی ------ لیدی گاگا پخش کنی",
@@ -4664,7 +5022,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "من میخوام آهنگ مورد علاقم از ------ را بشنوم",
@@ -4677,7 +5036,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "زنگ هشدار را تغییر بده تا از ------ زنگ بخورد",
@@ -4690,7 +5050,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "هوای یک ------ چگونه خواهد بود",
@@ -4703,7 +5064,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "هوای ------ قرار است چطور باشد",
@@ -4716,7 +5078,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "پیش بینی هوای ------ چطور است",
@@ -4729,7 +5092,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "بی صدا کن برای ------",
@@ -4742,7 +5106,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "من می‌خواهم ------ ساعت شش صبح بیدار شوم لطفا",
@@ -4755,7 +5120,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لطفا زنگ هشدار را برای ------ روی هفت صبح تنظیم کن",
@@ -4768,7 +5134,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لطفا ساعت ------ شنبه آینده زنگ بیداری را بزن",
@@ -4781,7 +5148,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لیست آهنگ های ------ را پخش کن",
@@ -4794,7 +5162,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ چند شنبه است",
@@ -4807,7 +5176,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آخرین روز این ------ چندشنبه ست",
@@ -4820,7 +5190,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "در منطقه زمانی ------ ساعت چند است",
@@ -4833,7 +5204,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "در منطقه زمانی ------ الان ساعت چند است",
@@ -4846,7 +5218,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آخرین جنجال در مورد ------ چیست",
@@ -4859,7 +5232,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "جدیدترین قیل و قال درباره ------ چیست",
@@ -4872,7 +5246,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "آهنگ ------ در رادیو پخش کن",
@@ -4885,7 +5260,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "لطفا اجازه بده من به آهنگ ------ گوش بدم",
@@ -4898,7 +5274,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آهنگ های ------ آخرین آلبوم متالیکا رو پخش کن.",
@@ -4911,7 +5288,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "هر وقت خبری راجع به ------ بود به من اطلاع بده",
@@ -4924,7 +5302,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "درباره اخبار ------ اعلان تنظیم کن",
@@ -4937,7 +5316,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "هر وقت خبری در مورد ------ بود به من اطلاع بده",
@@ -4950,7 +5330,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ را شروع کن",
@@ -4963,7 +5344,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "لطفا ------ را روشن کن",
@@ -4976,7 +5358,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "یک جوک ------ در مورد ماشین چیه",
@@ -4989,7 +5372,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "یک جوک در مورد یک ------ به من بگو",
@@ -5002,7 +5386,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "میتونی یک جک در مورد ------ بهم بگی",
@@ -5015,7 +5400,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "بهم یادآوری کن این اهنگ را ------ گوش بدم",
@@ -5028,7 +5414,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "یک آهنگ از ------ برای من پخش کن",
@@ -5041,7 +5428,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "لطفا ------ رو روشن کن",
@@ -5054,7 +5442,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ این هفته چند درجه خواهد بود",
@@ -5067,7 +5456,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ نور را افزایش بده",
@@ -5080,7 +5470,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ نور لامپ را بیشتر کن",
@@ -5093,7 +5484,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آیا من ------ هیچ هشدار تنظیم شده‌ای دارم",
@@ -5106,7 +5498,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "چراغ‌های ------ را خاموش کن",
@@ -5119,7 +5512,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "روشنایی را کنترل کن لامپ ها ی ------ را خاموش کن",
@@ -5132,7 +5526,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "لطفا چندتا از قطعات موسیقی ------ پخش کن",
@@ -5145,7 +5540,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "من میخوام به چند تا موزیک ------ گوش بدم",
@@ -5158,7 +5554,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "هوای فعلی ------ چطوره",
@@ -5171,7 +5568,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "هوای فعلی ------ چطور است",
@@ -5184,7 +5582,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "الان در ------ ساعت چند است",
@@ -5197,7 +5596,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "ساعت الان ------",
@@ -5210,7 +5610,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "زمان فعلی در ------",
@@ -5223,7 +5624,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "ممکنه لطفا بدونم ساعت ------ اینجا به وقت ایران ساعت چند می‌شه",
@@ -5236,7 +5638,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "میتونی به من بگی بین ------ و بندرعباس چقدر فاصله زمانی هست",
@@ -5249,7 +5652,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "من دو تا ------ و یک کوکا کولا می‌خواهم فوری آن را سفارش بده",
@@ -5262,7 +5666,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "دو تا ------ برای من سفارش بده",
@@ -5275,7 +5680,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "یک ------ سفارش بده",
@@ -5288,7 +5694,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "لطفا ------ من را پس از شارژ قطع کن",
@@ -5301,7 +5708,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "زمانی که من به خانه می‌رسم سوکت ------ را روشن کن",
@@ -5314,7 +5722,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "از تو می خواهم قبل از شارژ شدن ------ را خاموش کنی",
@@ -5327,7 +5736,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ را مرتب به من اطلاع بده",
@@ -5340,7 +5750,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "من را با ------ روزآمد نگه دار",
@@ -5353,7 +5764,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "stock",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "اخبار ------ از موضوع نوار مصاحبه ظریف را دنبال کن",
@@ -5366,7 +5778,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "میتونی ------ من را پخش کنی",
@@ -5379,7 +5792,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "یک آهنگ از ------ پخش کن",
@@ -5392,7 +5806,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "یک آهنگ از ------ ساعت شش غروب پخش کن",
@@ -5405,7 +5820,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "الان در ------ ساعت چند است",
@@ -5418,7 +5834,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "به من بگو در ------ ساعت چند است",
@@ -5431,7 +5848,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "همین حالا ساعت ------ را بگو",
@@ -5444,7 +5862,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "من تازه غذا سفارش دادم زنگ بزن ببین ------ یا نه",
@@ -5457,7 +5876,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آیا امکان ------ سفارش من وجود داره",
@@ -5470,7 +5890,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "به ------ زنگ بزن ببین سفارش در راه هست یا نه",
@@ -5483,7 +5904,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "لطفا ------ را روشن کن",
@@ -5496,7 +5918,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "در ------ چه می گذرد",
@@ -5509,7 +5932,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "چیزی ------ به من بگو",
@@ -5522,7 +5946,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "من میخوام ------ گوش بدم لطفا",
@@ -5535,7 +5960,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "من الان می‌خواهم ------ گوش کنم",
@@ -5548,7 +5974,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "الآن چه کسی پیشتاز مسابقه ------ است",
@@ -5561,7 +5988,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آخرین خبرها درباره ------ را به من بگو",
@@ -5574,7 +6002,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "تیتر اخبار ------ را بخوان",
@@ -5587,7 +6016,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "می خواهم آخرین اخبار ------ را بشنوم",
@@ -5600,7 +6030,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "می توانی آخرین خبر فوری از ------ را به من نشان بدهی",
@@ -5613,7 +6044,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "می خواهم خبرهای ------ را بدانم",
@@ -5626,7 +6058,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "لطفا آخرین اخبار ------ را برای من بخوان",
@@ -5639,7 +6072,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آیا می توانم اخبار فوری ------ را بدانم",
@@ -5652,7 +6086,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "یک زنگ هشدار برای ساعت ------ صبح فردا ایجاد کن",
@@ -5665,7 +6100,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "یک زنگ هشدار تنظیم کن تا ------ بیدارم کند",
@@ -5678,7 +6114,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "برای بیدار شدن من ------ زنگ هشداری تنظیم کن",
@@ -5691,7 +6128,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "وضعیت آب و هوای ------ را ارائه بده",
@@ -5704,7 +6142,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آب و هوای ------ را نمایش بده",
@@ -5717,7 +6156,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "وضع هوای ------ رو خلاصه کن",
@@ -5730,7 +6170,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "من میخوام آهنگ های ------ را گوش بدم",
@@ -5743,7 +6184,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آهنگ نوازش ------ را پخش کن",
@@ -5756,7 +6198,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "بعد از این یکی آخرین آهنگ های ------ را پخش کن",
@@ -5769,7 +6212,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "ببین چقدر ------ بیرون هوا سرد است",
@@ -5782,7 +6226,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ هوا چند درجه است",
@@ -5795,7 +6240,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ دور و بر چقدر مرطوب است",
@@ -5808,7 +6254,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آهنگ های سبک ------ و هیپ هاپ پخش کن.",
@@ -5821,7 +6268,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "همه ی جدیدترین آهنگ های ------ را پخش کن",
@@ -5834,7 +6282,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "بعدی ------ را پخش کن",
@@ -5847,7 +6296,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "چه چیزی ------ است",
@@ -5860,7 +6310,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "از ------ موزیک های ترنس من پخش کن",
@@ -5873,7 +6324,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "صدا رو ------ کاهش بده.",
@@ -5886,7 +6338,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "volume_down",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "این منطقه زمانی را به ------ تغییر بده",
@@ -5899,7 +6352,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "زمان را از ------ به زمان استاندارد ایران تغییر بده",
@@ -5912,7 +6366,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آیا می‌توانی ------ را خاموش کنی",
@@ -5925,7 +6380,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ را روشن کن تا شارژر خودم را به آن وصل کنم",
@@ -5938,7 +6394,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ را روشن کن تا دانگل من وصل شود",
@@ -5951,7 +6408,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "هوای ------ چطور است",
@@ -5964,7 +6422,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "هوای ------ قرار است چطور باشد",
@@ -5977,7 +6436,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "پیش بینی وضع هوای ------ چطور است",
@@ -5990,7 +6450,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "ممکن است لطفا تازه ترین سر خط خبرها را از ------ به من بدهی",
@@ -6003,7 +6464,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "می‌توانی لطفا ------ را برای آخرین اخبار جستجو کنی",
@@ -6016,7 +6478,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آخرین اخبار ------ را به من بگو",
@@ -6029,7 +6492,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "از آخرین اخبار ------ به من بگو",
@@ -6042,7 +6506,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "این روزها در ------ چه می گذرد",
@@ -6055,7 +6520,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آپدیت اخبار ------ را به من بده",
@@ -6068,7 +6534,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "اخبار آپدیت ------ چیست",
@@ -6081,7 +6548,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آخرین اخبار ------ را به من نشان بده",
@@ -6094,7 +6562,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آخرین آپدیت های خبری ------ را نشان بده",
@@ -6107,7 +6576,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "وقتی ------ در اخبار است به من اطلاع بده",
@@ -6120,7 +6590,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آیا اخیرا جایی در دنیا ------ اومده",
@@ -6133,7 +6604,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ از ابی را برایم پخش کن",
@@ -6146,7 +6618,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "من میخوام آهنگ ------ شادمهر را گوش بدم",
@@ -6159,7 +6632,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "به ------ از شادمهر گوش بده",
@@ -6172,7 +6646,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ را پخش کن",
@@ -6185,7 +6660,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ از شادمهر را لطفا پخش کن",
@@ -6198,7 +6674,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ بزار",
@@ -6211,7 +6688,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "همه آهنگ های ------ را پخش کن",
@@ -6224,7 +6702,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "به ترتیب فعلی ------ را اضافه کن",
@@ -6237,7 +6716,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "هوای ------ چطور است",
@@ -6250,7 +6730,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ در حال حاضر چقدره",
@@ -6263,7 +6744,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "هوای ------ چطور بود",
@@ -6276,7 +6758,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "هوای ------ یا بد",
@@ -6289,7 +6772,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ این هفته را به من نشان بده",
@@ -6302,7 +6786,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آیا ------ نزدیک است",
@@ -6315,7 +6800,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ احتمال ریزش تگرگ هست",
@@ -6328,7 +6814,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "زنگ هشدار برای ------ صبح را تایید کن",
@@ -6341,7 +6828,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "زنگ ساعت برای ------ چه ساعتی تنظیم شده است",
@@ -6354,7 +6842,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "می توانی لطفا یک ------ مکزیکی با سرویس بیرون بر معرفی کنی",
@@ -6367,7 +6856,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "کدام ------ غذای بیرون بر دارند",
@@ -6380,7 +6870,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "آیا می‌توانم در ------ غذای بیرون‌بر را سفارش بدهم",
@@ -6393,7 +6884,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "می خواهم جدیدترین ------ شهر را بدانم",
@@ -6406,7 +6898,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "قهوه را ------ درست کن",
@@ -6419,7 +6912,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "قهوه را ------ دم کن",
@@ -6432,7 +6926,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "لیست آهنگ های جدید ------ را پخش کن",
@@ -6445,7 +6940,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "فهرست آهنگ های جدید ------ را پخش کن",
@@ -6458,7 +6954,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ ابی را پخش کن",
@@ -6471,7 +6968,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "اپلیکیشن ------ را باز کن",
@@ -6484,7 +6982,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "ایمیل گزارش صبحگاهی ------ را برایم باز کن",
@@ -6497,7 +6996,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "به پاندورا برو و رادیو ------ را پیدا کن و پخش کن لطفا",
@@ -6510,6 +7010,7 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   }
 ]

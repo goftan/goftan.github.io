@@ -10,7 +10,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "beni ------ günü sabah dokuzda uyandır",
@@ -23,7 +24,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ alarm kur",
@@ -36,7 +38,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly ------ duraklat",
@@ -49,7 +52,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ duraklat",
@@ -62,7 +66,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "tek ihtiyacımız olan ------",
@@ -75,7 +80,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "burada ışıklandırmayı az daha ------ yap",
@@ -88,7 +94,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "lütfen aydınlatmayı ------ ayarla",
@@ -101,7 +108,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ ışığı kapat",
@@ -114,7 +122,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly ------ ışığı kıs",
@@ -127,7 +136,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ ışıkları kıs",
@@ -140,7 +150,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ ışıkları kapat",
@@ -153,7 +164,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly ------ ışıkları kapat",
@@ -166,7 +178,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "ışıkları ------ aç",
@@ -179,7 +192,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly ışıkları ------ ayarla",
@@ -192,7 +206,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly ------ ışıkları kıs",
@@ -205,7 +220,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ ışıkları kıs",
@@ -218,7 +234,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ daha karanlık yap",
@@ -231,7 +248,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly ------ temizle",
@@ -244,7 +262,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ temizle",
@@ -257,7 +276,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ süpür",
@@ -270,7 +290,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly ------ süpür",
@@ -283,7 +304,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "temizlik iyidir toz çok kötü şimdi sihrini yap ------ temizle",
@@ -296,7 +318,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ u süpür",
@@ -309,7 +332,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ ı iyice süpür",
@@ -322,7 +346,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "yine yeniden ------ şarkısı dinlemek istiyorum",
@@ -335,7 +360,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "o ------ bir kez daha çalmak istiyorum",
@@ -348,7 +374,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ saat kaç",
@@ -361,7 +388,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bana ------ saatin kaç olduğunu söyle",
@@ -374,7 +402,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bana ------ saati söyle",
@@ -387,7 +416,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly ------ in kaç olduğunu söyle bana",
@@ -400,7 +430,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly ------ yemeği i------ en yüksek yıldızlı teslimat opsiyonlarını listele",
@@ -413,7 +444,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ yemeği i------ en yüksek yıldızlı adrese teslimat opsiyonlar",
@@ -426,7 +458,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ yemeği i------ en fazla yıldızlı teslimat seçeneklerini listele",
@@ -439,7 +472,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly ------ yemeği i------ en yüksek puanlı teslimat opsiyonları",
@@ -452,7 +486,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "paket servis ------ istiyorum tavsiyen var mı",
@@ -465,7 +500,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ almak istiyorum herhangi bir öneri olly",
@@ -478,7 +514,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "benim ------ tan pizza paket siparişimi bul",
@@ -491,7 +528,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ benim ıspanaklı börek paketimi bul",
@@ -504,7 +542,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ alarmımı iptal et",
@@ -517,7 +556,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ alarmını durdur",
@@ -530,7 +570,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ futbolda neler oluyor",
@@ -543,7 +584,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "lütfen ------ yesterday oynat",
@@ -556,7 +598,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ arayan bulur dinlemek istiyorum",
@@ -569,7 +612,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bana ------ dert değil çal",
@@ -582,7 +626,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ müziği seviyorum",
@@ -595,7 +640,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "favori müzik grubum ------",
@@ -608,7 +654,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "ben ------ şarkılarını seviyorum",
@@ -621,7 +668,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "lütfen ışıkları ------ getir",
@@ -634,7 +682,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "hey ------ başlat",
@@ -647,7 +696,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ çalıştır",
@@ -660,7 +710,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bana ------ tarihi bildir",
@@ -673,7 +724,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ günlerden ne",
@@ -686,7 +738,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "lütfen ------ için suşi söyle",
@@ -699,7 +752,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "hey senden ------ siparişi vermeni istiyorum",
@@ -712,7 +766,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ akşam yemeği için sushi söyler misin",
@@ -725,7 +780,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ akşam yemeği için paket servisi sipariş edebilir miyim",
@@ -738,7 +794,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ paket servisini destekliyor mu",
@@ -751,7 +808,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ alarm kur",
@@ -764,7 +822,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ alarm kur",
@@ -777,7 +836,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ saat sekize alarm kur",
@@ -790,7 +850,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ mu",
@@ -803,7 +864,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ mı",
@@ -816,7 +878,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "şu anda ------ mu",
@@ -829,7 +892,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ hava tahmini nasıl",
@@ -842,7 +906,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ hava durumu tahmini nedir",
@@ -855,7 +920,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ hava nasıl",
@@ -868,7 +934,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ hava durumu nasıl",
@@ -881,7 +948,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ hava durumunu söyle",
@@ -894,7 +962,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ haberlerini söyle",
@@ -907,7 +976,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ haberlerde haberler nedir",
@@ -920,7 +990,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ en son haberleri ne",
@@ -933,7 +1004,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ u çal",
@@ -946,7 +1018,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ i çal",
@@ -959,7 +1032,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ çal",
@@ -972,7 +1046,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "biraz ------ çal",
@@ -985,7 +1060,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "biraz ------ çal",
@@ -998,7 +1074,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bu şarkıyı ------ al",
@@ -1011,7 +1088,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bu oynatma listesini ------",
@@ -1024,7 +1102,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "sesi ------ ayarla",
@@ -1037,7 +1116,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "volume_down",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bana ------ bir fıkra anlat",
@@ -1050,7 +1130,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ günlerden ne",
@@ -1063,7 +1144,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bana ------ anlat",
@@ -1076,7 +1158,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "quirky",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bir ------ sipariş et",
@@ -1089,7 +1172,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bana ------ den içli köfte siparişi ver",
@@ -1102,7 +1186,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ servisi sipariş et",
@@ -1115,7 +1200,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ ne kadar var",
@@ -1128,7 +1214,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ teslimat durumu",
@@ -1141,7 +1228,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "benim ------ çalma listemi oynat",
@@ -1154,7 +1242,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "benim ------ playlistimi başlat",
@@ -1167,7 +1256,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ severim",
@@ -1180,7 +1270,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "biraz ------ çalabilir misin",
@@ -1193,7 +1284,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ dinlemek istiyorum",
@@ -1206,7 +1298,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly ------ dinlemek istiyorum",
@@ -1219,7 +1312,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ etkinleştir",
@@ -1232,7 +1326,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "parlaklığı ------ ayarla",
@@ -1245,7 +1340,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ yapıyorlar mı",
@@ -1258,7 +1354,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "onlar ------ yapabiliyorlar mı",
@@ -1271,7 +1368,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "eve ------ yapıyorlar mı",
@@ -1284,7 +1382,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly eve ------ yapıyorlar mı",
@@ -1297,7 +1396,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "alarmı ------ kur",
@@ -1310,7 +1410,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ sabah altıya alarm kur",
@@ -1323,7 +1424,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ sabah yedide uyan",
@@ -1336,7 +1438,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bana en son ------ haberlerini söyle",
@@ -1349,7 +1452,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bana son ------ haberlerini söyle",
@@ -1362,7 +1466,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bana biraz ------ haberlerini söyle",
@@ -1375,7 +1480,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bana ------ haberleri söyle",
@@ -1388,7 +1494,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "şu an ------ mu",
@@ -1401,7 +1508,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "benim ------ çalma listemi çal",
@@ -1414,7 +1522,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "benim ------ playlist imi aç",
@@ -1427,7 +1536,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "benim çalma listemden ------ çal",
@@ -1440,7 +1550,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "benim favori çalma listemdeki ------ çal",
@@ -1453,7 +1564,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ aç",
@@ -1466,7 +1578,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ aç",
@@ -1479,7 +1592,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ aç",
@@ -1492,7 +1606,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ eve sipariş alıyor mu",
@@ -1505,7 +1620,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "benim favori ------ salonum paket servisi için uygun mu",
@@ -1518,7 +1634,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ lokantasından paket isteyebilir miyim",
@@ -1531,7 +1648,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ hava nasıl",
@@ -1544,7 +1662,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "bana ------ hava durumunu söyle",
@@ -1557,7 +1676,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "lütfen ışıkları ------ yap",
@@ -1570,7 +1690,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "lütfen ışığı ------ yap",
@@ -1583,7 +1704,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ daha parlak yap",
@@ -1596,7 +1718,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ günün tarihi ne",
@@ -1609,7 +1732,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ günlerden ne",
@@ -1622,7 +1746,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ hava nasıl",
@@ -1635,7 +1760,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "dışarıda ------ var mı",
@@ -1648,7 +1774,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "dışarıda ------ mu olly",
@@ -1661,7 +1788,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ şemsiye getireyim mi",
@@ -1674,7 +1802,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ müzik çal",
@@ -1687,7 +1816,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "ışıkları ------ çevir",
@@ -1700,7 +1830,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "lütfen ------ temizle",
@@ -1713,7 +1844,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ aç",
@@ -1726,7 +1858,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ kapat",
@@ -1739,7 +1872,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ da saat kaç",
@@ -1752,7 +1886,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ saat kaç",
@@ -1765,7 +1900,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ den suşi siparişi vermeme yardımcı olur musun",
@@ -1778,7 +1914,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ altıya alarm kur",
@@ -1791,7 +1928,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ dörde alarm kur",
@@ -1804,7 +1942,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "olly ------ gitmek için öğleden sonra üçte beni uyar",
@@ -1817,7 +1956,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ gitmek için beni öğleden sonra saat üçte uyar",
@@ -1830,7 +1970,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ uçuş için ayarlanmış bir alarmım var mı",
@@ -1843,7 +1984,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ uyanmak için alarm kurdum mu",
@@ -1856,7 +1998,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ yağmur yağıyor mu",
@@ -1869,7 +2012,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ yağmur var mı",
@@ -1882,7 +2026,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ neler oluyor",
@@ -1895,7 +2040,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ da neler oluyor",
@@ -1908,7 +2054,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ neler oluyor",
@@ -1921,7 +2068,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "bana ------ birkaç haber göster",
@@ -1934,7 +2082,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "olly bana ------ den birkaç haber göster",
@@ -1947,7 +2096,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ haberleri aç",
@@ -1960,7 +2110,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "olly ------",
@@ -1973,7 +2124,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "bana biraz ------ çal",
@@ -1986,7 +2138,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "şu an canım çok ------ istiyor ya sen",
@@ -1999,7 +2152,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "olly şimdi de death ------",
@@ -2012,7 +2166,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "şimdi death ------",
@@ -2025,7 +2180,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "olly benim favori ------ oyuncumdan güzel bir bölüm oynat",
@@ -2038,7 +2194,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "olly benim en favori ------ müzik çal",
@@ -2051,7 +2208,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "ışıkları ------ çevir",
@@ -2064,7 +2222,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "hadi ışıkları ------ yapalım",
@@ -2077,7 +2236,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "ışıkları ------ yap",
@@ -2090,7 +2250,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "şimdi ------ saat kaç",
@@ -2103,7 +2264,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ şarkısında şarkı ismiyle şarkıcı ne demek istedi",
@@ -2116,7 +2278,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ şarkısını kim düzenledi",
@@ -2129,7 +2292,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ hava nasıl",
@@ -2142,7 +2306,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ hava nasıl",
@@ -2155,7 +2320,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ için bugünkü hava nasıl",
@@ -2168,7 +2334,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ için son durum nedir",
@@ -2181,7 +2348,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ nedir",
@@ -2194,7 +2362,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ sonraki seçimleri kim kazanacak",
@@ -2207,7 +2376,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ günü güneş bekliyor musun",
@@ -2220,7 +2390,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ yağmur var mı",
@@ -2233,7 +2404,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ rüzgârlı mı olacak",
@@ -2246,7 +2418,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ ışıkları yükselt",
@@ -2259,7 +2432,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lighton",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ aydınlat",
@@ -2272,7 +2446,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ saat kaç",
@@ -2285,7 +2460,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ çalıştır",
@@ -2298,7 +2474,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ süpür",
@@ -2311,7 +2488,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ aç",
@@ -2324,7 +2502,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ neler oluyor",
@@ -2337,7 +2516,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ gazete başlıklarını söyle",
@@ -2350,7 +2530,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ çal",
@@ -2363,7 +2544,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ şarkılarını karıştır",
@@ -2376,7 +2558,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ çal",
@@ -2389,7 +2572,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ hava nasıl",
@@ -2402,7 +2586,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ den pizza iste",
@@ -2415,7 +2600,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ yemek istiyorum bana öğle yemeği sipariş eder misin",
@@ -2428,7 +2614,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "alexa bana ------ için sushi siparişi verebilir misin",
@@ -2441,7 +2628,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ dan eve servis sandviç ve çorba sipariş et",
@@ -2454,7 +2642,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ kaç gün kaldı",
@@ -2467,7 +2656,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ yeni yıl hangi güne denk geliyor",
@@ -2480,7 +2670,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ cumhuriyet bayramı hangi gün",
@@ -2493,7 +2684,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "parlaklığı ------ arttır",
@@ -2506,7 +2698,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "ışıkları ------ ayarla",
@@ -2519,7 +2712,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "lütfen ------ sessiz ol",
@@ -2532,7 +2726,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ konuşma",
@@ -2545,7 +2740,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ yağmur yağacak mı",
@@ -2558,7 +2754,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ bursa'da hava nasıl olacak söyler misin",
@@ -2571,7 +2768,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ yanıma şemsiye alayım mı",
@@ -2584,7 +2782,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ çek",
@@ -2597,7 +2796,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ etkinleştir",
@@ -2610,7 +2810,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ aç",
@@ -2623,7 +2824,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "bana ------ tan teknoloji haberlerini söyle",
@@ -2636,7 +2838,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------",
@@ -2649,7 +2852,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------",
@@ -2662,7 +2866,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------",
@@ -2675,7 +2880,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ hava durumu nasıl",
@@ -2688,7 +2894,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ hava durumunu öğrenmek istiyorum",
@@ -2701,7 +2908,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ için hava durumunu öğrenmek istiyorum",
@@ -2714,7 +2922,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ kar yağıyor mu",
@@ -2727,7 +2936,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ ihtiyacı olan birine yardım ettim olly",
@@ -2740,7 +2950,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ başlat",
@@ -2753,7 +2964,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ hava nasıl olacak",
@@ -2766,7 +2978,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ yağmurlu mu olacak",
@@ -2779,7 +2992,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ dışarısı kaç derece olacak",
@@ -2792,7 +3006,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ hava için tahminler ne",
@@ -2805,7 +3020,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ hava tahminleri nasıl",
@@ -2818,7 +3034,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ yağmur var mı",
@@ -2831,7 +3048,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ kar var mı",
@@ -2844,7 +3062,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ paket servisi siparişi alıyor mu bul",
@@ -2857,7 +3076,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ eve servis yapıyor mu araştır",
@@ -2870,7 +3090,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ menu paket servisi yapıyor mu",
@@ -2883,7 +3104,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ haftanın hangi günüdür",
@@ -2896,7 +3118,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ hangi güne denk geliyor",
@@ -2909,7 +3132,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ hangi gün",
@@ -2922,7 +3146,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ alarmım kaçta çalacak",
@@ -2935,7 +3160,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ müzik den sekizinci parçayı çal",
@@ -2948,7 +3174,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ şarkılarından ikinci şarkıyı çal",
@@ -2961,7 +3188,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ mi",
@@ -2974,7 +3202,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ hava nasıl",
@@ -2987,7 +3216,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "şu an ------ güneşli mi",
@@ -3000,7 +3230,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ dan kafama göre yi çal lütfen",
@@ -3013,7 +3244,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "lütfen benim müzik aplikasyonumu aç ve ------ dan arsız gönül ü çal",
@@ -3026,7 +3258,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "lütfen ------ dan seni kendime sakladım şarkı sını çal",
@@ -3039,7 +3272,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ ışıklarını kapat",
@@ -3052,7 +3286,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ için popüler haberleri kontrol et",
@@ -3065,7 +3300,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ da sansasyonel ne var",
@@ -3078,7 +3314,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ herhangi bir ölüm haberi var mı",
@@ -3091,7 +3328,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ hakkında daha fazla haber olur olmaz bana haber ver",
@@ -3104,7 +3342,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ kapat",
@@ -3117,7 +3356,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ aç",
@@ -3130,7 +3370,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ aç",
@@ -3143,7 +3384,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "benim çalma listemden ------ bir şarkı aç",
@@ -3156,7 +3398,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ öğlen ise içelde saat kaç",
@@ -3169,7 +3412,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ zaman dilimi ile pasifik zaman dilimi arasındaki zaman farkı nedir",
@@ -3182,7 +3426,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ batsın bu dünyayı çal",
@@ -3195,7 +3440,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ dan herhangi bir şarkı çal",
@@ -3208,7 +3454,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ sıcak olacak mı",
@@ -3221,7 +3468,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ ışık renklerini değiştirebilir misin",
@@ -3234,7 +3482,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ ışık renklerini karıştırabilir misin",
@@ -3247,7 +3496,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ içindeki ışık renklerini koyuya çevirir misin",
@@ -3260,7 +3510,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ müzik dinlemek istiyorum lütfen",
@@ -3273,7 +3524,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ rock müzik çalabilir misin",
@@ -3286,7 +3538,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "bana ------ bir fıkra anlat",
@@ -3299,7 +3552,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "oda ışıklarımı ------ çevir",
@@ -3312,7 +3566,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "benim odamın ışıklarını ------ renkte bir şeylere değiştir",
@@ -3325,7 +3580,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "benim ışıklarımı değiştir böylece ------ çekebileyim",
@@ -3338,7 +3594,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "benim için ------ bir alarm kur",
@@ -3351,7 +3608,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ öğleden sonra dörde alarm kur",
@@ -3364,7 +3622,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ için bana alarm kur",
@@ -3377,7 +3636,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ haberleri ne",
@@ -3390,7 +3650,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ aç",
@@ -3403,7 +3664,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ışıklarını kapat",
@@ -3416,7 +3678,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ışıklarını kapat",
@@ -3429,7 +3692,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ışıkları kapansın",
@@ -3442,7 +3706,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ hava nasıl",
@@ -3455,7 +3720,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "şu an dışarısı ne kadar ------",
@@ -3468,7 +3734,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ günlerden ne",
@@ -3481,7 +3748,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "gelece ------ hangi gününe geliyor",
@@ -3494,7 +3762,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ klasörünü çal",
@@ -3507,7 +3776,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ klasörünü aç",
@@ -3520,7 +3790,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ yağmur yağacak mı",
@@ -3533,7 +3804,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ mont giymeli miyim",
@@ -3546,7 +3818,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------",
@@ -3559,7 +3832,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "albümü ------",
@@ -3572,7 +3846,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ çal",
@@ -3585,7 +3860,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ müziği çal",
@@ -3598,7 +3874,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ çalıştır",
@@ -3611,7 +3888,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ile ilgili en son haberleri getir",
@@ -3624,7 +3902,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ kim önde",
@@ -3637,7 +3916,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ tarihi nedir",
@@ -3650,7 +3930,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ışıkları maviye çevir",
@@ -3663,7 +3944,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ışıkları kırmızı yap",
@@ -3676,7 +3958,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ışıklarını yeşile çevir",
@@ -3689,7 +3972,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ müzik dinlemek istiyorum",
@@ -3702,7 +3986,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ dinlemek istiyorum",
@@ -3715,7 +4000,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ışık parlaklığını arttır",
@@ -3728,7 +4014,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ kapat",
@@ -3741,7 +4028,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 'dan şarkılar çal",
@@ -3754,7 +4042,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ çal",
@@ -3767,7 +4056,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ şarkıları aç",
@@ -3780,7 +4070,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ile ilgili haberleri bul",
@@ -3793,7 +4084,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ hakkında haberleri aç",
@@ -3806,7 +4098,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "bana ------ hakkında haberleri bul",
@@ -3819,7 +4112,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ saat kaç",
@@ -3832,7 +4126,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ hangi saat diliminde",
@@ -3845,7 +4140,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ da saat kaç",
@@ -3858,7 +4154,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "şu an ------ da saat kaç",
@@ -3871,7 +4168,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "şu an ------ saat kaç",
@@ -3884,7 +4182,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "dışarısı kaç ------",
@@ -3897,7 +4196,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "dışarısı ------ mı",
@@ -3910,7 +4210,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "dışarısı ------ mu",
@@ -3923,7 +4224,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "bildiğin ------ bir fıkra nedir",
@@ -3936,7 +4238,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "bildiğin ------ bir şaka",
@@ -3949,7 +4252,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ bir espri nasıl olur",
@@ -3962,7 +4266,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "ışık rengini ------ olarak değiştir",
@@ -3975,7 +4280,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "rengin ------ olduğunu teyit et",
@@ -3988,7 +4294,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "ışık rengini ------ değiştir",
@@ -4001,7 +4308,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ te saat kaç",
@@ -4014,7 +4322,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ saat kaç",
@@ -4027,7 +4336,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ dan şarkılar aç",
@@ -4040,7 +4350,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ boyunca sessize al lütfen",
@@ -4053,7 +4364,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "bana ------ bir fıkra anlat",
@@ -4066,7 +4378,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "en son ------ haberleri nelerdir",
@@ -4079,7 +4392,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "lütfen bana ------ haberleri var",
@@ -4092,7 +4406,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ alarm kur",
@@ -4105,7 +4420,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ için bir uyandırma çağrısı ayarla",
@@ -4118,7 +4434,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ hatırlatma alarmına ihtiyacım var",
@@ -4131,7 +4448,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ için alarm kur",
@@ -4144,7 +4462,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ için alarmı aç",
@@ -4157,7 +4476,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ alarm kur",
@@ -4170,7 +4490,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "albüm adını ------ ara",
@@ -4183,7 +4504,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ den prenses şarkı sını aç",
@@ -4196,7 +4518,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "şarkıyı ------ aç",
@@ -4209,7 +4532,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ fıkra hangisi",
@@ -4222,7 +4546,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "bana ------ bir fıkra anlat",
@@ -4235,7 +4560,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "lütfen ------ şarkısının sesini yükselt",
@@ -4248,7 +4574,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "volume_up",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "lütfen ------ karışımını düşür",
@@ -4261,7 +4588,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "lütfen ------ 'dan o müziği yine tekrar et",
@@ -4274,7 +4602,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ışıkları kapat",
@@ -4287,7 +4616,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "lütfen ------ ışıklarını kapanmaya ayarla",
@@ -4300,7 +4630,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ den allahından bul u çal",
@@ -4313,7 +4644,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "biraz ------ müziği alabilir miyim",
@@ -4326,7 +4658,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ için kurulu herhangi bir alarmım var mı",
@@ -4339,7 +4672,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ için alarm durumu nedir",
@@ -4352,7 +4686,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ alarmını kapa",
@@ -4365,7 +4700,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ alarmımı iptal et",
@@ -4378,7 +4714,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ alarmımdan kurtul",
@@ -4391,7 +4728,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ kaç derece",
@@ -4404,7 +4742,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "ne kadar ------",
@@ -4417,7 +4756,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "ne kadar ------",
@@ -4430,7 +4770,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "ayın ------ kaç doğum günü var",
@@ -4443,7 +4784,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ayın on ikinci günü mü",
@@ -4456,7 +4798,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ kurban bayramı mı",
@@ -4469,7 +4812,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "aynı ------ on dakika boyunca tekrarla",
@@ -4482,7 +4826,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "sadece belirli şarkıcı ------ ını çal",
@@ -4495,7 +4840,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ liste oynat",
@@ -4508,7 +4854,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ışığı kapat",
@@ -4521,7 +4868,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ kapat",
@@ -4534,7 +4882,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ yağmur yağacak mı",
@@ -4547,7 +4896,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ öğleden sonra beş buçukta güneş batacak mı",
@@ -4560,7 +4910,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ yağmur ihtimali var mı",
@@ -4573,7 +4924,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ne var",
@@ -4586,7 +4938,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ yeni haberleri neler",
@@ -4599,7 +4952,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ saat diliminde saat kaç",
@@ -4612,7 +4966,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "şimdi ne kadar ------",
@@ -4625,7 +4980,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "şu anda radyolarda dinlenen ------ dinleyebilir miyi",
@@ -4638,7 +4994,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "lütfen şimdi akşam yemeği için ------ müzik çal",
@@ -4651,7 +5008,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 'dan sen ağlama dinlemek istiyorum lütfen",
@@ -4664,7 +5022,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ın hit şarkısını çalabilir misin",
@@ -4677,7 +5036,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 'dan benim favori şarkımı dinlemek istiyorum",
@@ -4690,7 +5050,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "alarmı ------ başlayacak şekilde değiştir",
@@ -4703,7 +5064,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ hava nasıl olacak",
@@ -4716,7 +5078,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ günü hava nasıl olacak",
@@ -4729,7 +5092,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ için hava durumu tahmini nedir",
@@ -4742,7 +5106,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ sessize al",
@@ -4755,7 +5120,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ sabah altıda uyanmak istiyorum lütfen",
@@ -4768,7 +5134,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "lütfen ------ yedi için alarmı kur",
@@ -4781,7 +5148,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "lütfen gelecek ------ sabah sekizde uyandırma alarmını çal",
@@ -4794,7 +5162,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ çalma listesini çal",
@@ -4807,7 +5176,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ haftanın hangi gününe geliyor",
@@ -4820,7 +5190,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ son günü hangisi",
@@ -4833,7 +5204,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ saat kaç",
@@ -4846,7 +5218,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "şu anki ------ saati kaç",
@@ -4859,7 +5232,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ile ilgili son tartışma nedir",
@@ -4872,7 +5246,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ ile ilgili son tartışma nedir",
@@ -4885,7 +5260,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "lütfen radyoda ------ çal",
@@ -4898,7 +5274,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "lütfen bana ------ dinlet",
@@ -4911,7 +5288,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ nin son albümünden en son hit şarkıyı çal lütfen",
@@ -4924,7 +5302,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ ile ilgili haber olursa bana bildir",
@@ -4937,7 +5316,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ ile ilgili haberler için bildirim ayarla",
@@ -4950,7 +5330,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ hakkında haber olursa beni haberdar et",
@@ -4963,7 +5344,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ çalıştır",
@@ -4976,7 +5358,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ başlat",
@@ -4989,7 +5372,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ ilgili komik bir fıkra ne",
@@ -5002,7 +5386,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bir ------ ile ilgili bir fıkra anlat",
@@ -5015,7 +5400,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bana bir ------ fıkrası anlatır mısın",
@@ -5028,7 +5414,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ bu şarkıyı oynatmamı hatırlat",
@@ -5041,7 +5428,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bana ------ den bir şarkı çal",
@@ -5054,7 +5442,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ açmana ihtiyacım var",
@@ -5067,7 +5456,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ en yüksek sıcaklık kaç derece olacak",
@@ -5080,7 +5470,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "ışığı ------ yükselt",
@@ -5093,7 +5484,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "ışığı ------ artır",
@@ -5106,7 +5498,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ için hiç kurulu alarmım var mı",
@@ -5119,7 +5512,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ ışıklarını kapat",
@@ -5132,7 +5526,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "ışıkları kontrol et ------ ışıklarını kapat",
@@ -5145,7 +5540,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "biraz ------ müzik koyabilirsin",
@@ -5158,7 +5554,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bir kaç ------ müziği dinlemek istiyorum",
@@ -5171,7 +5568,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ şu an hava nasıl",
@@ -5184,7 +5582,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ mevcut hava durumu ne",
@@ -5197,7 +5596,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ şu an saat kaç",
@@ -5210,7 +5610,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "şu an ------ saat",
@@ -5223,7 +5624,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ da mevcut saat",
@@ -5236,7 +5638,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ ta akşam altı burada kaç",
@@ -5249,7 +5652,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ ve eskişehir arasında kaç saat fark olduğunu söyleyebilir misin",
@@ -5262,7 +5666,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "acilen iki ------ ve bir kola istiyorum",
@@ -5275,7 +5680,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "benim için iki ------ sipariş et",
@@ -5288,7 +5694,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bir ------ sipariş et",
@@ -5301,7 +5708,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "lütfen şarj olduğunda ------ kapat",
@@ -5314,7 +5722,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "ben eve gelince ------ prizi aç",
@@ -5327,7 +5736,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ şarj olmadan prizi kapatmanı istiyorum",
@@ -5340,7 +5750,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ hakkında beni haberdar tut",
@@ -5353,7 +5764,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "beni ------ haberdar et",
@@ -5366,7 +5778,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "stock",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ ile ilgili gelecek te haberleri takip et",
@@ -5379,7 +5792,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ çalabilir misin",
@@ -5392,7 +5806,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ dan bir şarkı çal",
@@ -5405,7 +5820,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "dün ------ saat altıdan bir şarkı çal",
@@ -5418,7 +5834,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "şu anda ------ da saat kaç",
@@ -5431,7 +5848,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bana ------ daki saati ver",
@@ -5444,7 +5862,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bana şimdi ------ daki saati söyle",
@@ -5457,7 +5876,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "yemek siparişi vermek ve ------ olduğunu görmek istiyorum",
@@ -5470,7 +5890,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "güncel siparişimin ------ durumunu kontrol et",
@@ -5483,7 +5904,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ ara ve teslimatın yolda mı olduğunu sor",
@@ -5496,7 +5918,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "lütfen ------ daha fazla aydınlat",
@@ -5509,7 +5932,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ de neler oluyor",
@@ -5522,7 +5946,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bana ------ bir şey söyle",
@@ -5535,7 +5960,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ dinlemek istiyorum lütfen",
@@ -5548,7 +5974,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "şimdi ------ dinlemek istiyorum",
@@ -5561,7 +5988,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ yarışına şu an kim liderlik ediyor",
@@ -5574,7 +6002,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ ile ilgili güncellemeleri getir",
@@ -5587,7 +6016,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ gazetesinden başlıkları oku",
@@ -5600,7 +6030,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ den son haberleri duymak istiyorum",
@@ -5613,7 +6044,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bana ------ son dakika haberlerini gösterir misin",
@@ -5626,7 +6058,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ son haberlerini bilmek istiyorum",
@@ -5639,7 +6072,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "lütfen bana son ------ haberlerini oku",
@@ -5652,7 +6086,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ türkten son dakika haberlerini öğrenmek istiyorum",
@@ -5665,7 +6100,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ sabah saat dörtte bir alarm oluştur",
@@ -5678,7 +6114,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ beni uyandırmak için alarm kur",
@@ -5691,7 +6128,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "beni ------ uyandıracak bir alarm ayarla",
@@ -5704,7 +6142,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ hava durumunu ver",
@@ -5717,7 +6156,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bu ------ için hava durumunu göster",
@@ -5730,7 +6170,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ hava durumu ayrıntılarını özetleyin",
@@ -5743,7 +6184,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ şarkıları dinlemek istiyorum",
@@ -5756,7 +6198,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bundan sonra bir ------ şarkısı çal",
@@ -5769,7 +6212,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bundan sonra en son ------ şarkılarını çal",
@@ -5782,7 +6226,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ dışarısı ne kadar soğuk",
@@ -5795,7 +6240,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ sıcaklık ne",
@@ -5808,7 +6254,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ etraf ne kadar nemli",
@@ -5821,7 +6268,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ ve soul türü parçalar çal",
@@ -5834,7 +6282,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bütün en son ------ parçalar ı çal",
@@ -5847,7 +6296,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "sonra ------ çal",
@@ -5860,7 +6310,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ olan ne",
@@ -5873,7 +6324,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "benim ------ bir şarkı çal",
@@ -5886,7 +6338,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "ses seviyesini ------ düşür",
@@ -5899,7 +6352,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "volume_down",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bu saat dilimini ------ a değiştir",
@@ -5912,7 +6366,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ ist olarak değiştir",
@@ -5925,7 +6380,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ kapatabilir misin",
@@ -5938,7 +6394,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ aç ve benim şarja bağlansın",
@@ -5951,7 +6408,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "odamdaki ------ aç",
@@ -5964,7 +6422,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ hava nasıl görünüyor",
@@ -5977,7 +6436,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ hava nasıl olacak",
@@ -5990,7 +6450,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ için hava tahmini nasıl",
@@ -6003,7 +6464,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "lütfen bana ------ mdan güncel haber başlıklarını verir misiniz",
@@ -6016,7 +6478,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "son haberler için ------ mı araştırab",
@@ -6029,7 +6492,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "en sonki ------ haberlerini söyle",
@@ -6042,7 +6506,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bana en son ------ haberleri söyle",
@@ -6055,7 +6520,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bugünlerde ------ neler oluyor",
@@ -6068,7 +6534,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ den haber güncellemesi ver",
@@ -6081,7 +6548,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ deki haber gelişmeleri nedir",
@@ -6094,7 +6562,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ en son haber güncellemeleri nedir",
@@ -6107,7 +6576,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "bana ------ den en son gelişmeleri göster",
@@ -6120,7 +6590,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ haberlere çıktığında haber ver",
@@ -6133,7 +6604,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "dünyada bir ------ olursa bana haber ver",
@@ -6146,7 +6618,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "sıcaklık ------ varınca beni uyar",
@@ -6159,7 +6632,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 'den hevesim yok 'u çal",
@@ -6172,7 +6646,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 'dan paramparça 'yı dinlemek istiyorum",
@@ -6185,7 +6660,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ dan küçüğüm dinle",
@@ -6198,7 +6674,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 'yı çal",
@@ -6211,7 +6688,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 'dan evin delisi 'ni aç",
@@ -6224,7 +6702,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ çal",
@@ -6237,7 +6716,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "tüm ------ şarkılar ını çal",
@@ -6250,7 +6730,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "şimdiki sıraya ------ ekle",
@@ -6263,7 +6744,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ hava nasıl",
@@ -6276,7 +6758,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "şu anda ------ kaç derece",
@@ -6289,7 +6772,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ hava nasıldı",
@@ -6302,7 +6786,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ veya sert hava",
@@ -6315,7 +6800,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ için en yüksek hava sıcaklığını göster",
@@ -6328,7 +6814,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ devam ediyor mu",
@@ -6341,7 +6828,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ dolu olma ihtimali nedir",
@@ -6354,7 +6842,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ sabah için alarmı onayla",
@@ -6367,7 +6856,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ için alarm kaça kurulu",
@@ -6380,7 +6870,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "lütfen ------ meksika restoran tavsiyesi yapar mısın",
@@ -6393,7 +6884,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "hangi ------ paket yemek servisi yapıyor",
@@ -6406,7 +6898,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ için paket yemek isteyebilir miyim",
@@ -6419,7 +6912,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ in en son yerel haberler ini bilmek istiyorum",
@@ -6432,7 +6926,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ kahve yap",
@@ -6445,7 +6940,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ kahve demle",
@@ -6458,7 +6954,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "yeni ------ çalma listesini çal",
@@ -6471,7 +6968,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "yeni ------ çalma listesi başlat",
@@ -6484,7 +6982,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ en sana kırmızı çok yakışıyor çal",
@@ -6497,7 +6996,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ uygulamasını aç",
@@ -6510,6 +7010,7 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   }
 ]

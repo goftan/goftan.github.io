@@ -10,7 +10,8 @@
     "answer": 0,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A1"
   },
   {
     "question": "سیاه",
@@ -23,7 +24,8 @@
     "answer": 3,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A1"
   },
   {
     "question": "مشکی",
@@ -36,7 +38,8 @@
     "answer": 0,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A1"
   },
   {
     "question": "خاکستری",
@@ -49,7 +52,8 @@
     "answer": 1,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A1"
   },
   {
     "question": "توسی",
@@ -62,7 +66,8 @@
     "answer": 1,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A2"
   },
   {
     "question": "نقره ای",
@@ -75,7 +80,8 @@
     "answer": 2,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A2"
   },
   {
     "question": "آبی",
@@ -88,7 +94,8 @@
     "answer": 1,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A1"
   },
   {
     "question": "بنفش",
@@ -101,7 +108,8 @@
     "answer": 2,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A2"
   },
   {
     "question": "سبز",
@@ -114,7 +122,8 @@
     "answer": 0,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A1"
   },
   {
     "question": "قرمز",
@@ -127,7 +136,8 @@
     "answer": 3,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A1"
   },
   {
     "question": "سرخ",
@@ -140,7 +150,8 @@
     "answer": 3,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A2"
   },
   {
     "question": "صورتی",
@@ -153,7 +164,8 @@
     "answer": 1,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A1"
   },
   {
     "question": "قهوه ای",
@@ -166,7 +178,8 @@
     "answer": 1,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A1"
   },
   {
     "question": "زرد",
@@ -179,7 +192,8 @@
     "answer": 3,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A1"
   },
   {
     "question": "طلایی",
@@ -192,7 +206,8 @@
     "answer": 0,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A2"
   },
   {
     "question": "لیمویی",
@@ -205,7 +220,8 @@
     "answer": 2,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A2"
   },
   {
     "question": "نارنجی",
@@ -218,7 +234,8 @@
     "answer": 1,
     "type": "color",
     "intent": "",
-    "extra": "The translation of"
+    "extra": "The translation of",
+    "level": "A1"
   },
   {
     "question": "<div class='square' style='background-color:white'></div>",
@@ -231,7 +248,8 @@
     "answer": 2,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A1"
   },
   {
     "question": "<div class='square' style='background-color:black'></div>",
@@ -244,7 +262,8 @@
     "answer": 2,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A1"
   },
   {
     "question": "<div class='square' style='background-color:black'></div>",
@@ -257,7 +276,8 @@
     "answer": 2,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A1"
   },
   {
     "question": "<div class='square' style='background-color:gray'></div>",
@@ -270,7 +290,8 @@
     "answer": 0,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A1"
   },
   {
     "question": "<div class='square' style='background-color:dark gray'></div>",
@@ -283,7 +304,8 @@
     "answer": 2,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A2"
   },
   {
     "question": "<div class='square' style='background-color:silver'></div>",
@@ -296,7 +318,8 @@
     "answer": 0,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A2"
   },
   {
     "question": "<div class='square' style='background-color:blue'></div>",
@@ -309,7 +332,8 @@
     "answer": 3,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A1"
   },
   {
     "question": "<div class='square' style='background-color:violet'></div>",
@@ -322,7 +346,8 @@
     "answer": 3,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A2"
   },
   {
     "question": "<div class='square' style='background-color:green'></div>",
@@ -335,7 +360,8 @@
     "answer": 0,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A1"
   },
   {
     "question": "<div class='square' style='background-color:red'></div>",
@@ -348,7 +374,8 @@
     "answer": 2,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A1"
   },
   {
     "question": "<div class='square' style='background-color:red hot'></div>",
@@ -361,7 +388,8 @@
     "answer": 2,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A1"
   },
   {
     "question": "<div class='square' style='background-color:pink'></div>",
@@ -374,7 +402,8 @@
     "answer": 1,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A1"
   },
   {
     "question": "<div class='square' style='background-color:brown'></div>",
@@ -387,7 +416,8 @@
     "answer": 3,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A1"
   },
   {
     "question": "<div class='square' style='background-color:yellow'></div>",
@@ -400,7 +430,8 @@
     "answer": 0,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A1"
   },
   {
     "question": "<div class='square' style='background-color:gold'></div>",
@@ -413,7 +444,8 @@
     "answer": 0,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A2"
   },
   {
     "question": "<div class='square' style='background-color:lemon'></div>",
@@ -426,7 +458,8 @@
     "answer": 3,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A2"
   },
   {
     "question": "<div class='square' style='background-color:orange'></div>",
@@ -439,6 +472,7 @@
     "answer": 0,
     "type": "color",
     "intent": "",
-    "extra": "Color of"
+    "extra": "Color of",
+    "level": "A1"
   }
 ]
