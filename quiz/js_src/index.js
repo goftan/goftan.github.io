@@ -213,10 +213,21 @@ function startQuiz() {
         }
 
         shuffleArray(quiz);
+
+        // Guard: nothing to quiz on
+        if (quiz.length === 0) {
+            if (isBeginner) {
+                alert('No Numbers or Colors questions are available for ' + get_selected_language() + ' yet.\nPlease try A1 level instead.');
+            } else {
+                alert('No questions found for the selected language and level. Try a different combination.');
+            }
+            return;
+        }
+
         quiz_started = true;
 
-        // Determine selected quiz types
-        const selectedTypes = Array.from(document.querySelectorAll('.mycheckboxqtypes:checked')).map(el => el.value);
+        // Use name="topics" to avoid accidentally picking up level checkbox values
+        const selectedTypes = Array.from(document.querySelectorAll('.mycheckboxqtypes[name="topics"]:checked')).map(el => el.value);
         const doMultipleChoice = selectedTypes.includes('Multiple Choice') || selectedTypes.length === 0;
         const doCrossword = selectedTypes.includes('Crossword');
         const doHangman = selectedTypes.includes('Hangman');
