@@ -186,16 +186,30 @@ function select_a_crossword_question(el) {
 function fill_crossword(quiz) {
     xy_to_data = {};
     lastQuiz = quiz;
-    var input = [];
-    for(q of quiz.slice(0,20)) {
+
+    // Build the full eligible word pool from the entire quiz
+    var pool = [];
+    for(q of quiz) {
         const ans = q.choices[q.answer];
         if(ans && !ans.includes(' ') && ans.length < 10) {
-            input.push({'answer': ans.toUpperCase(), 'clue': q.question, 'extra': q.extra});
+            pool.push({'answer': ans.toUpperCase(), 'clue': q.question, 'extra': q.extra});
         }
     }
-    // Shuffle to get a varied layout each time
-    input.sort(() => Math.random() - 0.5);
-    var layout = generateLayout(input);
+
+    // Try up to 6 times with different shuffles to get at least 4 placed words
+    var layout, input;
+    const MAX_ATTEMPTS = 6;
+    for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
+        // Shuffle the pool and take the first 20 for this attempt
+        pool.sort(() => Math.random() - 0.5);
+        input = pool.slice(0, 20);
+        layout = generateLayout(input);
+        const placed = layout.result.filter(w => w.orientation !== 'none').length;
+        if (placed >= 4) break;
+        if (attempt === MAX_ATTEMPTS - 1) {
+            showFeedback('Not enough words to build a full crossword for this quiz. Try more topics!', 'warning');
+        }
+    }
     var rows = layout.rows;
     var cols = layout.cols;
     var table = layout.table; // table as two-dimensional array
