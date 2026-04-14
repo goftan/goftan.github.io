@@ -240,10 +240,26 @@ function startQuiz() {
             if (!doMultipleChoice) selectPage('puzzle-piece_page');
         }
         if (doHangman) {
-            // Pick a word from the quiz answers without spaces
-            const hangmanWord = quiz.find(q => q.choices[q.answer] && !q.choices[q.answer].includes(' '));
-            if (hangmanWord) {
-                fill_hangman(hangmanWord.choices[hangmanWord.answer], hangmanWord.question, hangmanWord.extra || '');
+            // Build a shuffled pool of candidates: no spaces, at least 3 chars
+            const hangmanPool = quiz
+                .filter(q => q.choices[q.answer] && !q.choices[q.answer].includes(' ') && q.choices[q.answer].length >= 3)
+                .sort(() => Math.random() - 0.5);
+
+            // Prefer words whose characters are all in the language alphabet
+            const alphabetLetters = (language_alphabets[get_selected_language()] || '').toLowerCase().split(' ');
+            let chosen = null;
+            for (const candidate of hangmanPool) {
+                const word = candidate.choices[candidate.answer].toLowerCase();
+                if (word.split('').every(ch => alphabetLetters.includes(ch))) {
+                    chosen = candidate;
+                    break;
+                }
+            }
+            // Fall back to any candidate if none matched the alphabet perfectly
+            if (!chosen && hangmanPool.length > 0) chosen = hangmanPool[0];
+
+            if (chosen) {
+                fill_hangman(chosen.choices[chosen.answer], chosen.question, chosen.extra || '');
                 hangman_ready = true;
                 if (!doMultipleChoice && !doCrossword) selectPage('sign-hanging_page');
             } else {
