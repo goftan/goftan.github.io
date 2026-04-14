@@ -221,6 +221,23 @@ body::before {
   100% { background-position: 200% center; }
 }
 
+/* Beginner level label — warm teal to stand out from A1-B2 */
+.beginner-level {
+  background: #F0FAFA;
+  border-color: #A8E6E2;
+  color: #0E7490;
+}
+.beginner-level:hover {
+  background: #E0F7F5;
+  border-color: var(--color-teal);
+  color: #0E7490;
+}
+.container.beginner-level input:checked ~ .checkmark {
+  background: linear-gradient(135deg, #4ECDC4, #0E7490);
+  border-color: var(--color-teal);
+  box-shadow: 0 4px 12px rgba(78,205,196,0.4);
+}
+
 /* Page Titles */
 #language_page h3, #tasks_page h3, #question_page h3, #info_page h3 {
   color: var(--text-primary);

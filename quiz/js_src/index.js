@@ -164,17 +164,37 @@ var countIncorrect = 0;
 var countViewed = 0;
 var wrongAnswers = [];
 
+function onBeginnerToggle() {
+    const isChecked = document.querySelector('.mycheckboxqtypes[value="Beginner"]').checked;
+    document.getElementById('beginner_note').style.display = isChecked ? 'block' : 'none';
+    document.getElementById('topics_checkboxes').style.opacity = isChecked ? '0.4' : '1';
+    document.getElementById('topics_checkboxes').style.pointerEvents = isChecked ? 'none' : '';
+    document.getElementById('quiz_types').style.opacity = isChecked ? '0.4' : '1';
+    document.getElementById('quiz_types').style.pointerEvents = isChecked ? 'none' : '';
+}
+
+// Beginner-level topics: only numbers and colors
+var beginner_topics = ['Numbers', 'Colors'];
+
 function startQuiz() {
     saveSettings();
     d3.select('#question_size').html(parseInt(d3.select("#num_of_questions").node().value));
     let readers = [];
 
-    d3.selectAll('.mycheckbox:checked').each(function() {
-        var topic_name = d3.select(this).node().value.replaceAll(' ','') + '.json';
-        readers.push(d3.json(get_selected_language() + '/' + topic_name));
-    });
-
     const selectedLevels = Array.from(document.querySelectorAll('.mycheckboxqtypes[name="levels"]:checked')).map(el => el.value);
+    const isBeginner = selectedLevels.includes('Beginner');
+
+    if (isBeginner) {
+        // Only load Numbers and Colors regardless of topic checkboxes
+        beginner_topics.forEach(function(topic) {
+            readers.push(d3.json(get_selected_language() + '/' + topic + '.json'));
+        });
+    } else {
+        d3.selectAll('.mycheckbox:checked').each(function() {
+            var topic_name = d3.select(this).node().value.replaceAll(' ','') + '.json';
+            readers.push(d3.json(get_selected_language() + '/' + topic_name));
+        });
+    }
 
     Promise.allSettled(readers).then(function(files) {
         console.log(files);
@@ -184,8 +204,11 @@ function startQuiz() {
         quizall = quizall.filter(x => x !== undefined)
         quiz = [].concat.apply([], quizall);
 
-        // Filter by selected levels; questions without a level field are always included
-        if (selectedLevels.length > 0) {
+        // Beginner: no sentence-type questions even if they slipped through
+        if (isBeginner) {
+            quiz = quiz.filter(q => q.type !== 'sentence' && q.type !== 'common sentences');
+        } else if (selectedLevels.length > 0) {
+            // Filter by selected levels; questions without a level field are always included
             quiz = quiz.filter(q => !q.level || selectedLevels.includes(q.level));
         }
 
@@ -409,6 +432,9 @@ function restartQuiz() {
     d3.select('#question_number').html(1);
     d3.select('#result_table').html('');         // clear history rows
     d3.select('#wrong_answers_review').html(''); // clear review cards
+
+    // Restore topic/quiz-type sections in case Beginner mode disabled them
+    onBeginnerToggle();
 
     selectPage('tasks_page');
 }

@@ -69,6 +69,9 @@
         <h3>Select what should be level in the quiz: </h3>
         <div>
             <div>
+                <label class="container beginner-level">
+                    <input type="checkbox" name="levels" value="Beginner" class="mycheckboxqtypes" onchange="onBeginnerToggle()">Beginner <small style="font-weight:400;color:#888;">— numbers &amp; colors only</small><span class="checkmark"></span>
+                </label>
                 <label class="container">
                     <input type="checkbox" name="levels" value="A1" checked="checked" class="mycheckboxqtypes">A1<span class="checkmark"></span>
                 </label>
@@ -82,6 +85,9 @@
                     <input type="checkbox" name="levels" value="B2" checked="checked" class="mycheckboxqtypes">B2<span class="checkmark"></span>
                 </label>
             </div>
+        </div>
+        <div id="beginner_note" style="display:none; padding: 10px 16px; margin: 8px 0 16px; background: #FFF8F0; border: 2px solid #FFD0A8; border-radius: 12px; color: #C05000; font-weight: 600; font-size: 0.95rem;">
+            🎯 Beginner mode: only <strong>Numbers</strong> and <strong>Colors</strong> questions will be used. Topic selection is ignored.
         </div>
         <h3>Select topics to include:</h3>
         <div id="topics_checkboxes"></div><br/>
