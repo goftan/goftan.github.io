@@ -266,6 +266,22 @@ body {
   transform: rotate(45deg);
 }
 
+/* ── Select All / None link ── */
+.select-all-link {
+  display: inline-block;
+  margin-bottom: var(--sp-2);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--c-primary);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color var(--t-fast);
+}
+.select-all-link:hover {
+  color: var(--c-primary-dark);
+  text-decoration: underline;
+}
+
 /* ── Beginner level special style ── */
 .beginner-level {
   background: #F0FDF4;

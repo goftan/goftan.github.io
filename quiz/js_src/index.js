@@ -164,6 +164,22 @@ var countIncorrect = 0;
 var countViewed = 0;
 var wrongAnswers = [];
 
+function toggleAllLevels(link) {
+    const boxes = Array.from(document.querySelectorAll('.mycheckboxqtypes[name="levels"]'));
+    const allChecked = boxes.every(b => b.checked);
+    boxes.forEach(b => { b.checked = !allChecked; });
+    link.textContent = allChecked ? 'Select All' : 'Select None';
+    // Trigger beginner toggle in case Beginner was just checked/unchecked
+    onBeginnerToggle();
+}
+
+function toggleAllTopics(link) {
+    const boxes = Array.from(document.querySelectorAll('.mycheckbox'));
+    const allChecked = boxes.every(b => b.checked);
+    boxes.forEach(b => { b.checked = !allChecked; });
+    link.textContent = allChecked ? 'Select All' : 'Select None';
+}
+
 function onBeginnerToggle() {
     const isChecked = document.querySelector('.mycheckboxqtypes[value="Beginner"]').checked;
     document.getElementById('beginner_note').style.display = isChecked ? 'block' : 'none';
@@ -173,8 +189,8 @@ function onBeginnerToggle() {
     document.getElementById('quiz_types').style.pointerEvents = isChecked ? 'none' : '';
 }
 
-// Beginner-level topics: only numbers and colors
-var beginner_topics = ['Numbers', 'Colors'];
+// Beginner-level topics: numbers, colors, capitals, animals (no sentences or vocab words)
+var beginner_topics = ['Numbers', 'Colors', 'Capitals', 'Animals'];
 
 function startQuiz() {
     saveSettings();
@@ -204,9 +220,10 @@ function startQuiz() {
         quizall = quizall.filter(x => x !== undefined)
         quiz = [].concat.apply([], quizall);
 
-        // Beginner: no sentence-type questions even if they slipped through
+        // Beginner: exclude sentences and vocabulary/word questions
         if (isBeginner) {
-            quiz = quiz.filter(q => q.type !== 'sentence' && q.type !== 'common sentences');
+            const beginnerExcluded = ['sentence', 'common sentences', 'synonym/antonym', 'words'];
+            quiz = quiz.filter(q => !beginnerExcluded.includes(q.type));
         } else if (selectedLevels.length > 0) {
             // Filter by selected levels; questions without a level field are always included
             quiz = quiz.filter(q => !q.level || selectedLevels.includes(q.level));
@@ -217,7 +234,7 @@ function startQuiz() {
         // Guard: nothing to quiz on
         if (quiz.length === 0) {
             if (isBeginner) {
-                alert('No Numbers or Colors questions are available for ' + get_selected_language() + ' yet.\nPlease try A1 level instead.');
+                alert('No beginner questions (Numbers, Colors, Capitals, Animals) are available for ' + get_selected_language() + ' yet.\nPlease try A1 level instead.');
             } else {
                 alert('No questions found for the selected language and level. Try a different combination.');
             }

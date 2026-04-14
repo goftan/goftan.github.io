@@ -69,8 +69,9 @@
         <h3>Select what should be level in the quiz: </h3>
         <div>
             <div>
+                <a href="#" class="select-all-link" onclick="toggleAllLevels(this); return false;">Select All</a>
                 <label class="container beginner-level">
-                    <input type="checkbox" name="levels" value="Beginner" class="mycheckboxqtypes" onchange="onBeginnerToggle()">Beginner <small style="font-weight:400;color:#888;">— numbers &amp; colors only</small><span class="checkmark"></span>
+                    <input type="checkbox" name="levels" value="Beginner" class="mycheckboxqtypes" onchange="onBeginnerToggle()">Beginner <small style="font-weight:400;color:#888;">— no sentences or words</small><span class="checkmark"></span>
                 </label>
                 <label class="container">
                     <input type="checkbox" name="levels" value="A1" checked="checked" class="mycheckboxqtypes">A1<span class="checkmark"></span>
@@ -87,9 +88,10 @@
             </div>
         </div>
         <div id="beginner_note">
-            Beginner mode: only <strong>Numbers</strong> and <strong>Colors</strong> questions will be used. Topic selection is ignored.
+            Beginner mode: only <strong>Numbers</strong>, <strong>Colors</strong>, <strong>Capitals</strong>, and <strong>Animals</strong> questions will be used. Sentences and vocabulary words are excluded.
         </div>
         <h3>Select topics to include:</h3>
+        <a href="#" class="select-all-link" onclick="toggleAllTopics(this); return false;">Select All</a>
         <div id="topics_checkboxes"></div><br/>
         <div id="quiz_types">
             <h3>What kind of quiz do you want to do?</h3>
