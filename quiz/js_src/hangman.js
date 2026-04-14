@@ -28,9 +28,9 @@ function fill_hangman(word, clue, extra) {
                      `<span class="hm-clue">${clue || ''}</span>`;
     d3.select('#hangman_hint').html(hintHtml);
 
-    // Show blank dashes
+    // Show blank dashes — no spaces so indices align with selected_word
     d3.select('#hangman_answer').html(
-        d3.range(word.length).map(() => '_').join(' ')
+        d3.range(word.length).map(() => '_').join('')
     );
 
     // Render alphabet buttons
