@@ -56,6 +56,8 @@ function logic_correct_for_selecting_this_page(page) {
             return {'can_be_changed_to_this_page':false, notification: 'Please select a language first!'};
         if(!quiz_started)
             return {'can_be_changed_to_this_page':false, notification: 'Please start the quiz first!'};
+        if(!hangman_ready)
+            return {'can_be_changed_to_this_page':false, notification: 'No Hangman word available for this quiz. Try different topics!'};
         return {'can_be_changed_to_this_page':true, notification:  ''};
     } else if (page == 'calculator_page') {
         return {'can_be_changed_to_this_page':true, notification:  ''};

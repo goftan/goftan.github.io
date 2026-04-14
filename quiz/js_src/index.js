@@ -40,6 +40,7 @@ var avialble_topics = [
 ];
 
 quiz_started = false;
+var hangman_ready = false;
 
 
 init_nav_menu();
@@ -239,12 +240,16 @@ function startQuiz() {
             if (!doMultipleChoice) selectPage('puzzle-piece_page');
         }
         if (doHangman) {
-            // Pick a word from the quiz answers that matches the language alphabet
+            // Pick a word from the quiz answers without spaces
             const hangmanWord = quiz.find(q => q.choices[q.answer] && !q.choices[q.answer].includes(' '));
             if (hangmanWord) {
                 fill_hangman(hangmanWord.choices[hangmanWord.answer], hangmanWord.question, hangmanWord.extra || '');
+                hangman_ready = true;
+                if (!doMultipleChoice && !doCrossword) selectPage('sign-hanging_page');
+            } else {
+                hangman_ready = false;
+                showFeedback('No suitable word found for Hangman in this quiz.', 'warning');
             }
-            if (!doMultipleChoice && !doCrossword) selectPage('sign-hanging_page');
         }
 
     }).catch(function(err) {
@@ -423,6 +428,7 @@ function playAgain() {
     countQues = 0;
     wrongAnswers = [];
     quiz_started = false;
+    hangman_ready = false;
     d3.select('#question_number').html(1);
     d3.select('#wrong_answers_review').html('');
     startQuiz();
@@ -436,6 +442,7 @@ function restartQuiz() {
     countQues = 0;
     wrongAnswers = [];
     quiz_started = false;
+    hangman_ready = false;
 
     // Reset UI state
     d3.select('#question_number').html(1);
