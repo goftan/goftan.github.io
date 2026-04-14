@@ -40,30 +40,22 @@ function logic_correct_for_selecting_this_page(page) {
         applyPendingCheckboxSettings();
         return {'can_be_changed_to_this_page':true, notification:  ''};
     } else if (page == 'question_page') {
-        if(!is_language_selected()){
-            selectPage('language_page')
-            return {'can_be_changed_to_this_page':is_language_selected(), notification:  'Please select a language!'};
-        }
-        
-        if(!quiz_started) {
-            selectPage('tasks_page')
-            return {'can_be_changed_to_this_page':false, notification:  'Please start the quiz first!'};
-        }
-
+        if(!is_language_selected())
+            return {'can_be_changed_to_this_page':false, notification: 'Please select a language first!'};
+        if(!quiz_started)
+            return {'can_be_changed_to_this_page':false, notification: 'Please start the quiz first!'};
         return {'can_be_changed_to_this_page':true, notification:  ''};
     } else if (page == 'puzzle-piece_page') {
-        if(!is_language_selected()){
-            selectPage('language_page')
-            return {'can_be_changed_to_this_page':is_language_selected(), notification:  'Please select a language!'};
-        }
-        
-        if(!quiz_started) {
-            selectPage('tasks_page')
-            return {'can_be_changed_to_this_page':false, notification:  'Please start the quiz first!'};
-        }
-            
+        if(!is_language_selected())
+            return {'can_be_changed_to_this_page':false, notification: 'Please select a language first!'};
+        if(!quiz_started)
+            return {'can_be_changed_to_this_page':false, notification: 'Please start the quiz first!'};
         return {'can_be_changed_to_this_page':true, notification:  ''};
     } else if (page == 'sign-hanging_page') {
+        if(!is_language_selected())
+            return {'can_be_changed_to_this_page':false, notification: 'Please select a language first!'};
+        if(!quiz_started)
+            return {'can_be_changed_to_this_page':false, notification: 'Please start the quiz first!'};
         return {'can_be_changed_to_this_page':true, notification:  ''};
     } else if (page == 'calculator_page') {
         return {'can_be_changed_to_this_page':true, notification:  ''};
