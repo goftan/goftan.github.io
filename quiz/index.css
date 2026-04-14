@@ -462,14 +462,15 @@ body::before {
   }
 
   /* Colorful answer option tiles in question page */
-  #opt1.button5 { border-color: #FFB3B3; background: #FFF5F5; color: #C0392B; }
+  /* Option tiles: orange / blue / purple / teal — no red or green to avoid confusion with correct/wrong feedback */
+  #opt1.button5 { border-color: #FFD0A8; background: #FFF5EC; color: #C05000; }
   #opt2.button5 { border-color: #B3D4FF; background: #F0F7FF; color: #1565C0; }
-  #opt3.button5 { border-color: #FFE8A3; background: #FFFBF0; color: #B7860B; }
-  #opt4.button5 { border-color: #B3EFC3; background: #F0FFF4; color: #1E7E34; }
-  #opt1.button5:hover { background: #FFECEC; border-color: var(--color-red);    transform: translateY(-3px) scale(1.02); box-shadow: 0 6px 18px rgba(255,107,107,0.25); }
+  #opt3.button5 { border-color: #D8CCFF; background: #F5F0FF; color: #5B21B6; }
+  #opt4.button5 { border-color: #A8E6E2; background: #F0FAFA; color: #0E7490; }
+  #opt1.button5:hover { background: #FFE8D0; border-color: var(--color-orange); transform: translateY(-3px) scale(1.02); box-shadow: 0 6px 18px rgba(255,159, 67,0.25); }
   #opt2.button5:hover { background: #E4EFFF; border-color: var(--color-blue);   transform: translateY(-3px) scale(1.02); box-shadow: 0 6px 18px rgba(116,185,255,0.25); }
-  #opt3.button5:hover { background: #FFF6DC; border-color: var(--color-yellow); transform: translateY(-3px) scale(1.02); box-shadow: 0 6px 18px rgba(255,217, 61,0.25); }
-  #opt4.button5:hover { background: #E4FFE9; border-color: var(--color-green);  transform: translateY(-3px) scale(1.02); box-shadow: 0 6px 18px rgba(107,203,119,0.25); }
+  #opt3.button5:hover { background: #EDE8FF; border-color: var(--color-purple); transform: translateY(-3px) scale(1.02); box-shadow: 0 6px 18px rgba(162,155,254,0.25); }
+  #opt4.button5:hover { background: #E0F7F5; border-color: var(--color-teal);   transform: translateY(-3px) scale(1.02); box-shadow: 0 6px 18px rgba( 78,205,196,0.25); }
 
   /* Primary action buttons (Start Learning!, Start Quiz!) */
   #startLearning, #startQuizButton {
