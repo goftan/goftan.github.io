@@ -1,0 +1,814 @@
+[
+  {
+    "question": "Zero",
+    "choices": [
+      "Cero",
+      "Cien",
+      "Trece",
+      "Setenta"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "One",
+    "choices": [
+      "Cinco",
+      "Uno",
+      "Diecinueve",
+      "Cien"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Two",
+    "choices": [
+      "Cien",
+      "Uno",
+      "Dos",
+      "Tres"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Three",
+    "choices": [
+      "Ocho",
+      "Diecinueve",
+      "Dieciocho",
+      "Tres"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Four",
+    "choices": [
+      "Cuatro",
+      "Ocho",
+      "Diez",
+      "Tres"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Five",
+    "choices": [
+      "Veinte",
+      "Cinco",
+      "Nueve",
+      "Sesenta"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Six",
+    "choices": [
+      "Ochenta",
+      "Diecinueve",
+      "Seis",
+      "Noventa"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Seven",
+    "choices": [
+      "Once",
+      "Cuatro",
+      "Trece",
+      "Siete"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Eight",
+    "choices": [
+      "Ocho",
+      "Siete",
+      "Doce",
+      "Trece"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Nine",
+    "choices": [
+      "Quince",
+      "Nueve",
+      "Veinte",
+      "Doce"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Ten",
+    "choices": [
+      "Diecinueve",
+      "Uno",
+      "Diez",
+      "Catorce"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Eleven",
+    "choices": [
+      "Quince",
+      "Cien",
+      "Dieciocho",
+      "Once"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Twelve",
+    "choices": [
+      "Doce",
+      "Dieciséis",
+      "Ocho",
+      "Cuarenta"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Thirteen",
+    "choices": [
+      "Ocho",
+      "Trece",
+      "Nueve",
+      "Cuarenta"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Fourteen",
+    "choices": [
+      "Tres",
+      "Veinte",
+      "Catorce",
+      "Cincuenta"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Fifteen",
+    "choices": [
+      "Seis",
+      "Cero",
+      "Diecisiete",
+      "Quince"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Sixteen",
+    "choices": [
+      "Dieciséis",
+      "Once",
+      "Quince",
+      "Nueve"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Seventeen",
+    "choices": [
+      "Dieciséis",
+      "Diecisiete",
+      "Trece",
+      "Ochenta"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Eighteen",
+    "choices": [
+      "Cinco",
+      "Tres",
+      "Dieciocho",
+      "Cuarenta"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Nineteen",
+    "choices": [
+      "Cuarenta",
+      "Uno",
+      "Ochenta",
+      "Diecinueve"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Twenty",
+    "choices": [
+      "Veinte",
+      "Sesenta",
+      "Cuarenta",
+      "Ochenta"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Thirty",
+    "choices": [
+      "Cinco",
+      "Treinta",
+      "Trece",
+      "Cincuenta"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Forty",
+    "choices": [
+      "Cuatro",
+      "Siete",
+      "Cuarenta",
+      "Cero"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Fifty",
+    "choices": [
+      "Setenta",
+      "Nueve",
+      "Noventa",
+      "Cincuenta"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Sixty",
+    "choices": [
+      "Sesenta",
+      "Cuarenta",
+      "Doce",
+      "Noventa"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Seventy",
+    "choices": [
+      "Doce",
+      "Setenta",
+      "Sesenta",
+      "Noventa"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Eighty",
+    "choices": [
+      "Cincuenta",
+      "Seis",
+      "Ochenta",
+      "Treinta"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Ninety",
+    "choices": [
+      "Veinte",
+      "Quince",
+      "Cuarenta",
+      "Noventa"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "One Hundred",
+    "choices": [
+      "Cien",
+      "Tres",
+      "Cincuenta",
+      "Cuatro"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Cero",
+    "choices": [
+      "0",
+      "100",
+      "13",
+      "70"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Uno",
+    "choices": [
+      "5",
+      "1",
+      "19",
+      "100"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Dos",
+    "choices": [
+      "100",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Tres",
+    "choices": [
+      "8",
+      "19",
+      "18",
+      "3"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Cuatro",
+    "choices": [
+      "4",
+      "8",
+      "10",
+      "3"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Cinco",
+    "choices": [
+      "20",
+      "5",
+      "9",
+      "60"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Seis",
+    "choices": [
+      "80",
+      "19",
+      "6",
+      "90"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Siete",
+    "choices": [
+      "11",
+      "4",
+      "13",
+      "7"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Ocho",
+    "choices": [
+      "8",
+      "7",
+      "12",
+      "13"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Nueve",
+    "choices": [
+      "15",
+      "9",
+      "20",
+      "12"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Diez",
+    "choices": [
+      "19",
+      "1",
+      "10",
+      "14"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Once",
+    "choices": [
+      "15",
+      "100",
+      "18",
+      "11"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Doce",
+    "choices": [
+      "12",
+      "16",
+      "8",
+      "40"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Trece",
+    "choices": [
+      "8",
+      "13",
+      "9",
+      "40"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Catorce",
+    "choices": [
+      "3",
+      "20",
+      "14",
+      "50"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Quince",
+    "choices": [
+      "6",
+      "0",
+      "17",
+      "15"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Dieciséis",
+    "choices": [
+      "16",
+      "11",
+      "15",
+      "9"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Diecisiete",
+    "choices": [
+      "16",
+      "17",
+      "13",
+      "80"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Dieciocho",
+    "choices": [
+      "5",
+      "3",
+      "18",
+      "40"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Diecinueve",
+    "choices": [
+      "40",
+      "1",
+      "80",
+      "19"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Veinte",
+    "choices": [
+      "20",
+      "60",
+      "40",
+      "80"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Treinta",
+    "choices": [
+      "5",
+      "30",
+      "13",
+      "50"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Cuarenta",
+    "choices": [
+      "4",
+      "7",
+      "40",
+      "0"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Cincuenta",
+    "choices": [
+      "70",
+      "9",
+      "90",
+      "50"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Sesenta",
+    "choices": [
+      "60",
+      "40",
+      "12",
+      "90"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Setenta",
+    "choices": [
+      "12",
+      "70",
+      "60",
+      "90"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Ochenta",
+    "choices": [
+      "50",
+      "6",
+      "80",
+      "30"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Noventa",
+    "choices": [
+      "20",
+      "15",
+      "40",
+      "90"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Cien",
+    "choices": [
+      "100",
+      "3",
+      "50",
+      "4"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  }
+]

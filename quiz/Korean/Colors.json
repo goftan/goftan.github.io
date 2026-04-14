@@ -1,0 +1,310 @@
+[
+  {
+    "question": "흰색",
+    "choices": [
+      "white",
+      "pink",
+      "yellow",
+      "blue"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "white",
+    "choices": [
+      "흰색",
+      "노란색",
+      "분홍색",
+      "빨간색"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "검은색",
+    "choices": [
+      "green",
+      "black",
+      "orange",
+      "blue"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "black",
+    "choices": [
+      "파란색",
+      "검은색",
+      "회색",
+      "분홍색"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "빨간색",
+    "choices": [
+      "green",
+      "gray",
+      "red",
+      "black"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "red",
+    "choices": [
+      "파란색",
+      "회색",
+      "빨간색",
+      "분홍색"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "파란색",
+    "choices": [
+      "red",
+      "white",
+      "purple",
+      "blue"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "blue",
+    "choices": [
+      "흰색",
+      "주황색",
+      "갈색",
+      "파란색"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "초록색",
+    "choices": [
+      "green",
+      "white",
+      "gray",
+      "brown"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "green",
+    "choices": [
+      "초록색",
+      "분홍색",
+      "빨간색",
+      "갈색"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "노란색",
+    "choices": [
+      "red",
+      "yellow",
+      "white",
+      "orange"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "yellow",
+    "choices": [
+      "보라색",
+      "노란색",
+      "회색",
+      "빨간색"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "주황색",
+    "choices": [
+      "yellow",
+      "white",
+      "orange",
+      "blue"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "orange",
+    "choices": [
+      "초록색",
+      "회색",
+      "주황색",
+      "빨간색"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "분홍색",
+    "choices": [
+      "red",
+      "black",
+      "gray",
+      "pink"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "pink",
+    "choices": [
+      "노란색",
+      "보라색",
+      "파란색",
+      "분홍색"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "갈색",
+    "choices": [
+      "brown",
+      "orange",
+      "blue",
+      "white"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "brown",
+    "choices": [
+      "갈색",
+      "노란색",
+      "주황색",
+      "검은색"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "회색",
+    "choices": [
+      "black",
+      "gray",
+      "yellow",
+      "red"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "gray",
+    "choices": [
+      "노란색",
+      "회색",
+      "주황색",
+      "보라색"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "보라색",
+    "choices": [
+      "yellow",
+      "gray",
+      "purple",
+      "orange"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "purple",
+    "choices": [
+      "빨간색",
+      "파란색",
+      "보라색",
+      "분홍색"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  }
+]

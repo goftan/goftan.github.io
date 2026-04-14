@@ -1,0 +1,310 @@
+[
+  {
+    "question": "Beyaz",
+    "choices": [
+      "white",
+      "pink",
+      "yellow",
+      "blue"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "white",
+    "choices": [
+      "Beyaz",
+      "Sarı",
+      "Pembe",
+      "Kırmızı"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Siyah",
+    "choices": [
+      "green",
+      "black",
+      "orange",
+      "blue"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "black",
+    "choices": [
+      "Mavi",
+      "Siyah",
+      "Gri",
+      "Pembe"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Kırmızı",
+    "choices": [
+      "green",
+      "gray",
+      "red",
+      "black"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "red",
+    "choices": [
+      "Mavi",
+      "Gri",
+      "Kırmızı",
+      "Pembe"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Mavi",
+    "choices": [
+      "red",
+      "white",
+      "purple",
+      "blue"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "blue",
+    "choices": [
+      "Beyaz",
+      "Turuncu",
+      "Kahverengi",
+      "Mavi"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Yeşil",
+    "choices": [
+      "green",
+      "white",
+      "gray",
+      "brown"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "green",
+    "choices": [
+      "Yeşil",
+      "Pembe",
+      "Kırmızı",
+      "Kahverengi"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Sarı",
+    "choices": [
+      "red",
+      "yellow",
+      "white",
+      "orange"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "yellow",
+    "choices": [
+      "Mor",
+      "Sarı",
+      "Gri",
+      "Kırmızı"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Turuncu",
+    "choices": [
+      "yellow",
+      "white",
+      "orange",
+      "blue"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "orange",
+    "choices": [
+      "Yeşil",
+      "Gri",
+      "Turuncu",
+      "Kırmızı"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Pembe",
+    "choices": [
+      "red",
+      "black",
+      "gray",
+      "pink"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "pink",
+    "choices": [
+      "Sarı",
+      "Mor",
+      "Mavi",
+      "Pembe"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Kahverengi",
+    "choices": [
+      "brown",
+      "orange",
+      "blue",
+      "white"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "brown",
+    "choices": [
+      "Kahverengi",
+      "Sarı",
+      "Turuncu",
+      "Siyah"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Gri",
+    "choices": [
+      "black",
+      "gray",
+      "yellow",
+      "red"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "gray",
+    "choices": [
+      "Sarı",
+      "Gri",
+      "Turuncu",
+      "Mor"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Mor",
+    "choices": [
+      "yellow",
+      "gray",
+      "purple",
+      "orange"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "purple",
+    "choices": [
+      "Kırmızı",
+      "Mavi",
+      "Mor",
+      "Pembe"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  }
+]

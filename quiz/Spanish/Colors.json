@@ -1,0 +1,310 @@
+[
+  {
+    "question": "Blanco",
+    "choices": [
+      "white",
+      "pink",
+      "yellow",
+      "blue"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "white",
+    "choices": [
+      "Blanco",
+      "Amarillo",
+      "Rosa",
+      "Rojo"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Negro",
+    "choices": [
+      "green",
+      "black",
+      "orange",
+      "blue"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "black",
+    "choices": [
+      "Azul",
+      "Negro",
+      "Gris",
+      "Rosa"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Rojo",
+    "choices": [
+      "green",
+      "gray",
+      "red",
+      "black"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "red",
+    "choices": [
+      "Azul",
+      "Gris",
+      "Rojo",
+      "Rosa"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Azul",
+    "choices": [
+      "red",
+      "white",
+      "purple",
+      "blue"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "blue",
+    "choices": [
+      "Blanco",
+      "Naranja",
+      "Marrón",
+      "Azul"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Verde",
+    "choices": [
+      "green",
+      "white",
+      "gray",
+      "brown"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "green",
+    "choices": [
+      "Verde",
+      "Rosa",
+      "Rojo",
+      "Marrón"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Amarillo",
+    "choices": [
+      "red",
+      "yellow",
+      "white",
+      "orange"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "yellow",
+    "choices": [
+      "Morado",
+      "Amarillo",
+      "Gris",
+      "Rojo"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Naranja",
+    "choices": [
+      "yellow",
+      "white",
+      "orange",
+      "blue"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "orange",
+    "choices": [
+      "Verde",
+      "Gris",
+      "Naranja",
+      "Rojo"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Rosa",
+    "choices": [
+      "red",
+      "black",
+      "gray",
+      "pink"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "pink",
+    "choices": [
+      "Amarillo",
+      "Morado",
+      "Azul",
+      "Rosa"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Marrón",
+    "choices": [
+      "brown",
+      "orange",
+      "blue",
+      "white"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "brown",
+    "choices": [
+      "Marrón",
+      "Amarillo",
+      "Naranja",
+      "Negro"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Gris",
+    "choices": [
+      "black",
+      "gray",
+      "yellow",
+      "red"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "gray",
+    "choices": [
+      "Amarillo",
+      "Gris",
+      "Naranja",
+      "Morado"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Morado",
+    "choices": [
+      "yellow",
+      "gray",
+      "purple",
+      "orange"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "purple",
+    "choices": [
+      "Rojo",
+      "Azul",
+      "Morado",
+      "Rosa"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  }
+]

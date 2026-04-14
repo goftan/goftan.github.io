@@ -1,0 +1,310 @@
+[
+  {
+    "question": "أبيض",
+    "choices": [
+      "white",
+      "pink",
+      "yellow",
+      "blue"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "white",
+    "choices": [
+      "أبيض",
+      "أصفر",
+      "وردي",
+      "أحمر"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "أسود",
+    "choices": [
+      "green",
+      "black",
+      "orange",
+      "blue"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "black",
+    "choices": [
+      "أزرق",
+      "أسود",
+      "رمادي",
+      "وردي"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "أحمر",
+    "choices": [
+      "green",
+      "gray",
+      "red",
+      "black"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "red",
+    "choices": [
+      "أزرق",
+      "رمادي",
+      "أحمر",
+      "وردي"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "أزرق",
+    "choices": [
+      "red",
+      "white",
+      "purple",
+      "blue"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "blue",
+    "choices": [
+      "أبيض",
+      "برتقالي",
+      "بني",
+      "أزرق"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "أخضر",
+    "choices": [
+      "green",
+      "white",
+      "gray",
+      "brown"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "green",
+    "choices": [
+      "أخضر",
+      "وردي",
+      "أحمر",
+      "بني"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "أصفر",
+    "choices": [
+      "red",
+      "yellow",
+      "white",
+      "orange"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "yellow",
+    "choices": [
+      "بنفسجي",
+      "أصفر",
+      "رمادي",
+      "أحمر"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "برتقالي",
+    "choices": [
+      "yellow",
+      "white",
+      "orange",
+      "blue"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "orange",
+    "choices": [
+      "أخضر",
+      "رمادي",
+      "برتقالي",
+      "أحمر"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "وردي",
+    "choices": [
+      "red",
+      "black",
+      "gray",
+      "pink"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "pink",
+    "choices": [
+      "أصفر",
+      "بنفسجي",
+      "أزرق",
+      "وردي"
+    ],
+    "answer": 3,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "بني",
+    "choices": [
+      "brown",
+      "orange",
+      "blue",
+      "white"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "brown",
+    "choices": [
+      "بني",
+      "أصفر",
+      "برتقالي",
+      "أسود"
+    ],
+    "answer": 0,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "رمادي",
+    "choices": [
+      "black",
+      "gray",
+      "yellow",
+      "red"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "gray",
+    "choices": [
+      "أصفر",
+      "رمادي",
+      "برتقالي",
+      "بنفسجي"
+    ],
+    "answer": 1,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "بنفسجي",
+    "choices": [
+      "yellow",
+      "gray",
+      "purple",
+      "orange"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "purple",
+    "choices": [
+      "أحمر",
+      "أزرق",
+      "بنفسجي",
+      "وردي"
+    ],
+    "answer": 2,
+    "type": "color",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  }
+]

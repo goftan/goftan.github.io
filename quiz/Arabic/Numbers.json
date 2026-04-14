@@ -1,0 +1,814 @@
+[
+  {
+    "question": "Zero",
+    "choices": [
+      "صفر",
+      "مئة",
+      "ثلاثة عشر",
+      "سبعون"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "One",
+    "choices": [
+      "خمسة",
+      "واحد",
+      "تسعة عشر",
+      "مئة"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Two",
+    "choices": [
+      "مئة",
+      "واحد",
+      "اثنان",
+      "ثلاثة"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Three",
+    "choices": [
+      "ثمانية",
+      "تسعة عشر",
+      "ثمانية عشر",
+      "ثلاثة"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Four",
+    "choices": [
+      "أربعة",
+      "ثمانية",
+      "عشرة",
+      "ثلاثة"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Five",
+    "choices": [
+      "عشرون",
+      "خمسة",
+      "تسعة",
+      "ستون"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Six",
+    "choices": [
+      "ثمانون",
+      "تسعة عشر",
+      "ستة",
+      "تسعون"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Seven",
+    "choices": [
+      "أحد عشر",
+      "أربعة",
+      "ثلاثة عشر",
+      "سبعة"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Eight",
+    "choices": [
+      "ثمانية",
+      "سبعة",
+      "اثنا عشر",
+      "ثلاثة عشر"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Nine",
+    "choices": [
+      "خمسة عشر",
+      "تسعة",
+      "عشرون",
+      "اثنا عشر"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Ten",
+    "choices": [
+      "تسعة عشر",
+      "واحد",
+      "عشرة",
+      "أربعة عشر"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Eleven",
+    "choices": [
+      "خمسة عشر",
+      "مئة",
+      "ثمانية عشر",
+      "أحد عشر"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Twelve",
+    "choices": [
+      "اثنا عشر",
+      "ستة عشر",
+      "ثمانية",
+      "أربعون"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Thirteen",
+    "choices": [
+      "ثمانية",
+      "ثلاثة عشر",
+      "تسعة",
+      "أربعون"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Fourteen",
+    "choices": [
+      "ثلاثة",
+      "عشرون",
+      "أربعة عشر",
+      "خمسون"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Fifteen",
+    "choices": [
+      "ستة",
+      "صفر",
+      "سبعة عشر",
+      "خمسة عشر"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Sixteen",
+    "choices": [
+      "ستة عشر",
+      "أحد عشر",
+      "خمسة عشر",
+      "تسعة"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Seventeen",
+    "choices": [
+      "ستة عشر",
+      "سبعة عشر",
+      "ثلاثة عشر",
+      "ثمانون"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Eighteen",
+    "choices": [
+      "خمسة",
+      "ثلاثة",
+      "ثمانية عشر",
+      "أربعون"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Nineteen",
+    "choices": [
+      "أربعون",
+      "واحد",
+      "ثمانون",
+      "تسعة عشر"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Twenty",
+    "choices": [
+      "عشرون",
+      "ستون",
+      "أربعون",
+      "ثمانون"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Thirty",
+    "choices": [
+      "خمسة",
+      "ثلاثون",
+      "ثلاثة عشر",
+      "خمسون"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Forty",
+    "choices": [
+      "أربعة",
+      "سبعة",
+      "أربعون",
+      "صفر"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Fifty",
+    "choices": [
+      "سبعون",
+      "تسعة",
+      "تسعون",
+      "خمسون"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Sixty",
+    "choices": [
+      "ستون",
+      "أربعون",
+      "اثنا عشر",
+      "تسعون"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Seventy",
+    "choices": [
+      "اثنا عشر",
+      "سبعون",
+      "ستون",
+      "تسعون"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Eighty",
+    "choices": [
+      "خمسون",
+      "ستة",
+      "ثمانون",
+      "ثلاثون"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Ninety",
+    "choices": [
+      "عشرون",
+      "خمسة عشر",
+      "أربعون",
+      "تسعون"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "One Hundred",
+    "choices": [
+      "مئة",
+      "ثلاثة",
+      "خمسون",
+      "أربعة"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "صفر",
+    "choices": [
+      "0",
+      "100",
+      "13",
+      "70"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "واحد",
+    "choices": [
+      "5",
+      "1",
+      "19",
+      "100"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "اثنان",
+    "choices": [
+      "100",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "ثلاثة",
+    "choices": [
+      "8",
+      "19",
+      "18",
+      "3"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "أربعة",
+    "choices": [
+      "4",
+      "8",
+      "10",
+      "3"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "خمسة",
+    "choices": [
+      "20",
+      "5",
+      "9",
+      "60"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "ستة",
+    "choices": [
+      "80",
+      "19",
+      "6",
+      "90"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "سبعة",
+    "choices": [
+      "11",
+      "4",
+      "13",
+      "7"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "ثمانية",
+    "choices": [
+      "8",
+      "7",
+      "12",
+      "13"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "تسعة",
+    "choices": [
+      "15",
+      "9",
+      "20",
+      "12"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "عشرة",
+    "choices": [
+      "19",
+      "1",
+      "10",
+      "14"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "أحد عشر",
+    "choices": [
+      "15",
+      "100",
+      "18",
+      "11"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "اثنا عشر",
+    "choices": [
+      "12",
+      "16",
+      "8",
+      "40"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "ثلاثة عشر",
+    "choices": [
+      "8",
+      "13",
+      "9",
+      "40"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "أربعة عشر",
+    "choices": [
+      "3",
+      "20",
+      "14",
+      "50"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "خمسة عشر",
+    "choices": [
+      "6",
+      "0",
+      "17",
+      "15"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "ستة عشر",
+    "choices": [
+      "16",
+      "11",
+      "15",
+      "9"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "سبعة عشر",
+    "choices": [
+      "16",
+      "17",
+      "13",
+      "80"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "ثمانية عشر",
+    "choices": [
+      "5",
+      "3",
+      "18",
+      "40"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "تسعة عشر",
+    "choices": [
+      "40",
+      "1",
+      "80",
+      "19"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "عشرون",
+    "choices": [
+      "20",
+      "60",
+      "40",
+      "80"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "ثلاثون",
+    "choices": [
+      "5",
+      "30",
+      "13",
+      "50"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "أربعون",
+    "choices": [
+      "4",
+      "7",
+      "40",
+      "0"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "خمسون",
+    "choices": [
+      "70",
+      "9",
+      "90",
+      "50"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "ستون",
+    "choices": [
+      "60",
+      "40",
+      "12",
+      "90"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "سبعون",
+    "choices": [
+      "12",
+      "70",
+      "60",
+      "90"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "ثمانون",
+    "choices": [
+      "50",
+      "6",
+      "80",
+      "30"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "تسعون",
+    "choices": [
+      "20",
+      "15",
+      "40",
+      "90"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "مئة",
+    "choices": [
+      "100",
+      "3",
+      "50",
+      "4"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  }
+]

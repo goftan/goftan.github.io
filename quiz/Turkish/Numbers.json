@@ -1,0 +1,814 @@
+[
+  {
+    "question": "Zero",
+    "choices": [
+      "Sıfır",
+      "Yüz",
+      "On üç",
+      "Yetmiş"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "One",
+    "choices": [
+      "Beş",
+      "Bir",
+      "On dokuz",
+      "Yüz"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Two",
+    "choices": [
+      "Yüz",
+      "Bir",
+      "İki",
+      "Üç"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Three",
+    "choices": [
+      "Sekiz",
+      "On dokuz",
+      "On sekiz",
+      "Üç"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Four",
+    "choices": [
+      "Dört",
+      "Sekiz",
+      "On",
+      "Üç"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Five",
+    "choices": [
+      "Yirmi",
+      "Beş",
+      "Dokuz",
+      "Altmış"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Six",
+    "choices": [
+      "Seksen",
+      "On dokuz",
+      "Altı",
+      "Doksan"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Seven",
+    "choices": [
+      "On bir",
+      "Dört",
+      "On üç",
+      "Yedi"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Eight",
+    "choices": [
+      "Sekiz",
+      "Yedi",
+      "On iki",
+      "On üç"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Nine",
+    "choices": [
+      "On beş",
+      "Dokuz",
+      "Yirmi",
+      "On iki"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Ten",
+    "choices": [
+      "On dokuz",
+      "Bir",
+      "On",
+      "On dört"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Eleven",
+    "choices": [
+      "On beş",
+      "Yüz",
+      "On sekiz",
+      "On bir"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Twelve",
+    "choices": [
+      "On iki",
+      "On altı",
+      "Sekiz",
+      "Kırk"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Thirteen",
+    "choices": [
+      "Sekiz",
+      "On üç",
+      "Dokuz",
+      "Kırk"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Fourteen",
+    "choices": [
+      "Üç",
+      "Yirmi",
+      "On dört",
+      "Elli"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Fifteen",
+    "choices": [
+      "Altı",
+      "Sıfır",
+      "On yedi",
+      "On beş"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Sixteen",
+    "choices": [
+      "On altı",
+      "On bir",
+      "On beş",
+      "Dokuz"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Seventeen",
+    "choices": [
+      "On altı",
+      "On yedi",
+      "On üç",
+      "Seksen"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Eighteen",
+    "choices": [
+      "Beş",
+      "Üç",
+      "On sekiz",
+      "Kırk"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Nineteen",
+    "choices": [
+      "Kırk",
+      "Bir",
+      "Seksen",
+      "On dokuz"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Twenty",
+    "choices": [
+      "Yirmi",
+      "Altmış",
+      "Kırk",
+      "Seksen"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "Thirty",
+    "choices": [
+      "Beş",
+      "Otuz",
+      "On üç",
+      "Elli"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Forty",
+    "choices": [
+      "Dört",
+      "Yedi",
+      "Kırk",
+      "Sıfır"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Fifty",
+    "choices": [
+      "Yetmiş",
+      "Dokuz",
+      "Doksan",
+      "Elli"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Sixty",
+    "choices": [
+      "Altmış",
+      "Kırk",
+      "On iki",
+      "Doksan"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Seventy",
+    "choices": [
+      "On iki",
+      "Yetmiş",
+      "Altmış",
+      "Doksan"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Eighty",
+    "choices": [
+      "Elli",
+      "Altı",
+      "Seksen",
+      "Otuz"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Ninety",
+    "choices": [
+      "Yirmi",
+      "On beş",
+      "Kırk",
+      "Doksan"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "One Hundred",
+    "choices": [
+      "Yüz",
+      "Üç",
+      "Elli",
+      "Dört"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "Sıfır",
+    "choices": [
+      "0",
+      "100",
+      "13",
+      "70"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Bir",
+    "choices": [
+      "5",
+      "1",
+      "19",
+      "100"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "İki",
+    "choices": [
+      "100",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Üç",
+    "choices": [
+      "8",
+      "19",
+      "18",
+      "3"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Dört",
+    "choices": [
+      "4",
+      "8",
+      "10",
+      "3"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Beş",
+    "choices": [
+      "20",
+      "5",
+      "9",
+      "60"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Altı",
+    "choices": [
+      "80",
+      "19",
+      "6",
+      "90"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Yedi",
+    "choices": [
+      "11",
+      "4",
+      "13",
+      "7"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Sekiz",
+    "choices": [
+      "8",
+      "7",
+      "12",
+      "13"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Dokuz",
+    "choices": [
+      "15",
+      "9",
+      "20",
+      "12"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "On",
+    "choices": [
+      "19",
+      "1",
+      "10",
+      "14"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "On bir",
+    "choices": [
+      "15",
+      "100",
+      "18",
+      "11"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "On iki",
+    "choices": [
+      "12",
+      "16",
+      "8",
+      "40"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "On üç",
+    "choices": [
+      "8",
+      "13",
+      "9",
+      "40"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "On dört",
+    "choices": [
+      "3",
+      "20",
+      "14",
+      "50"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "On beş",
+    "choices": [
+      "6",
+      "0",
+      "17",
+      "15"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "On altı",
+    "choices": [
+      "16",
+      "11",
+      "15",
+      "9"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "On yedi",
+    "choices": [
+      "16",
+      "17",
+      "13",
+      "80"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "On sekiz",
+    "choices": [
+      "5",
+      "3",
+      "18",
+      "40"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "On dokuz",
+    "choices": [
+      "40",
+      "1",
+      "80",
+      "19"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Yirmi",
+    "choices": [
+      "20",
+      "60",
+      "40",
+      "80"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A1"
+  },
+  {
+    "question": "Otuz",
+    "choices": [
+      "5",
+      "30",
+      "13",
+      "50"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Kırk",
+    "choices": [
+      "4",
+      "7",
+      "40",
+      "0"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Elli",
+    "choices": [
+      "70",
+      "9",
+      "90",
+      "50"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Altmış",
+    "choices": [
+      "60",
+      "40",
+      "12",
+      "90"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Yetmiş",
+    "choices": [
+      "12",
+      "70",
+      "60",
+      "90"
+    ],
+    "answer": 1,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Seksen",
+    "choices": [
+      "50",
+      "6",
+      "80",
+      "30"
+    ],
+    "answer": 2,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Doksan",
+    "choices": [
+      "20",
+      "15",
+      "40",
+      "90"
+    ],
+    "answer": 3,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  },
+  {
+    "question": "Yüz",
+    "choices": [
+      "100",
+      "3",
+      "50",
+      "4"
+    ],
+    "answer": 0,
+    "type": "number",
+    "intent": "",
+    "extra": "Write in numerals:",
+    "level": "A2"
+  }
+]
