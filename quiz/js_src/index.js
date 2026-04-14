@@ -242,7 +242,7 @@ function startQuiz() {
             // Pick a word from the quiz answers that matches the language alphabet
             const hangmanWord = quiz.find(q => q.choices[q.answer] && !q.choices[q.answer].includes(' '));
             if (hangmanWord) {
-                fill_hangman(hangmanWord.choices[hangmanWord.answer]);
+                fill_hangman(hangmanWord.choices[hangmanWord.answer], hangmanWord.question, hangmanWord.extra || '');
             }
             if (!doMultipleChoice && !doCrossword) selectPage('sign-hanging_page');
         }

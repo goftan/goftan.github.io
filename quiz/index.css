@@ -1112,6 +1112,81 @@ img.avatar { width: 40%; border-radius: 50%; }
 .logincontainer { padding: 14px; }
 span.psw { float: right; padding-top: 14px; font-size: 0.85rem; }
 
+/* ── Hangman ── */
+#hangman_hint {
+  text-align: center;
+  margin-bottom: var(--sp-4);
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--c-primary-dim);
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-md);
+}
+.hm-extra {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--c-text-3);
+  margin-right: var(--sp-2);
+}
+.hm-clue {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--c-text);
+}
+
+#hangman_answer {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.25em;
+  color: var(--c-text);
+  margin-bottom: var(--sp-6);
+}
+
+.hm-alphabet-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  justify-content: center;
+}
+
+.hm-letter-btn {
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: var(--c-surface);
+  color: var(--c-text);
+  border: 1.5px solid var(--c-border);
+  border-bottom: 3px solid var(--c-border);
+  border-radius: var(--r-md);
+  cursor: pointer;
+  transition: all var(--t-fast);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.hm-letter-btn:hover:not([disabled]) {
+  background: var(--c-primary-dim);
+  border-color: var(--c-primary);
+  border-bottom-color: var(--c-primary-dark);
+  color: var(--c-primary-dark);
+  transform: translateY(-1px);
+}
+.hm-letter-btn.hm-used,
+.hm-letter-btn[disabled] {
+  background: var(--c-surface-alt);
+  color: var(--c-text-3);
+  border-color: var(--c-border);
+  border-bottom-color: var(--c-border);
+  cursor: not-allowed;
+  opacity: 0.5;
+  transform: none;
+}
+
 /* ── Responsive ── */
 @media (max-width: 768px) {
   #wrapper { padding: var(--sp-4) var(--sp-3); }
