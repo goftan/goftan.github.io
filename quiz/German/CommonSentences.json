@@ -56,7 +56,7 @@
     "level": "A1"
   },
   {
-    "question": "Sie ____ tanzen.",
+    "question": "Sie ____ jeden Tag.",
     "choices": [
       "tanzt",
       "tanzen",
@@ -84,7 +84,7 @@
     "level": "A1"
   },
   {
-    "question": "Du ____ fernsehen.",
+    "question": "Du ____ fern.",
     "choices": [
       "siehst",
       "sieht",
@@ -98,7 +98,7 @@
     "level": "A1"
   },
   {
-    "question": "Wir ____ schwimmen.",
+    "question": "Wir ____ im See.",
     "choices": [
       "schwimmst",
       "schwimme",
