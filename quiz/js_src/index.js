@@ -5,7 +5,10 @@ var avialable_languages = [
     'Korean',
     'Turkish',
     'Arabic',
-    'Portuguese',
+    'Portuguese'
+]
+
+var available_programming_languages = [
     'Rust',
     'CPP'
 ]
@@ -90,6 +93,7 @@ function saveSettings() {
     const settings = {
         language: is_language_selected() ? get_selected_language() : null,
         numQuestions: document.getElementById('num_of_questions').value,
+        levels: Array.from(document.querySelectorAll('.mycheckboxqtypes[name="levels"]:checked')).map(el => el.value),
         quizTypes: Array.from(document.querySelectorAll('.mycheckboxqtypes[name="topics"]:checked')).map(el => el.value),
         topics: Array.from(document.querySelectorAll('.mycheckbox:checked')).map(el => el.value),
     };
@@ -112,14 +116,20 @@ function restoreSettings() {
         if (s.numQuestions) {
             document.getElementById('num_of_questions').value = s.numQuestions;
         }
-        // Quiz types and topics are rendered later (fill_quiz_type_checkboxes / fill_topic_checkboxes)
+        // Quiz types, levels and topics are rendered later (fill_quiz_type_checkboxes / fill_topic_checkboxes)
         // Store them for use after those elements exist
+        window._pendingLevels = s.levels || null;
         window._pendingQuizTypes = s.quizTypes || null;
         window._pendingTopics = s.topics || null;
     } catch(e) {}
 }
 
 function applyPendingCheckboxSettings() {
+    if (window._pendingLevels) {
+        document.querySelectorAll('.mycheckboxqtypes[name="levels"]').forEach(el => {
+            el.checked = window._pendingLevels.includes(el.value);
+        });
+    }
     if (window._pendingQuizTypes) {
         document.querySelectorAll('.mycheckboxqtypes[name="topics"]').forEach(el => {
             el.checked = window._pendingQuizTypes.includes(el.value);
@@ -164,6 +174,8 @@ function startQuiz() {
         readers.push(d3.json(get_selected_language() + '/' + topic_name));
     });
 
+    const selectedLevels = Array.from(document.querySelectorAll('.mycheckboxqtypes[name="levels"]:checked')).map(el => el.value);
+
     Promise.allSettled(readers).then(function(files) {
         console.log(files);
         quizall = [];
@@ -171,6 +183,12 @@ function startQuiz() {
         for(a of all) quizall.push(a.value);
         quizall = quizall.filter(x => x !== undefined)
         quiz = [].concat.apply([], quizall);
+
+        // Filter by selected levels; questions without a level field are always included
+        if (selectedLevels.length > 0) {
+            quiz = quiz.filter(q => !q.level || selectedLevels.includes(q.level));
+        }
+
         shuffleArray(quiz);
         quiz_started = true;
 
