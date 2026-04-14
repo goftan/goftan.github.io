@@ -1,0 +1,842 @@
+[
+  {
+    "question": "개",
+    "choices": [
+      "dog",
+      "parrot",
+      "bear",
+      "giraffe"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "dog",
+    "choices": [
+      "개",
+      "소",
+      "독수리",
+      "앵무새"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "고양이",
+    "choices": [
+      "fish",
+      "cat",
+      "bee",
+      "chicken"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "cat",
+    "choices": [
+      "새",
+      "고양이",
+      "돌고래",
+      "호랑이"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "물고기",
+    "choices": [
+      "lion",
+      "fox",
+      "fish",
+      "duck"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "fish",
+    "choices": [
+      "늑대",
+      "말",
+      "물고기",
+      "뱀"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "새",
+    "choices": [
+      "duck",
+      "elephant",
+      "butterfly",
+      "bird"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "bird",
+    "choices": [
+      "닭",
+      "상어",
+      "독수리",
+      "새"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "말",
+    "choices": [
+      "horse",
+      "shark",
+      "wolf",
+      "eagle"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "horse",
+    "choices": [
+      "말",
+      "새",
+      "닭",
+      "코끼리"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "소",
+    "choices": [
+      "giraffe",
+      "cow",
+      "snake",
+      "shark"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "cow",
+    "choices": [
+      "얼룩말",
+      "소",
+      "고양이",
+      "기린"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "돼지",
+    "choices": [
+      "lion",
+      "frog",
+      "pig",
+      "tiger"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "pig",
+    "choices": [
+      "닭",
+      "소",
+      "돼지",
+      "코끼리"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "닭",
+    "choices": [
+      "cow",
+      "shark",
+      "fox",
+      "chicken"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "chicken",
+    "choices": [
+      "펭귄",
+      "벌",
+      "원숭이",
+      "닭"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "토끼",
+    "choices": [
+      "rabbit",
+      "dog",
+      "elephant",
+      "fox"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "rabbit",
+    "choices": [
+      "토끼",
+      "곰",
+      "늑대",
+      "기린"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "오리",
+    "choices": [
+      "elephant",
+      "duck",
+      "frog",
+      "cat"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "duck",
+    "choices": [
+      "새",
+      "오리",
+      "나비",
+      "토끼"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "사자",
+    "choices": [
+      "monkey",
+      "cat",
+      "lion",
+      "giraffe"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "lion",
+    "choices": [
+      "독수리",
+      "개",
+      "사자",
+      "코끼리"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "호랑이",
+    "choices": [
+      "lion",
+      "bird",
+      "giraffe",
+      "tiger"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "tiger",
+    "choices": [
+      "기린",
+      "소",
+      "뱀",
+      "호랑이"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "코끼리",
+    "choices": [
+      "elephant",
+      "fish",
+      "wolf",
+      "dog"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "elephant",
+    "choices": [
+      "코끼리",
+      "고양이",
+      "앵무새",
+      "펭귄"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "곰",
+    "choices": [
+      "deer",
+      "bear",
+      "wolf",
+      "fish"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "bear",
+    "choices": [
+      "악어",
+      "곰",
+      "돌고래",
+      "개"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "뱀",
+    "choices": [
+      "dolphin",
+      "fox",
+      "snake",
+      "zebra"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "snake",
+    "choices": [
+      "원숭이",
+      "고양이",
+      "뱀",
+      "호랑이"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "원숭이",
+    "choices": [
+      "butterfly",
+      "horse",
+      "duck",
+      "monkey"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "monkey",
+    "choices": [
+      "오리",
+      "돌고래",
+      "뱀",
+      "원숭이"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "늑대",
+    "choices": [
+      "wolf",
+      "eagle",
+      "shark",
+      "frog"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "wolf",
+    "choices": [
+      "늑대",
+      "개구리",
+      "토끼",
+      "오리"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "사슴",
+    "choices": [
+      "shark",
+      "deer",
+      "monkey",
+      "penguin"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "deer",
+    "choices": [
+      "벌",
+      "사슴",
+      "코끼리",
+      "호랑이"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "여우",
+    "choices": [
+      "chicken",
+      "deer",
+      "fox",
+      "wolf"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "fox",
+    "choices": [
+      "새",
+      "개구리",
+      "여우",
+      "상어"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "독수리",
+    "choices": [
+      "lion",
+      "crocodile",
+      "giraffe",
+      "eagle"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "eagle",
+    "choices": [
+      "닭",
+      "뱀",
+      "곰",
+      "독수리"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "개구리",
+    "choices": [
+      "frog",
+      "bear",
+      "bee",
+      "snake"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "frog",
+    "choices": [
+      "개구리",
+      "곰",
+      "상어",
+      "말"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "나비",
+    "choices": [
+      "bee",
+      "butterfly",
+      "deer",
+      "pig"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "butterfly",
+    "choices": [
+      "원숭이",
+      "나비",
+      "돌고래",
+      "닭"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "상어",
+    "choices": [
+      "dog",
+      "fox",
+      "shark",
+      "pig"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "shark",
+    "choices": [
+      "원숭이",
+      "악어",
+      "상어",
+      "말"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "돌고래",
+    "choices": [
+      "penguin",
+      "giraffe",
+      "crocodile",
+      "dolphin"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "dolphin",
+    "choices": [
+      "소",
+      "늑대",
+      "나비",
+      "돌고래"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "펭귄",
+    "choices": [
+      "penguin",
+      "butterfly",
+      "snake",
+      "chicken"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "penguin",
+    "choices": [
+      "펭귄",
+      "토끼",
+      "기린",
+      "얼룩말"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "기린",
+    "choices": [
+      "chicken",
+      "giraffe",
+      "tiger",
+      "zebra"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "giraffe",
+    "choices": [
+      "여우",
+      "기린",
+      "오리",
+      "개구리"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "얼룩말",
+    "choices": [
+      "bee",
+      "dolphin",
+      "zebra",
+      "eagle"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "zebra",
+    "choices": [
+      "토끼",
+      "여우",
+      "얼룩말",
+      "뱀"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "악어",
+    "choices": [
+      "eagle",
+      "elephant",
+      "cow",
+      "crocodile"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "crocodile",
+    "choices": [
+      "돼지",
+      "코끼리",
+      "얼룩말",
+      "악어"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "앵무새",
+    "choices": [
+      "parrot",
+      "shark",
+      "monkey",
+      "fox"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "parrot",
+    "choices": [
+      "앵무새",
+      "닭",
+      "여우",
+      "코끼리"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "벌",
+    "choices": [
+      "pig",
+      "bee",
+      "bear",
+      "chicken"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "bee",
+    "choices": [
+      "호랑이",
+      "벌",
+      "상어",
+      "개구리"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  }
+]

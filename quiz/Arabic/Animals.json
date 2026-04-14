@@ -1,0 +1,842 @@
+[
+  {
+    "question": "كلب",
+    "choices": [
+      "dog",
+      "parrot",
+      "bear",
+      "giraffe"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "dog",
+    "choices": [
+      "كلب",
+      "بقرة",
+      "نسر",
+      "ببغاء"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "قطة",
+    "choices": [
+      "fish",
+      "cat",
+      "bee",
+      "chicken"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "cat",
+    "choices": [
+      "طائر",
+      "قطة",
+      "دولفين",
+      "نمر"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "سمكة",
+    "choices": [
+      "lion",
+      "fox",
+      "fish",
+      "duck"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "fish",
+    "choices": [
+      "ذئب",
+      "حصان",
+      "سمكة",
+      "ثعبان"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "طائر",
+    "choices": [
+      "duck",
+      "elephant",
+      "butterfly",
+      "bird"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "bird",
+    "choices": [
+      "دجاجة",
+      "قرش",
+      "نسر",
+      "طائر"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "حصان",
+    "choices": [
+      "horse",
+      "shark",
+      "wolf",
+      "eagle"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "horse",
+    "choices": [
+      "حصان",
+      "طائر",
+      "دجاجة",
+      "فيل"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "بقرة",
+    "choices": [
+      "giraffe",
+      "cow",
+      "snake",
+      "shark"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "cow",
+    "choices": [
+      "حمار وحشي",
+      "بقرة",
+      "قطة",
+      "زرافة"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "خنزير",
+    "choices": [
+      "lion",
+      "frog",
+      "pig",
+      "tiger"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "pig",
+    "choices": [
+      "دجاجة",
+      "بقرة",
+      "خنزير",
+      "فيل"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "دجاجة",
+    "choices": [
+      "cow",
+      "shark",
+      "fox",
+      "chicken"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "chicken",
+    "choices": [
+      "بطريق",
+      "نحلة",
+      "قرد",
+      "دجاجة"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "أرنب",
+    "choices": [
+      "rabbit",
+      "dog",
+      "elephant",
+      "fox"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "rabbit",
+    "choices": [
+      "أرنب",
+      "دب",
+      "ذئب",
+      "زرافة"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "بطة",
+    "choices": [
+      "elephant",
+      "duck",
+      "frog",
+      "cat"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "duck",
+    "choices": [
+      "طائر",
+      "بطة",
+      "فراشة",
+      "أرنب"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "أسد",
+    "choices": [
+      "monkey",
+      "cat",
+      "lion",
+      "giraffe"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "lion",
+    "choices": [
+      "نسر",
+      "كلب",
+      "أسد",
+      "فيل"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "نمر",
+    "choices": [
+      "lion",
+      "bird",
+      "giraffe",
+      "tiger"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "tiger",
+    "choices": [
+      "زرافة",
+      "بقرة",
+      "ثعبان",
+      "نمر"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "فيل",
+    "choices": [
+      "elephant",
+      "fish",
+      "wolf",
+      "dog"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "elephant",
+    "choices": [
+      "فيل",
+      "قطة",
+      "ببغاء",
+      "بطريق"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "دب",
+    "choices": [
+      "deer",
+      "bear",
+      "wolf",
+      "fish"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "bear",
+    "choices": [
+      "تمساح",
+      "دب",
+      "دولفين",
+      "كلب"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "ثعبان",
+    "choices": [
+      "dolphin",
+      "fox",
+      "snake",
+      "zebra"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "snake",
+    "choices": [
+      "قرد",
+      "قطة",
+      "ثعبان",
+      "نمر"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "قرد",
+    "choices": [
+      "butterfly",
+      "horse",
+      "duck",
+      "monkey"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "monkey",
+    "choices": [
+      "بطة",
+      "دولفين",
+      "ثعبان",
+      "قرد"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "ذئب",
+    "choices": [
+      "wolf",
+      "eagle",
+      "shark",
+      "frog"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "wolf",
+    "choices": [
+      "ذئب",
+      "ضفدع",
+      "أرنب",
+      "بطة"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "غزال",
+    "choices": [
+      "shark",
+      "deer",
+      "monkey",
+      "penguin"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "deer",
+    "choices": [
+      "نحلة",
+      "غزال",
+      "فيل",
+      "نمر"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "ثعلب",
+    "choices": [
+      "chicken",
+      "deer",
+      "fox",
+      "wolf"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "fox",
+    "choices": [
+      "طائر",
+      "ضفدع",
+      "ثعلب",
+      "قرش"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "نسر",
+    "choices": [
+      "lion",
+      "crocodile",
+      "giraffe",
+      "eagle"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "eagle",
+    "choices": [
+      "دجاجة",
+      "ثعبان",
+      "دب",
+      "نسر"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "ضفدع",
+    "choices": [
+      "frog",
+      "bear",
+      "bee",
+      "snake"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "frog",
+    "choices": [
+      "ضفدع",
+      "دب",
+      "قرش",
+      "حصان"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "فراشة",
+    "choices": [
+      "bee",
+      "butterfly",
+      "deer",
+      "pig"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "butterfly",
+    "choices": [
+      "قرد",
+      "فراشة",
+      "دولفين",
+      "دجاجة"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "قرش",
+    "choices": [
+      "dog",
+      "fox",
+      "shark",
+      "pig"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "shark",
+    "choices": [
+      "قرد",
+      "تمساح",
+      "قرش",
+      "حصان"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "دولفين",
+    "choices": [
+      "penguin",
+      "giraffe",
+      "crocodile",
+      "dolphin"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "dolphin",
+    "choices": [
+      "بقرة",
+      "ذئب",
+      "فراشة",
+      "دولفين"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "بطريق",
+    "choices": [
+      "penguin",
+      "butterfly",
+      "snake",
+      "chicken"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "penguin",
+    "choices": [
+      "بطريق",
+      "أرنب",
+      "زرافة",
+      "حمار وحشي"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "زرافة",
+    "choices": [
+      "chicken",
+      "giraffe",
+      "tiger",
+      "zebra"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "giraffe",
+    "choices": [
+      "ثعلب",
+      "زرافة",
+      "بطة",
+      "ضفدع"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "حمار وحشي",
+    "choices": [
+      "bee",
+      "dolphin",
+      "zebra",
+      "eagle"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "zebra",
+    "choices": [
+      "أرنب",
+      "ثعلب",
+      "حمار وحشي",
+      "ثعبان"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "تمساح",
+    "choices": [
+      "eagle",
+      "elephant",
+      "cow",
+      "crocodile"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "crocodile",
+    "choices": [
+      "خنزير",
+      "فيل",
+      "حمار وحشي",
+      "تمساح"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "ببغاء",
+    "choices": [
+      "parrot",
+      "shark",
+      "monkey",
+      "fox"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "parrot",
+    "choices": [
+      "ببغاء",
+      "دجاجة",
+      "ثعلب",
+      "فيل"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "نحلة",
+    "choices": [
+      "pig",
+      "bee",
+      "bear",
+      "chicken"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "bee",
+    "choices": [
+      "نمر",
+      "نحلة",
+      "قرش",
+      "ضفدع"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  }
+]

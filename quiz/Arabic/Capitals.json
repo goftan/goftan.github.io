@@ -1,0 +1,702 @@
+[
+  {
+    "question": "باريس",
+    "choices": [
+      "فرنسا",
+      "كندا",
+      "أستراليا",
+      "ألمانيا"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "فرنسا",
+    "choices": [
+      "باريس",
+      "طوكيو",
+      "إسلام آباد",
+      "روما"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "لندن",
+    "choices": [
+      "اليابان",
+      "المملكة المتحدة",
+      "البرازيل",
+      "الصين"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "المملكة المتحدة",
+    "choices": [
+      "إسلام آباد",
+      "لندن",
+      "موسكو",
+      "نيروبي"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "برلين",
+    "choices": [
+      "المملكة المتحدة",
+      "روسيا",
+      "ألمانيا",
+      "جنوب أفريقيا"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "ألمانيا",
+    "choices": [
+      "روما",
+      "أبوجا",
+      "برلين",
+      "سيول"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "روما",
+    "choices": [
+      "إندونيسيا",
+      "تركيا",
+      "فرنسا",
+      "إيطاليا"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "إيطاليا",
+    "choices": [
+      "أوتاوا",
+      "بانكوك",
+      "مكسيكو سيتي",
+      "روما"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "مدريد",
+    "choices": [
+      "إسبانيا",
+      "إيران",
+      "كينيا",
+      "مصر"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "إسبانيا",
+    "choices": [
+      "مدريد",
+      "مكسيكو سيتي",
+      "روما",
+      "كانبيرا"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "طوكيو",
+    "choices": [
+      "البرازيل",
+      "اليابان",
+      "الأرجنتين",
+      "باكستان"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "اليابان",
+    "choices": [
+      "بانكوك",
+      "طوكيو",
+      "طهران",
+      "أنقرة"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "بكين",
+    "choices": [
+      "مصر",
+      "تركيا",
+      "الصين",
+      "تايلاند"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "الصين",
+    "choices": [
+      "موسكو",
+      "الرياض",
+      "بكين",
+      "إسلام آباد"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "موسكو",
+    "choices": [
+      "اليابان",
+      "الصين",
+      "البرازيل",
+      "روسيا"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "روسيا",
+    "choices": [
+      "بريتوريا",
+      "القاهرة",
+      "مكسيكو سيتي",
+      "موسكو"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "واشنطن",
+    "choices": [
+      "الولايات المتحدة",
+      "المملكة العربية السعودية",
+      "المكسيك",
+      "باكستان"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "الولايات المتحدة",
+    "choices": [
+      "واشنطن",
+      "روما",
+      "بكين",
+      "أنقرة"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "القاهرة",
+    "choices": [
+      "إندونيسيا",
+      "مصر",
+      "روسيا",
+      "تركيا"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "مصر",
+    "choices": [
+      "كانبيرا",
+      "القاهرة",
+      "الرياض",
+      "طهران"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "طهران",
+    "choices": [
+      "أستراليا",
+      "المملكة العربية السعودية",
+      "إيران",
+      "إيطاليا"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "إيران",
+    "choices": [
+      "لندن",
+      "بكين",
+      "طهران",
+      "برلين"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "سيول",
+    "choices": [
+      "فرنسا",
+      "نيجيريا",
+      "روسيا",
+      "كوريا الجنوبية"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "كوريا الجنوبية",
+    "choices": [
+      "أنقرة",
+      "كانبيرا",
+      "بكين",
+      "سيول"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "أنقرة",
+    "choices": [
+      "تركيا",
+      "مصر",
+      "إندونيسيا",
+      "إيران"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "تركيا",
+    "choices": [
+      "أنقرة",
+      "بكين",
+      "طوكيو",
+      "سيول"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "أوتاوا",
+    "choices": [
+      "كوريا الجنوبية",
+      "كندا",
+      "مصر",
+      "تركيا"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "كندا",
+    "choices": [
+      "كانبيرا",
+      "أوتاوا",
+      "مكسيكو سيتي",
+      "طهران"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "كانبيرا",
+    "choices": [
+      "اليابان",
+      "المملكة العربية السعودية",
+      "أستراليا",
+      "كينيا"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "أستراليا",
+    "choices": [
+      "بريتوريا",
+      "برازيليا",
+      "كانبيرا",
+      "لندن"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "برازيليا",
+    "choices": [
+      "مصر",
+      "المملكة المتحدة",
+      "كندا",
+      "البرازيل"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "البرازيل",
+    "choices": [
+      "بانكوك",
+      "موسكو",
+      "أوتاوا",
+      "برازيليا"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "مكسيكو سيتي",
+    "choices": [
+      "المكسيك",
+      "فرنسا",
+      "كوريا الجنوبية",
+      "كينيا"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "المكسيك",
+    "choices": [
+      "مكسيكو سيتي",
+      "أنقرة",
+      "برازيليا",
+      "أبوجا"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "بيونس آيريس",
+    "choices": [
+      "كندا",
+      "الأرجنتين",
+      "إسبانيا",
+      "البرازيل"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "الأرجنتين",
+    "choices": [
+      "برازيليا",
+      "بيونس آيريس",
+      "أنقرة",
+      "كانبيرا"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "نيروبي",
+    "choices": [
+      "كوريا الجنوبية",
+      "إندونيسيا",
+      "كينيا",
+      "المملكة المتحدة"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "كينيا",
+    "choices": [
+      "روما",
+      "بانكوك",
+      "نيروبي",
+      "واشنطن"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "إسلام آباد",
+    "choices": [
+      "المملكة المتحدة",
+      "كوريا الجنوبية",
+      "إسبانيا",
+      "باكستان"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "باكستان",
+    "choices": [
+      "مكسيكو سيتي",
+      "أبوجا",
+      "روما",
+      "إسلام آباد"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "جاكرتا",
+    "choices": [
+      "إندونيسيا",
+      "أستراليا",
+      "المملكة المتحدة",
+      "البرازيل"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "إندونيسيا",
+    "choices": [
+      "جاكرتا",
+      "نيروبي",
+      "باريس",
+      "سيول"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "بانكوك",
+    "choices": [
+      "مصر",
+      "تايلاند",
+      "البرازيل",
+      "ألمانيا"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "تايلاند",
+    "choices": [
+      "بريتوريا",
+      "بانكوك",
+      "أبوجا",
+      "سيول"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "الرياض",
+    "choices": [
+      "إيران",
+      "إيطاليا",
+      "المملكة العربية السعودية",
+      "تركيا"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "المملكة العربية السعودية",
+    "choices": [
+      "طوكيو",
+      "أوتاوا",
+      "الرياض",
+      "أبوجا"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "أبوجا",
+    "choices": [
+      "البرازيل",
+      "كندا",
+      "مصر",
+      "نيجيريا"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "نيجيريا",
+    "choices": [
+      "القاهرة",
+      "موسكو",
+      "كانبيرا",
+      "أبوجا"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "بريتوريا",
+    "choices": [
+      "جنوب أفريقيا",
+      "ألمانيا",
+      "البرازيل",
+      "فرنسا"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "جنوب أفريقيا",
+    "choices": [
+      "بريتوريا",
+      "لندن",
+      "أبوجا",
+      "بكين"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  }
+]

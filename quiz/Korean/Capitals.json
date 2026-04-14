@@ -1,0 +1,702 @@
+[
+  {
+    "question": "파리",
+    "choices": [
+      "프랑스",
+      "캐나다",
+      "호주",
+      "독일"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "프랑스",
+    "choices": [
+      "파리",
+      "도쿄",
+      "이슬라마바드",
+      "로마"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "런던",
+    "choices": [
+      "일본",
+      "영국",
+      "브라질",
+      "중국"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "영국",
+    "choices": [
+      "이슬라마바드",
+      "런던",
+      "모스크바",
+      "나이로비"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "베를린",
+    "choices": [
+      "영국",
+      "러시아",
+      "독일",
+      "남아프리카공화국"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "독일",
+    "choices": [
+      "로마",
+      "아부자",
+      "베를린",
+      "서울"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "로마",
+    "choices": [
+      "인도네시아",
+      "터키",
+      "프랑스",
+      "이탈리아"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "이탈리아",
+    "choices": [
+      "오타와",
+      "방콕",
+      "멕시코시티",
+      "로마"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "마드리드",
+    "choices": [
+      "스페인",
+      "이란",
+      "케냐",
+      "이집트"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "스페인",
+    "choices": [
+      "마드리드",
+      "멕시코시티",
+      "로마",
+      "캔버라"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "도쿄",
+    "choices": [
+      "브라질",
+      "일본",
+      "아르헨티나",
+      "파키스탄"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "일본",
+    "choices": [
+      "방콕",
+      "도쿄",
+      "테헤란",
+      "앙카라"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "베이징",
+    "choices": [
+      "이집트",
+      "터키",
+      "중국",
+      "태국"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "중국",
+    "choices": [
+      "모스크바",
+      "리야드",
+      "베이징",
+      "이슬라마바드"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "모스크바",
+    "choices": [
+      "일본",
+      "중국",
+      "브라질",
+      "러시아"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "러시아",
+    "choices": [
+      "프리토리아",
+      "카이로",
+      "멕시코시티",
+      "모스크바"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "워싱턴",
+    "choices": [
+      "미국",
+      "사우디아라비아",
+      "멕시코",
+      "파키스탄"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "미국",
+    "choices": [
+      "워싱턴",
+      "로마",
+      "베이징",
+      "앙카라"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "카이로",
+    "choices": [
+      "인도네시아",
+      "이집트",
+      "러시아",
+      "터키"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "이집트",
+    "choices": [
+      "캔버라",
+      "카이로",
+      "리야드",
+      "테헤란"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "테헤란",
+    "choices": [
+      "호주",
+      "사우디아라비아",
+      "이란",
+      "이탈리아"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "이란",
+    "choices": [
+      "런던",
+      "베이징",
+      "테헤란",
+      "베를린"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "서울",
+    "choices": [
+      "프랑스",
+      "나이지리아",
+      "러시아",
+      "한국"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "한국",
+    "choices": [
+      "앙카라",
+      "캔버라",
+      "베이징",
+      "서울"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "앙카라",
+    "choices": [
+      "터키",
+      "이집트",
+      "인도네시아",
+      "이란"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "터키",
+    "choices": [
+      "앙카라",
+      "베이징",
+      "도쿄",
+      "서울"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "오타와",
+    "choices": [
+      "한국",
+      "캐나다",
+      "이집트",
+      "터키"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "캐나다",
+    "choices": [
+      "캔버라",
+      "오타와",
+      "멕시코시티",
+      "테헤란"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "캔버라",
+    "choices": [
+      "일본",
+      "사우디아라비아",
+      "호주",
+      "케냐"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "호주",
+    "choices": [
+      "프리토리아",
+      "브라질리아",
+      "캔버라",
+      "런던"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "브라질리아",
+    "choices": [
+      "이집트",
+      "영국",
+      "캐나다",
+      "브라질"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "브라질",
+    "choices": [
+      "방콕",
+      "모스크바",
+      "오타와",
+      "브라질리아"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "멕시코시티",
+    "choices": [
+      "멕시코",
+      "프랑스",
+      "한국",
+      "케냐"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "멕시코",
+    "choices": [
+      "멕시코시티",
+      "앙카라",
+      "브라질리아",
+      "아부자"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "부에노스아이레스",
+    "choices": [
+      "캐나다",
+      "아르헨티나",
+      "스페인",
+      "브라질"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "아르헨티나",
+    "choices": [
+      "브라질리아",
+      "부에노스아이레스",
+      "앙카라",
+      "캔버라"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "나이로비",
+    "choices": [
+      "한국",
+      "인도네시아",
+      "케냐",
+      "영국"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "케냐",
+    "choices": [
+      "로마",
+      "방콕",
+      "나이로비",
+      "워싱턴"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "이슬라마바드",
+    "choices": [
+      "영국",
+      "한국",
+      "스페인",
+      "파키스탄"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "파키스탄",
+    "choices": [
+      "멕시코시티",
+      "아부자",
+      "로마",
+      "이슬라마바드"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "자카르타",
+    "choices": [
+      "인도네시아",
+      "호주",
+      "영국",
+      "브라질"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "인도네시아",
+    "choices": [
+      "자카르타",
+      "나이로비",
+      "파리",
+      "서울"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "방콕",
+    "choices": [
+      "이집트",
+      "태국",
+      "브라질",
+      "독일"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "태국",
+    "choices": [
+      "프리토리아",
+      "방콕",
+      "아부자",
+      "서울"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "리야드",
+    "choices": [
+      "이란",
+      "이탈리아",
+      "사우디아라비아",
+      "터키"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "사우디아라비아",
+    "choices": [
+      "도쿄",
+      "오타와",
+      "리야드",
+      "아부자"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "아부자",
+    "choices": [
+      "브라질",
+      "캐나다",
+      "이집트",
+      "나이지리아"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "나이지리아",
+    "choices": [
+      "카이로",
+      "모스크바",
+      "캔버라",
+      "아부자"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "프리토리아",
+    "choices": [
+      "남아프리카공화국",
+      "독일",
+      "브라질",
+      "프랑스"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "남아프리카공화국",
+    "choices": [
+      "프리토리아",
+      "런던",
+      "아부자",
+      "베이징"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "question": "köpek",
+    "choices": [
+      "dog",
+      "parrot",
+      "bear",
+      "giraffe"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "dog",
+    "choices": [
+      "köpek",
+      "inek",
+      "kartal",
+      "papağan"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "kedi",
+    "choices": [
+      "fish",
+      "cat",
+      "bee",
+      "chicken"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "cat",
+    "choices": [
+      "kuş",
+      "kedi",
+      "yunus",
+      "kaplan"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "balık",
+    "choices": [
+      "lion",
+      "fox",
+      "fish",
+      "duck"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "fish",
+    "choices": [
+      "kurt",
+      "at",
+      "balık",
+      "yılan"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "kuş",
+    "choices": [
+      "duck",
+      "elephant",
+      "butterfly",
+      "bird"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "bird",
+    "choices": [
+      "tavuk",
+      "köpekbalığı",
+      "kartal",
+      "kuş"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "at",
+    "choices": [
+      "horse",
+      "shark",
+      "wolf",
+      "eagle"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "horse",
+    "choices": [
+      "at",
+      "kuş",
+      "tavuk",
+      "fil"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "inek",
+    "choices": [
+      "giraffe",
+      "cow",
+      "snake",
+      "shark"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "cow",
+    "choices": [
+      "zebra",
+      "inek",
+      "kedi",
+      "zürafa"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "domuz",
+    "choices": [
+      "lion",
+      "frog",
+      "pig",
+      "tiger"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "pig",
+    "choices": [
+      "tavuk",
+      "inek",
+      "domuz",
+      "fil"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "tavuk",
+    "choices": [
+      "cow",
+      "shark",
+      "fox",
+      "chicken"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "chicken",
+    "choices": [
+      "penguen",
+      "arı",
+      "maymun",
+      "tavuk"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "tavşan",
+    "choices": [
+      "rabbit",
+      "dog",
+      "elephant",
+      "fox"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "rabbit",
+    "choices": [
+      "tavşan",
+      "ayı",
+      "kurt",
+      "zürafa"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "ördek",
+    "choices": [
+      "elephant",
+      "duck",
+      "frog",
+      "cat"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "duck",
+    "choices": [
+      "kuş",
+      "ördek",
+      "kelebek",
+      "tavşan"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "aslan",
+    "choices": [
+      "monkey",
+      "cat",
+      "lion",
+      "giraffe"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "lion",
+    "choices": [
+      "kartal",
+      "köpek",
+      "aslan",
+      "fil"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "kaplan",
+    "choices": [
+      "lion",
+      "bird",
+      "giraffe",
+      "tiger"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "tiger",
+    "choices": [
+      "zürafa",
+      "inek",
+      "yılan",
+      "kaplan"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "fil",
+    "choices": [
+      "elephant",
+      "fish",
+      "wolf",
+      "dog"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "elephant",
+    "choices": [
+      "fil",
+      "kedi",
+      "papağan",
+      "penguen"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "ayı",
+    "choices": [
+      "deer",
+      "bear",
+      "wolf",
+      "fish"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "bear",
+    "choices": [
+      "timsah",
+      "ayı",
+      "yunus",
+      "köpek"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "yılan",
+    "choices": [
+      "dolphin",
+      "fox",
+      "snake",
+      "zebra"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "snake",
+    "choices": [
+      "maymun",
+      "kedi",
+      "yılan",
+      "kaplan"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "maymun",
+    "choices": [
+      "butterfly",
+      "horse",
+      "duck",
+      "monkey"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "monkey",
+    "choices": [
+      "ördek",
+      "yunus",
+      "yılan",
+      "maymun"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "kurt",
+    "choices": [
+      "wolf",
+      "eagle",
+      "shark",
+      "frog"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "wolf",
+    "choices": [
+      "kurt",
+      "kurbağa",
+      "tavşan",
+      "ördek"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "geyik",
+    "choices": [
+      "shark",
+      "deer",
+      "monkey",
+      "penguin"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "deer",
+    "choices": [
+      "arı",
+      "geyik",
+      "fil",
+      "kaplan"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "tilki",
+    "choices": [
+      "chicken",
+      "deer",
+      "fox",
+      "wolf"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "fox",
+    "choices": [
+      "kuş",
+      "kurbağa",
+      "tilki",
+      "köpekbalığı"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "kartal",
+    "choices": [
+      "lion",
+      "crocodile",
+      "giraffe",
+      "eagle"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "eagle",
+    "choices": [
+      "tavuk",
+      "yılan",
+      "ayı",
+      "kartal"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "kurbağa",
+    "choices": [
+      "frog",
+      "bear",
+      "bee",
+      "snake"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "frog",
+    "choices": [
+      "kurbağa",
+      "ayı",
+      "köpekbalığı",
+      "at"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "kelebek",
+    "choices": [
+      "bee",
+      "butterfly",
+      "deer",
+      "pig"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "butterfly",
+    "choices": [
+      "maymun",
+      "kelebek",
+      "yunus",
+      "tavuk"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "köpekbalığı",
+    "choices": [
+      "dog",
+      "fox",
+      "shark",
+      "pig"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "shark",
+    "choices": [
+      "maymun",
+      "timsah",
+      "köpekbalığı",
+      "at"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "yunus",
+    "choices": [
+      "penguin",
+      "giraffe",
+      "crocodile",
+      "dolphin"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "dolphin",
+    "choices": [
+      "inek",
+      "kurt",
+      "kelebek",
+      "yunus"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "penguen",
+    "choices": [
+      "penguin",
+      "butterfly",
+      "snake",
+      "chicken"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "penguin",
+    "choices": [
+      "penguen",
+      "tavşan",
+      "zürafa",
+      "zebra"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "zürafa",
+    "choices": [
+      "chicken",
+      "giraffe",
+      "tiger",
+      "zebra"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "giraffe",
+    "choices": [
+      "tilki",
+      "zürafa",
+      "ördek",
+      "kurbağa"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "zebra",
+    "choices": [
+      "bee",
+      "dolphin",
+      "zebra",
+      "eagle"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "zebra",
+    "choices": [
+      "tavşan",
+      "tilki",
+      "zebra",
+      "yılan"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "timsah",
+    "choices": [
+      "eagle",
+      "elephant",
+      "cow",
+      "crocodile"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "crocodile",
+    "choices": [
+      "domuz",
+      "fil",
+      "zebra",
+      "timsah"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "papağan",
+    "choices": [
+      "parrot",
+      "shark",
+      "monkey",
+      "fox"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "parrot",
+    "choices": [
+      "papağan",
+      "tavuk",
+      "tilki",
+      "fil"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "arı",
+    "choices": [
+      "pig",
+      "bee",
+      "bear",
+      "chicken"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "bee",
+    "choices": [
+      "kaplan",
+      "arı",
+      "köpekbalığı",
+      "kurbağa"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  }
+]

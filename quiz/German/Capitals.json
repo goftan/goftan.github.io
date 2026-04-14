@@ -1,0 +1,702 @@
+[
+  {
+    "question": "Paris",
+    "choices": [
+      "Frankreich",
+      "Kanada",
+      "Australien",
+      "Deutschland"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "Frankreich",
+    "choices": [
+      "Paris",
+      "Tokio",
+      "Islamabad",
+      "Rom"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "London",
+    "choices": [
+      "Japan",
+      "Vereinigtes Königreich",
+      "Brasilien",
+      "China"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "Vereinigtes Königreich",
+    "choices": [
+      "Islamabad",
+      "London",
+      "Moskau",
+      "Nairobi"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "Berlin",
+    "choices": [
+      "Vereinigtes Königreich",
+      "Russland",
+      "Deutschland",
+      "Südafrika"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "Deutschland",
+    "choices": [
+      "Rom",
+      "Abuja",
+      "Berlin",
+      "Seoul"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "Rom",
+    "choices": [
+      "Indonesien",
+      "Türkei",
+      "Frankreich",
+      "Italien"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "Italien",
+    "choices": [
+      "Ottawa",
+      "Bangkok",
+      "Mexiko-Stadt",
+      "Rom"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "Madrid",
+    "choices": [
+      "Spanien",
+      "Iran",
+      "Kenia",
+      "Ägypten"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "Spanien",
+    "choices": [
+      "Madrid",
+      "Mexiko-Stadt",
+      "Rom",
+      "Canberra"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "Tokio",
+    "choices": [
+      "Brasilien",
+      "Japan",
+      "Argentinien",
+      "Pakistan"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "Japan",
+    "choices": [
+      "Bangkok",
+      "Tokio",
+      "Teheran",
+      "Ankara"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "Peking",
+    "choices": [
+      "Ägypten",
+      "Türkei",
+      "China",
+      "Thailand"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "China",
+    "choices": [
+      "Moskau",
+      "Riad",
+      "Peking",
+      "Islamabad"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "Moskau",
+    "choices": [
+      "Japan",
+      "China",
+      "Brasilien",
+      "Russland"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "Russland",
+    "choices": [
+      "Pretoria",
+      "Kairo",
+      "Mexiko-Stadt",
+      "Moskau"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "Washington",
+    "choices": [
+      "Vereinigte Staaten",
+      "Saudi-Arabien",
+      "Mexiko",
+      "Pakistan"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A1"
+  },
+  {
+    "question": "Vereinigte Staaten",
+    "choices": [
+      "Washington",
+      "Rom",
+      "Peking",
+      "Ankara"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A1"
+  },
+  {
+    "question": "Kairo",
+    "choices": [
+      "Indonesien",
+      "Ägypten",
+      "Russland",
+      "Türkei"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "Ägypten",
+    "choices": [
+      "Canberra",
+      "Kairo",
+      "Riad",
+      "Teheran"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "Teheran",
+    "choices": [
+      "Australien",
+      "Saudi-Arabien",
+      "Iran",
+      "Italien"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "Iran",
+    "choices": [
+      "London",
+      "Peking",
+      "Teheran",
+      "Berlin"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "Seoul",
+    "choices": [
+      "Frankreich",
+      "Nigeria",
+      "Russland",
+      "Südkorea"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "Südkorea",
+    "choices": [
+      "Ankara",
+      "Canberra",
+      "Peking",
+      "Seoul"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "Ankara",
+    "choices": [
+      "Türkei",
+      "Ägypten",
+      "Indonesien",
+      "Iran"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "Türkei",
+    "choices": [
+      "Ankara",
+      "Peking",
+      "Tokio",
+      "Seoul"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "Ottawa",
+    "choices": [
+      "Südkorea",
+      "Kanada",
+      "Ägypten",
+      "Türkei"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "Kanada",
+    "choices": [
+      "Canberra",
+      "Ottawa",
+      "Mexiko-Stadt",
+      "Teheran"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "Canberra",
+    "choices": [
+      "Japan",
+      "Saudi-Arabien",
+      "Australien",
+      "Kenia"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "Australien",
+    "choices": [
+      "Pretoria",
+      "Brasília",
+      "Canberra",
+      "London"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "Brasília",
+    "choices": [
+      "Ägypten",
+      "Vereinigtes Königreich",
+      "Kanada",
+      "Brasilien"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "Brasilien",
+    "choices": [
+      "Bangkok",
+      "Moskau",
+      "Ottawa",
+      "Brasília"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "Mexiko-Stadt",
+    "choices": [
+      "Mexiko",
+      "Frankreich",
+      "Südkorea",
+      "Kenia"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "Mexiko",
+    "choices": [
+      "Mexiko-Stadt",
+      "Ankara",
+      "Brasília",
+      "Abuja"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "Buenos Aires",
+    "choices": [
+      "Kanada",
+      "Argentinien",
+      "Spanien",
+      "Brasilien"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "A2"
+  },
+  {
+    "question": "Argentinien",
+    "choices": [
+      "Brasília",
+      "Buenos Aires",
+      "Ankara",
+      "Canberra"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "A2"
+  },
+  {
+    "question": "Nairobi",
+    "choices": [
+      "Südkorea",
+      "Indonesien",
+      "Kenia",
+      "Vereinigtes Königreich"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "Kenia",
+    "choices": [
+      "Rom",
+      "Bangkok",
+      "Nairobi",
+      "Washington"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "Islamabad",
+    "choices": [
+      "Vereinigtes Königreich",
+      "Südkorea",
+      "Spanien",
+      "Pakistan"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "Pakistan",
+    "choices": [
+      "Mexiko-Stadt",
+      "Abuja",
+      "Rom",
+      "Islamabad"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "Jakarta",
+    "choices": [
+      "Indonesien",
+      "Australien",
+      "Vereinigtes Königreich",
+      "Brasilien"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "Indonesien",
+    "choices": [
+      "Jakarta",
+      "Nairobi",
+      "Paris",
+      "Seoul"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "Bangkok",
+    "choices": [
+      "Ägypten",
+      "Thailand",
+      "Brasilien",
+      "Deutschland"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "Thailand",
+    "choices": [
+      "Pretoria",
+      "Bangkok",
+      "Abuja",
+      "Seoul"
+    ],
+    "answer": 1,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "Riad",
+    "choices": [
+      "Iran",
+      "Italien",
+      "Saudi-Arabien",
+      "Türkei"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "Saudi-Arabien",
+    "choices": [
+      "Tokio",
+      "Ottawa",
+      "Riad",
+      "Abuja"
+    ],
+    "answer": 2,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "Abuja",
+    "choices": [
+      "Brasilien",
+      "Kanada",
+      "Ägypten",
+      "Nigeria"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "Nigeria",
+    "choices": [
+      "Kairo",
+      "Moskau",
+      "Canberra",
+      "Abuja"
+    ],
+    "answer": 3,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  },
+  {
+    "question": "Pretoria",
+    "choices": [
+      "Südafrika",
+      "Deutschland",
+      "Brasilien",
+      "Frankreich"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The country with the following capital:",
+    "level": "B1"
+  },
+  {
+    "question": "Südafrika",
+    "choices": [
+      "Pretoria",
+      "London",
+      "Abuja",
+      "Peking"
+    ],
+    "answer": 0,
+    "type": "capitals",
+    "intent": "",
+    "extra": "The capital of:",
+    "level": "B1"
+  }
+]

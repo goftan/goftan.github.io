@@ -1,0 +1,842 @@
+[
+  {
+    "question": "perro",
+    "choices": [
+      "dog",
+      "parrot",
+      "bear",
+      "giraffe"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "dog",
+    "choices": [
+      "perro",
+      "vaca",
+      "águila",
+      "loro"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "gato",
+    "choices": [
+      "fish",
+      "cat",
+      "bee",
+      "chicken"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "cat",
+    "choices": [
+      "pájaro",
+      "gato",
+      "delfín",
+      "tigre"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "pez",
+    "choices": [
+      "lion",
+      "fox",
+      "fish",
+      "duck"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "fish",
+    "choices": [
+      "lobo",
+      "caballo",
+      "pez",
+      "serpiente"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "pájaro",
+    "choices": [
+      "duck",
+      "elephant",
+      "butterfly",
+      "bird"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "bird",
+    "choices": [
+      "pollo",
+      "tiburón",
+      "águila",
+      "pájaro"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "caballo",
+    "choices": [
+      "horse",
+      "shark",
+      "wolf",
+      "eagle"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "horse",
+    "choices": [
+      "caballo",
+      "pájaro",
+      "pollo",
+      "elefante"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "vaca",
+    "choices": [
+      "giraffe",
+      "cow",
+      "snake",
+      "shark"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "cow",
+    "choices": [
+      "cebra",
+      "vaca",
+      "gato",
+      "jirafa"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "cerdo",
+    "choices": [
+      "lion",
+      "frog",
+      "pig",
+      "tiger"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "pig",
+    "choices": [
+      "pollo",
+      "vaca",
+      "cerdo",
+      "elefante"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "pollo",
+    "choices": [
+      "cow",
+      "shark",
+      "fox",
+      "chicken"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "chicken",
+    "choices": [
+      "pingüino",
+      "abeja",
+      "mono",
+      "pollo"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "conejo",
+    "choices": [
+      "rabbit",
+      "dog",
+      "elephant",
+      "fox"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "rabbit",
+    "choices": [
+      "conejo",
+      "oso",
+      "lobo",
+      "jirafa"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "pato",
+    "choices": [
+      "elephant",
+      "duck",
+      "frog",
+      "cat"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "duck",
+    "choices": [
+      "pájaro",
+      "pato",
+      "mariposa",
+      "conejo"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A1"
+  },
+  {
+    "question": "león",
+    "choices": [
+      "monkey",
+      "cat",
+      "lion",
+      "giraffe"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "lion",
+    "choices": [
+      "águila",
+      "perro",
+      "león",
+      "elefante"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "tigre",
+    "choices": [
+      "lion",
+      "bird",
+      "giraffe",
+      "tiger"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "tiger",
+    "choices": [
+      "jirafa",
+      "vaca",
+      "serpiente",
+      "tigre"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "elefante",
+    "choices": [
+      "elephant",
+      "fish",
+      "wolf",
+      "dog"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "elephant",
+    "choices": [
+      "elefante",
+      "gato",
+      "loro",
+      "pingüino"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "oso",
+    "choices": [
+      "deer",
+      "bear",
+      "wolf",
+      "fish"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "bear",
+    "choices": [
+      "cocodrilo",
+      "oso",
+      "delfín",
+      "perro"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "serpiente",
+    "choices": [
+      "dolphin",
+      "fox",
+      "snake",
+      "zebra"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "snake",
+    "choices": [
+      "mono",
+      "gato",
+      "serpiente",
+      "tigre"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "mono",
+    "choices": [
+      "butterfly",
+      "horse",
+      "duck",
+      "monkey"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "monkey",
+    "choices": [
+      "pato",
+      "delfín",
+      "serpiente",
+      "mono"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "lobo",
+    "choices": [
+      "wolf",
+      "eagle",
+      "shark",
+      "frog"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "wolf",
+    "choices": [
+      "lobo",
+      "rana",
+      "conejo",
+      "pato"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "ciervo",
+    "choices": [
+      "shark",
+      "deer",
+      "monkey",
+      "penguin"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "deer",
+    "choices": [
+      "abeja",
+      "ciervo",
+      "elefante",
+      "tigre"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "zorro",
+    "choices": [
+      "chicken",
+      "deer",
+      "fox",
+      "wolf"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "fox",
+    "choices": [
+      "pájaro",
+      "rana",
+      "zorro",
+      "tiburón"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "águila",
+    "choices": [
+      "lion",
+      "crocodile",
+      "giraffe",
+      "eagle"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "eagle",
+    "choices": [
+      "pollo",
+      "serpiente",
+      "oso",
+      "águila"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "rana",
+    "choices": [
+      "frog",
+      "bear",
+      "bee",
+      "snake"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "frog",
+    "choices": [
+      "rana",
+      "oso",
+      "tiburón",
+      "caballo"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "mariposa",
+    "choices": [
+      "bee",
+      "butterfly",
+      "deer",
+      "pig"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "butterfly",
+    "choices": [
+      "mono",
+      "mariposa",
+      "delfín",
+      "pollo"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "A2"
+  },
+  {
+    "question": "tiburón",
+    "choices": [
+      "dog",
+      "fox",
+      "shark",
+      "pig"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "shark",
+    "choices": [
+      "mono",
+      "cocodrilo",
+      "tiburón",
+      "caballo"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "delfín",
+    "choices": [
+      "penguin",
+      "giraffe",
+      "crocodile",
+      "dolphin"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "dolphin",
+    "choices": [
+      "vaca",
+      "lobo",
+      "mariposa",
+      "delfín"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "pingüino",
+    "choices": [
+      "penguin",
+      "butterfly",
+      "snake",
+      "chicken"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "penguin",
+    "choices": [
+      "pingüino",
+      "conejo",
+      "jirafa",
+      "cebra"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "jirafa",
+    "choices": [
+      "chicken",
+      "giraffe",
+      "tiger",
+      "zebra"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "giraffe",
+    "choices": [
+      "zorro",
+      "jirafa",
+      "pato",
+      "rana"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "cebra",
+    "choices": [
+      "bee",
+      "dolphin",
+      "zebra",
+      "eagle"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "zebra",
+    "choices": [
+      "conejo",
+      "zorro",
+      "cebra",
+      "serpiente"
+    ],
+    "answer": 2,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "cocodrilo",
+    "choices": [
+      "eagle",
+      "elephant",
+      "cow",
+      "crocodile"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "crocodile",
+    "choices": [
+      "cerdo",
+      "elefante",
+      "cebra",
+      "cocodrilo"
+    ],
+    "answer": 3,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "loro",
+    "choices": [
+      "parrot",
+      "shark",
+      "monkey",
+      "fox"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "parrot",
+    "choices": [
+      "loro",
+      "pollo",
+      "zorro",
+      "elefante"
+    ],
+    "answer": 0,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "abeja",
+    "choices": [
+      "pig",
+      "bee",
+      "bear",
+      "chicken"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  },
+  {
+    "question": "bee",
+    "choices": [
+      "tigre",
+      "abeja",
+      "tiburón",
+      "rana"
+    ],
+    "answer": 1,
+    "type": "animal",
+    "intent": "",
+    "extra": "The translation of",
+    "level": "B1"
+  }
+]
