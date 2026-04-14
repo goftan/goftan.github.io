@@ -56,17 +56,17 @@
     "level": "A1"
   },
   {
-    "question": "Find the synonym for 'kalt'.",
+    "question": "Find the antonym for 'kalt'.",
     "choices": [
       "warm",
       "frisch",
       "heiß",
       "cool"
     ],
-    "answer": 1,
+    "answer": 0,
     "type": "synonym/antonym",
     "intent": "",
-    "extra": "Synonymof:",
+    "extra": "Antonymof:",
     "level": "A1"
   },
   {
@@ -116,7 +116,7 @@
     "choices": [
       "schwer",
       "dicht",
-      "simpel",
+      "einfach",
       "groß"
     ],
     "answer": 2,
@@ -175,7 +175,7 @@
       "gelassen",
       "aufgeregt"
     ],
-    "answer": 2,
+    "answer": 1,
     "type": "synonym/antonym",
     "intent": "",
     "extra": "Synonymof:",
