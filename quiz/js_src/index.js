@@ -90,12 +90,10 @@ function fill_topic_checkboxes() {
 }
 
 function saveSettings() {
+    // Only persist language and question count — checkboxes always default to all-selected
     const settings = {
         language: is_language_selected() ? get_selected_language() : null,
         numQuestions: document.getElementById('num_of_questions').value,
-        levels: Array.from(document.querySelectorAll('.mycheckboxqtypes[name="levels"]:checked')).map(el => el.value),
-        quizTypes: Array.from(document.querySelectorAll('.mycheckboxqtypes[name="topics"]:checked')).map(el => el.value),
-        topics: Array.from(document.querySelectorAll('.mycheckbox:checked')).map(el => el.value),
     };
     localStorage.setItem('quizSettings', JSON.stringify(settings));
 }
@@ -116,30 +114,13 @@ function restoreSettings() {
         if (s.numQuestions) {
             document.getElementById('num_of_questions').value = s.numQuestions;
         }
-        // Quiz types, levels and topics are rendered later (fill_quiz_type_checkboxes / fill_topic_checkboxes)
-        // Store them for use after those elements exist
-        window._pendingLevels = s.levels || null;
-        window._pendingQuizTypes = s.quizTypes || null;
-        window._pendingTopics = s.topics || null;
     } catch(e) {}
 }
 
 function applyPendingCheckboxSettings() {
-    if (window._pendingLevels) {
-        document.querySelectorAll('.mycheckboxqtypes[name="levels"]').forEach(el => {
-            el.checked = window._pendingLevels.includes(el.value);
-        });
-    }
-    if (window._pendingQuizTypes) {
-        document.querySelectorAll('.mycheckboxqtypes[name="topics"]').forEach(el => {
-            el.checked = window._pendingQuizTypes.includes(el.value);
-        });
-    }
-    if (window._pendingTopics) {
-        document.querySelectorAll('.mycheckbox').forEach(el => {
-            el.checked = window._pendingTopics.includes(el.value);
-        });
-    }
+    // Ensure all topics and quiz types are checked (always the default)
+    document.querySelectorAll('.mycheckbox').forEach(el => { el.checked = true; });
+    document.querySelectorAll('.mycheckboxqtypes[name="topics"]').forEach(el => { el.checked = true; });
 }
 
 function shuffleArray(array) {
