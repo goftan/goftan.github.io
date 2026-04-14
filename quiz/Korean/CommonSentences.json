@@ -10,7 +10,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 오전 아홉 시 에 깨워줘",
@@ -23,7 +24,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 동안 알람 설정해",
@@ -36,7 +38,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "올리 ------ 동안 멈춰줘",
@@ -49,7 +52,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 간 일시정지 해",
@@ -62,7 +66,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------",
@@ -75,7 +80,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "여기 조명 조금 더 ------ 해 줘",
@@ -88,7 +94,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 조명 설정해",
@@ -101,7 +108,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 불 꺼 줘",
@@ -114,7 +122,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 불 어둡게 해줘",
@@ -127,7 +136,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 불 어둡게 해줘",
@@ -140,7 +150,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 불 꺼 줘",
@@ -153,7 +164,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 조명 꺼",
@@ -166,7 +178,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "조명 ------ 설정해줘",
@@ -179,7 +192,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "올리 조명 ------ 설정해",
@@ -192,7 +206,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 조명 어둡게",
@@ -205,7 +220,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 불 어둡게 해줘",
@@ -218,7 +234,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 어둡게 해줘",
@@ -231,7 +248,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "올리 ------ 청소해",
@@ -244,7 +262,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 청소",
@@ -257,7 +276,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 청소기 돌려",
@@ -270,7 +290,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "올리 ------ 청소기 돌려",
@@ -283,7 +304,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "청소는 좋은 거지 먼지가 가득해 ------ 깨끗하게 해줘",
@@ -296,7 +318,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 청소기 돌려",
@@ -309,7 +332,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 청소기 돌려줘",
@@ -322,7 +346,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 노래 다시 틀어줘",
@@ -335,7 +360,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "그 ------ 다시 한번 듣고 싶어",
@@ -348,7 +374,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 몇 시야",
@@ -361,7 +388,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 몇 시인지 알려줘",
@@ -374,7 +402,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 몇 시인지 알려줘",
@@ -387,7 +416,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 시간대의 시간 말해줘",
@@ -400,7 +430,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "올리 가장 인기 있는 ------ 배달 알려줘",
@@ -413,7 +444,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 음식에 대한 가장 높은 등급의 배달 옵션",
@@ -426,7 +458,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 식당의 가장 인기 있는 배달 옵션 보여줘",
@@ -439,7 +472,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "올리 가장 인기 있는 ------ 배달 옵션 찾아줘",
@@ -452,7 +486,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "추천할 만한 포장 ------ 있으면 좋겠어",
@@ -465,7 +500,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "올리야 ------ 먹고 싶은데 어떤 추천이 있을까",
@@ -478,7 +514,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 근처에서 내 중식 테이크아웃 찾아줘",
@@ -491,7 +528,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 근처에서 내 태국 포장음식 찾아",
@@ -504,7 +542,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "오전 ------ 알람 취소해줘",
@@ -517,7 +556,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 알람 중지",
@@ -530,7 +570,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 축구 소식 있어",
@@ -543,7 +584,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 의 겨울잠 들려주세요",
@@ -556,7 +598,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 취기를 빌려 듣고 싶어",
@@ -569,7 +612,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 의 우리가 헤어져야 했던 이유 재생",
@@ -582,7 +626,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "나는 ------ 음악 좋아",
@@ -595,7 +640,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "내가 가장 좋아하는 밴드는 ------",
@@ -608,7 +654,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "나는 ------ 노래 좋아",
@@ -621,7 +668,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "조명 ------ 올려주세요",
@@ -634,7 +682,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 작동시켜줘",
@@ -647,7 +696,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 켜",
@@ -660,7 +710,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 날짜 말해줘",
@@ -673,7 +724,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 은 며칠이야",
@@ -686,7 +738,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 초밥 주문해줘",
@@ -699,7 +752,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 좀 주문 해줘",
@@ -712,7 +766,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 저녁 짜장면으로 시켜줄래",
@@ -725,7 +780,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 저녁 포장 시켜도 될까",
@@ -738,7 +794,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 포장하나",
@@ -751,7 +808,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 알람 설정",
@@ -764,7 +822,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 알람 맞춰줘",
@@ -777,7 +836,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 여덟 시 로 알람 설정해줘",
@@ -790,7 +850,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------",
@@ -803,7 +864,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------",
@@ -816,7 +878,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "지금 밖에 ------",
@@ -829,7 +892,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 기상정보 알려줘",
@@ -842,7 +906,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "한 ------ 예보",
@@ -855,7 +920,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 날씨는 어때",
@@ -868,7 +934,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 날씨는 어때",
@@ -881,7 +948,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 날씨 알려줘",
@@ -894,7 +962,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 뉴스 말해줘",
@@ -907,7 +976,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 뉴스에 어떤 뉴스 나와",
@@ -920,7 +990,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "어떤 게 ------ 최신 뉴스야",
@@ -933,7 +1004,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 틀어줘",
@@ -946,7 +1018,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 틀어",
@@ -959,7 +1032,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 재생",
@@ -972,7 +1046,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 좀 틀어줘",
@@ -985,7 +1060,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 좀 들려줘",
@@ -998,7 +1074,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "이 트랙 ------",
@@ -1011,7 +1088,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "이 재생목록 ------",
@@ -1024,7 +1102,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "볼륨 ------ 설정해",
@@ -1037,7 +1116,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "volume_down",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "나한테 ------ 농담해줘",
@@ -1050,7 +1130,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 무슨 날이야",
@@ -1063,7 +1144,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 관련해서 나에게 말해줘",
@@ -1076,7 +1158,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "quirky",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 주문해",
@@ -1089,7 +1172,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 짜장면 주문해줘",
@@ -1102,7 +1186,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 주문해",
@@ -1115,7 +1200,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "제 ------ 얼마나 걸릴까요",
@@ -1128,7 +1214,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 배달 상태",
@@ -1141,7 +1228,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "내 ------ 플레이리스트 재생해주세요",
@@ -1154,7 +1242,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "나의 ------ 재생 목록 재생",
@@ -1167,7 +1256,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "나는 ------ 좋아해",
@@ -1180,7 +1270,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 좀 틀어줄래",
@@ -1193,7 +1284,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 듣고 싶어",
@@ -1206,7 +1298,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "올리 나 ------ 듣는 것 좋아해",
@@ -1219,7 +1312,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 실행",
@@ -1232,7 +1326,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "밝기 ------ 설정",
@@ -1245,7 +1340,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 할 수 있어",
@@ -1258,7 +1354,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 가능해",
@@ -1271,7 +1368,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "집으로 ------ 해주니",
@@ -1284,7 +1382,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "올리 집에도 ------",
@@ -1297,7 +1396,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 알람 맞춰",
@@ -1310,7 +1410,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 오전 여섯 시 알람 설정",
@@ -1323,7 +1424,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 오전 일곱시 로 기상 설정해줘",
@@ -1336,7 +1438,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "최신 ------ 소식 전해줘",
@@ -1349,7 +1452,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "최신 ------ 관련 뉴스를 알려줘",
@@ -1362,7 +1466,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 뉴스 말해줘",
@@ -1375,7 +1480,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 소식 알려주세요",
@@ -1388,7 +1494,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "지금 ------",
@@ -1401,7 +1508,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "내 ------ 플레이리스트 재생",
@@ -1414,7 +1522,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "나의 ------ 재생 목록 틀어",
@@ -1427,7 +1536,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "나의 재생 목록 에서 ------ 재생",
@@ -1440,7 +1550,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "내가 좋아하는 플레이리스트 에서 ------ 재생",
@@ -1453,7 +1564,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 켜줘",
@@ -1466,7 +1578,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 켜 줘",
@@ -1479,7 +1592,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "내 ------ 켜 줘",
@@ -1492,7 +1606,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 테이크아웃 돼",
@@ -1505,7 +1620,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "내가 가장 좋아하는 ------ 포장 가능해",
@@ -1518,7 +1634,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 식당에서 테이크아웃 주문 할 수 있나요",
@@ -1531,7 +1648,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 날씨 어때",
@@ -1544,7 +1662,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 날씨 알려줘",
@@ -1557,7 +1676,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "조명 ------ 만들어 줘",
@@ -1570,7 +1690,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 조명 조정해줘",
@@ -1583,7 +1704,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 더 밝게 만들어 줘",
@@ -1596,7 +1718,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 며칠이야",
@@ -1609,7 +1732,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 무슨 요일이야",
@@ -1622,7 +1746,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ 날씨 어때",
@@ -1635,7 +1760,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "밖에 ------",
@@ -1648,7 +1774,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "올리야 밖에 ------ 오니",
@@ -1661,7 +1788,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "내가 ------ 우산 가져가야 하나",
@@ -1674,7 +1802,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "내 ------ 의 음악 재생",
@@ -1687,7 +1816,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "등 ------ 으로 바꿔줘",
@@ -1700,7 +1830,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 청소 해줘",
@@ -1713,7 +1844,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 켜",
@@ -1726,7 +1858,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 꺼 줘",
@@ -1739,7 +1872,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 는 몇 시야",
@@ -1752,7 +1886,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 은 몇 시야",
@@ -1765,7 +1900,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 초밥을 주문하는 것을 도와주실 수 있나요",
@@ -1778,7 +1914,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 여섯 시 알람 설정",
@@ -1791,7 +1928,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 네 시 알람 설정",
@@ -1804,7 +1942,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "올리 ------ 콘서트 가라고 알려줘",
@@ -1817,7 +1956,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 콘서트에 가기 알람 켜줘",
@@ -1830,7 +1970,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "나 ------ 비행기 를 위해 설정한 알람 있나",
@@ -1843,7 +1984,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 에 일어나기 알람 설정했나",
@@ -1856,7 +1998,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 에 비가 오나",
@@ -1869,7 +2012,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 비가 올까",
@@ -1882,7 +2026,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 무슨 일이 벌어지고 있니",
@@ -1895,7 +2040,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 무슨 일이 일어나고 있어",
@@ -1908,7 +2054,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 무슨 일이야",
@@ -1921,7 +2068,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 뉴스 좀 보여 줘",
@@ -1934,7 +2082,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "올리야 ------ 뉴스 보여줘",
@@ -1947,7 +2096,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 뉴스 읽어줘",
@@ -1960,7 +2110,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "올리 ------",
@@ -1973,7 +2124,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 좀 들려줘",
@@ -1986,7 +2138,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "나 지금 ------ 듣고 싶은데 너는 어때",
@@ -1999,7 +2152,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "올리 데스 ------ 지금 틀어",
@@ -2012,7 +2166,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 바로 들려줘",
@@ -2025,7 +2180,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "올리 내가 가장 좋아하는 ------ 연주자 의 좋은 트랙 들려줘",
@@ -2038,7 +2194,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "올리야 나의 가장 좋아하는 ------ 음악 틀어줘",
@@ -2051,7 +2208,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 조명 으로 바꿔줘",
@@ -2064,7 +2222,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 불 켜줘",
@@ -2077,7 +2236,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "불 ------ 으로 만들어줘",
@@ -2090,7 +2250,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 지금 몇 시야",
@@ -2103,7 +2264,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "그 가수는 ------ 라는 노래 제목으로 뭘 나타내려 했을까",
@@ -2116,7 +2278,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 노래 누가 커버했어",
@@ -2129,7 +2292,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 날씨는 어때",
@@ -2142,7 +2306,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 날씨는 어때",
@@ -2155,7 +2320,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 지역 오늘의 날씨 예보는 어때",
@@ -2168,7 +2334,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "최근 ------ 상황 어때",
@@ -2181,7 +2348,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 뭐야",
@@ -2194,7 +2362,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "다음 ------ 선거 누가 이길까",
@@ -2207,7 +2376,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 해가 비칠까",
@@ -2220,7 +2390,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 에는 비가 올까",
@@ -2233,7 +2404,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 바람이 불까",
@@ -2246,7 +2418,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 불 켜 줘",
@@ -2259,7 +2432,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lighton",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 밝혀줘",
@@ -2272,7 +2446,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "지금 ------ 은 몇 시야",
@@ -2285,7 +2460,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 작동 시켜줘",
@@ -2298,7 +2474,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 진공청소기 돌려",
@@ -2311,7 +2488,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 작동 시켜줘",
@@ -2324,7 +2502,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 무슨 일 있을까",
@@ -2337,7 +2516,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 신문의 헤드라인 말해줄래",
@@ -2350,7 +2530,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 재생",
@@ -2363,7 +2544,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 노래들 셔플해줘",
@@ -2376,7 +2558,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 재생해줘",
@@ -2389,7 +2572,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 예보 알려줘",
@@ -2402,7 +2586,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 피자 주문해줘",
@@ -2415,7 +2600,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 먹고 싶은데 점심 좀 시켜줄래",
@@ -2428,7 +2614,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "알렉사 나 ------ 먹고 싶어 점심 좀 시켜줄래",
@@ -2441,7 +2628,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 샌드위치랑 스프 포장 주문해줘",
@@ -2454,7 +2642,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 며칠 남았어",
@@ -2467,7 +2656,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 마지막 날은 무슨 요일이야",
@@ -2480,7 +2670,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 현충일은 무슨 요일이야",
@@ -2493,7 +2684,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "밝기 ------ 높여줘",
@@ -2506,7 +2698,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "불 ------ 설정",
@@ -2519,7 +2712,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 조용히 해줘",
@@ -2532,7 +2726,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 하루 말하지 마",
@@ -2545,7 +2740,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 비가 오나",
@@ -2558,7 +2754,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 대전 날씨 어떨지 알려줘",
@@ -2571,7 +2768,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 우산 챙겨야 하나",
@@ -2584,7 +2782,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "내 ------ 비활성화",
@@ -2597,7 +2796,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "내 ------ 활성화",
@@ -2610,7 +2810,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 켜줘",
@@ -2623,7 +2824,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 기술 관련 뉴스 알려줘",
@@ -2636,7 +2838,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------",
@@ -2649,7 +2852,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------",
@@ -2662,7 +2866,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------",
@@ -2675,7 +2880,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 날씨 상황이 어떻게 돼",
@@ -2688,7 +2894,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 날씨 알고 싶은데",
@@ -2701,7 +2908,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 날씨 를 알고싶어",
@@ -2714,7 +2922,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 에 눈이 오나",
@@ -2727,7 +2936,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "올리야 나 ------ 불쌍한 사람 도와줬어",
@@ -2740,7 +2950,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 작동 시켜줘",
@@ -2753,7 +2964,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 날씨는 어떨 것 같아",
@@ -2766,7 +2978,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 비가 올까",
@@ -2779,7 +2992,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 바깥 기온 은 어때",
@@ -2792,7 +3006,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 기상 예보가 어떻게 돼",
@@ -2805,7 +3020,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 기상 예보 알려줘",
@@ -2818,7 +3034,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 비가 올까",
@@ -2831,7 +3048,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 눈 내릴까",
@@ -2844,7 +3062,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "그 ------ 테이크아웃 주문을 하는지 알아봐",
@@ -2857,7 +3076,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 테이크아웃하는지 알아 봐",
@@ -2870,7 +3090,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 테이크아웃 메뉴 있어",
@@ -2883,7 +3104,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 무슨 요일이야",
@@ -2896,7 +3118,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 무슨 요일이야",
@@ -2909,7 +3132,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 은 무슨 요일이야",
@@ -2922,7 +3146,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 울리는 내 알람 시간 언제야",
@@ -2935,7 +3160,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 에서 팔 번 트랙 틀어줘",
@@ -2948,7 +3174,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 노래 중 두 번째 노래 재생",
@@ -2961,7 +3188,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 이니",
@@ -2974,7 +3202,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 날씨는 어때",
@@ -2987,7 +3216,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "지금 ------ 날씨 맑아",
@@ -3000,7 +3230,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 의 멜로디 틀어주세요",
@@ -3013,7 +3244,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "내 음악 앱 열어서 ------ 의 겨울을 걷는다 틀어줘",
@@ -3026,7 +3258,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 의 나랑 아니면 노래 재생해주세요",
@@ -3039,7 +3272,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 조명 꺼",
@@ -3052,7 +3286,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 속보 확인해",
@@ -3065,7 +3300,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 의 획기적인 뉴스는 뭐야",
@@ -3078,7 +3314,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 사망 소식",
@@ -3091,7 +3328,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 관련 뉴스 뜨면 바로 알려줘",
@@ -3104,7 +3342,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 꺼 줘",
@@ -3117,7 +3356,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 켜",
@@ -3130,7 +3370,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 소켓 전환",
@@ -3143,7 +3384,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "내 플레이리스트 에서 ------ 노래 재생해줘",
@@ -3156,7 +3398,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 이 정오 라면 캘리포니아 는 몇 시야",
@@ -3169,7 +3412,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 시간과 태평양 표준시 의 시차는 얼마야",
@@ -3182,7 +3426,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 의 나비 재생해줘",
@@ -3195,7 +3440,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 노래 무엇이든 재생해줘",
@@ -3208,7 +3454,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 따뜻할까",
@@ -3221,7 +3468,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 조명 색 바꿔줘",
@@ -3234,7 +3482,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 조명 색 계속 바꿔줄래",
@@ -3247,7 +3496,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 조명 색 어둡게 바꿔줘",
@@ -3260,7 +3510,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ 음악 듣고 싶어",
@@ -3273,7 +3524,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 동안 록 음악 틀어줄 수 있어",
@@ -3286,7 +3538,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 농담해줘",
@@ -3299,7 +3552,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "내 방 조명들 ------ 바꿔",
@@ -3312,7 +3566,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "내 방 조명 ------ 색 으로 바꿔줘",
@@ -3325,7 +3580,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 잘 수 있게 내 조명 바꿔",
@@ -3338,7 +3594,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 알람 설정해줘",
@@ -3351,7 +3608,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 알람 만들어줘",
@@ -3364,7 +3622,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 에 기상 알람 맞춰줘",
@@ -3377,7 +3636,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 뉴스 뭐 있어",
@@ -3390,7 +3650,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 켜 줘",
@@ -3403,7 +3664,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 불 꺼 줘",
@@ -3416,7 +3678,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 불 꺼 줘",
@@ -3429,7 +3692,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 불 꺼 줘",
@@ -3442,7 +3706,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "이번주 ------ 날씨 어떨 것 같아",
@@ -3455,7 +3720,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "현재 바깥 날씨 얼마나 ------",
@@ -3468,7 +3734,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 무슨 요일이지",
@@ -3481,7 +3748,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "다음 ------ 은 며칠이야",
@@ -3494,7 +3762,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 목록 틀어",
@@ -3507,7 +3776,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 노래 틀어",
@@ -3520,7 +3790,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 비가 올까",
@@ -3533,7 +3804,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 재킷 입어야 하나",
@@ -3546,7 +3818,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------",
@@ -3559,7 +3832,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "앨범 ------ 해 줘",
@@ -3572,7 +3846,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 들려줘",
@@ -3585,7 +3860,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 음악 들려줘",
@@ -3598,7 +3874,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 작동",
@@ -3611,7 +3888,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "가장 최신 ------ 말해줘",
@@ -3624,7 +3902,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 누가 앞서고 있어",
@@ -3637,7 +3916,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 며칠이야",
@@ -3650,7 +3930,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 불 파란색 으로 바꿔줘",
@@ -3663,7 +3944,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 불 빨간색 으로 바꿔줘",
@@ -3676,7 +3958,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 조명 초록색 으로 바꿔줘",
@@ -3689,7 +3972,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 음악 듣고 싶어",
@@ -3702,7 +3986,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 듣고 싶어",
@@ -3715,7 +4000,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "내 ------ 불 밝게 해줘",
@@ -3728,7 +4014,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 꺼 줘",
@@ -3741,7 +4028,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 노래 틀어줘",
@@ -3754,7 +4042,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 재생해줘",
@@ -3767,7 +4056,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 노래들 열어줘",
@@ -3780,7 +4070,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 소식 찾아줘",
@@ -3793,7 +4084,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 관련 뉴스 열어줘",
@@ -3806,7 +4098,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 관련 뉴스 좀 찾아줘",
@@ -3819,7 +4112,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 는 지금 몇 시야",
@@ -3832,7 +4126,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 는 무슨 시간대야",
@@ -3845,7 +4140,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 는 몇 시야",
@@ -3858,7 +4154,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "지금 ------ 는 몇 시야",
@@ -3871,7 +4168,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 은 지금 몇 시야",
@@ -3884,7 +4182,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "바깥 ------ 어때",
@@ -3897,7 +4196,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "밖에 날씨 ------",
@@ -3910,7 +4210,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "밖에 날씨 ------",
@@ -3923,7 +4224,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "네가 아는 ------ 농담이 뭐야",
@@ -3936,7 +4238,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "네가 아는 ------ 농담 뭐 있어",
@@ -3949,7 +4252,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 농담 뭐 있어",
@@ -3962,7 +4266,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "전등 색깔 ------ 으로 바꿔줘",
@@ -3975,7 +4280,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "색상이 ------ 인지 확인해",
@@ -3988,7 +4294,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 조명 으로 바꿔줘",
@@ -4001,7 +4308,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 몇 시야",
@@ -4014,7 +4322,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 는 몇 시야",
@@ -4027,7 +4336,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 노래들 열어",
@@ -4040,7 +4350,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 음소거 부탁해",
@@ -4053,7 +4364,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 농담이나 나한테 말해줘",
@@ -4066,7 +4378,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "가장 최근의 ------ 뉴스가 뭐야",
@@ -4079,7 +4392,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 뉴스 읽어줘",
@@ -4092,7 +4406,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 알람 맞춰줘",
@@ -4105,7 +4420,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 에 기상 알람 설정해",
@@ -4118,7 +4434,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 에 리마인더 알람 맞춰줘",
@@ -4131,7 +4448,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 알람 만들어줘",
@@ -4144,7 +4462,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 알람 켜",
@@ -4157,7 +4476,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 알람 설정해",
@@ -4170,7 +4490,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 앨범 찾아줘",
@@ -4183,7 +4504,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 가 부른 노래 틀어",
@@ -4196,7 +4518,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "음악 ------ 틀어줘",
@@ -4209,7 +4532,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 농담이 뭐야",
@@ -4222,7 +4546,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 농담 해줘",
@@ -4235,7 +4560,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 볼륨 높여줘",
@@ -4248,7 +4574,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "volume_up",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 노래 셔플 뒤로 넣어줘",
@@ -4261,7 +4588,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 그 음악 다시 틀어줘",
@@ -4274,7 +4602,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 불 꺼 줘",
@@ -4287,7 +4616,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 조명 꺼지도록 설정해",
@@ -4300,7 +4630,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 아무거나 틀어",
@@ -4313,7 +4644,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 음악 좀 구할 수 있어",
@@ -4326,7 +4658,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 로 설정된 알람 있어",
@@ -4339,7 +4672,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 알람 상황 어때",
@@ -4352,7 +4686,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 알람 꺼줘",
@@ -4365,7 +4700,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "내 ------ 알람 취소",
@@ -4378,7 +4714,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 알람 삭제해줘",
@@ -4391,7 +4728,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "지금 ------ 이 어때",
@@ -4404,7 +4742,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "얼마나 ------",
@@ -4417,7 +4756,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "얼마나 ------",
@@ -4430,7 +4770,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 에 생일 얼마나 있어",
@@ -4443,7 +4784,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 은 십이일 이야",
@@ -4456,7 +4798,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 에 크리스마스 가 있어",
@@ -4469,7 +4812,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "같은 ------ 십 분 동안 반복해",
@@ -4482,7 +4826,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "오직 특정 가수 ------ 플레이해",
@@ -4495,7 +4840,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "목록 에서 ------ 재생",
@@ -4508,7 +4854,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 조명 하나 꺼",
@@ -4521,7 +4868,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 꺼",
@@ -4534,7 +4882,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 비가 올까",
@@ -4547,7 +4896,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 오후 다섯 시 삼십 분 에 일몰이려나",
@@ -4560,7 +4910,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 비가 올 가능성 있어",
@@ -4573,7 +4924,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "요즘 ------ 는 뭐야",
@@ -4586,7 +4938,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 새로운 소식은 뭐가 있니",
@@ -4599,7 +4952,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 시간대로 몇 시야",
@@ -4612,7 +4966,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "지금 얼마나 ------",
@@ -4625,7 +4980,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "지금 라디오에서 들을 수 있는 ------ 들려줄래",
@@ -4638,7 +4994,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "저녁 식사 를 위한 ------ 음악 지금 켜주세요",
@@ -4651,7 +5008,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 의 아침 이슬 듣고 싶어",
@@ -4664,7 +5022,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 히트곡 틀어줄래",
@@ -4677,7 +5036,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "내가 좋아하는 ------ 노래 듣고 싶어",
@@ -4690,7 +5050,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 알람 시작하게 변경해",
@@ -4703,7 +5064,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 날씨 어때",
@@ -4716,7 +5078,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 날씨는 어때",
@@ -4729,7 +5092,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 일기 예보는 어때",
@@ -4742,7 +5106,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 동안 음소거",
@@ -4755,7 +5120,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 오전 여섯 시 에 일어나고 싶어요",
@@ -4768,7 +5134,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 오전 일곱 시 알람 설정해주시겠어요",
@@ -4781,7 +5148,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "다음 ------ 오전 여덟 시 에 기상 알람 울려주시겠어요",
@@ -4794,7 +5162,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 플레이리스트 재생",
@@ -4807,7 +5176,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 은 무슨 요일이야",
@@ -4820,7 +5190,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "그 ------ 의 마지막 날은 뭐야",
@@ -4833,7 +5204,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 는 몇 시야",
@@ -4846,7 +5218,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 표준시로 지금 몇 시지",
@@ -4859,7 +5232,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 관련 최근 논란은 뭐니",
@@ -4872,7 +5246,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 대한 최신 논란은 무엇이니",
@@ -4885,7 +5260,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ 노래 라디오에서 재생해주세요",
@@ -4898,7 +5274,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 들려줘",
@@ -4911,7 +5288,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 최근 앨범 최근 히트곡 노래 틀어",
@@ -4924,7 +5302,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 관련 뉴스 있으면 알려줘",
@@ -4937,7 +5316,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 관련 새소식 알림 설정해",
@@ -4950,7 +5330,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 관련 소식 알려줘",
@@ -4963,7 +5344,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 시작해",
@@ -4976,7 +5358,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 돌려줘",
@@ -4989,7 +5372,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 관련 재밌는 농담은 뭐가있을까",
@@ -5002,7 +5386,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 관한 농담 말해줘",
@@ -5015,7 +5400,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "나를 위해 ------ 에 관한 농담 찾아줘",
@@ -5028,7 +5414,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 이 노래 재생 하라고 알려줘",
@@ -5041,7 +5428,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 노래 들려줘",
@@ -5054,7 +5442,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 켜 줘",
@@ -5067,7 +5456,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 최고 온도 는 몇도야",
@@ -5080,7 +5470,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "불 ------ 올려줘",
@@ -5093,7 +5484,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "조명 ------ 올려줘",
@@ -5106,7 +5498,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "내가 ------ 로 설정한 알람 있어",
@@ -5119,7 +5512,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 조명 꺼 줘",
@@ -5132,7 +5526,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "조명 제어 ------ 불 꺼 줘",
@@ -5145,7 +5540,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 음악 좀 찾아줘",
@@ -5158,7 +5554,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 음악 좀 듣고 싶어",
@@ -5171,7 +5568,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 현재 날씨는 어때",
@@ -5184,7 +5582,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 현재 날씨는 어때",
@@ -5197,7 +5596,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------",
@@ -5210,7 +5610,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 현재 시간",
@@ -5223,7 +5624,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 의 현재 시간",
@@ -5236,7 +5638,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "여기가 ------ 일 때 호주 는 몇 시인지 알 수 있을까",
@@ -5249,7 +5652,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 랑 서울 시차가 몇 시간이나 나는 지 알려 줄 수 있어",
@@ -5262,7 +5666,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "나는 ------ 두개랑 콜라 한개 빨리 주문해줘",
@@ -5275,7 +5680,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 두 개 주문해줘",
@@ -5288,7 +5694,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 한 판을 주문해",
@@ -5301,7 +5708,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "충전되면 내 ------ 꺼주세요",
@@ -5314,7 +5722,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "나 집 에 도착하면 ------ 플러그 켜 줘",
@@ -5327,7 +5736,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 충전되기 전에 플러그 끄고 싶어",
@@ -5340,7 +5750,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 대해 알려줘",
@@ -5353,7 +5764,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 에 관해 업데이트 해줘",
@@ -5366,7 +5778,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "stock",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 김건희 학력 위조 관련 뉴스 팔로우 해줘",
@@ -5379,7 +5792,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "내 ------ 틀어줄래",
@@ -5392,7 +5806,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 의 노래 재생해",
@@ -5405,7 +5820,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 오후 여섯시 에 듣던 노래 틀어줘",
@@ -5418,7 +5834,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 지금 몇 시니",
@@ -5431,7 +5848,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 시간 알려줘",
@@ -5444,7 +5862,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "지금 ------ 시간 알려줘",
@@ -5457,7 +5876,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "방금 음식을 주문했는데 ------ 전화해줘",
@@ -5470,7 +5890,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 현황 체크해줘",
@@ -5483,7 +5904,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 오고 있는지 식당에 전화해",
@@ -5496,7 +5918,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 밝게 해줄래",
@@ -5509,7 +5932,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 무슨 일이야",
@@ -5522,7 +5946,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 말 좀 해줘",
@@ -5535,7 +5960,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 노래 틀어줄래",
@@ -5548,7 +5974,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "지금 ------ 듣고 싶어",
@@ -5561,7 +5988,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "지금 ------ 경기 누가 선두야",
@@ -5574,7 +6002,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 업데이트 전해줘",
@@ -5587,7 +6016,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 헤드라인 읽어줘",
@@ -5600,7 +6030,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 마지막 소식 듣고 싶어",
@@ -5613,7 +6044,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "마지막 ------ 속보 보여 줘",
@@ -5626,7 +6058,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 뉴스 알고 싶어",
@@ -5639,7 +6072,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 가장 최근 뉴스 읽어줘",
@@ -5652,7 +6086,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 속보 알 수 있을까",
@@ -5665,7 +6100,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 아침 네 시에 알람 설정해줘",
@@ -5678,7 +6114,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 나 깨워줄 알람 만들어줘",
@@ -5691,7 +6128,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 나 깨워주는 알람 맞춰줘",
@@ -5704,7 +6142,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 기상 통계정보 알려줘",
@@ -5717,7 +6156,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 기상정보 보여줘",
@@ -5730,7 +6170,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "이번 ------ 날씨 요약해줘",
@@ -5743,7 +6184,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 노래들 듣고 싶어",
@@ -5756,7 +6198,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 노래 별이 진다네 틀어줘",
@@ -5769,7 +6212,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "이 노래 뒤에 ------ 최신 노래 틀어",
@@ -5782,7 +6226,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 밖은 얼마나 춥나",
@@ -5795,7 +6240,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 기온 은 몇도야",
@@ -5808,7 +6254,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 날씨 얼마나 습한가",
@@ -5821,7 +6268,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 및 소울 장르 음악 시작해",
@@ -5834,7 +6282,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "모든 최신 ------ 노래 재생해줘",
@@ -5847,7 +6296,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "다음으로 ------ 재생",
@@ -5860,7 +6310,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "뭐가 ------",
@@ -5873,7 +6324,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "내 ------ 에서 노래 재생해",
@@ -5886,7 +6338,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 볼륨 낮춰",
@@ -5899,7 +6352,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "volume_down",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 시간대로 바꿔줘",
@@ -5912,7 +6366,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 시간대를 인도 표준시 로 변경해",
@@ -5925,7 +6380,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 꺼줄 수 있어",
@@ -5938,7 +6394,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "내 충전기 연결 하게 ------ 켜 줘",
@@ -5951,7 +6408,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "내 동글에 연결할 ------ 켜줘",
@@ -5964,7 +6422,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 날씨는 어때",
@@ -5977,7 +6436,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 날씨는 어떨 것 같아",
@@ -5990,7 +6450,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 일기 예보 알려줘",
@@ -6003,7 +6464,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "내 ------ 최신 소식들 알려 줄 수 있니",
@@ -6016,7 +6478,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "내 ------ 가장 최신 뉴스 검색해줄래",
@@ -6029,7 +6492,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "최신 ------ 뉴스에 관해 말해줄래",
@@ -6042,7 +6506,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "최신 ------ 소식 말해주세요",
@@ -6055,7 +6520,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "요즘 ------ 어떤 일들이 벌어지고 있니",
@@ -6068,7 +6534,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 뉴스 업데이트 전해줘",
@@ -6081,7 +6548,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 새로운 소식 어떤 것들이 있니",
@@ -6094,7 +6562,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 최신 업데이트 된 소식 알려줘",
@@ -6107,7 +6576,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 최신 뉴스 업데이트 보여 줘",
@@ -6120,7 +6590,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 뉴스에 나오면 알려줘",
@@ -6133,7 +6604,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "세계에서 ------ 일어나고 있는지 알려줘",
@@ -6146,7 +6618,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 알려줘",
@@ -6159,7 +6632,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 의 첫 눈 재생",
@@ -6172,7 +6646,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 의 마이 유니버스 틀어줘",
@@ -6185,7 +6660,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 의 피 땀 눈물 듣기",
@@ -6198,7 +6674,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 재생",
@@ -6211,7 +6688,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 의 솔로 틀어줘",
@@ -6224,7 +6702,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 틀어",
@@ -6237,7 +6716,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "모든 ------ 노래 스트리밍",
@@ -6250,7 +6730,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 현재 순서에 추가",
@@ -6263,7 +6744,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 날씨 어때",
@@ -6276,7 +6758,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "지금 ------ 이 어때",
@@ -6289,7 +6772,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 날씨가 어땠어",
@@ -6302,7 +6786,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 날씨",
@@ -6315,7 +6800,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 가장 더운 날 보여줘",
@@ -6328,7 +6814,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 인가",
@@ -6341,7 +6828,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 우박 올 가능성 있어",
@@ -6354,7 +6842,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 아침 설정된 알람 확인해줘",
@@ -6367,7 +6856,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 알람 몇 시로 설정되어 있어",
@@ -6380,7 +6870,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 수 있는 멕시칸 식당을 추천해 주시겠어요",
@@ -6393,7 +6884,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 음식을 제공하는 식당은 어디있어",
@@ -6406,7 +6898,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 음식 테이크아웃 되나",
@@ -6419,7 +6912,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 관련 최근 지역 뉴스 알고 싶어",
@@ -6432,7 +6926,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 에 커피 만들어",
@@ -6445,7 +6940,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 커피 내리기",
@@ -6458,7 +6954,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 신곡 플레이리스트 틀어",
@@ -6471,7 +6968,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "새 ------ 플레이리스트 시작",
@@ -6484,7 +6982,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 탕 부터 재생",
@@ -6497,7 +6996,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ 어플 들어가줘",
@@ -6510,6 +7010,7 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   }
 ]

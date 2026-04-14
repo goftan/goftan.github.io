@@ -10,7 +10,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "largo",
@@ -23,7 +24,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "todo",
@@ -36,7 +38,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "cerca",
@@ -49,7 +52,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "cercano",
@@ -62,7 +66,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "ancho",
@@ -75,7 +80,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "alto",
@@ -88,7 +94,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "gordo",
@@ -101,7 +108,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "grueso",
@@ -114,7 +122,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "izquierda",
@@ -127,7 +136,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "temprano",
@@ -140,7 +150,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "brillante",
@@ -153,7 +164,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "rápido",
@@ -166,7 +178,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "rapidamente",
@@ -179,7 +192,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "difícil",
@@ -192,7 +206,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "subir",
@@ -205,7 +220,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "encima de",
@@ -218,7 +234,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "dentro",
@@ -231,7 +248,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "dentro",
@@ -244,7 +262,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "guapo",
@@ -257,7 +276,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "bonito",
@@ -270,7 +290,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "lindo",
@@ -283,7 +304,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "interesante",
@@ -296,7 +318,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "buen",
@@ -309,7 +332,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "bueno",
@@ -322,7 +346,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "maravilloso",
@@ -335,7 +360,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "negro",
@@ -348,7 +374,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "dulce",
@@ -361,7 +388,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "fuerte",
@@ -374,7 +402,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "siempre",
@@ -387,7 +416,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "todos",
@@ -400,7 +430,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "simpático",
@@ -413,7 +444,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "simpático",
@@ -426,7 +458,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "divertido",
@@ -439,7 +472,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "divertido",
@@ -452,7 +486,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "morena",
@@ -465,7 +500,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "ganar",
@@ -478,7 +514,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "despierto",
@@ -491,7 +528,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "abierto",
@@ -504,7 +542,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "cubierto",
@@ -517,7 +556,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "grande",
@@ -530,7 +570,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "caliente",
@@ -543,7 +584,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "mucho",
@@ -556,7 +598,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "empieza",
@@ -569,7 +612,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "correcto",
@@ -582,7 +626,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "exacto",
@@ -595,7 +640,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "vacío",
@@ -608,7 +654,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A1"
   },
   {
     "question": "parte superior",
@@ -621,7 +668,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "parte de arriba",
@@ -634,7 +682,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "moderno",
@@ -647,7 +696,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "presente",
@@ -660,7 +710,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "dentro",
@@ -673,7 +724,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "claridad",
@@ -686,7 +738,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "luminosidad",
@@ -699,7 +752,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "luminosidad",
@@ -712,7 +766,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "rico",
@@ -725,7 +780,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "barato",
@@ -738,7 +794,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "ambicioso",
@@ -751,7 +808,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "saludable",
@@ -764,7 +822,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "arrancar",
@@ -777,7 +836,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "ligero",
@@ -790,7 +850,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "alegre",
@@ -803,7 +864,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "feliz",
@@ -816,7 +878,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "cansado",
@@ -829,7 +892,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "valiente",
@@ -842,7 +906,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "tranquilo",
@@ -855,7 +920,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "silencioso",
@@ -868,7 +934,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "reparado",
@@ -881,7 +948,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "eficiante",
@@ -894,7 +962,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "activo",
@@ -907,7 +976,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "comprado",
@@ -920,7 +990,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "hacia adelante",
@@ -933,7 +1004,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "contratado",
@@ -946,7 +1018,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "empleado",
@@ -959,7 +1032,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "vivo",
@@ -972,7 +1046,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "subir",
@@ -985,7 +1060,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "perdido",
@@ -998,7 +1074,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "joven",
@@ -1011,7 +1088,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "fresca",
@@ -1024,7 +1102,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "mojado",
@@ -1037,7 +1116,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "limpio",
@@ -1050,7 +1130,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "amor",
@@ -1063,7 +1144,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "dulce",
@@ -1076,7 +1158,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "emociante",
@@ -1089,7 +1172,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "de buen humor",
@@ -1102,7 +1186,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "más",
@@ -1115,7 +1200,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "organizado",
@@ -1128,7 +1214,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "aparecer",
@@ -1141,7 +1228,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "comedia",
@@ -1154,7 +1242,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "escrito",
@@ -1167,7 +1256,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "escribir",
@@ -1180,7 +1270,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "nuevo",
@@ -1193,7 +1284,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "paz",
@@ -1206,7 +1298,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "A2"
   },
   {
     "question": "no",
@@ -1219,7 +1312,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "corto",
@@ -1232,7 +1326,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "nada",
@@ -1245,7 +1340,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "lejos",
@@ -1258,7 +1354,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "lejos",
@@ -1271,7 +1368,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "estrecho",
@@ -1284,7 +1382,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "bajo",
@@ -1297,7 +1396,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "delgado",
@@ -1310,7 +1410,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "falco",
@@ -1323,7 +1424,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "derecho",
@@ -1336,7 +1438,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "tarde",
@@ -1349,7 +1452,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "deslucido",
@@ -1362,7 +1466,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "lento",
@@ -1375,7 +1480,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "despacio",
@@ -1388,7 +1494,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "fácil",
@@ -1401,7 +1508,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "bajar",
@@ -1414,7 +1522,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "debajo de",
@@ -1427,7 +1536,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "fuera",
@@ -1440,7 +1550,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "afuera",
@@ -1453,7 +1564,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "feo",
@@ -1466,7 +1578,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "feo",
@@ -1479,7 +1592,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "feo",
@@ -1492,7 +1606,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "aburrido",
@@ -1505,7 +1620,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "mal",
@@ -1518,7 +1634,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "malo",
@@ -1531,7 +1648,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "terrible",
@@ -1544,7 +1662,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "blanco",
@@ -1557,7 +1676,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "agrio",
@@ -1570,7 +1690,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "débil",
@@ -1583,7 +1704,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "nunca",
@@ -1596,7 +1718,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "nada",
@@ -1609,7 +1732,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "antipático",
@@ -1622,7 +1746,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "antipático",
@@ -1635,7 +1760,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "serio",
@@ -1648,7 +1774,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "serio",
@@ -1661,7 +1788,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "rubio",
@@ -1674,7 +1802,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "perder",
@@ -1687,7 +1816,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "dormido",
@@ -1700,7 +1830,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "cerrado",
@@ -1713,7 +1844,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "descubierto",
@@ -1726,7 +1858,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "pequeño",
@@ -1739,7 +1872,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "frío",
@@ -1752,7 +1886,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "poco",
@@ -1765,7 +1900,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "termina",
@@ -1778,7 +1914,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "incorrecto",
@@ -1791,7 +1928,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "equivocado",
@@ -1804,7 +1942,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "lleno",
@@ -1817,7 +1956,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B1"
   },
   {
     "question": "fondo",
@@ -1830,7 +1970,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "parte de abajo",
@@ -1843,7 +1984,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "antiguo",
@@ -1856,7 +1998,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "pasado",
@@ -1869,7 +2012,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "fuera",
@@ -1882,7 +2026,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "oscuro",
@@ -1895,7 +2040,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "débil",
@@ -1908,7 +2054,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "bajo",
@@ -1921,7 +2068,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "pobre",
@@ -1934,7 +2082,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "caro",
@@ -1947,7 +2096,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "perezoso",
@@ -1960,7 +2110,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "indispuesto",
@@ -1973,7 +2124,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "parar",
@@ -1986,7 +2138,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "pesado",
@@ -1999,7 +2152,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "triste",
@@ -2012,7 +2166,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "triste",
@@ -2025,7 +2180,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "descansado",
@@ -2038,7 +2194,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "cobarde",
@@ -2051,7 +2208,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "ruidoso",
@@ -2064,7 +2222,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": " silencioso",
@@ -2077,7 +2236,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "roto",
@@ -2090,7 +2250,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "ineficiante",
@@ -2103,7 +2264,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "inactivo",
@@ -2116,7 +2278,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "vendido",
@@ -2129,7 +2292,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "hacia atrás",
@@ -2142,7 +2306,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "despedido",
@@ -2155,7 +2320,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "despido",
@@ -2168,7 +2334,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "muerto",
@@ -2181,7 +2348,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "descender",
@@ -2194,7 +2362,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "encontrado",
@@ -2207,7 +2376,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "viejo",
@@ -2220,7 +2390,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "rancio",
@@ -2233,7 +2404,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "seco",
@@ -2246,7 +2418,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "sucio",
@@ -2259,7 +2432,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "odio",
@@ -2272,7 +2446,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "agrio",
@@ -2285,7 +2460,8 @@
     "answer": 3,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "aburrido",
@@ -2298,7 +2474,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "de mal humor",
@@ -2311,7 +2488,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "menos",
@@ -2324,7 +2502,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "desorganizado",
@@ -2337,7 +2516,8 @@
     "answer": 1,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "desaparecer",
@@ -2350,7 +2530,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "tragedia",
@@ -2363,7 +2544,8 @@
     "answer": 2,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "hablado",
@@ -2376,7 +2558,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "leer",
@@ -2389,7 +2572,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "usado",
@@ -2402,7 +2586,8 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   },
   {
     "question": "guerra",
@@ -2415,6 +2600,7 @@
     "answer": 0,
     "type": "antonym",
     "intent": "",
-    "extra": "Antonym of"
+    "extra": "Antonym of",
+    "level": "B2"
   }
 ]

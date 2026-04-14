@@ -10,7 +10,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "despiértame a las ------ el viernes",
@@ -23,7 +24,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pon una alarma en ------",
@@ -36,7 +38,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly para por ------",
@@ -49,7 +52,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "para por ------",
@@ -62,7 +66,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "el ------ es todo lo que necesitamos",
@@ -75,7 +80,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "haz que la luz sea un poco mas ------ aquí",
@@ -88,7 +94,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "por favor pon la luz ------",
@@ -101,7 +108,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "apaga la luz del ------",
@@ -114,7 +122,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly baja las luces en la ------",
@@ -127,7 +136,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "atenua las luces en el ------",
@@ -140,7 +150,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "apaga las luces del ------",
@@ -153,7 +164,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "ajusta las luces ------",
@@ -166,7 +178,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "solo ponga las luces ------",
@@ -179,7 +192,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "atenua las luces en la ------ olly",
@@ -192,7 +206,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "baja las luces de la ------",
@@ -205,7 +220,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "oscurece la ------",
@@ -218,7 +234,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightdim",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly limpia el ------",
@@ -231,7 +248,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "limpia el ------",
@@ -244,7 +262,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "aspirar la ------",
@@ -257,7 +276,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "aspira la ------ olly",
@@ -270,7 +290,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "limpiar es bueno el polvo es tan malo haz ahora tu magia limpia mi ------",
@@ -283,7 +304,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "aspira el ------",
@@ -296,7 +318,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "aspirar las ------ alrededor",
@@ -309,7 +332,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "quiero escuchar la canción de ------ una vez más",
@@ -322,7 +346,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "quiero poner esa ------ una vez mas",
@@ -335,7 +360,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "que hora es en ------",
@@ -348,7 +374,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "dime la hora en ------",
@@ -361,7 +388,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "dime la hora en ------",
@@ -374,7 +402,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "siri dime la hora en ------",
@@ -387,7 +416,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "alexa opciones de ------ mejor valoradas de comida china",
@@ -400,7 +430,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "opciones de ------ de comida china más valoradas",
@@ -413,7 +444,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "lista de las opciones de ------ de comida china más valoradas",
@@ -426,7 +458,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "olly las opciones mas votadas de ------ de comida china a domicilio",
@@ -439,7 +472,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "quiero pedir ------ para llevar alguna recomendación",
@@ -452,7 +486,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "quiero pedir ------ para llevar hay alguna recomendación alexa",
@@ -465,7 +500,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "encontrar mi comida ------ para llevar tailandesa alrededor de mercado central",
@@ -478,7 +514,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "encontrar mi comida ------ tailandesa alrededor del centro",
@@ -491,7 +528,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "cancela mi alarma de las ------",
@@ -504,7 +542,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "parar alarma de las ------",
@@ -517,7 +556,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "qué está pasando en el ------ hoy",
@@ -530,7 +570,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "por favor pon ------ de los beatles",
@@ -543,7 +584,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "me gustaría escuchar ------ de queen",
@@ -556,7 +598,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "ponme ------ por queen",
@@ -569,7 +612,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "me gusta la música ------",
@@ -582,7 +626,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "mi grupo de musica favorito es ------",
@@ -595,7 +640,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "me gustan las canciones ------",
@@ -608,7 +654,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "por favor sube las luces ------",
@@ -621,7 +668,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "hey enciende el ------",
@@ -634,7 +682,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "enciende el ------ de limpieza",
@@ -647,7 +696,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "dime la fecha ------",
@@ -660,7 +710,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "que fecha es ------",
@@ -673,7 +724,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pide algo de ------ para la cena",
@@ -686,7 +738,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "hola me gustaría que pidas una ------",
@@ -699,7 +752,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "podrías pedir ------ para la cena de esta noche",
@@ -712,7 +766,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "puedo pedir ------ para llevar de la carola",
@@ -725,7 +780,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "el ------ hace pedidos para llevar",
@@ -738,7 +794,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "poner una alarma a las ------",
@@ -751,7 +808,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "poner una alarma ------",
@@ -764,7 +822,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "poner alarma a las ------ cada día entre semana",
@@ -777,7 +836,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "está ------",
@@ -790,7 +850,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "va a ------",
@@ -803,7 +864,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "está ------ ahora mismo",
@@ -816,7 +878,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "cuál es el pronóstico del tiempo para la ------",
@@ -829,7 +892,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "cuál es el pronóstico de la ------",
@@ -842,7 +906,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "cómo está el tiempo ------",
@@ -855,7 +920,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "qué tiempo hace ------",
@@ -868,7 +934,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "dime el tiempo para ------",
@@ -881,7 +948,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "dime las noticias ------",
@@ -894,7 +962,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "cuáles son las noticias en ------ noticias",
@@ -907,7 +976,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "cuáles son las últimas noticias del ------",
@@ -920,7 +990,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pon ------",
@@ -933,7 +1004,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "ponte ------",
@@ -946,7 +1018,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pon ------",
@@ -959,7 +1032,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pon algunas de ------",
@@ -972,7 +1046,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pon algo de ------",
@@ -985,7 +1060,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ esta canción",
@@ -998,7 +1074,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ esta lista de reproducción",
@@ -1011,7 +1088,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pon el volumen a ------",
@@ -1024,7 +1102,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "volume_down",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "cuéntame un ------ chiste",
@@ -1037,7 +1116,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "qué día es ------",
@@ -1050,7 +1130,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "cuentame sobre ------",
@@ -1063,7 +1144,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "quirky",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pedir una ------",
@@ -1076,7 +1158,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pídeme un ------ de deliveroo",
@@ -1089,7 +1172,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "hacer un pedido ------",
@@ -1102,7 +1186,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "cuánto va a tardar mi ------",
@@ -1115,7 +1200,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "estado del ------ del domino's pizza",
@@ -1128,7 +1214,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pon mi playlist de ------",
@@ -1141,7 +1228,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "iniciar mi playlist de ------",
@@ -1154,7 +1242,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "me gusta el ------",
@@ -1167,7 +1256,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "likeness",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "puedes poner algo de ------",
@@ -1180,7 +1270,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "me gusta escuchar ------",
@@ -1193,7 +1284,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "me gusta escuchar ------",
@@ -1206,7 +1298,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "habilitar la reproducción ------",
@@ -1219,7 +1312,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "ajusta el brillo ------",
@@ -1232,7 +1326,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pueden mandar comida ------",
@@ -1245,7 +1340,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "hacen ------",
@@ -1258,7 +1354,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ a domicilio",
@@ -1271,7 +1368,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "alexa ------ a casa",
@@ -1284,7 +1382,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "poner la alarma a las ------",
@@ -1297,7 +1396,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pon alarma ------ a las seis de la ------",
@@ -1310,7 +1410,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "poner alarma despertador el ------ a las siete de la mañana",
@@ -1323,7 +1424,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "cuéntame las últimas novedades ------",
@@ -1336,7 +1438,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "cuéntame las últimas noticias sobre ------",
@@ -1349,7 +1452,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "dime alguna noticia de ------",
@@ -1362,7 +1466,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "dime las noticias ------",
@@ -1375,7 +1480,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "está ------ ahora",
@@ -1388,7 +1494,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pon mi lista de reproducción de ------",
@@ -1401,7 +1508,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "enciende mi lista de reproducción de ------",
@@ -1414,7 +1522,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pon ------ de mi playlist",
@@ -1427,7 +1536,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "pon la ------ de mi lista de reproducción favorita",
@@ -1440,7 +1550,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "enciende el ------",
@@ -1453,7 +1564,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "enciende el ------",
@@ -1466,7 +1578,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "enciende mi ------",
@@ -1479,7 +1592,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "------ hace comida para llevar",
@@ -1492,7 +1606,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "mi sitio ------ favorita está disponible para hacer pedidos a domicilio",
@@ -1505,7 +1620,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "puedo pedir comida ------ en español",
@@ -1518,7 +1634,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "cómo está el tiempo en ------",
@@ -1531,7 +1648,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "dime el tiempo en ------",
@@ -1544,7 +1662,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "por favor haz que las luces sean más ------",
@@ -1557,7 +1676,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "por favor haz que las luces ------",
@@ -1570,7 +1690,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "haz que la ------ sea más brillante",
@@ -1583,7 +1704,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "que fecha es ------",
@@ -1596,7 +1718,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "que dia es ------",
@@ -1609,7 +1732,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "cómo está el tiempo ------",
@@ -1622,7 +1746,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "está ------ afuera",
@@ -1635,7 +1760,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A1"
   },
   {
     "question": "está ------ afuera olly",
@@ -1648,7 +1774,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "debería coger un ------ mañana",
@@ -1661,7 +1788,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pon música de mi ------",
@@ -1674,7 +1802,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cambia las luces a ------",
@@ -1687,7 +1816,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "limpia el ------ por favor",
@@ -1700,7 +1830,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "enciende el ------",
@@ -1713,7 +1844,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "apaga el ------",
@@ -1726,7 +1858,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "que hora es en ------",
@@ -1739,7 +1872,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "qué hora es en ------",
@@ -1752,7 +1886,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "podrías por favor ayudarme a pedir ------ en el deliveroo",
@@ -1765,7 +1900,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "poner una alarma a las ------ de la mañana",
@@ -1778,7 +1914,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pon una alarma a las ------ de la tarde",
@@ -1791,7 +1928,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "olly avísame a las ------ para ir al concierto",
@@ -1804,7 +1942,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "avísame a las ------ que vaya al concierto",
@@ -1817,7 +1956,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "puedo yo poner una alarma para mi ------ por la mañana",
@@ -1830,7 +1970,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "configuré una alarma para ------ por la mañana",
@@ -1843,7 +1984,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "está ------ en barcelona",
@@ -1856,7 +1998,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "va a ------ hoy",
@@ -1869,7 +2012,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "que esta pasando en ------",
@@ -1882,7 +2026,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "que está pasando en el ------",
@@ -1895,7 +2040,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "qué está pasando en ------",
@@ -1908,7 +2054,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "enséñame algunas noticias de ------",
@@ -1921,7 +2068,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "solo muéstrame alguna noticias de ------",
@@ -1934,7 +2082,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pone las noticias de ------",
@@ -1947,7 +2096,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ olly",
@@ -1960,7 +2110,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "ponme algo de ------",
@@ -1973,7 +2124,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "estoy de humor para ------ ahora mismo y tú",
@@ -1986,7 +2138,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "death ------ ahora",
@@ -1999,7 +2152,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ metal ahora",
@@ -2012,7 +2166,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "olly toca un buen tema de mi cantante ------ favorito",
@@ -2025,7 +2180,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pon música de mi ------ favorito",
@@ -2038,7 +2194,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pon las luces ------",
@@ -2051,7 +2208,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "tengamos las luces ------",
@@ -2064,7 +2222,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "haz que las luces ------",
@@ -2077,7 +2236,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "qué hora es en ------ ahora",
@@ -2090,7 +2250,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "que quiso decir el cantante con el título de la canción ------",
@@ -2103,7 +2264,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "quien interpretó la canción ------",
@@ -2116,7 +2278,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cuál es el tiempo en ------",
@@ -2129,7 +2292,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "como está el tiempo en ------",
@@ -2142,7 +2306,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cuál es el pronóstico del tiempo ------ en madrid",
@@ -2155,7 +2320,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cuál es el estado actual de las ------",
@@ -2168,7 +2334,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cuál es el ------",
@@ -2181,7 +2348,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "quién ganará las próximas ------ en españa",
@@ -2194,7 +2362,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "esperas ------ el domingo",
@@ -2207,7 +2376,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "va a ------ esta noche",
@@ -2220,7 +2390,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "va a estar ------ mañana",
@@ -2233,7 +2404,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "enciende las luces de la ------",
@@ -2246,7 +2418,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lighton",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "ilumina la ------",
@@ -2259,7 +2432,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "qué hora es en ------ ahora",
@@ -2272,7 +2446,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "enciende la ------ de limpieza",
@@ -2285,7 +2460,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "aspirar la ------",
@@ -2298,7 +2474,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "enciende la ------",
@@ -2311,7 +2488,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "que esta pasando en el ------",
@@ -2324,7 +2502,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "dime los titulares del ------ de hoy",
@@ -2337,7 +2516,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pon una ------",
@@ -2350,7 +2530,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ canciones de coldplay",
@@ -2363,7 +2544,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pon ------",
@@ -2376,7 +2558,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cuál es el pronóstico del tiempo para ------",
@@ -2389,7 +2572,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pedir una ------ al tele------",
@@ -2402,7 +2586,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "me gustaría tomar ------ me puedes pedir para la cena",
@@ -2415,7 +2600,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "alexa me gustaría tomar ------ puedes pedírmelo para almorzar",
@@ -2428,7 +2614,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pide un ------ y una sopa para llevar del restaurante italiano",
@@ -2441,7 +2628,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cuántos días le quedan a ------",
@@ -2454,7 +2642,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "en que día cae nochevieja ------",
@@ -2467,7 +2656,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "que día es la resurreción ------",
@@ -2480,7 +2670,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "incrementa el brillo ------",
@@ -2493,7 +2684,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pon las luces ------",
@@ -2506,7 +2698,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "por favor cállate por ------",
@@ -2519,7 +2712,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "no hablar ------",
@@ -2532,7 +2726,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "va a ------ mañana",
@@ -2545,7 +2740,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "dime el tiempo de ------ dentro de dos días",
@@ -2558,7 +2754,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "debería coger un ------ mañana",
@@ -2571,7 +2768,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "desactiva mi ------",
@@ -2584,7 +2782,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "activa mi ------",
@@ -2597,7 +2796,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "enciende el ------",
@@ -2610,7 +2810,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cuéntame las novedades en ------ de engadget",
@@ -2623,7 +2824,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------",
@@ -2636,7 +2838,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------",
@@ -2649,7 +2852,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------",
@@ -2662,7 +2866,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cómo está el estado del tiempo en ------",
@@ -2675,7 +2880,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "me gustaría saber el tiempo en ------",
@@ -2688,7 +2894,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "me gustaría saber el tiempo en ------",
@@ -2701,7 +2908,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "está ------ en barcelona",
@@ -2714,7 +2922,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "ayude a un pobre necesitado ------ olly",
@@ -2727,7 +2936,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "enciende la ------",
@@ -2740,7 +2950,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cómo estará el clima ------",
@@ -2753,7 +2964,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ mañana",
@@ -2766,7 +2978,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "qué ------ hará mañana",
@@ -2779,7 +2992,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "lo que es ------ las predicciones del tiempo",
@@ -2792,7 +3006,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cuáles son las predicciones meteorológicas ------",
@@ -2805,7 +3020,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "va a ------ mañana",
@@ -2818,7 +3034,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "va a ------ mañana",
@@ -2831,7 +3048,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "encuentra si el ------ más cercano hace pedidos para llevar",
@@ -2844,7 +3062,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "mira si el ------ pone para llevar",
@@ -2857,7 +3076,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "hay menú ------ en el restaurante",
@@ -2870,7 +3090,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "que día de la semana es ------",
@@ -2883,7 +3104,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "------ que dia cae",
@@ -2896,7 +3118,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "que dia de la semana es ------",
@@ -2909,7 +3132,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "a qué hora sonará mi alarma ------",
@@ -2922,7 +3146,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "reproduce la ------ de google play music",
@@ -2935,7 +3160,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pon la segunda canción de la cancion ------",
@@ -2948,7 +3174,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "es ------",
@@ -2961,7 +3188,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cómo está el tiempo en ------",
@@ -2974,7 +3202,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "hace ------ en mallorca ahora",
@@ -2987,7 +3216,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "por favor pon ------ de disturbed",
@@ -3000,7 +3230,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "por favor abra mi aplicación de música y juegue ------ de disturbed",
@@ -3013,7 +3244,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "por favor pon los ------ de la canción por perturbado",
@@ -3026,7 +3258,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "apaga la luz del ------",
@@ -3039,7 +3272,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "mira por noticias en vivo en ------",
@@ -3052,7 +3286,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "qué es sensacional en la ------",
@@ -3065,7 +3300,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "alguna noticia ------ en el país",
@@ -3078,7 +3314,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "avíseme tan pronto como haya más noticias sobre el ------",
@@ -3091,7 +3328,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "apaga el ------",
@@ -3104,7 +3342,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "enciende el ------",
@@ -3117,7 +3356,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cambiar el ------ inteligente",
@@ -3130,7 +3370,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pon una canción ------ en mi playlist",
@@ -3143,7 +3384,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "si es ------ en madrid que hora es en california",
@@ -3156,7 +3398,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "cuál es la diferencia horaria entre la hora ------ y la hora del pacifico",
@@ -3169,7 +3412,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pon ------ por kirk franklin",
@@ -3182,7 +3426,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "pon cualquier canción de ------",
@@ -3195,7 +3440,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "va a hacer ------ mañana",
@@ -3208,7 +3454,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "puedes cambia los colores de luz claros de la ------",
@@ -3221,7 +3468,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "puedes ------ la luz de colores en la casa",
@@ -3234,7 +3482,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "puedes cambiar los colores de la luz a ------ en la casa",
@@ -3247,7 +3496,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "me gustaria escuchar música ------ por favor",
@@ -3260,7 +3510,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "A2"
   },
   {
     "question": "puedes poner música ------ durante la próxima hora",
@@ -3273,7 +3524,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "dime una broma ------",
@@ -3286,7 +3538,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cambia las luces de mi cuarto a ------",
@@ -3299,7 +3552,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cambia las luces de mi habitación a un color algo más ------",
@@ -3312,7 +3566,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cambia las luces de mi habitación para que yo pueda ------",
@@ -3325,7 +3580,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "poner una alarma para mi a las ------",
@@ -3338,7 +3594,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "pon alarma a las ------",
@@ -3351,7 +3608,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "poner una alarma despertador a las ------",
@@ -3364,7 +3622,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuáles son las noticias de ------",
@@ -3377,7 +3636,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "enciende el ------",
@@ -3390,7 +3650,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "apaga las luces en mi ------",
@@ -3403,7 +3664,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "apaga las luces del ------",
@@ -3416,7 +3678,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "luces apagadas en el ------",
@@ -3429,7 +3692,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué tiempo hará el ------",
@@ -3442,7 +3706,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuánto ------ hace fuera ahora mismo",
@@ -3455,7 +3720,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "que día es ------",
@@ -3468,7 +3734,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "que día del ------ será el próximo martes",
@@ -3481,7 +3748,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "jugar carpeta de ------",
@@ -3494,7 +3762,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "abrir el archivo ------",
@@ -3507,7 +3776,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "va a ------ hoy",
@@ -3520,7 +3790,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "debo ponerme una ------ hoy",
@@ -3533,7 +3804,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------",
@@ -3546,7 +3818,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ álbum",
@@ -3559,7 +3832,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "pon ------",
@@ -3572,7 +3846,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "pon ------ a la antigua",
@@ -3585,7 +3860,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "inicia ------",
@@ -3598,7 +3874,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "ponme lo último sobre el ------",
@@ -3611,7 +3888,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "quien lidera actualmente las ------",
@@ -3624,7 +3902,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué día ------",
@@ -3637,7 +3916,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cambia las luces de la ------ a azul",
@@ -3650,7 +3930,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "fija las luces en el ------ a rojo",
@@ -3663,7 +3944,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cambia las luces de la ------ a verde",
@@ -3676,7 +3958,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "quiero escuchar música ------",
@@ -3689,7 +3972,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "quiero escuchar ------",
@@ -3702,7 +3986,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "haz que la luz de mi ------ sea más brillante",
@@ -3715,7 +4000,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "apaga la ------",
@@ -3728,7 +4014,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "pon canciones de ------",
@@ -3741,7 +4028,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "pon ------",
@@ -3754,7 +4042,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "abre canciones de ------",
@@ -3767,7 +4056,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "encuentra noticias sobre ------",
@@ -3780,7 +4070,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "abre la noticias sobre ------",
@@ -3793,7 +4084,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "encuéntrame noticias sobre el ------",
@@ -3806,7 +4098,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué hora es en ------",
@@ -3819,7 +4112,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuál es la zona horaria en ------",
@@ -3832,7 +4126,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "que hora es en ------",
@@ -3845,7 +4140,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuál es la hora en ------ ahora mismo",
@@ -3858,7 +4154,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué hora es ahora mismo en ------",
@@ -3871,7 +4168,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué ------ hace fuera",
@@ -3884,7 +4182,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "hace ------ fuera",
@@ -3897,7 +4196,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "hace ------ fuera",
@@ -3910,7 +4210,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué es una broma ------ sabes",
@@ -3923,7 +4224,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "que es una broma ------ sabes",
@@ -3936,7 +4238,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "que es un ------ chiste",
@@ -3949,7 +4252,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cambia el color de la luz a ------",
@@ -3962,7 +4266,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "confirmar si el color es ------",
@@ -3975,7 +4280,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cambia el color de la luz a ------",
@@ -3988,7 +4294,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightchange",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué hora es en ------",
@@ -4001,7 +4308,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué hora es en ------",
@@ -4014,7 +4322,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "silencia en la ------ por favor",
@@ -4027,7 +4336,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuéntame un chiste ------",
@@ -4040,7 +4350,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuáles son las noticias actuales del ------",
@@ -4053,7 +4364,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "por favor cuéntame algunas noticias ------",
@@ -4066,7 +4378,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "poner una alarma a las ------",
@@ -4079,7 +4392,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "pon una alarma despertador a las ------",
@@ -4092,7 +4406,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "necesito ------ alarma recordatorio a la ------",
@@ -4105,7 +4420,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "poner una alarma a las ------",
@@ -4118,7 +4434,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "pon una alarma a las ------",
@@ -4131,7 +4448,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "pon una alarma a la ------",
@@ -4144,7 +4462,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "busca el nombre del álbum con ------",
@@ -4157,7 +4476,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "reproducir la canción cantada por ------",
@@ -4170,7 +4490,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "reproduce la canción ------",
@@ -4183,7 +4504,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuál es la broma ------",
@@ -4196,7 +4518,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuentame un chiste ------",
@@ -4209,7 +4532,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "por favor suba el volumen de la música ------",
@@ -4222,7 +4546,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "volume_up",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "por favor ------ la frecuencia aleatoria de siempre",
@@ -4235,7 +4560,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "por favor ------ de nuevo esa música de ozuna",
@@ -4248,7 +4574,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "apaga las luces de la ------",
@@ -4261,7 +4588,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "por favor apague las luces en la ------",
@@ -4274,7 +4602,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "jugar ------ cualquier cosa",
@@ -4287,7 +4616,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "puedo tener alguna de música ------",
@@ -4300,7 +4630,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "tengo yo alguna alarma puesta para ------",
@@ -4313,7 +4644,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuál es la situación de la alarma para ------",
@@ -4326,7 +4658,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "apaga la alarma a las ------",
@@ -4339,7 +4672,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cancelar mi alarma de las ------",
@@ -4352,7 +4686,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "deshacerse de mi alarma de las ------",
@@ -4365,7 +4700,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "remove",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué ------ hay",
@@ -4378,7 +4714,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuánto ------ hace",
@@ -4391,7 +4728,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué ------ hace",
@@ -4404,7 +4742,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuántos ------ hay el veintitres",
@@ -4417,7 +4756,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "es ------ el doce",
@@ -4430,7 +4770,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "hay ------ el veintidos",
@@ -4443,7 +4784,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "------ la misma canción diez veces",
@@ -4456,7 +4798,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "reproduce las ------ de pies descalzos de shakira",
@@ -4469,7 +4812,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "reproducir ------ en la lista",
@@ -4482,7 +4826,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "apaga una luz del ------",
@@ -4495,7 +4840,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "apaga la ------",
@@ -4508,7 +4854,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "va a estar ------ mañana",
@@ -4521,7 +4868,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "se pondrá el sol a las ------ mañana",
@@ -4534,7 +4882,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "hay alguna probabilidad de ------ esta semana",
@@ -4547,7 +4896,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "que es ------",
@@ -4560,7 +4910,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué novedades hay para ------",
@@ -4573,7 +4924,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "que hora es en la zona horaria ------",
@@ -4586,7 +4938,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué ------ hace ahora",
@@ -4599,7 +4952,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "puedo escuchar ------ que puedes escuchar en las radios ahora",
@@ -4612,7 +4966,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "por favor pon música ------ para la cena ahora",
@@ -4625,7 +4980,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "puedes cambiar la ------ de lady gaga",
@@ -4638,7 +4994,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "quiero escuchar mi canción favorita de ------",
@@ -4651,7 +5008,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cambiar la alarma para que comience a la ------",
@@ -4664,7 +5022,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué tiempo hará ------",
@@ -4677,7 +5036,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cómo se supone que estará el tiempo el ------",
@@ -4690,7 +5050,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuál es el pronóstico del tiempo para el ------",
@@ -4703,7 +5064,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "silencia por ------",
@@ -4716,7 +5078,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "volume_mute",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "quiero levantarme ------ a las seis de la ------ por favor",
@@ -4729,7 +5092,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "por favor pon la alarma para la ------ a las siete de la mañana",
@@ -4742,7 +5106,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "por favor borra la alarma ------ a las ocho de la mañana el próximo sábado",
@@ -4755,7 +5120,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "pon la playlist ------",
@@ -4768,7 +5134,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "qué día de la semana es ------",
@@ -4781,7 +5148,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuál es el último día del ------",
@@ -4794,7 +5162,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cual es la hora en horario ------",
@@ -4807,7 +5176,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "que hora es actualmente en ------",
@@ -4820,7 +5190,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuál es la última controversia sobre ------",
@@ -4833,7 +5204,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "cuál es la última discusión sobre ------",
@@ -4846,7 +5218,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "por favor pon la canción de ------",
@@ -4859,7 +5232,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "por favor déjame escuchar ------",
@@ -4872,7 +5246,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "pon la última canción de éxito del último álbum de ------ por favor",
@@ -4885,7 +5260,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B1"
   },
   {
     "question": "avísame cuando haya noticias sobre el ------",
@@ -4898,7 +5274,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "establecer notificaciones para las noticias sobre el ------",
@@ -4911,7 +5288,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "avísame cuando haya noticias sobre el ------",
@@ -4924,7 +5302,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "inicia ------",
@@ -4937,7 +5316,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "por favor encienda la ------",
@@ -4950,7 +5330,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "que es lo ------ en un chiste sobre coche",
@@ -4963,7 +5344,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cuéntame un chiste sobre un ------",
@@ -4976,7 +5358,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "puedes buscar chistes de ------ para mí",
@@ -4989,7 +5372,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "recuérdame jugar con esta canción ------",
@@ -5002,7 +5386,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "ponme una canción de ------",
@@ -5015,7 +5400,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "necesito que enciendas la ------",
@@ -5028,7 +5414,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "cleaning",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cuál será la ------ esta semana",
@@ -5041,7 +5428,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "sube ------ la luz",
@@ -5054,7 +5442,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "incrementa la luz ------",
@@ -5067,7 +5456,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "tengo alguna alarma puesta para ------",
@@ -5080,7 +5470,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "apaga las luces del ------",
@@ -5093,7 +5484,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "control de luces apaga las luces de la ------",
@@ -5106,7 +5498,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightoff",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "puedes ubicar algo de música ------",
@@ -5119,7 +5512,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "quiero escuchar algo de música ------",
@@ -5132,7 +5526,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cómo es el tiempo actual en ------",
@@ -5145,7 +5540,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "como está el tiempo ahora en ------",
@@ -5158,7 +5554,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "que hora es ahora en ------",
@@ -5171,7 +5568,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "hora en ------ ahora",
@@ -5184,7 +5582,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "que hora es en ------",
@@ -5197,7 +5596,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "por favor puedo saber que horas serán a las ------ aqui en australia",
@@ -5210,7 +5610,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "puedes decirme cuántas horas de diferencia hay entre ------ y valencia",
@@ -5223,7 +5624,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "quiero dos ------ y una coca-cola pídelo rápido",
@@ -5236,7 +5638,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "pide dos ------ para mi",
@@ -5249,7 +5652,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "pedir una ------",
@@ -5262,7 +5666,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "por favor apaga el ------ de mi movil cuando esté cargado",
@@ -5275,7 +5680,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "enciende la ------ enchufe cuando llego a casa",
@@ -5288,7 +5694,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "quiero que apagues el ------ antes de que el móvil se cargue",
@@ -5301,7 +5708,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "mantenme informado sobre el ------ por favor",
@@ -5314,7 +5722,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "mantenerme informado sobre los ------",
@@ -5327,7 +5736,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "stock",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "sigue las noticias sobre la ------ en el futuro",
@@ -5340,7 +5750,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "puedes poner mi ------",
@@ -5353,7 +5764,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "pon la canción de ------",
@@ -5366,7 +5778,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "toca la ------ de anoche a las seis p. m.",
@@ -5379,7 +5792,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "qué hora es en ------ ahora",
@@ -5392,7 +5806,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "dime que hora es en ------",
@@ -5405,7 +5820,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "dime la hora de ------ ahora mismo",
@@ -5418,7 +5834,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "acabo de pedir comida llame y vea que ha sido ------",
@@ -5431,7 +5848,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "mira el ------ de mi pedido",
@@ -5444,7 +5862,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "llama al ------ para ver si el envío está de camino",
@@ -5457,7 +5876,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "por favor ilumina la ------",
@@ -5470,7 +5890,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "hue_lightup",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "que está pasando en el ------",
@@ -5483,7 +5904,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "dime algo ------",
@@ -5496,7 +5918,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "joke",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "quiero escuchcar ------ por favor",
@@ -5509,7 +5932,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "quiero escuchar ------ ahora",
@@ -5522,7 +5946,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "quién está liderando la carrera de ------ ahora mismo",
@@ -5535,7 +5960,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "consígueme las actualizaciones de las ------",
@@ -5548,7 +5974,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "lee los titulares de ------",
@@ -5561,7 +5988,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "quiero escuchar las ultimas noticias de ------",
@@ -5574,7 +6002,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "puedes mostrarme las noticias de última hora de ------",
@@ -5587,7 +6016,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "quiero saber las noticias de ------",
@@ -5600,7 +6030,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "por favor léeme alguna de las últimas noticias de ------",
@@ -5613,7 +6044,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "puedo conocer las últimas noticias de ------",
@@ -5626,7 +6058,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "crear una alarma ------ a las cuatro en punto de la ------",
@@ -5639,7 +6072,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "poner una alarma para levantarme ------",
@@ -5652,7 +6086,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "programar una alarma para despertarme ------",
@@ -5665,7 +6100,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "set",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "dime las estadísticas del tiempo para esta ------",
@@ -5678,7 +6114,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "muestra el tiempo para la ------",
@@ -5691,7 +6128,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "resuma los detalles meteorológicos ------",
@@ -5704,7 +6142,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "quiero escuchar las canciones de ------",
@@ -5717,7 +6156,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "pon la canción de ------ después de esta",
@@ -5730,7 +6170,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "pon las últimas canciones de ------ después de esta",
@@ -5743,7 +6184,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cuánto ------ hace hoy fuera",
@@ -5756,7 +6198,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cuál es la ------ de hoy",
@@ -5769,7 +6212,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cómo de ------ está el ambiente hoy",
@@ -5782,7 +6226,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "tocar canciones del género ------ y soul",
@@ -5795,7 +6240,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "pon todas las últimas canciones ------",
@@ -5808,7 +6254,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "reproducir la ------ a continuación",
@@ -5821,7 +6268,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "que es ------",
@@ -5834,7 +6282,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "toca la canción de mi ------ de trance",
@@ -5847,7 +6296,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "baja el volumen ------",
@@ -5860,7 +6310,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "volume_down",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cambiar esta zona horaria a ------",
@@ -5873,7 +6324,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cambia la hora a ------ a madrid",
@@ -5886,7 +6338,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "convert",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "puedes apagar el ------",
@@ -5899,7 +6352,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "wemo_off",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "enciende el ------ para conectar mi cargador",
@@ -5912,7 +6366,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "encender el ------ para conectar mi dongle",
@@ -5925,7 +6380,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "wemo_on",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "como estará el tiempo ------",
@@ -5938,7 +6394,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cómo se supone que está el tiempo ------",
@@ -5951,7 +6408,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cuál es el pronóstico del tiempo para ------",
@@ -5964,7 +6422,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "podría darme titulares de noticias actualizados de mi ------",
@@ -5977,7 +6436,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "podrías por favor buscar mi ------ para las últimas noticias",
@@ -5990,7 +6450,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "dime las últimas noticias sobre ------",
@@ -6003,7 +6464,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "dime las últimas noticias ------",
@@ -6016,7 +6478,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "qué está sucediendo en el ------ en estos días",
@@ -6029,7 +6492,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "dame las actualizaciones de ------",
@@ -6042,7 +6506,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cuáles son las noticias actuales en ------",
@@ -6055,7 +6520,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cómo están las actualizaciones de las últimas noticias en ------",
@@ -6068,7 +6534,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "muéstrame las últimas noticias actualizadas de ------",
@@ -6081,7 +6548,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "notificarme cuando ------ esté en las noticias",
@@ -6094,7 +6562,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "dime si ocurre un ------ en el mundo",
@@ -6107,7 +6576,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "avísame cuando la ------",
@@ -6120,7 +6590,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "jugar ------ por eddie murphy",
@@ -6133,7 +6604,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "escucha ------ de los del rio",
@@ -6146,7 +6618,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "pon ------",
@@ -6159,7 +6632,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ de ariana grande",
@@ -6172,7 +6646,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "pon ------",
@@ -6185,7 +6660,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "pon todas las canciones de ------",
@@ -6198,7 +6674,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "------ forma a la cola actual",
@@ -6211,7 +6688,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cómo está el tiempo ------",
@@ -6224,7 +6702,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cuál es la ------ ahora mismo",
@@ -6237,7 +6716,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "cómo estuvo el tiempo ------",
@@ -6250,7 +6730,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "clima ------ o fuerte",
@@ -6263,7 +6744,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "dime la temperatura ------ esta semana",
@@ -6276,7 +6758,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "está siendo el ------",
@@ -6289,7 +6772,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "qué probabilidad hay de que ------ esta semana",
@@ -6302,7 +6786,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "confirme la alarma para ------ por la ------",
@@ -6315,7 +6800,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "a qué hora está la alarma puesta ------",
@@ -6328,7 +6814,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "podrías recomendarme por favor un ------ mexicano que haga comida para llevar",
@@ -6341,7 +6828,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "qué ------ ofertan comida para llevar",
@@ -6354,7 +6842,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "puedo hacer un pedido de comida ------ a esta hora",
@@ -6367,7 +6856,8 @@
     "answer": 3,
     "type": "sentence",
     "intent": "order",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "quiero saber las últimas ------ de la ciudad",
@@ -6380,7 +6870,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "hacer café a las ------",
@@ -6393,7 +6884,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "haz cafe al ------",
@@ -6406,7 +6898,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "coffee",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "reproducir nueva lista de reproducción de ------",
@@ -6419,7 +6912,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "crear una nueva lista de reproducción de ------",
@@ -6432,7 +6926,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "pon ------ y empieza con con altura",
@@ -6445,7 +6940,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "abre la aplicación de ------",
@@ -6458,7 +6954,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "abre mi actualización de la mañana de ------",
@@ -6471,7 +6968,8 @@
     "answer": 2,
     "type": "sentence",
     "intent": "query",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "ve a pandora y encuentra ------ en la radio por favor",
@@ -6484,7 +6982,8 @@
     "answer": 0,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "busca en google música de ------ para escuchar",
@@ -6497,7 +6996,8 @@
     "answer": 1,
     "type": "sentence",
     "intent": "music",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   },
   {
     "question": "pon la playlist en ------",
@@ -6510,6 +7010,7 @@
     "answer": 3,
     "type": "sentence",
     "intent": "settings",
-    "extra": "Fill in the blank:"
+    "extra": "Fill in the blank:",
+    "level": "B2"
   }
 ]
