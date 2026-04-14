@@ -188,8 +188,9 @@ function fill_crossword(quiz) {
     lastQuiz = quiz;
     var input = [];
     for(q of quiz.slice(0,20)) {
-        if(!q.choices[q.answer].includes(' ') && q.choices[q.answer].length < 10) {
-            input.push({'answer': q.choices[q.answer], 'clue': q.question, 'extra': q.extra});
+        const ans = q.choices[q.answer];
+        if(ans && !ans.includes(' ') && ans.length < 10) {
+            input.push({'answer': ans.toUpperCase(), 'clue': q.question, 'extra': q.extra});
         }
     }
     // Shuffle to get a varied layout each time
@@ -315,7 +316,9 @@ function fill_crossword(quiz) {
             .html(cnt + ". " + " " + table_q.clue + "<br/>");
         cnt++;
     }
-    select_a_crossword_question(d3.select('#across_questions').select('span').node());
+    const firstClue = d3.select('#across_questions').select('span').node()
+        || d3.select('#down_questions').select('span').node();
+    if (firstClue) select_a_crossword_question(firstClue);
     
     // Initialize enhanced features
     setupKeyboardNavigation();
@@ -390,7 +393,7 @@ function checkAllAnswers() {
         
         if (correctValue && userValue) {
             totalCount++;
-            if (userValue === correctValue) {
+            if (userValue === correctValue.toUpperCase()) {
                 correctCount++;
                 cell.style('background-color', '#d4edda'); // Light green
                 cell.style('border-color', '#28a745');
