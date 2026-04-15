@@ -157,24 +157,12 @@ function updateTimerBar(remaining) {
 // === Streak + XP ===
 function updateStreakAndXP(correct, total) {
     var today = new Date().toDateString();
-    var raw = localStorage.getItem('goftan_engagement');
-    var data = raw ? JSON.parse(raw) : {};
     var yesterday = new Date(Date.now() - 86400000).toDateString();
-
-    if (data.lastPlayed === today) {
-        // already played today — streak unchanged
-    } else if (data.lastPlayed === yesterday) {
-        data.streak = (data.streak || 1) + 1;
-    } else {
-        data.streak = 1;
-    }
-    data.lastPlayed = today;
-
-    var streakBonus = data.streak > 1 ? 50 : 0;
-    var earnedXP = correct * 10 + streakBonus;
-    data.xp = (data.xp || 0) + earnedXP;
+    var raw = localStorage.getItem('goftan_engagement');
+    var stored = raw ? JSON.parse(raw) : {};
+    var data = calcStreakAndXP(stored, today, yesterday, correct); // pure fn from logic.js
     localStorage.setItem('goftan_engagement', JSON.stringify(data));
-    return { streak: data.streak, xp: data.xp, earnedXP: earnedXP, streakBonus: streakBonus };
+    return data;
 }
 
 function renderEngagementRow(eng) {
@@ -199,9 +187,7 @@ function renderEngagementRow(eng) {
 function saveAndGetScoreHistory(language, pct) {
     var key = 'goftan_scores_' + language.toLowerCase();
     var stored = localStorage.getItem(key);
-    var history = stored ? JSON.parse(stored) : [];
-    history.push(pct);
-    if (history.length > 20) history.splice(0, history.length - 20);
+    var history = appendScoreHistory(stored ? JSON.parse(stored) : [], pct); // pure fn from logic.js
     localStorage.setItem(key, JSON.stringify(history));
     return history;
 }
@@ -237,19 +223,11 @@ function renderTrendChart(history, language) {
 // === Weak topic recommendation ===
 function renderRecommendation() {
     var container = d3.select('#weak_topic_rec').html('');
-    if (wrongAnswers.length === 0) return;
+    var weak = getWeakTopic(wrongAnswers); // pure fn from logic.js
+    if (!weak) return;
 
-    var counts = {};
-    wrongAnswers.forEach(function(w) {
-        var t = w._topic || 'Unknown';
-        counts[t] = (counts[t] || 0) + 1;
-    });
-    var sorted = Object.entries(counts).sort(function(a, b) { return b[1] - a[1]; });
-    var top = sorted[0];
-    if (!top || top[0] === 'Unknown') return;
-
-    var topicName = top[0];
-    var missCount = top[1];
+    var topicName = weak.topic;
+    var missCount = weak.count;
 
     var card = container.append('div').attr('class', 'recommendation-card');
     var txt = card.append('div').attr('class', 'rec-text');
@@ -327,11 +305,10 @@ function loadSessionHistory() {
 }
 
 // === Personal best ===
-function getPersonalBest(language) {
+function getPersonalBestForLanguage(language) {
     var stored = localStorage.getItem('goftan_scores_' + language.toLowerCase());
     if (!stored) return null;
-    var h = JSON.parse(stored);
-    return h.length ? Math.max.apply(null, h) : null;
+    return getPersonalBest(JSON.parse(stored)); // pure fn from logic.js
 }
 
 // === Quiz progress bar ===
@@ -345,17 +322,10 @@ function updateQuizProgress() {
 // === Difficulty nudge ===
 function renderDifficultyNudge(pct) {
     var container = d3.select('#difficulty_nudge').html('');
-    if (pct < 85) return;
-    var levelOrder = ['Beginner', 'A1', 'A2', 'B1', 'B2'];
     var selected = Array.from(document.querySelectorAll('.mycheckboxqtypes[name="levels"]:checked'))
                         .map(function(el) { return el.value; });
-    var highestIdx = -1;
-    selected.forEach(function(l) {
-        var idx = levelOrder.indexOf(l);
-        if (idx > highestIdx) highestIdx = idx;
-    });
-    if (highestIdx < 0 || highestIdx >= levelOrder.length - 1) return;
-    var nextLevel = levelOrder[highestIdx + 1];
+    var nextLevel = getNextDifficultyLevel(pct, selected); // pure fn from logic.js
+    if (!nextLevel) return;
     var card = container.append('div').attr('class', 'nudge-card');
     card.append('div').attr('class', 'nudge-text')
         .html('🚀 You scored ' + pct + '%! Ready to try <strong>' + nextLevel + '</strong>?');
@@ -468,12 +438,7 @@ function applyPendingCheckboxSettings() {
     document.querySelectorAll('.mycheckboxqtypes[name="topics"]').forEach(el => { el.checked = true; });
 }
 
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-}
+// shuffleArray is provided by logic.js (loaded before this script)
 
 function fill_qa(q) {
     d3.select("#extra").html(q._requeued ? '🔄 Try again' : (q.extra || ''));
@@ -707,7 +672,7 @@ function submitAnswer(which_option) {
             });
             // Re-queue this question 3 slots ahead for one more attempt
             var requeue = Object.assign({}, quiz[countQues], { _requeued: true });
-            var insertAt = Math.min(countQues + 3, quiz.length);
+            var insertAt = calcRequeueInsertAt(countQues, quiz.length); // pure fn from logic.js
             quiz.splice(insertAt, 0, requeue);
             d3.select('#question_size').html(parseInt(d3.select('#question_size').html()) + 1);
         }
@@ -726,8 +691,7 @@ function viewResults() {
     decolorCorrectAnswer();
 
     const total = originalQuestionCount || parseInt(d3.select('#question_size').html()) || 10;
-    const skipped = Math.max(0, total - countCorrect - countIncorrect);
-    const pct = Math.round((countCorrect / total) * 100);
+    const { pct, skipped } = calcScore(countCorrect, countIncorrect, total); // pure fn from logic.js
 
     // Update summary banner
     d3.select('#result_score_pct').text(pct + '%');
@@ -737,12 +701,12 @@ function viewResults() {
     d3.select('#result_skipped').text(skipped);
     d3.select('#result_total').text(total);
 
-    const grade = pct >= 90 ? '🏆 Excellent!' : pct >= 70 ? '👍 Good job!' : pct >= 50 ? '📚 Keep practicing!' : '💪 Don\'t give up!';
+    const grade = getGradeText(pct); // pure fn from logic.js
     d3.select('#result_grade').text(grade);
 
     // === Personal best ===
     const lang = get_selected_language();
-    const prevBest = getPersonalBest(lang);
+    const prevBest = getPersonalBestForLanguage(lang);
     const isNewBest = prevBest === null || pct > prevBest;
     const bestEl = d3.select('#result_personal_best');
     if (isNewBest && pct > 0) {
