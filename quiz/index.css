@@ -1187,6 +1187,55 @@ span.psw { float: right; padding-top: 14px; font-size: 0.85rem; }
   transform: none;
 }
 
+/* ── Quiz progress bar (question completion) ── */
+#quiz_progress_wrap {
+  height: 4px;
+  background: var(--c-border);
+  border-radius: var(--r-full);
+  overflow: hidden;
+  margin: 0 5px var(--sp-4);
+}
+#quiz_progress_fill {
+  height: 100%;
+  background: var(--c-primary);
+  border-radius: var(--r-full);
+  width: 0%;
+  transition: width 0.4s ease;
+}
+
+/* ── Personal best in results header ── */
+.results-best {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.65);
+  margin-top: 4px;
+}
+.results-best-new {
+  color: #FDE68A;
+}
+
+/* ── Difficulty nudge card ── */
+#difficulty_nudge { margin-bottom: var(--sp-4); }
+.nudge-card {
+  background: linear-gradient(135deg, #EFF6FF, #DBEAFE);
+  border: 1px solid #BFDBFE;
+  border-left: 4px solid #3B82F6;
+  border-radius: var(--r-md);
+  padding: var(--sp-4) var(--sp-5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+}
+.nudge-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1E40AF;
+  flex: 1;
+}
+.nudge-text strong { font-weight: 700; }
+
 /* ── Question timer bar ── */
 .question-meta-row {
   display: flex;

@@ -116,15 +116,17 @@ function startQuestionTimer() {
             clearQuestionTimer();
             if (!d3.select('#opt1').property('disabled')) {
                 for (var i = 1; i <= 4; i++) d3.select('#opt' + i).property('disabled', true);
-                countIncorrect++;
                 var q = quiz[countQues];
-                wrongAnswers.push({
-                    question: q.question,
-                    extra: q.extra || '',
-                    yourAnswer: '⏱ Timed out',
-                    correctAnswer: q.choices[q.answer],
-                    _topic: q._topic || 'Unknown'
-                });
+                if (!q._requeued) {
+                    countIncorrect++;
+                    wrongAnswers.push({
+                        question: q.question,
+                        extra: q.extra || '',
+                        yourAnswer: '⏱ Timed out',
+                        correctAnswer: q.choices[q.answer],
+                        _topic: q._topic || 'Unknown'
+                    });
+                }
                 colorCorrectAnswer();
                 playWrongSound();
                 autoAdvanceTimer = setTimeout(function() {
@@ -260,6 +262,113 @@ function renderRecommendation() {
         .on('click', function() { startTopicDrill(topicName); });
 }
 
+// === Confetti ===
+function launchConfetti() {
+    var canvas = document.createElement('canvas');
+    canvas.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;';
+    document.body.appendChild(canvas);
+    var ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    var colors = ['#22C55E','#F59E0B','#EF4444','#3B82F6','#8B5CF6','#EC4899','#FBBF24'];
+    var particles = [];
+    for (var i = 0; i < 130; i++) {
+        particles.push({
+            x: Math.random() * canvas.width,
+            y: -10 - Math.random() * 120,
+            w: 7 + Math.random() * 8,
+            h: 4 + Math.random() * 4,
+            color: colors[Math.floor(Math.random() * colors.length)],
+            vx: (Math.random() - 0.5) * 4,
+            vy: 2 + Math.random() * 4,
+            angle: Math.random() * Math.PI * 2,
+            spin: (Math.random() - 0.5) * 0.18
+        });
+    }
+    var start = Date.now();
+    function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        var elapsed = Date.now() - start;
+        var alpha = Math.max(0, 1 - Math.max(0, elapsed - 2000) / 1000);
+        particles.forEach(function(p) {
+            p.x += p.vx; p.y += p.vy; p.vy += 0.09; p.angle += p.spin;
+            ctx.save();
+            ctx.globalAlpha = alpha;
+            ctx.translate(p.x, p.y);
+            ctx.rotate(p.angle);
+            ctx.fillStyle = p.color;
+            ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+            ctx.restore();
+        });
+        if (elapsed < 3000) requestAnimationFrame(draw);
+        else canvas.remove();
+    }
+    requestAnimationFrame(draw);
+}
+
+// === Session history persistence ===
+function saveSessionEntry(tryNum, language, correct, incorrect, skipped) {
+    var stored = localStorage.getItem('goftan_session_history');
+    var rows = stored ? JSON.parse(stored) : [];
+    rows.push([tryNum, language, correct, incorrect, skipped]);
+    localStorage.setItem('goftan_session_history', JSON.stringify(rows));
+}
+
+function loadSessionHistory() {
+    var stored = localStorage.getItem('goftan_session_history');
+    if (!stored) return;
+    var rows;
+    try { rows = JSON.parse(stored); } catch(e) { return; }
+    d3.select('#result_table').html('');
+    rows.forEach(function(row) {
+        d3.select('#result_table').append('tr')
+            .selectAll('td').data(row).enter().append('td').text(function(d) { return d; });
+    });
+}
+
+// === Personal best ===
+function getPersonalBest(language) {
+    var stored = localStorage.getItem('goftan_scores_' + language.toLowerCase());
+    if (!stored) return null;
+    var h = JSON.parse(stored);
+    return h.length ? Math.max.apply(null, h) : null;
+}
+
+// === Quiz progress bar ===
+function updateQuizProgress() {
+    var fill = document.getElementById('quiz_progress_fill');
+    if (!fill) return;
+    var total = parseInt(d3.select('#question_size').html()) || 10;
+    fill.style.width = (countQues / total * 100) + '%';
+}
+
+// === Difficulty nudge ===
+function renderDifficultyNudge(pct) {
+    var container = d3.select('#difficulty_nudge').html('');
+    if (pct < 85) return;
+    var levelOrder = ['Beginner', 'A1', 'A2', 'B1', 'B2'];
+    var selected = Array.from(document.querySelectorAll('.mycheckboxqtypes[name="levels"]:checked'))
+                        .map(function(el) { return el.value; });
+    var highestIdx = -1;
+    selected.forEach(function(l) {
+        var idx = levelOrder.indexOf(l);
+        if (idx > highestIdx) highestIdx = idx;
+    });
+    if (highestIdx < 0 || highestIdx >= levelOrder.length - 1) return;
+    var nextLevel = levelOrder[highestIdx + 1];
+    var card = container.append('div').attr('class', 'nudge-card');
+    card.append('div').attr('class', 'nudge-text')
+        .html('🚀 You scored ' + pct + '%! Ready to try <strong>' + nextLevel + '</strong>?');
+    card.append('button').attr('class', 'rec-btn')
+        .text('Try ' + nextLevel)
+        .on('click', function() {
+            document.querySelectorAll('.mycheckboxqtypes[name="levels"]').forEach(function(cb) {
+                cb.checked = (cb.value === nextLevel);
+            });
+            restartQuiz();
+        });
+}
+
 function startTopicDrill(topic) {
     countCorrect = 0; countIncorrect = 0; countViewed = 0; countQues = 0;
     wrongAnswers = [];
@@ -367,11 +476,12 @@ function shuffleArray(array) {
 }
 
 function fill_qa(q) {
-    d3.select("#extra").html(q.extra);
+    d3.select("#extra").html(q._requeued ? '🔄 Try again' : (q.extra || ''));
     d3.select("#question").html(q.question);
     for (i=0;i<=3;i++) {
         d3.select('#opt'+ (i + 1)).html(q.choices[i]);
     }
+    updateQuizProgress();
     startQuestionTimer();
 }
 
@@ -381,6 +491,7 @@ var countCorrect = 0;
 var countIncorrect = 0;
 var countViewed = 0;
 var wrongAnswers = [];
+var originalQuestionCount = 0;
 
 function toggleAllLevels(link) {
     const boxes = Array.from(document.querySelectorAll('.mycheckboxqtypes[name="levels"]'));
@@ -456,6 +567,15 @@ function startQuiz() {
 
         shuffleArray(quiz);
 
+        // Shuffle answer choices within each question so correct answer isn't positionally predictable
+        quiz.forEach(function(q) {
+            if (q.choices && q.choices.length === 4 && typeof q.answer === 'number') {
+                var correctText = q.choices[q.answer];
+                shuffleArray(q.choices);
+                q.answer = q.choices.indexOf(correctText);
+            }
+        });
+
         // Guard: nothing to quiz on
         if (quiz.length === 0) {
             if (isBeginner) {
@@ -467,6 +587,7 @@ function startQuiz() {
         }
 
         quiz_started = true;
+        originalQuestionCount = parseInt(d3.select('#question_size').html());
 
         // Use name="topics" to avoid accidentally picking up level checkbox values
         const selectedTypes = Array.from(document.querySelectorAll('.mycheckboxqtypes[name="topics"]:checked')).map(el => el.value);
@@ -522,7 +643,7 @@ function nextQuestion() {
     countViewed++;
     countQues++;
     question_index = parseInt(d3.select('#question_number').html());
-    if(question_index < parseInt(d3.select("#num_of_questions").node().value)) {
+    if(question_index < parseInt(d3.select('#question_size').html())) {
         d3.select('#question_number').html( question_index + 1);
         fill_qa(quiz[countQues]);  
     } else {
@@ -569,18 +690,27 @@ function submitAnswer(which_option) {
     // Always show the correct answer in green
     colorCorrectAnswer();
 
+    var isRequeued = !!quiz[countQues]._requeued;
+
     if (selectedAnswer === correctAnswer) {
-        countCorrect++;
+        if (!isRequeued) countCorrect++;
         playCorrectSound();
     } else {
-        countIncorrect++;
-        wrongAnswers.push({
-            question: quiz[countQues].question,
-            extra: quiz[countQues].extra || '',
-            yourAnswer: selectedAnswer,
-            correctAnswer: correctAnswer,
-            _topic: quiz[countQues]._topic || 'Unknown'
-        });
+        if (!isRequeued) {
+            countIncorrect++;
+            wrongAnswers.push({
+                question: quiz[countQues].question,
+                extra: quiz[countQues].extra || '',
+                yourAnswer: selectedAnswer,
+                correctAnswer: correctAnswer,
+                _topic: quiz[countQues]._topic || 'Unknown'
+            });
+            // Re-queue this question 3 slots ahead for one more attempt
+            var requeue = Object.assign({}, quiz[countQues], { _requeued: true });
+            var insertAt = Math.min(countQues + 3, quiz.length);
+            quiz.splice(insertAt, 0, requeue);
+            d3.select('#question_size').html(parseInt(d3.select('#question_size').html()) + 1);
+        }
         playWrongSound();
         // Mark the wrong pick in red
         d3.select('#opt' + which_option)
@@ -595,7 +725,7 @@ function viewResults() {
     if (autoAdvanceTimer) { clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; }
     decolorCorrectAnswer();
 
-    const total = parseInt(d3.select('#question_size').html()) || 10;
+    const total = originalQuestionCount || parseInt(d3.select('#question_size').html()) || 10;
     const skipped = Math.max(0, total - countCorrect - countIncorrect);
     const pct = Math.round((countCorrect / total) * 100);
 
@@ -610,13 +740,32 @@ function viewResults() {
     const grade = pct >= 90 ? '🏆 Excellent!' : pct >= 70 ? '👍 Good job!' : pct >= 50 ? '📚 Keep practicing!' : '💪 Don\'t give up!';
     d3.select('#result_grade').text(grade);
 
+    // === Personal best ===
+    const lang = get_selected_language();
+    const prevBest = getPersonalBest(lang);
+    const isNewBest = prevBest === null || pct > prevBest;
+    const bestEl = d3.select('#result_personal_best');
+    if (isNewBest && pct > 0) {
+        bestEl.html('🏅 New personal best!').attr('class', 'results-best results-best-new');
+    } else if (prevBest !== null) {
+        bestEl.html('Personal best: ' + prevBest + '%').attr('class', 'results-best');
+    } else {
+        bestEl.html('');
+    }
+
+    // === Confetti on high score ===
+    if (pct >= 90) launchConfetti();
+
     // === Streak + XP ===
     const eng = updateStreakAndXP(countCorrect, total);
     renderEngagementRow(eng);
 
+    // === Difficulty nudge ===
+    renderDifficultyNudge(pct);
+
     // === Score trend ===
-    const history = saveAndGetScoreHistory(get_selected_language(), pct);
-    renderTrendChart(history, get_selected_language());
+    const history = saveAndGetScoreHistory(lang, pct);
+    renderTrendChart(history, lang);
 
     // Plotly chart
     const layout = {
@@ -675,9 +824,10 @@ function viewResults() {
         const notAnswered = Math.max(0, total - countCorrect - countIncorrect);
         d3.select('#result_table').append('tr')
         .selectAll("td")
-        .data([tryNum, get_selected_language(), countCorrect, countIncorrect, notAnswered])
+        .data([tryNum, lang, countCorrect, countIncorrect, notAnswered])
         .enter()
         .append("td").text(function(d) { return d; });
+        saveSessionEntry(tryNum, lang, countCorrect, countIncorrect, notAnswered);
 
         // Show wrong answers review
         const review = d3.select('#wrong_answers_review').html('');
@@ -709,11 +859,13 @@ function playAgain() {
     countViewed = 0;
     countQues = 0;
     wrongAnswers = [];
+    originalQuestionCount = 0;
     quiz_started = false;
     hangman_ready = false;
     d3.select('#question_number').html(1);
     d3.select('#wrong_answers_review').html('');
     d3.select('#weak_topic_rec').html('');
+    d3.select('#difficulty_nudge').html('');
     startQuiz();
 }
 
@@ -726,6 +878,7 @@ function restartQuiz() {
     countViewed = 0;
     countQues = 0;
     wrongAnswers = [];
+    originalQuestionCount = 0;
     quiz_started = false;
     hangman_ready = false;
 
@@ -734,6 +887,8 @@ function restartQuiz() {
     d3.select('#result_table').html('');         // clear history rows
     d3.select('#wrong_answers_review').html(''); // clear review cards
     d3.select('#weak_topic_rec').html('');
+    d3.select('#difficulty_nudge').html('');
+    localStorage.removeItem('goftan_session_history');
 
     // Restore topic/quiz-type sections in case Beginner mode disabled them
     onBeginnerToggle();
@@ -742,24 +897,26 @@ function restartQuiz() {
 }
 
 selectPage('language_page');
+loadSessionHistory();
 
-// Enter key: submit selected answer, or advance to next question
+// Keyboard shortcuts on question page
 document.addEventListener('keydown', function(event) {
-    if (event.key !== 'Enter') return;
     const questionPage = document.getElementById('question_page');
     if (!questionPage || questionPage.style.display === 'none') return;
 
     const isLocked = d3.select('#opt1').property('disabled');
-    if (isLocked) {
-        // Answer already submitted — advance
-        nextQuestion();
-    } else {
-        // Find the focused option button and submit it
-        const focused = document.activeElement;
-        const opts = ['opt1','opt2','opt3','opt4'];
-        const idx = opts.indexOf(focused && focused.id);
-        if (idx !== -1) {
-            submitAnswer(idx + 1);
+
+    if (event.key === 'Enter') {
+        if (isLocked) {
+            nextQuestion();
+        } else {
+            const focused = document.activeElement;
+            const opts = ['opt1','opt2','opt3','opt4'];
+            const idx = opts.indexOf(focused && focused.id);
+            if (idx !== -1) submitAnswer(idx + 1);
         }
+    } else if (!isLocked && ['1','2','3','4'].includes(event.key)) {
+        // 1–4 keys select answer directly
+        submitAnswer(parseInt(event.key));
     }
 });

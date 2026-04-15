@@ -111,6 +111,9 @@
             <div id="question_timer_fill"></div>
             <span id="question_timer_label">15s</span>
         </div>
+        <div id="quiz_progress_wrap" title="Quiz progress">
+            <div id="quiz_progress_fill"></div>
+        </div>
 
         <div style="padding: 5px;">
             <h3 id="extra" style="padding: 5px;"></h3>
@@ -278,6 +281,7 @@
             <div class="results-meta">
                 <div class="results-language" id="result_language"></div>
                 <div class="results-grade" id="result_grade"></div>
+                <div class="results-best" id="result_personal_best"></div>
                 <div class="results-stats-row">
                     <span class="rs-correct"><i class="fas fa-check-circle"></i> <span id="result_correct">0</span> correct</span>
                     <span class="rs-incorrect"><i class="fas fa-times-circle"></i> <span id="result_incorrect">0</span> incorrect</span>
@@ -289,6 +293,9 @@
 
         <!-- Streak + XP row -->
         <div class="engagement-row" id="engagement_row"></div>
+
+        <!-- Difficulty nudge (shown on high score) -->
+        <div id="difficulty_nudge"></div>
 
         <!-- Chart -->
         <div id="myPlot" class="results-chart"></div>
