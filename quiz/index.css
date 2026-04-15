@@ -434,6 +434,22 @@ body {
   transform: translateY(-1px);
   box-shadow: var(--shadow-sm);
 }
+/* Disabled state: dim unchosen options so only the feedback stands out */
+#opt1.button5:disabled, #opt2.button5:disabled,
+#opt3.button5:disabled, #opt4.button5:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+  transform: none;
+  box-shadow: none;
+  pointer-events: none;
+}
+/* Keep full opacity on the option that has feedback coloring (correct/wrong) */
+#opt1.button5:disabled[style*="background-color"],
+#opt2.button5:disabled[style*="background-color"],
+#opt3.button5:disabled[style*="background-color"],
+#opt4.button5:disabled[style*="background-color"] {
+  opacity: 1;
+}
 
 /* Primary CTA — Start Learning / Start Quiz */
 #startLearning, #startQuizButton {
