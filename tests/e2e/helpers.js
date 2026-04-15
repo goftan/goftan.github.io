@@ -95,4 +95,47 @@ async function answerQuestions(page, count, correct = true) {
     }
 }
 
-module.exports = { QUIZ_URL, startMCQuiz, startHangman, getCorrectOptionIdx, getWrongOptionIdx, answerQuestions };
+/**
+ * Navigates to the quiz and starts a Crossword-only session.
+ * Resolves when the crossword grid has at least one input cell.
+ *
+ * Strategy: fill_crossword() processes all quiz questions (can be 800+) which
+ * is CPU-bound and takes variable time. Rather than waiting for the app to call
+ * selectPage(), we wait for the crossword data to be ready (cells rendered) and
+ * then explicitly navigate to the crossword page via evaluate — this avoids
+ * flakiness from timing races between rendering and Playwright's visibility check.
+ */
+async function startCrossword(page) {
+    await page.goto(QUIZ_URL);
+    await page.click('label:has-text("German")');
+    await page.click('#startLearning');
+    await page.fill('#num_of_questions', '10');
+
+    // Uncheck non-Crossword quiz types (inputs are opacity:0 custom checkboxes — use evaluate)
+    await page.evaluate(() => {
+        document.querySelectorAll('input.mycheckboxqtypes[name="topics"]').forEach(cb => {
+            if (cb.value === 'Multiple Choice' || cb.value === 'Hangman') cb.checked = false;
+            if (cb.value === 'Crossword') cb.checked = true;
+        });
+    });
+
+    await page.click('#startQuizButton');
+
+    // Wait for fill_crossword() to have rendered at least one grid cell
+    // (this is the real "ready" signal — selectPage timing is unreliable)
+    await page.waitForFunction(
+        () => document.querySelectorAll('input.crossword_cells').length > 0,
+        { timeout: 20000 }
+    );
+
+    // Ensure the crossword page is actually visible (force it if needed)
+    await page.evaluate(() => {
+        if (document.getElementById('puzzle-piece_page').style.display !== 'block') {
+            selectPage('puzzle-piece_page');
+        }
+    });
+
+    await page.locator('#puzzle-piece_page').waitFor({ state: 'visible', timeout: 3000 });
+}
+
+module.exports = { QUIZ_URL, startMCQuiz, startHangman, startCrossword, getCorrectOptionIdx, getWrongOptionIdx, answerQuestions };
