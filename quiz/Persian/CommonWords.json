@@ -29918,20 +29918,6 @@
     "level": "B2"
   },
   {
-    "question": "صیحه زدن",
-    "choices": [
-      "black",
-      "club",
-      "take",
-      "cry"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa",
-    "intent": "",
-    "extra": "Translation of",
-    "level": "B2"
-  },
-  {
     "question": "سست بودن",
     "choices": [
       "ready",
@@ -30136,20 +30122,6 @@
       "geographical"
     ],
     "answer": 2,
-    "type": "translate_en_fa",
-    "intent": "",
-    "extra": "Translation of",
-    "level": "B2"
-  },
-  {
-    "question": "مر",
-    "choices": [
-      "bitter",
-      "imported",
-      "mold",
-      "regarding"
-    ],
-    "answer": 0,
     "type": "translate_en_fa",
     "intent": "",
     "extra": "Translation of",
@@ -31388,20 +31360,6 @@
     "level": "B2"
   },
   {
-    "question": "صیحه زدن",
-    "choices": [
-      "novel",
-      "cry",
-      "stranger",
-      "beautiful"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa",
-    "intent": "",
-    "extra": "Translation of",
-    "level": "B2"
-  },
-  {
     "question": "سست بودن",
     "choices": [
       "careless",
@@ -31606,20 +31564,6 @@
       "industrious"
     ],
     "answer": 2,
-    "type": "translate_en_fa",
-    "intent": "",
-    "extra": "Translation of",
-    "level": "B2"
-  },
-  {
-    "question": "مر",
-    "choices": [
-      "center",
-      "bitter",
-      "lazy",
-      "known"
-    ],
-    "answer": 1,
     "type": "translate_en_fa",
     "intent": "",
     "extra": "Translation of",
@@ -32858,20 +32802,6 @@
     "level": "B2"
   },
   {
-    "question": "صیحه زدن",
-    "choices": [
-      "Persian",
-      "look",
-      "cry",
-      "leadership"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa",
-    "intent": "",
-    "extra": "Translation of",
-    "level": "B2"
-  },
-  {
     "question": "سست بودن",
     "choices": [
       "standard",
@@ -33074,20 +33004,6 @@
       "oriental",
       "best",
       "intention"
-    ],
-    "answer": 2,
-    "type": "translate_en_fa",
-    "intent": "",
-    "extra": "Translation of",
-    "level": "B2"
-  },
-  {
-    "question": "مر",
-    "choices": [
-      "capable",
-      "best",
-      "bitter",
-      "Shah"
     ],
     "answer": 2,
     "type": "translate_en_fa",
@@ -34328,20 +34244,6 @@
     "level": "B2"
   },
   {
-    "question": "صیحه زدن",
-    "choices": [
-      "TRUE",
-      "cry",
-      "economic",
-      "crooked"
-    ],
-    "answer": 1,
-    "type": "translate_en_fa",
-    "intent": "",
-    "extra": "Translation of",
-    "level": "B2"
-  },
-  {
     "question": "سست بودن",
     "choices": [
       "permission",
@@ -34544,20 +34446,6 @@
       "score",
       "work",
       "best"
-    ],
-    "answer": 3,
-    "type": "translate_en_fa",
-    "intent": "",
-    "extra": "Translation of",
-    "level": "B2"
-  },
-  {
-    "question": "مر",
-    "choices": [
-      "newspaper",
-      "release",
-      "different",
-      "bitter"
     ],
     "answer": 3,
     "type": "translate_en_fa",
