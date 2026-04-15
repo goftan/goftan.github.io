@@ -42,6 +42,241 @@ var avialble_topics = [
 quiz_started = false;
 var hangman_ready = false;
 
+// === Timer ===
+var questionTimer = null;
+var autoAdvanceTimer = null;
+var timerDuration = 15;
+
+// === Sound ===
+var soundEnabled = true;
+var _audioCtx = null;
+
+function getAudioCtx() {
+    if (!_audioCtx) {
+        try { _audioCtx = new (window.AudioContext || window.webkitAudioContext)(); } catch(e) {}
+    }
+    return _audioCtx;
+}
+
+function playCorrectSound() {
+    if (!soundEnabled) return;
+    try {
+        var ctx = getAudioCtx();
+        if (!ctx) return;
+        var osc = ctx.createOscillator();
+        var gain = ctx.createGain();
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.frequency.setValueAtTime(523, ctx.currentTime);
+        osc.frequency.setValueAtTime(659, ctx.currentTime + 0.1);
+        gain.gain.setValueAtTime(0.25, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.35);
+        osc.start(ctx.currentTime);
+        osc.stop(ctx.currentTime + 0.35);
+    } catch(e) {}
+}
+
+function playWrongSound() {
+    if (!soundEnabled) return;
+    try {
+        var ctx = getAudioCtx();
+        if (!ctx) return;
+        var osc = ctx.createOscillator();
+        var gain = ctx.createGain();
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(220, ctx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(110, ctx.currentTime + 0.25);
+        gain.gain.setValueAtTime(0.18, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.3);
+        osc.start(ctx.currentTime);
+        osc.stop(ctx.currentTime + 0.3);
+    } catch(e) {}
+}
+
+function toggleSound() {
+    soundEnabled = !soundEnabled;
+    var icon = document.getElementById('sound_icon');
+    var btn  = document.getElementById('sound_toggle');
+    if (icon) icon.className = soundEnabled ? 'fas fa-volume-up' : 'fas fa-volume-mute';
+    if (btn)  btn.classList.toggle('muted', !soundEnabled);
+}
+
+// === Question timer ===
+function startQuestionTimer() {
+    clearQuestionTimer();
+    if (autoAdvanceTimer) { clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; }
+    var remaining = timerDuration;
+    updateTimerBar(remaining);
+    questionTimer = setInterval(function() {
+        remaining--;
+        updateTimerBar(remaining);
+        if (remaining <= 0) {
+            clearQuestionTimer();
+            if (!d3.select('#opt1').property('disabled')) {
+                for (var i = 1; i <= 4; i++) d3.select('#opt' + i).property('disabled', true);
+                countIncorrect++;
+                var q = quiz[countQues];
+                wrongAnswers.push({
+                    question: q.question,
+                    extra: q.extra || '',
+                    yourAnswer: '⏱ Timed out',
+                    correctAnswer: q.choices[q.answer],
+                    _topic: q._topic || 'Unknown'
+                });
+                colorCorrectAnswer();
+                playWrongSound();
+                autoAdvanceTimer = setTimeout(function() {
+                    autoAdvanceTimer = null;
+                    nextQuestion();
+                }, 1500);
+            }
+        }
+    }, 1000);
+}
+
+function clearQuestionTimer() {
+    if (questionTimer) { clearInterval(questionTimer); questionTimer = null; }
+}
+
+function updateTimerBar(remaining) {
+    var fill  = document.getElementById('question_timer_fill');
+    var label = document.getElementById('question_timer_label');
+    if (!fill || !label) return;
+    var pct = (remaining / timerDuration) * 100;
+    fill.style.width = pct + '%';
+    if (pct > 50)       fill.style.background = 'var(--c-primary)';
+    else if (pct > 25)  fill.style.background = '#F59E0B';
+    else                fill.style.background = 'var(--c-error)';
+    label.textContent = remaining + 's';
+}
+
+// === Streak + XP ===
+function updateStreakAndXP(correct, total) {
+    var today = new Date().toDateString();
+    var raw = localStorage.getItem('goftan_engagement');
+    var data = raw ? JSON.parse(raw) : {};
+    var yesterday = new Date(Date.now() - 86400000).toDateString();
+
+    if (data.lastPlayed === today) {
+        // already played today — streak unchanged
+    } else if (data.lastPlayed === yesterday) {
+        data.streak = (data.streak || 1) + 1;
+    } else {
+        data.streak = 1;
+    }
+    data.lastPlayed = today;
+
+    var streakBonus = data.streak > 1 ? 50 : 0;
+    var earnedXP = correct * 10 + streakBonus;
+    data.xp = (data.xp || 0) + earnedXP;
+    localStorage.setItem('goftan_engagement', JSON.stringify(data));
+    return { streak: data.streak, xp: data.xp, earnedXP: earnedXP, streakBonus: streakBonus };
+}
+
+function renderEngagementRow(eng) {
+    var row = d3.select('#engagement_row').html('');
+
+    var sb = row.append('div').attr('class', 'streak-badge');
+    sb.append('span').attr('class', 'streak-icon').text('🔥');
+    var si = sb.append('div').attr('class', 'streak-info');
+    si.append('div').attr('class', 'streak-count').text(eng.streak + '-day streak');
+    si.append('div').attr('class', 'streak-sub').text(eng.streak > 1 ? 'Keep it up!' : 'Day 1 — come back tomorrow!');
+
+    var xb = row.append('div').attr('class', 'xp-badge');
+    xb.append('span').attr('class', 'xp-icon').text('⚡');
+    var xi = xb.append('div').attr('class', 'xp-info');
+    xi.append('div').attr('class', 'xp-earned').text('+' + eng.earnedXP + ' XP');
+    xi.append('div').attr('class', 'xp-total').text(
+        eng.xp + ' total' + (eng.streakBonus > 0 ? ' · +' + eng.streakBonus + ' streak bonus' : '')
+    );
+}
+
+// === Score trend history ===
+function saveAndGetScoreHistory(language, pct) {
+    var key = 'goftan_scores_' + language.toLowerCase();
+    var stored = localStorage.getItem(key);
+    var history = stored ? JSON.parse(stored) : [];
+    history.push(pct);
+    if (history.length > 20) history.splice(0, history.length - 20);
+    localStorage.setItem(key, JSON.stringify(history));
+    return history;
+}
+
+function renderTrendChart(history, language) {
+    var container = document.getElementById('trendPlot');
+    if (!container) return;
+    if (history.length < 2) {
+        container.style.display = 'none';
+        return;
+    }
+    container.style.display = '';
+    var labels = history.map(function(_, i) { return 'Session ' + (i + 1); });
+    var trendData = [{
+        x: labels, y: history,
+        type: 'scatter', mode: 'lines+markers',
+        name: 'Score %',
+        line: { color: '#22C55E', width: 2 },
+        marker: { color: '#22C55E', size: 8 },
+        fill: 'tozeroy', fillcolor: 'rgba(34,197,94,0.08)'
+    }];
+    var trendLayout = {
+        xaxis: { fixedrange: true, showticklabels: history.length <= 10 },
+        yaxis: { title: 'Score %', range: [0, 100], fixedrange: true, dtick: 25 },
+        title: { text: language + ' — Score Trend', font: { size: 14 } },
+        margin: { t: 36, b: 30, l: 48, r: 10 },
+        plot_bgcolor: 'rgba(0,0,0,0)', paper_bgcolor: 'rgba(0,0,0,0)',
+        font: { family: 'inherit' }
+    };
+    Plotly.newPlot('trendPlot', trendData, trendLayout, { responsive: true, displayModeBar: false });
+}
+
+// === Weak topic recommendation ===
+function renderRecommendation() {
+    var container = d3.select('#weak_topic_rec').html('');
+    if (wrongAnswers.length === 0) return;
+
+    var counts = {};
+    wrongAnswers.forEach(function(w) {
+        var t = w._topic || 'Unknown';
+        counts[t] = (counts[t] || 0) + 1;
+    });
+    var sorted = Object.entries(counts).sort(function(a, b) { return b[1] - a[1]; });
+    var top = sorted[0];
+    if (!top || top[0] === 'Unknown') return;
+
+    var topicName = top[0];
+    var missCount = top[1];
+
+    var card = container.append('div').attr('class', 'recommendation-card');
+    var txt = card.append('div').attr('class', 'rec-text');
+    txt.append('div').attr('class', 'rec-title')
+        .text('💡 Weak spot: ' + topicName);
+    txt.append('div').attr('class', 'rec-sub')
+        .text('You missed ' + missCount + ' question' + (missCount > 1 ? 's' : '') + ' from this topic. Practice it now?');
+    card.append('button').attr('class', 'rec-btn')
+        .html('<i class="fas fa-redo"></i> Drill ' + topicName)
+        .on('click', function() { startTopicDrill(topicName); });
+}
+
+function startTopicDrill(topic) {
+    countCorrect = 0; countIncorrect = 0; countViewed = 0; countQues = 0;
+    wrongAnswers = [];
+    quiz_started = false; hangman_ready = false;
+    clearQuestionTimer();
+    if (autoAdvanceTimer) { clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; }
+    d3.select('#question_number').html(1);
+    d3.select('#wrong_answers_review').html('');
+    d3.select('#weak_topic_rec').html('');
+
+    // Rebuild topic checkboxes, then check only the target topic
+    fill_topic_checkboxes();
+    document.querySelectorAll('.mycheckbox').forEach(function(cb) {
+        cb.checked = (cb.value === topic);
+    });
+    startQuiz();
+}
 
 init_nav_menu();
 
@@ -136,7 +371,8 @@ function fill_qa(q) {
     d3.select("#question").html(q.question);
     for (i=0;i<=3;i++) {
         d3.select('#opt'+ (i + 1)).html(q.choices[i]);
-    }  
+    }
+    startQuestionTimer();
 }
 
 var countQues=0;
@@ -178,6 +414,7 @@ function startQuiz() {
     saveSettings();
     d3.select('#question_size').html(parseInt(d3.select("#num_of_questions").node().value));
     let readers = [];
+    let topicNames = [];
 
     const selectedLevels = Array.from(document.querySelectorAll('.mycheckboxqtypes[name="levels"]:checked')).map(el => el.value);
     const isBeginner = selectedLevels.includes('Beginner');
@@ -186,20 +423,26 @@ function startQuiz() {
         // Only load Numbers and Colors regardless of topic checkboxes
         beginner_topics.forEach(function(topic) {
             readers.push(d3.json(get_selected_language() + '/' + topic + '.json'));
+            topicNames.push(topic);
         });
     } else {
         d3.selectAll('.mycheckbox:checked').each(function() {
-            var topic_name = d3.select(this).node().value.replaceAll(' ','') + '.json';
+            const topicLabel = d3.select(this).node().value;
+            var topic_name = topicLabel.replaceAll(' ','') + '.json';
             readers.push(d3.json(get_selected_language() + '/' + topic_name));
+            topicNames.push(topicLabel);
         });
     }
 
     Promise.allSettled(readers).then(function(files) {
-        console.log(files);
         quizall = [];
-        all = [].concat.apply([], files);
-        for(a of all) quizall.push(a.value);
-        quizall = quizall.filter(x => x !== undefined)
+        for (let i = 0; i < files.length; i++) {
+            if (files[i].status === 'fulfilled' && files[i].value) {
+                const qs = files[i].value;
+                qs.forEach(function(q) { if (!q._topic) q._topic = topicNames[i] || 'Unknown'; });
+                quizall.push(qs);
+            }
+        }
         quiz = [].concat.apply([], quizall);
 
         // Beginner: exclude sentences and vocabulary/word questions
@@ -273,6 +516,8 @@ function startQuiz() {
 }
 
 function nextQuestion() {
+    clearQuestionTimer();
+    if (autoAdvanceTimer) { clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; }
     decolorCorrectAnswer();
     countViewed++;
     countQues++;
@@ -310,6 +555,9 @@ function submitAnswer(which_option) {
     // Prevent re-answering the same question
     if (d3.select('#opt1').property('disabled')) return;
 
+    clearQuestionTimer();
+    if (autoAdvanceTimer) { clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; }
+
     // Lock all options
     for (let i = 1; i <= 4; i++) {
         d3.select('#opt' + i).property('disabled', true);
@@ -323,14 +571,17 @@ function submitAnswer(which_option) {
 
     if (selectedAnswer === correctAnswer) {
         countCorrect++;
+        playCorrectSound();
     } else {
         countIncorrect++;
         wrongAnswers.push({
             question: quiz[countQues].question,
             extra: quiz[countQues].extra || '',
             yourAnswer: selectedAnswer,
-            correctAnswer: correctAnswer
+            correctAnswer: correctAnswer,
+            _topic: quiz[countQues]._topic || 'Unknown'
         });
+        playWrongSound();
         // Mark the wrong pick in red
         d3.select('#opt' + which_option)
             .style('background-color', '#FEE2E2')
@@ -340,6 +591,8 @@ function submitAnswer(which_option) {
 }
 
 function viewResults() {
+    clearQuestionTimer();
+    if (autoAdvanceTimer) { clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; }
     decolorCorrectAnswer();
 
     const total = parseInt(d3.select('#question_size').html()) || 10;
@@ -356,6 +609,14 @@ function viewResults() {
 
     const grade = pct >= 90 ? '🏆 Excellent!' : pct >= 70 ? '👍 Good job!' : pct >= 50 ? '📚 Keep practicing!' : '💪 Don\'t give up!';
     d3.select('#result_grade').text(grade);
+
+    // === Streak + XP ===
+    const eng = updateStreakAndXP(countCorrect, total);
+    renderEngagementRow(eng);
+
+    // === Score trend ===
+    const history = saveAndGetScoreHistory(get_selected_language(), pct);
+    renderTrendChart(history, get_selected_language());
 
     // Plotly chart
     const layout = {
@@ -431,6 +692,9 @@ function viewResults() {
             });
         }
 
+        // === Weak topic recommendation ===
+        renderRecommendation();
+
         selectPage('calculator_page');
     // }
     
@@ -438,6 +702,8 @@ function viewResults() {
 
 function playAgain() {
     // Keep all settings, just reset counters and replay
+    clearQuestionTimer();
+    if (autoAdvanceTimer) { clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; }
     countCorrect = 0;
     countIncorrect = 0;
     countViewed = 0;
@@ -447,10 +713,13 @@ function playAgain() {
     hangman_ready = false;
     d3.select('#question_number').html(1);
     d3.select('#wrong_answers_review').html('');
+    d3.select('#weak_topic_rec').html('');
     startQuiz();
 }
 
 function restartQuiz() {
+    clearQuestionTimer();
+    if (autoAdvanceTimer) { clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; }
     // Reset all quiz state
     countCorrect = 0;
     countIncorrect = 0;
@@ -464,6 +733,7 @@ function restartQuiz() {
     d3.select('#question_number').html(1);
     d3.select('#result_table').html('');         // clear history rows
     d3.select('#wrong_answers_review').html(''); // clear review cards
+    d3.select('#weak_topic_rec').html('');
 
     // Restore topic/quiz-type sections in case Beginner mode disabled them
     onBeginnerToggle();

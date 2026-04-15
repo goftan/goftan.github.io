@@ -100,8 +100,17 @@
         <button class="button button5" onclick="startQuiz()" id="startQuizButton">Start Quiz!</button>
     </div>
     <div id="question_page" style="display: none;">
-        <div style="padding: 5px;">Question <span id="question_number">1</span> 
-            of <span id="question_size">10</span>&nbsp;&nbsp;<button class="button button5" onclick="nextQuestion()" id="nextQuestion">Next</button></div>
+        <div class="question-meta-row">
+            <div>Question <span id="question_number">1</span> of <span id="question_size">10</span></div>
+            <div class="question-meta-right">
+                <button class="sound-toggle" id="sound_toggle" onclick="toggleSound()" title="Toggle sound"><i class="fas fa-volume-up" id="sound_icon"></i></button>
+                <button class="button button5" onclick="nextQuestion()" id="nextQuestion">Next</button>
+            </div>
+        </div>
+        <div id="question_timer_wrap">
+            <div id="question_timer_fill"></div>
+            <span id="question_timer_label">15s</span>
+        </div>
 
         <div style="padding: 5px;">
             <h3 id="extra" style="padding: 5px;"></h3>
@@ -235,6 +244,26 @@
         </div>
     </div>
     <div id="sign-hanging_page" style="display: none">
+        <div class="hm-scaffold-area">
+            <svg id="hangman_svg" viewBox="0 0 200 220" width="180" height="198" aria-hidden="true">
+                <!-- Gallows (always visible) -->
+                <line x1="20" y1="210" x2="110" y2="210" stroke="var(--c-text-2)" stroke-width="5" stroke-linecap="round"/>
+                <line x1="50" y1="210" x2="50" y2="20" stroke="var(--c-text-2)" stroke-width="5" stroke-linecap="round"/>
+                <line x1="50" y1="20" x2="130" y2="20" stroke="var(--c-text-2)" stroke-width="5" stroke-linecap="round"/>
+                <line x1="130" y1="20" x2="130" y2="44" stroke="var(--c-text-2)" stroke-width="3" stroke-linecap="round"/>
+                <!-- Person (revealed one part per wrong guess) -->
+                <g id="hm-person">
+                    <circle id="hm-head" cx="130" cy="62" r="18" stroke-width="3" fill="none" style="display:none"/>
+                    <line id="hm-body" x1="130" y1="80" x2="130" y2="135" stroke-width="3" stroke-linecap="round" style="display:none"/>
+                    <line id="hm-left-arm" x1="130" y1="95" x2="105" y2="120" stroke-width="3" stroke-linecap="round" style="display:none"/>
+                    <line id="hm-right-arm" x1="130" y1="95" x2="155" y2="120" stroke-width="3" stroke-linecap="round" style="display:none"/>
+                    <line id="hm-left-leg" x1="130" y1="135" x2="105" y2="165" stroke-width="3" stroke-linecap="round" style="display:none"/>
+                    <line id="hm-right-leg" x1="130" y1="135" x2="155" y2="165" stroke-width="3" stroke-linecap="round" style="display:none"/>
+                </g>
+            </svg>
+            <div id="hangman_lives" class="hm-lives"></div>
+        </div>
+        <div id="hangman_status"></div>
         <div id="hangman_hint"></div>
         <div id="hangman_answer"></div>
         <div id="hangman_alphabets"></div>
@@ -258,8 +287,14 @@
             </div>
         </div>
 
+        <!-- Streak + XP row -->
+        <div class="engagement-row" id="engagement_row"></div>
+
         <!-- Chart -->
         <div id="myPlot" class="results-chart"></div>
+
+        <!-- Score trend (shown when ≥2 sessions exist) -->
+        <div id="trendPlot" class="results-chart" style="display:none"></div>
 
         <!-- History table -->
         <details class="results-history" open>
@@ -280,6 +315,9 @@
 
         <!-- Wrong answers review -->
         <div id="wrong_answers_review"></div>
+
+        <!-- Weak topic recommendation -->
+        <div id="weak_topic_rec"></div>
 
         <!-- Action buttons -->
         <div class="results-actions">

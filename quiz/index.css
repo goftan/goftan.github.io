@@ -1187,6 +1187,146 @@ span.psw { float: right; padding-top: 14px; font-size: 0.85rem; }
   transform: none;
 }
 
+/* ── Question timer bar ── */
+.question-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: var(--sp-2);
+}
+.question-meta-right {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+.sound-toggle {
+  background: none;
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-sm);
+  padding: 5px 9px;
+  cursor: pointer;
+  color: var(--c-text-2);
+  font-size: 0.85rem;
+  line-height: 1;
+  transition: all var(--t-fast);
+}
+.sound-toggle:hover { border-color: var(--c-primary); color: var(--c-primary); }
+.sound-toggle.muted { color: var(--c-text-3); }
+
+#question_timer_wrap {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: 0 5px var(--sp-3);
+}
+#question_timer_fill {
+  flex: 1;
+  height: 6px;
+  background: var(--c-primary);
+  border-radius: var(--r-full);
+  transition: width 0.9s linear, background 0.3s ease;
+  width: 100%;
+}
+#question_timer_label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--c-text-2);
+  min-width: 22px;
+  text-align: right;
+}
+
+/* ── Engagement row (streak + XP) ── */
+.engagement-row {
+  display: flex;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-5);
+  flex-wrap: wrap;
+}
+.streak-badge, .xp-badge {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-3) var(--sp-4);
+  border-radius: var(--r-md);
+  background: var(--c-surface-alt);
+  border: 1px solid var(--c-border);
+  flex: 1;
+  min-width: 150px;
+}
+.streak-icon, .xp-icon { font-size: 1.4rem; line-height: 1; }
+.streak-count, .xp-earned {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--c-text);
+}
+.streak-sub, .xp-total { font-size: 0.72rem; color: var(--c-text-3); }
+
+/* ── Recommendation card ── */
+#weak_topic_rec { margin: var(--sp-5) 0; }
+.recommendation-card {
+  background: var(--c-primary-dim);
+  border: 1px solid rgba(34,197,94,0.3);
+  border-left: 4px solid var(--c-primary);
+  border-radius: var(--r-md);
+  padding: var(--sp-4) var(--sp-5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+}
+.rec-text { flex: 1; }
+.rec-title { font-weight: 700; font-size: 0.9rem; color: var(--c-text); margin-bottom: 2px; }
+.rec-sub   { font-size: 0.8rem; color: var(--c-text-2); }
+.rec-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: 8px 18px;
+  background: var(--c-primary);
+  color: white;
+  border: none;
+  border-radius: var(--r-full);
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--t-fast);
+  white-space: nowrap;
+}
+.rec-btn:hover { background: var(--c-primary-dark); transform: translateY(-1px); }
+
+/* ── Hangman scaffold + lives ── */
+.hm-scaffold-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(--sp-2);
+}
+#hangman_svg { display: block; }
+#hm-person circle, #hm-person line { stroke: #DC2626; }
+
+#hangman_status {
+  text-align: center;
+  min-height: 28px;
+  margin-bottom: var(--sp-3);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.hm-gameover { color: var(--c-error); }
+.hm-win      { color: var(--c-success); }
+.hm-reveal   { color: var(--c-error); text-decoration: underline; }
+
+.hm-lives {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  margin: var(--sp-1) 0 var(--sp-2);
+}
+.hm-life      { font-size: 1.1rem; color: var(--c-error); transition: color 0.2s; }
+.hm-life-lost { color: var(--c-border); }
+
 /* ── Responsive ── */
 @media (max-width: 768px) {
   #wrapper { padding: var(--sp-4) var(--sp-3); }
