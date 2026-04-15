@@ -242,6 +242,7 @@ function fill_crossword(quiz) {
 
     
     for(table_q of output_json) {
+        if(table_q.orientation === 'none') continue; // skip unplaced words
         var x = table_q.startx;
         var y = table_q.starty;
         var orientation = table_q.orientation;
@@ -250,7 +251,7 @@ function fill_crossword(quiz) {
         var extra = table_q.extra;
         for(var i = 0; i < answer.length; i++) {
             if(orientation == 'across') {
-                xy_to_data[(x+i) + '_' + y] = {'answer': answer, 'orientation': orientation, 'startx': x, 'starty': y, 'clue': clue, 'extra': extra}; 
+                xy_to_data[(x+i) + '_' + y] = {'answer': answer, 'orientation': orientation, 'startx': x, 'starty': y, 'clue': clue, 'extra': extra};
             } else {
                 xy_to_data[x + '_' + (y+i)] = {'answer': answer, 'orientation': orientation, 'startx': x, 'starty': y, 'clue': clue, 'extra': extra};
             }
@@ -308,6 +309,8 @@ function fill_crossword(quiz) {
     cnt = 1;
 
     for(table_q of output_json) {
+        if(table_q.orientation === 'none') continue; // skip unplaced words
+
         d3.select(d3.select(id_of_cell(table_q.startx - 1, table_q.starty - 1))
             .node().parentNode)
             .append('span').lower()
