@@ -85,6 +85,17 @@ function selectPage(page) {
     d3.select('#'+page).style("display", 'block');
 }
 
+var nav_icons = {
+    'language':     'language',
+    'tasks':        'tasks',
+    'question':     'question',
+    'puzzle-piece': 'puzzle-piece',
+    'sign-hanging': 'sign-hanging',
+    'flashcard':    'clone',
+    'calculator':   'calculator',
+    'info':         'info'
+};
+
 function init_nav_menu() {
     d3.select('#navbar').selectAll('a')
         .data(navs)
@@ -93,7 +104,6 @@ function init_nav_menu() {
         .attr('id',function(d){ return d+'_page_nav'; })
         .attr('class',function(d,c){ return c==0 ? 'active' : 'inactive'; })
         .attr('onclick',function(d){ return 'click_nav(\''+d+'_page\')'; })
-        // .attr('href','javascript:void(0)')
-        .html(function(d){ return '<i class="fa fa-'+d+'"></i>'; });
+        .html(function(d){ return '<i class="fa fa-'+(nav_icons[d]||d)+'"></i>'; });
 }
 

@@ -235,7 +235,7 @@ function startFlashcards(quizData) {
     flashcardIndex = 0;
     flashcardFlipped = false;
     renderFlashcard();
-    selectPage('flashcard_page');
+    // Navigation is handled by the caller — don't auto-navigate here
 }
 
 function renderFlashcard() {
@@ -1287,6 +1287,7 @@ function startQuiz() {
 
         if (doFlashcard) {
             startFlashcards(quiz);
+            if (!doMultipleChoice && !doCrossword && !doHangman) selectPage('flashcard_page');
         }
 
     }).catch(function(err) {
