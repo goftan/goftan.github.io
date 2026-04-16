@@ -232,7 +232,7 @@ function fill_crossword(quiz) {
             if(d=='-' || d=='')
                 return "<span id='" + id_of_cell_alone(c, i) + "'></span>";
             else 
-                return "<input class='crossword_cells' id='" + id_of_cell_alone(c, i) + "' ans='"+ d +"'>"; 
+                return "<input class='crossword_cells' id='" + id_of_cell_alone(c, i) + "' ans='"+ d +"' autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false'>"; 
         });
 
         if(i == rows - 1) {

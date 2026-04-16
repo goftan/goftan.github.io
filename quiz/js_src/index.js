@@ -1,11 +1,16 @@
-var avialable_languages = [
+var available_languages = [
     'Persian',
     'German',
     'Spanish',
+    'French',
+    'Italian',
     'Korean',
     'Turkish',
     'Arabic',
-    'Portuguese'
+    'Japanese',
+    'Dutch',
+    'Hindi',
+    'English'
 ]
 
 var available_programming_languages = [
@@ -17,30 +22,687 @@ var language_alphabets = {
     'Persian': 'ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی',
     'German': 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü ß',
     'Spanish': 'A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z',
+    'French': 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Â Ç É È Ê Ë Î Ï Ô Ù Û Ü Œ Æ',
+    'Italian': 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À È É Ì Î Ò Ó Ù Ú',
     'Korean': 'ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ',
     'Turkish': 'A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z',
     'Arabic': 'ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي',
-    'Portuguese': 'A B C D E F G H I J L M N O P Q R S T U V X Z'
+    'Japanese': 'あ い う え お か き く け こ さ し す せ そ た ち つ て と な に ぬ ね の は ひ ふ へ ほ ま み む め も や ゆ よ ら り る れ ろ わ を ん',
+    'Dutch': 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z',
+    'Hindi': 'अ आ इ ई उ ऊ ए ओ क ख ग घ च छ ज झ ट ठ ड ढ त थ द ध न प फ ब भ म य र ल व श ष स ह',
+    'English': 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z'
+};
+
+// BCP-47 language codes for TTS
+var language_tts_codes = {
+    'Persian': 'fa-IR', 'German': 'de-DE', 'Spanish': 'es-ES',
+    'French': 'fr-FR', 'Italian': 'it-IT', 'Korean': 'ko-KR',
+    'Turkish': 'tr-TR', 'Arabic': 'ar-SA', 'Japanese': 'ja-JP',
+    'Dutch': 'nl-NL', 'Hindi': 'hi-IN', 'English': 'en-US'
 };
 
 var available_quiz_types = [
     'Crossword',
     'Multiple Choice',
-    'Hangman'
+    'Typing',
+    'Hangman',
+    'Flashcard'
 ];
 
-var avialble_topics = [
+var available_topics = [
     'Capitals',
     'Numbers',
     'Colors',
     'Animals',
     'Antonyms',
-    'Common Words', 
-    'Common Sentences'
+    'Common Words',
+    'Common Sentences',
+    'Body Parts',
+    'Family',
+    'Food'
 ];
 
 quiz_started = false;
 var hangman_ready = false;
+
+// === Dark mode ===
+function toggleDarkMode() {
+    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    var next = isDark ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('goftan_theme', next);
+    var icon = document.getElementById('theme_icon');
+    if (icon) icon.className = next === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+}
+
+function restoreTheme() {
+    var saved = localStorage.getItem('goftan_theme') || 'light';
+    document.documentElement.setAttribute('data-theme', saved);
+    var icon = document.getElementById('theme_icon');
+    if (icon) icon.className = saved === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+}
+
+// === Word of the Day ===
+function renderWordOfDay(language) {
+    var container = document.getElementById('word_of_day');
+    if (!container) return;
+    container.style.display = 'none';
+
+    var topics = ['Animals', 'Colors', 'Numbers'];
+    var topicFile = topics[Math.floor(Math.random() * topics.length)];
+    var filename = language + '/' + topicFile + '.json';
+
+    d3.json(filename).then(function(data) {
+        if (!data || data.length === 0) return;
+        // Deterministic pick: hash of language + today's date
+        var dateStr = new Date().toDateString();
+        var seed = (language + dateStr).split('').reduce(function(acc, c) { return acc + c.charCodeAt(0); }, 0);
+        var idx = seed % data.length;
+        var entry = data[idx];
+
+        container.style.display = '';
+        d3.select('#wod_topic').text(topicFile);
+        d3.select('#wod_question').text(entry.question);
+        d3.select('#wod_answer').text(entry.choices[entry.answer]);
+        d3.select('#wod_extra').text(entry.extra || '');
+    }).catch(function() {});
+}
+
+// === Milestone badges ===
+function getEarnedBadges() {
+    try { return JSON.parse(localStorage.getItem('goftan_badges') || '[]'); } catch(e) { return []; }
+}
+
+function checkAndAwardBadges(pct) {
+    var engagement = {};
+    try { engagement = JSON.parse(localStorage.getItem('goftan_engagement') || '{}'); } catch(e) {}
+    var sessions = 0;
+    try {
+        var hist = JSON.parse(localStorage.getItem('goftan_session_history') || '[]');
+        sessions = hist.length;
+    } catch(e) {}
+
+    var stats = {
+        streak: engagement.streak || 0,
+        xp: engagement.xp || 0,
+        lastPct: pct,
+        totalSessions: sessions
+    };
+    var earned = getEarnedBadges();
+    var newIds = checkNewBadges(stats, earned); // pure fn from logic.js
+    if (newIds.length > 0) {
+        var updated = earned.concat(newIds);
+        localStorage.setItem('goftan_badges', JSON.stringify(updated));
+    }
+    return newIds;
+}
+
+function renderBadges(newBadgeIds) {
+    // Show newly earned badge notifications
+    var toastArea = document.getElementById('badge_toast_area');
+    if (toastArea && newBadgeIds.length > 0) {
+        newBadgeIds.forEach(function(id) {
+            var badge = BADGES.find(function(b) { return b.id === id; });
+            if (!badge) return;
+            var el = document.createElement('div');
+            el.className = 'badge-toast';
+            el.innerHTML = '<span class="badge-toast-icon">' + badge.icon + '</span>' +
+                           '<div><strong>Badge unlocked!</strong><br>' + badge.label + '</div>';
+            toastArea.appendChild(el);
+            setTimeout(function() { el.remove(); }, 4000);
+        });
+    }
+
+    // Render all earned badges in results page
+    var container = document.getElementById('badges_earned');
+    if (!container) return;
+    var earned = getEarnedBadges();
+    if (earned.length === 0) { container.style.display = 'none'; return; }
+    container.style.display = '';
+    var inner = document.getElementById('badges_list');
+    if (!inner) return;
+    inner.innerHTML = '';
+    earned.forEach(function(id) {
+        var badge = BADGES.find(function(b) { return b.id === id; });
+        if (!badge) return;
+        var el = document.createElement('div');
+        el.className = 'badge-chip' + (newBadgeIds.includes(id) ? ' badge-chip-new' : '');
+        el.title = badge.desc;
+        el.innerHTML = '<span>' + badge.icon + '</span><span>' + badge.label + '</span>';
+        inner.appendChild(el);
+    });
+}
+
+// === Topic mastery tracking ===
+function saveTopicMastery(language, wrongAnswers, totalQuestions, topicsUsed) {
+    var key = 'goftan_mastery_' + language.toLowerCase();
+    var stored = {};
+    try { stored = JSON.parse(localStorage.getItem(key) || '{}'); } catch(e) {}
+    var updated = updateTopicMastery(stored, wrongAnswers, totalQuestions, topicsUsed); // pure fn from logic.js
+    localStorage.setItem(key, JSON.stringify(updated));
+    return updated;
+}
+
+function renderTopicMastery(language) {
+    var key = 'goftan_mastery_' + language.toLowerCase();
+    var stored = {};
+    try { stored = JSON.parse(localStorage.getItem(key) || '{}'); } catch(e) {}
+
+    document.querySelectorAll('.mycheckbox').forEach(function(cb) {
+        var topicLabel = cb.closest('label');
+        if (!topicLabel) return;
+        var topic = cb.value;
+        var data = stored[topic];
+        var pct = getTopicMasteryPct(data); // pure fn from logic.js
+        var existing = topicLabel.querySelector('.mastery-bar-wrap');
+        if (existing) existing.remove();
+        if (pct === null) return;
+        var color = pct >= 80 ? '#22C55E' : pct >= 50 ? '#F59E0B' : '#EF4444';
+        var bar = document.createElement('div');
+        bar.className = 'mastery-bar-wrap';
+        bar.innerHTML = '<div class="mastery-bar-track"><div class="mastery-bar-fill" style="width:' + pct + '%;background:' + color + '"></div></div>' +
+                        '<span class="mastery-pct">' + pct + '%</span>';
+        topicLabel.appendChild(bar);
+    });
+}
+
+// === Export progress ===
+function exportProgress() {
+    var lang = is_language_selected() ? get_selected_language() : 'All';
+    var rows = [];
+    try { rows = JSON.parse(localStorage.getItem('goftan_session_history') || '[]'); } catch(e) {}
+    if (rows.length === 0) { showFeedback('No session history to export yet.', 'warning'); return; }
+
+    var csv = 'Try,Language,Correct,Incorrect,Skipped\n';
+    rows.forEach(function(r) { csv += r.join(',') + '\n'; });
+
+    var blob = new Blob([csv], { type: 'text/csv' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'goftan_progress_' + lang + '_' + new Date().toISOString().slice(0,10) + '.csv';
+    a.click();
+    URL.revokeObjectURL(url);
+}
+
+// === Flashcard mode ===
+var flashcards = [];
+var flashcardIndex = 0;
+var flashcardFlipped = false;
+
+function startFlashcards(quizData) {
+    flashcards = quizData.slice(0, parseInt(d3.select('#question_size').html()) || 10);
+    flashcardIndex = 0;
+    flashcardFlipped = false;
+    renderFlashcard();
+    selectPage('flashcard_page');
+}
+
+function renderFlashcard() {
+    if (flashcards.length === 0) return;
+    var card = flashcards[flashcardIndex];
+    d3.select('#fc_counter').text((flashcardIndex + 1) + ' / ' + flashcards.length);
+    d3.select('#fc_extra').text(card.extra || '');
+    d3.select('#fc_front').text(card.question);
+    d3.select('#fc_back').text(card.choices[card.answer]);
+    d3.select('#fc_card').classed('flipped', false);
+    d3.select('#fc_know').property('disabled', true).style('display', 'none');
+    d3.select('#fc_skip').property('disabled', true).style('display', 'none');
+    d3.select('#fc_flip_hint').style('display', '');
+    flashcardFlipped = false;
+}
+
+function flipFlashcard() {
+    if (flashcardFlipped) return;
+    flashcardFlipped = true;
+    d3.select('#fc_card').classed('flipped', true);
+    d3.select('#fc_flip_hint').style('display', 'none');
+    d3.select('#fc_know').property('disabled', false).style('display', '');
+    d3.select('#fc_skip').property('disabled', false).style('display', '');
+}
+
+function flashcardKnow() {
+    // Update SRS state
+    var card = flashcards[flashcardIndex];
+    updateSRSCard(card.question, 5);
+    nextFlashcard(true);
+}
+
+function flashcardSkip() {
+    var card = flashcards[flashcardIndex];
+    updateSRSCard(card.question, 1);
+    nextFlashcard(false);
+}
+
+function nextFlashcard(knew) {
+    flashcardIndex++;
+    if (flashcardIndex >= flashcards.length) {
+        showFeedback('Flashcard session complete!', 'success');
+        selectPage('language_page');
+        return;
+    }
+    renderFlashcard();
+}
+
+// === Text-to-Speech ===
+var ttsEnabled = typeof speechSynthesis !== 'undefined';
+
+function speakText(text, lang) {
+    if (!ttsEnabled || !text) return;
+    try {
+        speechSynthesis.cancel();
+        var utt = new SpeechSynthesisUtterance(text);
+        utt.lang = lang || 'en-US';
+        utt.rate = 0.9;
+        speechSynthesis.speak(utt);
+    } catch(e) {}
+}
+
+function speakCurrentQuestion() {
+    if (!quiz || !quiz[countQues]) return;
+    var lang = is_language_selected() ? (language_tts_codes[get_selected_language()] || 'en-US') : 'en-US';
+    speakText(quiz[countQues].question, lang);
+}
+
+// === Typing mode ===
+var typingModeActive = false;
+
+function submitTypedAnswer() {
+    var input = document.getElementById('typing_input');
+    if (!input) return;
+    var typed = input.value.trim();
+    if (!typed) return;
+
+    clearQuestionTimer();
+    if (autoAdvanceTimer) { clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; }
+
+    input.disabled = true;
+    document.getElementById('typing_submit').disabled = true;
+
+    var correctAnswer = quiz[countQues].choices[quiz[countQues].answer];
+    var isCorrect = normalizeAnswer(typed) === normalizeAnswer(correctAnswer);
+
+    colorCorrectAnswer();
+
+    var isRequeued = !!quiz[countQues]._requeued;
+    if (isCorrect) {
+        if (!isRequeued) countCorrect++;
+        playCorrectSound();
+        input.style.borderColor = 'var(--c-success)';
+        input.style.background = 'var(--c-success-bg)';
+    } else {
+        if (!isRequeued) {
+            countIncorrect++;
+            wrongAnswers.push({
+                question: quiz[countQues].question,
+                extra: quiz[countQues].extra || '',
+                yourAnswer: typed,
+                correctAnswer: correctAnswer,
+                _topic: quiz[countQues]._topic || 'Unknown'
+            });
+            var requeue = Object.assign({}, quiz[countQues], { _requeued: true });
+            var insertAt = calcRequeueInsertAt(countQues, quiz.length);
+            quiz.splice(insertAt, 0, requeue);
+            d3.select('#question_size').html(parseInt(d3.select('#question_size').html()) + 1);
+        }
+        playWrongSound();
+        input.style.borderColor = 'var(--c-error)';
+        input.style.background = 'var(--c-error-bg)';
+        // Show correct answer hint
+        var hint = document.getElementById('typing_hint');
+        if (hint) { hint.textContent = 'Correct: ' + correctAnswer; hint.style.display = ''; }
+    }
+
+    // Track word for vocab estimator
+    trackVocabWord(correctAnswer);
+
+    autoAdvanceTimer = setTimeout(function() {
+        autoAdvanceTimer = null;
+        nextQuestion();
+    }, 1500);
+}
+
+function normalizeAnswer(str) {
+    return str.toLowerCase()
+              .trim()
+              .replace(/[àáâãä]/g, 'a')
+              .replace(/[èéêë]/g, 'e')
+              .replace(/[ìíîï]/g, 'i')
+              .replace(/[òóôõö]/g, 'o')
+              .replace(/[ùúûü]/g, 'u')
+              .replace(/[ñ]/g, 'n')
+              .replace(/[ç]/g, 'c')
+              .replace(/[ß]/g, 'ss');
+}
+
+// === Undo last answer ===
+var lastAnswerState = null;
+
+function saveAnswerStateForUndo() {
+    lastAnswerState = {
+        countQues: countQues,
+        countCorrect: countCorrect,
+        countIncorrect: countIncorrect,
+        wrongAnswersLen: wrongAnswers.length,
+        questionSize: parseInt(d3.select('#question_size').html())
+    };
+}
+
+function undoLastAnswer() {
+    if (!lastAnswerState) return;
+    // Roll back state
+    countQues = lastAnswerState.countQues;
+    countCorrect = lastAnswerState.countCorrect;
+    countIncorrect = lastAnswerState.countIncorrect;
+    wrongAnswers.splice(lastAnswerState.wrongAnswersLen);
+    d3.select('#question_size').html(lastAnswerState.questionSize);
+    d3.select('#question_number').html(countQues + 1);
+    if (quiz.length > lastAnswerState.questionSize) quiz.splice(lastAnswerState.countQues + 3, 1); // remove requeue
+    lastAnswerState = null;
+    d3.select('#undo_btn').style('display', 'none');
+    decolorCorrectAnswer();
+    fill_qa(quiz[countQues]);
+}
+
+// === Vocabulary size estimator ===
+function trackVocabWord(word) {
+    if (!is_language_selected() || !word) return;
+    var lang = get_selected_language();
+    var key = 'goftan_vocab_' + lang.toLowerCase();
+    var set;
+    try { set = new Set(JSON.parse(localStorage.getItem(key) || '[]')); } catch(e) { set = new Set(); }
+    set.add(word.toLowerCase().trim());
+    localStorage.setItem(key, JSON.stringify(Array.from(set)));
+}
+
+function getVocabCount(language) {
+    var key = 'goftan_vocab_' + language.toLowerCase();
+    try { return JSON.parse(localStorage.getItem(key) || '[]').length; } catch(e) { return 0; }
+}
+
+function renderVocabEstimate(language) {
+    var el = document.getElementById('vocab_estimate');
+    if (!el) return;
+    var count = getVocabCount(language);
+    if (count === 0) { el.style.display = 'none'; return; }
+    el.style.display = '';
+    el.textContent = 'You\'ve encountered ~' + count + ' ' + language + ' words';
+}
+
+// === Activity tracking (heatmap data) ===
+function recordTodayActivity(correct) {
+    var key = 'goftan_activity';
+    var data = {};
+    try { data = JSON.parse(localStorage.getItem(key) || '{}'); } catch(e) {}
+    var today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+    data[today] = (data[today] || 0) + correct;
+    localStorage.setItem(key, JSON.stringify(data));
+}
+
+function renderActivityHeatmap() {
+    var container = document.getElementById('activity_heatmap');
+    if (!container) return;
+    var data = {};
+    try { data = JSON.parse(localStorage.getItem('goftan_activity') || '{}'); } catch(e) {}
+
+    var today = new Date();
+    var days = 91; // 13 weeks
+    var cells = [];
+    for (var i = days - 1; i >= 0; i--) {
+        var d = new Date(today);
+        d.setDate(d.getDate() - i);
+        var key = d.toISOString().slice(0, 10);
+        cells.push({ date: key, count: data[key] || 0 });
+    }
+
+    var maxCount = Math.max.apply(null, cells.map(function(c) { return c.count; })) || 1;
+
+    container.innerHTML = '';
+    var svg = d3.select(container).append('svg')
+        .attr('width', '100%')
+        .attr('viewBox', '0 0 ' + (13 * 14 + 10) + ' ' + (7 * 14 + 20))
+        .attr('preserveAspectRatio', 'xMinYMid meet');
+
+    // Week columns
+    for (var w = 0; w < 13; w++) {
+        for (var dy = 0; dy < 7; dy++) {
+            var idx = w * 7 + dy;
+            if (idx >= cells.length) continue;
+            var cell = cells[idx];
+            var intensity = cell.count === 0 ? 0 : Math.max(0.15, cell.count / maxCount);
+            var alpha = cell.count === 0 ? 0.1 : intensity;
+            svg.append('rect')
+                .attr('x', w * 14 + 5)
+                .attr('y', dy * 14 + 10)
+                .attr('width', 11).attr('height', 11)
+                .attr('rx', 2)
+                .style('fill', cell.count === 0 ? 'var(--c-border)' : 'var(--c-primary)')
+                .style('opacity', cell.count === 0 ? 0.5 : Math.max(0.2, intensity))
+                .append('title').text(cell.date + ': ' + cell.count + ' correct');
+        }
+    }
+}
+
+// === Session restore ===
+function saveSessionState() {
+    if (!quiz_started || !quiz.length) return;
+    try {
+        sessionStorage.setItem('goftan_session', JSON.stringify({
+            quiz: quiz,
+            countQues: countQues,
+            countCorrect: countCorrect,
+            countIncorrect: countIncorrect,
+            countViewed: countViewed,
+            wrongAnswers: wrongAnswers,
+            originalQuestionCount: originalQuestionCount,
+            language: is_language_selected() ? get_selected_language() : null,
+            questionSize: parseInt(d3.select('#question_size').html())
+        }));
+    } catch(e) {}
+}
+
+function restoreSessionState() {
+    try {
+        var raw = sessionStorage.getItem('goftan_session');
+        if (!raw) return false;
+        var s = JSON.parse(raw);
+        if (!s.quiz || !s.quiz.length) return false;
+
+        // Ask user
+        var restore = confirm('You have an unfinished quiz (' + s.language + ', question ' + (s.countQues + 1) + ' of ' + s.questionSize + '). Continue where you left off?');
+        if (!restore) { sessionStorage.removeItem('goftan_session'); return false; }
+
+        quiz = s.quiz;
+        countQues = s.countQues;
+        countCorrect = s.countCorrect;
+        countIncorrect = s.countIncorrect;
+        countViewed = s.countViewed;
+        wrongAnswers = s.wrongAnswers || [];
+        originalQuestionCount = s.originalQuestionCount;
+        quiz_started = true;
+
+        d3.select('#question_size').html(s.questionSize);
+        d3.select('#question_number').html(s.countQues + 1);
+
+        if (s.language) {
+            var radio = document.querySelector('.languages_checkbox[value="' + s.language + '"]');
+            if (radio) {
+                radio.checked = true;
+                radio.parentNode.classList.add('language-selected');
+                d3.select('#known_language').text('Enjoy learning ' + s.language);
+            }
+        }
+        fill_qa(quiz[countQues]);
+        selectPage('question_page');
+        return true;
+    } catch(e) {
+        sessionStorage.removeItem('goftan_session');
+        return false;
+    }
+}
+
+// === URL-based quiz config ===
+function applyUrlParams() {
+    var params = new URLSearchParams(window.location.search);
+    var lang = params.get('lang');
+    var count = params.get('count');
+    var topics = params.get('topics');
+    var level = params.get('level');
+
+    if (lang) {
+        var radio = document.querySelector('.languages_checkbox[value="' + lang + '"]');
+        if (radio) { radio.checked = true; radio.parentNode.classList.add('language-selected'); }
+    }
+    if (count) {
+        var numEl = document.getElementById('num_of_questions');
+        if (numEl) numEl.value = parseInt(count) || 10;
+    }
+    if (topics) {
+        var topicList = topics.split(',').map(function(t) { return t.trim(); });
+        document.querySelectorAll('.mycheckbox').forEach(function(cb) {
+            cb.checked = topicList.includes(cb.value);
+        });
+    }
+    if (level) {
+        var levelList = level.split(',').map(function(l) { return l.trim(); });
+        document.querySelectorAll('.mycheckboxqtypes[name="levels"]').forEach(function(cb) {
+            cb.checked = levelList.includes(cb.value);
+        });
+    }
+}
+
+function buildShareUrl() {
+    var lang = is_language_selected() ? get_selected_language() : '';
+    var count = document.getElementById('num_of_questions') ? document.getElementById('num_of_questions').value : '10';
+    var topics = Array.from(document.querySelectorAll('.mycheckbox:checked')).map(function(el) { return el.value; }).join(',');
+    var levels = Array.from(document.querySelectorAll('.mycheckboxqtypes[name="levels"]:checked')).map(function(el) { return el.value; }).join(',');
+    var url = window.location.origin + window.location.pathname + '?lang=' + encodeURIComponent(lang) + '&count=' + count + '&topics=' + encodeURIComponent(topics) + '&level=' + encodeURIComponent(levels);
+    return url;
+}
+
+// === Keyboard shortcut help modal ===
+function toggleShortcutHelp() {
+    var modal = document.getElementById('shortcut_modal');
+    if (!modal) return;
+    var isVisible = modal.style.display !== 'none';
+    modal.style.display = isVisible ? 'none' : 'flex';
+}
+
+// === Page title update ===
+function updatePageTitle(language) {
+    document.title = language ? 'Goftan — Learn ' + language : 'Goftan';
+    document.documentElement.setAttribute('lang', language_tts_codes[language] ? language_tts_codes[language].split('-')[0] : 'en');
+}
+
+// === Share result card ===
+function shareResult(pct, language) {
+    var text = 'I scored ' + pct + '% learning ' + language + ' on Goftan! 🌍 https://goftan.github.io/quiz';
+    if (navigator.share) {
+        navigator.share({ title: 'Goftan Quiz Result', text: text, url: 'https://goftan.github.io/quiz' }).catch(function() {});
+    } else {
+        navigator.clipboard.writeText(text).then(function() {
+            showFeedback('Result copied to clipboard!', 'success');
+        }).catch(function() {
+            showFeedback('Share: ' + text, 'info');
+        });
+    }
+}
+
+// === Bookmark words ===
+function getBookmarks(language) {
+    var key = 'goftan_bookmarks_' + (language || 'all').toLowerCase();
+    try { return JSON.parse(localStorage.getItem(key) || '[]'); } catch(e) { return []; }
+}
+
+function toggleBookmark(word, question, language) {
+    var key = 'goftan_bookmarks_' + (language || 'all').toLowerCase();
+    var bookmarks = getBookmarks(language);
+    var idx = bookmarks.findIndex(function(b) { return b.word === word; });
+    if (idx !== -1) {
+        bookmarks.splice(idx, 1);
+    } else {
+        bookmarks.push({ word: word, question: question, addedAt: new Date().toISOString() });
+    }
+    localStorage.setItem(key, JSON.stringify(bookmarks));
+    return idx === -1; // true = added
+}
+
+function renderBookmarks() {
+    var lang = is_language_selected() ? get_selected_language() : 'all';
+    var bookmarks = getBookmarks(lang);
+    var container = document.getElementById('bookmarks_list');
+    var section = document.getElementById('bookmarks_section');
+    if (!container || !section) return;
+    if (bookmarks.length === 0) { section.style.display = 'none'; return; }
+    section.style.display = '';
+    container.innerHTML = '';
+    bookmarks.forEach(function(b) {
+        var chip = document.createElement('div');
+        chip.className = 'bookmark-chip';
+        chip.innerHTML = '<span class="bm-q">' + b.question + '</span>' +
+                         '<span class="bm-arrow">→</span>' +
+                         '<span class="bm-w">' + b.word + '</span>' +
+                         '<button class="bm-remove" title="Remove bookmark" onclick="removeBookmark(\'' + b.word.replace(/'/g,"\\'"  ) + '\')">×</button>';
+        container.appendChild(chip);
+    });
+}
+
+function removeBookmark(word) {
+    var lang = is_language_selected() ? get_selected_language() : 'all';
+    toggleBookmark(word, '', lang);
+    renderBookmarks();
+}
+
+// === SRS card state management ===
+function getSRSDeck(language) {
+    var key = 'goftan_srs_' + language.toLowerCase();
+    try { return JSON.parse(localStorage.getItem(key) || '{}'); } catch(e) { return {}; }
+}
+
+function saveSRSDeck(language, deck) {
+    var key = 'goftan_srs_' + language.toLowerCase();
+    localStorage.setItem(key, JSON.stringify(deck));
+}
+
+function updateSRSCard(word, grade) {
+    if (!is_language_selected()) return;
+    var lang = get_selected_language();
+    var deck = getSRSDeck(lang);
+    deck[word] = sm2Update(deck[word] || {}, grade); // pure fn from logic.js
+    saveSRSDeck(lang, deck);
+}
+
+function startSRSReview() {
+    if (!is_language_selected()) { showFeedback('Please select a language first.', 'warning'); return; }
+    var lang = get_selected_language();
+    var deck = getSRSDeck(lang);
+    var today = new Date().toDateString();
+    var dueWords = getDueCards(deck, today); // pure fn from logic.js
+
+    if (dueWords.length === 0) {
+        showFeedback('No cards due for review today! Come back tomorrow.', 'success');
+        return;
+    }
+
+    // Filter quiz to only due words
+    var dueSet = new Set(dueWords);
+    var dueQuiz = quiz.filter(function(q) {
+        return dueSet.has(q.question) || dueSet.has(q.choices[q.answer]);
+    });
+
+    if (dueQuiz.length === 0) {
+        showFeedback('Due cards found, but no matching questions loaded. Start a quiz first to build your deck.', 'warning');
+        return;
+    }
+
+    flashcards = dueQuiz;
+    flashcardIndex = 0;
+    flashcardFlipped = false;
+    d3.select('#question_size').html(dueQuiz.length);
+    renderFlashcard();
+    selectPage('flashcard_page');
+}
+
 
 // === Timer ===
 var questionTimer = null;
@@ -360,16 +1022,18 @@ function startTopicDrill(topic) {
 init_nav_menu();
 
 function fill_language_checkboxes() {
-    d3.select('#language_checkboxes').selectAll('label').data(avialable_languages)
+    d3.select('#language_checkboxes').selectAll('label').data(available_languages)
         .enter().append('label').attr('class','radiocontainer')
         .html(function(d){return '<input type="radio" name="topics" value="'+d+'" class="languages_checkbox">'
                                     + d +'<span class="radiocheckmark"></span>';});
 
-    // Highlight the selected language card
+    // Highlight the selected language card and show Word of the Day
     d3.selectAll('.languages_checkbox').on('change', function() {
         d3.selectAll('.radiocontainer').classed('language-selected', false);
         if (this.checked) {
             d3.select(this.parentNode).classed('language-selected', true);
+            renderWordOfDay(this.value);
+            updatePageTitle(this.value);
         }
     });
 }
@@ -398,7 +1062,7 @@ function fill_topic_checkboxes() {
     // Clear and rebuild to avoid stale state across language switches
     const container = d3.select('#topics_checkboxes');
     container.html('');
-    container.selectAll('label').data(avialble_topics)
+    container.selectAll('label').data(available_topics)
         .enter().append('label').attr('class','container')
         .html(function(d){return '<input type="checkbox" name="topics" value="' + d +'" checked="checked" class="mycheckbox">'
                                   + d +'<span class="checkmark"></span>';});
@@ -443,9 +1107,30 @@ function applyPendingCheckboxSettings() {
 function fill_qa(q) {
     d3.select("#extra").html(q._requeued ? '🔄 Try again' : (q.extra || ''));
     d3.select("#question").html(q.question);
-    for (i=0;i<=3;i++) {
-        d3.select('#opt'+ (i + 1)).html(q.choices[i]);
+
+    var isTyping = typingModeActive;
+    d3.select('#typing_area').style('display', isTyping ? '' : 'none');
+    d3.select('#choices_area').style('display', isTyping ? 'none' : '');
+
+    if (isTyping) {
+        var input = document.getElementById('typing_input');
+        var hint = document.getElementById('typing_hint');
+        if (input) { input.value = ''; input.disabled = false; input.style.borderColor = ''; input.style.background = ''; input.focus(); }
+        if (hint) { hint.style.display = 'none'; hint.textContent = ''; }
+        var submitBtn = document.getElementById('typing_submit');
+        if (submitBtn) submitBtn.disabled = false;
+    } else {
+        for (var i = 0; i <= 3; i++) {
+            d3.select('#opt' + (i + 1)).html(q.choices[i]);
+        }
     }
+
+    // Auto-speak if TTS is on
+    if (document.getElementById('tts_toggle') && document.getElementById('tts_toggle').classList.contains('active')) {
+        var lang = is_language_selected() ? (language_tts_codes[get_selected_language()] || 'en-US') : 'en-US';
+        setTimeout(function() { speakText(q.question, lang); }, 100);
+    }
+
     updateQuizProgress();
     startQuestionTimer();
 }
@@ -559,6 +1244,9 @@ function startQuiz() {
         const doMultipleChoice = selectedTypes.includes('Multiple Choice') || selectedTypes.length === 0;
         const doCrossword = selectedTypes.includes('Crossword');
         const doHangman = selectedTypes.includes('Hangman');
+        const doFlashcard = selectedTypes.includes('Flashcard');
+        const doTyping = selectedTypes.includes('Typing');
+        typingModeActive = doTyping && !doMultipleChoice;
 
         if (doMultipleChoice) {
             fill_qa(quiz[0]);
@@ -595,6 +1283,10 @@ function startQuiz() {
                 hangman_ready = false;
                 showFeedback('No suitable word found for Hangman in this quiz.', 'warning');
             }
+        }
+
+        if (doFlashcard) {
+            startFlashcards(quiz);
         }
 
     }).catch(function(err) {
@@ -641,6 +1333,8 @@ function submitAnswer(which_option) {
     // Prevent re-answering the same question
     if (d3.select('#opt1').property('disabled')) return;
 
+    saveAnswerStateForUndo();
+
     clearQuestionTimer();
     if (autoAdvanceTimer) { clearTimeout(autoAdvanceTimer); autoAdvanceTimer = null; }
 
@@ -656,6 +1350,9 @@ function submitAnswer(which_option) {
     colorCorrectAnswer();
 
     var isRequeued = !!quiz[countQues]._requeued;
+
+    // Track vocabulary
+    trackVocabWord(correctAnswer);
 
     if (selectedAnswer === correctAnswer) {
         if (!isRequeued) countCorrect++;
@@ -683,6 +1380,14 @@ function submitAnswer(which_option) {
             .style('color', '#991B1B')
             .style('border-color', '#FECACA');
     }
+
+    // Show undo button briefly (3 seconds)
+    var undoBtn = d3.select('#undo_btn');
+    undoBtn.style('display', 'inline-flex');
+    setTimeout(function() { undoBtn.style('display', 'none'); lastAnswerState = null; }, 3000);
+
+    // Save session state
+    saveSessionState();
 }
 
 function viewResults() {
@@ -692,6 +1397,9 @@ function viewResults() {
 
     const total = originalQuestionCount || parseInt(d3.select('#question_size').html()) || 10;
     const { pct, skipped } = calcScore(countCorrect, countIncorrect, total); // pure fn from logic.js
+
+    // Clear session state on completion
+    sessionStorage.removeItem('goftan_session');
 
     // Update summary banner
     d3.select('#result_score_pct').text(pct + '%');
@@ -723,6 +1431,20 @@ function viewResults() {
     // === Streak + XP ===
     const eng = updateStreakAndXP(countCorrect, total);
     renderEngagementRow(eng);
+
+    // === Badges ===
+    const newBadges = checkAndAwardBadges(pct);
+    renderBadges(newBadges);
+
+    // === Activity heatmap ===
+    recordTodayActivity(countCorrect);
+    renderActivityHeatmap();
+
+    // === Vocab estimate ===
+    renderVocabEstimate(lang);
+
+    // === Bookmarks ===
+    renderBookmarks();
 
     // === Difficulty nudge ===
     renderDifficultyNudge(pct);
@@ -797,10 +1519,22 @@ function viewResults() {
         const review = d3.select('#wrong_answers_review').html('');
         if (wrongAnswers.length > 0) {
             review.append('h3').text('Review: Questions you got wrong');
+            var revLang = lang;
             wrongAnswers.forEach(function(w) {
                 const card = review.append('div').attr('class', 'wrong-answer-card');
                 if (w.extra) card.append('div').attr('class', 'wa-extra').text(w.extra);
-                card.append('div').attr('class', 'wa-question').text(w.question);
+                const qrow = card.append('div').attr('class', 'wa-q-row');
+                qrow.append('div').attr('class', 'wa-question').text(w.question);
+                const existingBookmarks = getBookmarks(revLang);
+                const isBookmarked = existingBookmarks.some(function(b) { return b.word === w.correctAnswer; });
+                qrow.append('button').attr('class', 'bm-btn' + (isBookmarked ? ' bm-active' : ''))
+                    .attr('title', isBookmarked ? 'Remove bookmark' : 'Bookmark this word')
+                    .text(isBookmarked ? '★' : '☆')
+                    .on('click', function() {
+                        var added = toggleBookmark(w.correctAnswer, w.question, revLang);
+                        d3.select(this).text(added ? '★' : '☆').classed('bm-active', added);
+                        renderBookmarks();
+                    });
                 card.append('div').attr('class', 'wa-your').html('<span>Your answer:</span> ' + w.yourAnswer);
                 card.append('div').attr('class', 'wa-correct').html('<span>Correct answer:</span> ' + w.correctAnswer);
             });
@@ -808,6 +1542,10 @@ function viewResults() {
 
         // === Weak topic recommendation ===
         renderRecommendation();
+
+        // === Topic mastery ===
+        const attemptedTopics = Array.from(document.querySelectorAll('.mycheckbox:checked')).map(el => el.value);
+        saveTopicMastery(lang, wrongAnswers, total, attemptedTopics);
 
         selectPage('calculator_page');
     // }
@@ -860,8 +1598,30 @@ function restartQuiz() {
     selectPage('tasks_page');
 }
 
-selectPage('language_page');
+restoreTheme();
+
+// Try to restore unfinished session before showing language page
+var restored = restoreSessionState();
+if (!restored) {
+    selectPage('language_page');
+}
 loadSessionHistory();
+
+// Apply URL params (e.g. ?lang=French&topics=Animals&count=10)
+applyUrlParams();
+
+// Keyboard shortcut: '?' opens help modal, Escape closes it
+document.addEventListener('keydown', function(e) {
+    if (e.key === '?' && !e.ctrlKey && !e.metaKey) {
+        var active = document.activeElement;
+        if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA')) return;
+        toggleShortcutHelp();
+    }
+    if (e.key === 'Escape') {
+        var modal = document.getElementById('shortcut_modal');
+        if (modal) modal.style.display = 'none';
+    }
+});
 
 // Keyboard shortcuts on question page
 document.addEventListener('keydown', function(event) {

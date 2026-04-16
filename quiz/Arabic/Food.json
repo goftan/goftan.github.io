@@ -1,0 +1,22 @@
+[
+  {"question": "What is 'خبز' in English?", "choices": ["bread", "milk", "butter", "cheese"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'حليب' in English?", "choices": ["water", "milk", "juice", "tea"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'بيضة' in English?", "choices": ["milk", "cheese", "egg", "butter"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'جبن' in English?", "choices": ["butter", "milk", "bread", "cheese"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'لحم' in English?", "choices": ["meat", "fish", "soup", "rice"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'تفاحة' in English?", "choices": ["banana", "apple", "tomato", "potato"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'موزة' in English?", "choices": ["apple", "onion", "banana", "tomato"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'طماطم' in English?", "choices": ["potato", "banana", "apple", "tomato"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'بطاطا' in English?", "choices": ["potato", "onion", "tomato", "banana"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'بصل' in English?", "choices": ["tomato", "onion", "potato", "apple"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'ماء' in English?", "choices": ["milk", "tea", "water", "coffee"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'قهوة' in English?", "choices": ["tea", "milk", "water", "coffee"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'شاي' in English?", "choices": ["tea", "coffee", "water", "milk"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'حساء' in English?", "choices": ["rice", "soup", "meat", "fish"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'أرز' in English?", "choices": ["soup", "bread", "rice", "cake"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'سمكة' in English?", "choices": ["meat", "soup", "rice", "fish"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'زبدة' in English?", "choices": ["butter", "salt", "cheese", "milk"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'ملح' in English?", "choices": ["sugar", "salt", "cake", "butter"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'سكر' in English?", "choices": ["salt", "butter", "sugar", "cake"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'كعكة' in English?", "choices": ["bread", "rice", "sugar", "cake"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"}
+]

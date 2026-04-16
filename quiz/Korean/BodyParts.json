@@ -1,0 +1,22 @@
+[
+  {"question": "What is '머리' in English?", "choices": ["head", "hand", "foot", "arm"], "answer": 0, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '손' in English?", "choices": ["foot", "hand", "arm", "leg"], "answer": 1, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '발' in English?", "choices": ["hand", "knee", "foot", "arm"], "answer": 2, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '팔' in English?", "choices": ["leg", "shoulder", "back", "arm"], "answer": 3, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '다리' in English?", "choices": ["leg", "arm", "foot", "knee"], "answer": 0, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '눈' in English?", "choices": ["ear", "eye", "nose", "mouth"], "answer": 1, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '귀' in English?", "choices": ["nose", "mouth", "ear", "eye"], "answer": 2, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '코' in English?", "choices": ["mouth", "ear", "eye", "nose"], "answer": 3, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '입' in English?", "choices": ["mouth", "nose", "ear", "eye"], "answer": 0, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '어깨' in English?", "choices": ["back", "shoulder", "neck", "chest"], "answer": 1, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '배' in English?", "choices": ["back", "chest", "stomach", "shoulder"], "answer": 2, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '등' in English?", "choices": ["stomach", "chest", "shoulder", "back"], "answer": 3, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '손가락' in English?", "choices": ["finger", "toe", "nail", "palm"], "answer": 0, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '무릎' in English?", "choices": ["elbow", "knee", "ankle", "wrist"], "answer": 1, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '목' in English?", "choices": ["back", "shoulder", "chest", "neck"], "answer": 3, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '심장' in English?", "choices": ["brain", "liver", "lung", "heart"], "answer": 3, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '머리카락' in English?", "choices": ["hair", "nail", "skin", "tooth"], "answer": 0, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '이' in English?", "choices": ["tongue", "tooth", "lip", "nail"], "answer": 1, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '혀' in English?", "choices": ["lip", "tooth", "tongue", "throat"], "answer": 2, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '입술' in English?", "choices": ["tongue", "tooth", "chin", "lip"], "answer": 3, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"}
+]

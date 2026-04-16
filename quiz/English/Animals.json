@@ -1,0 +1,22 @@
+[
+  { "question": "A young cat is called a ___", "choices": ["kitten", "cub", "foal", "calf"], "answer": 0, "type": "vocabulary", "intent": "", "extra": "English vocabulary:", "level": "A1" },
+  { "question": "A young dog is called a ___", "choices": ["cub", "puppy", "foal", "piglet"], "answer": 1, "type": "vocabulary", "intent": "", "extra": "English vocabulary:", "level": "A1" },
+  { "question": "A young horse is called a ___", "choices": ["calf", "kitten", "foal", "fawn"], "answer": 2, "type": "vocabulary", "intent": "", "extra": "English vocabulary:", "level": "A1" },
+  { "question": "A young cow is called a ___", "choices": ["foal", "calf", "cub", "pup"], "answer": 1, "type": "vocabulary", "intent": "", "extra": "English vocabulary:", "level": "A1" },
+  { "question": "A young sheep is called a ___", "choices": ["kitten", "calf", "lamb", "pup"], "answer": 2, "type": "vocabulary", "intent": "", "extra": "English vocabulary:", "level": "A1" },
+  { "question": "A group of fish is called a ___", "choices": ["flock", "herd", "school", "pack"], "answer": 2, "type": "vocabulary", "intent": "", "extra": "English vocabulary:", "level": "A1" },
+  { "question": "A group of cows is called a ___", "choices": ["pack", "herd", "school", "pride"], "answer": 1, "type": "vocabulary", "intent": "", "extra": "English vocabulary:", "level": "A1" },
+  { "question": "A group of lions is called a ___", "choices": ["herd", "flock", "pack", "pride"], "answer": 3, "type": "vocabulary", "intent": "", "extra": "English vocabulary:", "level": "A1" },
+  { "question": "A group of wolves is called a ___", "choices": ["pride", "pack", "school", "flock"], "answer": 1, "type": "vocabulary", "intent": "", "extra": "English vocabulary:", "level": "A1" },
+  { "question": "A group of birds is called a ___", "choices": ["flock", "herd", "pride", "school"], "answer": 0, "type": "vocabulary", "intent": "", "extra": "English vocabulary:", "level": "A1" },
+  { "question": "What is a 'canine'?", "choices": ["a type of bird", "a dog or dog-like animal", "a large fish", "a jungle cat"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "What is a 'feline'?", "choices": ["a dog", "a horse", "a cat or cat-like animal", "a bird"], "answer": 2, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "What is an 'equine'?", "choices": ["a horse or horse-like animal", "a cow", "a sheep", "a pig"], "answer": 0, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "What is a 'bovine'?", "choices": ["a deer", "a cow or ox", "a horse", "a goat"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "What is a 'nocturnal' animal?", "choices": ["an animal that swims", "an animal active at night", "an animal that flies", "an animal that hibernates"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "A 'herbivore' only eats ___", "choices": ["meat", "plants", "insects", "fish"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "A 'carnivore' only eats ___", "choices": ["plants", "seeds", "meat", "fruits"], "answer": 2, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "An 'omnivore' eats ___", "choices": ["only plants", "only meat", "both plants and meat", "only fish"], "answer": 2, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "Which of these is a marsupial?", "choices": ["wolf", "bear", "kangaroo", "deer"], "answer": 2, "type": "fact", "intent": "", "extra": "Animal fact:", "level": "A1" },
+  { "question": "Which of these is an amphibian?", "choices": ["snake", "frog", "crocodile", "lizard"], "answer": 1, "type": "fact", "intent": "", "extra": "Animal fact:", "level": "A1" }
+]

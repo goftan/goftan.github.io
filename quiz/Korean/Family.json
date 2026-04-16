@@ -1,0 +1,22 @@
+[
+  {"question": "What is '아버지' in English?", "choices": ["father", "mother", "brother", "son"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '어머니' in English?", "choices": ["sister", "mother", "aunt", "daughter"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '남동생' in English?", "choices": ["son", "father", "brother", "cousin"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '여동생' in English?", "choices": ["mother", "aunt", "daughter", "sister"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '아들' in English?", "choices": ["son", "father", "brother", "uncle"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '딸' in English?", "choices": ["mother", "daughter", "sister", "aunt"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '할아버지' in English?", "choices": ["uncle", "father", "grandfather", "cousin"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '할머니' in English?", "choices": ["mother", "aunt", "sister", "grandmother"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '삼촌' in English?", "choices": ["uncle", "brother", "father", "cousin"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '고모' in English?", "choices": ["grandmother", "aunt", "mother", "sister"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '사촌' in English?", "choices": ["brother", "nephew", "cousin", "son"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '남편' in English?", "choices": ["son", "brother", "father", "husband"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '아내' in English?", "choices": ["wife", "mother", "sister", "daughter"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '아이' in English?", "choices": ["baby", "child", "son", "boy"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '부모님' in English?", "choices": ["siblings", "family", "parents", "children"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '아기' in English?", "choices": ["child", "boy", "toddler", "baby"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '가족' in English?", "choices": ["family", "siblings", "parents", "relatives"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '조카' in English?", "choices": ["cousin", "nephew", "brother", "son"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '조카딸' in English?", "choices": ["daughter", "cousin", "niece", "sister"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '형' in English?", "choices": ["father", "cousin", "grandfather", "brother"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"}
+]

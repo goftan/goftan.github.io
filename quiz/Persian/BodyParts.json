@@ -1,0 +1,22 @@
+[
+  {"question": "What is 'سر' in English?", "choices": ["head", "hand", "foot", "arm"], "answer": 0, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'دست' in English?", "choices": ["foot", "hand", "arm", "leg"], "answer": 1, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'پا' in English?", "choices": ["hand", "knee", "foot", "arm"], "answer": 2, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'بازو' in English?", "choices": ["leg", "shoulder", "back", "arm"], "answer": 3, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'ساق' in English?", "choices": ["leg", "arm", "foot", "knee"], "answer": 0, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'چشم' in English?", "choices": ["ear", "eye", "nose", "mouth"], "answer": 1, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'گوش' in English?", "choices": ["nose", "mouth", "ear", "eye"], "answer": 2, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'بینی' in English?", "choices": ["mouth", "ear", "eye", "nose"], "answer": 3, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'دهان' in English?", "choices": ["mouth", "nose", "ear", "eye"], "answer": 0, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'شانه' in English?", "choices": ["back", "shoulder", "neck", "chest"], "answer": 1, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'شکم' in English?", "choices": ["back", "chest", "stomach", "shoulder"], "answer": 2, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'کمر' in English?", "choices": ["stomach", "chest", "shoulder", "back"], "answer": 3, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'انگشت' in English?", "choices": ["finger", "toe", "nail", "palm"], "answer": 0, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'زانو' in English?", "choices": ["elbow", "knee", "ankle", "wrist"], "answer": 1, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'گردن' in English?", "choices": ["back", "shoulder", "chest", "neck"], "answer": 3, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'قلب' in English?", "choices": ["brain", "liver", "lung", "heart"], "answer": 3, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'مو' in English?", "choices": ["hair", "nail", "skin", "tooth"], "answer": 0, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'دندان' in English?", "choices": ["tongue", "tooth", "lip", "nail"], "answer": 1, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'زبان' in English?", "choices": ["lip", "tooth", "tongue", "throat"], "answer": 2, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'لب' in English?", "choices": ["tongue", "tooth", "chin", "lip"], "answer": 3, "type": "body_part", "intent": "", "extra": "The translation of", "level": "A1"}
+]

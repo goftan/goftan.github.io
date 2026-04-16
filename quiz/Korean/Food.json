@@ -1,0 +1,22 @@
+[
+  {"question": "What is '빵' in English?", "choices": ["bread", "milk", "butter", "cheese"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '우유' in English?", "choices": ["water", "milk", "juice", "tea"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '달걀' in English?", "choices": ["milk", "cheese", "egg", "butter"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '치즈' in English?", "choices": ["butter", "milk", "bread", "cheese"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '고기' in English?", "choices": ["meat", "fish", "soup", "rice"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '사과' in English?", "choices": ["banana", "apple", "tomato", "potato"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '바나나' in English?", "choices": ["apple", "onion", "banana", "tomato"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '토마토' in English?", "choices": ["potato", "banana", "apple", "tomato"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '감자' in English?", "choices": ["potato", "onion", "tomato", "banana"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '양파' in English?", "choices": ["tomato", "onion", "potato", "apple"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '물' in English?", "choices": ["milk", "tea", "water", "coffee"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '커피' in English?", "choices": ["tea", "milk", "water", "coffee"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '차' in English?", "choices": ["tea", "coffee", "water", "milk"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '국' in English?", "choices": ["rice", "soup", "meat", "fish"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '밥' in English?", "choices": ["soup", "bread", "rice", "cake"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '생선' in English?", "choices": ["meat", "soup", "rice", "fish"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '버터' in English?", "choices": ["butter", "salt", "cheese", "milk"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '소금' in English?", "choices": ["sugar", "salt", "cake", "butter"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '설탕' in English?", "choices": ["salt", "butter", "sugar", "cake"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is '케이크' in English?", "choices": ["bread", "rice", "sugar", "cake"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"}
+]

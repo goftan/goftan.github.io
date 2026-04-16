@@ -1,0 +1,22 @@
+[
+  { "question": "brave", "choices": ["cowardly", "strong", "clever", "fast"], "answer": 0, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "ancient", "choices": ["tall", "wide", "modern", "small"], "answer": 2, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "generous", "choices": ["kind", "stingy", "brave", "loud"], "answer": 1, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "noisy", "choices": ["dark", "quiet", "busy", "cold"], "answer": 1, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "shallow", "choices": ["narrow", "wide", "deep", "tall"], "answer": 2, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "victory", "choices": ["defeat", "talent", "courage", "glory"], "answer": 0, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "expand", "choices": ["grow", "reach", "contract", "push"], "answer": 2, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "permanent", "choices": ["steady", "temporary", "constant", "loyal"], "answer": 1, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "accept", "choices": ["allow", "permit", "receive", "reject"], "answer": 3, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "transparent", "choices": ["clear", "bright", "opaque", "shiny"], "answer": 2, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "abundant", "choices": ["plenty", "scarce", "full", "rich"], "answer": 1, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "superior", "choices": ["better", "first", "inferior", "greatest"], "answer": 2, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "rigid", "choices": ["firm", "hard", "stiff", "flexible"], "answer": 3, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "optimistic", "choices": ["cheerful", "hopeful", "positive", "pessimistic"], "answer": 3, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "tranquil", "choices": ["calm", "peaceful", "turbulent", "quiet"], "answer": 2, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "praise", "choices": ["compliment", "admire", "applaud", "criticize"], "answer": 3, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "authentic", "choices": ["genuine", "real", "true", "fake"], "answer": 3, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "lenient", "choices": ["mild", "easy", "strict", "gentle"], "answer": 2, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "innocent", "choices": ["pure", "guilty", "honest", "naive"], "answer": 1, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" },
+  { "question": "complex", "choices": ["difficult", "varied", "intricate", "simple"], "answer": 3, "type": "antonym", "intent": "", "extra": "Antonym of", "level": "A1" }
+]

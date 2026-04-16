@@ -1,0 +1,22 @@
+[
+  {"question": "What is 'पिता' in English?", "choices": ["father", "mother", "brother", "son"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'माँ' in English?", "choices": ["sister", "mother", "aunt", "daughter"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'भाई' in English?", "choices": ["son", "father", "brother", "cousin"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'बहन' in English?", "choices": ["mother", "aunt", "daughter", "sister"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'बेटा' in English?", "choices": ["son", "father", "brother", "uncle"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'बेटी' in English?", "choices": ["mother", "daughter", "sister", "aunt"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'दादा' in English?", "choices": ["uncle", "father", "grandfather", "cousin"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'दादी' in English?", "choices": ["mother", "aunt", "sister", "grandmother"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'चाचा' in English?", "choices": ["uncle", "brother", "father", "cousin"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'चाची' in English?", "choices": ["grandmother", "aunt", "mother", "sister"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'चचेरा भाई' in English?", "choices": ["brother", "nephew", "cousin", "son"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'पति' in English?", "choices": ["son", "brother", "father", "husband"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'पत्नी' in English?", "choices": ["wife", "mother", "sister", "daughter"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'बच्चा' in English?", "choices": ["baby", "child", "son", "boy"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'माता-पिता' in English?", "choices": ["siblings", "family", "parents", "children"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'शिशु' in English?", "choices": ["child", "boy", "toddler", "baby"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'परिवार' in English?", "choices": ["family", "siblings", "parents", "relatives"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'भतीजा' in English?", "choices": ["cousin", "nephew", "brother", "son"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'भतीजी' in English?", "choices": ["daughter", "cousin", "niece", "sister"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'नाना' in English?", "choices": ["father", "cousin", "grandfather", "uncle"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"}
+]

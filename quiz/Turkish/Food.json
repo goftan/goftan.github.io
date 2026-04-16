@@ -1,0 +1,22 @@
+[
+  {"question": "What is 'ekmek' in English?", "choices": ["bread", "milk", "butter", "cheese"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'süt' in English?", "choices": ["water", "milk", "juice", "tea"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'yumurta' in English?", "choices": ["milk", "cheese", "egg", "butter"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'peynir' in English?", "choices": ["butter", "milk", "bread", "cheese"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'et' in English?", "choices": ["meat", "fish", "soup", "rice"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'elma' in English?", "choices": ["banana", "apple", "tomato", "potato"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'muz' in English?", "choices": ["apple", "onion", "banana", "tomato"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'domates' in English?", "choices": ["potato", "banana", "apple", "tomato"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'patates' in English?", "choices": ["potato", "onion", "tomato", "banana"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'soğan' in English?", "choices": ["tomato", "onion", "potato", "apple"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'su' in English?", "choices": ["milk", "tea", "water", "coffee"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'kahve' in English?", "choices": ["tea", "milk", "water", "coffee"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'çay' in English?", "choices": ["tea", "coffee", "water", "milk"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'çorba' in English?", "choices": ["rice", "soup", "meat", "fish"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'pilav' in English?", "choices": ["soup", "bread", "rice", "cake"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'balık' in English?", "choices": ["meat", "soup", "rice", "fish"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'tereyağı' in English?", "choices": ["butter", "salt", "cheese", "milk"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'tuz' in English?", "choices": ["sugar", "salt", "cake", "butter"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'şeker' in English?", "choices": ["salt", "butter", "sugar", "cake"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'pasta' in English?", "choices": ["bread", "rice", "sugar", "cake"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"}
+]

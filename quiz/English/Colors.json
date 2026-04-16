@@ -1,0 +1,20 @@
+[
+  { "question": "scarlet", "choices": ["bright red", "light blue", "pale green", "deep purple"], "answer": 0, "type": "definition", "intent": "", "extra": "Meaning of", "level": "A1" },
+  { "question": "azure", "choices": ["deep green", "bright sky blue", "dark red", "pale yellow"], "answer": 1, "type": "definition", "intent": "", "extra": "Meaning of", "level": "A1" },
+  { "question": "crimson", "choices": ["light pink", "pale orange", "deep red", "bright yellow"], "answer": 2, "type": "definition", "intent": "", "extra": "Meaning of", "level": "A1" },
+  { "question": "teal", "choices": ["dark purple", "blue-green", "bright red", "pale yellow"], "answer": 1, "type": "definition", "intent": "", "extra": "Meaning of", "level": "A1" },
+  { "question": "ivory", "choices": ["jet black", "off-white", "deep blue", "bright red"], "answer": 1, "type": "definition", "intent": "", "extra": "Meaning of", "level": "A1" },
+  { "question": "maroon", "choices": ["dark brownish-red", "light blue", "pale green", "bright orange"], "answer": 0, "type": "definition", "intent": "", "extra": "Meaning of", "level": "A1" },
+  { "question": "What color do you get when you mix red and blue?", "choices": ["green", "orange", "purple", "yellow"], "answer": 2, "type": "fact", "intent": "", "extra": "Color mixing:", "level": "A1" },
+  { "question": "What color do you get when you mix red and yellow?", "choices": ["purple", "orange", "green", "brown"], "answer": 1, "type": "fact", "intent": "", "extra": "Color mixing:", "level": "A1" },
+  { "question": "What color do you get when you mix blue and yellow?", "choices": ["orange", "purple", "green", "grey"], "answer": 2, "type": "fact", "intent": "", "extra": "Color mixing:", "level": "A1" },
+  { "question": "What color do you get when you mix all colors of light?", "choices": ["black", "grey", "white", "brown"], "answer": 2, "type": "fact", "intent": "", "extra": "Color mixing:", "level": "A1" },
+  { "question": "amber", "choices": ["dark blue", "yellowish-orange", "pale green", "deep red"], "answer": 1, "type": "definition", "intent": "", "extra": "Meaning of", "level": "A1" },
+  { "question": "indigo", "choices": ["light green", "pale yellow", "deep blue-purple", "bright pink"], "answer": 2, "type": "definition", "intent": "", "extra": "Meaning of", "level": "A1" },
+  { "question": "The 'primary colors' are ___", "choices": ["red, green, blue", "red, yellow, blue", "orange, green, purple", "black, white, grey"], "answer": 1, "type": "fact", "intent": "", "extra": "Color fact:", "level": "A1" },
+  { "question": "vermillion", "choices": ["pale pink", "bright orange-red", "dark blue", "light yellow"], "answer": 1, "type": "definition", "intent": "", "extra": "Meaning of", "level": "A1" },
+  { "question": "beige", "choices": ["dark grey", "pale sandy yellow", "bright green", "deep blue"], "answer": 1, "type": "definition", "intent": "", "extra": "Meaning of", "level": "A1" },
+  { "question": "magenta", "choices": ["a bright blue-green", "a dark yellow", "a bright pink-red", "a pale orange"], "answer": 2, "type": "definition", "intent": "", "extra": "Meaning of", "level": "A1" },
+  { "question": "ochre", "choices": ["a yellowish-brown", "a bright blue", "a pale green", "a deep red"], "answer": 0, "type": "definition", "intent": "", "extra": "Meaning of", "level": "A1" },
+  { "question": "chartreuse", "choices": ["dark blue", "deep red", "yellow-green", "pale purple"], "answer": 2, "type": "definition", "intent": "", "extra": "Meaning of", "level": "A1" }
+]

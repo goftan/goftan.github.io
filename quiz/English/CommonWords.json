@@ -1,0 +1,22 @@
+[
+  { "question": "ephemeral", "choices": ["lasting forever", "short-lived", "very large", "extremely bright"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "ubiquitous", "choices": ["very rare", "extremely heavy", "found everywhere", "very fast"], "answer": 2, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "benevolent", "choices": ["kind and generous", "very strict", "extremely wise", "deeply sad"], "answer": 0, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "diligent", "choices": ["careless", "lazy", "hardworking", "dishonest"], "answer": 2, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "eloquent", "choices": ["speaking clearly and expressively", "being very quiet", "moving quickly", "feeling confused"], "answer": 0, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "tenacious", "choices": ["forgetful", "very loud", "persistent and not giving up", "extremely cold"], "answer": 2, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "serene", "choices": ["stormy and wild", "calm and peaceful", "hot and dry", "loud and crowded"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "ambiguous", "choices": ["very clear", "having more than one possible meaning", "extremely long", "completely silent"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "frugal", "choices": ["wasteful with money", "careful not to waste money", "very generous", "extremely wealthy"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "candid", "choices": ["hidden and secret", "honest and direct", "very shy", "extremely polite"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "Which word means 'happy'?", "choices": ["melancholy", "joyful", "gloomy", "somber"], "answer": 1, "type": "synonym", "intent": "", "extra": "Synonym of", "level": "A1" },
+  { "question": "Which word means 'sad'?", "choices": ["elated", "jubilant", "content", "melancholy"], "answer": 3, "type": "synonym", "intent": "", "extra": "Synonym of", "level": "A1" },
+  { "question": "Which word means 'big'?", "choices": ["minute", "tiny", "colossal", "petite"], "answer": 2, "type": "synonym", "intent": "", "extra": "Synonym of", "level": "A1" },
+  { "question": "Which word means 'fast'?", "choices": ["sluggish", "languid", "rapid", "slow"], "answer": 2, "type": "synonym", "intent": "", "extra": "Synonym of", "level": "A1" },
+  { "question": "Which word means 'beautiful'?", "choices": ["hideous", "revolting", "gorgeous", "dreadful"], "answer": 2, "type": "synonym", "intent": "", "extra": "Synonym of", "level": "A1" },
+  { "question": "verbose", "choices": ["very brief", "using too many words", "completely silent", "very direct"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "pragmatic", "choices": ["idealistic and dreamy", "focused on practical results", "very emotional", "extremely creative"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "resilient", "choices": ["easily broken", "quick to recover from difficulties", "very fragile", "extremely rigid"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "lucid", "choices": ["confusing and unclear", "very dark", "clear and easy to understand", "extremely loud"], "answer": 2, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "meticulous", "choices": ["careless about details", "giving careful attention to details", "very fast", "extremely relaxed"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" }
+]

@@ -1,0 +1,22 @@
+[
+  {"question": "What is 'پدر' in English?", "choices": ["father", "mother", "brother", "son"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'مادر' in English?", "choices": ["sister", "mother", "aunt", "daughter"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'برادر' in English?", "choices": ["son", "father", "brother", "cousin"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'خواهر' in English?", "choices": ["mother", "aunt", "daughter", "sister"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'پسر' in English?", "choices": ["son", "father", "brother", "uncle"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'دختر' in English?", "choices": ["mother", "daughter", "sister", "aunt"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'پدربزرگ' in English?", "choices": ["uncle", "father", "grandfather", "cousin"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'مادربزرگ' in English?", "choices": ["mother", "aunt", "sister", "grandmother"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'عمو' in English?", "choices": ["uncle", "brother", "father", "cousin"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'عمه' in English?", "choices": ["grandmother", "aunt", "mother", "sister"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'پسرعمو' in English?", "choices": ["brother", "nephew", "cousin", "son"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'شوهر' in English?", "choices": ["son", "brother", "father", "husband"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'زن' in English?", "choices": ["wife", "mother", "sister", "daughter"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'بچه' in English?", "choices": ["baby", "child", "son", "boy"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'والدین' in English?", "choices": ["siblings", "family", "parents", "children"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'نوزاد' in English?", "choices": ["child", "boy", "toddler", "baby"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'خانواده' in English?", "choices": ["family", "siblings", "parents", "relatives"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'برادرزاده' in English?", "choices": ["cousin", "nephew", "brother", "son"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'خواهرزاده' in English?", "choices": ["daughter", "cousin", "niece", "sister"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'دایی' in English?", "choices": ["father", "cousin", "grandfather", "uncle"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"}
+]

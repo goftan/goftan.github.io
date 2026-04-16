@@ -1,0 +1,22 @@
+[
+  {"question": "What country has the capital Roma?", "choices": ["Francia", "Spagna", "Italia", "Germania"], "answer": 2, "type": "capitals", "intent": "", "extra": "The country with the following capital:", "level": "A1"},
+  {"question": "What country has the capital Parigi?", "choices": ["Francia", "Spagna", "Italia", "Belgio"], "answer": 0, "type": "capitals", "intent": "", "extra": "The country with the following capital:", "level": "A1"},
+  {"question": "What country has the capital Berlino?", "choices": ["Austria", "Germania", "Polonia", "Svizzera"], "answer": 1, "type": "capitals", "intent": "", "extra": "The country with the following capital:", "level": "A1"},
+  {"question": "What country has the capital Madrid?", "choices": ["Portogallo", "Italia", "Spagna", "Francia"], "answer": 2, "type": "capitals", "intent": "", "extra": "The country with the following capital:", "level": "A1"},
+  {"question": "What country has the capital Londra?", "choices": ["Irlanda", "Scozia", "Galles", "Inghilterra"], "answer": 3, "type": "capitals", "intent": "", "extra": "The country with the following capital:", "level": "A1"},
+  {"question": "What country has the capital Washington?", "choices": ["Canada", "Stati Uniti", "Messico", "Brasile"], "answer": 1, "type": "capitals", "intent": "", "extra": "The country with the following capital:", "level": "A1"},
+  {"question": "What country has the capital Tokyo?", "choices": ["Cina", "Corea", "Giappone", "Vietnam"], "answer": 2, "type": "capitals", "intent": "", "extra": "The country with the following capital:", "level": "A1"},
+  {"question": "What country has the capital Pechino?", "choices": ["Giappone", "Corea", "Vietnam", "Cina"], "answer": 3, "type": "capitals", "intent": "", "extra": "The country with the following capital:", "level": "A1"},
+  {"question": "What country has the capital Mosca?", "choices": ["Russia", "Ucraina", "Polonia", "Bielorussia"], "answer": 0, "type": "capitals", "intent": "", "extra": "The country with the following capital:", "level": "A1"},
+  {"question": "What country has the capital Ottawa?", "choices": ["Canada", "Stati Uniti", "Messico", "Australia"], "answer": 0, "type": "capitals", "intent": "", "extra": "The country with the following capital:", "level": "A1"},
+  {"question": "What is the capital of Italia?", "choices": ["Milano", "Napoli", "Roma", "Firenze"], "answer": 2, "type": "capitals", "intent": "", "extra": "The capital of", "level": "A1"},
+  {"question": "What is the capital of Francia?", "choices": ["Lione", "Parigi", "Marsiglia", "Nizza"], "answer": 1, "type": "capitals", "intent": "", "extra": "The capital of", "level": "A1"},
+  {"question": "What is the capital of Germania?", "choices": ["Monaco", "Amburgo", "Berlino", "Francoforte"], "answer": 2, "type": "capitals", "intent": "", "extra": "The capital of", "level": "A1"},
+  {"question": "What is the capital of Spagna?", "choices": ["Barcellona", "Siviglia", "Valencia", "Madrid"], "answer": 3, "type": "capitals", "intent": "", "extra": "The capital of", "level": "A1"},
+  {"question": "What is the capital of Inghilterra?", "choices": ["Manchester", "Londra", "Birmingham", "Liverpool"], "answer": 1, "type": "capitals", "intent": "", "extra": "The capital of", "level": "A1"},
+  {"question": "What is the capital of Stati Uniti?", "choices": ["New York", "Los Angeles", "Washington", "Chicago"], "answer": 2, "type": "capitals", "intent": "", "extra": "The capital of", "level": "A1"},
+  {"question": "What is the capital of Giappone?", "choices": ["Osaka", "Kyoto", "Hiroshima", "Tokyo"], "answer": 3, "type": "capitals", "intent": "", "extra": "The capital of", "level": "A1"},
+  {"question": "What is the capital of Cina?", "choices": ["Pechino", "Shanghai", "Guangzhou", "Shenzhen"], "answer": 0, "type": "capitals", "intent": "", "extra": "The capital of", "level": "A1"},
+  {"question": "What is the capital of Russia?", "choices": ["San Pietroburgo", "Mosca", "Novosibirsk", "Kazan"], "answer": 1, "type": "capitals", "intent": "", "extra": "The capital of", "level": "A1"},
+  {"question": "What is the capital of Canada?", "choices": ["Toronto", "Vancouver", "Ottawa", "Montreal"], "answer": 2, "type": "capitals", "intent": "", "extra": "The capital of", "level": "A1"}
+]

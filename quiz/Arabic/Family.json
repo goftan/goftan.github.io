@@ -1,0 +1,22 @@
+[
+  {"question": "What is 'أب' in English?", "choices": ["father", "mother", "brother", "son"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'أم' in English?", "choices": ["sister", "mother", "aunt", "daughter"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'أخ' in English?", "choices": ["son", "father", "brother", "cousin"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'أخت' in English?", "choices": ["mother", "aunt", "daughter", "sister"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'ابن' in English?", "choices": ["son", "father", "brother", "uncle"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'ابنة' in English?", "choices": ["mother", "daughter", "sister", "aunt"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'جد' in English?", "choices": ["uncle", "father", "grandfather", "cousin"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'جدة' in English?", "choices": ["mother", "aunt", "sister", "grandmother"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'عم' in English?", "choices": ["uncle", "brother", "father", "cousin"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'عمة' in English?", "choices": ["grandmother", "aunt", "mother", "sister"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'ابن عم' in English?", "choices": ["brother", "nephew", "cousin", "son"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'زوج' in English?", "choices": ["son", "brother", "father", "husband"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'زوجة' in English?", "choices": ["wife", "mother", "sister", "daughter"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'طفل' in English?", "choices": ["baby", "child", "son", "boy"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'والدان' in English?", "choices": ["siblings", "family", "parents", "children"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'رضيع' in English?", "choices": ["child", "boy", "toddler", "baby"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'عائلة' in English?", "choices": ["family", "siblings", "parents", "relatives"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'ابن أخ' in English?", "choices": ["cousin", "nephew", "brother", "son"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'ابنة أخ' in English?", "choices": ["daughter", "cousin", "niece", "sister"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'خال' in English?", "choices": ["father", "cousin", "grandfather", "uncle"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"}
+]

@@ -1,0 +1,22 @@
+[
+  {"question": "What is 'रोटी' in English?", "choices": ["bread", "milk", "butter", "cheese"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'दूध' in English?", "choices": ["water", "milk", "juice", "tea"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'अंडा' in English?", "choices": ["milk", "cheese", "egg", "butter"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'पनीर' in English?", "choices": ["butter", "milk", "bread", "cheese"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'मांस' in English?", "choices": ["meat", "fish", "soup", "rice"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'सेब' in English?", "choices": ["banana", "apple", "tomato", "potato"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'केला' in English?", "choices": ["apple", "onion", "banana", "tomato"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'टमाटर' in English?", "choices": ["potato", "banana", "apple", "tomato"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'आलू' in English?", "choices": ["potato", "onion", "tomato", "banana"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'प्याज़' in English?", "choices": ["tomato", "onion", "potato", "apple"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'पानी' in English?", "choices": ["milk", "tea", "water", "coffee"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'कॉफी' in English?", "choices": ["tea", "milk", "water", "coffee"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'चाय' in English?", "choices": ["tea", "coffee", "water", "milk"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'सूप' in English?", "choices": ["rice", "soup", "meat", "fish"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'चावल' in English?", "choices": ["soup", "bread", "rice", "cake"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'मछली' in English?", "choices": ["meat", "soup", "rice", "fish"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'मक्खन' in English?", "choices": ["butter", "salt", "cheese", "milk"], "answer": 0, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'नमक' in English?", "choices": ["sugar", "salt", "cake", "butter"], "answer": 1, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'चीनी' in English?", "choices": ["salt", "butter", "sugar", "cake"], "answer": 2, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'केक' in English?", "choices": ["bread", "rice", "sugar", "cake"], "answer": 3, "type": "food", "intent": "", "extra": "The translation of", "level": "A1"}
+]

@@ -1,0 +1,147 @@
+{
+  "Test": {
+    "Title": "German Language A1 Level Vocabulary Test",
+    "Questions": [
+      {
+        "Type": "Fill in the blank",
+        "Question": "Ich ____ einen Apfel.",
+        "Choices": ["isst", "esse", "trinkst", "spielt"],
+        "Answer": "esse"
+      },
+      {
+        "Type": "Synonym",
+        "Question": "Find the synonym for 'schnell'.",
+        "Choices": ["langsamer", "rasch", "klein", "groß"],
+        "Answer": "rasch"
+      },
+      {
+        "Type": "Antonym",
+        "Question": "Find the antonym for 'hoch'.",
+        "Choices": ["tief", "kurz", "lang", "breit"],
+        "Answer": "tief"
+      },
+      {
+        "Type": "Fill in the blank",
+        "Question": "Du ____ ein Buch.",
+        "Choices": ["liest", "liesten", "lesen", "leset"],
+        "Answer": "liest"
+      },
+      {
+        "Type": "Synonym",
+        "Question": "Find the synonym for 'freundlich'.",
+        "Choices": ["nett", "böse", "traurig", "groß"],
+        "Answer": "nett"
+      },
+      {
+        "Type": "Antonym",
+        "Question": "Find the antonym for 'hell'.",
+        "Choices": ["dunkel", "licht", "groß", "klein"],
+        "Answer": "dunkel"
+      },
+      {
+        "Type": "Fill in the blank",
+        "Question": "Wir ____ Musik.",
+        "Choices": ["hören", "hörst", "hör", "hörte"],
+        "Answer": "hören"
+      },
+      {
+        "Type": "Synonym",
+        "Question": "Find the synonym for 'kalt'.",
+        "Choices": ["warm", "frisch", "heiß", "cool"],
+        "Answer": "frisch"
+      },
+      {
+        "Type": "Antonym",
+        "Question": "Find the antonym for 'alt'.",
+        "Choices": ["neu", "jung", "groß", "klein"],
+        "Answer": "jung"
+      },
+      {
+        "Type": "Fill in the blank",
+        "Question": "Er ____ Fußball.",
+        "Choices": ["spielst", "spielen", "spiel", "spielt"],
+        "Answer": "spielt"
+      },
+      {
+        "Type": "Synonym",
+        "Question": "Find the synonym for 'fröhlich'.",
+        "Choices": ["traurig", "glücklich", "verärgert", "enttäuscht"],
+        "Answer": "glücklich"
+      },
+      {
+        "Type": "Antonym",
+        "Question": "Find the antonym for 'weich'.",
+        "Choices": ["hart", "groß", "klein", "schwer"],
+        "Answer": "hart"
+      },
+      {
+        "Type": "Fill in the blank",
+        "Question": "Sie ____ tanzen.",
+        "Choices": ["tanzt", "tanzen", "tanze", "tanztet"],
+        "Answer": "tanzt"
+      },
+      {
+        "Type": "Synonym",
+        "Question": "Find the synonym for 'leicht'.",
+      {
+        "Choices": ["schwer", "dicht", "simpel", "groß"],
+        "Answer": "simpel"
+      },
+      {
+        "Type": "Antonym",
+        "Question": "Find the antonym for 'voll'.",
+        "Choices": ["leer", "hoch", "breit", "kurz"],
+        "Answer": "leer"
+      },
+      {
+        "Type": "Fill in the blank",
+        "Question": "Ich ____ Deutsch.",
+        "Choices": ["spricht", "sprachen", "spreche", "sprachst"],
+        "Answer": "spreche"
+      },
+      {
+        "Type": "Synonym",
+        "Question": "Find the synonym for 'glücklich'.",
+        "Choices": ["traurig", "zufrieden", "verärgert", "enttäuscht"],
+        "Answer": "zufrieden"
+      },
+      {
+        "Type": "Antonym",
+        "Question": "Find the antonym for 'groß'.",
+        "Choices": ["klein", "breit", "hoch", "lang"],
+        "Answer": "klein"
+      },
+      {
+        "Type": "Fill in the blank",
+        "Question": "Du ____ fernsehen.",
+        "Choices": ["siehst", "sieht", "sehen", "sieh"],
+        "Answer": "siehst"
+      },
+      {
+        "Type": "Synonym",
+        "Question": "Find the synonym for 'ruhig'.",
+        "Choices": ["laut", "leise", "gelassen", "aufgeregt"],
+        "Answer": "gelassen"
+      },
+      {
+        "Type": "Antonym",
+        "Question": "Find the antonym for 'schwer'.",
+        "Choices": ["leicht", "hoch", "breit", "tief"],
+        "Answer": "leicht"
+      },
+      {
+        "Type": "Fill in the blank",
+        "Question": "Wir ____ schwimmen.",
+        "Choices": ["schwimmst", "schwimme", "schwimmen", "schwimmt"],
+        "Answer": "schwimmen"
+      },
+      {
+        "Type": "Synonym",
+        "Question": "Find the synonym for 'sauber'.",
+        "Choices": ["schmutzig", "rein", "groß", "klein"],
+        "Answer": "rein"
+      }
+    ]
+  }
+}
+

@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="theme-color" content="#15803D">
+<title>Goftan — Learn Languages</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
+<link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="index.css">
 <script src="js_src/logic.js"></script>
 <script src="js_src/d3.v7.min.js"></script>
@@ -13,12 +17,21 @@
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/6.4.0/css/font-awesome.min.css" rel="stylesheet" /> -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css" />
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/quiz/service-worker.js');
+}
+</script>
 </head>
 <body>
 <div class="header">
 <h2>Goftan</h2>
 <p><span id="hi_user">Hi!</span> <span id="known_language"></span></p>
+<button class="theme-toggle" id="theme_toggle" onclick="toggleDarkMode()" title="Toggle dark mode" aria-label="Toggle dark mode">
+  <i class="fas fa-moon" id="theme_icon"></i>
+</button>
 </div>
+<div id="badge_toast_area" class="badge-toast-area"></div>
 <div id="navbar">
 </div>
 <!-- <h2>Quiz for learning languages</h2> -->
@@ -62,6 +75,13 @@
     <div id="language_page" style="display: none;">
         <h3>What do you want to learn?</h3>
         <div id="language_checkboxes"></div>
+        <div id="word_of_day" class="wod-card" style="display:none;">
+            <div class="wod-header"><i class="fas fa-star"></i> Word of the Day — <span id="wod_topic"></span></div>
+            <div class="wod-question" id="wod_question"></div>
+            <div class="wod-extra" id="wod_extra"></div>
+            <div class="wod-toggle" onclick="document.getElementById('wod_reveal').style.display='block';this.style.display='none';">Reveal translation</div>
+            <div id="wod_reveal" class="wod-answer" style="display:none;"><span id="wod_answer"></span></div>
+        </div>
         <button class="button button5" onclick="selectPage('tasks_page')" id="startLearning">Start Learning!</button>
     </div>
     <div id="tasks_page" style="display: none;">
@@ -98,12 +118,20 @@
             <h3>What kind of quiz do you want to do?</h3>
             <div id="quiz_type_checkboxes"></div>
         </div>
+        <div class="srs-review-row">
+            <button class="srs-btn" onclick="startSRSReview()" title="Review only cards that are due for spaced-repetition review">
+                <i class="fas fa-brain"></i> SRS Review
+            </button>
+            <span class="srs-hint">Review only cards due today based on your performance history</span>
+        </div>
         <button class="button button5" onclick="startQuiz()" id="startQuizButton">Start Quiz!</button>
     </div>
     <div id="question_page" style="display: none;">
         <div class="question-meta-row">
             <div>Question <span id="question_number">1</span> of <span id="question_size">10</span></div>
             <div class="question-meta-right">
+                <button class="tts-toggle" id="tts_toggle" onclick="speakCurrentQuestion()" title="Speak question aloud"><i class="fas fa-volume-high"></i></button>
+                <button class="undo-btn" id="undo_btn" onclick="undoLastAnswer()" title="Undo last answer" style="display:none;"><i class="fas fa-undo"></i> Undo</button>
                 <button class="sound-toggle" id="sound_toggle" onclick="toggleSound()" title="Toggle sound"><i class="fas fa-volume-up" id="sound_icon"></i></button>
                 <button class="button button5" onclick="nextQuestion()" id="nextQuestion">Next</button>
             </div>
@@ -120,10 +148,17 @@
             <h3 id="extra" style="padding: 5px;"></h3>
             <h2 id="question" style="padding: 5px;"></h2>
         </div>
-        <button id="opt1" class="button button5" onclick="submitAnswer(1)">Option 1</button><br/>
-        <button id="opt2" class="button button5" onclick="submitAnswer(2)">Option 2</button><br/>
-        <button id="opt3" class="button button5" onclick="submitAnswer(3)">Option 3</button><br/>
-        <button id="opt4" class="button button5" onclick="submitAnswer(4)">Option 4</button><br/>
+        <div id="choices_area">
+            <button id="opt1" class="button button5" onclick="submitAnswer(1)">Option 1</button><br/>
+            <button id="opt2" class="button button5" onclick="submitAnswer(2)">Option 2</button><br/>
+            <button id="opt3" class="button button5" onclick="submitAnswer(3)">Option 3</button><br/>
+            <button id="opt4" class="button button5" onclick="submitAnswer(4)">Option 4</button><br/>
+        </div>
+        <div id="typing_area" style="display:none;">
+            <input id="typing_input" type="text" class="typing-input" placeholder="Type your answer…" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" onkeydown="if(event.key==='Enter')submitTypedAnswer()">
+            <button id="typing_submit" class="typing-submit" onclick="submitTypedAnswer()"><i class="fas fa-check"></i> Submit</button>
+            <div id="typing_hint" class="typing-hint" style="display:none;"></div>
+        </div>
         <!-- <label class="radiocontainer"><span id="opt0">One</span>
         <input type="button" name="radio">
         <span class="radiocheckmark"></span>
@@ -272,6 +307,29 @@
         <div id="hangman_answer"></div>
         <div id="hangman_alphabets"></div>
     </div>
+    <div id="flashcard_page" style="display: none;">
+        <div class="fc-header">
+            <span id="fc_counter" class="fc-counter">1 / 10</span>
+            <button class="fc-close-btn" onclick="selectPage('language_page')"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="fc-stage">
+            <div id="fc_card" class="fc-card" onclick="flipFlashcard()">
+                <div class="fc-face fc-front">
+                    <div class="fc-extra-label" id="fc_extra"></div>
+                    <div class="fc-word" id="fc_front"></div>
+                    <div id="fc_flip_hint" class="fc-flip-hint"><i class="fas fa-sync-alt"></i> Tap to reveal</div>
+                </div>
+                <div class="fc-face fc-back">
+                    <div class="fc-answer" id="fc_back"></div>
+                </div>
+            </div>
+        </div>
+        <div class="fc-actions">
+            <button id="fc_skip"  class="fc-btn fc-btn-skip"  onclick="flashcardSkip()"  style="display:none;"><i class="fas fa-times"></i> Don't know</button>
+            <button id="fc_know"  class="fc-btn fc-btn-know"  onclick="flashcardKnow()"  style="display:none;"><i class="fas fa-check"></i> Got it!</button>
+        </div>
+    </div>
+
     <div id="calculator_page" style="display: none;">
 
         <!-- Score summary banner -->
@@ -297,6 +355,9 @@
 
         <!-- Difficulty nudge (shown on high score) -->
         <div id="difficulty_nudge"></div>
+
+        <!-- Vocab estimate -->
+        <div id="vocab_estimate" class="vocab-estimate" style="display:none;"></div>
 
         <!-- Chart -->
         <div id="myPlot" class="results-chart"></div>
@@ -327,8 +388,32 @@
         <!-- Weak topic recommendation -->
         <div id="weak_topic_rec"></div>
 
+        <!-- Bookmarks -->
+        <div id="bookmarks_section" class="bookmarks-section" style="display:none;">
+            <h3 class="bookmarks-title"><i class="fas fa-bookmark"></i> Bookmarked Words</h3>
+            <div id="bookmarks_list" class="bookmarks-list"></div>
+        </div>
+
+        <!-- Badges earned -->
+        <div id="badges_earned" class="badges-section" style="display:none;">
+            <h3 class="badges-title"><i class="fas fa-medal"></i> Your Badges</h3>
+            <div id="badges_list" class="badges-list"></div>
+        </div>
+
+        <!-- Activity heatmap -->
+        <div class="heatmap-section">
+            <h3 class="heatmap-title"><i class="fas fa-calendar-alt"></i> Activity (last 13 weeks)</h3>
+            <div id="activity_heatmap" class="activity-heatmap"></div>
+        </div>
+
         <!-- Action buttons -->
         <div class="results-actions">
+            <button class="button button5 results-btn-secondary" onclick="exportProgress()" title="Download session history as CSV">
+                <i class="fas fa-download"></i> Export
+            </button>
+            <button class="button button5 results-btn-secondary" id="share_btn" onclick="shareResult(parseInt(d3.select('#result_score_pct').text()), d3.select('#result_language').text())" title="Share your result">
+                <i class="fas fa-share-alt"></i> Share
+            </button>
             <button class="button button5 results-btn-secondary" onclick="restartQuiz()">
                 <i class="fas fa-cog"></i> Change Settings
             </button>
@@ -346,6 +431,24 @@
         
     </div>
 </div>
+<!-- Keyboard shortcuts modal -->
+<div id="shortcut_modal" class="modal-overlay" style="display:none;" onclick="if(event.target===this)toggleShortcutHelp()">
+    <div class="modal-box">
+        <div class="modal-header">
+            <h3><i class="fas fa-keyboard"></i> Keyboard Shortcuts</h3>
+            <button class="modal-close" onclick="toggleShortcutHelp()"><i class="fas fa-times"></i></button>
+        </div>
+        <table class="shortcut-table">
+            <tbody>
+                <tr><td><kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd></td><td>Select answer option</td></tr>
+                <tr><td><kbd>Enter</kbd></td><td>Next question (after answering)</td></tr>
+                <tr><td><kbd>?</kbd></td><td>Open / close this help</td></tr>
+                <tr><td><kbd>Esc</kbd></td><td>Close this help</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
 <!-- <script src="js_src/signin.js"></script> -->
 <script src="js_src/index.js"></script>
 </body>

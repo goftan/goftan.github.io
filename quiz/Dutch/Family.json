@@ -1,0 +1,22 @@
+[
+  {"question": "What is 'vader' in English?", "choices": ["father", "mother", "brother", "son"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'moeder' in English?", "choices": ["sister", "mother", "aunt", "daughter"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'broer' in English?", "choices": ["son", "father", "brother", "cousin"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'zus' in English?", "choices": ["mother", "aunt", "daughter", "sister"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'zoon' in English?", "choices": ["son", "father", "brother", "uncle"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'dochter' in English?", "choices": ["mother", "daughter", "sister", "aunt"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'grootvader' in English?", "choices": ["uncle", "father", "grandfather", "cousin"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'grootmoeder' in English?", "choices": ["mother", "aunt", "sister", "grandmother"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'oom' in English?", "choices": ["uncle", "brother", "father", "cousin"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'tante' in English?", "choices": ["grandmother", "aunt", "mother", "sister"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'neef' in English?", "choices": ["brother", "nephew", "cousin", "son"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'nicht' in English?", "choices": ["daughter", "cousin", "niece", "sister"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'man' in English (family context)?", "choices": ["son", "brother", "father", "husband"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'vrouw' in English (family context)?", "choices": ["wife", "mother", "sister", "daughter"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'kind' in English?", "choices": ["baby", "child", "son", "boy"], "answer": 1, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'ouders' in English?", "choices": ["siblings", "family", "parents", "children"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'baby' in English?", "choices": ["child", "boy", "toddler", "baby"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'familie' in English?", "choices": ["family", "siblings", "parents", "relatives"], "answer": 0, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'zuster' in English?", "choices": ["aunt", "mother", "sister", "daughter"], "answer": 2, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"},
+  {"question": "What is 'kinderen' in English?", "choices": ["parents", "siblings", "relatives", "children"], "answer": 3, "type": "family", "intent": "", "extra": "The translation of", "level": "A1"}
+]

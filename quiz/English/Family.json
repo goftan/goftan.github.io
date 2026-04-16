@@ -1,0 +1,22 @@
+[
+  {"question": "What do you call your parent's mother?", "choices": ["aunt", "mother", "grandmother", "sister"], "answer": 2, "type": "family", "intent": "", "extra": "Parent's mother", "level": "A1"},
+  {"question": "What do you call your parent's father?", "choices": ["uncle", "grandfather", "father", "cousin"], "answer": 1, "type": "family", "intent": "", "extra": "Parent's father", "level": "A1"},
+  {"question": "What do you call the woman who gave birth to you?", "choices": ["sister", "aunt", "grandmother", "mother"], "answer": 3, "type": "family", "intent": "", "extra": "Female parent", "level": "A1"},
+  {"question": "What do you call the man who is your male parent?", "choices": ["father", "brother", "uncle", "grandfather"], "answer": 0, "type": "family", "intent": "", "extra": "Male parent", "level": "A1"},
+  {"question": "What do you call your parents' son (not yourself)?", "choices": ["cousin", "nephew", "brother", "son"], "answer": 2, "type": "family", "intent": "", "extra": "Male sibling", "level": "A1"},
+  {"question": "What do you call your parents' daughter (not yourself)?", "choices": ["niece", "cousin", "mother", "sister"], "answer": 3, "type": "family", "intent": "", "extra": "Female sibling", "level": "A1"},
+  {"question": "What do you call a male child of yours?", "choices": ["son", "nephew", "brother", "cousin"], "answer": 0, "type": "family", "intent": "", "extra": "Your male child", "level": "A1"},
+  {"question": "What do you call a female child of yours?", "choices": ["niece", "daughter", "sister", "cousin"], "answer": 1, "type": "family", "intent": "", "extra": "Your female child", "level": "A1"},
+  {"question": "What do you call your parent's brother?", "choices": ["grandfather", "brother", "uncle", "cousin"], "answer": 2, "type": "family", "intent": "", "extra": "Parent's brother", "level": "A1"},
+  {"question": "What do you call your parent's sister?", "choices": ["grandmother", "mother", "sister", "aunt"], "answer": 3, "type": "family", "intent": "", "extra": "Parent's sister", "level": "A1"},
+  {"question": "What do you call the man you are married to?", "choices": ["husband", "brother", "son", "father"], "answer": 0, "type": "family", "intent": "", "extra": "Married male partner", "level": "A1"},
+  {"question": "What do you call the woman you are married to?", "choices": ["mother", "wife", "sister", "daughter"], "answer": 1, "type": "family", "intent": "", "extra": "Married female partner", "level": "A1"},
+  {"question": "What do you call a young person who is your son or daughter?", "choices": ["baby", "toddler", "child", "sibling"], "answer": 2, "type": "family", "intent": "", "extra": "Your son or daughter", "level": "A1"},
+  {"question": "What do you call your aunt or uncle's child?", "choices": ["nephew", "sibling", "niece", "cousin"], "answer": 3, "type": "family", "intent": "", "extra": "Aunt/uncle's child", "level": "A1"},
+  {"question": "What do you call your brother's or sister's daughter?", "choices": ["niece", "cousin", "daughter", "granddaughter"], "answer": 0, "type": "family", "intent": "", "extra": "Sibling's daughter", "level": "A1"},
+  {"question": "What do you call your brother's or sister's son?", "choices": ["cousin", "nephew", "son", "grandson"], "answer": 1, "type": "family", "intent": "", "extra": "Sibling's son", "level": "A1"},
+  {"question": "What do you call both your mother and father together?", "choices": ["siblings", "family", "parents", "relatives"], "answer": 2, "type": "family", "intent": "", "extra": "Mother and father together", "level": "A1"},
+  {"question": "What do you call a very young child who cannot yet walk?", "choices": ["toddler", "child", "boy", "baby"], "answer": 3, "type": "family", "intent": "", "extra": "Very young infant", "level": "A1"},
+  {"question": "What do you call the whole group of people you are related to?", "choices": ["family", "friends", "neighbors", "siblings"], "answer": 0, "type": "family", "intent": "", "extra": "All related people", "level": "A1"},
+  {"question": "What do you call your brothers and sisters together?", "choices": ["cousins", "siblings", "parents", "children"], "answer": 1, "type": "family", "intent": "", "extra": "Brothers and sisters", "level": "A1"}
+]

@@ -1,0 +1,22 @@
+[
+  {"question": "Which body part do you use to see?", "choices": ["ear", "eye", "nose", "mouth"], "answer": 1, "type": "body_part", "intent": "", "extra": "Used for vision", "level": "A1"},
+  {"question": "Which body part do you use to hear?", "choices": ["eye", "nose", "ear", "mouth"], "answer": 2, "type": "body_part", "intent": "", "extra": "Used for hearing", "level": "A1"},
+  {"question": "Which body part do you use to smell?", "choices": ["ear", "mouth", "eye", "nose"], "answer": 3, "type": "body_part", "intent": "", "extra": "Used for smelling", "level": "A1"},
+  {"question": "Which body part do you use to eat and speak?", "choices": ["mouth", "nose", "ear", "eye"], "answer": 0, "type": "body_part", "intent": "", "extra": "Used for eating and speaking", "level": "A1"},
+  {"question": "Which body part is at the very top of your body?", "choices": ["foot", "knee", "shoulder", "head"], "answer": 3, "type": "body_part", "intent": "", "extra": "Topmost body part", "level": "A1"},
+  {"question": "Which body part do you use to pick up and hold objects?", "choices": ["foot", "knee", "hand", "shoulder"], "answer": 2, "type": "body_part", "intent": "", "extra": "Used for gripping and holding", "level": "A1"},
+  {"question": "Which body part do you stand and walk on?", "choices": ["hand", "arm", "foot", "knee"], "answer": 2, "type": "body_part", "intent": "", "extra": "You stand on these", "level": "A1"},
+  {"question": "Which body part connects your hand to your shoulder?", "choices": ["leg", "neck", "arm", "back"], "answer": 2, "type": "body_part", "intent": "", "extra": "Upper limb", "level": "A1"},
+  {"question": "Which body part connects your foot to your hip?", "choices": ["arm", "leg", "back", "shoulder"], "answer": 1, "type": "body_part", "intent": "", "extra": "Lower limb", "level": "A1"},
+  {"question": "Which body part is at the top of your arm where it meets your body?", "choices": ["neck", "back", "shoulder", "stomach"], "answer": 2, "type": "body_part", "intent": "", "extra": "Where arm meets torso", "level": "A1"},
+  {"question": "Which body part holds food after you eat it?", "choices": ["back", "shoulder", "heart", "stomach"], "answer": 3, "type": "body_part", "intent": "", "extra": "Digestive organ in the front", "level": "A1"},
+  {"question": "Which body part is on the rear side of your torso?", "choices": ["stomach", "chest", "shoulder", "back"], "answer": 3, "type": "body_part", "intent": "", "extra": "Rear side of the torso", "level": "A1"},
+  {"question": "Which body part is one of the thin extensions at the end of your hand?", "choices": ["palm", "toe", "finger", "nail"], "answer": 2, "type": "body_part", "intent": "", "extra": "Part of the hand, used for typing", "level": "A1"},
+  {"question": "Which body part is the joint in the middle of your leg?", "choices": ["elbow", "ankle", "wrist", "knee"], "answer": 3, "type": "body_part", "intent": "", "extra": "Middle joint of the leg", "level": "A1"},
+  {"question": "Which body part connects your head to your shoulders?", "choices": ["back", "shoulder", "chin", "neck"], "answer": 3, "type": "body_part", "intent": "", "extra": "Connects head to body", "level": "A1"},
+  {"question": "Which organ inside your chest pumps blood throughout your body?", "choices": ["brain", "liver", "lung", "heart"], "answer": 3, "type": "body_part", "intent": "", "extra": "Pumps blood", "level": "A1"},
+  {"question": "Which body part grows on your head and can be cut or styled?", "choices": ["nail", "skin", "hair", "tooth"], "answer": 2, "type": "body_part", "intent": "", "extra": "Can be cut or styled", "level": "A1"},
+  {"question": "Which hard white body part in your mouth do you use to bite and chew food?", "choices": ["tongue", "lip", "gum", "tooth"], "answer": 3, "type": "body_part", "intent": "", "extra": "Hard, white, used to chew", "level": "A1"},
+  {"question": "Which soft body part inside your mouth helps you taste food and speak?", "choices": ["lip", "tooth", "tongue", "throat"], "answer": 2, "type": "body_part", "intent": "", "extra": "Soft, helps with taste and speech", "level": "A1"},
+  {"question": "Which soft body part forms the edge of your mouth?", "choices": ["tongue", "tooth", "chin", "lip"], "answer": 3, "type": "body_part", "intent": "", "extra": "Forms the edge of your mouth", "level": "A1"}
+]

@@ -1,0 +1,22 @@
+[
+  { "question": "dozen", "choices": ["10", "12", "20", "100"], "answer": 1, "type": "number", "intent": "", "extra": "Value of", "level": "A1" },
+  { "question": "score", "choices": ["10", "15", "20", "25"], "answer": 2, "type": "number", "intent": "", "extra": "Value of", "level": "A1" },
+  { "question": "gross", "choices": ["144", "100", "120", "200"], "answer": 0, "type": "number", "intent": "", "extra": "Value of", "level": "A1" },
+  { "question": "baker's dozen", "choices": ["12", "13", "14", "15"], "answer": 1, "type": "number", "intent": "", "extra": "Value of", "level": "A1" },
+  { "question": "fortnight", "choices": ["7 days", "10 days", "14 days", "21 days"], "answer": 2, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "millennium", "choices": ["100 years", "500 years", "1000 years", "10000 years"], "answer": 2, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "century", "choices": ["10 years", "50 years", "100 years", "1000 years"], "answer": 2, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "decade", "choices": ["5 years", "10 years", "20 years", "100 years"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "What is a 'prime' number?", "choices": ["divisible by 2", "divisible only by 1 and itself", "ends in 0 or 5", "greater than 100"], "answer": 1, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "What does 'even number' mean?", "choices": ["divisible by 3", "divisible by 5", "divisible by 2", "greater than 10"], "answer": 2, "type": "definition", "intent": "", "extra": "Definition:", "level": "A1" },
+  { "question": "A 'quarter' of 100 is ___", "choices": ["10", "20", "25", "50"], "answer": 2, "type": "arithmetic", "intent": "", "extra": "Calculate:", "level": "A1" },
+  { "question": "A 'half' of 80 is ___", "choices": ["20", "30", "40", "50"], "answer": 2, "type": "arithmetic", "intent": "", "extra": "Calculate:", "level": "A1" },
+  { "question": "A 'third' of 90 is ___", "choices": ["20", "30", "45", "60"], "answer": 1, "type": "arithmetic", "intent": "", "extra": "Calculate:", "level": "A1" },
+  { "question": "The ordinal form of '1' is ___", "choices": ["oneth", "firstly", "first", "one-st"], "answer": 2, "type": "ordinal", "intent": "", "extra": "Ordinal form:", "level": "A1" },
+  { "question": "The ordinal form of '2' is ___", "choices": ["twoth", "second", "twosome", "twice"], "answer": 1, "type": "ordinal", "intent": "", "extra": "Ordinal form:", "level": "A1" },
+  { "question": "The ordinal form of '3' is ___", "choices": ["threed", "threeth", "third", "triad"], "answer": 2, "type": "ordinal", "intent": "", "extra": "Ordinal form:", "level": "A1" },
+  { "question": "The ordinal form of '40' is ___", "choices": ["fortieth", "fourtieth", "fourteenth", "fortith"], "answer": 0, "type": "ordinal", "intent": "", "extra": "Ordinal form:", "level": "A1" },
+  { "question": "hexagon has ___ sides", "choices": ["5", "6", "7", "8"], "answer": 1, "type": "fact", "intent": "", "extra": "Math fact:", "level": "A1" },
+  { "question": "pentagon has ___ sides", "choices": ["4", "5", "6", "8"], "answer": 1, "type": "fact", "intent": "", "extra": "Math fact:", "level": "A1" },
+  { "question": "octagon has ___ sides", "choices": ["6", "7", "8", "9"], "answer": 2, "type": "fact", "intent": "", "extra": "Math fact:", "level": "A1" }
+]
