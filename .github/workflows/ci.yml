@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Unit tests
+        run: npm run test:unit
+
+      - name: Build browser extension
+        run: npm run build:extension
+
+      - name: Lint extension for Firefox
+        run: npx --yes web-ext@8 lint --source-dir dist/extension
+
+      - name: Install browsers
+        run: npx playwright install --with-deps chromium firefox
+
+      - name: End-to-end tests
+        run: npm run test:e2e
+
+      - name: Upload extension build
+        uses: actions/upload-artifact@v4
+        with:
+          name: quiz-pulse-extension
+          path: dist/extension
+
+      - name: Upload Playwright traces
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-results
+          path: test-results
+          include-hidden-files: true
