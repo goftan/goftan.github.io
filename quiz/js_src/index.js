@@ -529,7 +529,7 @@ function restoreSessionState() {
             if (radio) {
                 radio.checked = true;
                 radio.parentNode.classList.add('language-selected');
-                d3.select('#known_language').text('Enjoy learning ' + s.language);
+                d3.select('#known_language').text('Learning ' + s.language);
             }
         }
         fill_qa(quiz[countQues]);
@@ -593,6 +593,48 @@ function updatePageTitle(language) {
     document.title = language ? 'Goftan — Learn ' + language : 'Goftan';
     document.documentElement.setAttribute('lang', language_tts_codes[language] ? language_tts_codes[language].split('-')[0] : 'en');
 }
+
+// === Result breakdown bar ===
+// One proportional bar instead of a chart: the three counts are already printed
+// in the score header, so all a picture adds is their proportion.
+function renderResultBar(correct, incorrect, skipped) {
+    var host = document.getElementById('myPlot');
+    if (!host) return;
+    var parts = [['correct', correct], ['incorrect', incorrect], ['skipped', skipped]];
+    host.textContent = '';
+    host.className = 'results-chart result-bar';
+    host.setAttribute('role', 'img');
+    host.setAttribute('aria-label', parts.map(function(p) { return p[1] + ' ' + p[0]; }).join(', '));
+    parts.forEach(function(p) {
+        if (!p[1]) return;
+        var seg = document.createElement('span');
+        seg.className = 'result-bar-seg result-bar-' + p[0];
+        seg.style.flexGrow = p[1];
+        seg.textContent = p[1];
+        host.appendChild(seg);
+    });
+}
+
+// === Question count presets ===
+function syncCountPresets() {
+    var input = document.getElementById('num_of_questions');
+    document.querySelectorAll('.count-preset').forEach(function(btn) {
+        var on = input && input.value === btn.getAttribute('data-count');
+        btn.classList.toggle('is-active', on);
+        btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+}
+document.addEventListener('click', function(event) {
+    var btn = event.target.closest ? event.target.closest('.count-preset') : null;
+    if (!btn) return;
+    var input = document.getElementById('num_of_questions');
+    input.value = btn.getAttribute('data-count');
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+});
+document.addEventListener('input', function(event) {
+    if (event.target && event.target.id === 'num_of_questions') syncCountPresets();
+});
+document.addEventListener('DOMContentLoaded', syncCountPresets);
 
 // === Share result card ===
 function shareResult(pct, language) {
@@ -1022,11 +1064,33 @@ function startTopicDrill(topic) {
 
 init_nav_menu();
 
+// Each language written the way its speakers write it. Shown large on the language
+// tiles; the English name stays underneath for people who cannot read the script yet.
+var language_native_names = {
+    'Persian':  { name: 'فارسی',      code: 'fa' },
+    'German':   { name: 'Deutsch',    code: 'de' },
+    'Spanish':  { name: 'Español',    code: 'es' },
+    'French':   { name: 'Français',   code: 'fr' },
+    'Italian':  { name: 'Italiano',   code: 'it' },
+    'Korean':   { name: '한국어',      code: 'ko' },
+    'Turkish':  { name: 'Türkçe',     code: 'tr' },
+    'Arabic':   { name: 'العربية',    code: 'ar' },
+    'Japanese': { name: '日本語',      code: 'ja' },
+    'Dutch':    { name: 'Nederlands', code: 'nl' },
+    'Hindi':    { name: 'हिन्दी',       code: 'hi' },
+    'English':  { name: 'English',    code: 'en' }
+};
+
 function fill_language_checkboxes() {
     d3.select('#language_checkboxes').selectAll('label').data(available_languages)
         .enter().append('label').attr('class','radiocontainer')
-        .html(function(d){return '<input type="radio" name="topics" value="'+d+'" class="languages_checkbox">'
-                                    + d +'<span class="radiocheckmark"></span>';});
+        .html(function(d){
+            var native = language_native_names[d] || { name: d, code: 'en' };
+            return '<input type="radio" name="topics" value="'+d+'" class="languages_checkbox">'
+                 + '<span class="lang-native" lang="'+native.code+'">'+native.name+'</span>'
+                 + (native.name === d ? '<span class="visually-hidden">'+d+'</span>' : '<span class="lang-name">'+d+'</span>')
+                 + '<span class="radiocheckmark"></span>';
+        });
 
     // Highlight the selected language card and show Word of the Day
     d3.selectAll('.languages_checkbox').on('change', function() {
@@ -1035,6 +1099,7 @@ function fill_language_checkboxes() {
             d3.select(this.parentNode).classed('language-selected', true);
             renderWordOfDay(this.value);
             updatePageTitle(this.value);
+            d3.select('#known_language').text('Learning ' + this.value);
         }
     });
 }
@@ -1055,7 +1120,7 @@ restoreSettings();
 
 // function startLearningWithKnownLanguage() {
 //     selectPage('tasks_page');
-//     d3.select('#known_language').text('Enjoy learning ' + localStorage.getItem('lang') );
+//     d3.select('#known_language').text('Learning ' + localStorage.getItem('lang') );
 //     fill_topic_checkboxes();
 // }
 
@@ -1455,30 +1520,7 @@ function viewResults() {
     const history = saveAndGetScoreHistory(lang, pct);
     renderTrendChart(history, lang);
 
-    // Plotly chart
-    const layout = {
-        xaxis: { fixedrange: true },
-        yaxis: { title: 'Questions', fixedrange: true, dtick: 1 },
-        title: { text: get_selected_language() + ' Quiz Results', font: { size: 16 } },
-        margin: { t: 40, b: 30, l: 40, r: 10 },
-        plot_bgcolor: 'rgba(0,0,0,0)',
-        paper_bgcolor: 'rgba(0,0,0,0)',
-        font: { family: 'inherit' }
-    };
-
-    const data = [{
-        x: ['Correct', 'Incorrect', 'Skipped'],
-        y: [countCorrect, countIncorrect, skipped],
-        type: 'bar',
-        marker: {
-            color: ['#4ADE80', '#F87171', '#94A3B8'],
-            line: { color: ['#16a34a', '#dc2626', '#64748b'], width: 1.5 }
-        },
-        text: [countCorrect, countIncorrect, skipped].map(String),
-        textposition: 'outside'
-    }];
-
-    Plotly.newPlot('myPlot', data, layout, { responsive: true, displayModeBar: false });
+    renderResultBar(countCorrect, countIncorrect, skipped);
 
     // if(signined) {
     //     d3.json('https://goftan.herokuapp.com/addresult', {

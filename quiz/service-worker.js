@@ -1,4 +1,4 @@
-const CACHE_NAME = 'goftan-v1';
+const CACHE_NAME = 'goftan-v2';
 
 // Core app shell — always cached
 const SHELL_ASSETS = [
@@ -13,6 +13,8 @@ const SHELL_ASSETS = [
   '/quiz/js_src/init_nav_menu.js',
   '/quiz/js_src/d3.v7.min.js',
   '/quiz/font-awesome.min.css',
+  '/quiz/fonts/atkinson-hyperlegible-next-latin.woff2',
+  '/quiz/fonts/atkinson-hyperlegible-next-latin-ext.woff2',
   '/quiz/manifest.json'
 ];
 
@@ -20,7 +22,9 @@ const SHELL_ASSETS = [
 const DATA_PATHS = [
   '/quiz/Persian/', '/quiz/German/', '/quiz/Spanish/',
   '/quiz/Korean/', '/quiz/Turkish/', '/quiz/Arabic/',
-  '/quiz/English/', '/quiz/Rust/', '/quiz/CPP/'
+  '/quiz/English/', '/quiz/French/', '/quiz/Italian/',
+  '/quiz/Japanese/', '/quiz/Dutch/', '/quiz/Hindi/',
+  '/quiz/Rust/', '/quiz/CPP/'
 ];
 
 self.addEventListener('install', event => {

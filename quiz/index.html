@@ -25,8 +25,8 @@ if ('serviceWorker' in navigator) {
 </head>
 <body>
 <div class="header">
-<h2>Goftan</h2>
-<p><span id="hi_user">Hi!</span> <span id="known_language"></span></p>
+<h2>Goftan <span class="wordmark-fa" lang="fa" dir="rtl" title="Goftan is Persian for “to say”">گفتن</span></h2>
+<p><span id="hi_user"></span><span id="known_language"></span></p>
 <button class="theme-toggle" id="theme_toggle" onclick="toggleDarkMode()" title="Toggle dark mode" aria-label="Toggle dark mode">
   <i class="fas fa-moon" id="theme_icon"></i>
 </button>
@@ -73,26 +73,34 @@ if ('serviceWorker' in navigator) {
     </div>
     </div> -->
     <div id="language_page" style="display: none;">
-        <h3>What do you want to learn?</h3>
+        <h3>Which language are you learning?</h3>
         <div id="language_checkboxes"></div>
         <div id="word_of_day" class="wod-card" style="display:none;">
-            <div class="wod-header"><i class="fas fa-star"></i> Word of the Day — <span id="wod_topic"></span></div>
+            <div class="wod-header">Word of the day <span class="wod-topic" id="wod_topic"></span></div>
             <div class="wod-question" id="wod_question"></div>
             <div class="wod-extra" id="wod_extra"></div>
             <div class="wod-toggle" onclick="document.getElementById('wod_reveal').style.display='block';this.style.display='none';">Reveal translation</div>
             <div id="wod_reveal" class="wod-answer" style="display:none;"><span id="wod_answer"></span></div>
         </div>
-        <button class="button button5" onclick="selectPage('tasks_page')" id="startLearning">Start Learning!</button>
+        <button class="button button5" onclick="selectPage('tasks_page')" id="startLearning">Set up quiz</button>
     </div>
     <div id="tasks_page" style="display: none;">
-        <h3>How many questions should we have in the quiz?</h3>
-        <input id="num_of_questions" value="10" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"></input>
-        <h3>Select what should be level in the quiz: </h3>
+        <h3><label for="num_of_questions">How many questions?</label></h3>
+        <div class="count-row">
+        <input id="num_of_questions" inputmode="numeric" aria-describedby="count_presets_label" value="10" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+            <span id="count_presets_label" class="visually-hidden">or pick a preset</span>
+            <div class="count-presets" role="group" aria-labelledby="count_presets_label">
+                <button type="button" class="count-preset" data-count="5">5</button>
+                <button type="button" class="count-preset" data-count="10">10</button>
+                <button type="button" class="count-preset" data-count="20">20</button>
+                <button type="button" class="count-preset" data-count="30">30</button>
+            </div>
+        </div>
+        <div class="group-head"><h3>Which levels?</h3><a href="#" class="select-all-link" onclick="toggleAllLevels(this); return false;">Select All</a></div>
         <div>
-            <div>
-                <a href="#" class="select-all-link" onclick="toggleAllLevels(this); return false;">Select All</a>
+            <div class="chip-group">
                 <label class="container beginner-level">
-                    <input type="checkbox" name="levels" value="Beginner" class="mycheckboxqtypes" onchange="onBeginnerToggle()">Beginner <small style="font-weight:400;color:#888;">— no sentences or words</small><span class="checkmark"></span>
+                    <input type="checkbox" name="levels" value="Beginner" class="mycheckboxqtypes" onchange="onBeginnerToggle()">Beginner <small>basics only</small><span class="checkmark"></span>
                 </label>
                 <label class="container">
                     <input type="checkbox" name="levels" value="A1" checked="checked" class="mycheckboxqtypes">A1<span class="checkmark"></span>
@@ -111,29 +119,27 @@ if ('serviceWorker' in navigator) {
         <div id="beginner_note">
             Beginner mode: only <strong>Numbers</strong>, <strong>Colors</strong>, <strong>Capitals</strong>, and <strong>Animals</strong> questions will be used. Sentences and vocabulary words are excluded.
         </div>
-        <h3>Select topics to include:</h3>
-        <a href="#" class="select-all-link" onclick="toggleAllTopics(this); return false;">Select All</a>
-        <div id="topics_checkboxes"></div><br/>
+        <div class="group-head"><h3>Which topics?</h3><a href="#" class="select-all-link" onclick="toggleAllTopics(this); return false;">Select All</a></div>
+        <div id="topics_checkboxes" class="chip-group"></div>
         <div id="quiz_types">
-            <h3>What kind of quiz do you want to do?</h3>
-            <div id="quiz_type_checkboxes"></div>
+            <div class="group-head"><h3>How do you want to practise?</h3></div>
+            <div id="quiz_type_checkboxes" class="chip-group"></div>
         </div>
         <div class="srs-review-row">
             <button class="srs-btn" onclick="startSRSReview()" title="Review only cards that are due for spaced-repetition review">
-                <i class="fas fa-brain"></i> SRS Review
+                <i class="fas fa-brain"></i> Review due cards
             </button>
-            <span class="srs-hint">Review only cards due today based on your performance history</span>
+            <span class="srs-hint">Only the questions you got wrong before and are due again today</span>
         </div>
-        <button class="button button5" onclick="startQuiz()" id="startQuizButton">Start Quiz!</button>
+        <button class="button button5" onclick="startQuiz()" id="startQuizButton">Start quiz</button>
     </div>
     <div id="question_page" style="display: none;">
         <div class="question-meta-row">
             <div>Question <span id="question_number">1</span> of <span id="question_size">10</span></div>
             <div class="question-meta-right">
-                <button class="tts-toggle" id="tts_toggle" onclick="speakCurrentQuestion()" title="Speak question aloud"><i class="fas fa-volume-high"></i></button>
+                <button class="tts-toggle" id="tts_toggle" onclick="speakCurrentQuestion()" title="Hear the question read aloud" aria-label="Listen to the question"><i class="fas fa-ear-listen"></i> <span class="btn-label">Listen</span></button>
                 <button class="undo-btn" id="undo_btn" onclick="undoLastAnswer()" title="Undo last answer" style="display:none;"><i class="fas fa-undo"></i> Undo</button>
-                <button class="sound-toggle" id="sound_toggle" onclick="toggleSound()" title="Toggle sound"><i class="fas fa-volume-up" id="sound_icon"></i></button>
-                <button class="button button5" onclick="nextQuestion()" id="nextQuestion">Next</button>
+                <button class="sound-toggle" id="sound_toggle" onclick="toggleSound()" title="Sound effects on or off" aria-label="Sound effects"><i class="fas fa-volume-up" id="sound_icon"></i></button>
             </div>
         </div>
         <div id="question_timer_wrap">
@@ -158,6 +164,10 @@ if ('serviceWorker' in navigator) {
             <input id="typing_input" type="text" class="typing-input" placeholder="Type your answer…" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" onkeydown="if(event.key==='Enter')submitTypedAnswer()">
             <button id="typing_submit" class="typing-submit" onclick="submitTypedAnswer()"><i class="fas fa-check"></i> Submit</button>
             <div id="typing_hint" class="typing-hint" style="display:none;"></div>
+        </div>
+        <div class="question-actions">
+            <span class="key-hint">Press <kbd>1</kbd>–<kbd>4</kbd> to answer, <kbd>Enter</kbd> for next</span>
+            <button class="button button5" onclick="nextQuestion()" id="nextQuestion">Next</button>
         </div>
         <!-- <label class="radiocontainer"><span id="opt0">One</span>
         <input type="button" name="radio">

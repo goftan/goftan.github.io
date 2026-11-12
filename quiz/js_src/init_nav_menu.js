@@ -36,7 +36,7 @@ function logic_correct_for_selecting_this_page(page) {
         if(!is_language_selected())
             return {'can_be_changed_to_this_page':is_language_selected(), notification:  'Please select a language!'};
         
-        d3.select('#known_language').text('Enjoy learning ' + get_selected_language() );
+        d3.select('#known_language').text('Learning ' + get_selected_language() );
         fill_topic_checkboxes();
         applyPendingCheckboxSettings();
         renderTopicMastery(get_selected_language());
@@ -96,6 +96,17 @@ var nav_icons = {
     'info':         'info'
 };
 
+var nav_labels = {
+    'language':      'Language',
+    'tasks':         'Setup',
+    'question':      'Quiz',
+    'puzzle-piece':  'Crossword',
+    'sign-hanging':  'Hangman',
+    'flashcard':     'Flashcards',
+    'calculator':    'Results',
+    'info':          'About'
+};
+
 function init_nav_menu() {
     d3.select('#navbar').selectAll('a')
         .data(navs)
@@ -103,7 +114,9 @@ function init_nav_menu() {
         .append('a')
         .attr('id',function(d){ return d+'_page_nav'; })
         .attr('class',function(d,c){ return c==0 ? 'active' : 'inactive'; })
-        .on('click',function(event,d){ click_nav(d+'_page'); })
-        .html(function(d){ return '<i class="fa fa-'+(nav_icons[d]||d)+'"></i>'; });
+        .on('click',function(event,d){ event.preventDefault(); click_nav(d+'_page'); })
+        .attr('href','#')
+        .attr('title',function(d){ return nav_labels[d]||d; })
+        .html(function(d){ return '<i class="fa fa-'+(nav_icons[d]||d)+'" aria-hidden="true"></i><span class="nav-label">'+(nav_labels[d]||d)+'</span>'; });
 }
 
