@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "build:extension": "node tools/build-extension.js",
     "test": "npm run test:unit && npm run test:e2e",
     "test:unit": "jest",
     "test:unit:coverage": "jest --coverage",

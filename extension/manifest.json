@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Quiz Pulse",
+  "version": "2.0.0",
+  "description": "A language quiz on every new tab, powered by Goftan",
+  "permissions": [],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "rostamiev@gmail.com",
+      "strict_min_version": "109.0"
+    }
+  }
+}
