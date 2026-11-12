@@ -15,6 +15,9 @@
  *                                    attached with addEventListener
  *   - scripts loaded from a CDN   -> replaced by a copy bundled in vendor/
  *
+ * The Font Awesome stylesheet is bundled the same way. A remote stylesheet is
+ * allowed by the policy, but a new-tab page should not need the network.
+ *
  * Anything it does not know how to rewrite is an error, not a silent skip, so
  * a change to quiz/index.html cannot quietly produce a broken extension.
  */
@@ -42,6 +45,22 @@ const REMOTE_SCRIPTS = {
     },
 };
 
+// Remote stylesheets, the bundled stylesheet that replaces each, and the files
+// that stylesheet pulls in. Only the icon styles the page uses are bundled
+// (solid, regular, v4 names); the brands font is not.
+const FA = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/';
+const REMOTE_STYLES = {
+    'https://use.fontawesome.com/releases/v6.4.0/css/all.css': {
+        href: 'vendor/fontawesome/css/all.min.css',
+        files: [
+            { file: 'fontawesome/css/all.min.css', url: FA + 'css/all.min.css', sha256: '1edb1725a9ea8ca4dcf2f5508cee183218aa1685e47c1b23056717f754f58ebf' },
+            { file: 'fontawesome/webfonts/fa-solid-900.woff2', url: FA + 'webfonts/fa-solid-900.woff2', sha256: '7152a6933ee3d690ec2af3d09da9d701723d16aa3410a6d80f28ff8866f3b880' },
+            { file: 'fontawesome/webfonts/fa-regular-400.woff2', url: FA + 'webfonts/fa-regular-400.woff2', sha256: '8e7e5ea1b15f62ab14dbd41768e8fbcd21cc859a4ea5da812457ee714299fb35' },
+            { file: 'fontawesome/webfonts/fa-v4compatibility.woff2', url: FA + 'webfonts/fa-v4compatibility.woff2', sha256: '694a17c3d9d6c05f8aac63c544615552a4b220e9a4de863d87341a6bcfc1bc8d' },
+        ],
+    },
+};
+
 // Files in quiz/ that have no place in the extension.
 const SKIP = [
     /(^|\/)\./,               // dotfiles and dot-directories
@@ -66,8 +85,9 @@ function decodeEntities(s) {
  * Rewrites the web page into one that satisfies the extension CSP.
  * Pure function: returns { html, handlersJs, vendorFiles } and touches no files.
  */
-function transformHtml(html, remoteScripts) {
+function transformHtml(html, remoteScripts, remoteStyles) {
     remoteScripts = remoteScripts || REMOTE_SCRIPTS;
+    remoteStyles = remoteStyles || REMOTE_STYLES;
 
     // Comments first, so commented-out markup is never rewritten or counted.
     html = html.replace(/<!--[\s\S]*?-->/g, '');
@@ -88,6 +108,17 @@ function transformHtml(html, remoteScripts) {
         if (!repl) throw new Error('Remote script with no bundled replacement: ' + url);
         vendorFiles.push(repl);
         return pre + q + 'vendor/' + repl.file + q;
+    });
+
+    // Remote stylesheets -> bundled copies.
+    html = html.replace(/<link\b[^>]*>/gi, function (tag) {
+        if (!/\brel=["']stylesheet["']/i.test(tag)) return tag;
+        const m = /\bhref=(["'])(https?:\/\/[^"']+)\1/i.exec(tag);
+        if (!m) return tag;
+        const repl = remoteStyles[m[2]];
+        if (!repl) throw new Error('Remote stylesheet with no bundled replacement: ' + m[2]);
+        repl.files.forEach(function (f) { vendorFiles.push(f); });
+        return tag.replace(m[2], repl.href);
     });
 
     // Inline handlers -> data attributes plus one generated script.
@@ -125,7 +156,7 @@ function transformHtml(html, remoteScripts) {
     return { html: html, handlersJs: handlersJs, vendorFiles: vendorFiles, handlerCount: binds.length };
 }
 
-/** Problems that would make the page fail under the extension CSP. Empty = ok. */
+/** Problems that would make the page fail under the extension CSP, or need the network. Empty = ok. */
 function findCspViolations(html) {
     const problems = [];
     const stripped = html.replace(/<!--[\s\S]*?-->/g, '');
@@ -135,6 +166,9 @@ function findCspViolations(html) {
     });
     (stripped.match(/\son[a-z]+\s*=\s*["'][^"']*["']/g) || []).forEach(function (attr) {
         problems.push('inline handler:' + attr);
+    });
+    (stripped.match(/<link\b[^>]*>/gi) || []).forEach(function (tag) {
+        if (/\brel=["']stylesheet["']/i.test(tag) && /\bhref=["']https?:/i.test(tag)) problems.push('remote stylesheet: ' + tag);
     });
     if (/javascript:/i.test(stripped)) problems.push('javascript: URL');
     return problems;
@@ -190,7 +224,7 @@ async function vendorFile(spec) {
         }
     }
     if (!fs.existsSync(cached)) {
-        fs.mkdirSync(VENDOR_CACHE, { recursive: true });
+        fs.mkdirSync(path.dirname(cached), { recursive: true });
         fs.writeFileSync(cached, data);
     }
     return data;
@@ -207,13 +241,16 @@ async function build() {
     fs.writeFileSync(path.join(OUT, 'index.html'), result.html);
     fs.writeFileSync(path.join(OUT, HANDLERS_FILE), result.handlersJs);
 
-    fs.mkdirSync(path.join(OUT, 'vendor'), { recursive: true });
     for (const spec of result.vendorFiles) {
-        fs.writeFileSync(path.join(OUT, 'vendor', spec.file), await vendorFile(spec));
+        const dest = path.join(OUT, 'vendor', spec.file);
+        fs.mkdirSync(path.dirname(dest), { recursive: true });
+        fs.writeFileSync(dest, await vendorFile(spec));
     }
 
     fs.copyFileSync(path.join(EXT, 'manifest.json'), path.join(OUT, 'manifest.json'));
-    fs.copyFileSync(path.join(EXT, 'icon.png'), path.join(OUT, 'icon.png'));
+    fs.readdirSync(EXT).filter(function (f) { return /^icon-\d+\.png$/.test(f); }).forEach(function (f) {
+        fs.copyFileSync(path.join(EXT, f), path.join(OUT, f));
+    });
 
     const manifest = JSON.parse(fs.readFileSync(path.join(OUT, 'manifest.json'), 'utf8'));
     console.log('Built ' + manifest.name + ' ' + manifest.version + ' -> ' + path.relative(ROOT, OUT) +

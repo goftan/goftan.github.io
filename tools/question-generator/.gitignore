@@ -1,0 +1,6 @@
+*.json
+!German/A1_Questions.json
+!German/A1_diverse_questions.json
+*.jsonl
+__pycache__/
+Persian/persian-wikipedia_filtered.csv

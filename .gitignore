@@ -68,3 +68,7 @@ node_modules/
 # Browser-extension build output and its downloaded bundle
 dist/
 extension/vendor/
+
+# Playwright output
+test-results/
+playwright-report/

@@ -60,6 +60,19 @@ describe('transformHtml', () => {
             .toThrow(/no bundled replacement/);
     });
 
+    test('swaps a known remote stylesheet for the bundled copy', () => {
+        const styles = { 'https://cdn.example/a.css': { href: 'vendor/a/a.css', files: [{ file: 'a/a.css' }, { file: 'a/a.woff2' }] } };
+        const r = transformHtml(page('<link rel="stylesheet" href="https://cdn.example/a.css" /><link rel="stylesheet" href="local.css">'), REMOTE, styles);
+        expect(r.html).toContain('<link rel="stylesheet" href="vendor/a/a.css" />');
+        expect(r.html).toContain('href="local.css"');
+        expect(r.vendorFiles.map(f => f.file)).toEqual(['a/a.css', 'a/a.woff2']);
+    });
+
+    test('rejects a remote stylesheet it has no bundled copy for', () => {
+        expect(() => transformHtml(page('<link rel="stylesheet" href="https://other.example/x.css">'), REMOTE, {}))
+            .toThrow(/no bundled replacement/);
+    });
+
     test('ignores commented-out markup', () => {
         const r = transformHtml(page('<!-- <button onclick="old()">x</button> <script>old()</script> -->'), REMOTE);
         expect(r.handlerCount).toBe(0);
@@ -70,9 +83,10 @@ describe('transformHtml', () => {
 describe('quiz/index.html', () => {
     const html = fs.readFileSync(path.join(__dirname, '../../quiz/index.html'), 'utf8');
 
-    test('builds into a page with no CSP violations', () => {
+    test('builds into a page with no CSP violations and no remote resources', () => {
         const r = transformHtml(html);
         expect(findCspViolations(r.html)).toEqual([]);
+        expect(r.html).not.toMatch(/(src|href)=["']https?:\/\/(?!goftan\.github\.io)/);
         expect(r.handlerCount).toBeGreaterThan(0);
         expect(() => new Function(r.handlersJs)).not.toThrow();
     });
