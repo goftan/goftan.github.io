@@ -22,8 +22,9 @@ Developer mode → **Load unpacked**, or `about:debugging` in Firefox).
 
 Extension pages may not use inline scripts, inline `on…=""` handlers or scripts
 from a CDN, so `tools/build-extension.js` rewrites `index.html`: handlers move
-into a generated `js_src/ext_handlers.js`, Plotly is bundled (downloaded once
-into `extension/vendor/`), and the service-worker registration is dropped. The
+into a generated `js_src/ext_handlers.js`, Plotly and Font Awesome are bundled
+(downloaded once into `extension/vendor/`), and the service-worker registration
+is dropped, so the extension works with no network. The
 build fails if it meets something it cannot rewrite. Keep scripts in `js_src/`
 from generating inline handlers; a unit test checks this.
 
