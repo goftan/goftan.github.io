@@ -7,11 +7,11 @@ produce.
 
 ## Read this first
 
-**Do not copy the output over `quiz/` wholesale.** The banks in `quiz/` have
+**Do not copy raw generator output over `quiz/`.** The banks in `quiz/` have
 since been edited by hand: every question there carries a `level` field
 (`A1` … `B2`) that the app's level filter uses, and these scripts do not write
 one. Generating a file and copying it across would drop the levels for that
-topic. Use the scripts to produce *new* banks, or merge by hand.
+topic. Pass the output through `add_levels.py` (below) first.
 
 The scripts also pick wrong answers at random, so two runs never give the same
 file.
@@ -38,6 +38,24 @@ cd Persian && python3 main3.py
 ```
 
 Standard library only. Generated `.json` files are git-ignored here.
+
+## Adding levels
+
+`add_levels.py` turns a generated bank into one the app can use: it drops
+repeated questions, repairs questions with two identical choices and gives
+every question a level. Vocabulary is levelled by frequency rank in the word
+list, sentences by length. `--keep` preserves the questions of the bank already
+in `quiz/`. The German word and sentence banks were built this way:
+
+```bash
+python3 add_levels.py words German/CommonWords.json \
+    --wordlist German/common_words_german.csv \
+    --keep ../../quiz/German/CommonWords.json -o ../../quiz/German/CommonWords.json
+python3 add_levels.py sentences German/CommonSentences.json \
+    --keep ../../quiz/German/CommonSentences.json -o ../../quiz/German/CommonSentences.json
+```
+
+Run `python3 add_levels.py --help` for the details of how levels are assigned.
 
 ## Sentence data is not included
 
