@@ -642,7 +642,8 @@ function renderBookmarks() {
         chip.innerHTML = '<span class="bm-q">' + b.question + '</span>' +
                          '<span class="bm-arrow">→</span>' +
                          '<span class="bm-w">' + b.word + '</span>' +
-                         '<button class="bm-remove" title="Remove bookmark" onclick="removeBookmark(\'' + b.word.replace(/'/g,"\\'"  ) + '\')">×</button>';
+                         '<button class="bm-remove" title="Remove bookmark">×</button>';
+        chip.querySelector('.bm-remove').addEventListener('click', function() { removeBookmark(b.word); });
         container.appendChild(chip);
     });
 }

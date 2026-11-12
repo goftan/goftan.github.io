@@ -89,10 +89,17 @@ function showHangmanWin() {
 function generateButton(alphabets) {
     return '<div class="hm-alphabet-grid">' +
         alphabets.split(' ').map(function(letter) {
-            return '<button class="hm-letter-btn" onclick="hangman_button_click(\'' + letter + '\')" id="hangman_letter_' + letter + '">' + letter + '</button>';
+            return '<button class="hm-letter-btn" data-letter="' + letter + '" id="hangman_letter_' + letter + '">' + letter + '</button>';
         }).join('') +
         '</div>';
 }
+
+// One delegated listener instead of an inline onclick per button: inline
+// handlers are blocked by the browser-extension build's content security policy.
+document.addEventListener('click', function(event) {
+    var btn = event.target.closest ? event.target.closest('.hm-letter-btn') : null;
+    if (btn && !btn.disabled) hangman_button_click(btn.getAttribute('data-letter'));
+});
 
 function fill_hangman(word, clue, extra) {
     selected_word = word.toLowerCase();

@@ -103,7 +103,7 @@ function init_nav_menu() {
         .append('a')
         .attr('id',function(d){ return d+'_page_nav'; })
         .attr('class',function(d,c){ return c==0 ? 'active' : 'inactive'; })
-        .attr('onclick',function(d){ return 'click_nav(\''+d+'_page\')'; })
+        .on('click',function(event,d){ click_nav(d+'_page'); })
         .html(function(d){ return '<i class="fa fa-'+(nav_icons[d]||d)+'"></i>'; });
 }
 
